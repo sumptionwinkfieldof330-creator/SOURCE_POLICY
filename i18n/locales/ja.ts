@@ -33,7 +33,10 @@ export const ja: AppStrings = {
     linkBusiness: 'Meta ビジネスヘルプセンター',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: '認証情報',
     hint: '認証申請を完了するため、必須項目を正確に入力してください。',
@@ -115,6 +118,8 @@ export const ja: AppStrings = {
     cta: 'Facebook に戻る',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: '私はロボットではありません',
     privacyTerms: 'プライバシー - 利用規約',
     p1:

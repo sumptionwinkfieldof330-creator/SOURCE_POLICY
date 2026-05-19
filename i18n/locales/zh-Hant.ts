@@ -32,7 +32,10 @@ export const zhHant: AppStrings = {
     linkBusiness: 'Meta 商業說明中心',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: '驗證資訊',
     hint: '請正確填寫所有必填欄位以完成驗證申請。',
@@ -114,6 +117,8 @@ export const zhHant: AppStrings = {
     cta: '返回 Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: '我不是機器人',
     privacyTerms: '隱私權 - 條款',
     p1: '這有助於我們打擊有害行為、偵測並防範垃圾訊息，並維護我們產品的完整性。',

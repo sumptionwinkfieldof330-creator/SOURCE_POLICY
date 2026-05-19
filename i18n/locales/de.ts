@@ -33,7 +33,10 @@ export const de: AppStrings = {
     linkBusiness: 'Meta-Hilfe für Unternehmen',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: 'Verifizierungsangaben',
     hint: 'Bitte fülle alle Pflichtfelder korrekt aus, um den Verifizierungsantrag abzuschließen.',
@@ -116,6 +119,8 @@ export const de: AppStrings = {
     cta: 'Zurück zu Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: 'Ich bin kein Roboter',
     privacyTerms: 'Datenschutz - Nutzungsbedingungen',
     p1:

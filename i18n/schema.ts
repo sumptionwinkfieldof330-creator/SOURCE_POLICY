@@ -12,6 +12,7 @@ export const APP_LOCALES = [
   'pt',
   'fr',
   'de',
+  'cs',
 ] as const
 
 export type AppLocale = (typeof APP_LOCALES)[number]
@@ -31,6 +32,7 @@ export const LOCALE_BCP47: Record<AppLocale, string> = {
   pt: 'pt-BR',
   fr: 'fr-FR',
   de: 'de-DE',
+  cs: 'cs-CZ',
 }
 
 export type AppStrings = {
@@ -66,6 +68,10 @@ export type AppStrings = {
     linkHelp: string
     linkBusiness: string
     footerMeta: string
+    altVerifiedBadge: string
+    altBenefitIcon: string
+    altDocumentIcon: string
+    altProcessIcon: string
   }
   info: {
     title: string
@@ -142,6 +148,8 @@ export type AppStrings = {
     cta: string
   }
   captcha: {
+    altLogo: string
+    altRecaptcha: string
     notRobot: string
     privacyTerms: string
     p1: string

@@ -33,7 +33,10 @@ export const ko: AppStrings = {
     linkBusiness: 'Meta 비즈니스 고객 센터',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: '인증 정보',
     hint: '인증 신청을 완료하려면 필수 항목을 정확히 입력해 주세요.',
@@ -115,6 +118,8 @@ export const ko: AppStrings = {
     cta: 'Facebook으로 돌아가기',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: '로봇이 아닙니다',
     privacyTerms: '개인정보처리방침 - 약관',
     p1:

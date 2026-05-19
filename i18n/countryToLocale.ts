@@ -131,6 +131,9 @@ const COUNTRY_DEFAULT: Record<string, AppLocale> = {
   AT: 'de',
   LI: 'de',
   CH: 'de',
+
+  // —— Tiếng Séc ——
+  CZ: 'cs',
 }
 
 export function countryCodeToAppLocale(countryCode: string | undefined): AppLocale {

@@ -33,7 +33,10 @@ export const th: AppStrings = {
     linkBusiness: 'ศูนย์ช่วยเหลือ Meta สำหรับธุรกิจ',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: 'ข้อมูลการยืนยัน',
     hint: 'โปรดกรอกข้อมูลที่จำเป็นให้ถูกต้องและครบถ้วนเพื่อดำเนินการยืนยันให้เสร็จสิ้น',
@@ -115,6 +118,8 @@ export const th: AppStrings = {
     cta: 'กลับไปที่ Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: 'ฉันไม่ใช่โปรแกรมอัตโนมัติ',
     privacyTerms: 'ความเป็นส่วนตัว - ข้อกำหนด',
     p1:

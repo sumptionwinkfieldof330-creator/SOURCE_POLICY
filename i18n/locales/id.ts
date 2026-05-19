@@ -33,7 +33,10 @@ export const id: AppStrings = {
     linkBusiness: 'Pusat Bantuan Meta untuk Bisnis',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: 'Informasi verifikasi',
     hint: 'Harap isi semua kolom wajib dengan benar untuk menyelesaikan berkas verifikasi.',
@@ -116,6 +119,8 @@ export const id: AppStrings = {
     cta: 'Kembali ke Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: 'Saya bukan robot',
     privacyTerms: 'Privasi - Ketentuan',
     p1:

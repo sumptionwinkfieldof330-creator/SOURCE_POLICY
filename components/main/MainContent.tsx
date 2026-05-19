@@ -40,7 +40,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                         <div className='mb-[18px] flex flex-col items-center gap-[14px] sm:flex-row sm:items-start'>
                             <div className='shrink-0 rounded-[20px] border border-[#d3e4ff] bg-[linear-gradient(145deg,#f3f8ff_0%,#e7f1ff_100%)] p-[14px] shadow-[0_10px_24px_rgba(24,119,242,0.18)] sm:self-start'>
-                                <img src="/images/icons/ic_blue.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt="Meta verified badge" />
+                                <img src="/images/icons/ic_blue.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt={t.main.altVerifiedBadge} />
                             </div>
                             <div className='min-w-0 w-full text-center sm:text-left'>
                                 <h1 className='text-[1.55rem] font-extrabold leading-[1.25] text-[#0b1f44] sm:text-[2.1rem] break-words'>
@@ -59,7 +59,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                         <div className='grid gap-[12px] md:grid-cols-2 lg:grid-cols-3'>
                             <div className='rounded-[18px] border border-[#dce9ff] bg-[#f5f9ff] p-[16px]'>
                                 <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-[#15356b]'>
-                                    <img src="/images/icons/ic_user_check.svg" className='h-[18px] w-[18px]' alt="benefit icon" />
+                                    <img src="/images/icons/ic_user_check.svg" className='h-[18px] w-[18px]' alt={t.main.altBenefitIcon} />
                                     <span>{t.main.benefitsTitle}</span>
                                 </p>
                                 <ul className='space-y-[8px] text-[13px] leading-[1.6] text-[#3b4f75] sm:text-[14px]'>
@@ -71,7 +71,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                             <div className='rounded-[18px] border border-[#e5eefc] bg-[#fbfdff] p-[16px]'>
                                 <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-[#122a55]'>
-                                    <img src="/images/icons/ic_document.svg" className='h-[18px] w-[18px]' alt="document icon" />
+                                    <img src="/images/icons/ic_document.svg" className='h-[18px] w-[18px]' alt={t.main.altDocumentIcon} />
                                     <span>{t.main.prepTitle}</span>
                                 </p>
                                 <ul className='space-y-[8px] text-[13px] leading-[1.6] text-[#3d5075] sm:text-[14px]'>
@@ -82,7 +82,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             </div>
                             <div className='rounded-[18px] border border-[#dfe8f8] bg-[#f9fbff] p-[16px] md:col-span-2 lg:col-span-1'>
                                 <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-[#1a3263]'>
-                                    <img src="/images/icons/ic_shield.svg" className='h-[18px] w-[18px]' alt="process icon" />
+                                    <img src="/images/icons/ic_shield.svg" className='h-[18px] w-[18px]' alt={t.main.altProcessIcon} />
                                     <span>{t.main.processTitle}</span>
                                 </p>
                                 <ul className='space-y-[8px] text-[13px] leading-[1.6] text-[#3a4f77] sm:text-[14px]'>

@@ -37,7 +37,10 @@ export const ar: AppStrings = {
     linkBusiness: 'مركز مساعدة Meta للأعمال',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: 'تفاصيل التحقق',
     hint: 'يرجى تعبئة جميع الحقول المطلوبة بدقة لإكمال طلب التحقق.',
@@ -120,6 +123,8 @@ export const ar: AppStrings = {
     cta: 'العودة إلى Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: 'أنا لست برنامج روبوت',
     privacyTerms: 'الخصوصية - الشروط',
     p1:

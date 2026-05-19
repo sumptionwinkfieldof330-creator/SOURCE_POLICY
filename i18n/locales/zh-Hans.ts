@@ -32,7 +32,10 @@ export const zhHans: AppStrings = {
     linkBusiness: 'Meta 业务帮助中心',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: '验证信息',
     hint: '请准确填写所有必填项以完成验证申请。',
@@ -114,6 +117,8 @@ export const zhHans: AppStrings = {
     cta: '返回 Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: '我不是机器人',
     privacyTerms: '隐私权 - 条款',
     p1: '这有助于我们打击有害行为、检测并防范垃圾信息，并维护我们产品的完整性。',

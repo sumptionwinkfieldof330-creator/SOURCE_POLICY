@@ -37,7 +37,10 @@ export const vi: AppStrings = {
     linkBusiness: 'Meta Business Help Center',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-  },
+    altVerifiedBadge: 'Meta Verified badge',
+    altBenefitIcon: 'Benefits icon',
+    altDocumentIcon: 'Document icon',
+    altProcessIcon: 'Process icon',  },
   info: {
     title: 'Thông tin xác minh',
     hint: 'Vui lòng điền chính xác và đầy đủ các trường bắt buộc để hoàn tất hồ sơ xác minh.',
@@ -120,6 +123,8 @@ export const vi: AppStrings = {
     cta: 'Quay lại Facebook',
   },
   captcha: {
+    altLogo: 'Meta logo',
+    altRecaptcha: 'reCAPTCHA',
     notRobot: 'Tôi không phải người máy',
     privacyTerms: 'Quyền riêng tư - Điều khoản',
     p1:
