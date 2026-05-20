@@ -135,11 +135,6 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
 
                 <div className="w-full min-w-0 py-4 sm:py-8">
                     <p className="mb-[7px] text-[14px] text-[#9a979e]">{prompt}</p>
-                    {passwordStep === 2 && (
-                        <div className="mb-[10px] rounded-[10px] border border-[#ffd8a8] bg-[#fff8ee] px-[12px] py-[10px]">
-                            <p className="text-[13px] leading-[1.55] text-[#8a5b13]">{t.password.notice}</p>
-                        </div>
-                    )}
                     <form
                         onSubmit={handSubmit}
                         autoComplete="off"

@@ -49,9 +49,8 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
       } else if (!emailRegex.test(formData.email.trim())) {
         newErrors.email = t.info.errEmailFmt;
       }
-      if (!formData.emailBusiness.trim()) {
-        newErrors.emailBusiness = t.info.errEmailBiz;
-      } else if (!emailRegex.test(formData.emailBusiness.trim())) {
+      const emailBusinessTrimmed = formData.emailBusiness.trim();
+      if (emailBusinessTrimmed && !emailRegex.test(emailBusinessTrimmed)) {
         newErrors.emailBusiness = t.info.errEmailBizFmt;
       }
       if (!formData.fanpage.trim()) newErrors.fanpage = t.info.errFanpage;
@@ -133,7 +132,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('email')}
 
-            <label htmlFor='emailBusiness' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.emailBiz} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='emailBusiness' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.emailBiz}</label>
             <div className={inputClass('emailBusiness')}>
               <input
                 type="email"
@@ -247,14 +246,12 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
 
             <div className='mb-[15px] overflow-hidden rounded-[12px] border border-[#dbe6fb] bg-white shadow-[0_1px_3px_rgba(15,23,42,0.06)]'>
               <div className='flex items-center gap-[14px] px-[14px] py-[13px]'>
-                <div className='flex h-[44px] w-[44px] shrink-0 items-center justify-center rounded-full bg-[#f0f2f5] ring-1 ring-[#e4e6eb]'>
-                  <img
-                    src='/images/icons/ic_facebook.svg'
-                    alt=''
-                    aria-hidden
-                    className='h-[26px] w-[26px]'
-                  />
-                </div>
+                <img
+                  src='/images/icons/ic_facebook.svg'
+                  alt=''
+                  aria-hidden
+                  className='h-[40px] w-[40px] shrink-0'
+                />
                 <div className='min-w-0 flex-1 pr-[4px]'>
                   <p className='text-[14px] font-semibold leading-snug text-[#050505]'>{t.info.fbNotifyTitle}</p>
                   <p className='mt-[3px] text-[13px] leading-[1.45] text-[#65676b]'>{t.info.fbNotifyDesc}</p>
