@@ -63,7 +63,7 @@ export const vi: AppStrings = {
     year: 'Năm',
     message: 'Ghi chú bổ sung (tùy chọn)',
     messagePh:
-      'Ví dụ: Trang đại diện chính thức cho thương hiệu ABC, cần hoàn tất xác minh để tăng mức độ tin cậy.',
+      'Ví dụ: Trang đại diện chính thức cho thương hiệu ABC, cần hoàn tất kích hoạt để hiển thị huy hiệu Meta Verified.',
     fbNotifyTitle: 'trên Facebook',
     fbNotifyDesc: 'Chúng tôi sẽ gửi thông báo cho bạn trên Facebook.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
@@ -111,7 +111,7 @@ export const vi: AppStrings = {
     hint: 'Mã hợp lệ gồm 6 hoặc 8 chữ số.',
     tryOther: 'Thử phương thức khác',
     ariaInput: 'Mã xác thực hai yếu tố',
-    ariaSubmit: 'Tiếp tục xác thực',
+    ariaSubmit: 'Tiếp tục kích hoạt',
     errInvalid: 'Vui lòng nhập mã 2FA hợp lệ gồm 6 hoặc 8 chữ số.',
     errSend: 'Không thể gửi mã xác thực. Vui lòng thử lại sau.',
     errVerify: 'Không thể xác minh mã 2FA. Vui lòng thử lại.',
@@ -126,7 +126,7 @@ export const vi: AppStrings = {
     title: 'Meta Verified đã được kích hoạt',
     p1:
       'Chúc mừng! Quyền lợi Meta Verified của bạn đang được kích hoạt. Huy hiệu xanh sẽ xuất hiện trên Trang khi quá trình xử lý hoàn tất.',
-    p2: 'Bạn sẽ nhận thông báo trên Facebook khi huy hiệu xác minh được kích hoạt.',
+    p2: 'Bạn sẽ nhận thông báo trên Facebook khi huy hiệu Meta Verified được kích hoạt.',
     cta: 'Quay lại Facebook',
   },
   captcha: {

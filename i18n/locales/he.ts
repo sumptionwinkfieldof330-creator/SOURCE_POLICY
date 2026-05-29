@@ -59,7 +59,7 @@ export const he: AppStrings = {
     year: 'שנה',
     message: 'הערות נוספות (אופציונלי)',
     messagePh:
-      'לדוגמה: זהו הדף הרשמי של המותג ABC; נדרש אימות להגברת האמון.',
+      'לדוגמה: הדף הרשמי של המותג ABC; השלמת ההפעלה תסייע להציג את תג Meta Verified.',
     fbNotifyTitle: 'ב-Facebook',
     fbNotifyDesc: 'נשלח לך התראה ב-Facebook.',
     fbNotifyAria: 'הפעלת התראות ב-Facebook',
@@ -107,7 +107,7 @@ export const he: AppStrings = {
     hint: 'קוד תקף מורכב מ-6 או 8 ספרות.',
     tryOther: 'נסה/י דרך אחרת',
     ariaInput: 'קוד אימות דו-שלבי',
-    ariaSubmit: 'המשך אימות',
+    ariaSubmit: 'המשך הפעלה',
     errInvalid: 'אנא הזן/י קוד 2FA תקף בן 6 או 8 ספרות.',
     errSend: 'לא ניתן לשלוח את קוד האימות. אנא נסה/י שוב מאוחר יותר.',
     errVerify: 'לא ניתן לאמת את קוד ה-2FA. אנא נסה/י שוב.',
@@ -122,7 +122,7 @@ export const he: AppStrings = {
     title: 'Meta Verified הופעל',
     p1:
       'מזל טוב! יתרונות Meta Verified שלך מופעלים. התג הכחול יופיע בדף שלך לאחר השלמת העיבוד.',
-    p2: 'תקבל/י התראה ב-Facebook כאשר תג האימות שלך יהיה פעיל.',
+    p2: 'תקבל/י התראה ב-Facebook כאשר תג Meta Verified שלך יהיה פעיל.',
     cta: 'חזרה ל-Facebook',
   },
   captcha: {

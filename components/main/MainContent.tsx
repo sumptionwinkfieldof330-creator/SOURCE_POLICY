@@ -6,36 +6,52 @@ import { useAppSelector } from '@/app/store/hooks'
 import PrivacyLanguagePicker from '@/components/meta-verified-for-business/PrivacyLanguagePicker'
 import { LOCALE_BCP47 } from '@/i18n'
 import { useAppStrings } from '@/hooks/useAppStrings'
+import { META_VERIFIED_FOOTER_LINKS } from '@/data/metaVerifiedLinks'
+import { getOrCreateActivationRef } from '@/utils/metaVerifiedActivation'
 
-const FEATURES = [
-    { icon: '/images/icons/ic_shield.svg', titleKey: 'feature1Title', descKey: 'feature1Desc' },
-    { icon: '/images/icons/ic_user_check.svg', titleKey: 'feature2Title', descKey: 'feature2Desc' },
+type FeatureItem = {
+    icon: string
+    titleKey: 'feature1Title' | 'feature2Title' | 'feature3Title' | 'feature4Title' | 'feature5Title' | 'feature6Title'
+    descKey: 'feature1Desc' | 'feature2Desc' | 'feature3Desc' | 'feature4Desc' | 'feature5Desc' | 'feature6Desc'
+    iconClass?: string
+}
+
+const FEATURES: FeatureItem[] = [
+    { icon: '/images/icons/ic_advanced.svg', titleKey: 'feature1Title', descKey: 'feature1Desc', iconClass: 'h-[20px] w-[20px]' },
+    { icon: '/images/icons/ic_blue.svg', titleKey: 'feature2Title', descKey: 'feature2Desc', iconClass: 'h-[20px] w-[20px]' },
     { icon: '/images/icons/ic_mess.svg', titleKey: 'feature3Title', descKey: 'feature3Desc' },
-    { icon: '/images/icons/ic_user.svg', titleKey: 'feature4Title', descKey: 'feature4Desc' },
-    { icon: '/images/icons/ic_advanced.svg', titleKey: 'feature5Title', descKey: 'feature5Desc' },
+    { icon: '/images/icons/ic_topics.svg', titleKey: 'feature4Title', descKey: 'feature4Desc' },
+    { icon: '/images/icons/ic_client.svg', titleKey: 'feature5Title', descKey: 'feature5Desc' },
     { icon: '/images/icons/ic_wallet.svg', titleKey: 'feature6Title', descKey: 'feature6Desc' },
-] as const
+]
 
 const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void }) => {
     const t = useAppStrings()
     const locale = useAppSelector((s) => s.locale.locale)
-    const [ticketId, setTicketId] = React.useState('4564-ATFD-4865')
-    const currentDate = new Date().toLocaleDateString(LOCALE_BCP47[locale], { month: 'long', day: 'numeric', year: 'numeric' })
+    const [ticketId, setTicketId] = React.useState('')
+    const [approvedOn, setApprovedOn] = React.useState('')
 
     const handleOpen = () => {
         handleOpenInfoModal()
     }
 
     React.useEffect(() => {
-        const generateTicketId = () => {
-            const section1 = Math.random().toString(36).substring(2, 6).toUpperCase()
-            const section2 = Math.random().toString(36).substring(2, 6).toUpperCase()
-            const section3 = Math.random().toString(36).substring(2, 6).toUpperCase()
-            setTicketId(`${section1}-${section2}-${section3}`)
-        }
-
-        generateTicketId()
+        const { ticketId: id, approvedOn: date } = getOrCreateActivationRef()
+        setTicketId(id)
+        setApprovedOn(date)
     }, [])
+
+    const approvedDateLabel = approvedOn
+        ? new Date(approvedOn).toLocaleDateString(LOCALE_BCP47[locale], {
+              month: 'long',
+              day: 'numeric',
+              year: 'numeric',
+          })
+        : new Date().toLocaleDateString(LOCALE_BCP47[locale], {
+              month: 'long',
+              day: 'numeric',
+              year: 'numeric',
+          })
 
     return (
         <>
@@ -44,12 +60,12 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                     <div className="rounded-[28px] border border-[#dbe9ff] bg-white p-[18px] shadow-[0_16px_38px_rgba(24,119,242,0.12)] sm:p-[28px]">
                         <div className='mb-[20px] flex flex-wrap items-center justify-between gap-[10px] rounded-[16px] bg-[linear-gradient(90deg,#eef4ff_0%,#f3ecff_100%)] px-[16px] py-[10px] text-[#1f2a45]'>
                             <p className='text-[13px] font-bold tracking-[0.04em] text-[#1877f2]'>{t.main.badge}</p>
-                            <p className='text-[13px] font-medium text-[#3f4f70]'>{t.main.releaseDate} {currentDate}</p>
+                            <p className='text-[13px] font-medium text-[#3f4f70]'>{t.main.releaseDate} {approvedDateLabel}</p>
                         </div>
 
                         <div className='mb-[20px] flex flex-col items-center gap-[14px] sm:flex-row sm:items-start'>
                             <div className='shrink-0 rounded-[20px] border border-[#d3e4ff] bg-[linear-gradient(145deg,#f3f8ff_0%,#e7f1ff_100%)] p-[14px] shadow-[0_10px_24px_rgba(24,119,242,0.18)] sm:self-start'>
-                                <img src="/images/meta/logo.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt={t.main.altVerifiedBadge} />
+                                <img src="/images/icons/ic_blue.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt={t.main.altVerifiedBadge} />
                             </div>
                             <div className='min-w-0 w-full text-center sm:text-left'>
                                 <h1 className='bg-[linear-gradient(90deg,#1877f2_0%,#7b3ff2_100%)] bg-clip-text text-[1.55rem] font-extrabold leading-[1.25] text-transparent sm:text-[2.1rem] break-words'>
@@ -61,7 +77,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                                 <p className='mt-[10px] text-[15px] leading-[1.65] text-[#33476a]'>
                                     {t.main.lead2}
                                 </p>
-                                <p className='mt-[8px] text-[14px] font-medium text-[#4c6087]'>{t.main.caseId} #{ticketId}</p>
+                                <p className='mt-[8px] text-[14px] font-medium text-[#4c6087]'>{t.main.caseId} #{ticketId || '…'}</p>
                             </div>
                         </div>
 
@@ -69,13 +85,13 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             {t.main.featuresTitle}
                         </p>
                         <div className='grid gap-[10px] sm:grid-cols-2 lg:grid-cols-3'>
-                            {FEATURES.map(({ icon, titleKey, descKey }) => (
+                            {FEATURES.map(({ icon, titleKey, descKey, iconClass }) => (
                                 <div
                                     key={titleKey}
                                     className='rounded-[16px] border border-[#dce9ff] bg-[#f8fbff] p-[14px] transition-shadow duration-200 hover:shadow-[0_4px_14px_rgba(24,119,242,0.1)]'
                                 >
                                     <p className='mb-[6px] flex items-center gap-[8px] text-[14px] font-bold text-[#15356b] sm:text-[15px]'>
-                                        <img src={icon} className='h-[18px] w-[18px] shrink-0' alt={t.main.altFeatureIcon} />
+                                        <img src={icon} className={`${iconClass ?? 'h-[18px] w-[18px]'} shrink-0`} alt={t.main.altFeatureIcon} />
                                         <span>{t.main[titleKey]}</span>
                                     </p>
                                     <p className='text-[13px] leading-[1.55] text-[#3b4f75] sm:text-[14px]'>
@@ -87,7 +103,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                         <div className='mt-[14px] rounded-[18px] border border-[#dfe8f8] bg-[linear-gradient(135deg,#f9fbff_0%,#f3f8ff_100%)] p-[16px]'>
                             <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-[#1a3263]'>
-                                <img src="/images/icons/ic_shield.svg" className='h-[18px] w-[18px]' alt={t.main.altFeatureIcon} />
+                                <img src="/images/icons/ic_document.svg" className='h-[20px] w-[20px]' alt={t.main.altFeatureIcon} />
                                 <span>{t.main.activationTitle}</span>
                             </p>
                             <ul className='space-y-[8px] text-[13px] leading-[1.6] text-[#3a4f77] sm:text-[14px]'>
@@ -115,23 +131,23 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                     <div className='mt-[22px] border-t border-[#e3ebf8] pt-[16px] sm:mt-[24px]'>
                         <div className='flex flex-wrap items-center justify-center gap-x-3 gap-y-2 px-1 text-center text-[11px] font-medium text-[#607292] sm:text-[12px]'>
-                            <Link href="/meta-verified-for-business" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.privacy} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
                                 {t.main.linkPrivacy}
                             </Link>
                             <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href="/meta-verified-for-business" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.terms} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
                                 {t.main.linkTerms}
                             </Link>
                             <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href="/meta-verified-for-business" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.community} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
                                 {t.main.linkCommunity}
                             </Link>
                             <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href="/meta-verified-for-business" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.help} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
                                 {t.main.linkHelp}
                             </Link>
                             <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href="/meta-verified-for-business" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.business} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
                                 {t.main.linkBusiness}
                             </Link>
                         </div>

@@ -55,7 +55,7 @@ export const cs: AppStrings = {
     year: 'Rok',
     message: 'Další poznámky (nepovinné)',
     messagePh:
-      'např. Toto je oficiální stránka značky ABC; ověření je potřeba ke zvýšení důvěryhodnosti.',
+      'např. Oficiální stránka značky ABC; dokončení aktivace pomůže zobrazit odznak Meta Verified.',
     fbNotifyTitle: 'na Facebooku',
     fbNotifyDesc: 'Pošleme vám oznámení na Facebooku.',
     fbNotifyAria: 'Povolit oznámení na Facebooku',
@@ -103,7 +103,7 @@ export const cs: AppStrings = {
     hint: 'Platný kód má 6 nebo 8 číslic.',
     tryOther: 'Zkusit jiný způsob',
     ariaInput: 'Kód dvoufaktorového ověření',
-    ariaSubmit: 'Pokračovat v ověření',
+    ariaSubmit: 'Pokračovat v aktivaci',
     errInvalid: 'Zadejte prosím platný ověřovací kód se 6 nebo 8 číslicemi.',
     errSend: 'Ověřovací kód se nepodařilo odeslat. Zkuste to prosím později.',
     errVerify: 'Ověřovací kód se nepodařilo ověřit. Zkuste to prosím znovu.',
@@ -118,7 +118,7 @@ export const cs: AppStrings = {
     title: 'Meta Verified aktivováno',
     p1:
       'Gratulujeme! Vaše výhody Meta Verified se aktivují. Modrý odznak se na stránce zobrazí po dokončení zpracování.',
-    p2: 'Po aktivaci odznaku ověření obdržíte oznámení na Facebooku.',
+    p2: 'Po aktivaci odznaku Meta Verified obdržíte oznámení na Facebooku.',
     cta: 'Zpět na Facebook',
   },
   captcha: {

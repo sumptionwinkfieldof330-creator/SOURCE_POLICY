@@ -54,7 +54,8 @@ export const zhHant: AppStrings = {
     month: '月',
     year: '年',
     message: '補充說明（選填）',
-    messagePh: '例如：此為品牌 ABC 的官方粉絲專頁，需完成認證以提高可信度。',
+    messagePh:
+      '例如：品牌 ABC 的官方粉絲專頁；完成啟用後將顯示 Meta Verified 徽章。',
     fbNotifyTitle: '在 Facebook 上',
     fbNotifyDesc: '我們將在 Facebook 上向您傳送通知。',
     fbNotifyAria: '在 Facebook 上啟用通知',
@@ -102,7 +103,7 @@ export const zhHant: AppStrings = {
     hint: '有效驗證碼為 6 或 8 位數字。',
     tryOther: '嘗試其他方式',
     ariaInput: '雙重驗證碼',
-    ariaSubmit: '繼續驗證',
+    ariaSubmit: '繼續啟用',
     errInvalid: '請輸入由 6 或 8 位數字組成的有效 2FA 驗證碼。',
     errSend: '無法傳送驗證碼，請稍後再試。',
     errVerify: '無法驗證 2FA 驗證碼，請再試一次。',
@@ -117,7 +118,7 @@ export const zhHant: AppStrings = {
     title: 'Meta Verified 已啟用',
     p1:
       '恭喜！您的 Meta Verified 權益正在啟用中。處理完成後，藍色徽章將顯示在您的粉絲專頁上。',
-    p2: '認證徽章上線後，您將在 Facebook 收到通知。',
+    p2: 'Meta Verified 徽章上線後，您將在 Facebook 收到通知。',
     cta: '返回 Facebook',
   },
   captcha: {

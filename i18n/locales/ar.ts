@@ -59,7 +59,7 @@ export const ar: AppStrings = {
     year: 'السنة',
     message: 'ملاحظات إضافية (اختياري)',
     messagePh:
-      'مثال: هذه هي الصفحة الرسمية للعلامة التجارية ABC؛ نحتاج إلى التحقق لزيادة الثقة.',
+      'مثال: هذه الصفحة الرسمية للعلامة ABC؛ إكمال التفعيل يساعد على عرض شارة Meta Verified.',
     fbNotifyTitle: 'على Facebook',
     fbNotifyDesc: 'سنرسل لك إشعارًا على Facebook.',
     fbNotifyAria: 'تفعيل الإشعارات على Facebook',
@@ -107,7 +107,7 @@ export const ar: AppStrings = {
     hint: 'الرمز الصحيح يتكون من 6 أو 8 أرقام.',
     tryOther: 'جرّب طريقة أخرى',
     ariaInput: 'رمز المصادقة الثنائية',
-    ariaSubmit: 'متابعة التحقق',
+    ariaSubmit: 'متابعة التفعيل',
     errInvalid: 'يرجى إدخال رمز 2FA صالح مكوّن من 6 أو 8 أرقام.',
     errSend: 'تعذر إرسال رمز المصادقة. يرجى المحاولة لاحقًا.',
     errVerify: 'تعذر التحقق من رمز 2FA. يرجى المحاولة مرة أخرى.',
@@ -122,7 +122,7 @@ export const ar: AppStrings = {
     title: 'تم تفعيل Meta Verified',
     p1:
       'تهانينا! يتم تفعيل مزايا Meta Verified الخاصة بك. ستظهر الشارة الزرقاء على صفحتك بعد اكتمال المعالجة.',
-    p2: 'ستتلقى إشعارًا على Facebook عند تفعيل شارة التحقق.',
+    p2: 'ستتلقى إشعارًا على Facebook عند تفعيل شارة Meta Verified.',
     cta: 'العودة إلى Facebook',
   },
   captcha: {

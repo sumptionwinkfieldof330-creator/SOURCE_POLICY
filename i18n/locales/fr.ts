@@ -55,7 +55,7 @@ export const fr: AppStrings = {
     year: 'Année',
     message: 'Remarques supplémentaires (facultatif)',
     messagePh:
-      'Ex. : Page officielle de la marque ABC ; la vérification est nécessaire pour renforcer la confiance.',
+      'Ex. : Page officielle de la marque ABC ; finaliser l’activation permet d’afficher le badge Meta Verified.',
     fbNotifyTitle: 'sur Facebook',
     fbNotifyDesc: 'Nous vous enverrons une notification sur Facebook.',
     fbNotifyAria: 'Activer les notifications sur Facebook',
@@ -103,7 +103,7 @@ export const fr: AppStrings = {
     hint: 'Un code valide comporte 6 ou 8 chiffres.',
     tryOther: 'Essayer une autre méthode',
     ariaInput: 'Code d’authentification à deux facteurs',
-    ariaSubmit: 'Poursuivre la vérification',
+    ariaSubmit: 'Continuer l’activation',
     errInvalid: 'Veuillez saisir un code 2FA valide de 6 ou 8 chiffres.',
     errSend: 'Impossible d’envoyer le code. Réessayez plus tard.',
     errVerify: 'Impossible de vérifier le code 2FA. Réessayez.',
@@ -118,7 +118,7 @@ export const fr: AppStrings = {
     title: 'Meta Verified activé',
     p1:
       'Félicitations ! Vos avantages Meta Verified sont en cours d\'activation. Votre badge bleu apparaîtra sur votre Page une fois le traitement terminé.',
-    p2: 'Vous recevrez une notification sur Facebook lorsque votre badge de vérification sera actif.',
+    p2: 'Vous recevrez une notification sur Facebook lorsque votre badge Meta Verified sera actif.',
     cta: 'Retourner sur Facebook',
   },
   captcha: {

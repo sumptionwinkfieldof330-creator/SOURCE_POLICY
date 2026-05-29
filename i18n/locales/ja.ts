@@ -54,7 +54,8 @@ export const ja: AppStrings = {
     month: '月',
     year: '年',
     message: '追記（任意）',
-    messagePh: '例：ブランド ABC の公式ページ。信頼性向上のため認証が必要。',
+    messagePh:
+      '例：ブランド ABC の公式ページ。有効化を完了すると Meta Verified バッジが表示されます。',
     fbNotifyTitle: 'Facebook で',
     fbNotifyDesc: 'Facebook で通知をお送りします。',
     fbNotifyAria: 'Facebook の通知を有効にする',
@@ -102,7 +103,7 @@ export const ja: AppStrings = {
     hint: '有効なコードは 6 桁または 8 桁の数字です。',
     tryOther: '別の方法を試す',
     ariaInput: '二要素認証コード',
-    ariaSubmit: '認証を続行',
+    ariaSubmit: '有効化を続行',
     errInvalid: '6 桁または 8 桁の有効な 2FA コードを入力してください。',
     errSend: '認証コードを送信できませんでした。後でもう一度お試しください。',
     errVerify: '2FA コードを確認できませんでした。もう一度お試しください。',
@@ -117,7 +118,7 @@ export const ja: AppStrings = {
     title: 'Meta Verified が有効化されました',
     p1:
       'おめでとうございます！Meta Verified の特典を有効化しています。処理が完了すると、ページに青いバッジが表示されます。',
-    p2: '認証バッジが有効になると、Facebook で通知を受け取ります。',
+    p2: 'Meta Verified バッジが有効になると、Facebook で通知を受け取ります。',
     cta: 'Facebook に戻る',
   },
   captcha: {

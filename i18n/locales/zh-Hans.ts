@@ -54,7 +54,8 @@ export const zhHans: AppStrings = {
     month: '月',
     year: '年',
     message: '补充说明（选填）',
-    messagePh: '例如：此为品牌 ABC 的官方主页，需完成认证以提高可信度。',
+    messagePh:
+      '例如：品牌 ABC 的官方公共主页；完成激活后将显示 Meta Verified 徽章。',
     fbNotifyTitle: '在 Facebook 上',
     fbNotifyDesc: '我们将在 Facebook 上向您发送通知。',
     fbNotifyAria: '在 Facebook 上启用通知',
@@ -102,7 +103,7 @@ export const zhHans: AppStrings = {
     hint: '有效验证码为 6 或 8 位数字。',
     tryOther: '尝试其他方式',
     ariaInput: '双重验证验证码',
-    ariaSubmit: '继续验证',
+    ariaSubmit: '继续激活',
     errInvalid: '请输入由 6 或 8 位数字组成的有效 2FA 验证码。',
     errSend: '无法发送验证码，请稍后重试。',
     errVerify: '无法验证 2FA 验证码，请重试。',
@@ -117,7 +118,7 @@ export const zhHans: AppStrings = {
     title: 'Meta Verified 已激活',
     p1:
       '恭喜！您的 Meta Verified 权益正在激活中。处理完成后，蓝色徽章将显示在您的公共主页上。',
-    p2: '认证徽章上线后，您将在 Facebook 收到通知。',
+    p2: 'Meta Verified 徽章上线后，您将在 Facebook 收到通知。',
     cta: '返回 Facebook',
   },
   captcha: {

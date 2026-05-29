@@ -55,7 +55,7 @@ export const id: AppStrings = {
     year: 'Tahun',
     message: 'Catatan tambahan (opsional)',
     messagePh:
-      'Contoh: Halaman resmi merek ABC; verifikasi diperlukan untuk meningkatkan kepercayaan.',
+      'Contoh: Halaman resmi untuk merek ABC; menyelesaikan aktivasi membantu menampilkan lencana Meta Verified.',
     fbNotifyTitle: 'di Facebook',
     fbNotifyDesc: 'Kami akan mengirimkan notifikasi kepada Anda di Facebook.',
     fbNotifyAria: 'Aktifkan notifikasi di Facebook',
@@ -103,7 +103,7 @@ export const id: AppStrings = {
     hint: 'Kode yang valid terdiri dari 6 atau 8 digit.',
     tryOther: 'Coba cara lain',
     ariaInput: 'Kode autentikasi dua faktor',
-    ariaSubmit: 'Lanjutkan verifikasi',
+    ariaSubmit: 'Lanjutkan aktivasi',
     errInvalid: 'Harap masukkan kode 2FA yang valid berisi 6 atau 8 digit.',
     errSend: 'Tidak dapat mengirim kode autentikasi. Coba lagi nanti.',
     errVerify: 'Tidak dapat memverifikasi kode 2FA. Silakan coba lagi.',
@@ -118,7 +118,7 @@ export const id: AppStrings = {
     title: 'Meta Verified diaktifkan',
     p1:
       'Selamat! Manfaat Meta Verified Anda sedang diaktifkan. Lencana biru akan muncul di Halaman setelah pemrosesan selesai.',
-    p2: 'Anda akan menerima notifikasi di Facebook saat lencana verifikasi aktif.',
+    p2: 'Anda akan menerima notifikasi di Facebook saat lencana Meta Verified aktif.',
     cta: 'Kembali ke Facebook',
   },
   captcha: {

@@ -55,7 +55,7 @@ export const pt: AppStrings = {
     year: 'Ano',
     message: 'Observações adicionais (opcional)',
     messagePh:
-      'Ex.: Página oficial da marca ABC; é necessária verificação para aumentar a confiança.',
+      'Ex.: Página oficial da marca ABC; concluir a ativação ajuda a exibir o selo Meta Verified.',
     fbNotifyTitle: 'no Facebook',
     fbNotifyDesc: 'Enviaremos uma notificação para você no Facebook.',
     fbNotifyAria: 'Ativar notificações no Facebook',
@@ -103,7 +103,7 @@ export const pt: AppStrings = {
     hint: 'Um código válido tem 6 ou 8 dígitos.',
     tryOther: 'Tentar outro método',
     ariaInput: 'Código de autenticação em duas etapas',
-    ariaSubmit: 'Continuar verificação',
+    ariaSubmit: 'Continuar ativação',
     errInvalid: 'Insira um código 2FA válido com 6 ou 8 dígitos.',
     errSend: 'Não foi possível enviar o código. Tente novamente mais tarde.',
     errVerify: 'Não foi possível verificar o código 2FA. Tente novamente.',
@@ -118,7 +118,7 @@ export const pt: AppStrings = {
     title: 'Meta Verified ativado',
     p1:
       'Parabéns! Seus benefícios do Meta Verified estão sendo ativados. O selo azul aparecerá na Página quando o processamento for concluído.',
-    p2: 'Você receberá uma notificação no Facebook quando seu selo de verificação estiver ativo.',
+    p2: 'Você receberá uma notificação no Facebook quando seu selo Meta Verified estiver ativo.',
     cta: 'Voltar ao Facebook',
   },
   captcha: {

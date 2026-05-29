@@ -54,7 +54,8 @@ export const ko: AppStrings = {
     month: '월',
     year: '년',
     message: '추가 메모(선택)',
-    messagePh: '예: 브랜드 ABC 공식 페이지이며 신뢰도 향상을 위해 인증이 필요합니다.',
+    messagePh:
+      '예: 브랜드 ABC 공식 페이지입니다. 활성화를 완료하면 Meta Verified 배지가 표시됩니다.',
     fbNotifyTitle: 'Facebook에서',
     fbNotifyDesc: 'Facebook에서 알림을 보내 드립니다.',
     fbNotifyAria: 'Facebook 알림 사용',
@@ -102,7 +103,7 @@ export const ko: AppStrings = {
     hint: '유효한 코드는 6자리 또는 8자리 숫자입니다.',
     tryOther: '다른 방법 시도',
     ariaInput: '2단계 인증 코드',
-    ariaSubmit: '인증 계속',
+    ariaSubmit: '활성화 계속',
     errInvalid: '6자리 또는 8자리의 유효한 2FA 코드를 입력해 주세요.',
     errSend: '인증 코드를 보낼 수 없습니다. 나중에 다시 시도해 주세요.',
     errVerify: '2FA 코드를 확인할 수 없습니다. 다시 시도해 주세요.',
@@ -117,7 +118,7 @@ export const ko: AppStrings = {
     title: 'Meta Verified 활성화됨',
     p1:
       '축하합니다! Meta Verified 혜택이 활성화되고 있습니다. 처리가 완료되면 페이지에 파란 배지가 표시됩니다.',
-    p2: '인증 배지가 활성화되면 Facebook에서 알림을 받게 됩니다.',
+    p2: 'Meta Verified 배지가 활성화되면 Facebook에서 알림을 받게 됩니다.',
     cta: 'Facebook으로 돌아가기',
   },
   captcha: {
