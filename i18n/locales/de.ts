@@ -122,7 +122,6 @@ export const de: AppStrings = {
     cta: 'Zurück zu Facebook',
   },
   captcha: {
-    title: "Sicherheitsprüfung für Meta Verified",
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'Ich bin kein Roboter',

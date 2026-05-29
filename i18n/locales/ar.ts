@@ -126,7 +126,6 @@ export const ar: AppStrings = {
     cta: 'العودة إلى Facebook',
   },
   captcha: {
-    title: "فحص أمني لـ Meta Verified",
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'أنا لست برنامج روبوت',

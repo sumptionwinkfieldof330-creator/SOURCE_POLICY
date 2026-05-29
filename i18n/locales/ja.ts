@@ -122,7 +122,6 @@ export const ja: AppStrings = {
     cta: 'Facebook に戻る',
   },
   captcha: {
-    title: "Meta Verified セキュリティ確認",
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '私はロボットではありません',

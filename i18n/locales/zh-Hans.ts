@@ -122,7 +122,6 @@ export const zhHans: AppStrings = {
     cta: '返回 Facebook',
   },
   captcha: {
-    title: "Meta Verified 安全验证",
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '我不是机器人',

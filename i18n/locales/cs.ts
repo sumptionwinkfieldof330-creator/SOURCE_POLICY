@@ -122,7 +122,6 @@ export const cs: AppStrings = {
     cta: 'Zpět na Facebook',
   },
   captcha: {
-    title: "Bezpečnostní kontrola Meta Verified",
     altLogo: 'Logo Meta',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'Nejsem robot',

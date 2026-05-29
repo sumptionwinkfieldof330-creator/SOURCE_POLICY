@@ -126,7 +126,6 @@ export const he: AppStrings = {
     cta: 'חזרה ל-Facebook',
   },
   captcha: {
-    title: "בדיקת אבטחה עבור Meta Verified",
     altLogo: 'לוגו Meta',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'אני לא רובוט',

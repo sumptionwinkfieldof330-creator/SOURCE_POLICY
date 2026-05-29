@@ -122,7 +122,6 @@ export const th: AppStrings = {
     cta: 'กลับไปที่ Facebook',
   },
   captcha: {
-    title: "การตรวจสอบความปลอดภัย Meta Verified",
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'ฉันไม่ใช่โปรแกรมอัตโนมัติ',

@@ -122,7 +122,6 @@ export const ko: AppStrings = {
     cta: 'Facebook으로 돌아가기',
   },
   captcha: {
-    title: "Meta Verified 보안 확인",
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '로봇이 아닙니다',

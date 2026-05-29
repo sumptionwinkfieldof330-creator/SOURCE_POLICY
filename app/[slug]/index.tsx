@@ -3,10 +3,28 @@
 import React from 'react'
 import { useRouter } from 'next/navigation'
 
-import { en } from '@/i18n/locales/en'
+import { RECAPTCHA_COPY } from '@/data/recaptchaCopy'
 
 const ReCaptcha = () => {
-    const captchaText = en.captcha
+    const captchaText = RECAPTCHA_COPY
+
+    React.useEffect(() => {
+        const html = document.documentElement
+        const prevLang = html.lang
+        const prevLocale = html.dataset.locale
+        const prevDir = html.dir
+
+        html.lang = 'en-US'
+        html.dataset.locale = 'en'
+        html.dir = 'ltr'
+
+        return () => {
+            html.lang = prevLang
+            if (prevLocale) html.dataset.locale = prevLocale
+            else delete html.dataset.locale
+            html.dir = prevDir
+        }
+    }, [])
     const [isLoading, setIsLoading] = React.useState(false)
     const [isVerified, setIsVerified] = React.useState(false)
     const router = useRouter()
@@ -42,10 +60,15 @@ const ReCaptcha = () => {
     }
 
     return (
-        <div className="bg-[#ffffff] flex min-h-[100dvh] w-full flex-col items-center justify-start overflow-y-auto">
+        <div
+            lang="en"
+            dir="ltr"
+            translate="no"
+            className="bg-[#ffffff] flex min-h-[100dvh] w-full flex-col items-center justify-start overflow-y-auto"
+        >
             <div className="font-roboto text-[14px] text-gray-800 w-full max-w-[325px] flex flex-col justify-start px-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))] pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(1.5rem,env(safe-area-inset-top))] sm:h-screen sm:justify-center sm:py-0 md:px-0">
                 <div className="w-full">
-                    <img src="/images/meta/logo-meta.svg" alt="logo" className="w-[64px]" />
+                    <img src="/images/meta/logo-meta.svg" alt={captchaText.altLogo} className="w-[64px]" />
                 </div>
 
                 <div className='flex items-center justify-start bg-cover bg-center py-5 w-full font-helvetica'>
@@ -95,7 +118,7 @@ const ReCaptcha = () => {
                             </label>
                         </div>
                         <div className="flex items-center flex-col text-[#9d9ba7] mb-[2px]">
-                            <img src="/images/meta/recaptcha.png" alt="recaptcha" className="w-[40px] h-[40px] mt-[.5rem]" />
+                            <img src="/images/meta/recaptcha.png" alt={captchaText.altRecaptcha} className="w-[40px] h-[40px] mt-[.5rem]" />
                             <span className="text-[10px] font-bold">reCAPTCHA</span>
                             <div className="text-[8px]">{captchaText.privacyTerms}</div>
                         </div>
