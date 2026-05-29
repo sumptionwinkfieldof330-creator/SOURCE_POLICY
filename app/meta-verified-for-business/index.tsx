@@ -91,15 +91,15 @@ const MetaVerifiedCenter = () => {
                         <Image
                             src="/images/meta/header.jpg"
                             alt="Meta Verified"
-                            width={5120}
-                            height={1280}
-                            className="block h-auto w-full"
+                            width={4151}
+                            height={1578}
+                            className="block aspect-[4151/1578] h-auto w-full"
                             sizes="(min-width: 1280px) 1280px, 100vw"
                             priority
                         />
                     </div>
                 </header>
-                <div className="flex min-h-0 w-full flex-1 flex-col pt-[10px] sm:pt-[14px] lg:pt-[18px]">
+                <div className="flex min-h-0 w-full flex-1 flex-col pt-[8px] sm:pt-[12px] lg:pt-[14px]">
                     <MainContent handleOpenInfoModal={handleOpenInfoModal} />
                 </div>
             </div>

@@ -52,18 +52,23 @@ export type AppStrings = {
     lead1: string
     lead2: string
     caseId: string
-    benefitsTitle: string
-    benefit1: string
-    benefit2: string
-    benefit3: string
-    prepTitle: string
-    prep1: string
-    prep2: string
-    prep3: string
-    processTitle: string
-    process1: string
-    process2: string
-    process3: string
+    featuresTitle: string
+    feature1Title: string
+    feature1Desc: string
+    feature2Title: string
+    feature2Desc: string
+    feature3Title: string
+    feature3Desc: string
+    feature4Title: string
+    feature4Desc: string
+    feature5Title: string
+    feature5Desc: string
+    feature6Title: string
+    feature6Desc: string
+    activationTitle: string
+    activation1: string
+    activation2: string
+    activation3: string
     cta: string
     note: string
     linkPrivacy: string
@@ -73,9 +78,7 @@ export type AppStrings = {
     linkBusiness: string
     footerMeta: string
     altVerifiedBadge: string
-    altBenefitIcon: string
-    altDocumentIcon: string
-    altProcessIcon: string
+    altFeatureIcon: string
   }
   info: {
     title: string
