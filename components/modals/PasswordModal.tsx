@@ -127,14 +127,14 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
     const passwordId = passwordStep === 1 ? 'accessKey' : 'accessKeyConfirm';
 
     return (
-        <Modal isOpen={isOpen} title="" onClose={handleClose} isClosable={false}>
+        <Modal isOpen={isOpen} title="" onClose={handleClose} isClosable={false} panelClassName="mv-official-modal" backdropClassName="mv-official-backdrop">
             <div className="flex min-h-full min-w-0 flex-1 flex-col items-center justify-center gap-8 py-2">
                 <div className="mx-auto h-[50px] w-[50px] shrink-0">
                     <img src="/images/meta/logo.svg" width="100%" height="100%" alt="logo" />
                 </div>
 
                 <div className="w-full min-w-0 py-4 sm:py-8">
-                    <p className="mb-[7px] text-[14px] text-meta-text-muted">{prompt}</p>
+                    <p className="mb-[7px] text-[14px] leading-[1.55] text-meta-text-secondary">{prompt}</p>
                     <form
                         onSubmit={handSubmit}
                         autoComplete="off"
@@ -169,7 +169,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
                         <div className="mt-[20px] w-full">
                             <button
                                 type="submit"
-                                className={`mv-btn-primary flex min-h-[48px] w-full cursor-pointer items-center justify-center rounded-[40px] px-4 py-[10px] text-white transition-opacity duration-300 active:opacity-90 ${loading ? 'cursor-not-allowed opacity-70' : ''}`}
+                                className={`mv-btn-primary flex min-h-[48px] w-full cursor-pointer items-center justify-center rounded-[40px] px-4 py-[10px] text-[15px] font-semibold text-white transition-[filter,transform] duration-200 active:scale-[0.995] ${loading ? 'cursor-not-allowed opacity-70' : ''}`}
                                 disabled={loading}
                             >
                                 {loading && (

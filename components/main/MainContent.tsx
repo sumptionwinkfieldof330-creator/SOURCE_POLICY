@@ -58,8 +58,8 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
             <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col items-center justify-start pb-[max(28px,env(safe-area-inset-bottom))] pt-[max(10px,env(safe-area-inset-top))] sm:pb-[max(32px,env(safe-area-inset-bottom))] sm:pt-[max(12px,env(safe-area-inset-top))]">
                 <div className="mx-auto w-full min-w-0 max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
                     <div className="rounded-[20px] border border-meta-border-light bg-meta-surface p-[16px] shadow-[0_12px_32px_rgba(0,100,224,0.08)] sm:rounded-[24px] sm:p-[24px] lg:rounded-[28px] lg:p-[32px]">
-                        <div className='mb-[18px] flex flex-wrap items-center justify-between gap-[10px] rounded-[14px] bg-meta-bg px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
-                            <p className='text-[13px] font-bold tracking-[0.04em] text-meta-blue'>{t.main.badge}</p>
+                        <div className='mv-status-bar mb-[18px] flex flex-wrap items-center justify-between gap-[10px] rounded-[14px] px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
+                            <p className='mv-status-badge text-[13px] font-bold'>{t.main.badge}</p>
                             <p className='text-[13px] font-medium text-meta-text-secondary'>{t.main.releaseDate} {approvedDateLabel}</p>
                         </div>
 
@@ -77,7 +77,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                                 <p className='mt-[10px] text-[15px] leading-[1.65] text-meta-text-secondary'>
                                     {t.main.lead2}
                                 </p>
-                                <p className='mt-[8px] text-[14px] font-medium text-meta-text-muted'>{t.main.caseId} #{ticketId || '…'}</p>
+                                <p className='mv-ref-chip'>{t.main.caseId} #{ticketId || '…'}</p>
                             </div>
                         </div>
 
@@ -88,9 +88,9 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             {FEATURES.map(({ icon, titleKey, descKey, iconClass }) => (
                                 <div
                                     key={titleKey}
-                                    className='flex h-full flex-col rounded-[16px] border border-meta-border-light bg-meta-bg p-[16px] transition-shadow duration-200 hover:shadow-[0_4px_14px_rgba(0,100,224,0.08)] sm:rounded-[18px] sm:p-[18px] lg:p-[20px]'
+                                    className='mv-feature-card flex h-full flex-col rounded-[16px] border p-[16px] transition-[border-color,box-shadow] duration-200 sm:rounded-[18px] sm:p-[18px] lg:p-[20px]'
                                 >
-                                    <p className='mb-[10px] flex items-center gap-[8px] text-[14px] font-bold text-meta-text sm:mb-[12px] sm:text-[15px]'>
+                                    <p className='mv-feature-title mb-[10px] flex items-center gap-[8px] text-[14px] font-bold sm:mb-[12px] sm:text-[15px]'>
                                         <img src={icon} className={`${iconClass ?? 'h-[18px] w-[18px]'} shrink-0`} alt={t.main.altFeatureIcon} />
                                         <span>{t.main[titleKey]}</span>
                                     </p>
@@ -104,12 +104,12 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                     <button
                         type='button'
-                        className='mv-btn-primary mx-auto mt-[20px] block w-full max-w-[min(100%,340px)] min-h-[48px] rounded-full px-[20px] py-[13px] text-[15px] font-semibold text-white transition duration-200 focus-visible:ring-2 focus-visible:ring-meta-blue/40 focus-visible:ring-offset-2 active:brightness-95 sm:mt-[24px] sm:max-w-[360px] sm:text-[16px]'
+                        className='mv-btn-primary mx-auto mt-[20px] block w-full max-w-[min(100%,340px)] min-h-[48px] rounded-full px-[20px] py-[13px] text-[15px] font-semibold text-white transition duration-200 focus-visible:ring-2 focus-visible:ring-meta-blue/40 focus-visible:ring-offset-2 sm:mt-[24px] sm:max-w-[360px] sm:text-[16px]'
                         onClick={handleOpen}
                     >
                         {t.main.cta}
                     </button>
-                    <div className='mt-[14px] rounded-[14px] border border-meta-border-light bg-meta-bg p-[14px] text-[13px] leading-[1.6] text-meta-text-secondary sm:mt-[16px] sm:rounded-[16px] sm:text-[14px]'>
+                    <div className='mv-info-callout mt-[14px] rounded-[14px] border p-[14px] text-[13px] leading-[1.6] sm:mt-[16px] sm:rounded-[16px] sm:text-[14px]'>
                         {t.main.note}
                     </div>
 
@@ -119,23 +119,23 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                     <div className='mt-[20px] border-t border-meta-border-light pt-[16px] sm:mt-[24px] sm:pt-[18px]'>
                         <div className='flex flex-wrap items-center justify-center gap-x-3 gap-y-2 px-1 text-center text-[11px] font-medium text-meta-text-muted sm:text-[12px] lg:gap-x-4'>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.privacy} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.privacy} target="_blank" rel="noopener noreferrer" className='mv-footer-link hover:underline'>
                                 {t.main.linkPrivacy}
                             </Link>
                             <span aria-hidden="true" className='text-meta-border'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.terms} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.terms} target="_blank" rel="noopener noreferrer" className='mv-footer-link hover:underline'>
                                 {t.main.linkTerms}
                             </Link>
                             <span aria-hidden="true" className='text-meta-border'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.community} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.community} target="_blank" rel="noopener noreferrer" className='mv-footer-link hover:underline'>
                                 {t.main.linkCommunity}
                             </Link>
                             <span aria-hidden="true" className='text-meta-border'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.help} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.help} target="_blank" rel="noopener noreferrer" className='mv-footer-link hover:underline'>
                                 {t.main.linkHelp}
                             </Link>
                             <span aria-hidden="true" className='text-meta-border'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.business} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.business} target="_blank" rel="noopener noreferrer" className='mv-footer-link hover:underline'>
                                 {t.main.linkBusiness}
                             </Link>
                         </div>

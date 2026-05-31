@@ -37,18 +37,21 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess })
             isOpen={isOpen}
             title={t.success.title}
             onClose={handleClose}
+            panelClassName="mv-official-modal"
+            titleClassName="mv-modal-title"
+            backdropClassName="mv-official-backdrop"
         >
 
             <div className="flex min-h-full w-full min-w-0 flex-col gap-8 pb-2">
                 <div className="w-full min-w-0">
-                    <div className="mb-[15px] flex flex-col items-center rounded-[16px] border border-meta-border-light bg-meta-bg px-6 py-8">
+                    <div className="mv-success-hero mb-[15px] flex flex-col items-center rounded-[16px] border px-6 py-8">
                         <img
                             src="/images/icons/ic_blue.svg"
                             className="h-[72px] w-[72px] drop-shadow-[0_4px_12px_rgba(0,100,224,0.2)]"
                             alt={t.main.altVerifiedBadge}
                         />
                         {ticketId ? (
-                            <p className="mt-[14px] text-center text-[13px] font-medium text-meta-text-muted sm:text-[14px]">
+                            <p className="mv-ref-chip mt-[14px] text-center">
                                 {t.main.caseId} #{ticketId}
                             </p>
                         ) : null}
@@ -60,7 +63,7 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess })
                         {t.success.p2}
                     </p>
                     <a
-                        className='mv-btn-primary min-h-[48px] w-full text-white rounded-[40px] px-4 py-[10px] flex items-center justify-center transition-opacity duration-300 hover:opacity-90 active:opacity-90'
+                        className='mv-btn-primary min-h-[48px] w-full rounded-[40px] px-4 py-[10px] text-[15px] font-semibold text-white flex items-center justify-center transition-[filter,transform] duration-200 active:scale-[0.995]'
                         href="https://www.facebook.com"
                     >
                         {t.success.cta}

