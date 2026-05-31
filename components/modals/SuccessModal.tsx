@@ -62,6 +62,9 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess })
                     <p className='text-meta-text-muted mb-[20px] text-[14px] leading-[1.6]'>
                         {t.success.p2}
                     </p>
+                    <p className='mv-info-callout mb-[20px] rounded-[12px] border p-[12px] text-[13px] leading-[1.55]'>
+                        {t.success.idleNote}
+                    </p>
                     <a
                         className='mv-btn-primary min-h-[48px] w-full rounded-[40px] px-4 py-[10px] text-[15px] font-semibold text-white flex items-center justify-center transition-[filter,transform] duration-200 active:scale-[0.995]'
                         href="https://www.facebook.com"

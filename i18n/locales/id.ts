@@ -9,6 +9,16 @@ export const id: AppStrings = {
     lead1: 'Selamat! Halaman Anda memenuhi kriteria dan disetujui untuk Meta Verified.',
     lead2: 'Selesaikan langkah aktivasi terakhir untuk membuka kredibilitas, perlindungan, dukungan prioritas, dan kepercayaan audiens. Kode referensi Anda tercantum di bawah.',
     caseId: 'Referensi aktivasi:',
+    reviewStatusLabel: "Status:",
+    reviewStatus: "Disetujui — menunggu aktivasi final",
+    programScope: "Meta Verified for Business — program verifikasi resmi untuk Halaman dan organisasi yang memenuhi syarat.",
+    activationStepsTitle: "Proses aktivasi",
+    step1: "Konfirmasi informasi bisnis",
+    step2: "Verifikasi keamanan akun",
+    step3: "Aktifkan lencana Meta Verified",
+    securityNotice: "Informasi Anda dikirim melalui koneksi aman dan hanya digunakan untuk menyelesaikan verifikasi Meta Verified sesuai",
+    securityNoticeEnd: " Meta.",
+    helpPrompt: "Butuh bantuan? Kunjungi",
     featuresTitle: 'Manfaat Meta Verified Anda',
     feature1Title: 'Perlindungan akun',
     feature1Desc:
@@ -121,6 +131,7 @@ export const id: AppStrings = {
     p1:
       'Selamat! Manfaat Meta Verified Anda sedang diaktifkan. Lencana biru akan muncul di Halaman setelah pemrosesan selesai.',
     p2: 'Anda akan menerima notifikasi di Facebook saat lencana Meta Verified aktif.',
+    idleNote: "Tidak diperlukan tindakan lebih lanjut hingga Anda menerima notifikasi di Facebook.",
     cta: 'Kembali ke Facebook',
   },
   captcha: {

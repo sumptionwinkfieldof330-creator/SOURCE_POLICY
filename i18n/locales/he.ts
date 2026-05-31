@@ -13,6 +13,16 @@ export const he: AppStrings = {
     lead1: 'מזל טוב! הדף שלך עומד בקריטריונים ואושר ל-Meta Verified.',
     lead2: 'השלם/י את שלבי ההפעלה האחרונים כדי לפתוח אמינות, הגנה, תמיכה בעדיפות ואמון קהל. קוד ההפניה שלך מופיע למטה.',
     caseId: 'קוד הפעלה:',
+    reviewStatusLabel: "סטטוס:",
+    reviewStatus: "אושר — ממתין להפעלה סופית",
+    programScope: "Meta Verified for Business — תוכנית האימות הרשמית לדפים וארגונים זכאים.",
+    activationStepsTitle: "תהליך ההפעלה",
+    step1: "אישור פרטי העסק",
+    step2: "אימות אבטחת החשבון",
+    step3: "הפעלת תג Meta Verified",
+    securityNotice: "המידע שלך נשלח בחיבור מאובטח ומשמש רק להשלמת אימות Meta Verified בהתאם ל",
+    securityNoticeEnd: " של Meta.",
+    helpPrompt: "צר/י עזרה? בקר/י ב",
     featuresTitle: 'יתרונות Meta Verified שלך',
     feature1Title: 'הגנה על החשבון',
     feature1Desc:
@@ -125,6 +135,7 @@ export const he: AppStrings = {
     p1:
       'מזל טוב! יתרונות Meta Verified שלך מופעלים. התג הכחול יופיע בדף שלך לאחר השלמת העיבוד.',
     p2: 'תקבל/י התראה ב-Facebook כאשר תג Meta Verified שלך יהיה פעיל.',
+    idleNote: "אין צורך בפעולה נוספת עד שתקבל/י התראה ב-Facebook.",
     cta: 'חזרה ל-Facebook',
   },
   captcha: {

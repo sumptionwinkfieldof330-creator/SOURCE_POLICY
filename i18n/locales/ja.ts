@@ -9,6 +9,16 @@ export const ja: AppStrings = {
     lead1: 'おめでとうございます！ページは条件を満たし、Meta Verified が承認されました。',
     lead2: '最終的な有効化ステップを完了して、信頼性、保護、優先サポート、オーディエンスの信頼を解放してください。参照コードは下記に記載されています。',
     caseId: '有効化参照コード：',
+    reviewStatusLabel: "ステータス:",
+    reviewStatus: "承認済み — 最終有効化待ち",
+    programScope: "Meta Verified for Business — 対象ページおよび組織向けの公式認証プログラム。",
+    activationStepsTitle: "有効化の流れ",
+    step1: "ビジネス情報の確認",
+    step2: "アカウントセキュリティの確認",
+    step3: "Meta Verified バッジの有効化",
+    securityNotice: "お客様の情報は安全な接続で送信され、Meta Verified 認証を完了するためのみに使用されます。Meta の",
+    securityNoticeEnd: "に従います。",
+    helpPrompt: "サポートが必要ですか？",
     featuresTitle: 'Meta Verified の特典',
     feature1Title: 'アカウント保護',
     feature1Desc:
@@ -121,6 +131,7 @@ export const ja: AppStrings = {
     p1:
       'おめでとうございます！Meta Verified の特典を有効化しています。処理が完了すると、ページに青いバッジが表示されます。',
     p2: 'Meta Verified バッジが有効になると、Facebook で通知を受け取ります。',
+    idleNote: "Facebook で通知を受け取るまで、追加の操作は不要です。",
     cta: 'Facebook に戻る',
   },
   captcha: {

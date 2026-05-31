@@ -28,6 +28,7 @@ export const metaVerifiedMetadata: Metadata = {
   },
   description:
     'Congratulations! Your Page is now Meta Verified. Complete activation to unlock credibility, protection, priority support, audience growth, and monetization benefits.',
+  themeColor: '#1877F2',
   openGraph: {
     images: [
       {

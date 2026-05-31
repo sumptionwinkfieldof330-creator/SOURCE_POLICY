@@ -9,6 +9,16 @@ export const fr: AppStrings = {
     lead1: 'Félicitations ! Votre Page remplit les critères et est approuvée pour Meta Verified.',
     lead2: 'Terminez les dernières étapes d’activation pour débloquer crédibilité, protection, support prioritaire et confiance de l’audience. Votre code de référence figure ci-dessous.',
     caseId: 'Référence d’activation :',
+    reviewStatusLabel: "Statut :",
+    reviewStatus: "Approuvé — en attente d’activation finale",
+    programScope: "Meta Verified for Business — programme de vérification officiel pour les Pages et organisations éligibles.",
+    activationStepsTitle: "Processus d’activation",
+    step1: "Confirmer les informations de l’entreprise",
+    step2: "Vérifier la sécurité du compte",
+    step3: "Activer votre badge Meta Verified",
+    securityNotice: "Vos informations sont transmises via une connexion sécurisée et servent uniquement à finaliser la vérification Meta Verified conformément à la",
+    securityNoticeEnd: " de Meta.",
+    helpPrompt: "Besoin d’aide ? Consultez le",
     featuresTitle: 'Vos avantages Meta Verified',
     feature1Title: 'Protection du compte',
     feature1Desc:
@@ -121,6 +131,7 @@ export const fr: AppStrings = {
     p1:
       'Félicitations ! Vos avantages Meta Verified sont en cours d\'activation. Votre badge bleu apparaîtra sur votre Page une fois le traitement terminé.',
     p2: 'Vous recevrez une notification sur Facebook lorsque votre badge Meta Verified sera actif.',
+    idleNote: "Aucune action supplémentaire n’est requise jusqu’à réception d’une notification sur Facebook.",
     cta: 'Retourner sur Facebook',
   },
   captcha: {

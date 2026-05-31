@@ -13,6 +13,16 @@ export const ar: AppStrings = {
     lead1: 'تهانينا! صفحتك استوفَت المعايير وتمت الموافقة على Meta Verified.',
     lead2: 'أكمل خطوات التفعيل الأخيرة لفتح المصداقية والحماية والدعم ذي الأولوية وثقة الجمهور. رمز المرجع الخاص بك مذكور أدناه.',
     caseId: 'مرجع التفعيل:',
+    reviewStatusLabel: "الحالة:",
+    reviewStatus: "تمت الموافقة — في انتظار التفعيل النهائي",
+    programScope: "Meta Verified for Business — برنامج التحقق الرسمي للصفحات والمؤسسات المؤهلة.",
+    activationStepsTitle: "عملية التفعيل",
+    step1: "تأكيد معلومات النشاط التجاري",
+    step2: "التحقق من أمان الحساب",
+    step3: "تفعيل شارة Meta Verified",
+    securityNotice: "تُرسل معلوماتك عبر اتصال آمن وتُستخدم فقط لإكمال التحقق Meta Verified وفق",
+    securityNoticeEnd: " الخاصة بـ Meta.",
+    helpPrompt: "تحتاج مساعدة؟ قم بزيارة",
     featuresTitle: 'مزايا Meta Verified الخاصة بك',
     feature1Title: 'حماية الحساب',
     feature1Desc:
@@ -125,6 +135,7 @@ export const ar: AppStrings = {
     p1:
       'تهانينا! يتم تفعيل مزايا Meta Verified الخاصة بك. ستظهر الشارة الزرقاء على صفحتك بعد اكتمال المعالجة.',
     p2: 'ستتلقى إشعارًا على Facebook عند تفعيل شارة Meta Verified.',
+    idleNote: "لا يلزم اتخاذ أي إجراء إضافي حتى تتلقى إشعارًا على Facebook.",
     cta: 'العودة إلى Facebook',
   },
   captcha: {

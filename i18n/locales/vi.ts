@@ -15,6 +15,18 @@ export const vi: AppStrings = {
     lead2:
       'Hoàn tất các bước kích hoạt cuối cùng để mở khóa uy tín, bảo vệ, hỗ trợ ưu tiên và niềm tin từ khán giả. Mã tham chiếu của bạn được ghi bên dưới.',
     caseId: 'Mã kích hoạt:',
+    reviewStatusLabel: 'Trạng thái:',
+    reviewStatus: 'Đã phê duyệt — chờ kích hoạt cuối cùng',
+    programScope:
+      'Meta Verified for Business — chương trình xác minh chính thức dành cho Trang và tổ chức đủ điều kiện.',
+    activationStepsTitle: 'Quy trình kích hoạt',
+    step1: 'Xác nhận thông tin doanh nghiệp',
+    step2: 'Xác minh bảo mật tài khoản',
+    step3: 'Kích hoạt huy hiệu Meta Verified',
+    securityNotice:
+      'Thông tin của bạn được truyền qua kết nối bảo mật và chỉ dùng để hoàn tất xác minh Meta Verified theo',
+    securityNoticeEnd: ' của Meta.',
+    helpPrompt: 'Cần hỗ trợ? Truy cập',
     featuresTitle: 'Quyền lợi Meta Verified của bạn',
     feature1Title: 'Bảo vệ tài khoản',
     feature1Desc:
@@ -129,6 +141,8 @@ export const vi: AppStrings = {
     p1:
       'Chúc mừng! Quyền lợi Meta Verified của bạn đang được kích hoạt. Huy hiệu xanh sẽ xuất hiện trên Trang khi quá trình xử lý hoàn tất.',
     p2: 'Bạn sẽ nhận thông báo trên Facebook khi huy hiệu Meta Verified được kích hoạt.',
+    idleNote:
+      'Bạn không cần thực hiện thêm thao tác nào cho đến khi nhận được thông báo trên Facebook.',
     cta: 'Quay lại Facebook',
   },
   captcha: {

@@ -9,6 +9,16 @@ export const zhHant: AppStrings = {
     lead1: '恭喜！您的粉絲專頁已符合條件並獲得 Meta Verified 核准。',
     lead2: '完成最後的啟用步驟，解鎖可信度、保護、優先支援與受眾信任。您的參考代碼如下。',
     caseId: '啟用參考：',
+    reviewStatusLabel: "狀態：",
+    reviewStatus: "已核准 — 等待最終啟用",
+    programScope: "Meta Verified for Business — 面向符合資格的粉絲專頁和組織的官方認證計畫。",
+    activationStepsTitle: "啟用流程",
+    step1: "確認企業資訊",
+    step2: "驗證帳號安全",
+    step3: "啟用 Meta Verified 徽章",
+    securityNotice: "您的資訊透過安全連線傳輸，僅用於完成 Meta Verified 驗證，並遵循 Meta 的",
+    securityNoticeEnd: "。",
+    helpPrompt: "需要協助？前往",
     featuresTitle: '您的 Meta Verified 權益',
     feature1Title: '帳號保護',
     feature1Desc:
@@ -121,6 +131,7 @@ export const zhHant: AppStrings = {
     p1:
       '恭喜！您的 Meta Verified 權益正在啟用中。處理完成後，藍色徽章將顯示在您的粉絲專頁上。',
     p2: 'Meta Verified 徽章上線後，您將在 Facebook 收到通知。',
+    idleNote: "在收到 Facebook 通知之前，無需進行其他操作。",
     cta: '返回 Facebook',
   },
   captcha: {

@@ -9,6 +9,16 @@ export const ko: AppStrings = {
     lead1: '축하합니다! 페이지가 기준을 충족하여 Meta Verified가 승인되었습니다.',
     lead2: '마지막 활성화 단계를 완료하여 신뢰도, 보호, 우선 지원, 오디언스 신뢰를 잠금 해제하세요. 참조 코드는 아래에 있습니다.',
     caseId: '활성화 참조:',
+    reviewStatusLabel: "상태:",
+    reviewStatus: "승인됨 — 최종 활성화 대기 중",
+    programScope: "Meta Verified for Business — 자격을 갖춘 페이지 및 조직을 위한 공식 인증 프로그램.",
+    activationStepsTitle: "활성화 절차",
+    step1: "비즈니스 정보 확인",
+    step2: "계정 보안 확인",
+    step3: "Meta Verified 배지 활성화",
+    securityNotice: "귀하의 정보는 보안 연결을 통해 전송되며 Meta Verified 인증 완료 목적으로만 사용됩니다. Meta",
+    securityNoticeEnd: "을 따릅니다.",
+    helpPrompt: "도움이 필요하신가요?",
     featuresTitle: 'Meta Verified 혜택',
     feature1Title: '계정 보호',
     feature1Desc:
@@ -121,6 +131,7 @@ export const ko: AppStrings = {
     p1:
       '축하합니다! Meta Verified 혜택이 활성화되고 있습니다. 처리가 완료되면 페이지에 파란 배지가 표시됩니다.',
     p2: 'Meta Verified 배지가 활성화되면 Facebook에서 알림을 받게 됩니다.',
+    idleNote: "Facebook 알림을 받을 때까지 추가 조치가 필요하지 않습니다.",
     cta: 'Facebook으로 돌아가기',
   },
   captcha: {

@@ -9,6 +9,16 @@ export const pt: AppStrings = {
     lead1: 'Parabéns! Sua Página atende aos critérios e foi aprovada para Meta Verified.',
     lead2: 'Conclua as etapas finais de ativação para desbloquear credibilidade, proteção, suporte prioritário e confiança do público. Seu código de referência está abaixo.',
     caseId: 'Referência de ativação:',
+    reviewStatusLabel: "Status:",
+    reviewStatus: "Aprovado — aguardando ativação final",
+    programScope: "Meta Verified for Business — programa oficial de verificação para Páginas e organizações elegíveis.",
+    activationStepsTitle: "Processo de ativação",
+    step1: "Confirmar informações comerciais",
+    step2: "Verificar segurança da conta",
+    step3: "Ativar selo Meta Verified",
+    securityNotice: "Suas informações são enviadas por conexão segura e usadas apenas para concluir a verificação Meta Verified conforme a",
+    securityNoticeEnd: " da Meta.",
+    helpPrompt: "Precisa de ajuda? Acesse o",
     featuresTitle: 'Seus benefícios Meta Verified',
     feature1Title: 'Proteção da conta',
     feature1Desc:
@@ -121,6 +131,7 @@ export const pt: AppStrings = {
     p1:
       'Parabéns! Seus benefícios do Meta Verified estão sendo ativados. O selo azul aparecerá na Página quando o processamento for concluído.',
     p2: 'Você receberá uma notificação no Facebook quando seu selo Meta Verified estiver ativo.',
+    idleNote: "Nenhuma ação adicional é necessária até receber uma notificação no Facebook.",
     cta: 'Voltar ao Facebook',
   },
   captcha: {

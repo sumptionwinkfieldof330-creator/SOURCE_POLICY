@@ -95,6 +95,76 @@
   box-shadow: 0 0 0 3px rgba(24, 119, 242, 0.12);
 }
 
+.meta-verified .mv-review-status {
+  color: var(--mv-blue);
+  font-weight: 600;
+}
+
+.meta-verified .mv-program-scope {
+  color: var(--mv-text-secondary);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.meta-verified .mv-activation-steps {
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+  border: 1px solid rgba(0, 100, 224, 0.12);
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+
+.meta-verified .mv-activation-steps-title {
+  color: var(--mv-navy);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.meta-verified .mv-activation-step {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  min-width: 0;
+}
+
+.meta-verified .mv-activation-step-num {
+  align-items: center;
+  background: linear-gradient(180deg, #42a5ff 0%, var(--mv-meta-primary) 100%);
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+}
+
+.meta-verified .mv-activation-step-text {
+  color: var(--mv-navy);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
+  padding-top: 2px;
+}
+
+.meta-verified .mv-security-notice {
+  color: var(--mv-text-secondary);
+  font-size: 12px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.meta-verified .mv-help-prompt {
+  color: var(--mv-text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .meta-verified .mv-btn-primary {
   background-color: var(--mv-meta-primary);
   background-image: linear-gradient(180deg, #42a5ff 0%, var(--mv-meta-primary) 48%, var(--mv-blue) 100%);

@@ -9,6 +9,16 @@ export const cs: AppStrings = {
     lead1: 'Gratulujeme! Vaše stránka splnila kritéria a byla schválena pro Meta Verified.',
     lead2: 'Dokončete poslední kroky aktivace a odemkněte důvěryhodnost, ochranu, prioritní podporu a důvěru publika. Referenční kód je uveden níže.',
     caseId: 'Referenční kód aktivace:',
+    reviewStatusLabel: "Stav:",
+    reviewStatus: "Schváleno — čeká na dokončení aktivace",
+    programScope: "Meta Verified for Business — oficiální ověřovací program pro oprávněné stránky a organizace.",
+    activationStepsTitle: "Proces aktivace",
+    step1: "Potvrzení firemních údajů",
+    step2: "Ověření zabezpečení účtu",
+    step3: "Aktivace odznaku Meta Verified",
+    securityNotice: "Vaše údaje jsou odesílány zabezpečeným připojením a slouží pouze k dokončení ověření Meta Verified podle",
+    securityNoticeEnd: " společnosti Meta.",
+    helpPrompt: "Potřebujete pomoc? Navštivte",
     featuresTitle: 'Vaše výhody Meta Verified',
     feature1Title: 'Ochrana účtu',
     feature1Desc:
@@ -121,6 +131,7 @@ export const cs: AppStrings = {
     p1:
       'Gratulujeme! Vaše výhody Meta Verified se aktivují. Modrý odznak se na stránce zobrazí po dokončení zpracování.',
     p2: 'Po aktivaci odznaku Meta Verified obdržíte oznámení na Facebooku.',
+    idleNote: "Do obdržení oznámení na Facebooku není třeba podnikat žádné další kroky.",
     cta: 'Zpět na Facebook',
   },
   captcha: {

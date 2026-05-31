@@ -52,6 +52,16 @@ export type AppStrings = {
     lead1: string
     lead2: string
     caseId: string
+    reviewStatusLabel: string
+    reviewStatus: string
+    programScope: string
+    activationStepsTitle: string
+    step1: string
+    step2: string
+    step3: string
+    securityNotice: string
+    securityNoticeEnd: string
+    helpPrompt: string
     featuresTitle: string
     feature1Title: string
     feature1Desc: string
@@ -151,6 +161,7 @@ export type AppStrings = {
     title: string
     p1: string
     p2: string
+    idleNote: string
     cta: string
   }
   captcha: {

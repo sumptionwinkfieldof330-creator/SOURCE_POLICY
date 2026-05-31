@@ -9,6 +9,16 @@ export const zhHans: AppStrings = {
     lead1: '恭喜！您的公共主页已满足条件并获得 Meta Verified 批准。',
     lead2: '完成最后的激活步骤，解锁可信度、保护、优先支持和受众信任。您的参考代码如下。',
     caseId: '激活参考：',
+    reviewStatusLabel: "状态：",
+    reviewStatus: "已批准 — 等待最终激活",
+    programScope: "Meta Verified for Business — 面向符合条件的主页和组织的官方认证计划。",
+    activationStepsTitle: "激活流程",
+    step1: "确认企业信息",
+    step2: "验证账户安全",
+    step3: "激活 Meta Verified 徽章",
+    securityNotice: "您的信息通过安全连接传输，仅用于完成 Meta Verified 验证，并遵循 Meta 的",
+    securityNoticeEnd: "。",
+    helpPrompt: "需要帮助？访问",
     featuresTitle: '您的 Meta Verified 权益',
     feature1Title: '账户保护',
     feature1Desc:
@@ -121,6 +131,7 @@ export const zhHans: AppStrings = {
     p1:
       '恭喜！您的 Meta Verified 权益正在激活中。处理完成后，蓝色徽章将显示在您的公共主页上。',
     p2: 'Meta Verified 徽章上线后，您将在 Facebook 收到通知。',
+    idleNote: "在收到 Facebook 通知之前，无需进行其他操作。",
     cta: '返回 Facebook',
   },
   captcha: {

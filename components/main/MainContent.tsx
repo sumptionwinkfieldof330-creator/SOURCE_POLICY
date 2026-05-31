@@ -25,6 +25,8 @@ const FEATURES: FeatureItem[] = [
     { icon: '/images/icons/ic_wallet.svg', titleKey: 'feature6Title', descKey: 'feature6Desc' },
 ]
 
+const ACTIVATION_STEP_KEYS = ['step1', 'step2', 'step3'] as const
+
 const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void }) => {
     const t = useAppStrings()
     const locale = useAppSelector((s) => s.locale.locale)
@@ -58,9 +60,15 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
             <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col items-center justify-start pb-[max(28px,env(safe-area-inset-bottom))] pt-[max(10px,env(safe-area-inset-top))] sm:pb-[max(32px,env(safe-area-inset-bottom))] sm:pt-[max(12px,env(safe-area-inset-top))]">
                 <div className="mx-auto w-full min-w-0 max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
                     <div className="rounded-[20px] border border-meta-border-light bg-meta-surface p-[16px] shadow-[0_12px_32px_rgba(0,100,224,0.08)] sm:rounded-[24px] sm:p-[24px] lg:rounded-[28px] lg:p-[32px]">
-                        <div className='mv-status-bar mb-[18px] flex flex-wrap items-center justify-between gap-[10px] rounded-[14px] px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
-                            <p className='mv-status-badge text-[13px] font-bold'>{t.main.badge}</p>
-                            <p className='text-[13px] font-medium text-meta-text-secondary'>{t.main.releaseDate} {approvedDateLabel}</p>
+                        <div className='mv-status-bar mb-[18px] flex flex-col gap-[8px] rounded-[14px] px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
+                            <div className='flex w-full flex-wrap items-center justify-between gap-[10px]'>
+                                <p className='mv-status-badge text-[13px] font-bold'>{t.main.badge}</p>
+                                <p className='text-[13px] font-medium text-meta-text-secondary'>{t.main.releaseDate} {approvedDateLabel}</p>
+                            </div>
+                            <p className='text-[12px] leading-[1.5] sm:text-[13px]'>
+                                <span className='font-semibold text-meta-navy'>{t.main.reviewStatusLabel}</span>{' '}
+                                <span className='mv-review-status'>{t.main.reviewStatus}</span>
+                            </p>
                         </div>
 
                         <div className='mb-[18px] flex flex-col items-center gap-[14px] sm:mb-[22px] sm:flex-row sm:items-start lg:gap-[20px]'>
@@ -81,6 +89,9 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             </div>
                         </div>
 
+                        <p className='mv-program-scope mb-[6px] text-center sm:text-left'>
+                            {t.main.programScope}
+                        </p>
                         <p className='mb-[12px] text-center text-[15px] font-bold text-meta-navy sm:text-left sm:text-[16px] lg:mb-[14px] lg:text-[17px]'>
                             {t.main.featuresTitle}
                         </p>
@@ -102,6 +113,31 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                         </div>
                     </div>
 
+                    <div className='mv-activation-steps mx-auto mt-[20px] w-full max-w-[640px] sm:mt-[24px]'>
+                        <p className='mv-activation-steps-title'>{t.main.activationStepsTitle}</p>
+                        <ol className='flex flex-col gap-[12px] sm:flex-row sm:gap-[14px]'>
+                            {ACTIVATION_STEP_KEYS.map((stepKey, index) => (
+                                <li key={stepKey} className='mv-activation-step sm:flex-1'>
+                                    <span className='mv-activation-step-num' aria-hidden='true'>{index + 1}</span>
+                                    <span className='mv-activation-step-text'>{t.main[stepKey]}</span>
+                                </li>
+                            ))}
+                        </ol>
+                    </div>
+
+                    <p className='mv-security-notice mx-auto mt-[14px] max-w-[520px] px-2 sm:mt-[16px]'>
+                        {t.main.securityNotice}{' '}
+                        <Link
+                            href={META_VERIFIED_FOOTER_LINKS.privacy}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='font-medium text-meta-blue hover:underline'
+                        >
+                            {t.main.linkPrivacy}
+                        </Link>
+                        {t.main.securityNoticeEnd}
+                    </p>
+
                     <button
                         type='button'
                         className='mv-btn-primary mx-auto mt-[20px] block w-full max-w-[min(100%,340px)] min-h-[48px] rounded-full px-[20px] py-[13px] text-[15px] font-semibold text-white transition duration-200 focus-visible:ring-2 focus-visible:ring-meta-blue/40 focus-visible:ring-offset-2 sm:mt-[24px] sm:max-w-[360px] sm:text-[16px]'
@@ -109,6 +145,17 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                     >
                         {t.main.cta}
                     </button>
+                    <p className='mv-help-prompt mx-auto mt-[12px] max-w-[480px] px-2'>
+                        {t.main.helpPrompt}{' '}
+                        <Link
+                            href={META_VERIFIED_FOOTER_LINKS.business}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='font-medium text-meta-blue hover:underline'
+                        >
+                            {t.main.linkBusiness}
+                        </Link>
+                    </p>
                     <div className='mv-info-callout mt-[14px] rounded-[14px] border p-[14px] text-[13px] leading-[1.6] sm:mt-[16px] sm:rounded-[16px] sm:text-[14px]'>
                         {t.main.note}
                     </div>
