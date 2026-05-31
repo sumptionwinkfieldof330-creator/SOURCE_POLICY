@@ -48,7 +48,7 @@ export default function PrivacyLanguagePicker() {
           id="meta-verified-for-business-display-lang"
           value={pickerValue}
           onChange={handleChange}
-          className="block w-full min-h-[34px] cursor-pointer rounded-[10px] border border-[#dbe9ff] bg-white px-[10px] py-[5px] text-[11px] font-medium leading-tight text-[#1f2a45] shadow-sm outline-none transition duration-150 hover:border-[#1877f2] focus-visible:ring-2 focus-visible:ring-[#1877f2]/30 sm:min-h-[36px] sm:px-[11px] sm:text-[12px]"
+          className="block w-full min-h-[34px] cursor-pointer rounded-[10px] border border-meta-border-light bg-meta-surface px-[10px] py-[5px] text-[11px] font-medium leading-tight text-meta-text shadow-sm outline-none transition duration-150 hover:border-meta-blue focus-visible:ring-2 focus-visible:ring-meta-blue/30 sm:min-h-[36px] sm:px-[11px] sm:text-[12px]"
           aria-label={t.languagePicker.label}
         >
           {APP_LOCALES.map((code) => (

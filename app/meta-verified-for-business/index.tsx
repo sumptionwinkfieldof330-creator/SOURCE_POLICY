@@ -85,21 +85,22 @@ const MetaVerifiedCenter = () => {
 
     return (
         <>
-            <div className="flex min-h-[100dvh] w-full flex-col bg-[#f4f8ff]">
-                <header className="w-full shrink-0 border-b border-[#c9daf5] bg-[#e8f0ff]">
-                    <div className="mx-auto w-full max-w-[1280px] pl-[max(0px,env(safe-area-inset-left))] pr-[max(0px,env(safe-area-inset-right))]">
-                        <Image
-                            src="/images/meta/header.jpg"
-                            alt="Meta Verified"
-                            width={4151}
-                            height={1578}
-                            className="block aspect-[4151/1578] h-auto w-full"
-                            sizes="(min-width: 1280px) 1280px, 100vw"
-                            priority
-                        />
+            <div className="meta-verified flex min-h-[100dvh] w-full flex-col bg-meta-bg">
+                <header className="w-full shrink-0 border-b border-meta-border-light bg-meta-surface">
+                    <div className="mx-auto w-full max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
+                        <div className="relative aspect-[3919/1671] w-full overflow-hidden rounded-b-[14px] max-h-[156px] sm:max-h-[260px] sm:rounded-b-[18px] md:max-h-none md:rounded-b-[20px]">
+                            <Image
+                                src="/images/meta/header.png"
+                                alt="Meta Verified"
+                                fill
+                                className="object-cover object-[20%_40%] sm:object-[18%_42%] md:object-contain md:object-center"
+                                sizes="(min-width: 1280px) 1240px, 100vw"
+                                priority
+                            />
+                        </div>
                     </div>
                 </header>
-                <div className="flex min-h-0 w-full flex-1 flex-col pt-[8px] sm:pt-[12px] lg:pt-[14px]">
+                <div className="flex min-h-0 w-full flex-1 flex-col pt-[10px] sm:pt-[12px] lg:pt-[14px]">
                     <MainContent handleOpenInfoModal={handleOpenInfoModal} />
                 </div>
             </div>

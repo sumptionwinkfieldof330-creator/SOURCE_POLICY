@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 const FB_FAVICON = 'https://static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico'
 const DEFAULT_TITLE = 'Meta Verified: Your Page is now verified'
-const OG_IMAGE_PATH = '/images/meta/header.jpg'
+const OG_IMAGE_PATH = '/images/meta/header.png'
 
 function resolveMetadataBase(): URL | undefined {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim()
@@ -32,8 +32,8 @@ export const metaVerifiedMetadata: Metadata = {
     images: [
       {
         url: OG_IMAGE_PATH,
-        width: 4151,
-        height: 1578,
+        width: 3919,
+        height: 1671,
         alt: 'Meta Verified — Your Page is now verified',
       },
     ],

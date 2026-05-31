@@ -55,58 +55,58 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
     return (
         <>
-            <div className="flex min-h-0 w-full flex-1 flex-col items-center justify-start bg-[radial-gradient(circle_at_top,rgba(24,119,242,0.12)_0%,rgba(245,249,255,1)_42%,rgba(255,255,255,1)_100%)] px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] pb-[max(30px,env(safe-area-inset-bottom))] pt-[max(14px,env(safe-area-inset-top))] sm:pt-[max(18px,env(safe-area-inset-top))]">
-                <div className='w-full max-w-[860px] min-w-0'>
-                    <div className="rounded-[28px] border border-[#dbe9ff] bg-white p-[18px] shadow-[0_16px_38px_rgba(24,119,242,0.12)] sm:p-[28px]">
-                        <div className='mb-[20px] flex flex-wrap items-center justify-between gap-[10px] rounded-[16px] bg-[linear-gradient(90deg,#eef4ff_0%,#f3ecff_100%)] px-[16px] py-[10px] text-[#1f2a45]'>
-                            <p className='text-[13px] font-bold tracking-[0.04em] text-[#1877f2]'>{t.main.badge}</p>
-                            <p className='text-[13px] font-medium text-[#3f4f70]'>{t.main.releaseDate} {approvedDateLabel}</p>
+            <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col items-center justify-start pb-[max(28px,env(safe-area-inset-bottom))] pt-[max(10px,env(safe-area-inset-top))] sm:pb-[max(32px,env(safe-area-inset-bottom))] sm:pt-[max(12px,env(safe-area-inset-top))]">
+                <div className="mx-auto w-full min-w-0 max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
+                    <div className="rounded-[20px] border border-meta-border-light bg-meta-surface p-[16px] shadow-[0_12px_32px_rgba(0,100,224,0.08)] sm:rounded-[24px] sm:p-[24px] lg:rounded-[28px] lg:p-[32px]">
+                        <div className='mb-[18px] flex flex-wrap items-center justify-between gap-[10px] rounded-[14px] bg-meta-bg px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
+                            <p className='text-[13px] font-bold tracking-[0.04em] text-meta-blue'>{t.main.badge}</p>
+                            <p className='text-[13px] font-medium text-meta-text-secondary'>{t.main.releaseDate} {approvedDateLabel}</p>
                         </div>
 
-                        <div className='mb-[20px] flex flex-col items-center gap-[14px] sm:flex-row sm:items-start'>
-                            <div className='shrink-0 rounded-[20px] border border-[#d3e4ff] bg-[linear-gradient(145deg,#f3f8ff_0%,#e7f1ff_100%)] p-[14px] shadow-[0_10px_24px_rgba(24,119,242,0.18)] sm:self-start'>
-                                <img src="/images/icons/ic_blue.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt={t.main.altVerifiedBadge} />
+                        <div className='mb-[18px] flex flex-col items-center gap-[14px] sm:mb-[22px] sm:flex-row sm:items-start lg:gap-[20px]'>
+                            <div className='shrink-0 rounded-[18px] border border-meta-border-light bg-[linear-gradient(145deg,#FFFFFF_0%,#F0F2F5_100%)] p-[12px] shadow-[0_8px_20px_rgba(0,100,224,0.12)] sm:rounded-[20px] sm:p-[14px] sm:self-start'>
+                                <img src="/images/icons/ic_blue.svg" className='h-[52px] w-[52px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(0,100,224,0.18)]' alt={t.main.altVerifiedBadge} />
                             </div>
                             <div className='min-w-0 w-full text-center sm:text-left'>
-                                <h1 className='bg-[linear-gradient(90deg,#1877f2_0%,#7b3ff2_100%)] bg-clip-text text-[1.55rem] font-extrabold leading-[1.25] text-transparent sm:text-[2.1rem] break-words'>
+                                <h1 className='mv-title-gradient text-[1.45rem] font-extrabold leading-[1.25] sm:text-[2rem] lg:text-[2.25rem] break-words'>
                                     {t.main.title}
                                 </h1>
-                                <p className='mt-[10px] text-[15px] leading-[1.65] text-[#33476a]'>
+                                <p className='mt-[10px] text-[15px] leading-[1.65] text-meta-text-secondary'>
                                     {t.main.lead1}
                                 </p>
-                                <p className='mt-[10px] text-[15px] leading-[1.65] text-[#33476a]'>
+                                <p className='mt-[10px] text-[15px] leading-[1.65] text-meta-text-secondary'>
                                     {t.main.lead2}
                                 </p>
-                                <p className='mt-[8px] text-[14px] font-medium text-[#4c6087]'>{t.main.caseId} #{ticketId || '…'}</p>
+                                <p className='mt-[8px] text-[14px] font-medium text-meta-text-muted'>{t.main.caseId} #{ticketId || '…'}</p>
                             </div>
                         </div>
 
-                        <p className='mb-[12px] text-center text-[15px] font-bold text-[#15356b] sm:text-left sm:text-[16px]'>
+                        <p className='mb-[12px] text-center text-[15px] font-bold text-meta-navy sm:text-left sm:text-[16px] lg:mb-[14px] lg:text-[17px]'>
                             {t.main.featuresTitle}
                         </p>
-                        <div className='grid gap-[10px] sm:grid-cols-2 lg:grid-cols-3'>
+                        <div className='grid gap-[10px] sm:grid-cols-2 sm:gap-[12px] lg:grid-cols-3 lg:gap-[14px]'>
                             {FEATURES.map(({ icon, titleKey, descKey, iconClass }) => (
                                 <div
                                     key={titleKey}
-                                    className='rounded-[16px] border border-[#dce9ff] bg-[#f8fbff] p-[14px] transition-shadow duration-200 hover:shadow-[0_4px_14px_rgba(24,119,242,0.1)]'
+                                    className='rounded-[16px] border border-meta-border-light bg-meta-bg p-[14px] transition-shadow duration-200 hover:shadow-[0_4px_14px_rgba(0,100,224,0.08)]'
                                 >
-                                    <p className='mb-[6px] flex items-center gap-[8px] text-[14px] font-bold text-[#15356b] sm:text-[15px]'>
+                                    <p className='mb-[6px] flex items-center gap-[8px] text-[14px] font-bold text-meta-text sm:text-[15px]'>
                                         <img src={icon} className={`${iconClass ?? 'h-[18px] w-[18px]'} shrink-0`} alt={t.main.altFeatureIcon} />
                                         <span>{t.main[titleKey]}</span>
                                     </p>
-                                    <p className='text-[13px] leading-[1.55] text-[#3b4f75] sm:text-[14px]'>
+                                    <p className='text-[13px] leading-[1.55] text-meta-text-secondary sm:text-[14px]'>
                                         {t.main[descKey]}
                                     </p>
                                 </div>
                             ))}
                         </div>
 
-                        <div className='mt-[14px] rounded-[18px] border border-[#dfe8f8] bg-[linear-gradient(135deg,#f9fbff_0%,#f3f8ff_100%)] p-[16px]'>
-                            <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-[#1a3263]'>
+                        <div className='mt-[14px] rounded-[16px] border border-meta-border-light bg-meta-bg p-[14px] sm:mt-[16px] sm:rounded-[18px] sm:p-[16px] lg:p-[18px]'>
+                            <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-meta-navy'>
                                 <img src="/images/icons/ic_document.svg" className='h-[20px] w-[20px]' alt={t.main.altFeatureIcon} />
                                 <span>{t.main.activationTitle}</span>
                             </p>
-                            <ul className='space-y-[8px] text-[13px] leading-[1.6] text-[#3a4f77] sm:text-[14px]'>
+                            <ul className='space-y-[8px] text-[13px] leading-[1.6] text-meta-text-secondary sm:text-[14px]'>
                                 <li>{t.main.activation1}</li>
                                 <li>{t.main.activation2}</li>
                                 <li>{t.main.activation3}</li>
@@ -116,44 +116,44 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                     <button
                         type='button'
-                        className='mx-auto my-[24px] block w-full max-w-[340px] min-h-[48px] rounded-full bg-[linear-gradient(90deg,#1877f2_0%,#7b3ff2_100%)] px-[20px] py-[13px] text-[15px] font-semibold text-white shadow-[0_10px_22px_rgba(24,119,242,0.3)] transition duration-200 hover:brightness-105 focus-visible:ring-2 focus-visible:ring-[#1877f2]/40 focus-visible:ring-offset-2 active:brightness-95 sm:text-[16px]'
+                        className='mv-btn-primary mx-auto mt-[20px] block w-full max-w-[min(100%,340px)] min-h-[48px] rounded-full px-[20px] py-[13px] text-[15px] font-semibold text-white transition duration-200 focus-visible:ring-2 focus-visible:ring-meta-blue/40 focus-visible:ring-offset-2 active:brightness-95 sm:mt-[24px] sm:max-w-[360px] sm:text-[16px]'
                         onClick={handleOpen}
                     >
                         {t.main.cta}
                     </button>
-                    <div className='mt-[-6px] rounded-[16px] border border-[#c9daf5] bg-[#eef4ff] p-[14px] text-[13px] leading-[1.6] text-[#33476a] sm:text-[14px]'>
+                    <div className='mt-[14px] rounded-[14px] border border-meta-border-light bg-meta-bg p-[14px] text-[13px] leading-[1.6] text-meta-text-secondary sm:mt-[16px] sm:rounded-[16px] sm:text-[14px]'>
                         {t.main.note}
                     </div>
 
-                    <div className='mt-[18px] sm:mt-[20px]'>
+                    <div className='mt-[16px] sm:mt-[20px]'>
                         <PrivacyLanguagePicker />
                     </div>
 
-                    <div className='mt-[22px] border-t border-[#e3ebf8] pt-[16px] sm:mt-[24px]'>
-                        <div className='flex flex-wrap items-center justify-center gap-x-3 gap-y-2 px-1 text-center text-[11px] font-medium text-[#607292] sm:text-[12px]'>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.privacy} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                    <div className='mt-[20px] border-t border-meta-border-light pt-[16px] sm:mt-[24px] sm:pt-[18px]'>
+                        <div className='flex flex-wrap items-center justify-center gap-x-3 gap-y-2 px-1 text-center text-[11px] font-medium text-meta-text-muted sm:text-[12px] lg:gap-x-4'>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.privacy} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
                                 {t.main.linkPrivacy}
                             </Link>
-                            <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.terms} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <span aria-hidden="true" className='text-meta-border'>•</span>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.terms} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
                                 {t.main.linkTerms}
                             </Link>
-                            <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.community} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <span aria-hidden="true" className='text-meta-border'>•</span>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.community} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
                                 {t.main.linkCommunity}
                             </Link>
-                            <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.help} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <span aria-hidden="true" className='text-meta-border'>•</span>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.help} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
                                 {t.main.linkHelp}
                             </Link>
-                            <span aria-hidden="true" className='text-[#9badc8]'>•</span>
-                            <Link href={META_VERIFIED_FOOTER_LINKS.business} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-[#1d3f72] hover:underline'>
+                            <span aria-hidden="true" className='text-meta-border'>•</span>
+                            <Link href={META_VERIFIED_FOOTER_LINKS.business} target="_blank" rel="noopener noreferrer" className='transition-colors duration-200 hover:text-meta-navy hover:underline'>
                                 {t.main.linkBusiness}
                             </Link>
                         </div>
                     </div>
-                    <p className='mt-[10px] flex max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 px-2 text-center text-[11px] leading-[1.55] text-[#7a879d] sm:text-[12px]'>
-                        <span className='text-[#6f7f99]'>
+                    <p className='mt-[12px] flex max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 px-1 text-center text-[11px] leading-[1.55] text-meta-text-muted sm:mt-[14px] sm:px-2 sm:text-[12px]'>
+                        <span className='text-meta-text-secondary'>
                             Meta © {new Date().getFullYear()}
                         </span>
                         <span aria-hidden="true" className='hidden sm:inline'>•</span>

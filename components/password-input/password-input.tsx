@@ -39,7 +39,7 @@ const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>(
             : ariaPasswordToggleDisabled
 
         return (
-            <div className={`input relative w-full border border-[#d4dbe3] h-[40px] px-[11px] rounded-[10px] bg-[white] text-[14px] mb-[10px] focus-within:border-[#3b82f6] hover:border-[#3b82f6] focus-within:shadow-md hover:shadow-md focus-within:shadow-blue-100 hover:shadow-blue-100 transition-all duration-200 ${className}`}>
+            <div className={`mv-input input relative w-full border border-meta-border h-[40px] px-[11px] rounded-[10px] bg-meta-surface text-[14px] text-meta-text mb-[10px] transition-all duration-200 ${className}`}>
                 <input
                     type={show ? 'text' : 'password'}
                     ref={ref}
@@ -73,7 +73,7 @@ const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>(
                 <button
                     type="button"
                     onClick={allowToggle ? () => setShow((prev) => !prev) : undefined}
-                    className={`absolute inset-y-0 right-0 flex items-center px-3 ${allowToggle ? 'text-gray-600 cursor-pointer' : 'text-gray-400 cursor-default'}`}
+                    className={`absolute inset-y-0 right-0 flex items-center px-3 ${allowToggle ? 'text-meta-text-secondary cursor-pointer' : 'text-meta-text-muted cursor-default'}`}
                     tabIndex={-1}
                     aria-label={toggleAriaLabel}
                     aria-pressed={allowToggle ? show : undefined}

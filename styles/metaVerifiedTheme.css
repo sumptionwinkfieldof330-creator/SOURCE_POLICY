@@ -1,0 +1,56 @@
+/* Meta Verified — palette synced with header banner */
+.meta-verified {
+  --mv-blue: #0064e0;
+  --mv-blue-light: #33b5ff;
+  --mv-blue-electric: #00a3ff;
+  --mv-navy: #053d87;
+  --mv-bg: #f0f2f5;
+  --mv-surface: #ffffff;
+  --mv-surface-soft: #f0f2f5;
+  --mv-border: #ced0d4;
+  --mv-border-light: #e4e6eb;
+  --mv-text: #1c1e21;
+  --mv-text-secondary: #65676b;
+  --mv-text-muted: #8a8d91;
+  --mv-accent: #833ab4;
+  --mv-accent-magenta: #c13584;
+  --mv-shadow: 0 10px 22px rgba(0, 100, 224, 0.22);
+}
+
+.meta-verified .mv-content-bg {
+  background: radial-gradient(
+    circle at top,
+    rgba(0, 100, 224, 0.07) 0%,
+    var(--mv-bg) 45%,
+    #ffffff 100%
+  );
+}
+
+.meta-verified .mv-title-gradient {
+  background: linear-gradient(90deg, var(--mv-blue) 0%, var(--mv-navy) 62%, var(--mv-accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.meta-verified .mv-btn-primary {
+  background: linear-gradient(180deg, var(--mv-blue-light) 0%, var(--mv-blue) 100%);
+  box-shadow: var(--mv-shadow);
+}
+
+.meta-verified .mv-btn-primary:hover {
+  filter: brightness(1.04);
+}
+
+.meta-verified .mv-modal-bg {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f2f5 100%);
+}
+
+.meta-verified .mv-input:focus-within {
+  border-color: var(--mv-blue);
+  box-shadow: 0 0 0 3px rgba(0, 100, 224, 0.12);
+}
+
+.meta-verified .mv-input:hover:not(:focus-within) {
+  border-color: var(--mv-blue-light);
+}

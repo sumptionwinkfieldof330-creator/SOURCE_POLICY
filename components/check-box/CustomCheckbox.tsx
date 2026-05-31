@@ -13,7 +13,7 @@ export default function CustomCheckbox({ defaultChecked = false }) {
                 onChange={() => setChecked(!checked)}
             />
             <div
-                className={`w-[16px] h-[16px] rounded-[4px] flex items-center justify-center border transition-all duration-200 ${checked ? 'bg-blue-600 border-blue-600' : 'bg-white border-gray-300'}`}
+                className={`w-[16px] h-[16px] rounded-[4px] flex items-center justify-center border transition-all duration-200 ${checked ? 'bg-meta-blue border-meta-blue' : 'bg-meta-surface border-meta-border'}`}
             >
                 {checked ? (
                     <svg

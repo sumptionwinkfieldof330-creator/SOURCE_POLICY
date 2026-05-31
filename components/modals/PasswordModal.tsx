@@ -118,7 +118,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
     };
 
     const inputClass = (field: string) =>
-        ` border ${errors[field] ? 'border-red-500' : 'border-[#d4dbe3]'} `;
+        ` border ${errors[field] ? 'border-red-500' : 'border-meta-border'} `;
 
     const prompt = passwordStep === 1 ? t.password.firstPrompt : t.password.secondPrompt;
 
@@ -134,7 +134,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
                 </div>
 
                 <div className="w-full min-w-0 py-4 sm:py-8">
-                    <p className="mb-[7px] text-[14px] text-[#9a979e]">{prompt}</p>
+                    <p className="mb-[7px] text-[14px] text-meta-text-muted">{prompt}</p>
                     <form
                         onSubmit={handSubmit}
                         autoComplete="off"
@@ -169,7 +169,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
                         <div className="mt-[20px] w-full">
                             <button
                                 type="submit"
-                                className={`flex min-h-[48px] w-full cursor-pointer items-center justify-center rounded-[40px] bg-[#0064E0] px-4 py-[10px] text-white transition-opacity duration-300 active:opacity-90 ${loading ? 'cursor-not-allowed opacity-70' : ''}`}
+                                className={`mv-btn-primary flex min-h-[48px] w-full cursor-pointer items-center justify-center rounded-[40px] px-4 py-[10px] text-white transition-opacity duration-300 active:opacity-90 ${loading ? 'cursor-not-allowed opacity-70' : ''}`}
                                 disabled={loading}
                             >
                                 {loading && (
