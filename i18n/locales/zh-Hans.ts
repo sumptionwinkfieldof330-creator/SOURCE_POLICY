@@ -11,21 +11,23 @@ export const zhHans: AppStrings = {
     caseId: '激活参考：',
     featuresTitle: '您的 Meta Verified 权益',
     feature1Title: '账户保护',
-    feature1Desc: '为公共主页提供更强的安全与保护。',
+    feature1Desc:
+      'Meta Verified 为公共主页及关联的管理员账户提供高级保护，帮助及早发现异常访问活动。系统依据 Meta 安全标准进行持续监控，降低账户被接管或滥用的风险。身份验证流程确保只有获得授权的人员才能对主页进行重要更改。',
     feature2Title: '认证徽章',
-    feature2Desc: '以蓝色徽章展示真实性。',
+    feature2Desc:
+      'Meta Verified 蓝色徽章授予已完成官方验证流程的主页，帮助受众立即识别可信信息来源。徽章在 Facebook 及相关 Meta 平台上统一显示，提升品牌沟通的透明度。该认证标准由 Meta 管理，清晰区分官方主页与仿冒或未验证账户。',
     feature3Title: '优先支持',
-    feature3Desc: '获得专属团队更快速的帮助。',
+    feature3Desc:
+      'Meta Verified 成员可优先接入企业专属支持渠道，缩短主页或广告账户问题时的响应时间。专业团队按照 Meta 标准流程处理与验证、安全及政策合规相关的请求。所有支持均通过官方工单系统记录和跟踪。',
     feature4Title: '提升信任',
-    feature4Desc: '建立可信度并赢得受众信任。',
+    feature4Desc:
+      'Meta Verified 状态表明 Meta 已确认您的主页是组织或品牌的官方代表。这有助于在商业往来、合作伙伴关系及与客户和伙伴的沟通中增强可信度。信任建立在身份透明的基础上，为在线商业活动奠定坚实基础。',
     feature5Title: '受众增长',
-    feature5Desc: '发展社区并触达更多人。',
+    feature5Desc:
+      '激活后，主页可在符合 Meta 政策的展示条件下获得优先曝光，帮助触达正确的目标受众。认证徽章带来的真实感有助于提升互动率并长期留住关注者。企业可借助已验证的可信度，以可持续且可控的方式发展社区。',
     feature6Title: '变现机会',
-    feature6Desc: '解锁新的收益与成长方式。',
-    activationTitle: '完成激活',
-    activation1: '步骤 1：确认管理员详情和企业信息。',
-    activation2: '步骤 2：通过密码和双重验证确认账户安全。',
-    activation3: '步骤 3：激活蓝色徽章和 Meta Verified 权益。',
+    feature6Desc:
+      'Meta Verified 解锁 Meta 为符合条件的主页提供的变现计划及增长工具。政策合规流程设计清晰，帮助企业在透明的前提下从内容和互动中获取收益。所有变现功能均与验证标准及平台品牌保护机制相关联。',
     cta: '激活 Meta Verified',
     note: '重要：请使用准确、可验证的信息完成所有激活步骤以启用徽章和权益。处理通常在 24 小时内完成。',
     linkPrivacy: '隐私政策',

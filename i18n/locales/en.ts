@@ -17,21 +17,23 @@ export const en: AppStrings = {
     caseId: 'Activation reference:',
     featuresTitle: 'Your Meta Verified benefits',
     feature1Title: 'Account Protection',
-    feature1Desc: 'Stronger security and protection for your Page.',
+    feature1Desc:
+      'Meta Verified deploys advanced protection for your Page and linked administrator accounts, helping detect unusual access activity early. Continuous monitoring follows Meta security standards to reduce the risk of account takeover or misuse. Identity verification ensures only authorized users can make important changes to your Page.',
     feature2Title: 'Verified Badge',
-    feature2Desc: 'Showcase authenticity with the blue badge.',
+    feature2Desc:
+      'The Meta Verified blue badge is awarded to Pages that complete the official verification process, helping audiences immediately recognize a trusted source. The badge displays consistently across Facebook and related Meta platforms, increasing transparency in brand communications. This authentication standard is managed by Meta and clearly distinguishes official Pages from impersonators or unverified accounts.',
     feature3Title: 'Priority Support',
-    feature3Desc: 'Get faster help from dedicated support.',
+    feature3Desc:
+      'Meta Verified members receive priority access to business support channels, shortening response times for Page or ad account issues. A dedicated team handles verification, security, and policy compliance requests following Meta standard procedures. All support is logged and tracked through the official ticketing system.',
     feature4Title: 'Increased Trust',
-    feature4Desc: 'Build credibility and earn audience trust.',
+    feature4Desc:
+      'Meta Verified status signals that Meta has confirmed your Page as the official representative of your organization or brand. This strengthens credibility in commercial interactions, partnerships, and communications with partners and customers. Trust is built on identity transparency, creating a solid foundation for online business activity.',
     feature5Title: 'Audience Growth',
-    feature5Desc: 'Grow your community and reach more people.',
+    feature5Desc:
+      'After activation, your Page may receive favorable visibility within Meta policy guidelines, helping expand reach to the right target audience. Authenticity from the verified badge can improve engagement rates and long-term follower retention. Businesses can leverage verified credibility to grow their community sustainably and in a controlled manner.',
     feature6Title: 'Monetization Opportunities',
-    feature6Desc: 'Unlock new ways to earn and grow.',
-    activationTitle: 'Complete your activation',
-    activation1: 'Step 1: Confirm Page administrator details and business information.',
-    activation2: 'Step 2: Verify account security with password and two-factor authentication.',
-    activation3: 'Step 3: Activate your blue badge and Meta Verified benefits.',
+    feature6Desc:
+      'Meta Verified unlocks access to monetization programs and growth tools Meta provides to eligible Pages. Policy compliance processes are clearly designed to help businesses earn from content and engagement transparently. All monetization features are tied to verification standards and platform brand protection.',
     cta: 'Activate Meta Verified',
     note:
       'Important: Complete all activation steps with accurate, verifiable information to enable your verified badge and benefits. Processing typically completes within 24 hours.',

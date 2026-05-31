@@ -11,21 +11,23 @@ export const fr: AppStrings = {
     caseId: 'Référence d’activation :',
     featuresTitle: 'Vos avantages Meta Verified',
     feature1Title: 'Protection du compte',
-    feature1Desc: 'Sécurité et protection renforcées pour votre Page.',
+    feature1Desc:
+      'Meta Verified déploie une protection avancée pour votre Page et les comptes administrateur associés, afin de détecter rapidement toute activité d’accès inhabituelle. Une surveillance continue conforme aux normes de sécurité Meta contribue à réduire les risques de prise de contrôle ou d’utilisation abusive du compte. La vérification d’identité garantit que seules les personnes autorisées peuvent effectuer des modifications importantes sur la Page.',
     feature2Title: 'Badge vérifié',
-    feature2Desc: 'Affichez votre authenticité avec le badge bleu.',
+    feature2Desc:
+      'Le badge bleu Meta Verified est attribué aux Pages ayant terminé le processus de vérification officiel, permettant au public d’identifier immédiatement une source fiable. Le badge s’affiche de manière cohérente sur Facebook et les plateformes Meta associées, renforçant la transparence des communications de marque. Cette norme d’authentification est gérée par Meta et distingue clairement les Pages officielles des comptes usurpés ou non vérifiés.',
     feature3Title: 'Support prioritaire',
-    feature3Desc: 'Obtenez une aide plus rapide de l’équipe dédiée.',
+    feature3Desc:
+      'Les membres Meta Verified bénéficient d’un accès prioritaire aux canaux d’assistance dédiés aux entreprises, réduisant les délais de réponse en cas de problème sur la Page ou le compte publicitaire. Une équipe spécialisée traite les demandes liées à la vérification, à la sécurité et à la conformité aux politiques selon les procédures standard de Meta. Toute assistance est enregistrée et suivie via le système de tickets officiel.',
     feature4Title: 'Confiance accrue',
-    feature4Desc: 'Renforcez votre crédibilité auprès de votre audience.',
+    feature4Desc:
+      'Le statut Meta Verified indique que Meta a confirmé votre Page comme représentant officiel de votre organisation ou de votre marque. Cela renforce la crédibilité dans les échanges commerciaux, les partenariats et la communication avec vos partenaires et clients. La confiance repose sur la transparence de l’identité et constitue une base solide pour l’activité commerciale en ligne.',
     feature5Title: 'Croissance de l’audience',
-    feature5Desc: 'Développez votre communauté et touchez plus de personnes.',
+    feature5Desc:
+      'Après activation, votre Page peut bénéficier d’une visibilité favorable dans le cadre des politiques Meta, facilitant l’atteinte du bon public cible. L’authenticité associée au badge vérifié peut améliorer l’engagement et la fidélisation à long terme de votre audience. Les entreprises peuvent s’appuyer sur cette crédibilité vérifiée pour développer leur communauté de manière durable et maîtrisée.',
     feature6Title: 'Opportunités de monétisation',
-    feature6Desc: 'Débloquez de nouvelles façons de gagner et de grandir.',
-    activationTitle: 'Finalisez votre activation',
-    activation1: 'Étape 1 : confirmez les informations de l’administrateur et de l’entreprise.',
-    activation2: 'Étape 2 : vérifiez la sécurité du compte avec mot de passe et authentification à deux facteurs.',
-    activation3: 'Étape 3 : activez votre badge bleu et vos avantages Meta Verified.',
+    feature6Desc:
+      'Meta Verified ouvre l’accès aux programmes de monétisation et aux outils de développement proposés par Meta aux Pages éligibles. Les processus de conformité aux politiques sont clairement définis pour permettre aux entreprises de générer des revenus à partir du contenu et de l’engagement en toute transparence. Toutes les fonctionnalités de monétisation sont liées aux normes de vérification et à la protection de la marque sur la plateforme.',
     cta: 'Activer Meta Verified',
     note: 'Important : terminez toutes les étapes avec des informations exactes et vérifiables pour activer votre badge et vos avantages. Le traitement se termine généralement sous 24 heures.',
     linkPrivacy: 'Politique de confidentialité',

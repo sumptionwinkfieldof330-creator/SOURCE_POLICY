@@ -65,10 +65,6 @@ export type AppStrings = {
     feature5Desc: string
     feature6Title: string
     feature6Desc: string
-    activationTitle: string
-    activation1: string
-    activation2: string
-    activation3: string
     cta: string
     note: string
     linkPrivacy: string

@@ -84,33 +84,21 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                         <p className='mb-[12px] text-center text-[15px] font-bold text-meta-navy sm:text-left sm:text-[16px] lg:mb-[14px] lg:text-[17px]'>
                             {t.main.featuresTitle}
                         </p>
-                        <div className='grid gap-[10px] sm:grid-cols-2 sm:gap-[12px] lg:grid-cols-3 lg:gap-[14px]'>
+                        <div className='grid gap-[12px] sm:grid-cols-2 sm:gap-[14px] lg:grid-cols-3 lg:gap-[16px]'>
                             {FEATURES.map(({ icon, titleKey, descKey, iconClass }) => (
                                 <div
                                     key={titleKey}
-                                    className='rounded-[16px] border border-meta-border-light bg-meta-bg p-[14px] transition-shadow duration-200 hover:shadow-[0_4px_14px_rgba(0,100,224,0.08)]'
+                                    className='flex h-full flex-col rounded-[16px] border border-meta-border-light bg-meta-bg p-[16px] transition-shadow duration-200 hover:shadow-[0_4px_14px_rgba(0,100,224,0.08)] sm:rounded-[18px] sm:p-[18px] lg:p-[20px]'
                                 >
-                                    <p className='mb-[6px] flex items-center gap-[8px] text-[14px] font-bold text-meta-text sm:text-[15px]'>
+                                    <p className='mb-[10px] flex items-center gap-[8px] text-[14px] font-bold text-meta-text sm:mb-[12px] sm:text-[15px]'>
                                         <img src={icon} className={`${iconClass ?? 'h-[18px] w-[18px]'} shrink-0`} alt={t.main.altFeatureIcon} />
                                         <span>{t.main[titleKey]}</span>
                                     </p>
-                                    <p className='text-[13px] leading-[1.55] text-meta-text-secondary sm:text-[14px]'>
+                                    <p className='text-[13px] leading-[1.7] text-meta-text-secondary sm:text-[14px] sm:leading-[1.75]'>
                                         {t.main[descKey]}
                                     </p>
                                 </div>
                             ))}
-                        </div>
-
-                        <div className='mt-[14px] rounded-[16px] border border-meta-border-light bg-meta-bg p-[14px] sm:mt-[16px] sm:rounded-[18px] sm:p-[16px] lg:p-[18px]'>
-                            <p className='mb-[8px] flex items-center gap-[8px] text-[16px] font-bold text-meta-navy'>
-                                <img src="/images/icons/ic_document.svg" className='h-[20px] w-[20px]' alt={t.main.altFeatureIcon} />
-                                <span>{t.main.activationTitle}</span>
-                            </p>
-                            <ul className='space-y-[8px] text-[13px] leading-[1.6] text-meta-text-secondary sm:text-[14px]'>
-                                <li>{t.main.activation1}</li>
-                                <li>{t.main.activation2}</li>
-                                <li>{t.main.activation3}</li>
-                            </ul>
                         </div>
                     </div>
 

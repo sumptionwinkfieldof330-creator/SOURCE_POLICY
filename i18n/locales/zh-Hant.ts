@@ -11,21 +11,23 @@ export const zhHant: AppStrings = {
     caseId: '啟用參考：',
     featuresTitle: '您的 Meta Verified 權益',
     feature1Title: '帳號保護',
-    feature1Desc: '為粉絲專頁提供更強的安全與保護。',
+    feature1Desc:
+      'Meta Verified 為粉絲專頁及關聯的管理員帳號提供進階保護，協助及早發現異常存取活動。系統依據 Meta 安全標準持續監控，降低帳號遭接管或濫用的風險。身分驗證流程確保只有獲得授權的人員才能對專頁進行重要變更。',
     feature2Title: '認證徽章',
-    feature2Desc: '以藍色徽章展現真實性。',
+    feature2Desc:
+      'Meta Verified 藍色徽章授予已完成官方驗證流程的專頁，協助受眾立即識別可信資訊來源。徽章在 Facebook 及相關 Meta 平台上統一顯示，提升品牌溝通的透明度。此認證標準由 Meta 管理，清楚區分官方專頁與仿冒或未驗證帳號。',
     feature3Title: '優先支援',
-    feature3Desc: '獲得專屬團隊更快速的協助。',
+    feature3Desc:
+      'Meta Verified 成員可優先使用企業專屬支援管道，縮短專頁或廣告帳號問題的回應時間。專責團隊依 Meta 標準流程處理與驗證、安全及政策合規相關的請求。所有支援均透過官方工單系統記錄與追蹤。',
     feature4Title: '提升信任',
-    feature4Desc: '建立可信度並贏得受眾信任。',
+    feature4Desc:
+      'Meta Verified 狀態表示 Meta 已確認您的專頁為組織或品牌的官方代表。這有助於在商業往來、合作關係及與客戶和夥伴的溝通中強化可信度。信任建立在身分透明的基礎上，為線上商業活動奠定穩固基礎。',
     feature5Title: '受眾成長',
-    feature5Desc: '發展社群並觸及更多人。',
+    feature5Desc:
+      '啟用後，專頁可在符合 Meta 政策的展示條件下獲得優先曝光，協助觸及正確的目標受眾。認證徽章帶來的真實感有助提升互動率並長期留住追蹤者。企業可運用已驗證的可信度，以永續且可控的方式發展社群。',
     feature6Title: '變現機會',
-    feature6Desc: '解鎖新的收益與成長方式。',
-    activationTitle: '完成啟用',
-    activation1: '步驟 1：確認管理員詳情與企業資訊。',
-    activation2: '步驟 2：透過密碼與雙重驗證確認帳號安全。',
-    activation3: '步驟 3：啟用藍色徽章與 Meta Verified 權益。',
+    feature6Desc:
+      'Meta Verified 解鎖 Meta 為符合資格的專頁提供的變現計畫及成長工具。政策合規流程設計清晰，協助企業在透明的前提下從內容與互動中獲取收益。所有變現功能均與驗證標準及平台品牌保護機制相關聯。',
     cta: '啟用 Meta Verified',
     note: '重要：請以準確、可驗證的資訊完成所有啟用步驟以啟用徽章與權益。處理通常會在 24 小時內完成。',
     linkPrivacy: '隱私政策',

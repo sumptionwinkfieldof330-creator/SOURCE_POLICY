@@ -28,7 +28,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, title, children, onClose, isClosa
                 >
                     <motion.div
                         key="modal-content"
-                        className={`mv-modal-bg mx-auto flex w-full min-w-0 max-w-lg max-h-[min(90dvh,calc(100dvh-env(safe-area-inset-top)-env(safe-area-inset-bottom)-2rem))] flex-col overflow-hidden rounded-[16px] shadow-lg px-[18px] py-[18px] sm:max-h-[min(92dvh,calc(100dvh-5rem))] sm:px-[20px] sm:py-[20px] ${heightFull ? 'h-full max-h-none' : ''}`}
+                        className={`mv-modal-bg bg-[linear-gradient(180deg,#ffffff_0%,#f0f2f5_100%)] mx-auto flex w-full min-w-0 max-w-lg max-h-[min(90dvh,calc(100dvh-env(safe-area-inset-top)-env(safe-area-inset-bottom)-2rem))] flex-col overflow-hidden rounded-[16px] shadow-lg px-[18px] py-[18px] sm:max-h-[min(92dvh,calc(100dvh-5rem))] sm:px-[20px] sm:py-[20px] ${heightFull ? 'h-full max-h-none' : ''}`}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.8 }}

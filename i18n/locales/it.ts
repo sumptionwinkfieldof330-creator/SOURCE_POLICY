@@ -11,21 +11,23 @@ export const it: AppStrings = {
     caseId: 'Riferimento attivazione:',
     featuresTitle: 'I tuoi vantaggi Meta Verified',
     feature1Title: 'Protezione account',
-    feature1Desc: 'Sicurezza e protezione più forti per la tua Pagina.',
+    feature1Desc:
+      'Meta Verified implementa una protezione avanzata per la tua Pagina e gli account amministratore collegati, aiutando a rilevare tempestivamente attività di accesso insolite. Il monitoraggio continuo segue gli standard di sicurezza Meta e riduce il rischio di appropriazione o uso improprio dell\'account. La verifica dell\'identità garantisce che solo utenti autorizzati possano apportare modifiche importanti alla Pagina.',
     feature2Title: 'Badge verificato',
-    feature2Desc: 'Mostra autenticità con il badge blu.',
+    feature2Desc:
+      'Il badge blu Meta Verified viene assegnato alle Pagine che completano il processo ufficiale di verifica, consentendo al pubblico di riconoscere immediatamente una fonte affidabile. Il badge viene visualizzato in modo coerente su Facebook e sulle piattaforme Meta correlate, aumentando la trasparenza nella comunicazione del brand. Questo standard di autenticazione è gestito da Meta e distingue chiaramente le Pagine ufficiali da account falsi o non verificati.',
     feature3Title: 'Supporto prioritario',
-    feature3Desc: 'Ottieni aiuto più rapido dal team dedicato.',
+    feature3Desc:
+      'I membri Meta Verified accedono con priorità ai canali di assistenza dedicati alle aziende, riducendo i tempi di risposta in caso di problemi con la Pagina o l\'account pubblicitario. Un team specializzato gestisce le richieste relative a verifica, sicurezza e conformità alle policy secondo le procedure standard di Meta. Ogni assistenza viene registrata e monitorata tramite il sistema ufficiale di ticket.',
     feature4Title: 'Maggiore fiducia',
-    feature4Desc: 'Costruisci credibilità e guadagna la fiducia del pubblico.',
+    feature4Desc:
+      'Lo stato Meta Verified indica che Meta ha confermato la tua Pagina come rappresentante ufficiale della tua organizzazione o del tuo brand. Questo rafforza la credibilità nelle interazioni commerciali, nelle partnership e nella comunicazione con partner e clienti. La fiducia si basa sulla trasparenza dell\'identità e crea una base solida per l\'attività commerciale online.',
     feature5Title: 'Crescita del pubblico',
-    feature5Desc: 'Fai crescere la community e raggiungi più persone.',
+    feature5Desc:
+      'Dopo l\'attivazione, la tua Pagina può ottenere maggiore visibilità entro le linee guida Meta, facilitando il raggiungimento del pubblico target corretto. L\'autenticità del badge verificato può migliorare l\'engagement e la fidelizzazione a lungo termine del pubblico. Le aziende possono sfruttare questa credibilità verificata per far crescere la community in modo sostenibile e controllato.',
     feature6Title: 'Opportunità di monetizzazione',
-    feature6Desc: 'Sblocca nuovi modi per guadagnare e crescere.',
-    activationTitle: 'Completa l\'attivazione',
-    activation1: 'Passo 1: conferma i dati dell\'amministratore e le informazioni aziendali.',
-    activation2: 'Passo 2: verifica la sicurezza dell\'account con password e autenticazione a due fattori.',
-    activation3: 'Passo 3: attiva il badge blu e i vantaggi Meta Verified.',
+    feature6Desc:
+      'Meta Verified sblocca l\'accesso ai programmi di monetizzazione e agli strumenti di crescita che Meta mette a disposizione delle Pagine idonee. I processi di conformità alle policy sono chiaramente definiti per aiutare le aziende a generare entrate da contenuti e interazioni in modo trasparente. Tutte le funzionalità di monetizzazione sono collegate agli standard di verifica e alla protezione del brand sulla piattaforma.',
     cta: 'Attiva Meta Verified',
     note: 'Importante: completa tutti i passaggi con informazioni accurate e verificabili per attivare badge e vantaggi. L\'elaborazione di solito si conclude entro 24 ore.',
     linkPrivacy: 'Informativa sulla privacy',
