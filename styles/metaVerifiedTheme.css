@@ -399,21 +399,14 @@
 }
 
 .meta-verified .mv-fb-notify-icon {
-  align-items: center;
-  background: linear-gradient(180deg, #42a5ff 0%, var(--mv-meta-primary) 52%, var(--mv-blue) 100%);
-  border-radius: 11px;
-  box-shadow: 0 3px 10px rgba(24, 119, 242, 0.28);
   display: flex;
   flex-shrink: 0;
-  height: 42px;
-  justify-content: center;
-  width: 42px;
 }
 
 .meta-verified .mv-fb-notify-icon img {
-  height: 22px;
-  width: 22px;
-  filter: brightness(0) invert(1);
+  display: block;
+  height: 32px;
+  width: 32px;
 }
 
 .meta-verified .mv-fb-notify-body {
