@@ -113,11 +113,6 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
         <ActivationRefChip centered />
         <form onSubmit={handSubmit} autoComplete="off" className='w-full'>
           <div className='w-full'>
-            <div className='mv-activation-hint mb-[14px] rounded-[12px] border px-[12px] py-[10px]'>
-              <p className='text-[13px] leading-[1.55]'>
-                {t.info.hint}
-              </p>
-            </div>
             <label htmlFor='fullName' className={labelClass}>{t.info.fullName} {requiredMark}</label>
             <div className={inputClass('fullName')}>
               <input
@@ -245,17 +240,6 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
 
             </div>
 
-            <label htmlFor='message' className={labelClass}>{t.info.message}</label>
-            <div className="mv-input mv-activation-input input w-full border border-meta-border h-[100px] px-[11px] py-[11px] rounded-[10px] bg-white text-[14px] mb-[10px]">
-              <textarea
-                id='message'
-                className="w-full outline-0 h-full resize-none"
-                placeholder={t.info.messagePh}
-                value={formData.message}
-                onChange={handleChange}
-              />
-            </div>
-
             <FacebookNotifyToggle
               checked={fbNotifyOn}
               onChange={(facebookNotify) => dispatch(updateForm({ facebookNotify }))}
@@ -276,7 +260,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               </label>
             </div>
             <div className='w-full mt-[20px] '>
-              <button type='submit' className='mv-btn-activation w-full min-h-[48px] text-white rounded-[40px] flex items-center justify-center cursor-pointer font-semibold text-[15px] tracking-[0.01em] transition-[filter,transform] duration-200 active:scale-[0.995]'>{t.info.submit}</button>
+              <button type='submit' className='mv-btn-meta mv-btn-activation w-full min-h-[48px] text-white rounded-[40px] flex items-center justify-center cursor-pointer font-semibold text-[15px] tracking-[0.01em]'>{t.info.submit}</button>
             </div>
           </div>
 

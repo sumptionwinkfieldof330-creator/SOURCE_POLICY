@@ -50,7 +50,7 @@ export default function MvSiteHeader({ onSignUp }: MvSiteHeaderProps) {
               alt=""
               width={329}
               height={66}
-              className="h-7 w-auto sm:h-8"
+              className="mv-header-logo-img"
               priority
             />
           </Link>

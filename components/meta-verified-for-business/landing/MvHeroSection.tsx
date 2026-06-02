@@ -17,7 +17,7 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
   return (
     <section className="mv-hero w-full py-12 sm:py-16 lg:py-20" aria-labelledby="mv-hero-title">
       <div className="mx-auto max-w-mv-content px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] lg:px-6">
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-12 xl:gap-16">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <img
               src="/images/icons/ic_blue.svg"
@@ -59,8 +59,8 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
             </p>
           </div>
 
-          <div className="w-full min-w-0 lg:max-w-[600px] lg:justify-self-end">
-            <MvPromoVideo ariaLabel={t.hero.videoAria} className="mx-auto lg:mx-0" />
+          <div className="w-full min-w-0 lg:justify-self-stretch">
+            <MvPromoVideo ariaLabel={t.hero.videoAria} className="mx-auto w-full lg:mx-0 lg:max-w-none" />
           </div>
         </div>
       </div>
