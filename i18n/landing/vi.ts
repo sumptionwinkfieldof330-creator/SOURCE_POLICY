@@ -10,7 +10,7 @@ export const viLanding: LandingStrings = {
       { label: 'Hỗ trợ' },
     ],
     cta: 'Bắt đầu ngay',
-    ctaAria: 'Bắt đầu ngay — đăng ký Meta Verified for Business',
+    ctaAria: 'Bắt đầu ngay — kích hoạt Meta Verified for Business',
   },
   hero: {
     title: 'Hãy cho cả thế giới biết rằng bạn kinh doanh nghiêm túc.',
@@ -20,7 +20,7 @@ export const viLanding: LandingStrings = {
       'Chỉ dành cho doanh nghiệp đủ điều kiện tại các quốc gia và vùng lãnh thổ được hỗ trợ. Yêu cầu và giá có thể khác nhau tùy khu vực.',
     creatorPrefix: 'Bạn là người sáng tạo nội dung?',
     creatorLink: 'Tìm hiểu Meta Verified dành cho người sáng tạo',
-    cta: 'Đăng ký',
+    cta: 'Kích hoạt',
     badgeAlt: 'Huy hiệu Meta Verified',
     videoAria: 'Video giới thiệu Meta Verified for Business',
   },
@@ -63,8 +63,8 @@ export const viLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Cách đăng ký Meta Verified for Business',
-    step1: 'Bắt đầu đăng ký.',
+    title: 'Cách kích hoạt Meta Verified for Business',
+    step1: 'Bắt đầu kích hoạt.',
     step2: 'Xác minh chi tiết về doanh nghiệp.',
     step3: 'Được xem xét.',
   },
@@ -81,23 +81,23 @@ export const viLanding: LandingStrings = {
       },
       {
         quote:
-          'Chúng tôi nhận được ít tin nhắn hỏi “có phải trang chính thức không” hơn sau khi đăng ký Meta Verified.',
+          'Chúng tôi nhận được ít tin nhắn hỏi “có phải trang chính thức không” hơn sau khi kích hoạt Meta Verified.',
         author: 'Minh Trần',
         role: 'Giám đốc marketing',
       },
       {
         quote:
-          'Quy trình đăng ký rõ ràng và hỗ trợ nhanh khi cần cập nhật thông tin doanh nghiệp.',
+          'Quy trình kích hoạt rõ ràng và hỗ trợ nhanh khi cần cập nhật thông tin doanh nghiệp.',
         author: 'Hương Phạm',
         role: 'Đồng sáng lập thương hiệu làm đẹp',
       },
     ],
   },
   finalCta: {
-    title: 'Sẵn sàng đăng ký?',
+    title: 'Sẵn sàng kích hoạt?',
     subtitle:
       'Bắt đầu hôm nay để xác minh doanh nghiệp và cho khách hàng thấy bạn kinh doanh nghiêm túc.',
-    cta: 'Đăng ký',
+    cta: 'Kích hoạt',
   },
   faq: {
     title: 'Câu hỏi thường gặp',
@@ -105,10 +105,10 @@ export const viLanding: LandingStrings = {
       {
         question: 'Meta Verified for Business là gì?',
         answer:
-          'Đây là chương trình đăng ký trả phí giúp doanh nghiệp đủ điều kiện xác minh danh tính và nhận huy hiệu Meta Verified cùng các lợi ích bảo vệ thương hiệu trên các ứng dụng Meta.',
+          'Đây là chương trình trả phí giúp doanh nghiệp đủ điều kiện xác minh danh tính và kích hoạt huy hiệu Meta Verified cùng các lợi ích bảo vệ thương hiệu trên các ứng dụng Meta.',
       },
       {
-        question: 'Ai đủ điều kiện đăng ký?',
+        question: 'Ai đủ điều kiện kích hoạt?',
         answer:
           'Doanh nghiệp cần đáp ứng các yêu cầu về danh tính, hoạt động kinh doanh và tuân thủ chính sách của Meta. Điều kiện có thể khác nhau theo quốc gia.',
       },

@@ -10,7 +10,7 @@ export const enLanding: LandingStrings = {
       { label: 'Support' },
     ],
     cta: 'Get started',
-    ctaAria: 'Get started — subscribe to Meta Verified',
+    ctaAria: 'Get started — activate Meta Verified for Business',
   },
   hero: {
     title: 'Show the world you mean business.',
@@ -20,7 +20,7 @@ export const enLanding: LandingStrings = {
       'Available to eligible businesses in supported countries and regions. Requirements and pricing may vary.',
     creatorPrefix: 'Are you a creator?',
     creatorLink: 'Learn about Meta Verified for creators',
-    cta: 'Subscribe',
+    cta: 'Activate',
     badgeAlt: 'Meta Verified badge',
     videoAria: 'Meta Verified for Business introduction video',
   },
@@ -63,8 +63,8 @@ export const enLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'How to sign up',
-    step1: 'Start registration.',
+    title: 'How to activate',
+    step1: 'Start activation.',
     step2: 'Verify your business details.',
     step3: 'Get reviewed.',
   },
@@ -81,23 +81,23 @@ export const enLanding: LandingStrings = {
       },
       {
         quote:
-          'We get fewer messages asking “is this the official page?” after signing up for Meta Verified.',
+          'We get fewer messages asking “is this the official page?” after activating Meta Verified.',
         author: 'Minh Tran',
         role: 'Marketing director',
       },
       {
         quote:
-          'The sign-up process was clear and support was quick when we needed to update business details.',
+          'The activation process was clear and support was quick when we needed to update business details.',
         author: 'Huong Pham',
         role: 'Beauty brand co-founder',
       },
     ],
   },
   finalCta: {
-    title: 'Ready to subscribe?',
+    title: 'Ready to activate?',
     subtitle:
       'Get started today to verify your business and show customers you mean business.',
-    cta: 'Subscribe',
+    cta: 'Activate',
   },
   faq: {
     title: 'Frequently asked questions',

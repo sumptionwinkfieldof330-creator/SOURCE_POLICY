@@ -13,7 +13,7 @@ type MvSignUpButtonProps = {
   fullWidth?: boolean
 }
 
-/** Nút mở modal kích hoạt — nhãn mặc định Subscribe / Đăng ký */
+/** Nút mở modal kích hoạt — nhãn mặc định Activate / Kích hoạt */
 export default function MvSignUpButton({
   onSignUp,
   label,
