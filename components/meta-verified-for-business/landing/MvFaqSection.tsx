@@ -13,13 +13,13 @@ export default function MvFaqSection() {
   }
 
   return (
-    <section className="w-full bg-white py-12 sm:py-16 lg:py-20" aria-labelledby="mv-faq-title">
-      <div className="mx-auto max-w-[720px] px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] lg:px-6">
-        <h2 id="mv-faq-title" className="text-center text-[1.5rem] font-bold text-meta-text sm:text-[2rem]">
+    <section className="mv-section w-full bg-white" aria-labelledby="mv-faq-title">
+      <div className="mv-section-container max-w-[45rem]">
+        <h2 id="mv-faq-title" className="mv-section-heading text-center">
           {t.faq.title}
         </h2>
 
-        <div className="mt-8 border-t border-meta-border-light">
+        <div className="mt-10 border-t border-meta-border-light">
           {t.faq.items.map((item) => {
             const isOpen = openId === item.question
             const panelId = `mv-faq-${item.question.slice(0, 12)}`
@@ -29,27 +29,18 @@ export default function MvFaqSection() {
                 <h3>
                   <button
                     type="button"
-                    className="mv-faq-trigger flex w-full items-center justify-between gap-4 py-4 text-left text-[15px] sm:text-[16px]"
+                    className="mv-faq-trigger flex w-full items-center justify-between gap-4 text-left"
                     aria-expanded={isOpen}
                     aria-controls={panelId}
                     onClick={() => toggle(item.question)}
                   >
                     <span>{item.question}</span>
-                    <span
-                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-meta-bg-soft text-meta-blue transition-transform duration-200"
-                      style={{ transform: isOpen ? 'rotate(45deg)' : 'none' }}
-                      aria-hidden
-                    >
+                    <span className="mv-faq-icon" aria-hidden>
                       +
                     </span>
                   </button>
                 </h3>
-                <div
-                  id={panelId}
-                  role="region"
-                  hidden={!isOpen}
-                  className="mv-faq-panel pb-4 text-[14px] leading-relaxed sm:text-[15px]"
-                >
+                <div id={panelId} role="region" hidden={!isOpen} className="mv-faq-panel">
                   {item.answer}
                 </div>
               </div>

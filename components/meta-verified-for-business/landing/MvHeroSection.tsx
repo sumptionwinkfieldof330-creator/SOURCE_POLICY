@@ -15,38 +15,31 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
   const t = useLandingStrings()
 
   return (
-    <section className="mv-hero w-full py-12 sm:py-16 lg:py-20" aria-labelledby="mv-hero-title">
-      <div className="mx-auto max-w-mv-content px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] lg:px-6">
-        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-12 xl:gap-16">
+    <section className="mv-hero mv-section mv-section-lg" aria-labelledby="mv-hero-title">
+      <div className="mv-section-container">
+        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-14 xl:gap-20">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <img
               src="/images/icons/ic_blue.svg"
               alt={t.hero.badgeAlt}
               width={56}
               height={56}
-              className="mb-5 h-12 w-12 sm:h-14 sm:w-14"
+              className="mv-hero-badge"
             />
 
-            <h1
-              id="mv-hero-title"
-              className="text-[1.85rem] font-bold leading-[1.12] tracking-tight text-meta-text sm:text-[2.25rem] lg:text-[2.75rem]"
-            >
+            <h1 id="mv-hero-title" className="mv-hero-title">
               {t.hero.title}
             </h1>
 
-            <p className="mv-hero-lead mt-5 max-w-[640px] text-[16px] leading-relaxed sm:text-[18px]">
-              {t.hero.lead}
-            </p>
+            <p className="mv-hero-lead mt-5 max-w-[36rem]">{t.hero.lead}</p>
 
-            <div className="mt-8 w-full max-w-[360px]">
+            <div className="mt-8 w-full max-w-[22.5rem]">
               <MvSignUpButton onSignUp={onSignUp} />
             </div>
 
-            <p className="mt-5 max-w-[560px] text-[13px] leading-relaxed text-meta-text-muted sm:text-[14px]">
-              {t.hero.eligibility}
-            </p>
+            <p className="mv-hero-note mt-5 max-w-[35rem]">{t.hero.eligibility}</p>
 
-            <p className="mt-4 text-[14px] text-meta-text-body">
+            <p className="mv-hero-secondary mt-4">
               {t.hero.creatorPrefix}{' '}
               <Link
                 href={t.hero.creatorHref}

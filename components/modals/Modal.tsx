@@ -43,17 +43,17 @@ const Modal: React.FC<ModalProps> = ({
                 >
                     <motion.div
                         key="modal-content"
-                        className={`mv-modal-bg mx-auto flex w-full min-w-0 max-w-lg max-h-[min(90dvh,calc(100dvh-env(safe-area-inset-top)-env(safe-area-inset-bottom)-2rem))] flex-col overflow-hidden rounded-[16px] shadow-lg px-[18px] py-[18px] sm:max-h-[min(92dvh,calc(100dvh-5rem))] sm:px-[20px] sm:py-[20px] ${heightFull ? 'h-full max-h-none' : ''} ${panelClassName}`}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        exit={{ opacity: 0, scale: 0.8 }}
-                        transition={{ duration: 0.15 }}
+                        className={`mv-modal-bg mx-auto flex w-full min-w-0 max-w-lg max-h-[min(90dvh,calc(100dvh-env(safe-area-inset-top)-env(safe-area-inset-bottom)-2rem))] flex-col overflow-hidden rounded-mv-md shadow-mv-lg px-5 py-5 sm:max-h-[min(92dvh,calc(100dvh-5rem))] sm:px-6 sm:py-6 ${heightFull ? 'h-full max-h-none' : ''} ${panelClassName}`}
+                        initial={{ opacity: 0, scale: 0.96, y: 8 }}
+                        animate={{ opacity: 1, scale: 1, y: 0 }}
+                        exit={{ opacity: 0, scale: 0.96, y: 8 }}
+                        transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
                     >
                         {/* Header */}
                         {showHeader ? (
-                        <div className="mv-modal-header mb-[12px] flex items-center justify-between">
+                        <div className="mv-modal-header mb-4 flex items-center justify-between">
                             {title ? (
-                                <h2 className={`mv-modal-title min-w-0 flex-1 pr-2 text-left text-[14px] font-bold leading-snug text-meta-text sm:text-[15px] break-words ${titleClassName}`}>{title}</h2>
+                                <h2 className={`mv-modal-title min-w-0 flex-1 pr-3 text-left text-mv-base font-bold leading-snug text-meta-text sm:text-mv-lg break-words ${titleClassName}`}>{title}</h2>
                             ) : (<div className="w-full"></div>)}
 
                             {isClosable ? (

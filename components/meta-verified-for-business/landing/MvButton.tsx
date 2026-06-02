@@ -20,7 +20,7 @@ export default function MvButton({
   ariaLabel,
 }: MvButtonProps) {
   const base =
-    'inline-flex min-h-[48px] w-full max-w-[min(100%,360px)] items-center justify-center px-6 py-3 text-[15px] sm:text-[16px] transition duration-200 disabled:cursor-not-allowed disabled:opacity-60'
+    'inline-flex min-h-[3rem] w-full max-w-[min(100%,22.5rem)] items-center justify-center px-7 py-3 text-[15px] sm:min-h-[3.125rem] sm:text-base transition duration-200 disabled:cursor-not-allowed disabled:opacity-60'
   const variantClass = variant === 'primary' ? 'mv-btn-meta' : 'mv-btn-meta-outline'
 
   return (

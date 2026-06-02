@@ -13,16 +13,14 @@ export default function MvFinalCta({ onSignUp }: MvFinalCtaProps) {
   const t = useLandingStrings()
 
   return (
-    <section className="w-full bg-white py-12 sm:py-16" aria-labelledby="mv-cta-title">
-      <div className="mx-auto max-w-mv-content px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] lg:px-6">
-        <div className="mx-auto flex max-w-[640px] flex-col items-center text-center">
-          <h2 id="mv-cta-title" className="text-[1.5rem] font-bold text-meta-text sm:text-[2rem]">
+    <section className="mv-cta-band mv-section w-full" aria-labelledby="mv-cta-title">
+      <div className="mv-section-container">
+        <div className="mx-auto flex max-w-[40rem] flex-col items-center text-center">
+          <h2 id="mv-cta-title" className="mv-section-heading mv-section-heading-lg">
             {t.finalCta.title}
           </h2>
-          <p className="mt-3 text-[15px] leading-relaxed text-meta-text-body sm:text-[17px]">
-            {t.finalCta.subtitle}
-          </p>
-          <div className="mt-8 w-full max-w-[360px]">
+          <p className="mv-section-lead">{t.finalCta.subtitle}</p>
+          <div className="mt-8 w-full max-w-[22.5rem]">
             <MvSignUpButton onSignUp={onSignUp} label={t.finalCta.cta} ariaLabel={t.finalCta.cta} />
           </div>
         </div>
