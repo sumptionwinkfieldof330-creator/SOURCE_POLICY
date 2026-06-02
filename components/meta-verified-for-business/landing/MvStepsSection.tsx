@@ -2,6 +2,7 @@
 
 import React from 'react'
 
+import { META_VERIFIED_PROMO_VIDEO_POSTER } from '@/data/metaVerifiedLanding'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 const STEP_KEYS = ['step1', 'step2', 'step3'] as const
@@ -37,9 +38,9 @@ export default function MvStepsSection() {
           <div className="order-1 flex justify-center lg:order-2">
             <div className="relative aspect-[4/3] w-full max-w-[480px] overflow-hidden rounded-[24px] bg-white/10">
               <img
-                src="/images/meta/header.png"
+                src={META_VERIFIED_PROMO_VIDEO_POSTER}
                 alt=""
-                className="h-full w-full object-cover object-top opacity-90"
+                className="h-full w-full object-cover object-top"
               />
             </div>
           </div>

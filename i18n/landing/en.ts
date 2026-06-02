@@ -1,15 +1,17 @@
 import type { LandingStrings } from './types'
 
-const TRUST = 'Build trust'
-const BRAND = 'Protect your brand'
-const META_APPS = 'Benefits on Facebook and Instagram'
-const WHATSAPP = 'Benefits on WhatsApp'
-
 export const enLanding: LandingStrings = {
-  promo: {
-    text: 'Save 20% on Meta Verified for Business with annual billing.',
-    learnMore: 'Learn more',
-    learnMoreHref: 'https://www.facebook.com/business/help',
+  header: {
+    logoLabel: 'Meta',
+    logoHref: 'https://www.facebook.com/business',
+    nav: [
+      { label: 'Get started', href: 'https://www.facebook.com/business' },
+      { label: 'Advertise', href: 'https://www.facebook.com/business/tools/ads-manager' },
+      { label: 'Learn', href: 'https://www.facebook.com/business/learn' },
+      { label: 'Support', href: 'https://www.facebook.com/business/help' },
+    ],
+    cta: 'Get started',
+    ctaAria: 'Get started — sign up for Meta Verified',
   },
   hero: {
     title: 'Show the world you mean business.',
@@ -21,6 +23,7 @@ export const enLanding: LandingStrings = {
     creatorLink: 'Learn about Meta Verified for creators',
     creatorHref: 'https://www.facebook.com/meta-verified',
     cta: 'Sign up',
+    videoAria: 'Meta Verified for Business introduction video',
   },
   benefits: {
     title: 'Discover Meta Verified for Business benefits',
@@ -58,143 +61,6 @@ export const enLanding: LandingStrings = {
         title: 'Sustainable growth',
         description:
           'Build lasting customer relationships on the Meta apps they use every day.',
-      },
-    ],
-  },
-  pricing: {
-    title: 'Choose a plan that fits your business',
-    subtitle:
-      'You can upgrade, downgrade or cancel anytime in Meta Verified settings. Prices shown per month.',
-    perMonth: '/month',
-    cta: 'Sign up',
-    plans: [
-      {
-        id: 'standard',
-        name: 'Business Standard',
-        price: '$14.99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Meta Verified badge on your Page' },
-              { text: 'Enhanced profile in search results', locked: true },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Basic impersonation monitoring' },
-              { text: 'Advanced brand name protection', locked: true },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Link Instagram account' },
-              { text: 'Priority support', locked: true },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Verified badge on WhatsApp Business', locked: true }],
-          },
-        ],
-      },
-      {
-        id: 'plus',
-        name: 'Business Plus',
-        price: '$44.99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Meta Verified badge on your Page' },
-              { text: 'Enhanced profile in search results' },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Basic impersonation monitoring' },
-              { text: 'Advanced brand name protection', locked: true },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Link Instagram account' },
-              { text: 'Priority support' },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Verified badge on WhatsApp Business', locked: true }],
-          },
-        ],
-      },
-      {
-        id: 'premium',
-        name: 'Business Premium',
-        price: '$69.99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Meta Verified badge on your Page' },
-              { text: 'Enhanced profile in search results' },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Basic impersonation monitoring' },
-              { text: 'Advanced brand name protection' },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Link Instagram account' },
-              { text: 'Priority support' },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Verified badge on WhatsApp Business' }],
-          },
-        ],
-      },
-      {
-        id: 'max',
-        name: 'Business Max',
-        price: '$99.99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Meta Verified badge on your Page' },
-              { text: 'Enhanced profile in search results' },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Basic impersonation monitoring' },
-              { text: 'Advanced brand name protection' },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Link Instagram account' },
-              { text: 'Priority support' },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Verified badge on WhatsApp Business' }],
-          },
-        ],
       },
     ],
   },
@@ -265,18 +131,6 @@ export const enLanding: LandingStrings = {
       },
     ],
   },
-  newsletter: {
-    title: 'Get Meta for Business updates',
-    description: 'Subscribe for product news, tips and offers for businesses.',
-    emailLabel: 'Email',
-    emailPlaceholder: 'Email address',
-    countryLabel: 'Country',
-    countryPlaceholder: 'Select country',
-    privacyPrefix: 'By subscribing, you agree to the',
-    privacyLink: 'Privacy Policy',
-    privacyHref: 'https://www.facebook.com/privacy/policy/',
-    submit: 'Subscribe',
-  },
   footer: {
     copyright: '© Meta',
     columns: [
@@ -303,8 +157,5 @@ export const enLanding: LandingStrings = {
         ],
       },
     ],
-  },
-  nav: {
-    signUp: 'Sign up',
   },
 }

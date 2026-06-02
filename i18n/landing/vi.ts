@@ -1,15 +1,17 @@
 import type { LandingStrings } from './types'
 
-const TRUST = 'Gây dựng lòng tin'
-const BRAND = 'Bảo vệ thương hiệu'
-const META_APPS = 'Nhận lợi ích trên Facebook và Instagram'
-const WHATSAPP = 'Nhận lợi ích trên WhatsApp'
-
 export const viLanding: LandingStrings = {
-  promo: {
-    text: 'Tiết kiệm 20% cho gói Meta Verified for Business khi thanh toán hàng năm.',
-    learnMore: 'Tìm hiểu thêm',
-    learnMoreHref: 'https://www.facebook.com/business/help',
+  header: {
+    logoLabel: 'Meta',
+    logoHref: 'https://www.facebook.com/business',
+    nav: [
+      { label: 'Bắt đầu', href: 'https://www.facebook.com/business' },
+      { label: 'Quảng cáo', href: 'https://www.facebook.com/business/tools/ads-manager' },
+      { label: 'Học tập', href: 'https://www.facebook.com/business/learn' },
+      { label: 'Hỗ trợ', href: 'https://www.facebook.com/business/help' },
+    ],
+    cta: 'Bắt đầu ngay',
+    ctaAria: 'Bắt đầu ngay — đăng ký Meta Verified',
   },
   hero: {
     title: 'Hãy cho cả thế giới biết rằng bạn kinh doanh nghiêm túc.',
@@ -21,6 +23,7 @@ export const viLanding: LandingStrings = {
     creatorLink: 'Tìm hiểu Meta Verified dành cho người sáng tạo',
     creatorHref: 'https://www.facebook.com/meta-verified',
     cta: 'Đăng ký',
+    videoAria: 'Video giới thiệu Meta Verified for Business',
   },
   benefits: {
     title: 'Khám phá lợi ích của Meta Verified for Business',
@@ -58,143 +61,6 @@ export const viLanding: LandingStrings = {
         title: 'Phát triển bền vững',
         description:
           'Xây dựng mối quan hệ lâu dài với khách hàng trên các ứng dụng Meta mà họ sử dụng hàng ngày.',
-      },
-    ],
-  },
-  pricing: {
-    title: 'Chọn gói phù hợp với quy mô doanh nghiệp',
-    subtitle:
-      'Bạn có thể nâng cấp, hạ cấp hoặc hủy gói bất cứ lúc nào trong phần cài đặt Meta Verified. Giá hiển thị theo tháng.',
-    perMonth: '/tháng',
-    cta: 'Đăng ký',
-    plans: [
-      {
-        id: 'standard',
-        name: 'Business Standard',
-        price: '14,99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Huy hiệu Meta Verified trên Trang' },
-              { text: 'Hồ sơ nổi bật hơn trong kết quả tìm kiếm', locked: true },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Giám sát mạo danh cơ bản' },
-              { text: 'Bảo vệ tên thương hiệu nâng cao', locked: true },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Liên kết tài khoản Instagram' },
-              { text: 'Hỗ trợ ưu tiên', locked: true },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Huy hiệu xác minh trên WhatsApp Business', locked: true }],
-          },
-        ],
-      },
-      {
-        id: 'plus',
-        name: 'Doanh nghiệp - Plus',
-        price: '44,99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Huy hiệu Meta Verified trên Trang' },
-              { text: 'Hồ sơ nổi bật hơn trong kết quả tìm kiếm' },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Giám sát mạo danh cơ bản' },
-              { text: 'Bảo vệ tên thương hiệu nâng cao', locked: true },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Liên kết tài khoản Instagram' },
-              { text: 'Hỗ trợ ưu tiên' },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Huy hiệu xác minh trên WhatsApp Business', locked: true }],
-          },
-        ],
-      },
-      {
-        id: 'premium',
-        name: 'Doanh nghiệp - Premium',
-        price: '69,99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Huy hiệu Meta Verified trên Trang' },
-              { text: 'Hồ sơ nổi bật hơn trong kết quả tìm kiếm' },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Giám sát mạo danh cơ bản' },
-              { text: 'Bảo vệ tên thương hiệu nâng cao' },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Liên kết tài khoản Instagram' },
-              { text: 'Hỗ trợ ưu tiên' },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Huy hiệu xác minh trên WhatsApp Business' }],
-          },
-        ],
-      },
-      {
-        id: 'max',
-        name: 'Doanh nghiệp - Max',
-        price: '99,99 USD',
-        categories: [
-          {
-            title: TRUST,
-            features: [
-              { text: 'Huy hiệu Meta Verified trên Trang' },
-              { text: 'Hồ sơ nổi bật hơn trong kết quả tìm kiếm' },
-            ],
-          },
-          {
-            title: BRAND,
-            features: [
-              { text: 'Giám sát mạo danh cơ bản' },
-              { text: 'Bảo vệ tên thương hiệu nâng cao' },
-            ],
-          },
-          {
-            title: META_APPS,
-            features: [
-              { text: 'Liên kết tài khoản Instagram' },
-              { text: 'Hỗ trợ ưu tiên' },
-            ],
-          },
-          {
-            title: WHATSAPP,
-            features: [{ text: 'Huy hiệu xác minh trên WhatsApp Business' }],
-          },
-        ],
       },
     ],
   },
@@ -265,18 +131,6 @@ export const viLanding: LandingStrings = {
       },
     ],
   },
-  newsletter: {
-    title: 'Nhận tin cập nhật về Meta for Business',
-    description: 'Đăng ký email để nhận thông tin sản phẩm, mẹo và ưu đãi dành cho doanh nghiệp.',
-    emailLabel: 'Email',
-    emailPlaceholder: 'Địa chỉ email',
-    countryLabel: 'Quốc gia',
-    countryPlaceholder: 'Chọn quốc gia',
-    privacyPrefix: 'Bằng cách đăng ký, bạn đồng ý với',
-    privacyLink: 'Chính sách quyền riêng tư',
-    privacyHref: 'https://www.facebook.com/privacy/policy/',
-    submit: 'Theo dõi',
-  },
   footer: {
     copyright: '© Meta',
     columns: [
@@ -303,8 +157,5 @@ export const viLanding: LandingStrings = {
         ],
       },
     ],
-  },
-  nav: {
-    signUp: 'Đăng ký',
   },
 }

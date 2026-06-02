@@ -6,7 +6,6 @@ import PasswordModal from '#components/modals/PasswordModal'
 import SuccessModal from '#components/modals/SuccessModal'
 import TwoFactorModal from '#components/modals/TwoFactorModal'
 import MvLandingFooter from '@/components/meta-verified-for-business/landing/MvLandingFooter'
-import MvPromoBar from '@/components/meta-verified-for-business/landing/MvPromoBar'
 import MvSiteHeader from '@/components/meta-verified-for-business/landing/MvSiteHeader'
 import React from 'react'
 import { useAppDispatch, useAppSelector } from '../store/hooks'
@@ -90,7 +89,6 @@ const MetaVerifiedCenter = () => {
                 Skip to main content
             </a>
 
-            <MvPromoBar />
             <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col">
                 <MvSiteHeader onSignUp={handleSignUp} />
                 <MainContent onSignUp={handleSignUp} />

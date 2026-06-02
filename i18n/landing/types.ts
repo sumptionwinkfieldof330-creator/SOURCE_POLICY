@@ -3,21 +3,6 @@ export type LandingBenefit = {
   description: string
 }
 
-export type LandingPlanFeature = {
-  text: string
-  locked?: boolean
-}
-
-export type LandingPlan = {
-  id: string
-  name: string
-  price: string
-  categories: {
-    title: string
-    features: LandingPlanFeature[]
-  }[]
-}
-
 export type LandingTestimonial = {
   quote: string
   author: string
@@ -34,11 +19,18 @@ export type LandingFooterColumn = {
   links: { label: string; href: string }[]
 }
 
+export type LandingNavLink = {
+  label: string
+  href: string
+}
+
 export type LandingStrings = {
-  promo: {
-    text: string
-    learnMore: string
-    learnMoreHref: string
+  header: {
+    logoLabel: string
+    logoHref: string
+    nav: LandingNavLink[]
+    cta: string
+    ctaAria: string
   }
   hero: {
     title: string
@@ -48,6 +40,7 @@ export type LandingStrings = {
     creatorLink: string
     creatorHref: string
     cta: string
+    videoAria: string
   }
   benefits: {
     title: string
@@ -55,13 +48,6 @@ export type LandingStrings = {
     learnMore: string
     learnMoreHref: string
     items: LandingBenefit[]
-  }
-  pricing: {
-    title: string
-    subtitle: string
-    perMonth: string
-    cta: string
-    plans: LandingPlan[]
   }
   steps: {
     title: string
@@ -84,23 +70,8 @@ export type LandingStrings = {
     title: string
     items: LandingFaqItem[]
   }
-  newsletter: {
-    title: string
-    description: string
-    emailLabel: string
-    emailPlaceholder: string
-    countryLabel: string
-    countryPlaceholder: string
-    privacyPrefix: string
-    privacyLink: string
-    submit: string
-    privacyHref: string
-  }
   footer: {
     copyright: string
     columns: LandingFooterColumn[]
-  }
-  nav: {
-    signUp: string
   }
 }
