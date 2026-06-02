@@ -42,20 +42,17 @@ export default function MvSiteHeader({ onSignUp }: MvSiteHeaderProps) {
             href={t.header.logoHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="mv-header-logo flex shrink-0 items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meta-blue"
+            className="mv-header-logo flex shrink-0 items-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meta-blue"
+            aria-label={t.header.logoLabel}
           >
             <Image
-              src="/images/meta/logo.svg"
+              src="/images/meta/logo-meta.svg"
               alt=""
-              width={32}
-              height={32}
-              className="h-7 w-7 sm:h-8 sm:w-8"
-              aria-hidden
+              width={329}
+              height={66}
+              className="h-7 w-auto sm:h-8"
               priority
             />
-            <span className="text-[18px] font-semibold tracking-tight text-[#1c2b33] sm:text-[20px]">
-              {t.header.logoLabel}
-            </span>
           </Link>
 
           <nav className="hidden items-center gap-6 lg:flex" aria-label="Meta for Business">

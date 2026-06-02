@@ -11,7 +11,7 @@ export const viLanding: LandingStrings = {
       { label: 'Hỗ trợ', href: 'https://www.facebook.com/business/help' },
     ],
     cta: 'Bắt đầu ngay',
-    ctaAria: 'Bắt đầu ngay — đăng ký Meta Verified',
+    ctaAria: 'Bắt đầu ngay — đăng ký Meta Verified for Business',
   },
   hero: {
     title: 'Hãy cho cả thế giới biết rằng bạn kinh doanh nghiêm túc.',
@@ -23,6 +23,7 @@ export const viLanding: LandingStrings = {
     creatorLink: 'Tìm hiểu Meta Verified dành cho người sáng tạo',
     creatorHref: 'https://www.facebook.com/meta-verified',
     cta: 'Đăng ký',
+    badgeAlt: 'Huy hiệu Meta Verified',
     videoAria: 'Video giới thiệu Meta Verified for Business',
   },
   benefits: {

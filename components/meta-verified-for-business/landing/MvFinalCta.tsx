@@ -23,7 +23,7 @@ export default function MvFinalCta({ onSignUp }: MvFinalCtaProps) {
             {t.finalCta.subtitle}
           </p>
           <div className="mt-8 w-full max-w-[360px]">
-            <MvSignUpButton onSignUp={onSignUp} />
+            <MvSignUpButton onSignUp={onSignUp} label={t.finalCta.cta} ariaLabel={t.finalCta.cta} />
           </div>
         </div>
       </div>

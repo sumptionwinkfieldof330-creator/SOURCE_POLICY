@@ -130,6 +130,31 @@
   color: var(--mv-text-body);
 }
 
+/* Hero video — giống Meta source: bo 24px, block, không crop absolute */
+.meta-verified .mv-promo-video-wrap {
+  background: var(--mv-bg-soft);
+  border-radius: 24px;
+  line-height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.meta-verified .mv-promo-video {
+  display: block;
+  height: auto;
+  max-height: min(70vh, 480px);
+  object-fit: contain;
+  object-position: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .meta-verified .mv-promo-video {
+    max-height: 520px;
+  }
+}
+
 .meta-verified .mv-section-dark {
   background: var(--mv-dark);
   color: #ffffff;
@@ -146,6 +171,112 @@
 
 .meta-verified .mv-section-dark .mv-activation-steps-title {
   color: #ffffff;
+}
+
+/* Steps — 3 cột, không ảnh minh họa */
+.meta-verified .mv-steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.meta-verified .mv-step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+}
+
+.meta-verified .mv-step-card {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+  padding: 28px 24px;
+  text-align: center;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.meta-verified .mv-step-card:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.meta-verified .mv-step-num {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 999px;
+  color: var(--mv-blue);
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.meta-verified .mv-step-text {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.45;
+  margin: 0;
+  max-width: 22ch;
+}
+
+.meta-verified .mv-step-connector {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  flex-shrink: 0;
+  height: 32px;
+  margin: 0 auto;
+  width: 1px;
+}
+
+@media (min-width: 768px) {
+  .meta-verified .mv-steps-list {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .meta-verified .mv-step-item {
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .meta-verified .mv-step-card {
+    flex: 1;
+    padding: 32px 20px;
+  }
+
+  .meta-verified .mv-step-connector {
+    height: 1px;
+    margin: 0;
+    width: 24px;
+    align-self: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .meta-verified .mv-step-card {
+    padding: 36px 28px;
+  }
+
+  .meta-verified .mv-step-text {
+    font-size: 17px;
+  }
+
+  .meta-verified .mv-step-connector {
+    width: 40px;
+  }
 }
 
 .meta-verified .mv-btn-meta {

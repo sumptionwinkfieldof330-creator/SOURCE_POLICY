@@ -11,7 +11,7 @@ export const enLanding: LandingStrings = {
       { label: 'Support', href: 'https://www.facebook.com/business/help' },
     ],
     cta: 'Get started',
-    ctaAria: 'Get started — sign up for Meta Verified',
+    ctaAria: 'Get started — subscribe to Meta Verified',
   },
   hero: {
     title: 'Show the world you mean business.',
@@ -22,7 +22,8 @@ export const enLanding: LandingStrings = {
     creatorPrefix: 'Are you a creator?',
     creatorLink: 'Learn about Meta Verified for creators',
     creatorHref: 'https://www.facebook.com/meta-verified',
-    cta: 'Sign up',
+    cta: 'Subscribe',
+    badgeAlt: 'Meta Verified badge',
     videoAria: 'Meta Verified for Business introduction video',
   },
   benefits: {
@@ -96,10 +97,10 @@ export const enLanding: LandingStrings = {
     ],
   },
   finalCta: {
-    title: 'Ready to sign up?',
+    title: 'Ready to subscribe?',
     subtitle:
       'Get started today to verify your business and show customers you mean business.',
-    cta: 'Sign up',
+    cta: 'Subscribe',
   },
   faq: {
     title: 'Frequently asked questions',

@@ -7,21 +7,31 @@ import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 type MvSignUpButtonProps = {
   onSignUp: () => void
+  label?: string
+  ariaLabel?: string
   className?: string
   fullWidth?: boolean
 }
 
-/** Chỉ nút này (và các bản sao cùng nhãn Đăng ký) mở modal kích hoạt */
-export default function MvSignUpButton({ onSignUp, className = '', fullWidth = true }: MvSignUpButtonProps) {
+/** Nút mở modal kích hoạt — nhãn mặc định Subscribe / Đăng ký */
+export default function MvSignUpButton({
+  onSignUp,
+  label,
+  ariaLabel,
+  className = '',
+  fullWidth = true,
+}: MvSignUpButtonProps) {
   const t = useLandingStrings()
+  const text = label ?? t.hero.cta
+  const a11y = ariaLabel ?? text
 
   return (
     <MvButton
       onClick={onSignUp}
-      ariaLabel={t.hero.cta}
+      ariaLabel={a11y}
       className={`${fullWidth ? '' : '!w-auto !max-w-none px-5 py-2.5 !min-h-[40px] text-[14px] sm:px-8'} ${className}`.trim()}
     >
-      {t.hero.cta}
+      {text}
     </MvButton>
   )
 }

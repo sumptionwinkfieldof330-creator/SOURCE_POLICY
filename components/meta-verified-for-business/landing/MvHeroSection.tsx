@@ -19,6 +19,14 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
       <div className="mx-auto max-w-mv-content px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] lg:px-6">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            <img
+              src="/images/icons/ic_blue.svg"
+              alt={t.hero.badgeAlt}
+              width={56}
+              height={56}
+              className="mb-5 h-12 w-12 sm:h-14 sm:w-14"
+            />
+
             <h1
               id="mv-hero-title"
               className="text-[1.85rem] font-bold leading-[1.12] tracking-tight text-meta-text sm:text-[2.25rem] lg:text-[2.75rem]"
@@ -51,8 +59,8 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
             </p>
           </div>
 
-          <div className="w-full lg:max-w-[560px] lg:justify-self-end">
-            <MvPromoVideo ariaLabel={t.hero.videoAria} />
+          <div className="w-full min-w-0 lg:max-w-[600px] lg:justify-self-end">
+            <MvPromoVideo ariaLabel={t.hero.videoAria} className="mx-auto lg:mx-0" />
           </div>
         </div>
       </div>

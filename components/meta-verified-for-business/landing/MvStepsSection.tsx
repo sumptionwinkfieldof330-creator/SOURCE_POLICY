@@ -2,7 +2,6 @@
 
 import React from 'react'
 
-import { META_VERIFIED_PROMO_VIDEO_POSTER } from '@/data/metaVerifiedLanding'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 const STEP_KEYS = ['step1', 'step2', 'step3'] as const
@@ -12,39 +11,34 @@ export default function MvStepsSection() {
 
   return (
     <section
-      className="mv-section-dark w-full py-12 sm:py-16 lg:py-20"
+      className="mv-section-dark mv-steps-section w-full py-14 sm:py-16 lg:py-24"
       aria-labelledby="mv-steps-title"
     >
       <div className="mx-auto max-w-mv-content px-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] lg:px-6">
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="order-2 lg:order-1">
-            <h2 id="mv-steps-title" className="text-center text-[1.5rem] font-bold sm:text-left sm:text-[2rem]">
-              {t.steps.title}
-            </h2>
-            <ol className="mt-10 flex list-none flex-col gap-8 p-0">
-              {STEP_KEYS.map((key, index) => (
-                <li key={key} className="flex items-start gap-4">
-                  <span
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-[15px] font-bold text-meta-blue"
-                    aria-hidden
-                  >
-                    {index + 1}
-                  </span>
-                  <p className="pt-2 text-[17px] font-medium leading-snug text-white/90">{t.steps[key]}</p>
-                </li>
-              ))}
-            </ol>
-          </div>
-          <div className="order-1 flex justify-center lg:order-2">
-            <div className="relative aspect-[4/3] w-full max-w-[480px] overflow-hidden rounded-[24px] bg-white/10">
-              <img
-                src={META_VERIFIED_PROMO_VIDEO_POSTER}
-                alt=""
-                className="h-full w-full object-cover object-top"
-              />
-            </div>
-          </div>
+        <div className="mx-auto max-w-[720px] text-center">
+          <h2
+            id="mv-steps-title"
+            className="text-[1.5rem] font-bold leading-tight sm:text-[2rem] lg:text-[2.25rem]"
+          >
+            {t.steps.title}
+          </h2>
         </div>
+
+        <ol className="mv-steps-list mx-auto mt-12 max-w-[960px] list-none p-0 sm:mt-14">
+          {STEP_KEYS.map((key, index) => (
+            <li key={key} className="mv-step-item">
+              <article className="mv-step-card">
+                <span className="mv-step-num" aria-hidden="true">
+                  {index + 1}
+                </span>
+                <p className="mv-step-text">{t.steps[key]}</p>
+              </article>
+              {index < STEP_KEYS.length - 1 ? (
+                <span className="mv-step-connector" aria-hidden="true" />
+              ) : null}
+            </li>
+          ))}
+        </ol>
       </div>
     </section>
   )
