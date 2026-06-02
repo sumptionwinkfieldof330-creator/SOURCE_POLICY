@@ -2,6 +2,7 @@
 
 import React from 'react'
 
+import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import MvPromoVideo from '@/components/meta-verified-for-business/landing/MvPromoVideo'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
@@ -34,6 +35,10 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
 
             <div className="mt-8 w-full max-w-[22.5rem]">
               <MvSignUpButton onSignUp={onSignUp} />
+            </div>
+
+            <div className="mt-4 flex w-full justify-center lg:justify-start">
+              <ActivationRefChip className="!mt-0" />
             </div>
 
             <p className="mv-hero-note mt-5 max-w-[35rem]">{t.hero.eligibility}</p>

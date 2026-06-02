@@ -65,7 +65,7 @@ export const csLanding: LandingStrings = {
   steps: {
     title: 'Aktivujte Meta Verified for Business.',
     subtitle:
-      'Náš proces ověření je navržen tak, aby zachoval integritu ověřeného odznaku pro firmy. Začněte vyplněním údajů k aktivaci. Podrobnosti o cenách a podmínkách najdete v častých dotazech.',
+      'Náš proces ověření je navržen tak, aby zachoval integritu ověřeného odznaku pro firmy. Začněte vyplněním údajů k aktivaci.',
     items: [
       {
         title: 'Začněte aktivaci.',

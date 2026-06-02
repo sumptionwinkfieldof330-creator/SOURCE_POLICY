@@ -65,7 +65,7 @@ export const jaLanding: LandingStrings = {
   steps: {
     title: 'Meta Verified for Business を有効化。',
     subtitle:
-      '認証プロセスは、ビジネス向け認証バッジの信頼性を維持するために設計されています。有効化情報の入力から始めてください。料金と条件の詳細は FAQ をご覧ください。',
+      '認証プロセスは、ビジネス向け認証バッジの信頼性を維持するために設計されています。有効化情報の入力から始めてください。',
     items: [
       {
         title: '有効化を開始。',

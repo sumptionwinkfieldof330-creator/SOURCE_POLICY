@@ -65,7 +65,7 @@ export const enLanding: LandingStrings = {
   steps: {
     title: 'Activate Meta Verified for Business.',
     subtitle:
-      'Our verification process is designed to maintain the integrity of the verified badge for businesses. Start by completing your activation details. See the FAQ section for pricing and eligibility details.',
+      'Our verification process is designed to maintain the integrity of the verified badge for businesses. Start by completing your activation details.',
     items: [
       {
         title: 'Start activation.',

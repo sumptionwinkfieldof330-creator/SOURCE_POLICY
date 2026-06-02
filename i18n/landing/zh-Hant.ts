@@ -60,7 +60,7 @@ export const zhHantLanding: LandingStrings = {
   steps: {
     title: '啟用 Meta Verified for Business。',
     subtitle:
-      '我們的驗證流程旨在維護面向商家的認證徽章公信力。請先完成啟用資訊。價格與資格詳情請參閱常見問題。',
+      '我們的驗證流程旨在維護面向商家的認證徽章公信力。請先完成啟用資訊。',
     items: [
       {
         title: '開始啟用。',

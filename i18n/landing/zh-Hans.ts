@@ -60,7 +60,7 @@ export const zhHansLanding: LandingStrings = {
   steps: {
     title: '激活 Meta Verified for Business。',
     subtitle:
-      '我们的认证流程旨在维护面向商家的认证徽章的公信力。请先完成激活信息。有关价格和条件的详情，请参阅常见问题。',
+      '我们的认证流程旨在维护面向商家的认证徽章的公信力。请先完成激活信息。',
     items: [
       {
         title: '开始激活。',

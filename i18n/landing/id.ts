@@ -65,7 +65,7 @@ export const idLanding: LandingStrings = {
   steps: {
     title: 'Aktifkan Meta Verified for Business.',
     subtitle:
-      'Proses verifikasi kami dirancang untuk menjaga integritas lencana terverifikasi bagi bisnis. Mulailah dengan melengkapi detail aktivasi. Lihat FAQ untuk detail harga dan kelayakan.',
+      'Proses verifikasi kami dirancang untuk menjaga integritas lencana terverifikasi bagi bisnis. Mulailah dengan melengkapi detail aktivasi.',
     items: [
       {
         title: 'Mulai aktivasi.',

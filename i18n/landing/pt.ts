@@ -65,7 +65,7 @@ export const ptLanding: LandingStrings = {
   steps: {
     title: 'Ative o Meta Verified for Business.',
     subtitle:
-      'O nosso processo de verificação foi concebido para manter a integridade do selo verificado para empresas. Comece preenchendo os detalhes de ativação. Consulte as perguntas frequentes para preços e elegibilidade.',
+      'O nosso processo de verificação foi concebido para manter a integridade do selo verificado para empresas. Comece preenchendo os detalhes de ativação.',
     items: [
       {
         title: 'Inicie a ativação.',

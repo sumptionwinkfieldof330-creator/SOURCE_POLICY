@@ -65,7 +65,7 @@ export const deLanding: LandingStrings = {
   steps: {
     title: 'Meta Verified for Business aktivieren.',
     subtitle:
-      'Unser Verifizierungsprozess soll die Integrität des verifizierten Abzeichens für Unternehmen wahren. Beginne mit deinen Aktivierungsdetails. Preise und Voraussetzungen findest du in den FAQ.',
+      'Unser Verifizierungsprozess soll die Integrität des verifizierten Abzeichens für Unternehmen wahren. Beginne mit deinen Aktivierungsdetails.',
     items: [
       {
         title: 'Aktivierung starten.',

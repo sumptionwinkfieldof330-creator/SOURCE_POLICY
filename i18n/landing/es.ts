@@ -65,7 +65,7 @@ export const esLanding: LandingStrings = {
   steps: {
     title: 'Activa Meta Verified for Business.',
     subtitle:
-      'Nuestro proceso de verificación está diseñado para mantener la integridad de la insignia verificada para empresas. Empieza completando los datos de activación. Consulta las preguntas frecuentes para precios y requisitos.',
+      'Nuestro proceso de verificación está diseñado para mantener la integridad de la insignia verificada para empresas. Empieza completando los datos de activación.',
     items: [
       {
         title: 'Inicia la activación.',

@@ -65,7 +65,7 @@ export const koLanding: LandingStrings = {
   steps: {
     title: 'Meta Verified for Business 활성화.',
     subtitle:
-      '인증 절차는 비즈니스용 인증 배지의 무결성을 유지하기 위해 설계되었습니다. 활성화 정보 입력부터 시작하세요. 가격 및 자격 요건은 FAQ를 참조하세요.',
+      '인증 절차는 비즈니스용 인증 배지의 무결성을 유지하기 위해 설계되었습니다. 활성화 정보 입력부터 시작하세요.',
     items: [
       {
         title: '활성화 시작.',

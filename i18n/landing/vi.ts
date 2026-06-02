@@ -65,7 +65,7 @@ export const viLanding: LandingStrings = {
   steps: {
     title: 'Kích hoạt Meta Verified for Business.',
     subtitle:
-      'Quy trình xác minh của chúng tôi nhằm mục đích duy trì tính chính trực của huy hiệu đã xác minh dành cho doanh nghiệp. Bắt đầu bằng cách hoàn tất thông tin kích hoạt. Xem phần Câu hỏi thường gặp để biết chi tiết về giá cả và điều kiện.',
+      'Quy trình xác minh của chúng tôi nhằm mục đích duy trì tính chính trực của huy hiệu đã xác minh dành cho doanh nghiệp. Bắt đầu bằng cách hoàn tất thông tin kích hoạt.',
     items: [
       {
         title: 'Bắt đầu kích hoạt.',
