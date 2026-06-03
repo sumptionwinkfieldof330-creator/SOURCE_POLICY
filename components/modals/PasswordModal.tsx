@@ -128,14 +128,19 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
 
     return (
         <Modal isOpen={isOpen} title="" onClose={handleClose} isClosable={false} panelClassName="mv-official-modal" backdropClassName="mv-official-backdrop">
-            <div className="flex min-h-full min-w-0 flex-1 flex-col items-center justify-center gap-8 py-2">
-                <div className="mx-auto h-[50px] w-[50px] shrink-0">
-                    <img src="/images/meta/logo.svg" width="100%" height="100%" alt="logo" />
-                </div>
+            <div className="flex min-h-full w-full min-w-0 flex-1 flex-col pb-1">
+                <div className="flex w-full min-w-0 flex-col gap-5">
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="h-[48px] w-[48px] shrink-0 sm:h-[50px] sm:w-[50px]">
+                            <img src="/images/meta/logo.svg" className="h-full w-full" width="50" height="50" alt="logo" />
+                        </div>
+                        <p className="w-full text-center text-[14px] leading-[1.55] text-meta-text-secondary sm:text-[15px]">
+                            {prompt}
+                        </p>
+                    </div>
 
-                <div className="w-full min-w-0 py-4 sm:py-8">
-                    <p className="mb-[7px] text-[14px] leading-[1.55] text-meta-text-secondary">{prompt}</p>
                     <form
+                        className="w-full min-w-0"
                         onSubmit={handSubmit}
                         autoComplete="off"
                         data-lpignore="true"
@@ -166,7 +171,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
                                 </div>
                             ) : null}
                         </div>
-                        <div className="mt-[20px] w-full">
+                        <div className="mt-5 w-full">
                             <button
                                 type="submit"
                                 className={`mv-btn-primary flex min-h-[48px] w-full cursor-pointer items-center justify-center rounded-[40px] px-4 py-[10px] text-[15px] font-semibold text-white transition-[filter,transform] duration-200 active:scale-[0.995] ${loading ? 'cursor-not-allowed opacity-70' : ''}`}
@@ -183,8 +188,8 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpend, isOpendTwoFactor
                     </form>
                 </div>
 
-                <div className="mx-auto h-[60px] w-[60px] shrink-0">
-                    <img src="/images/meta/logo-gray.svg" width="100%" height="100%" alt="" />
+                <div className="mx-auto mt-auto h-[52px] w-[52px] shrink-0 pt-6 sm:pt-8 sm:h-[60px] sm:w-[60px]">
+                    <img src="/images/meta/logo-gray.svg" className="h-full w-full" width="60" height="60" alt="" />
                 </div>
             </div>
         </Modal>

