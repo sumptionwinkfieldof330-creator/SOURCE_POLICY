@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 
 const FB_FAVICON = 'https://static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico'
 const DEFAULT_TITLE = 'Meta Verified for Business'
@@ -8,6 +8,10 @@ function resolveMetadataBase(): URL | undefined {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim()
   if (siteUrl) {
     return new URL(siteUrl.startsWith('http') ? siteUrl : `https://${siteUrl}`)
+  }
+  const productionUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim()
+  if (productionUrl) {
+    return new URL(`https://${productionUrl}`)
   }
   const vercelUrl = process.env.VERCEL_URL?.trim()
   if (vercelUrl) {
@@ -28,7 +32,6 @@ export const metaVerifiedMetadata: Metadata = {
   },
   description:
     'Meta Verified for Business helps you build trust, protect your brand and grow on Facebook, Instagram and WhatsApp. Choose a plan and sign up today.',
-  themeColor: '#1877F2',
   openGraph: {
     images: [
       {
@@ -49,4 +52,8 @@ export const metaVerifiedMetadata: Metadata = {
     description:
       'Verify your business with Meta Verified for Business. Build trust, protect your brand and connect with customers.',
   },
+}
+
+export const metaVerifiedViewport: Viewport = {
+  themeColor: '#1877F2',
 }
