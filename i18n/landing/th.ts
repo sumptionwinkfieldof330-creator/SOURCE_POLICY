@@ -90,21 +90,21 @@ export const thLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'ป้ายยืนยันคือตราสัญลักษณ์แห่งความไว้วางใจ ฉันรู้สึกว่าผู้คนเข้าใจทันทีว่าโปรไฟล์ของเราคือธุรกิจจริง ซึ่งสำคัญมาก',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'ผู้ก่อตั้งและหัวหน้านักออกแบบ Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'ประโยชน์อีกอย่างของ Meta Verified คือความมั่นใจออนไลน์ที่เพิ่มขึ้น ฉันเชื่อว่าทำให้ลูกค้าและพันธมิตรพร้อมมีส่วนร่วมมากขึ้นและเห็นความแท้จริงได้ชัดเจนขึ้น',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'ผู้ก่อตั้ง Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'ตั้งแต่สมัครใช้งาน ฉันเห็นความแตกต่างชัดเจน โพสต์มี reach มากขึ้น engagement เพิ่มขึ้น และมีปฏิสัมพันธ์บน Stories และ Reels มากขึ้น ป้ายยืนยันยังมีบทบาทสำคัญต่อความไว้วางใจ แบรนด์หลายแห่งบอกว่าทำให้พวกเขามั่นใจมากขึ้นที่จะติดต่อฉัน',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'เจ้าของ Mom Approved Miami',
       },
     ],
   },

@@ -91,21 +91,21 @@ export const ptLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'O selo verificado é um selo de confiança. Sinto que as pessoas percebem automaticamente que o nosso perfil é o negócio real — isso é fundamental.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'Fundador e designer principal, Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Outro benefício do Meta Verified é a maior confiança online. Acredito que leva clientes e parceiros a interagir mais e a reconhecer melhor a autenticidade.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'Fundadora, Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'Desde que subscrevi, notei uma diferença real. As minhas publicações têm mais alcance, o engagement aumentou e vejo mais interações em stories e reels. O selo também contribui muito para a confiança — marcas disseram-me que se sentiram mais seguras em contactar-me.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'Proprietária, Mom Approved Miami',
       },
     ],
   },

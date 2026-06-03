@@ -91,21 +91,21 @@ export const jaLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          '認証バッジは信頼の証です。私たちのプロフィールが本物のビジネスだと、自然と伝わると感じます。それは非常に重要です。',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: '創業者兼リードデザイナー、Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Meta Verified のもう一つの利点は、オンラインでの信頼感の向上です。顧客やパートナーがより交流しやすくなり、真正性が明確に伝わると思います。',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: '創業者、Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          '登録してから明確な変化を感じています。投稿のリーチが広がり、エンゲージメントが上がり、Stories や Reels での反応も増えました。バッジも信頼形成に大きく貢献しており、ブランドから連絡しやすくなったと言われました。',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'オーナー、Mom Approved Miami',
       },
     ],
   },

@@ -91,21 +91,21 @@ export const arLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'الشارة الموثقة هي علامة ثقة. أشعر أن الناس يدركون تلقائياً أن ملفنا هو النشاط التجاري الحقيقي — وهذا أمر بالغ الأهمية.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'المؤسس والمصمم الرئيسي، Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'من فوائد Meta Verified الأخرى زيادة الثقة على الإنترنت. أعتقد أنها تشجع العملاء والشركاء على التفاعل أكثر وتُظهر الأصالة بوضوح.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'المؤسسة، Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'منذ الاشتراك، لاحظت فرقاً حقيقياً. منشوراتي تصل إلى المزيد من الأشخاص، وتزايد التفاعل، وأرى المزيد من التفاعلات على Stories وReels. الشارة أيضاً تلعب دوراً كبيراً في بناء الثقة — ذكرت علامات تجارية أنها جعلتهم أكثر ثقة للتواصل معي.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'المالكة، Mom Approved Miami',
       },
     ],
   },

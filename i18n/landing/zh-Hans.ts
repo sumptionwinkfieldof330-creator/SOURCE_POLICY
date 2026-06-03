@@ -85,21 +85,21 @@ export const zhHansLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          '认证徽章就像信任的标志。我觉得人们会自动明白我们的主页就是真正的企业——这非常重要。',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: '创始人兼首席设计师，Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Meta Verified 的另一个好处是提升在线信任感。我相信它能让客户和合作伙伴更愿意互动，也更清晰地展现真实性。',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: '创始人，Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          '订阅以来，我感受到了明显变化。帖子覆盖范围更广，互动上升，Stories 和 Reels 的互动也更多了。徽章也在建立信任方面发挥了很大作用——品牌表示这让他们更有信心联系我。',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: '所有者，Mom Approved Miami',
       },
     ],
   },

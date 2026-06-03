@@ -91,21 +91,21 @@ export const koLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          '인증 배지는 신뢰의 표시입니다. 사람들이 우리 프로필이 실제 비즈니스라는 것을 자연스럽게 알아차린다고 느낍니다. 그건 정말 중요합니다.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: '창립자 및 수석 디자이너, Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Meta Verified의 또 다른 이점은 온라인에서의 신뢰 증가입니다. 고객과 파트너가 더 적극적으로 소통하고 진정성을 더 분명히 보여준다고 믿습니다.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: '창립자, Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          '구독 이후 확실한 변화를 느꼈습니다. 게시물 도달 범위가 넓어지고 참여도가 올랐으며 Stories와 Reels에서의 상호작용도 늘었습니다. 배지도 신뢰에 크게 기여하며, 브랜드들은 저에게 연락하기 더 편해졌다고 말했습니다.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: '소유주, Mom Approved Miami',
       },
     ],
   },

@@ -9,32 +9,8 @@ type MvSiteHeaderProps = {
   onSignUp: () => void
 }
 
-function MenuIcon({ open }: { open: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
-      {open ? (
-        <path
-          d="M4 4l10 10M14 4L4 14"
-          stroke="currentColor"
-          strokeWidth="1.75"
-          strokeLinecap="round"
-        />
-      ) : (
-        <>
-          <path d="M2.5 5h13" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-          <path d="M2.5 9h13" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-          <path d="M2.5 13h13" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-        </>
-      )}
-    </svg>
-  )
-}
-
 export default function MvSiteHeader({ onSignUp }: MvSiteHeaderProps) {
   const t = useLandingStrings()
-  const [mobileOpen, setMobileOpen] = React.useState(false)
-
-  const closeMobile = () => setMobileOpen(false)
 
   return (
     <header className="mv-site-header sticky top-0 z-40 w-full shrink-0">
@@ -72,35 +48,8 @@ export default function MvSiteHeader({ onSignUp }: MvSiteHeaderProps) {
           >
             {t.header.cta}
           </button>
-
-          <button
-            type="button"
-            className="mv-mobile-nav-toggle lg:hidden"
-            aria-expanded={mobileOpen}
-            aria-controls="mv-mobile-nav"
-            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-            onClick={() => setMobileOpen((v) => !v)}
-          >
-            <MenuIcon open={mobileOpen} />
-          </button>
         </div>
       </div>
-
-      {mobileOpen ? (
-        <nav
-          id="mv-mobile-nav"
-          className="mv-mobile-nav-panel lg:hidden"
-          aria-label="Meta for Business"
-        >
-          <div className="mv-section-container py-3">
-            {t.header.nav.map((item) => (
-              <span key={item.label} className="mv-mobile-nav-link block">
-                {item.label}
-              </span>
-            ))}
-          </div>
-        </nav>
-      ) : null}
     </header>
   )
 }

@@ -91,21 +91,21 @@ export const idLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'Lencana terverifikasi adalah tanda kepercayaan. Menurut saya, orang otomatis tahu profil kami adalah bisnis asli — dan itu sangat penting.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'Pendiri & desainer utama, Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Manfaat lain Meta Verified adalah peningkatan kepercayaan online. Saya percaya ini mendorong pelanggan dan mitra lebih siap berinteraksi dan menunjukkan autentisitas dengan lebih jelas.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'Pendiri, Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'Sejak berlangganan, saya merasakan perbedaan nyata. Jangkauan posting meningkat, engagement naik, dan interaksi di Stories serta Reels bertambah. Lencana juga berperan besar dalam kepercayaan — merek mengatakan ini membuat mereka lebih percaya diri menghubungi saya.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'Pemilik, Mom Approved Miami',
       },
     ],
   },

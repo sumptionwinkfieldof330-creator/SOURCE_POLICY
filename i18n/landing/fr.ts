@@ -91,21 +91,21 @@ export const frLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'Le badge vérifié est un gage de confiance. Les gens comprennent automatiquement que notre profil est bien celui de l\'entreprise – c\'est essentiel.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'Fondateur et designer principal, Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Meta Verified renforce la confiance en ligne. Je pense qu\'il incite davantage clients et partenaires à interagir et à mieux percevoir l\'authenticité.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'Fondatrice, Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'Depuis mon abonnement, j\'ai constaté une vraie différence. Mes publications touchent plus de monde, l\'engagement augmente et j\'observe plus d\'interactions sur les stories et reels. Le badge joue aussi un grand rôle dans la confiance – des marques m\'ont dit qu\'il les rassurait pour me contacter.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'Propriétaire, Mom Approved Miami',
       },
     ],
   },

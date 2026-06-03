@@ -91,21 +91,21 @@ export const heLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'תג המאומת הוא חותמת אמון. אני מרגיש שאנשים מבינים מיד שהפרופיל שלנו הוא העסק האמיתי – וזה קריטי.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'מייסד ומעצב ראשי, Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'יתרון נוסף של Meta Verified הוא הגברת הביטחון ברשת. אני מאמין שזה גורם ללקוחות ולשותפים לעסוק יותר ולהציג אותנטיות בצורה ברורה יותר.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'מייסדת, Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'מאז שנרשמתי, אני רואה הבדל ממשי. לפוסטים שלי יש יותר חשיפה, הא engagement עלה ואני רואה יותר אינטראקציות ב-Stories וב-Reels. התג גם תורם רבות לאמון – מותגים אמרו שזה גרם להם להרגיש בטוחים יותר לפנות אליי.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'בעלים, Mom Approved Miami',
       },
     ],
   },

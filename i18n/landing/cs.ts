@@ -91,21 +91,21 @@ export const csLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+          'Ověřený odznak je pečeť důvěry. Mám pocit, že lidé automaticky poznají, že náš profil patří skutečné firmě – a to je zásadní.',
         author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+        role: 'Zakladatel a hlavní designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+          'Další výhodou Meta Verified je větší důvěra online. Věřím, že to motivuje zákazníky a partnery k větší interakci a jasněji ukazuje autenticitu.',
         author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+        role: 'Zakladatelka, Water Bear Photography',
       },
       {
         quote:
-          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+          'Od předplatného vidím znatelný rozdíl. Příspěvky mají větší dosah, engagement rostl a vidím více interakcí ve Stories a Reels. Odznak také výrazně přispívá k důvěře – značky řekly, že se cítily jistěji, když mě kontaktovaly.',
         author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+        role: 'Majitelka, Mom Approved Miami',
       },
     ],
   },
