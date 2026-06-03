@@ -91,21 +91,21 @@ export const deLanding: LandingStrings = {
     items: [
       {
         quote:
-          'Das verifizierte Abzeichen hilft Kunden, uns schon bei der ersten Interaktion auf Facebook zu vertrauen.',
-        author: 'Lan Nguyen',
-        role: 'Inhaberin eines Modegeschäfts',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Nach der Aktivierung von Meta Verified erhalten wir weniger Nachrichten mit der Frage „Ist das die offizielle Seite?“',
-        author: 'Minh Tran',
-        role: 'Marketing-Direktor',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'Der Aktivierungsprozess war klar und der Support war schnell, als wir Unternehmensdaten aktualisieren mussten.',
-        author: 'Huong Pham',
-        role: 'Mitgründerin einer Beauty-Marke',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const deLanding: LandingStrings = {
           'Die Prüfung dauert in der Regel einige Tage bis mehrere Wochen, abhängig von deinem Antrag. Du wirst über Updates informiert.',
       },
       {
-        question: 'Worin unterscheidet es sich von der kostenlosen Verifizierung?',
+        question: 'Wie schützt Meta Verified vor Identitätsdiebstahl?',
         answer:
-          'Meta Verified for Business ist ein kostenpflichtiges Abo mit Abzeichen, Markenschutz und zusätzlichem Support, anders als kostenlose Verifizierung in bestimmten Produktkontexten.',
+          'Das Programm hilft, Konten zu erkennen und zu bearbeiten, die Ihr Unternehmen auf Facebook und Instagram imitieren. Das Verifizierungsabzeichen erleichtert Kunden außerdem, Ihre offizielle Präsenz zu erkennen.',
       },
     ],
   },

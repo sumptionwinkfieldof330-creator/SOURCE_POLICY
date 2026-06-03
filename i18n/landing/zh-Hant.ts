@@ -84,19 +84,22 @@ export const zhHantLanding: LandingStrings = {
     nextAria: '下一則',
     items: [
       {
-        quote: '認證徽章讓我們在 Facebook 上的第一次互動就贏得顧客信任。',
-        author: 'Lan Nguyen',
-        role: '時尚零售店主',
+        quote:
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
-        quote: '啟用 Meta Verified 後，詢問「這是官方粉絲專頁嗎？」的訊息變少了。',
-        author: 'Minh Tran',
-        role: '行銷總監',
+        quote:
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
-        quote: '啟用流程清楚，需要更新商家資訊時支援也很迅速。',
-        author: 'Huong Pham',
-        role: '美妝品牌共同創辦人',
+        quote:
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -127,9 +130,9 @@ export const zhHantLanding: LandingStrings = {
         answer: '審核通常需要數天到數週，視你的申請而定。有更新時會通知你。',
       },
       {
-        question: '與免費驗證有何不同？',
+        question: 'Meta Verified 如何防止假冒？',
         answer:
-          'Meta Verified for Business 是包含徽章、品牌保護與額外支援的付費訂閱，與特定產品情境中的免費驗證不同。',
+          '此方案有助偵測並處理在 Facebook 和 Instagram 上冒充您企業的帳號。驗證徽章也能幫助顧客更容易識別您的官方粉絲專頁。',
       },
     ],
   },

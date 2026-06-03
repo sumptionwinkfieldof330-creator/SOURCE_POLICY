@@ -91,21 +91,21 @@ export const viLanding: LandingStrings = {
     items: [
       {
         quote:
-          'Huy hiệu xác minh giúp khách hàng tin tưởng chúng tôi ngay từ lần tương tác đầu tiên trên Facebook.',
-        author: 'Lan Nguyễn',
-        role: 'Chủ cửa hàng thời trang',
+          'Huy hiệu xác minh giống như dấu tin cậy. Mọi người tự hiểu rằng trang của chúng tôi là doanh nghiệp thật — điều đó rất quan trọng.',
+        author: 'Ben Cherrey',
+        role: 'Nhà sáng lập & trưởng nhóm thiết kế, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Chúng tôi nhận được ít tin nhắn hỏi “có phải trang chính thức không” hơn sau khi kích hoạt Meta Verified.',
-        author: 'Minh Trần',
-        role: 'Giám đốc marketing',
+          'Meta Verified giúp tăng sự tự tin trực tuyến. Tôi tin rằng nó khiến khách hàng và đối tác sẵn sàng tương tác hơn và thể hiện tính xác thực rõ ràng hơn.',
+        author: 'Kimber Greenwood',
+        role: 'Nhà sáng lập, Water Bear Photography',
       },
       {
         quote:
-          'Quy trình kích hoạt rõ ràng và hỗ trợ nhanh khi cần cập nhật thông tin doanh nghiệp.',
-        author: 'Hương Phạm',
-        role: 'Đồng sáng lập thương hiệu làm đẹp',
+          'Kể từ khi đăng ký, tôi thấy khác biệt rõ rệt. Bài đăng có thêm phạm vi tiếp cận, tương tác tăng và nhiều tương tác hơn trên Stories cũng như Reels. Huy hiệu cũng góp phần lớn vào niềm tin — các thương hiệu đã nói rõ điều đó giúp họ tự tin liên hệ với tôi hơn.',
+        author: 'Devon Kirby',
+        role: 'Chủ sở hữu, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const viLanding: LandingStrings = {
           'Thời gian xem xét thường từ vài ngày đến vài tuần tùy hồ sơ. Bạn sẽ nhận thông báo khi có cập nhật.',
       },
       {
-        question: 'Meta Verified khác gì so với xác minh miễn phí?',
+        question: 'Meta Verified bảo vệ thương hiệu khỏi giả mạo như thế nào?',
         answer:
-          'Meta Verified for Business là gói trả phí với huy hiệu, bảo vệ thương hiệu và hỗ trợ bổ sung, khác với các hình thức xác minh miễn phí theo ngữ cảnh sản phẩm.',
+          'Chương trình giúp phát hiện và xử lý các tài khoản mạo danh doanh nghiệp trên Facebook và Instagram. Huy hiệu xác minh cũng giúp khách hàng dễ dàng nhận ra trang chính thức của bạn.',
       },
     ],
   },

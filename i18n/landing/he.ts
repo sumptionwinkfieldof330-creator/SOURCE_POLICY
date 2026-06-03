@@ -91,21 +91,21 @@ export const heLanding: LandingStrings = {
     items: [
       {
         quote:
-          'התג המאומת עוזר ללקוחות לסמוך עלינו כבר מהאינטראקציה הראשונה ב-Facebook.',
-        author: 'Lan Nguyen',
-        role: 'בעלת חנות אופנה',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'אנחנו מקבלים פחות הודעות «האם זה הדף הרשמי?» אחרי הפעלת Meta Verified.',
-        author: 'Minh Tran',
-        role: 'מנהל שיווק',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'תהליך ההפעלה היה ברור והתמיכה מהירה כשהיינו צריכים לעדכן פרטי עסק.',
-        author: 'Huong Pham',
-        role: 'שותפה מייסדת במותג יופי',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const heLanding: LandingStrings = {
           'הבדיקה לוקחת בדרך כלל מכמה ימים ועד מספר שבועות, בהתאם לבקשה. תקבלו הודעה על עדכונים.',
       },
       {
-        question: 'במה זה שונה מאימות חינמי?',
+        question: 'איך Meta Verified מגן מפני התחזות?',
         answer:
-          'Meta Verified for Business הוא מנוי בתשלום עם תג, הגנה על מותג ותמיכה נוספת, שונה מאימות חינמי בהקשרי מוצר מסוימים.',
+          'התוכנית עוזרת לזהות ולטפל בחשבונות שמתחזים לעסק שלך ב-Facebook וב-Instagram. התג המאומת גם מקל על לקוחות לזהות את הנוכחות הרשמית שלך.',
       },
     ],
   },

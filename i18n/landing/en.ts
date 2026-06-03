@@ -91,21 +91,21 @@ export const enLanding: LandingStrings = {
     items: [
       {
         quote:
-          'The verified badge helps customers trust us from the very first interaction on Facebook.',
-        author: 'Lan Nguyen',
-        role: 'Fashion retail owner',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'We get fewer messages asking “is this the official page?” after activating Meta Verified.',
-        author: 'Minh Tran',
-        role: 'Marketing director',
+          'Another benefit I’ve found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.',
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'The activation process was clear and support was quick when we needed to update business details.',
-        author: 'Huong Pham',
-        role: 'Beauty brand co-founder',
+          'Since subscribing, I’ve noticed a real difference. My posts are getting more reach, engagement has gone up, and I’m seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.',
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const enLanding: LandingStrings = {
           'Review typically takes from a few days to a few weeks depending on your application. You will be notified of updates.',
       },
       {
-        question: 'How is this different from free verification?',
+        question: 'How does Meta Verified protect against impersonation?',
         answer:
-          'Meta Verified for Business is a paid subscription with a badge, brand protection and additional support, distinct from free verification in certain product contexts.',
+          'The program helps detect and address accounts that impersonate your business on Facebook and Instagram. The verified badge also makes it easier for customers to identify your official presence.',
       },
     ],
   },

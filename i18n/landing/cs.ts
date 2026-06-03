@@ -91,21 +91,21 @@ export const csLanding: LandingStrings = {
     items: [
       {
         quote:
-          'Ověřený odznak pomáhá zákazníkům nám důvěřovat už od první interakce na Facebooku.',
-        author: 'Lan Nguyen',
-        role: 'Majitelka módní prodejny',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Po aktivaci Meta Verified dostáváme méně zpráv s dotazem „je to oficiální stránka?“',
-        author: 'Minh Tran',
-        role: 'Marketingový ředitel',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'Proces aktivace byl jasný a podpora byla rychlá, když jsme potřebovali aktualizovat firemní údaje.',
-        author: 'Huong Pham',
-        role: 'Spoluzakladatelka kosmetické značky',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const csLanding: LandingStrings = {
           'Kontrola obvykle trvá od několika dnů do několika týdnů podle vaší žádosti. O aktualizacích vás budeme informovat.',
       },
       {
-        question: 'Čím se liší od bezplatného ověření?',
+        question: 'Jak Meta Verified chrání před vydáváním se za vaši značku?',
         answer:
-          'Meta Verified for Business je placené předplatné s odznakem, ochranou značky a další podporou, odlišné od bezplatného ověření v určitých kontextech produktu.',
+          'Program pomáhá odhalovat a řešit účty, které se na Facebooku a Instagramu vydávají za vaši firmu. Ověřený odznak také usnadňuje zákazníkům rozpoznat váš oficiální profil.',
       },
     ],
   },

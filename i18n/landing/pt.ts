@@ -91,21 +91,21 @@ export const ptLanding: LandingStrings = {
     items: [
       {
         quote:
-          'O selo verificado ajuda os clientes a confiar em nós desde a primeira interação no Facebook.',
-        author: 'Lan Nguyen',
-        role: 'Proprietária de loja de moda',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Recebemos menos mensagens a perguntar «é a página oficial?» depois de ativar o Meta Verified.',
-        author: 'Minh Tran',
-        role: 'Diretor de marketing',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'O processo de ativação foi claro e o suporte foi rápido quando precisámos de atualizar dados empresariais.',
-        author: 'Huong Pham',
-        role: 'Cofundadora de marca de beleza',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const ptLanding: LandingStrings = {
           'A análise demora normalmente de alguns dias a várias semanas, consoante a candidatura. Será notificado sobre atualizações.',
       },
       {
-        question: 'Como difere da verificação gratuita?',
+        question: 'Como o Meta Verified protege contra impersonação?',
         answer:
-          'O Meta Verified for Business é uma subscrição paga com selo, proteção de marca e suporte adicional, distinto da verificação gratuita em certos contextos de produto.',
+          'O programa ajuda a detetar e tratar contas que impersonam o seu negócio no Facebook e Instagram. O selo verificado também facilita que os clientes identifiquem a sua presença oficial.',
       },
     ],
   },

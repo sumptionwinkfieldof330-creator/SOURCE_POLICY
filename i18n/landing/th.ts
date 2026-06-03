@@ -90,21 +90,21 @@ export const thLanding: LandingStrings = {
     items: [
       {
         quote:
-          'ป้ายยืนยันช่วยให้ลูกค้าไว้วางใจเราตั้งแต่การโต้ตอบครั้งแรกบน Facebook',
-        author: 'Lan Nguyen',
-        role: 'เจ้าของร้านแฟชั่น',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'หลังเปิดใช้งาน Meta Verified เราได้รับข้อความถามว่า "นี่คือเพจทางการหรือไม่" น้อยลง',
-        author: 'Minh Tran',
-        role: 'ผู้อำนวยการฝ่ายการตลาด',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'กระบวนการเปิดใช้งานชัดเจน และการสนับสนุนรวดเร็วเมื่อต้องอัปเดตข้อมูลธุรกิจ',
-        author: 'Huong Pham',
-        role: 'ผู้ร่วมก่อตั้งแบรนด์ความงาม',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -138,9 +138,9 @@ export const thLanding: LandingStrings = {
           'โดยทั่วไปใช้เวลาตั้งแต่ไม่กี่วันถึงหลายสัปดาห์ ขึ้นอยู่กับใบสมัคร เราจะแจ้งเมื่อมีการอัปเดต',
       },
       {
-        question: 'ต่างจากการยืนยันฟรีอย่างไร',
+        question: 'Meta Verified ป้องกันการแอบอ้างอย่างไร?',
         answer:
-          'Meta Verified for Business เป็นบริการสมัครสมาชิกแบบชำระเงินที่มีป้าย การปกป้องแบรนด์ และการสนับสนุนเพิ่มเติม ซึ่งแตกต่างจากการยืนยันฟรีในบางบริบทของผลิตภัณฑ์',
+          'โปรแกรมช่วยตรวจจับและจัดการบัญชีที่แอบอ้างธุรกิจของคุณบน Facebook และ Instagram ป้ายยืนยันยังช่วยให้ลูกค้าระบุบัญชีทางการของคุณได้ง่ายขึ้น',
       },
     ],
   },

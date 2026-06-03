@@ -91,21 +91,21 @@ export const esLanding: LandingStrings = {
     items: [
       {
         quote:
-          'La insignia verificada ayuda a que los clientes confíen en nosotros desde la primera interacción en Facebook.',
-        author: 'Lan Nguyen',
-        role: 'Propietaria de tienda de moda',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Recibimos menos mensajes preguntando «¿es la página oficial?» después de activar Meta Verified.',
-        author: 'Minh Tran',
-        role: 'Director de marketing',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'El proceso de activación fue claro y la asistencia fue rápida cuando necesitamos actualizar datos empresariales.',
-        author: 'Huong Pham',
-        role: 'Cofundadora de marca de belleza',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const esLanding: LandingStrings = {
           'La revisión suele tardar desde unos días hasta varias semanas según tu solicitud. Te notificaremos las actualizaciones.',
       },
       {
-        question: '¿En qué se diferencia de la verificación gratuita?',
+        question: '¿Cómo protege Meta Verified contra la suplantación de identidad?',
         answer:
-          'Meta Verified for Business es una suscripción de pago con insignia, protección de marca y asistencia adicional, distinta de la verificación gratuita en ciertos contextos de producto.',
+          'El programa ayuda a detectar y gestionar cuentas que suplantan tu negocio en Facebook e Instagram. La insignia verificada también facilita que los clientes identifiquen tu presencia oficial.',
       },
     ],
   },

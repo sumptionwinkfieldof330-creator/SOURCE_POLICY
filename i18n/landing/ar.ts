@@ -91,21 +91,21 @@ export const arLanding: LandingStrings = {
     items: [
       {
         quote:
-          'تساعد شارة التحقق العملاء على الوثوق بنا منذ أول تفاعل على Facebook.',
-        author: 'Lan Nguyen',
-        role: 'مالكة متجر أزياء',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'نتلقى رسائل أقل تسأل «هل هذه الصفحة الرسمية؟» بعد تفعيل Meta Verified.',
-        author: 'Minh Tran',
-        role: 'مدير التسويق',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'كانت عملية التفعيل واضحة والدعم سريعًا عندما احتجنا لتحديث بيانات العمل.',
-        author: 'Huong Pham',
-        role: 'شريكة مؤسسة في علامة تجميل',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const arLanding: LandingStrings = {
           'تستغرق المراجعة عادةً من أيام إلى أسابيع حسب طلبك. سيتم إخطارك بالتحديثات.',
       },
       {
-        question: 'كيف يختلف عن التحقق المجاني؟',
+        question: 'كيف يحمي Meta Verified من انتحال الهوية؟',
         answer:
-          'Meta Verified for Business اشتراك مدفوع يتضمن شارة وحماية للعلامة التجارية ودعمًا إضافيًا، ومختلف عن التحقق المجاني في بعض سياقات المنتج.',
+          'يساعد البرنامج في اكتشاف الحسابات التي تنتحل هوية نشاطك التجاري على Facebook وInstagram ومعالجتها. كما تسهِّل الشارة الموثقة على العملاء التعرف على حضورك الرسمي.',
       },
     ],
   },

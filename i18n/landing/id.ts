@@ -91,21 +91,21 @@ export const idLanding: LandingStrings = {
     items: [
       {
         quote:
-          'Lencana terverifikasi membantu pelanggan mempercayai kami sejak interaksi pertama di Facebook.',
-        author: 'Lan Nguyen',
-        role: 'Pemilik ritel fashion',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Kami menerima lebih sedikit pesan "apakah ini halaman resmi?" setelah mengaktifkan Meta Verified.',
-        author: 'Minh Tran',
-        role: 'Direktur pemasaran',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'Proses aktivasi jelas dan dukungan cepat saat kami perlu memperbarui detail bisnis.',
-        author: 'Huong Pham',
-        role: 'Co-founder merek kecantikan',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const idLanding: LandingStrings = {
           'Tinjauan biasanya memerlukan beberapa hari hingga beberapa minggu tergantung aplikasi Anda. Anda akan diberi tahu jika ada pembaruan.',
       },
       {
-        question: 'Apa bedanya dengan verifikasi gratis?',
+        question: 'Bagaimana Meta Verified melindungi dari peniruan identitas?',
         answer:
-          'Meta Verified for Business adalah langganan berbayar dengan lencana, perlindungan merek, dan dukungan tambahan, berbeda dari verifikasi gratis dalam konteks produk tertentu.',
+          'Program ini membantu mendeteksi dan menangani akun yang meniru bisnis Anda di Facebook dan Instagram. Lencana terverifikasi juga memudahkan pelanggan mengenali kehadiran resmi Anda.',
       },
     ],
   },

@@ -267,16 +267,16 @@
 
 .meta-verified .mv-hero-badge {
   display: block;
-  height: 3rem;
+  height: 3.5rem;
   margin-bottom: 1.25rem;
-  width: 3rem;
+  width: 3.5rem;
 }
 
 @media (min-width: 640px) {
   .meta-verified .mv-hero-badge {
-    height: 3.5rem;
+    height: 4.5rem;
     margin-bottom: 1.5rem;
-    width: 3.5rem;
+    width: 4.5rem;
   }
 }
 

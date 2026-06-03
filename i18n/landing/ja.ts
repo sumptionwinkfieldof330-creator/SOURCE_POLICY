@@ -91,21 +91,21 @@ export const jaLanding: LandingStrings = {
     items: [
       {
         quote:
-          '認証バッジのおかげで、Facebook 上での最初のやり取りからお客様の信頼を得られます。',
-        author: 'Lan Nguyen',
-        role: 'ファッション小売オーナー',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Meta Verified を有効化してから、「公式ページですか？」というメッセージが減りました。',
-        author: 'Minh Tran',
-        role: 'マーケティングディレクター',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          '有効化プロセスは明確で、ビジネス情報の更新が必要なときもサポートが迅速でした。',
-        author: 'Huong Pham',
-        role: 'ビューティーブランド共同創業者',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const jaLanding: LandingStrings = {
           '審査は通常、申請内容に応じて数日から数週間かかります。更新があると通知されます。',
       },
       {
-        question: '無料認証との違いは？',
+        question: 'なりすましからどのように保護しますか？',
         answer:
-          'Meta Verified for Business は、バッジ、ブランド保護、追加サポートを含む有料サブスクリプションで、特定の製品コンテキストにおける無料認証とは異なります。',
+          'Facebook や Instagram 上でビジネスになりすますアカウントの検出と対応を支援します。認証バッジにより、顧客が公式アカウントを見分けやすくなります。',
       },
     ],
   },

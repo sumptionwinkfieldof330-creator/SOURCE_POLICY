@@ -91,21 +91,21 @@ export const itLanding: LandingStrings = {
     items: [
       {
         quote:
-          'Il badge verificato aiuta i clienti a fidarsi di noi fin dalla prima interazione su Facebook.',
-        author: 'Lan Nguyen',
-        role: 'Titolare negozio moda',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Riceviamo meno messaggi che chiedono «è la pagina ufficiale?» dopo l\'attivazione di Meta Verified.',
-        author: 'Minh Tran',
-        role: 'Direttore marketing',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          'Il processo di attivazione era chiaro e l\'assistenza rapida quando dovevamo aggiornare i dati aziendali.',
-        author: 'Huong Pham',
-        role: 'Co-fondatrice brand beauty',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const itLanding: LandingStrings = {
           'La revisione richiede in genere da pochi giorni a diverse settimane a seconda della richiesta. Riceverai notifiche sugli aggiornamenti.',
       },
       {
-        question: 'In cosa differisce dalla verifica gratuita?',
+        question: 'In che modo Meta Verified protegge dalle impersonazioni?',
         answer:
-          'Meta Verified for Business è un abbonamento a pagamento con badge, protezione del brand e assistenza aggiuntiva, distinto dalla verifica gratuita in certi contesti prodotto.',
+          'Il programma aiuta a rilevare e gestire gli account che impersonano la tua attività su Facebook e Instagram. Il badge verificato facilita inoltre ai clienti l\'identificazione della tua presenza ufficiale.',
       },
     ],
   },

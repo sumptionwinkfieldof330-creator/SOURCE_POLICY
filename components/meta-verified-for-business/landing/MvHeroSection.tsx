@@ -22,8 +22,8 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
             <img
               src="/images/icons/ic_blue.svg"
               alt={t.hero.badgeAlt}
-              width={56}
-              height={56}
+              width={72}
+              height={72}
               className="mv-hero-badge"
             />
 

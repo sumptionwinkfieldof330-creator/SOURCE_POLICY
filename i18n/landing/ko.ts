@@ -91,21 +91,21 @@ export const koLanding: LandingStrings = {
     items: [
       {
         quote:
-          '인증 배지 덕분에 Facebook에서 첫 상호작용부터 고객의 신뢰를 얻을 수 있습니다.',
-        author: 'Lan Nguyen',
-        role: '패션 소매업 대표',
+          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
+        author: 'Ben Cherrey',
+        role: 'Founder & lead designer, Outside Design Nature Hotel',
       },
       {
         quote:
-          'Meta Verified를 활성화한 후 "공식 페이지인가요?"라는 메시지가 줄었습니다.',
-        author: 'Minh Tran',
-        role: '마케팅 디렉터',
+          "Another benefit I've found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.",
+        author: 'Kimber Greenwood',
+        role: 'Founder, Water Bear Photography',
       },
       {
         quote:
-          '활성화 절차가 명확했고, 비즈니스 정보 업데이트가 필요할 때 지원도 빨랐습니다.',
-        author: 'Huong Pham',
-        role: '뷰티 브랜드 공동 창업자',
+          "Since subscribing, I've noticed a real difference. My posts are getting more reach, engagement has gone up, and I'm seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.",
+        author: 'Devon Kirby',
+        role: 'Owner, Mom Approved Miami',
       },
     ],
   },
@@ -139,9 +139,9 @@ export const koLanding: LandingStrings = {
           '심사는 일반적으로 신청에 따라 며칠에서 몇 주가 걸립니다. 업데이트가 있으면 알려 드립니다.',
       },
       {
-        question: '무료 인증과 어떻게 다른가요?',
+        question: 'Meta Verified는 사칭으로부터 어떻게 보호하나요?',
         answer:
-          'Meta Verified for Business는 배지, 브랜드 보호 및 추가 지원이 포함된 유료 구독으로, 특정 제품 맥락의 무료 인증과는 다릅니다.',
+          'Facebook과 Instagram에서 비즈니스를 사칭하는 계정을 감지하고 대응하는 데 도움을 줍니다. 인증 배지는 고객이 공식 계정을 더 쉽게 식별하도록 돕습니다.',
       },
     ],
   },
