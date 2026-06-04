@@ -17,7 +17,7 @@ export const viLanding: LandingStrings = {
     lead:
       'Meta Verified for Business giúp doanh nghiệp xây dựng lòng tin, bảo vệ thương hiệu và tăng cường sự hiện diện trên Facebook, Instagram và WhatsApp.',
     eligibility:
-      'Chỉ dành cho doanh nghiệp đủ điều kiện tại các quốc gia và vùng lãnh thổ được hỗ trợ. Yêu cầu và giá có thể khác nhau tùy khu vực.',
+      'Chương trình chỉ áp dụng cho các doanh nghiệp đáp ứng đầy đủ điều kiện tham gia tại các quốc gia và vùng lãnh thổ được hỗ trợ theo chính sách hiện hành.',
     creatorPrefix: 'Bạn là người sáng tạo nội dung?',
     creatorLink: 'Tìm hiểu Meta Verified dành cho người sáng tạo',
     cta: 'Kích hoạt',

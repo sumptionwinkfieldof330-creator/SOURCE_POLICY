@@ -17,7 +17,7 @@ export const csLanding: LandingStrings = {
     lead:
       'Meta Verified for Business vám pomůže budovat důvěru, chránit značku a posílit přítomnost na Facebooku, Instagramu a WhatsAppu.',
     eligibility:
-      'K dispozici pro oprávněné firmy v podporovaných zemích a regionech. Požadavky a ceny se mohou lišit.',
+      'Program platí pouze pro podniky, které v plné míře splňují podmínky účasti v podporovaných zemích a regionech podle platných zásad.',
     creatorPrefix: 'Jste tvůrce?',
     creatorLink: 'Více o Meta Verified pro tvůrce',
     cta: 'Aktivovat',

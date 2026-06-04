@@ -17,7 +17,7 @@ export const frLanding: LandingStrings = {
     lead:
       'Meta Verified for Business vous aide à instaurer la confiance, protéger votre marque et renforcer votre présence sur Facebook, Instagram et WhatsApp.',
     eligibility:
-      'Disponible pour les entreprises éligibles dans les pays et régions pris en charge. Les exigences et tarifs peuvent varier.',
+      'Le programme s\'applique uniquement aux entreprises qui remplissent intégralement les conditions de participation dans les pays et territoires pris en charge, conformément à la politique en vigueur.',
     creatorPrefix: 'Vous êtes créateur·trice ?',
     creatorLink: 'En savoir plus sur Meta Verified pour les créateurs',
     cta: 'Activer',

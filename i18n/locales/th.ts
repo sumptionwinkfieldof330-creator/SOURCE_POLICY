@@ -71,9 +71,9 @@ export const th: AppStrings = {
     message: 'หมายเหตุเพิ่มเติม (ไม่บังคับ)',
     messagePh:
       'เช่น เพจอย่างเป็นทางการของแบรนด์ ABC การเปิดใช้งานให้เสร็จจะช่วยแสดงตรา Meta Verified',
-    fbNotifyTitle: 'การแจ้งเตือนบน Facebook',
+    fbNotifyTitle: 'บน Facebook',
     fbNotifyDesc:
-      'ยืนยันตัวตนบน Facebook เพื่อเปิดใช้งาน Meta Verified',
+      'การแจ้งเตือนยืนยันสถานะการยืนยันตัวตนอย่างเป็นทางการของ Meta Verified',
     fbNotifyAria: 'เปิดการแจ้งเตือนบน Facebook',
     agree: 'ข้าพเจ้ายอมรับ',
     agreeTerms: 'ข้อกำหนดการใช้งาน',

@@ -17,7 +17,7 @@ export const heLanding: LandingStrings = {
     lead:
       'Meta Verified for Business עוזר לבנות אמון, להגן על המותג ולחזק את הנוכחות ב-Facebook, Instagram ו-WhatsApp.',
     eligibility:
-      'זמין לעסקים זכאים במדינות ובאזורים נתמכים. הדרישות והמחירים עשויים להשתנות.',
+      'התוכנית חלה רק על עסקים העומדים במלואם בתנאי ההשתתפות במדינות ובאזורים הנתמכים בהתאם למדיניות הנוכחית.',
     creatorPrefix: 'יוצר/ת תוכן?',
     creatorLink: 'למידע על Meta Verified ליוצרים',
     cta: 'הפעלה',

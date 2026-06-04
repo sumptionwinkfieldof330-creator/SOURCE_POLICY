@@ -17,7 +17,7 @@ export const zhHantLanding: LandingStrings = {
     lead:
       'Meta Verified for Business 協助你在 Facebook、Instagram 和 WhatsApp 上建立信任、保護品牌並提升能見度。',
     eligibility:
-      '適用於支援國家與地區中符合資格的商家。要求與價格可能因地區而異。',
+      '本計畫僅適用於完全符合參與條件、且位於現行政策所支援的國家及地區的企業。',
     creatorPrefix: '你是創作者嗎？',
     creatorLink: '了解創作者專用的 Meta Verified',
     cta: '啟用',

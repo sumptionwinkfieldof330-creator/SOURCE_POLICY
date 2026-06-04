@@ -17,7 +17,7 @@ export const zhHansLanding: LandingStrings = {
     lead:
       'Meta Verified for Business 帮助你在 Facebook、Instagram 和 WhatsApp 上建立信任、保护品牌并提升影响力。',
     eligibility:
-      '适用于支持国家和地区中符合条件的商家。要求和价格可能因地区而异。',
+      '本计划仅适用于完全符合参与条件、且位于现行政策所支持的国家及地区的企业。',
     creatorPrefix: '你是创作者吗？',
     creatorLink: '了解面向创作者的 Meta Verified',
     cta: '激活',

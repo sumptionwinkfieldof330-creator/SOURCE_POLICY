@@ -17,7 +17,7 @@ export const jaLanding: LandingStrings = {
     lead:
       'Meta Verified for Business は、Facebook、Instagram、WhatsApp で信頼を築き、ブランドを保護し、存在感を高めるのに役立ちます。',
     eligibility:
-      '対応国・地域の対象ビジネス向けです。要件と料金は地域によって異なる場合があります。',
+      '本プログラムは、現行ポリシーに基づき、対応国・地域で参加要件をすべて満たす事業者にのみ適用されます。',
     creatorPrefix: 'クリエイターですか？',
     creatorLink: 'クリエイター向け Meta Verified について',
     cta: '有効化',

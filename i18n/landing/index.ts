@@ -11,6 +11,7 @@ import { itLanding } from './it'
 import { jaLanding } from './ja'
 import { koLanding } from './ko'
 import { ptLanding } from './pt'
+import { ruLanding } from './ru'
 import { thLanding } from './th'
 import type { LandingStrings } from './types'
 import { viLanding } from './vi'
@@ -34,6 +35,7 @@ const MESSAGES: Record<AppLocale, LandingStrings> = {
   cs: csLanding,
   he: heLanding,
   it: itLanding,
+  ru: ruLanding,
 }
 
 export type { LandingStrings } from './types'

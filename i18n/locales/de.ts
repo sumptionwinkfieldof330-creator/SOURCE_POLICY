@@ -71,9 +71,9 @@ export const de: AppStrings = {
     message: 'Zusätzliche Hinweise (optional)',
     messagePh:
       'z. B. Offizielle Seite der Marke ABC; durch Abschluss der Aktivierung wird das Meta Verified-Abzeichen angezeigt.',
-    fbNotifyTitle: 'Facebook-Benachrichtigungen',
+    fbNotifyTitle: 'Auf Facebook',
     fbNotifyDesc:
-      'Bestätige deine Identität auf Facebook, um Meta Verified zu aktivieren.',
+      'Benachrichtigung zur Bestätigung des offiziellen Meta Verified-Verifizierungsstatus.',
     fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
     agree: 'Ich stimme den',
     agreeTerms: 'Nutzungsbedingungen',

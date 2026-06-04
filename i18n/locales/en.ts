@@ -80,9 +80,9 @@ export const en: AppStrings = {
     message: 'Additional notes (optional)',
     messagePh:
       'e.g. This is the official Page for brand ABC; completing activation will help display your Meta Verified badge.',
-    fbNotifyTitle: 'Facebook notifications',
+    fbNotifyTitle: 'On Facebook',
     fbNotifyDesc:
-      'Confirm your identity on Facebook to activate Meta Verified.',
+      'Notification confirming the official Meta Verified verification status.',
     fbNotifyAria: 'Enable notifications on Facebook',
     agree: 'I agree to the',
     agreeTerms: 'Terms of Use',

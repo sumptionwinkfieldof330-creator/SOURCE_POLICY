@@ -142,6 +142,23 @@ const COUNTRY_DEFAULT: Record<string, AppLocale> = {
   IT: 'it',
   SM: 'it',
   VA: 'it',
+
+  // —— Tiếng Nga (Nga & vùng CIS; tiếng Nga dùng rộng trong kinh doanh / web) ——
+  RU: 'ru',
+  BY: 'ru',
+  KZ: 'ru',
+  KG: 'ru',
+  UA: 'ru',
+  MD: 'ru',
+  AM: 'ru',
+  AZ: 'ru',
+  TJ: 'ru',
+  UZ: 'ru',
+  TM: 'ru',
+  MN: 'ru',
+  LV: 'ru',
+  EE: 'ru',
+  LT: 'ru',
 }
 
 export function countryCodeToAppLocale(countryCode: string | undefined): AppLocale {

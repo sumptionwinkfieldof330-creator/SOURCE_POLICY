@@ -17,7 +17,7 @@ export const koLanding: LandingStrings = {
     lead:
       'Meta Verified for Business는 Facebook, Instagram, WhatsApp에서 신뢰를 구축하고 브랜드를 보호하며 존재감을 강화하는 데 도움이 됩니다.',
     eligibility:
-      '지원 국가 및 지역의 자격을 갖춘 비즈니스에 제공됩니다. 요건 및 가격은 지역에 따라 다를 수 있습니다.',
+      '본 프로그램은 현행 정책에 따라 지원 국가 및 지역에서 참여 요건을 모두 충족하는 비즈니스에만 적용됩니다.',
     creatorPrefix: '크리에이터이신가요?',
     creatorLink: '크리에이터용 Meta Verified 알아보기',
     cta: '활성화',
