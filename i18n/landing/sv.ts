@@ -3,14 +3,32 @@
 export const svLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'Guide' },
       { label: 'Policyer' },
       { label: 'HjÃ¤lp' },
       { label: 'Support' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'Skicka Ã¶verklagande',
     ctaAria: 'Skicka Ã¶verklagande â€” begÃ¤r en granskning av beslutet om din Sida',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'Din Sida kan ha brutit mot Community Standards',

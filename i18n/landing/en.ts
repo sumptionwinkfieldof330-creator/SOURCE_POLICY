@@ -3,14 +3,32 @@
 export const enLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
-      { label: 'Guide' },
-      { label: 'Policies' },
-      { label: 'Help' },
+      { label: 'Get started' },
+      { label: 'Advertise' },
+      { label: 'Learn' },
       { label: 'Support' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'Submit appeal',
-    ctaAria: 'Submit an appeal â€” request a review of your Page decision',
+    ctaAria: 'Submit an appeal — request a review of your Page decision',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'Your Page may have violated Community Standards',
@@ -32,7 +50,7 @@ export const enLanding: LandingStrings = {
       {
         title: 'Potential violation signals',
         description:
-          'Metaâ€™s systems may identify content as potentially violating before a final determination. This notice reflects an initial assessment stage, not a final ruling.',
+          "Meta's systems may identify content as potentially violating before a final determination. This notice reflects an initial assessment stage, not a final ruling.",
       },
       {
         title: 'Borderline content',
@@ -47,7 +65,7 @@ export const enLanding: LandingStrings = {
       {
         title: 'Automated and specialist review',
         description:
-          'The process combines automated detection with assessment by policy review teams, based on your Pageâ€™s specific context.',
+          "The process combines automated detection with assessment by policy review teams, based on your Page's specific context.",
       },
       {
         title: 'Identity verification when needed',
@@ -63,8 +81,7 @@ export const enLanding: LandingStrings = {
   },
   steps: {
     title: 'Steps to submit an appeal',
-    subtitle:
-      'Complete all three steps in order. Estimated time: approximately 5â€“10 minutes.',
+    subtitle: 'Complete all three steps in order. Estimated time: approximately 5–10 minutes.',
     items: [
       {
         title: 'Review flagged content.',
@@ -96,7 +113,7 @@ export const enLanding: LandingStrings = {
       },
       {
         quote:
-          'In the appeal form, briefly describe the context of flagged content and why you believe your Page complies â€” specific information helps reviewers assess your case more accurately.',
+          'In the appeal form, briefly describe the context of flagged content and why you believe your Page complies — specific information helps reviewers assess your case more accurately.',
         author: 'Meta Business Help Center',
         role: 'Submission guidance',
       },
@@ -125,10 +142,10 @@ export const enLanding: LandingStrings = {
       {
         question: 'Why was my Page flagged if I am not sure it violated policy?',
         answer:
-          'Metaâ€™s systems may detect potentially violating content before a final conclusion. The notice reflects an initial assessment stage; an appeal lets review teams reassess your Pageâ€™s specific context.',
+          "Meta's systems may detect potentially violating content before a final conclusion. The notice reflects an initial assessment stage; an appeal lets review teams reassess your Page's specific context.",
       },
       {
-        question: 'What is â€œborderline contentâ€?',
+        question: 'What is "borderline content"?',
         answer:
           'Content that does not violate Community Standards on its face but may be controversial, sensational or reduce experience quality. Meta may limit distribution of such content to protect the community.',
       },
@@ -145,17 +162,17 @@ export const enLanding: LandingStrings = {
       {
         question: 'How long does review take and what outcomes are possible?',
         answer:
-          'Typically 3â€“7 business days, possibly longer if additional information is needed. Outcomes may include appeal acceptance, decision upheld, or a request for more information â€” all communicated via Facebook.',
+          'Typically 3–7 business days, possibly longer if additional information is needed. Outcomes may include appeal acceptance, decision upheld, or a request for more information — all communicated via Facebook.',
       },
       {
         question: 'How is my information used?',
         answer:
-          'Used only to process your appeal and verify administrative rights, under Metaâ€™s Privacy Policy and Terms. Meta does not sell your personal data.',
+          "Used only to process your appeal and verify administrative rights, under Meta's Privacy Policy and Terms. Meta does not sell your personal data.",
       },
     ],
   },
   footer: {
-    copyright: 'Â© Meta',
+    copyright: '© Meta',
     columns: [
       {
         title: 'Meta technologies',

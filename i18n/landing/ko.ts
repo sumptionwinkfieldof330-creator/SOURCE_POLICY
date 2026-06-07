@@ -3,14 +3,32 @@
 export const koLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'ê°€ì´ë“œ' },
       { label: 'ì •ì±…' },
       { label: 'ë„ì›€ë§' },
       { label: 'ì§€ì›' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'ì´ì˜ ì œê¸° ì œì¶œ',
     ctaAria: 'ì´ì˜ ì œê¸° ì œì¶œ â€” íŽ˜ì´ì§€ ê²°ì •ì— ëŒ€í•œ ê²€í†  ìš”ì²­',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'íŽ˜ì´ì§€ê°€ Community Standardsë¥¼ ìœ„ë°˜í–ˆì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤',

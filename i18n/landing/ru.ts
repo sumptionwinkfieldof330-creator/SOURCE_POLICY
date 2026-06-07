@@ -3,14 +3,32 @@
 export const ruLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'Ð ÑƒÐºÐ¾Ð²Ð¾Ð´ÑÑ‚Ð²Ð¾' },
       { label: 'ÐŸÐ¾Ð»Ð¸Ñ‚Ð¸ÐºÐ¸' },
       { label: 'Ð¡Ð¿Ñ€Ð°Ð²ÐºÐ°' },
       { label: 'ÐŸÐ¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'ÐŸÐ¾Ð´Ð°Ñ‚ÑŒ Ð°Ð¿ÐµÐ»Ð»ÑÑ†Ð¸ÑŽ',
     ctaAria: 'ÐŸÐ¾Ð´Ð°Ñ‚ÑŒ Ð°Ð¿ÐµÐ»Ð»ÑÑ†Ð¸ÑŽ â€” Ð·Ð°Ð¿Ñ€Ð¾ÑÐ¸Ñ‚ÑŒ Ð¿ÐµÑ€ÐµÑÐ¼Ð¾Ñ‚Ñ€ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ Ð¿Ð¾ Ð²Ð°ÑˆÐµÐ¹ Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'Ð’Ð°ÑˆÐ° Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð¼Ð¾Ð³Ð»Ð° Ð½Ð°Ñ€ÑƒÑˆÐ¸Ñ‚ÑŒ Community Standards',

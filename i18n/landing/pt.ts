@@ -3,14 +3,32 @@
 export const ptLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'Guia' },
       { label: 'PolÃ­ticas' },
       { label: 'Ajuda' },
       { label: 'Suporte' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'Enviar recurso',
     ctaAria: 'Enviar recurso â€” solicitar revisÃ£o da decisÃ£o sobre a sua PÃ¡gina',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'A sua PÃ¡gina pode ter violado as Community Standards',

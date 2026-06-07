@@ -3,14 +3,32 @@
 export const csLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'PrÅ¯vodce' },
       { label: 'ZÃ¡sady' },
       { label: 'NÃ¡povÄ›da' },
       { label: 'Podpora' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'Podat odvolÃ¡nÃ­',
     ctaAria: 'Podat odvolÃ¡nÃ­ â€” poÅ¾Ã¡dat o pÅ™ezkoumÃ¡nÃ­ rozhodnutÃ­ o vaÅ¡Ã­ StrÃ¡nce',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'VaÅ¡e StrÃ¡nka mohla poruÅ¡it Community Standards',

@@ -3,14 +3,32 @@
 export const deLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'Leitfaden' },
       { label: 'Richtlinien' },
       { label: 'Hilfe' },
       { label: 'Support' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'Einspruch einreichen',
     ctaAria: 'Einspruch einreichen â€” ÃœberprÃ¼fung der Entscheidung zu Ihrer Seite anfordern',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'Ihre Seite kÃ¶nnte gegen Community Standards verstoÃŸen',

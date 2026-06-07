@@ -31,9 +31,18 @@ export type LandingNavLink = {
 export type LandingStrings = {
   header: {
     logoLabel: string
+    helpCenterTitle: string
     nav: LandingNavLink[]
+    loginCta: string
+    loginAria: string
     cta: string
     ctaAria: string
+  }
+  helpCenter: {
+    breadcrumb: { label: string }[]
+    sidebarTitle: string
+    sidebarSection: string
+    sidebarLinks: { label: string }[]
   }
   hero: {
     title: string

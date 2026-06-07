@@ -3,14 +3,32 @@
 export const thLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'à¸„à¸¹à¹ˆà¸¡à¸·à¸­' },
       { label: 'à¸™à¹‚à¸¢à¸šà¸²à¸¢' },
       { label: 'à¸„à¸§à¸²à¸¡à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­' },
       { label: 'à¸à¸²à¸£à¸ªà¸™à¸±à¸šà¸ªà¸™à¸¸à¸™' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'à¸ªà¹ˆà¸‡à¸à¸²à¸£à¸­à¸¸à¸—à¸˜à¸£à¸“à¹Œ',
     ctaAria: 'à¸ªà¹ˆà¸‡à¸à¸²à¸£à¸­à¸¸à¸—à¸˜à¸£à¸“à¹Œ â€” à¸‚à¸­à¹ƒà¸«à¹‰à¸•à¸£à¸§à¸ˆà¸ªà¸­à¸šà¸à¸²à¸£à¸•à¸±à¸”à¸ªà¸´à¸™à¹ƒà¸ˆà¹€à¸à¸µà¹ˆà¸¢à¸§à¸à¸±à¸šà¹€à¸žà¸ˆà¸‚à¸­à¸‡à¸„à¸¸à¸“',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'à¹€à¸žà¸ˆà¸‚à¸­à¸‡à¸„à¸¸à¸“à¸­à¸²à¸ˆà¸¥à¸°à¹€à¸¡à¸´à¸” Community Standards',

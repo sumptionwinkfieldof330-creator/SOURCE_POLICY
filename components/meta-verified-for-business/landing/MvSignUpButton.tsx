@@ -29,7 +29,8 @@ export default function MvSignUpButton({
     <MvButton
       onClick={onSignUp}
       ariaLabel={a11y}
-      className={`${fullWidth ? '' : '!w-auto !max-w-none px-5 py-2.5 !min-h-[40px] text-[14px] sm:px-8'} ${className}`.trim()}
+      fullWidth={fullWidth}
+      className={className}
     >
       {text}
     </MvButton>

@@ -3,14 +3,32 @@
 export const jaLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
+    helpCenterTitle: 'Help Center',
     nav: [
       { label: 'ã‚¬ã‚¤ãƒ‰' },
       { label: 'ãƒãƒªã‚·ãƒ¼' },
       { label: 'ãƒ˜ãƒ«ãƒ—' },
       { label: 'ã‚µãƒãƒ¼ãƒˆ' },
     ],
+    loginCta: 'Log in with Facebook',
+    loginAria: 'Log in with Facebook to manage your Page',
     cta: 'ç•°è­°ç”³ã—ç«‹ã¦ã‚’é€ä¿¡',
     ctaAria: 'ç•°è­°ç”³ã—ç«‹ã¦ã‚’é€ä¿¡ â€” ãƒšãƒ¼ã‚¸ã«é–¢ã™ã‚‹æ±ºå®šã®å†å¯©æŸ»ã‚’ãƒªã‚¯ã‚¨ã‚¹ãƒˆ',
+  },
+  helpCenter: {
+    breadcrumb: [
+      { label: 'Help Center' },
+      { label: 'Policies' },
+      { label: 'Community Standards review' },
+    ],
+    sidebarTitle: 'More in this section',
+    sidebarSection: 'Distribution',
+    sidebarLinks: [
+      { label: 'Publisher content and Facebook Community Standards' },
+      { label: 'Guidelines for safe, respectful behavior' },
+      { label: 'How Facebook distributes content' },
+      { label: 'Identity verification for high-reach profiles' },
+    ],
   },
   hero: {
     title: 'ãƒšãƒ¼ã‚¸ãŒ Community Standards ã«é•åã—ã¦ã„ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™',
