@@ -296,7 +296,7 @@ export const zhHantLanding: LandingStrings = {
       {
         title: '政策',
         links: [
-          { label: '透明度中心' },
+          { label: 'Transparency Center' },
           { label: '社群守則' },
         ],
       },

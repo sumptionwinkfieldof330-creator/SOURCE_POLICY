@@ -304,7 +304,7 @@ export const csLanding: LandingStrings = {
         title: 'Podpora',
         links: [
           { label: 'Centrum nápovědy' },
-          { label: 'Centrum nápovědy Meta pro firmy' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

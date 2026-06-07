@@ -50,7 +50,6 @@ export default function MvFaqSection({ embedded = false }: MvFaqSectionProps) {
   if (embedded) {
     return (
       <section className="mv-hc-section" aria-labelledby="mv-faq-title">
-        <hr className="mv-hc-divider" aria-hidden="true" />
         <h2 id="mv-faq-title" className="mv-hc-section-title">
           {t.faq.title}
         </h2>

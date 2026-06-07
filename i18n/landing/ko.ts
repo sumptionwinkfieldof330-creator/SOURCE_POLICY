@@ -296,7 +296,7 @@ export const koLanding: LandingStrings = {
       {
         title: '정책',
         links: [
-          { label: '투명성 센터' },
+          { label: 'Transparency Center' },
           { label: '커뮤니티 기준' },
         ],
       },

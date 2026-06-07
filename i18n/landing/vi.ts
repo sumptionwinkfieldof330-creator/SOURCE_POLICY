@@ -222,9 +222,6 @@ export const viLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
-    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
-    privacy: 'Chính sách quyền riêng tư',
-    terms: 'Điều khoản',
     columns: [
       {
         title: 'Công nghệ của Meta',
@@ -238,7 +235,7 @@ export const viLanding: LandingStrings = {
       {
         title: 'Chính sách',
         links: [
-          { label: 'Trung tâm minh bạch' },
+          { label: 'Transparency Center' },
           { label: 'Tiêu chuẩn Cộng đồng' },
         ],
       },
@@ -246,7 +243,7 @@ export const viLanding: LandingStrings = {
         title: 'Hỗ trợ',
         links: [
           { label: 'Trung tâm trợ giúp' },
-          { label: 'Trung tâm trợ giúp doanh nghiệp Meta' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

@@ -296,7 +296,7 @@ export const jaLanding: LandingStrings = {
       {
         title: 'ポリシー',
         links: [
-          { label: '透明性センター' },
+          { label: 'Transparency Center' },
           { label: 'コミュニティスタンダード' },
         ],
       },

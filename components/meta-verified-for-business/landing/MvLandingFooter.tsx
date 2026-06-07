@@ -4,6 +4,8 @@ import React from 'react'
 
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
+const META_FOOTER_ADDRESS = 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025'
+
 export default function MvLandingFooter() {
   const t = useLandingStrings()
   const year = new Date().getFullYear()
@@ -13,7 +15,7 @@ export default function MvLandingFooter() {
       <div className="mv-hc-wrap">
         <div className="mv-hc-footer-grid">
           {t.footer.columns.map((col) => (
-            <div key={col.title} className="mv-hc-footer-col">
+            <div key={col.title}>
               <p className="mv-hc-footer-col-title">{col.title}</p>
               <ul className="mv-hc-footer-links">
                 {col.links.map((link) => (
@@ -26,18 +28,10 @@ export default function MvLandingFooter() {
           ))}
         </div>
 
-        <div className="mv-hc-footer-legal">
-          <span className="mv-hc-footer-legal-link">{t.footer.privacy}</span>
-          <span className="mv-hc-footer-legal-sep" aria-hidden="true">
-            ·
-          </span>
-          <span className="mv-hc-footer-legal-link">{t.footer.terms}</span>
-        </div>
-
         <p className="mv-hc-footer-copy">
           {t.footer.copyright} {year}
           <br />
-          {t.footer.address}
+          {META_FOOTER_ADDRESS}
         </p>
       </div>
     </footer>

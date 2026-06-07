@@ -296,7 +296,7 @@ export const idLanding: LandingStrings = {
       {
         title: 'Kebijakan',
         links: [
-          { label: 'Pusat Transparansi' },
+          { label: 'Transparency Center' },
           { label: 'Standar Komunitas' },
         ],
       },
