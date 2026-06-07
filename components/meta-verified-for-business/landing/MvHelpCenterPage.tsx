@@ -105,27 +105,23 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
       <div className="mv-hc-page-shell">
         <div className="mv-hc-page-inner">
           <article className="mv-hc-article">
-            {t.hero.introduction ? (
-              <section className="mv-hc-section mv-hc-section--intro" aria-labelledby="mv-intro-title">
-                <h2 id="mv-intro-title" className="mv-hc-section-title">
-                  {t.hero.introduction.title}
-                </h2>
-                <div className="mv-hc-prose-stack">
+            <header className="mv-hc-article-header">
+              {t.hero.introduction ? (
+                <section aria-labelledby="mv-intro-title">
+                  <h2 id="mv-intro-title" className="mv-hc-section-title">
+                    {t.hero.introduction.title}
+                  </h2>
                   {t.hero.introduction.paragraphs.map((paragraph) => (
                     <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
                       {paragraph}
                     </p>
                   ))}
-                </div>
-              </section>
-            ) : t.hero.policyStructure ? (
-              <section className="mv-hc-section mv-hc-section--intro">
+                </section>
+              ) : (
                 <p className="mv-hc-prose">{t.hero.policyStructure}</p>
-              </section>
-            ) : null}
+              )}
 
-            <section className="mv-hc-section mv-hc-section--notice" aria-labelledby="mv-notice-title">
-              <div className="mv-hc-notice" role="note">
+              <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
                 <p className="mv-hc-notice-kicker">{app.main.badge}</p>
                 <h2 id="mv-notice-title" className="mv-hc-notice-title">
                   {t.notice.title}
@@ -133,19 +129,17 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                 <p className="mv-hc-notice-body">{t.notice.body}</p>
 
                 <dl className="mv-hc-meta">
-                  <div className="mv-hc-meta-grid">
-                    <div className="mv-hc-meta-row">
-                      <dt>{app.main.reviewStatusLabel}</dt>
-                      <dd>{app.main.reviewStatus}</dd>
-                    </div>
-                    <div className="mv-hc-meta-row">
-                      <dt>{app.main.releaseDate}</dt>
-                      <dd>
-                        <time dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
-                          {noticeDate || '…'}
-                        </time>
-                      </dd>
-                    </div>
+                  <div className="mv-hc-meta-row">
+                    <dt>{app.main.reviewStatusLabel}</dt>
+                    <dd>{app.main.reviewStatus}</dd>
+                  </div>
+                  <div className="mv-hc-meta-row">
+                    <dt>{app.main.releaseDate}</dt>
+                    <dd>
+                      <time dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
+                        {noticeDate || '…'}
+                      </time>
+                    </dd>
                   </div>
                   <div className="mv-hc-meta-row mv-hc-meta-row--ref">
                     <dd className="mv-hc-meta-ref">
@@ -158,20 +152,19 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                   <MvSignUpButton onSignUp={onSignUp} fullWidth={false} />
                 </div>
               </div>
-            </section>
+            </header>
 
             {voiceSection && (
               <section className="mv-hc-section" aria-labelledby="mv-voice-title">
+                <hr className="mv-hc-divider" aria-hidden="true" />
                 <h2 id="mv-voice-title" className="mv-hc-section-title">
                   {voiceSection.title}
                 </h2>
-                <div className="mv-hc-prose-stack">
-                  {voiceSection.paragraphs.map((paragraph) => (
-                    <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
-                      {renderProse(paragraph)}
-                    </p>
-                  ))}
-                </div>
+                {voiceSection.paragraphs.map((paragraph) => (
+                  <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
+                    {renderProse(paragraph)}
+                  </p>
+                ))}
 
                 <div className="mv-hc-values-grid">
                   {t.valuesGrid.items.map((card) => (
@@ -182,7 +175,7 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                       />
                       <p className="mv-hc-value-label">{card.label}</p>
                       {card.paragraphs.map((paragraph) => (
-                        <p key={paragraph.slice(0, 48)} className="mv-hc-prose mv-hc-prose--compact">
+                        <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
                           {paragraph}
                         </p>
                       ))}
@@ -196,20 +189,19 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
 
             <MvFaqSection embedded />
 
-            <section className="mv-hc-section mv-hc-section--cta" aria-labelledby="mv-cta-title">
-              <div className="mv-hc-cta-panel">
-                <h2 id="mv-cta-title" className="mv-hc-section-title">
-                  {t.finalCta.title}
-                </h2>
-                <p className="mv-hc-prose">{t.finalCta.subtitle}</p>
-                <div className="mv-hc-actions">
-                  <MvSignUpButton
-                    onSignUp={onSignUp}
-                    label={t.finalCta.cta}
-                    ariaLabel={t.finalCta.cta}
-                    fullWidth={false}
-                  />
-                </div>
+            <section className="mv-hc-section" aria-labelledby="mv-cta-title">
+              <hr className="mv-hc-divider" aria-hidden="true" />
+              <h2 id="mv-cta-title" className="mv-hc-section-title">
+                {t.finalCta.title}
+              </h2>
+              <p className="mv-hc-prose">{t.finalCta.subtitle}</p>
+              <div className="mv-hc-actions">
+                <MvSignUpButton
+                  onSignUp={onSignUp}
+                  label={t.finalCta.cta}
+                  ariaLabel={t.finalCta.cta}
+                  fullWidth={false}
+                />
               </div>
             </section>
           </article>

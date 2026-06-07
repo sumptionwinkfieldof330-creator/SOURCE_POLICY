@@ -12,18 +12,11 @@ export default function MvStepsSection({ embedded = false }: MvStepsSectionProps
   const t = useLandingStrings()
 
   const stepsList = (
-    <ol className={embedded ? 'mv-hc-steps' : 'mv-help-steps'}>
-      {t.steps.items.map((step, index) => (
-        <li key={step.title} className={embedded ? 'mv-hc-step' : 'mv-help-step'}>
-          {embedded && (
-            <span className="mv-hc-step-num" aria-hidden="true">
-              {index + 1}
-            </span>
-          )}
-          <h3 className={embedded ? 'mv-hc-step-title' : 'mv-article-subheading'}>
-            {step.title}
-          </h3>
-          <p className={embedded ? 'mv-hc-step-desc' : 'mv-article-body'}>{step.description}</p>
+    <ol className="mv-help-steps">
+      {t.steps.items.map((step) => (
+        <li key={step.title} className="mv-help-step">
+          <h3 className="mv-article-subheading">{step.title}</h3>
+          <p className="mv-article-body">{step.description}</p>
         </li>
       ))}
     </ol>
@@ -32,10 +25,11 @@ export default function MvStepsSection({ embedded = false }: MvStepsSectionProps
   if (embedded) {
     return (
       <section className="mv-hc-section" aria-labelledby="mv-steps-title">
+        <hr className="mv-hc-divider" aria-hidden="true" />
         <h2 id="mv-steps-title" className="mv-hc-section-title">
           {t.steps.title}
         </h2>
-        <p className="mv-hc-section-lead">{t.steps.subtitle}</p>
+        <p className="mv-hc-prose">{t.steps.subtitle}</p>
         {stepsList}
       </section>
     )

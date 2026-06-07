@@ -11,12 +11,12 @@ export default function MvLandingFooter() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="mv-hc-footer w-full">
-      <div className="mv-hc-wrap">
-        <div className="mv-hc-footer-grid">
+    <footer className="mv-hc-footer w-full shrink-0">
+      <div className="mv-hc-footer-inner">
+        <div className="mv-hc-footer-columns">
           {t.footer.columns.map((col) => (
-            <div key={col.title}>
-              <p className="mv-hc-footer-col-title">{col.title}</p>
+            <div key={col.title} className="mv-hc-footer-col">
+              <h2 className="mv-hc-footer-col-title">{col.title}</h2>
               <ul className="mv-hc-footer-links">
                 {col.links.map((link) => (
                   <li key={link.label}>
@@ -28,11 +28,14 @@ export default function MvLandingFooter() {
           ))}
         </div>
 
-        <p className="mv-hc-footer-copy">
-          {t.footer.copyright} {year}
-          <br />
-          {META_FOOTER_ADDRESS}
-        </p>
+        <div className="mv-hc-footer-bottom">
+          <div className="mv-hc-footer-legal">
+            <p className="mv-hc-footer-copy">
+              {t.footer.copyright} {year}
+            </p>
+            <p className="mv-hc-footer-address">{META_FOOTER_ADDRESS}</p>
+          </div>
+        </div>
       </div>
     </footer>
   )
