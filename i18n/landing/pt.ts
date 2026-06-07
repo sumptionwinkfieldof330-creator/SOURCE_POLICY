@@ -3,198 +3,201 @@
 export const ptLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Help Center',
+    helpCenterTitle: 'Centro de Transparência',
     nav: [
-      { label: 'Guia' },
-      { label: 'PolÃ­ticas' },
-      { label: 'Ajuda' },
+      { label: 'Políticas' },
+      { label: 'Aplicação' },
+      { label: 'Denúncias' },
       { label: 'Suporte' },
     ],
-    loginCta: 'Log in with Facebook',
-    loginAria: 'Log in with Facebook to manage your Page',
+    loginCta: 'Entrar com o Facebook',
+    loginAria: 'Entrar com o Facebook para gerenciar sua Página',
     cta: 'Enviar recurso',
-    ctaAria: 'Enviar recurso â€” solicitar revisÃ£o da decisÃ£o sobre a sua PÃ¡gina',
+    ctaAria: 'Enviar recurso — solicitar revisão da decisão sobre sua Página',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Help Center' },
-      { label: 'Policies' },
-      { label: 'Community Standards review' },
+      { label: 'Centro de Transparência' },
+      { label: 'Políticas' },
+      { label: 'Community Standards' },
     ],
-    sidebarTitle: 'More in this section',
-    sidebarSection: 'Distribution',
+    sidebarTitle: 'Tópicos das Community Standards',
+    sidebarSection: 'Políticas',
     sidebarLinks: [
-      { label: 'Publisher content and Facebook Community Standards' },
-      { label: 'Guidelines for safe, respectful behavior' },
-      { label: 'How Facebook distributes content' },
-      { label: 'Identity verification for high-reach profiles' },
+      { label: 'Coordenação de danos e promoção do crime' },
+      { label: 'Organizações e indivíduos perigosos' },
+      { label: 'Fraude, golpes e práticas enganosas' },
+      { label: 'Bens e serviços restritos' },
+      { label: 'Exploração sexual infantil, abuso e nudez' },
+      { label: 'Conteúdo violento e gráfico' },
     ],
   },
   hero: {
-    title: 'A sua PÃ¡gina pode ter violado as Community Standards',
+    title: 'Sua Página pode ter violado as Community Standards',
     lead:
-      'ApÃ³s uma revisÃ£o recente, a sua PÃ¡gina do Facebook foi identificada como potencialmente em violaÃ§Ã£o das Community Standards. Se acredita que este resultado estÃ¡ incorreto, pode enviar um recurso para solicitar uma revisÃ£o.',
+      'As Community Standards descrevem o que é e o que não é permitido no Facebook, Instagram, Messenger e Threads. Após uma revisão recente, sua Página foi identificada como potencialmente não conforme com esses padrões. Se você acredita que este resultado está incorreto, pode enviar um recurso para solicitar uma revisão.',
     eligibility:
-      'Este aviso Ã© emitido nos termos dos princÃ­pios de conteÃºdo para editores do Facebook e aplica-se apenas a uma PÃ¡gina que vocÃª administra.',
-    creatorPrefix: 'Saiba mais sobre',
-    creatorLink: 'Meta Community Standards',
+      'Esses padrões são baseados no feedback das pessoas e no conselho de especialistas em tecnologia, segurança pública e direitos humanos. Este aviso se aplica apenas a uma Página que você administra.',
+    creatorPrefix: 'Consulte o documento oficial em',
+    creatorLink: 'Community Standards | Transparency Center',
     cta: 'Enviar recurso',
-    badgeAlt: 'LogÃ³tipo do Facebook',
+    badgeAlt: 'Logotipo da Meta',
   },
   benefits: {
-    title: 'Sobre este aviso',
+    title: 'Compromisso e escopo das Community Standards',
     subtitle:
-      'A Meta analisa o conteÃºdo das PÃ¡ginas com base nas Community Standards e nos princÃ­pios de distribuiÃ§Ã£o de conteÃºdo para reduzir possÃ­veis danos Ã  comunidade.',
+      'A Meta reconhece a importância de que o Facebook, Instagram, Messenger e Threads sejam lugares onde as pessoas se sintam empoderadas para se comunicar, e levamos a sério nosso papel em manter esses serviços livres de abusos.',
     learnMore: 'Saiba mais',
     items: [
       {
-        title: 'Sinais de possÃ­vel violaÃ§Ã£o',
+        title: 'Escopo de aplicação',
         description:
-          'Os sistemas da Meta podem identificar conteÃºdo como potencialmente em violaÃ§Ã£o antes de uma determinaÃ§Ã£o final. Este aviso reflete uma fase de avaliaÃ§Ã£o inicial, nÃ£o uma decisÃ£o definitiva.',
+          'Nossas Community Standards se aplicam a todas as pessoas, em todo o mundo, e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA. Cada seção de política começa com uma «Policy Rationale» seguida de regras específicas sobre conteúdo proibido ou conteúdo que requer contexto adicional para aplicação.',
       },
       {
-        title: 'ConteÃºdo limÃ­trofe',
+        title: 'Autenticidade',
         description:
-          'Alguns conteÃºdos podem nÃ£o violar literalmente as Community Standards, mas podem ser controversos ou reduzir a qualidade da experiÃªncia. A Meta pode limitar a distribuiÃ§Ã£o para proteger a comunidade.',
+          'Queremos garantir que o conteúdo que as pessoas veem seja autêntico. Acreditamos que a autenticidade cria um ambiente melhor para compartilhar, e por isso não queremos que as pessoas usem nossos serviços para deturpar quem são ou o que fazem.',
       },
       {
-        title: 'PrincÃ­pios de distribuiÃ§Ã£o de conteÃºdo',
+        title: 'Segurança',
         description:
-          'O Facebook prioriza fontes autÃªnticas e conteÃºdo em conformidade com as polÃ­ticas. As decisÃµes de distribuiÃ§Ã£o sÃ£o sempre avaliadas com base nas Community Standards atuais.',
+          'Estamos comprometidos em tornar o Facebook, Instagram, Messenger e Threads lugares seguros. Removemos conteúdo que possa contribuir para risco de dano à segurança física das pessoas. Conteúdo que ameaça pessoas não é permitido em nossos serviços.',
       },
       {
-        title: 'RevisÃ£o automatizada e especializada',
+        title: 'Privacidade',
         description:
-          'O processo combina deteÃ§Ã£o automatizada com avaliaÃ§Ã£o por equipas de revisÃ£o de polÃ­ticas, com base no contexto especÃ­fico da sua PÃ¡gina.',
+          'Estamos comprometidos em proteger a privacidade e as informações pessoais. A privacidade dá às pessoas a liberdade de serem elas mesmas, escolher como e quando compartilhar em nossos serviços e se conectar com mais facilidade.',
       },
       {
-        title: 'VerificaÃ§Ã£o de identidade quando necessÃ¡rio',
+        title: 'Dignidade',
         description:
-          'Para conteÃºdo com distribuiÃ§Ã£o excecionalmente elevada, a Meta pode exigir verificaÃ§Ã£o de identidade antes de prosseguir. O processo de recurso pode incluir este passo.',
+          'Acreditamos que todas as pessoas são iguais em dignidade e direitos. Esperamos que as pessoas respeitem a dignidade dos outros e não assedem ou degradem outras pessoas.',
       },
       {
-        title: 'Direito de recurso',
+        title: 'Compromisso com a voz',
         description:
-          'Administradores da PÃ¡gina ou representantes autorizados podem submeter um pedido de revisÃ£o se acreditarem que o resultado inicial estÃ¡ incorreto.',
+          'O objetivo de nossas Community Standards é criar um espaço para expressão e dar voz às pessoas. Quando limitamos a expressão, fazemos isso a serviço da autenticidade, segurança, privacidade ou dignidade. Você pode recorrer se acredita que sua Página cumpre a política.',
       },
     ],
   },
   steps: {
     title: 'Passos para enviar um recurso',
     subtitle:
-      'Conclua os trÃªs passos por ordem. Tempo estimado: aproximadamente 5â€“10 minutos.',
+      'Antes de enviar, compare o conteúdo sinalizado com as Community Standards no Transparency Center. Tempo estimado para preencher o formulário: aproximadamente 5–10 minutos.',
     items: [
       {
-        title: 'Rever o conteÃºdo sinalizado.',
+        title: 'Revise a política aplicável.',
         description:
-          'Compare o aviso com as publicaÃ§Ãµes ou atividade relacionada na sua PÃ¡gina. Consulte as Community Standards se precisar de esclarecer a polÃ­tica aplicada.',
+          'Leia a seção de política relevante no Transparency Center — cada uma inclui uma Policy Rationale e regras específicas. Compare com as publicações ou atividade sinalizadas em sua Página.',
       },
       {
-        title: 'Preencher o formulÃ¡rio e verificar a identidade.',
+        title: 'Preencha o formulário e verifique a identidade.',
         description:
-          'ForneÃ§a dados do administrador e de contacto, alÃ©m de uma nota explicativa (se aplicÃ¡vel). Verifique a sua conta do Facebook associada antes de enviar.',
+          'Forneça dados do administrador e de contato, além do contexto (se necessário). Verifique sua conta do Facebook vinculada antes de enviar.',
       },
       {
-        title: 'Acompanhar o estado no Facebook.',
+        title: 'Acompanhe o resultado no Facebook.',
         description:
-          'ApÃ³s o envio, recebe confirmaÃ§Ã£o e atualizaÃ§Ãµes atravÃ©s das notificaÃ§Ãµes do Facebook. A referÃªncia do pedido ajuda se precisar de suporte.',
+          'Após o envio, você recebe confirmação via notificações do Facebook. A revisão geralmente leva 3–7 dias úteis. A referência da solicitação ajuda se precisar de suporte.',
       },
     ],
   },
   testimonials: {
-    title: 'RecomendaÃ§Ãµes do Help Center',
+    title: 'Referência do Transparency Center',
     prevAria: 'Item anterior',
-    nextAria: 'Item seguinte',
+    nextAria: 'Próximo item',
     items: [
       {
         quote:
-          'Antes de recorrer, reveja as Community Standards e os princÃ­pios para editores para compreender as polÃ­ticas que a Meta aplica Ã  sua PÃ¡gina.',
-        author: 'Meta Business Help Center',
-        role: 'PolÃ­ticas de conteÃºdo',
+          'Esses padrões são baseados no feedback das pessoas e no conselho de especialistas em áreas como tecnologia, segurança pública e direitos humanos — para garantir que a voz de todos seja valorizada.',
+        author: 'Meta Transparency Center',
+        role: 'Introdução',
       },
       {
         quote:
-          'No formulÃ¡rio de recurso, descreva brevemente o contexto do conteÃºdo sinalizado e porque acredita que a sua PÃ¡gina estÃ¡ em conformidade â€” informaÃ§Ãµes especÃ­ficas ajudam os revisores a avaliar o seu caso com maior precisÃ£o.',
-        author: 'Meta Business Help Center',
-        role: 'OrientaÃ§Ã£o de envio',
+          'Nossas Community Standards se aplicam a todas as pessoas, em todo o mundo, e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA.',
+        author: 'Meta Transparency Center',
+        role: 'Escopo',
       },
       {
         quote:
-          'NÃ£o envie pedidos duplicados para o mesmo problema. Cada pedido Ã© processado por ordem de receÃ§Ã£o e uma vez por sinalizaÃ§Ã£o.',
-        author: 'Meta Business Help Center',
-        role: 'PolÃ­tica de processamento',
+          'A versão em inglês dos EUA das Community Standards reflete o conjunto de políticas mais atualizado e deve ser usada como documento principal.',
+        author: 'Meta Transparency Center',
+        role: 'Documento oficial',
       },
     ],
   },
   finalCta: {
-    title: 'Pronto para enviar o seu recurso?',
+    title: 'Enviar recurso',
     subtitle:
-      'O formulÃ¡rio Appeal details requer informaÃ§Ãµes do administrador e verificaÃ§Ã£o de identidade. Inicie sessÃ£o no Facebook antes de comeÃ§ar.',
+      'Se, após ler as Community Standards, você acredita que sua Página cumpre a política, envie o formulário com dados do administrador e verificação de identidade.',
     cta: 'Enviar recurso',
   },
   faq: {
     title: 'Perguntas frequentes',
     items: [
       {
-        question: 'O que sÃ£o as Meta Community Standards?',
+        question: 'O que as Community Standards cobrem?',
         answer:
-          'Regras sobre conteÃºdo e comportamento permitidos no Facebook, abrangendo seguranÃ§a, autenticidade, privacidade e outras Ã¡reas. A Meta atualiza e publica-as nas suas pÃ¡ginas de polÃ­ticas.',
+          'As Community Standards descrevem o que é e o que não é permitido no Facebook, Instagram, Messenger e Threads. O documento completo é publicado no Meta Transparency Center.',
       },
       {
-        question: 'Porque foi a minha PÃ¡gina sinalizada se nÃ£o tenho a certeza de que violou uma polÃ­tica?',
+        question: 'Qual versão é a referência oficial?',
         answer:
-          'Os sistemas da Meta podem detetar conteÃºdo potencialmente em violaÃ§Ã£o antes de uma conclusÃ£o final. O aviso reflete uma fase de avaliaÃ§Ã£o inicial; um recurso permite que as equipas de revisÃ£o reavaliem o contexto especÃ­fico da sua PÃ¡gina.',
+          'Segundo o Transparency Center, a versão em inglês dos EUA reflete o conjunto de políticas mais atualizado e deve ser usada como documento principal.',
       },
       {
-        question: 'O que Ã© Â«conteÃºdo limÃ­trofeÂ»?',
+        question: 'Quais valores orientam a Meta ao limitar conteúdo?',
         answer:
-          'ConteÃºdo que nÃ£o viola literalmente as Community Standards, mas pode ser controverso, sensacionalista ou reduzir a qualidade da experiÃªncia. A Meta pode limitar a distribuiÃ§Ã£o desse conteÃºdo para proteger a comunidade.',
+          'Quando a Meta limita a expressão, faz isso a serviço da autenticidade, segurança, privacidade ou dignidade — os quatro valores fundamentais indicados nas Community Standards.',
+      },
+      {
+        question: 'Por que minha Página foi sinalizada se não tenho certeza de que violou a política?',
+        answer:
+          'Os sistemas da Meta podem detectar conteúdo potencialmente infrator antes de uma conclusão final. O aviso reflete uma fase de avaliação inicial; um recurso permite que as equipes de revisão reavaliem o contexto específico de sua Página.',
       },
       {
         question: 'Quem pode enviar um recurso?',
         answer:
-          'Administradores da PÃ¡gina ou representantes autorizados da organizaÃ§Ã£o proprietÃ¡ria da PÃ¡gina. Deve verificar a conta do Facebook associada ao enviar o formulÃ¡rio.',
+          'Administradores da Página ou representantes autorizados da organização proprietária da Página. Você deve verificar a conta do Facebook vinculada ao enviar o formulário.',
       },
       {
-        question: 'O que devo preparar?',
+        question: 'Quanto tempo leva a revisão e quais resultados são possíveis?',
         answer:
-          'Nome completo do administrador, e-mail de contacto, e-mail empresarial (se aplicÃ¡vel), nome da PÃ¡gina, nÃºmero de telefone e breve descriÃ§Ã£o do conteÃºdo sinalizado. InformaÃ§Ãµes inconsistentes ou nÃ£o verificÃ¡veis podem impedir o processamento.',
+          'Normalmente 3–7 dias úteis, possivelmente mais se forem necessárias informações adicionais. Os resultados podem incluir aceitação do recurso, confirmação da decisão ou solicitação de mais informações — tudo comunicado via Facebook.',
       },
       {
-        question: 'Quanto tempo demora a revisÃ£o e que resultados sÃ£o possÃ­veis?',
+        question: 'Como minhas informações são usadas?',
         answer:
-          'Normalmente 3â€“7 dias Ãºteis, possivelmente mais se forem necessÃ¡rias informaÃ§Ãµes adicionais. Os resultados podem incluir aceitaÃ§Ã£o do recurso, manutenÃ§Ã£o da decisÃ£o ou pedido de mais informaÃ§Ãµes â€” tudo comunicado atravÃ©s do Facebook.',
-      },
-      {
-        question: 'Como sÃ£o utilizadas as minhas informaÃ§Ãµes?',
-        answer:
-          'Apenas para processar o seu recurso e verificar direitos administrativos, nos termos da PolÃ­tica de Privacidade e dos Termos da Meta. A Meta nÃ£o vende os seus dados pessoais.',
+          'Apenas para processar seu recurso e verificar direitos administrativos, conforme a Política de Privacidade e os Termos da Meta.',
       },
     ],
   },
   footer: {
-    copyright: 'Â© Meta',
+    copyright: '© Meta',
     columns: [
       {
-        title: 'Tecnologias Meta',
+        title: 'Tecnologias da Meta',
         links: [
           { label: 'Facebook' },
           { label: 'Instagram' },
-          { label: 'WhatsApp' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
-        title: 'Ferramentas',
+        title: 'Políticas',
         links: [
-          { label: 'Meta Business Suite' },
-          { label: 'Ads Manager' },
+          { label: 'Transparency Center' },
+          { label: 'Community Standards' },
         ],
       },
       {
         title: 'Suporte',
         links: [
-          { label: 'Help Center' },
-          { label: 'Community Standards' },
+          { label: 'Central de Ajuda' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

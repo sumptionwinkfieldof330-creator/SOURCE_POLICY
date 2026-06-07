@@ -3,198 +3,201 @@
 export const zhHantLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Help Center',
+    helpCenterTitle: '透明度中心',
     nav: [
-      { label: 'æŒ‡å—' },
-      { label: 'æ”¿ç­–' },
-      { label: 'èªªæ˜Ž' },
-      { label: 'æ”¯æ´' },
+      { label: '政策' },
+      { label: '執行' },
+      { label: '舉報' },
+      { label: '支援' },
     ],
-    loginCta: 'Log in with Facebook',
-    loginAria: 'Log in with Facebook to manage your Page',
-    cta: 'æäº¤ç”³è¨´',
-    ctaAria: 'æäº¤ç”³è¨´ â€” è¦æ±‚å¯©æŸ¥ç²‰çµ²å°ˆé ç›¸é—œæ±ºå®š',
+    loginCta: '使用 Facebook 登入',
+    loginAria: '使用 Facebook 登入以管理你的粉絲專頁',
+    cta: '提交申訴',
+    ctaAria: '提交申訴 — 要求審查你的粉絲專頁相關決定',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Help Center' },
-      { label: 'Policies' },
-      { label: 'Community Standards review' },
+      { label: '透明度中心' },
+      { label: '政策' },
+      { label: 'Community Standards' },
     ],
-    sidebarTitle: 'More in this section',
-    sidebarSection: 'Distribution',
+    sidebarTitle: 'Community Standards 主題',
+    sidebarSection: '政策',
     sidebarLinks: [
-      { label: 'Publisher content and Facebook Community Standards' },
-      { label: 'Guidelines for safe, respectful behavior' },
-      { label: 'How Facebook distributes content' },
-      { label: 'Identity verification for high-reach profiles' },
+      { label: '協調傷害與宣揚犯罪' },
+      { label: '危險組織與個人' },
+      { label: '詐欺、詐騙與欺瞞行為' },
+      { label: '受限商品和服務' },
+      { label: '兒童性剝削、虐待和裸露' },
+      { label: '暴力和血腥內容' },
     ],
   },
   hero: {
-    title: 'æ‚¨çš„ç²‰çµ²å°ˆé å¯èƒ½é•åäº† Community Standards',
+    title: '你的粉絲專頁可能違反了 Community Standards',
     lead:
-      'ç¶“è¿‘æœŸå¯©æŸ¥ï¼Œæ‚¨çš„ Facebook ç²‰çµ²å°ˆé è¢«è­˜åˆ¥ç‚ºå¯èƒ½é•å Community Standardsã€‚è‹¥æ‚¨èªç‚ºæ­¤çµæžœæœ‰èª¤ï¼Œå¯æäº¤ç”³è¨´è¦æ±‚é‡æ–°å¯©æŸ¥ã€‚',
+      'Community Standards 說明了在 Facebook、Instagram、Messenger 和 Threads 上允許和禁止的內容。在最近一次審查後，你的粉絲專頁被認定可能不符合這些標準。如果你認為此結果不 正確，可以提交申訴要求審查。',
     eligibility:
-      'æœ¬é€šçŸ¥ä¾ Facebook ç™¼ä½ˆè€…å…§å®¹åŽŸå‰‡ç™¼å‡ºï¼Œåƒ…é©ç”¨æ–¼æ‚¨ç®¡ç†çš„ç²‰çµ²å°ˆé ã€‚',
-    creatorPrefix: 'é€²ä¸€æ­¥äº†è§£',
-    creatorLink: 'Meta Community Standards',
-    cta: 'æäº¤ç”³è¨´',
-    badgeAlt: 'Facebook æ¨™èªŒ',
+      '這些標準以使用者回饋以及技術、公共安全和人權領域專家的建議為基礎。此通知僅適用於你管理的粉絲專頁。',
+    creatorPrefix: '查看官方文件：',
+    creatorLink: 'Community Standards | Transparency Center',
+    cta: '提交申訴',
+    badgeAlt: 'Meta 標誌',
   },
   benefits: {
-    title: 'é—œæ–¼æœ¬é€šçŸ¥',
+    title: 'Community Standards 的承諾與適用範圍',
     subtitle:
-      'Meta ä¾ Community Standards å’Œå…§å®¹åˆ†ç™¼åŽŸå‰‡å¯©æŸ¥ç²‰çµ²å°ˆé å…§å®¹ï¼Œä»¥é™ä½Žå°ç¤¾ç¾¤çš„æ½›åœ¨å‚·å®³ã€‚',
-    learnMore: 'é€²ä¸€æ­¥äº†è§£',
+      'Meta 深知 Facebook、Instagram、Messenger 和 Threads 作為人們自由溝通的空間至關重要，我們嚴肅對待在這些服務上防範濫用的責任。',
+    learnMore: '了解更多',
     items: [
       {
-        title: 'æ½›åœ¨é•è¦ä¿¡è™Ÿ',
+        title: '適用範圍',
         description:
-          'Meta çš„ç³»çµ±å¯èƒ½åœ¨æœ€çµ‚åˆ¤å®šå‰å°‡å…§å®¹è­˜åˆ¥ç‚ºæ½›åœ¨é•è¦ã€‚æœ¬é€šçŸ¥åæ˜ çš„æ˜¯åˆæ­¥è©•ä¼°éšŽæ®µï¼Œè€Œéžæœ€çµ‚è£æ±ºã€‚',
+          '我們的 Community Standards 適用於全球所有人以及所有類型的內容，包括 AI 生成的內容。每個政策部分以「Policy Rationale」開頭，隨後是有關禁止內容或需要額外背景資訊才能執行的具體規則。',
       },
       {
-        title: 'é‚Šç•Œå…§å®¹',
+        title: '真實性',
         description:
-          'éƒ¨åˆ†å…§å®¹å¯èƒ½æœªå­—é¢é•å Community Standardsï¼Œä½†å¯èƒ½å¼•ç™¼çˆ­è­°æˆ–é™ä½Žé«”é©—å“è³ªã€‚Meta å¯èƒ½é™åˆ¶åˆ†ç™¼ä»¥ä¿è­·ç¤¾ç¾¤ã€‚',
+          '我們希望確保人們看到的內容是真實的。我們相信真實性能夠創造更好的分享環境，因此我們不希望人們利用我們的服務歪曲自己的身份或行為。',
       },
       {
-        title: 'å…§å®¹åˆ†ç™¼åŽŸå‰‡',
+        title: '安全',
         description:
-          'Facebook å„ªå…ˆçœŸå¯¦ä¾†æºå’Œç¬¦åˆæ”¿ç­–çš„å…§å®¹ã€‚åˆ†ç™¼æ±ºç­–å§‹çµ‚ä¾ç¾è¡Œ Community Standards è©•ä¼°ã€‚',
+          '我們致力於使 Facebook、Instagram、Messenger 和 Threads 成為安全的空間。我們會移除可能危及人身安全的內容。威脅他人的內容不允許出現在我們的服務上。',
       },
       {
-        title: 'è‡ªå‹•åŒ–èˆ‡å°ˆæ¥­å¯©æŸ¥',
+        title: '隱私',
         description:
-          'æ­¤æµç¨‹çµåˆè‡ªå‹•åµæ¸¬èˆ‡æ”¿ç­–å¯©æŸ¥åœ˜éšŠçš„è©•ä¼°ï¼ŒåŸºæ–¼æ‚¨ç²‰çµ²å°ˆé çš„å…·é«”æƒ…æ³ã€‚',
+          '我們致力於保護個人隱私和資訊。隱私賦予人們做回自己的自由，選擇如何以及何時在我們的服務上分享，並更輕鬆地建立聯繫。',
       },
       {
-        title: 'å¿…è¦æ™‚é€²è¡Œèº«åˆ†é©—è­‰',
+        title: '尊嚴',
         description:
-          'å°æ–¼åˆ†ç™¼é‡ç•°å¸¸é«˜çš„å…§å®¹ï¼ŒMeta å¯èƒ½åœ¨ç¹¼çºŒè™•ç†å‰è¦æ±‚èº«åˆ†é©—è­‰ã€‚ç”³è¨´æµç¨‹å¯èƒ½åŒ…å«æ­¤æ­¥é©Ÿã€‚',
+          '我們相信所有人在尊嚴和權利上都是平等的。我們期望人們尊重他人的尊嚴，不騷擾或貶低他人。',
       },
       {
-        title: 'ç”³è¨´æ¬Šåˆ©',
+        title: '對表達的承諾',
         description:
-          'è‹¥æ‚¨èªç‚ºåˆæ­¥çµæžœä¸ç¢ºï¼Œç²‰çµ²å°ˆé ç®¡ç†å“¡æˆ–æŽˆæ¬Šä»£è¡¨å¯æäº¤å¯©æŸ¥è«‹æ±‚ã€‚',
+          'Community Standards 的目標是創造表達空間並賦予人們發言權。當我們限制表達時，是為了服務於真實性、安全、隱私或尊嚴。如果你認為你的粉絲專頁符合政策，可以提出申訴。',
       },
     ],
   },
   steps: {
-    title: 'æäº¤ç”³è¨´çš„æ­¥é©Ÿ',
+    title: '提交申訴的步驟',
     subtitle:
-      'è«‹ä¾åºå®Œæˆä¸‰å€‹æ­¥é©Ÿã€‚é ä¼°æ™‚é–“ï¼šç´„ 5â€“10 åˆ†é˜ã€‚',
+      '提交前，請將標記內容與 Transparency Center 上的 Community Standards 進行對照。預計填寫表單時間：約 5–10 分鐘。',
     items: [
       {
-        title: 'æŸ¥çœ‹è¢«æ¨™è¨˜çš„å…§å®¹ã€‚',
+        title: '查閱適用的政策。',
         description:
-          'å°‡è­¦å‘Šèˆ‡ç²‰çµ²å°ˆé ä¸Šçš„ç›¸é—œè²¼æ–‡æˆ–æ´»å‹•å°ç…§ã€‚å¦‚éœ€äº†è§£é©ç”¨æ”¿ç­–ï¼Œè«‹æŸ¥é–± Community Standardsã€‚',
+          '閱讀 Transparency Center 上的相關政策部分 — 每個部分都包含 Policy Rationale 和具體規則。與你的粉絲專頁上被標記的貼文或活動進行對照。',
       },
       {
-        title: 'å¡«å¯«è¡¨å–®ä¸¦é©—è­‰èº«åˆ†ã€‚',
+        title: '填寫表單並驗證身份。',
         description:
-          'æä¾›ç®¡ç†å“¡åŠè¯çµ¡è³‡è¨Šï¼Œä»¥åŠèªªæ˜Žå‚™è¨»ï¼ˆå¦‚é©ç”¨ï¼‰ã€‚æäº¤å‰è«‹é©—è­‰é€£çµçš„ Facebook å¸³æˆ¶ã€‚',
+          '提供管理員和聯絡資訊以及背景說明（如需要）。提交前驗證關聯的 Facebook 帳號。',
       },
       {
-        title: 'åœ¨ Facebook ä¸Šè¿½è¹¤ç‹€æ…‹ã€‚',
+        title: '在 Facebook 上關注結果。',
         description:
-          'æäº¤å¾Œï¼Œæ‚¨å°‡é€éŽ Facebook é€šçŸ¥æ”¶åˆ°ç¢ºèªå’Œæ›´æ–°ã€‚å¦‚éœ€æ”¯æ´ï¼Œè«‹æ±‚åƒè€ƒç·¨è™Ÿå¯æä¾›å”åŠ©ã€‚',
+          '提交後，你將透過 Facebook 通知收到確認。審查通常需要 3–7 個工作天。如需支援，你的請求編號會有幫助。',
       },
     ],
   },
   testimonials: {
-    title: 'Help Center å»ºè­°',
-    prevAria: 'ä¸Šä¸€é …',
-    nextAria: 'ä¸‹ä¸€é …',
+    title: 'Transparency Center 引用',
+    prevAria: '上一項',
+    nextAria: '下一項',
     items: [
       {
         quote:
-          'ç”³è¨´å‰ï¼Œè«‹æŸ¥é–± Community Standards å’Œç™¼ä½ˆè€…åŽŸå‰‡ï¼Œäº†è§£ Meta å°æ‚¨ç²‰çµ²å°ˆé é©ç”¨çš„æ”¿ç­–ã€‚',
-        author: 'Meta Business Help Center',
-        role: 'å…§å®¹æ”¿ç­–',
+          '這些標準以使用者回饋以及技術、公共安全和人權等領域專家的建議為基礎 — 以確保每個人的聲音都受到重視。',
+        author: 'Meta Transparency Center',
+        role: '簡介',
       },
       {
         quote:
-          'åœ¨ç”³è¨´è¡¨å–®ä¸­ï¼Œç°¡è¦èªªæ˜Žè¢«æ¨™è¨˜å…§å®¹çš„èƒŒæ™¯ä»¥åŠæ‚¨èªç‚ºç²‰çµ²å°ˆé ç¬¦åˆæ”¿ç­–çš„åŽŸå›  â€” å…·é«”è³‡è¨Šæœ‰åŠ©å¯©æŸ¥äººå“¡æ›´æº–ç¢ºè©•ä¼°æ‚¨çš„æƒ…æ³ã€‚',
-        author: 'Meta Business Help Center',
-        role: 'æäº¤æŒ‡å—',
+          '我們的 Community Standards 適用於全球所有人以及所有類型的內容，包括 AI 生成的內容。',
+        author: 'Meta Transparency Center',
+        role: '適用範圍',
       },
       {
         quote:
-          'è«‹å‹¿å°±åŒä¸€å•é¡Œé‡è¤‡æäº¤è«‹æ±‚ã€‚æ¯å€‹è«‹æ±‚ä¾æŽ¥æ”¶é †åºæŽ’éšŠï¼Œæ¯å€‹æ¨™è¨˜åƒ…è™•ç†ä¸€æ¬¡ã€‚',
-        author: 'Meta Business Help Center',
-        role: 'è™•ç†æ”¿ç­–',
+          'Community Standards 的美式英語版本反映了最新的一套政策，應作為主要文件使用。',
+        author: 'Meta Transparency Center',
+        role: '官方文件',
       },
     ],
   },
   finalCta: {
-    title: 'æº–å‚™å¥½æäº¤ç”³è¨´äº†å—Žï¼Ÿ',
+    title: '提交申訴',
     subtitle:
-      'Appeal details è¡¨å–®éœ€è¦ç®¡ç†å“¡è³‡è¨Šå’Œèº«åˆ†é©—è­‰ã€‚é–‹å§‹å‰è«‹å…ˆç™»å…¥ Facebookã€‚',
-    cta: 'æäº¤ç”³è¨´',
+      '如果在閱讀 Community Standards 後，你認為你的粉絲專頁符合政策，請提交包含管理員資訊和身份驗證的表單。',
+    cta: '提交申訴',
   },
   faq: {
-    title: 'å¸¸è¦‹å•é¡Œ',
+    title: '常見問題',
     items: [
       {
-        question: 'ä»€éº¼æ˜¯ Meta Community Standardsï¼Ÿ',
+        question: 'Community Standards 涵蓋哪些內容？',
         answer:
-          'Facebook ä¸Šå…è¨±çš„å…§å®¹å’Œè¡Œç‚ºè¦å‰‡ï¼Œæ¶µè“‹å®‰å…¨ã€çœŸå¯¦æ€§ã€éš±ç§ç­‰é ˜åŸŸã€‚Meta æœƒåœ¨æ”¿ç­–é é¢æ›´æ–°ä¸¦ç™¼ä½ˆã€‚',
+          'Community Standards 說明了在 Facebook、Instagram、Messenger 和 Threads 上允許和禁止的內容。完整文件發布在 Meta Transparency Center。',
       },
       {
-        question: 'å¦‚æžœä¸ç¢ºå®šæ˜¯å¦é•è¦ï¼Œç‚ºä»€éº¼ç²‰çµ²å°ˆé æœƒè¢«æ¨™è¨˜ï¼Ÿ',
+        question: '哪個版本是官方參考？',
         answer:
-          'Meta çš„ç³»çµ±å¯èƒ½åœ¨æœ€çµ‚çµè«–å‰åµæ¸¬åˆ°æ½›åœ¨é•è¦å…§å®¹ã€‚é€šçŸ¥åæ˜ çš„æ˜¯åˆæ­¥è©•ä¼°éšŽæ®µï¼›ç”³è¨´å¯è®“å¯©æŸ¥åœ˜éšŠé‡æ–°è©•ä¼°æ‚¨ç²‰çµ²å°ˆé çš„å…·é«”æƒ…æ³ã€‚',
+          '根據 Transparency Center，美式英語版本反映了最新的一套政策，應作為主要文件使用。',
       },
       {
-        question: 'ä»€éº¼æ˜¯ã€Œé‚Šç•Œå…§å®¹ã€ï¼Ÿ',
+        question: 'Meta 在限制內容時遵循哪些價值觀？',
         answer:
-          'æŒ‡æœªå­—é¢é•å Community Standardsï¼Œä½†å¯èƒ½å¼•ç™¼çˆ­è­°ã€è³å‹•æˆ–é™ä½Žé«”é©—å“è³ªçš„å…§å®¹ã€‚Meta å¯èƒ½é™åˆ¶æ­¤é¡žå…§å®¹çš„åˆ†ç™¼ä»¥ä¿è­·ç¤¾ç¾¤ã€‚',
+          '當 Meta 限制表達時，是為了服務於真實性、安全、隱私或尊嚴 — Community Standards 中闡述的四個基本價值觀。',
       },
       {
-        question: 'èª°å¯ä»¥æäº¤ç”³è¨´ï¼Ÿ',
+        question: '如果我不確定是否違反政策，為什麼我的粉絲專頁會被標記？',
         answer:
-          'ç²‰çµ²å°ˆé ç®¡ç†å“¡æˆ–ç²‰çµ²å°ˆé æ‰€å±¬çµ„ç¹”çš„æŽˆæ¬Šä»£è¡¨ã€‚æäº¤è¡¨å–®æ™‚éœ€é©—è­‰é€£çµçš„ Facebook å¸³æˆ¶ã€‚',
+          'Meta 的系統可能在最終結論之前偵測到可能違規的內容。通知反映的是初步評估階段；申訴可讓審查團隊重新評估你粉絲專頁的具體背景。',
       },
       {
-        question: 'éœ€è¦æº–å‚™ä»€éº¼ï¼Ÿ',
+        question: '誰可以提交申訴？',
         answer:
-          'ç®¡ç†å“¡å…¨åã€è¯çµ¡é›»å­éƒµä»¶ã€å•†å‹™é›»å­éƒµä»¶ï¼ˆå¦‚é©ç”¨ï¼‰ã€ç²‰çµ²å°ˆé åç¨±ã€é›»è©±è™Ÿç¢¼ä»¥åŠè¢«æ¨™è¨˜å…§å®¹çš„ç°¡è¦èªªæ˜Žã€‚è³‡è¨Šä¸ä¸€è‡´æˆ–ç„¡æ³•é©—è­‰å¯èƒ½å°Žè‡´ç„¡æ³•è™•ç†ã€‚',
+          '粉絲專頁管理員或擁有該粉絲專頁的組織的授權代表。提交表單時必須驗證關聯的 Facebook 帳號。',
       },
       {
-        question: 'å¯©æŸ¥éœ€è¦å¤šä¹…ï¼Ÿå¯èƒ½æœ‰å“ªäº›çµæžœï¼Ÿ',
+        question: '審查需要多長時間，可能有哪些結果？',
         answer:
-          'é€šå¸¸ 3â€“7 å€‹å·¥ä½œå¤©ï¼Œå¦‚éœ€è£œå……è³‡è¨Šå¯èƒ½æ›´ä¹…ã€‚çµæžœå¯èƒ½åŒ…æ‹¬ç”³è¨´è¢«æŽ¥å—ã€ç¶­æŒåŽŸæ±ºå®šæˆ–è¦æ±‚è£œå……è³‡è¨Š â€” å‡é€éŽ Facebook é€šçŸ¥ã€‚',
+          '通常為 3–7 個工作天，如需補充資訊可能更長。結果可能包括申訴被接受、維持原決定或要求提供更多資訊 — 均透過 Facebook 通知。',
       },
       {
-        question: 'æˆ‘çš„è³‡è¨Šå¦‚ä½•ä½¿ç”¨ï¼Ÿ',
+        question: '我的資訊如何使用？',
         answer:
-          'åƒ…ç”¨æ–¼è™•ç†ç”³è¨´å’Œé©—è­‰ç®¡ç†æ¬Šé™ï¼Œä¾ Meta éš±ç§æ”¿ç­–å’Œæ¢æ¬¾ã€‚Meta ä¸æœƒå‡ºå”®æ‚¨çš„å€‹äººè³‡æ–™ã€‚',
+          '僅用於處理你的申訴和驗證管理權限，依據 Meta 的隱私政策和條款。',
       },
     ],
   },
   footer: {
-    copyright: 'Â© Meta',
+    copyright: '© Meta',
     columns: [
       {
-        title: 'Meta æŠ€è¡“',
+        title: 'Meta 技術',
         links: [
           { label: 'Facebook' },
           { label: 'Instagram' },
-          { label: 'WhatsApp' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
-        title: 'å·¥å…·',
+        title: '政策',
         links: [
-          { label: 'Meta Business Suite' },
-          { label: 'Ads Manager' },
-        ],
-      },
-      {
-        title: 'æ”¯æ´',
-        links: [
-          { label: 'Help Center' },
+          { label: 'Transparency Center' },
           { label: 'Community Standards' },
+        ],
+      },
+      {
+        title: '支援',
+        links: [
+          { label: '說明中心' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

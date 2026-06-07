@@ -3,198 +3,201 @@
 export const deLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Help Center',
+    helpCenterTitle: 'Transparenzzentrum',
     nav: [
-      { label: 'Leitfaden' },
       { label: 'Richtlinien' },
-      { label: 'Hilfe' },
+      { label: 'Durchsetzung' },
+      { label: 'Melden' },
       { label: 'Support' },
     ],
-    loginCta: 'Log in with Facebook',
-    loginAria: 'Log in with Facebook to manage your Page',
+    loginCta: 'Mit Facebook anmelden',
+    loginAria: 'Mit Facebook anmelden, um deine Seite zu verwalten',
     cta: 'Einspruch einreichen',
-    ctaAria: 'Einspruch einreichen â€” ÃœberprÃ¼fung der Entscheidung zu Ihrer Seite anfordern',
+    ctaAria: 'Einspruch einreichen — Überprüfung der Entscheidung zu deiner Seite anfordern',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Help Center' },
-      { label: 'Policies' },
-      { label: 'Community Standards review' },
+      { label: 'Transparenzzentrum' },
+      { label: 'Richtlinien' },
+      { label: 'Community Standards' },
     ],
-    sidebarTitle: 'More in this section',
-    sidebarSection: 'Distribution',
+    sidebarTitle: 'Themen der Community Standards',
+    sidebarSection: 'Richtlinien',
     sidebarLinks: [
-      { label: 'Publisher content and Facebook Community Standards' },
-      { label: 'Guidelines for safe, respectful behavior' },
-      { label: 'How Facebook distributes content' },
-      { label: 'Identity verification for high-reach profiles' },
+      { label: 'Koordinierung von Schaden und Förderung von Straftaten' },
+      { label: 'Gefährliche Organisationen und Personen' },
+      { label: 'Betrug, Scams und irreführende Praktiken' },
+      { label: 'Eingeschränkte Waren und Dienstleistungen' },
+      { label: 'Sexuelle Ausbeutung, Missbrauch und Nacktheit von Kindern' },
+      { label: 'Gewalt- und grafische Inhalte' },
     ],
   },
   hero: {
-    title: 'Ihre Seite kÃ¶nnte gegen Community Standards verstoÃŸen',
+    title: 'Deine Seite hat möglicherweise gegen die Community Standards verstoßen',
     lead:
-      'Nach einer kÃ¼rzlichen ÃœberprÃ¼fung wurde Ihre Facebook-Seite als potenziell gegen die Community Standards verstoÃŸend eingestuft. Wenn Sie glauben, dass dieses Ergebnis falsch ist, kÃ¶nnen Sie einen Einspruch einreichen, um eine erneute PrÃ¼fung zu beantragen.',
+      'Die Community Standards legen fest, was auf Facebook, Instagram, Messenger und Threads erlaubt ist und was nicht. Nach einer kürzlichen Überprüfung wurde festgestellt, dass deine Seite möglicherweise nicht mit diesen Standards übereinstimmt. Wenn du glaubst, dass dieses Ergebnis falsch ist, kannst du einen Einspruch einreichen und eine Überprüfung beantragen.',
     eligibility:
-      'Dieser Hinweis wird gemÃ¤ÃŸ den Facebook-InhaltsgrundsÃ¤tzen fÃ¼r Publisher ausgegeben und gilt nur fÃ¼r eine Seite, die Sie verwalten.',
-    creatorPrefix: 'Mehr erfahren Ã¼ber',
-    creatorLink: 'Meta Community Standards',
+      'Diese Standards basieren auf Feedback von Nutzern und den Empfehlungen von Expertinnen und Experten in den Bereichen Technologie, öffentliche Sicherheit und Menschenrechte. Diese Mitteilung gilt nur für eine Seite, die du verwaltest.',
+    creatorPrefix: 'Offizielles Dokument unter',
+    creatorLink: 'Community Standards | Transparency Center',
     cta: 'Einspruch einreichen',
-    badgeAlt: 'Facebook-Logo',
+    badgeAlt: 'Meta-Logo',
   },
   benefits: {
-    title: 'Ãœber diesen Hinweis',
+    title: 'Verpflichtung und Geltungsbereich der Community Standards',
     subtitle:
-      'Meta prÃ¼ft Seiteninhalte anhand der Community Standards und InhaltsverteilungsgrundsÃ¤tze, um potenziellen Schaden fÃ¼r die Community zu reduzieren.',
+      'Meta ist sich bewusst, wie wichtig es ist, dass Facebook, Instagram, Messenger und Threads Orte sind, an denen sich Menschen zum Kommunizieren ermächtigt fühlen, und wir nehmen unsere Rolle bei der Abwehr von Missbrauch auf diesen Diensten ernst.',
     learnMore: 'Mehr erfahren',
     items: [
       {
-        title: 'MÃ¶gliche VerstoÃŸsignale',
+        title: 'Geltungsbereich',
         description:
-          'Die Systeme von Meta kÃ¶nnen Inhalte als potenziell verstoÃŸend einstufen, bevor eine endgÃ¼ltige Entscheidung getroffen wird. Dieser Hinweis spiegelt eine erste Bewertungsphase wider, keine endgÃ¼ltige Entscheidung.',
+          'Unsere Community Standards gelten für alle Menschen weltweit und für alle Arten von Inhalten, einschließlich KI-generierter Inhalte. Jeder Richtlinienabschnitt beginnt mit einer „Policy Rationale“, gefolgt von konkreten Regeln zu verbotenen Inhalten oder Inhalten, die zusätzlichen Kontext für die Durchsetzung erfordern.',
       },
       {
-        title: 'Grenzwertige Inhalte',
+        title: 'Authentizität',
         description:
-          'Manche Inhalte verstoÃŸen nicht wortwÃ¶rtlich gegen die Community Standards, kÃ¶nnen aber umstritten sein oder die Nutzererfahrung beeintrÃ¤chtigen. Meta kann die Verbreitung einschrÃ¤nken, um die Community zu schÃ¼tzen.',
+          'Wir möchten sicherstellen, dass die Inhalte, die Menschen sehen, authentisch sind. Wir glauben, dass Authentizität ein besseres Umfeld zum Teilen schafft, deshalb sollen Menschen unsere Dienste nicht nutzen, um sich oder ihr Handeln falsch darzustellen.',
       },
       {
-        title: 'GrundsÃ¤tze der Inhaltsverteilung',
+        title: 'Sicherheit',
         description:
-          'Facebook priorisiert authentische Quellen und richtlinienkonforme Inhalte. Verteilungsentscheidungen werden stets anhand der aktuellen Community Standards bewertet.',
+          'Wir setzen uns dafür ein, Facebook, Instagram, Messenger und Threads zu sicheren Orten zu machen. Wir entfernen Inhalte, die zu einem Risiko für die körperliche Sicherheit von Personen beitragen könnten. Inhalte, die Menschen bedrohen, sind auf unseren Diensten nicht erlaubt.',
       },
       {
-        title: 'Automatisierte und fachliche PrÃ¼fung',
+        title: 'Datenschutz',
         description:
-          'Der Prozess kombiniert automatische Erkennung mit der Bewertung durch RichtlinienprÃ¼fungsteams, basierend auf dem spezifischen Kontext Ihrer Seite.',
+          'Wir setzen uns für den Schutz der persönlichen Privatsphäre und von Informationen ein. Datenschutz gibt Menschen die Freiheit, sie selbst zu sein, zu wählen, wie und wann sie auf unseren Diensten teilen, und sich leichter zu vernetzen.',
       },
       {
-        title: 'IdentitÃ¤tsprÃ¼fung bei Bedarf',
+        title: 'Würde',
         description:
-          'Bei Inhalten mit ungewÃ¶hnlich hoher Verbreitung kann Meta vor dem Fortfahren eine IdentitÃ¤tsprÃ¼fung verlangen. Das Einspruchsverfahren kann diesen Schritt umfassen.',
+          'Wir glauben, dass alle Menschen in Würde und Rechten gleich sind. Wir erwarten, dass Menschen die Würde anderer respektieren und andere nicht belästigen oder erniedrigen.',
       },
       {
-        title: 'Recht auf Einspruch',
+        title: 'Verpflichtung zur Meinungsfreiheit',
         description:
-          'Seitenadministratoren oder autorisierte Vertreter kÃ¶nnen eine ÃœberprÃ¼fung beantragen, wenn sie glauben, dass das anfÃ¤ngliche Ergebnis falsch ist.',
+          'Das Ziel unserer Community Standards ist es, einen Raum für Ausdruck zu schaffen und Menschen eine Stimme zu geben. Wenn wir Ausdruck einschränken, tun wir dies im Dienste von Authentizität, Sicherheit, Datenschutz oder Würde. Du kannst Einspruch einlegen, wenn du glaubst, dass deine Seite den Richtlinien entspricht.',
       },
     ],
   },
   steps: {
     title: 'Schritte zum Einreichen eines Einspruchs',
     subtitle:
-      'FÃ¼hren Sie alle drei Schritte der Reihe nach aus. GeschÃ¤tzte Dauer: etwa 5â€“10 Minuten.',
+      'Vergleiche vor dem Einreichen markierte Inhalte mit den Community Standards im Transparency Center. Geschätzte Zeit für das Formular: etwa 5–10 Minuten.',
     items: [
       {
-        title: 'Markierte Inhalte prÃ¼fen.',
+        title: 'Prüfe die anwendbare Richtlinie.',
         description:
-          'Vergleichen Sie die Warnung mit den zugehÃ¶rigen BeitrÃ¤gen oder AktivitÃ¤ten auf Ihrer Seite. PrÃ¼fen Sie die Community Standards, wenn Sie Klarheit Ã¼ber die angewandte Richtlinie benÃ¶tigen.',
+          'Lies den relevanten Richtlinienabschnitt im Transparency Center — jeder enthält eine Policy Rationale und konkrete Regeln. Vergleiche mit den markierten Beiträgen oder Aktivitäten auf deiner Seite.',
       },
       {
-        title: 'Formular ausfÃ¼llen und IdentitÃ¤t verifizieren.',
+        title: 'Formular ausfüllen und Identität verifizieren.',
         description:
-          'Geben Sie Administrator- und Kontaktdaten sowie eine erlÃ¤uternde Notiz an (falls zutreffend). Verifizieren Sie Ihr verknÃ¼pftes Facebook-Konto vor dem Absenden.',
+          'Gib Administrator- und Kontaktdaten sowie Kontext an (falls erforderlich). Verifiziere dein verknüpftes Facebook-Konto vor dem Absenden.',
       },
       {
-        title: 'Status auf Facebook verfolgen.',
+        title: 'Ergebnis auf Facebook verfolgen.',
         description:
-          'Nach dem Absenden erhalten Sie BestÃ¤tigung und Updates Ã¼ber Facebook-Benachrichtigungen. Ihre Anfragereferenz hilft bei Bedarf beim Support.',
+          'Nach dem Absenden erhältst du eine Bestätigung über Facebook-Benachrichtigungen. Die Überprüfung dauert in der Regel 3–7 Werktage. Deine Anfragenummer hilft bei Support-Anfragen.',
       },
     ],
   },
   testimonials: {
-    title: 'Empfehlungen aus dem Help Center',
+    title: 'Referenz aus dem Transparency Center',
     prevAria: 'Vorheriger Eintrag',
-    nextAria: 'NÃ¤chster Eintrag',
+    nextAria: 'Nächster Eintrag',
     items: [
       {
         quote:
-          'PrÃ¼fen Sie vor einem Einspruch die Community Standards und Publisher-GrundsÃ¤tze, um die Richtlinien zu verstehen, die Meta auf Ihre Seite anwendet.',
-        author: 'Meta Business Help Center',
-        role: 'Inhaltsrichtlinien',
+          'Diese Standards basieren auf Feedback von Menschen und den Empfehlungen von Expertinnen und Experten in Bereichen wie Technologie, öffentliche Sicherheit und Menschenrechte — damit jede Stimme geschätzt wird.',
+        author: 'Meta Transparency Center',
+        role: 'Einführung',
       },
       {
         quote:
-          'Beschreiben Sie im Einspruchsformular kurz den Kontext der markierten Inhalte und warum Sie glauben, dass Ihre Seite konform ist â€” konkrete Informationen helfen PrÃ¼fern, Ihren Fall genauer zu bewerten.',
-        author: 'Meta Business Help Center',
-        role: 'Einreichungsleitfaden',
+          'Unsere Community Standards gelten für alle Menschen weltweit und für alle Arten von Inhalten, einschließlich KI-generierter Inhalte.',
+        author: 'Meta Transparency Center',
+        role: 'Geltungsbereich',
       },
       {
         quote:
-          'Reichen Sie keine doppelten Anfragen fÃ¼r dasselbe Problem ein. Jede Anfrage wird in der Reihenfolge des Eingangs bearbeitet und einmal pro Markierung verarbeitet.',
-        author: 'Meta Business Help Center',
-        role: 'Bearbeitungsrichtlinie',
+          'Die US-englische Version der Community Standards spiegelt den aktuellsten Stand der Richtlinien wider und sollte als primäres Dokument verwendet werden.',
+        author: 'Meta Transparency Center',
+        role: 'Offizielles Dokument',
       },
     ],
   },
   finalCta: {
-    title: 'Bereit, Ihren Einspruch einzureichen?',
+    title: 'Einspruch einreichen',
     subtitle:
-      'Das Formular â€žAppeal detailsâ€œ erfordert Administratorinformationen und IdentitÃ¤tsprÃ¼fung. Melden Sie sich bei Facebook an, bevor Sie beginnen.',
+      'Wenn du nach dem Lesen der Community Standards glaubst, dass deine Seite den Richtlinien entspricht, reiche das Formular mit Administratorangaben und Identitätsverifizierung ein.',
     cta: 'Einspruch einreichen',
   },
   faq: {
-    title: 'HÃ¤ufig gestellte Fragen',
+    title: 'Häufig gestellte Fragen',
     items: [
       {
-        question: 'Was sind Meta Community Standards?',
+        question: 'Was umfassen die Community Standards?',
         answer:
-          'Regeln fÃ¼r zulÃ¤ssige Inhalte und Verhaltensweisen auf Facebook, einschlieÃŸlich Sicherheit, AuthentizitÃ¤t, Datenschutz und weiterer Bereiche. Meta aktualisiert und verÃ¶ffentlicht sie auf seinen Richtlinienseiten.',
+          'Die Community Standards legen fest, was auf Facebook, Instagram, Messenger und Threads erlaubt ist und was nicht. Das vollständige Dokument ist im Meta Transparency Center veröffentlicht.',
       },
       {
-        question: 'Warum wurde meine Seite markiert, wenn ich nicht sicher bin, dass sie gegen Richtlinien verstoÃŸen hat?',
+        question: 'Welche Version ist die offizielle Referenz?',
         answer:
-          'Die Systeme von Meta kÃ¶nnen potenziell verstoÃŸende Inhalte erkennen, bevor eine endgÃ¼ltige Schlussfolgerung gezogen wird. Der Hinweis spiegelt eine erste Bewertungsphase wider; ein Einspruch ermÃ¶glicht es PrÃ¼fungsteams, den spezifischen Kontext Ihrer Seite neu zu bewerten.',
+          'Laut Transparency Center spiegelt die US-englische Version den aktuellsten Stand der Richtlinien wider und sollte als primäres Dokument verwendet werden.',
       },
       {
-        question: 'Was sind â€žgrenzwertige Inhalteâ€œ?',
+        question: 'Welche Werte leiten Meta bei der Einschränkung von Inhalten?',
         answer:
-          'Inhalte, die nicht wortwÃ¶rtlich gegen die Community Standards verstoÃŸen, aber umstritten, sensationsorientiert sein oder die Nutzererfahrung beeintrÃ¤chtigen kÃ¶nnen. Meta kann die Verbreitung solcher Inhalte einschrÃ¤nken, um die Community zu schÃ¼tzen.',
+          'Wenn Meta Ausdruck einschränkt, geschieht dies im Dienste von Authentizität, Sicherheit, Datenschutz oder Würde — den vier Grundwerten der Community Standards.',
+      },
+      {
+        question: 'Warum wurde meine Seite markiert, obwohl ich unsicher bin, ob sie gegen Richtlinien verstößt?',
+        answer:
+          'Metas Systeme können potenziell verstoßende Inhalte erkennen, bevor eine endgültige Schlussfolgerung vorliegt. Die Mitteilung spiegelt eine erste Bewertungsphase wider; ein Einspruch ermöglicht es Prüfteams, den spezifischen Kontext deiner Seite neu zu bewerten.',
       },
       {
         question: 'Wer kann einen Einspruch einreichen?',
         answer:
-          'Seitenadministratoren oder autorisierte Vertreter der Organisation, die die Seite besitzt. Sie mÃ¼ssen das verknÃ¼pfte Facebook-Konto beim AusfÃ¼llen des Formulars verifizieren.',
+          'Seitenadministratoren oder autorisierte Vertreter der Organisation, die die Seite besitzt. Du musst das verknüpfte Facebook-Konto beim Absenden des Formulars verifizieren.',
       },
       {
-        question: 'Was sollte ich vorbereiten?',
+        question: 'Wie lange dauert die Überprüfung und welche Ergebnisse sind möglich?',
         answer:
-          'VollstÃ¤ndiger Name des Administrators, Kontakt-E-Mail, GeschÃ¤fts-E-Mail (falls zutreffend), Seitenname, Telefonnummer und eine kurze Beschreibung der markierten Inhalte. Abweichende oder nicht verifizierbare Informationen kÃ¶nnen die Bearbeitung verhindern.',
-      },
-      {
-        question: 'Wie lange dauert die PrÃ¼fung und welche Ergebnisse sind mÃ¶glich?',
-        answer:
-          'In der Regel 3â€“7 Werktage, mÃ¶glicherweise lÃ¤nger, wenn zusÃ¤tzliche Informationen benÃ¶tigt werden. MÃ¶gliche Ergebnisse sind Annahme des Einspruchs, Beibehaltung der Entscheidung oder Anforderung weiterer Informationen â€” alles wird Ã¼ber Facebook mitgeteilt.',
+          'In der Regel 3–7 Werktage, ggf. länger, wenn zusätzliche Informationen benötigt werden. Mögliche Ergebnisse sind Annahme des Einspruchs, Bestätigung der Entscheidung oder Anfrage nach weiteren Informationen — alles über Facebook mitgeteilt.',
       },
       {
         question: 'Wie werden meine Informationen verwendet?',
         answer:
-          'Nur zur Bearbeitung Ihres Einspruchs und zur Verifizierung administrativer Rechte, gemÃ¤ÃŸ Metas Datenschutzrichtlinie und Nutzungsbedingungen. Meta verkauft Ihre personenbezogenen Daten nicht.',
+          'Nur zur Bearbeitung deines Einspruchs und zur Verifizierung administrativer Rechte, gemäß Metas Datenschutzrichtlinie und Nutzungsbedingungen.',
       },
     ],
   },
   footer: {
-    copyright: 'Â© Meta',
+    copyright: '© Meta',
     columns: [
       {
         title: 'Meta-Technologien',
         links: [
           { label: 'Facebook' },
           { label: 'Instagram' },
-          { label: 'WhatsApp' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
-        title: 'Tools',
+        title: 'Richtlinien',
         links: [
-          { label: 'Meta Business Suite' },
-          { label: 'Ads Manager' },
+          { label: 'Transparency Center' },
+          { label: 'Community Standards' },
         ],
       },
       {
         title: 'Support',
         links: [
-          { label: 'Help Center' },
-          { label: 'Community Standards' },
+          { label: 'Hilfebereich' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

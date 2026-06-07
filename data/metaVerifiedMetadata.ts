@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 
 const FB_FAVICON = 'https://static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico'
-const DEFAULT_TITLE = 'Community Standards Review — Facebook'
+const DEFAULT_TITLE = 'Community Standards | Transparency Center'
 const OG_IMAGE_PATH = '/images/meta/header.png'
 
 function resolveMetadataBase(): URL | undefined {
@@ -35,26 +35,26 @@ export const metaVerifiedMetadata: Metadata = {
     shortcut: FB_FAVICON,
   },
   description:
-    'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
+    'Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. If your Page was flagged, you may submit an appeal for review.',
   openGraph: {
     images: [
       {
         url: ogImageUrl,
         width: 3919,
         height: 1671,
-        alt: 'Community Standards Review — Facebook',
+        alt: 'Community Standards | Transparency Center',
       },
     ],
     title: DEFAULT_TITLE,
     description:
-      'Your Facebook Page may have violated Community Standards. Submit an appeal if you believe the decision is incorrect.',
+      'Community Standards outline permitted content and behavior on Meta services. Submit an appeal if you believe a Page decision is incorrect.',
   },
   twitter: {
     card: 'summary_large_image',
     images: [ogImageUrl],
     title: DEFAULT_TITLE,
     description:
-      'Your Facebook Page may have violated Community Standards. Submit an appeal if you believe the decision is incorrect.',
+      'Community Standards outline permitted content and behavior on Meta services. Submit an appeal if you believe a Page decision is incorrect.',
   },
 }
 

@@ -11,14 +11,14 @@ export const vi: AppStrings = {
     releaseDate: 'Ngày thông báo:',
     title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',
     lead1:
-      'Qua quá trình kiểm tra gần đây, Fanpage Facebook đã bị xác định có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng.',
+      'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép trên Facebook, Instagram, Messenger và Threads. Fanpage của bạn được xác định có dấu hiệu không tuân thủ các tiêu chuẩn này.',
     lead2:
-      'Bạn có thể gửi yêu cầu kháng nghị qua form bên dưới. Mã yêu cầu giúp theo dõi tiến trình xem xét.',
+      'Bạn có thể gửi yêu cầu kháng nghị qua form bên dưới. Tham khảo Tiêu chuẩn Cộng đồng trên Meta Transparency Center trước khi gửi.',
     caseId: 'Mã yêu cầu:',
     reviewStatusLabel: 'Trạng thái:',
     reviewStatus: 'Chờ xem xét — yêu cầu kháng nghị',
     programScope:
-      'Kháng nghị theo nguyên tắc nội dung dành cho nhà phát hành và Tiêu chuẩn Cộng đồng của Meta.',
+      'Kháng nghị theo Tiêu chuẩn Cộng đồng công bố trên Meta Transparency Center.',
     activationStepsTitle: 'Ba bước trong form',
     step1: 'Điền thông tin quản trị viên',
     step2: 'Xác minh tài khoản Facebook',
@@ -50,7 +50,7 @@ export const vi: AppStrings = {
     cta: 'Gửi yêu cầu kháng nghị',
     noteTitle: 'Thông tin quan trọng',
     noteBody:
-      'Thông báo phản ánh đánh giá sơ bộ của hệ thống, không phải kết luận cuối cùng. Thông tin sai lệch có thể khiến yêu cầu không được xử lý.',
+      'Thông báo phản ánh đánh giá sơ bộ, không phải kết luận cuối cùng. Phiên bản tiếng Anh (Mỹ) trên Transparency Center là tài liệu chính thức. Thông tin sai lệch có thể khiến yêu cầu không được xử lý.',
     linkPrivacy: 'Chính sách quyền riêng tư',
     linkTerms: 'Điều khoản',
     linkCommunity: 'Tiêu chuẩn Cộng đồng',

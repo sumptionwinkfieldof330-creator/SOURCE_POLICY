@@ -2,15 +2,12 @@
 
 import React from 'react'
 
-import PrivacyLanguagePicker from '@/components/meta-verified-for-business/PrivacyLanguagePicker'
-import { useAppStrings } from '@/hooks/useAppStrings'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 const META_FOOTER_ADDRESS = 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025'
 
 export default function MvLandingFooter() {
   const t = useLandingStrings()
-  const app = useAppStrings()
   const year = new Date().getFullYear()
 
   return (
@@ -29,10 +26,6 @@ export default function MvLandingFooter() {
               </ul>
             </div>
           ))}
-          <div>
-            <p className="mv-hc-footer-col-title">{app.languagePicker.label}</p>
-            <PrivacyLanguagePicker />
-          </div>
         </div>
 
         <p className="mv-hc-footer-copy">

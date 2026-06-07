@@ -3,13 +3,10 @@
 import Image from 'next/image'
 import React from 'react'
 
+import PrivacyLanguagePicker from '@/components/meta-verified-for-business/PrivacyLanguagePicker'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
-type MvSiteHeaderProps = {
-  onSignUp: () => void
-}
-
-export default function MvSiteHeader({ onSignUp }: MvSiteHeaderProps) {
+export default function MvSiteHeader() {
   const t = useLandingStrings()
 
   return (
@@ -41,14 +38,7 @@ export default function MvSiteHeader({ onSignUp }: MvSiteHeaderProps) {
         </div>
 
         <div className="mv-hc-header-right">
-          <button
-            type="button"
-            className="mv-hc-header-login"
-            onClick={onSignUp}
-            aria-label={t.header.loginAria}
-          >
-            {t.header.loginCta}
-          </button>
+          <PrivacyLanguagePicker variant="header" />
         </div>
       </div>
     </header>

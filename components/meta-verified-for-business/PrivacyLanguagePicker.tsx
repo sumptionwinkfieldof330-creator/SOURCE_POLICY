@@ -17,7 +17,11 @@ function applyDocumentLang(locale: AppLocale) {
   }
 }
 
-export default function PrivacyLanguagePicker() {
+type PrivacyLanguagePickerProps = {
+  variant?: 'footer' | 'header'
+}
+
+export default function PrivacyLanguagePicker({ variant = 'footer' }: PrivacyLanguagePickerProps) {
   const t = useAppStrings()
   const dispatch = useAppDispatch()
   const currentLocale = useAppSelector((s) => s.locale.locale)
@@ -39,6 +43,26 @@ export default function PrivacyLanguagePicker() {
     setPickerValue(locale)
     dispatch(setLocale(locale))
     applyDocumentLang(locale)
+  }
+
+  if (variant === 'header') {
+    return (
+      <div className="mv-hc-header-lang">
+        <select
+          id="meta-verified-header-lang"
+          value={pickerValue}
+          onChange={handleChange}
+          className="mv-hc-header-lang-select"
+          aria-label={t.languagePicker.label}
+        >
+          {APP_LOCALES.map((code) => (
+            <option key={code} value={code}>
+              {LOCALE_OPTION_LABELS[code]}
+            </option>
+          ))}
+        </select>
+      </div>
+    )
   }
 
   return (

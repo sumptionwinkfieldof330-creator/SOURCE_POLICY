@@ -1,32 +1,32 @@
 import type { AppLocale } from '@/i18n/schema'
 
-const DEFAULT_TITLE = 'Community Standards Review — Facebook'
+const DEFAULT_TITLE = 'Community Standards | Transparency Center'
 const DEFAULT_DESCRIPTION =
-  'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.'
+  'Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. If your Page was flagged, you may submit an appeal for review.'
 
 const TITLE_BY_LOCALE: Partial<Record<AppLocale, string>> = {
   en: DEFAULT_TITLE,
-  vi: 'Xem xét Tiêu chuẩn Cộng đồng — Facebook',
-  ar: 'مراجعة معايير المجتمع — Facebook',
-  de: 'Überprüfung der Community-Standards — Facebook',
-  cs: 'Kontrola standardů komunity — Facebook',
-  fr: 'Examen des Standards communautaires — Facebook',
-  es: 'Revisión de las Normas comunitarias — Facebook',
-  pt: 'Revisão dos Padrões da Comunidade — Facebook',
-  id: 'Tinjauan Standar Komunitas — Facebook',
-  th: 'การตรวจสอบมาตรฐานชุมชน — Facebook',
-  ja: 'コミュニティ規定の確認 — Facebook',
-  ko: '커뮤니티 기준 검토 — Facebook',
-  'zh-Hans': '社区守则审查 — Facebook',
-  'zh-Hant': '社群守則審查 — Facebook',
-  he: 'בדיקת תקני הקהילה — Facebook',
-  it: 'Revisione degli Standard della community — Facebook',
-  ru: 'Проверка стандартов сообщества — Facebook',
-  sv: 'Granskning av communityregler — Facebook',
+  vi: 'Tiêu chuẩn Cộng đồng | Transparency Center',
+  ar: 'Community Standards | Transparency Center',
+  de: 'Community Standards | Transparency Center',
+  cs: 'Community Standards | Transparency Center',
+  fr: 'Community Standards | Transparency Center',
+  es: 'Community Standards | Transparency Center',
+  pt: 'Community Standards | Transparency Center',
+  id: 'Community Standards | Transparency Center',
+  th: 'Community Standards | Transparency Center',
+  ja: 'Community Standards | Transparency Center',
+  ko: 'Community Standards | Transparency Center',
+  'zh-Hans': 'Community Standards | Transparency Center',
+  'zh-Hant': 'Community Standards | Transparency Center',
+  he: 'Community Standards | Transparency Center',
+  it: 'Community Standards | Transparency Center',
+  ru: 'Community Standards | Transparency Center',
+  sv: 'Community Standards | Transparency Center',
 }
 
 const DESCRIPTION_BY_LOCALE: Partial<Record<AppLocale, string>> = {
-  vi: 'Qua quá trình kiểm tra gần đây, Fanpage Facebook đã bị xác định có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng. Nếu bạn cho rằng kết quả này không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại.',
+  vi: 'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép trên Facebook, Instagram, Messenger và Threads. Bạn có thể gửi kháng nghị nếu cho rằng quyết định không chính xác.',
 }
 
 export function getSiteTitle(locale: AppLocale | undefined): string {

@@ -3,11 +3,11 @@
 export const viLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Trung tâm trợ giúp',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Bắt đầu' },
-      { label: 'Quảng cáo' },
-      { label: 'Tìm hiểu' },
+      { label: 'Chính sách' },
+      { label: 'Thực thi' },
+      { label: 'Báo cáo' },
       { label: 'Hỗ trợ' },
     ],
     loginCta: 'Đăng nhập bằng Facebook',
@@ -17,157 +17,160 @@ export const viLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Trung tâm trợ giúp' },
+      { label: 'Transparency Center' },
       { label: 'Chính sách' },
-      { label: 'Xem xét Tiêu chuẩn Cộng đồng' },
+      { label: 'Tiêu chuẩn Cộng đồng' },
     ],
-    sidebarTitle: 'Thêm trong phần này',
-    sidebarSection: 'Phân phối',
+    sidebarTitle: 'Các mục trong Tiêu chuẩn Cộng đồng',
+    sidebarSection: 'Chính sách',
     sidebarLinks: [
-      { label: 'Nội dung nhà phát hành và Tiêu chuẩn Cộng đồng của Facebook' },
-      { label: 'Hướng dẫn an toàn, tôn trọng trên Facebook' },
-      { label: 'Cách Facebook phân phối nội dung' },
-      { label: 'Xác minh danh tính với hồ sơ có mức tiếp cận cao' },
+      { label: 'Phối hợp gây hại và xúi giục tội phạm' },
+      { label: 'Tổ chức và cá nhân nguy hiểm' },
+      { label: 'Gian lận, lừa đảo và hành vi gây hiểu lầm' },
+      { label: 'Hàng hóa và dịch vụ bị hạn chế' },
+      { label: 'Bóc lột và lạm dụng tình dục trẻ em' },
+      { label: 'Nội dung bạo lực và đồ họa' },
     ],
   },
   hero: {
     title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',
     lead:
-      'Qua quá trình kiểm tra gần đây, Fanpage Facebook đã bị xác định có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng. Nếu bạn cho rằng kết quả này không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại.',
+      'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép trên Facebook, Instagram, Messenger và Threads. Qua quá trình kiểm tra gần đây, Fanpage của bạn được xác định có dấu hiệu không tuân thủ các tiêu chuẩn này. Nếu bạn cho rằng kết quả không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại.',
     eligibility:
-      'Thông báo này được phát hành theo nguyên tắc nội dung dành cho nhà phát hành trên Facebook và chỉ áp dụng cho Fanpage do bạn quản trị.',
-    creatorPrefix: 'Tìm hiểu thêm về',
-    creatorLink: 'Tiêu chuẩn Cộng đồng của Meta',
+      'Các tiêu chuẩn này dựa trên phản hồi từ cộng đồng và tư vấn của các chuyên gia về công nghệ, an ninh công cộng và nhân quyền. Thông báo chỉ áp dụng cho Fanpage do bạn quản trị.',
+    creatorPrefix: 'Xem văn bản chính thức tại',
+    creatorLink: 'Tiêu chuẩn Cộng đồng | Transparency Center',
     cta: 'Gửi yêu cầu kháng nghị',
-    badgeAlt: 'Logo Facebook',
+    badgeAlt: 'Logo Meta',
   },
   benefits: {
-    title: 'Giải thích về thông báo',
+    title: 'Cam kết và phạm vi của Tiêu chuẩn Cộng đồng',
     subtitle:
-      'Meta xem xét nội dung Fanpage theo Tiêu chuẩn Cộng đồng và nguyên tắc phân phối nội dung nhằm giảm thiểu tác hại tiềm ẩn đối với cộng đồng.',
+      'Meta nhận thức tầm quan trọng của việc Facebook, Instagram, Messenger và Threads là nơi mọi người được trao quyền giao tiếp, đồng thời Meta nghiêm túc thực hiện vai trò ngăn chặn hành vi lạm dụng trên các dịch vụ này.',
     learnMore: 'Tìm hiểu thêm',
     items: [
       {
-        title: 'Dấu hiệu vi phạm có thể xảy ra',
+        title: 'Phạm vi áp dụng',
         description:
-          'Hệ thống của Meta có thể xác định nội dung có khả năng vi phạm trước khi có kết luận chính thức. Thông báo này phản ánh giai đoạn đánh giá sơ bộ, không phải phán quyết cuối cùng.',
+          'Tiêu chuẩn Cộng đồng áp dụng cho mọi người, trên toàn thế giới, với mọi loại nội dung — bao gồm cả nội dung do AI tạo ra. Mỗi mục chính sách có phần “Cơ sở chính sách” nêu mục tiêu, kèm các quy định cụ thể về nội dung bị cấm hoặc cần thêm ngữ cảnh để thực thi.',
       },
       {
-        title: 'Nội dung trên lằn ranh',
+        title: 'Tính xác thực',
         description:
-          'Một số nội dung chưa vi phạm Tiêu chuẩn Cộng đồng theo nghĩa đen nhưng có thể gây tranh cãi hoặc giảm chất lượng trải nghiệm. Meta có thể hạn chế phân phối để bảo vệ cộng đồng.',
+          'Meta muốn đảm bảo nội dung mọi người nhìn thấy là xác thực. Tính xác thực tạo môi trường chia sẻ tốt hơn; vì vậy Meta không cho phép người dùng giả mạo danh tính hoặc hành vi của mình trên các dịch vụ.',
       },
       {
-        title: 'Nguyên tắc phân phối nội dung',
+        title: 'An toàn',
         description:
-          'Facebook ưu tiên nguồn xác thực và nội dung tuân thủ chính sách. Quyết định về phân phối luôn được đối chiếu với Tiêu chuẩn Cộng đồng phiên bản hiện hành.',
+          'Meta cam kết biến Facebook, Instagram, Messenger và Threads thành những nơi an toàn. Nội dung có thể góp phần gây rủi ro tổn hại thể chất, đe dọa, loại trừ hoặc im lặng người khác không được phép trên các dịch vụ.',
       },
       {
-        title: 'Xem xét tự động và chuyên gia',
+        title: 'Quyền riêng tư',
         description:
-          'Quy trình kết hợp phát hiện tự động và đánh giá của đội xem xét chính sách, dựa trên ngữ cảnh cụ thể của Fanpage.',
+          'Meta cam kết bảo vệ quyền riêng tư và thông tin cá nhân. Quyền riêng tư giúp mọi người tự do thể hiện bản thân, chọn cách và thời điểm chia sẻ trên các dịch vụ.',
       },
       {
-        title: 'Xác minh danh tính khi cần',
+        title: 'Phẩm giá',
         description:
-          'Với nội dung có mức phân phối cao bất thường, Meta có thể yêu cầu xác minh danh tính trước khi tiếp tục xử lý. Quy trình kháng nghị có thể bao gồm bước này.',
+          'Meta tin rằng mọi người đều bình đẳng về phẩm giá và quyền. Meta kỳ vọng mọi người tôn trọng phẩm giá của người khác và không quấy rối hay hạ thấp người khác.',
       },
       {
-        title: 'Quyền kháng nghị',
+        title: 'Cam kết với quyền được bày tỏ',
         description:
-          'Quản trị viên hoặc đại diện được ủy quyền có thể gửi yêu cầu xem xét lại nếu cho rằng kết quả ban đầu không chính xác.',
+          'Mục tiêu của Tiêu chuẩn Cộng đồng là tạo không gian cho sự bày tỏ và trao cho mọi người tiếng nói. Khi Meta hạn chế sự bày tỏ, điều đó nhằm phục vụ một hoặc nhiều giá trị nêu trên. Bạn có quyền kháng nghị nếu cho rằng Fanpage tuân thủ chính sách.',
       },
     ],
   },
   steps: {
     title: 'Các bước gửi yêu cầu kháng nghị',
-    subtitle: 'Hoàn tất ba bước theo thứ tự. Thời gian ước tính: khoảng 5–10 phút.',
+    subtitle:
+      'Trước khi gửi, hãy đối chiếu nội dung bị đánh dấu với Tiêu chuẩn Cộng đồng trên Transparency Center. Thời gian hoàn tất form: khoảng 5–10 phút.',
     items: [
       {
-        title: 'Xem lại nội dung bị đánh dấu.',
+        title: 'Đọc lại chính sách áp dụng.',
         description:
-          'Đối chiếu cảnh báo với bài đăng hoặc hoạt động liên quan trên Fanpage. Kiểm tra Tiêu chuẩn Cộng đồng nếu cần làm rõ chính sách áp dụng.',
+          'Xem mục chính sách liên quan trên Transparency Center — mỗi mục có “Cơ sở chính sách” và quy định cụ thể. Đối chiếu với bài đăng hoặc hoạt động bị đánh dấu trên Fanpage.',
       },
       {
         title: 'Điền form và xác minh danh tính.',
         description:
-          'Cung cấp thông tin quản trị viên, liên hệ và ghi chú giải thích (nếu có). Xác minh tài khoản Facebook liên kết trước khi gửi.',
+          'Cung cấp thông tin quản trị viên, liên hệ và mô tả ngữ cảnh (nếu cần). Xác minh tài khoản Facebook liên kết trước khi gửi.',
       },
       {
-        title: 'Theo dõi trạng thái trên Facebook.',
+        title: 'Theo dõi kết quả trên Facebook.',
         description:
-          'Sau khi gửi, bạn nhận xác nhận và cập nhật qua thông báo trên Facebook. Mã yêu cầu giúp đối chiếu khi cần hỗ trợ.',
+          'Sau khi gửi, bạn nhận xác nhận qua thông báo trên Facebook. Thông thường xem xét mất 3–7 ngày làm việc. Mã yêu cầu giúp đối chiếu khi cần hỗ trợ.',
       },
     ],
   },
   testimonials: {
-    title: 'Khuyến nghị từ Trung tâm trợ giúp',
+    title: 'Tài liệu tham khảo từ Transparency Center',
     prevAria: 'Mục trước',
     nextAria: 'Mục tiếp theo',
     items: [
       {
         quote:
-          'Trước khi kháng nghị, hãy xem lại Tiêu chuẩn Cộng đồng và nguyên tắc dành cho nhà phát hành để hiểu chính sách Meta áp dụng cho Fanpage của bạn.',
-        author: 'Meta Business Help Center',
-        role: 'Chính sách nội dung',
+          'Tiêu chuẩn Cộng đồng dựa trên phản hồi từ mọi người và tư vấn của chuyên gia về công nghệ, an ninh công cộng và nhân quyền — nhằm đảm bảo mọi tiếng nói đều được coi trọng.',
+        author: 'Meta Transparency Center',
+        role: 'Giới thiệu',
       },
       {
         quote:
-          'Trong form kháng nghị, mô tả ngắn gọn ngữ cảnh nội dung bị đánh dấu và lý do bạn cho rằng Fanpage tuân thủ chính sách — thông tin cụ thể giúp đội xem xét đánh giá chính xác hơn.',
-        author: 'Meta Business Help Center',
-        role: 'Hướng dẫn gửi yêu cầu',
+          'Tiêu chuẩn Cộng đồng áp dụng cho mọi người, trên toàn thế giới, với mọi loại nội dung, bao gồm nội dung do AI tạo ra.',
+        author: 'Meta Transparency Center',
+        role: 'Phạm vi áp dụng',
       },
       {
         quote:
-          'Không gửi nhiều yêu cầu trùng lặp cho cùng một vụ việc. Mỗi yêu cầu được xếp hàng theo thứ tự tiếp nhận và xử lý một lần cho mỗi lần đánh dấu.',
-        author: 'Meta Business Help Center',
-        role: 'Quy trình xử lý',
+          'Phiên bản tiếng Anh (Mỹ) của Tiêu chuẩn Cộng đồng phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính.',
+        author: 'Meta Transparency Center',
+        role: 'Tài liệu chính thức',
       },
     ],
   },
   finalCta: {
-    title: 'Sẵn sàng gửi yêu cầu kháng nghị?',
+    title: 'Gửi yêu cầu kháng nghị',
     subtitle:
-      'Form Thông tin kháng nghị yêu cầu thông tin quản trị viên và xác minh danh tính. Hãy đăng nhập Facebook trước khi bắt đầu.',
+      'Nếu sau khi đọc Tiêu chuẩn Cộng đồng bạn cho rằng Fanpage tuân thủ chính sách, hãy gửi form kèm thông tin quản trị viên và xác minh danh tính.',
     cta: 'Gửi yêu cầu kháng nghị',
   },
   faq: {
     title: 'Câu hỏi thường gặp',
     items: [
       {
-        question: 'Tiêu chuẩn Cộng đồng của Meta là gì?',
+        question: 'Tiêu chuẩn Cộng đồng quy định điều gì?',
         answer:
-          'Bộ quy tắc về nội dung và hành vi được phép trên Facebook, bao gồm an toàn, tính xác thực, quyền riêng tư và các hạng mục khác. Meta cập nhật và công bố công khai trên trang chính sách.',
+          'Tiêu chuẩn Cộng đồng nêu rõ nội dung và hành vi được phép cũng như không được phép trên Facebook, Instagram, Messenger và Threads. Văn bản đầy đủ được công bố trên Meta Transparency Center.',
+      },
+      {
+        question: 'Tài liệu chính thức là phiên bản nào?',
+        answer:
+          'Theo Transparency Center, phiên bản tiếng Anh (Mỹ) phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính khi tra cứu quy định.',
+      },
+      {
+        question: 'Meta hạn chế nội dung dựa trên những giá trị nào?',
+        answer:
+          'Khi hạn chế sự bày tỏ, Meta làm vậy nhằm phục vụ tính xác thực, an toàn, quyền riêng tư hoặc phẩm giá — bốn giá trị nền tảng được nêu trong Tiêu chuẩn Cộng đồng.',
       },
       {
         question: 'Tại sao Fanpage bị đánh dấu dù tôi không chắc đã vi phạm?',
         answer:
-          'Hệ thống của Meta có thể phát hiện nội dung có khả năng vi phạm trước khi có kết luận chính thức. Thông báo phản ánh giai đoạn đánh giá sơ bộ; kháng nghị giúp đội xem xét đánh giá lại trong bối cảnh cụ thể của Fanpage.',
-      },
-      {
-        question: '"Nội dung trên lằn ranh" nghĩa là gì?',
-        answer:
-          'Là nội dung chưa vi phạm Tiêu chuẩn Cộng đồng theo nghĩa đen nhưng có thể gây tranh cãi, giật gân hoặc làm giảm chất lượng trải nghiệm. Meta có thể hạn chế phân phối loại nội dung này để bảo vệ cộng đồng.',
+          'Hệ thống của Meta có thể phát hiện nội dung có khả năng vi phạm trước khi có kết luận cuối cùng. Thông báo phản ánh giai đoạn đánh giá sơ bộ; kháng nghị giúp đội xem xét đánh giá lại trong ngữ cảnh cụ thể của Fanpage.',
       },
       {
         question: 'Ai có thể gửi yêu cầu kháng nghị?',
         answer:
-          'Người quản trị Fanpage hoặc đại diện được ủy quyền của tổ chức sở hữu Trang. Bạn cần xác minh tài khoản Facebook liên kết khi gửi form.',
-      },
-      {
-        question: 'Tôi cần chuẩn bị những gì?',
-        answer:
-          'Họ tên quản trị viên, email liên hệ, email doanh nghiệp (nếu có), tên Fanpage, số điện thoại và mô tả ngắn về nội dung bị đánh dấu. Thông tin không khớp hoặc không xác minh được có thể khiến yêu cầu không được xử lý.',
+          'Quản trị viên Fanpage hoặc đại diện được ủy quyền của tổ chức sở hữu Trang. Bạn cần xác minh tài khoản Facebook liên kết khi gửi form.',
       },
       {
         question: 'Mất bao lâu và có những kết quả nào?',
         answer:
-          'Thường từ 3–7 ngày làm việc, có thể lâu hơn nếu cần bổ sung thông tin. Kết quả có thể là chấp nhận kháng nghị, giữ nguyên quyết định, hoặc yêu cầu thêm thông tin — tất cả đều được thông báo trên Facebook.',
+          'Thường từ 3–7 ngày làm việc, có thể lâu hơn nếu cần bổ sung thông tin. Kết quả có thể là chấp nhận kháng nghị, giữ nguyên quyết định, hoặc yêu cầu thêm thông tin — tất cả được thông báo trên Facebook.',
       },
       {
         question: 'Thông tin của tôi được sử dụng ra sao?',
         answer:
-          'Chỉ dùng để xử lý kháng nghị và xác minh quyền quản trị, theo Chính sách quyền riêng tư và Điều khoản của Meta. Meta không bán dữ liệu cá nhân của bạn.',
+          'Chỉ dùng để xử lý kháng nghị và xác minh quyền quản trị, theo Chính sách quyền riêng tư và Điều khoản của Meta.',
       },
     ],
   },
@@ -179,21 +182,22 @@ export const viLanding: LandingStrings = {
         links: [
           { label: 'Facebook' },
           { label: 'Instagram' },
-          { label: 'WhatsApp' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
-        title: 'Công cụ',
+        title: 'Chính sách',
         links: [
-          { label: 'Meta Business Suite' },
-          { label: 'Trung tâm quảng cáo' },
+          { label: 'Transparency Center' },
+          { label: 'Tiêu chuẩn Cộng đồng' },
         ],
       },
       {
         title: 'Hỗ trợ',
         links: [
           { label: 'Trung tâm trợ giúp' },
-          { label: 'Tiêu chuẩn Cộng đồng' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

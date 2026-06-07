@@ -3,11 +3,11 @@
 export const enLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Help Center',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Get started' },
-      { label: 'Advertise' },
-      { label: 'Learn' },
+      { label: 'Policies' },
+      { label: 'Enforcement' },
+      { label: 'Reporting' },
       { label: 'Support' },
     ],
     loginCta: 'Log in with Facebook',
@@ -17,147 +17,150 @@ export const enLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Help Center' },
+      { label: 'Transparency Center' },
       { label: 'Policies' },
-      { label: 'Community Standards review' },
+      { label: 'Community Standards' },
     ],
-    sidebarTitle: 'More in this section',
-    sidebarSection: 'Distribution',
+    sidebarTitle: 'Community Standards topics',
+    sidebarSection: 'Policies',
     sidebarLinks: [
-      { label: 'Publisher content and Facebook Community Standards' },
-      { label: 'Guidelines for safe, respectful behavior' },
-      { label: 'How Facebook distributes content' },
-      { label: 'Identity verification for high-reach profiles' },
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Violent and Graphic Content' },
     ],
   },
   hero: {
     title: 'Your Page may have violated Community Standards',
     lead:
-      'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
+      'The Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. Following a recent review, your Page has been identified as potentially not complying with these standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
     eligibility:
-      'This notice is issued under Facebook publisher content principles and applies only to a Page you administer.',
-    creatorPrefix: 'Learn more about',
-    creatorLink: 'Meta Community Standards',
+      'These standards are based on feedback from people and the advice of experts in technology, public safety and human rights. This notice applies only to a Page you administer.',
+    creatorPrefix: 'View the official document at',
+    creatorLink: 'Community Standards | Transparency Center',
     cta: 'Submit appeal',
-    badgeAlt: 'Facebook logo',
+    badgeAlt: 'Meta logo',
   },
   benefits: {
-    title: 'About this notice',
+    title: 'Commitment and scope of Community Standards',
     subtitle:
-      'Meta reviews Page content against Community Standards and content distribution principles to reduce potential harm to the community.',
+      'Meta recognizes how important it is for Facebook, Instagram, Messenger and Threads to be places where people feel empowered to communicate, and we take our role seriously in keeping abuse off these services.',
     learnMore: 'Learn more',
     items: [
       {
-        title: 'Potential violation signals',
+        title: 'Scope of application',
         description:
-          "Meta's systems may identify content as potentially violating before a final determination. This notice reflects an initial assessment stage, not a final ruling.",
+          'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each policy section starts with a "Policy Rationale" followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
       },
       {
-        title: 'Borderline content',
+        title: 'Authenticity',
         description:
-          'Some content may not violate Community Standards on its face but can be controversial or reduce overall experience quality. Meta may limit distribution to protect the community.',
+          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
       },
       {
-        title: 'Content distribution principles',
+        title: 'Safety',
         description:
-          'Facebook prioritizes authentic sources and policy-compliant content. Distribution decisions are always assessed against the current Community Standards.',
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons. Content that threatens people isn\'t allowed on our services.',
       },
       {
-        title: 'Automated and specialist review',
+        title: 'Privacy',
         description:
-          "The process combines automated detection with assessment by policy review teams, based on your Page's specific context.",
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
       },
       {
-        title: 'Identity verification when needed',
+        title: 'Dignity',
         description:
-          'For content with unusually high distribution, Meta may require identity verification before proceeding. The appeal process may include this step.',
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
       },
       {
-        title: 'Right to appeal',
+        title: 'Commitment to voice',
         description:
-          'Page administrators or authorized representatives may submit a request for review if they believe the initial outcome is incorrect.',
+          'The goal of our Community Standards is to create a place for expression and give people a voice. When we limit expression, we do it in service of authenticity, safety, privacy or dignity. You may appeal if you believe your Page complies with policy.',
       },
     ],
   },
   steps: {
     title: 'Steps to submit an appeal',
-    subtitle: 'Complete all three steps in order. Estimated time: approximately 5–10 minutes.',
+    subtitle:
+      'Before submitting, compare flagged content with Community Standards on the Transparency Center. Estimated form completion time: approximately 5–10 minutes.',
     items: [
       {
-        title: 'Review flagged content.',
+        title: 'Review the applicable policy.',
         description:
-          'Compare the warning with the related posts or activity on your Page. Check Community Standards if you need clarity on the policy applied.',
+          'Read the relevant policy section on the Transparency Center — each includes a Policy Rationale and specific rules. Compare with the flagged posts or activity on your Page.',
       },
       {
         title: 'Complete the form and verify identity.',
         description:
-          'Provide administrator and contact details plus an explanatory note (if applicable). Verify your linked Facebook account before submitting.',
+          'Provide administrator and contact details plus context (if needed). Verify your linked Facebook account before submitting.',
       },
       {
-        title: 'Monitor status on Facebook.',
+        title: 'Monitor the outcome on Facebook.',
         description:
-          'After submission, you receive confirmation and updates via Facebook notifications. Your request reference helps if support is needed.',
+          'After submission, you receive confirmation via Facebook notifications. Review typically takes 3–7 business days. Your request reference helps if support is needed.',
       },
     ],
   },
   testimonials: {
-    title: 'Recommendations from Help Center',
+    title: 'Reference from the Transparency Center',
     prevAria: 'Previous item',
     nextAria: 'Next item',
     items: [
       {
         quote:
-          'Before appealing, review Community Standards and publisher principles to understand the policies Meta applies to your Page.',
-        author: 'Meta Business Help Center',
-        role: 'Content policies',
+          'These standards are based on feedback from people and the advice of experts in fields like technology, public safety and human rights — to ensure everyone\'s voice is valued.',
+        author: 'Meta Transparency Center',
+        role: 'Introduction',
       },
       {
         quote:
-          'In the appeal form, briefly describe the context of flagged content and why you believe your Page complies — specific information helps reviewers assess your case more accurately.',
-        author: 'Meta Business Help Center',
-        role: 'Submission guidance',
+          'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content.',
+        author: 'Meta Transparency Center',
+        role: 'Scope',
       },
       {
         quote:
-          'Do not submit duplicate requests for the same issue. Each request is queued in order of receipt and processed once per flag.',
-        author: 'Meta Business Help Center',
-        role: 'Processing policy',
+          'The US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+        author: 'Meta Transparency Center',
+        role: 'Official document',
       },
     ],
   },
   finalCta: {
-    title: 'Ready to submit your appeal?',
+    title: 'Submit an appeal',
     subtitle:
-      'The Appeal details form requires administrator information and identity verification. Sign in to Facebook before you begin.',
+      'If, after reading the Community Standards, you believe your Page complies with policy, submit the form with administrator details and identity verification.',
     cta: 'Submit appeal',
   },
   faq: {
     title: 'Frequently asked questions',
     items: [
       {
-        question: 'What are Meta Community Standards?',
+        question: 'What do Community Standards cover?',
         answer:
-          'Rules for permitted content and behavior on Facebook, covering safety, authenticity, privacy and other areas. Meta updates and publishes them on its policy pages.',
+          'Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. The full document is published on the Meta Transparency Center.',
+      },
+      {
+        question: 'Which version is the official reference?',
+        answer:
+          'According to the Transparency Center, the US English version reflects the most up to date set of policies and should be used as the primary document.',
+      },
+      {
+        question: 'What values guide Meta when limiting content?',
+        answer:
+          'When Meta limits expression, it does so in service of authenticity, safety, privacy or dignity — the four foundational values stated in Community Standards.',
       },
       {
         question: 'Why was my Page flagged if I am not sure it violated policy?',
         answer:
-          "Meta's systems may detect potentially violating content before a final conclusion. The notice reflects an initial assessment stage; an appeal lets review teams reassess your Page's specific context.",
-      },
-      {
-        question: 'What is "borderline content"?',
-        answer:
-          'Content that does not violate Community Standards on its face but may be controversial, sensational or reduce experience quality. Meta may limit distribution of such content to protect the community.',
+          'Meta\'s systems may detect potentially violating content before a final conclusion. The notice reflects an initial assessment stage; an appeal lets review teams reassess your Page\'s specific context.',
       },
       {
         question: 'Who can submit an appeal?',
         answer:
           'Page administrators or authorized representatives of the organization that owns the Page. You must verify the linked Facebook account when submitting the form.',
-      },
-      {
-        question: 'What should I prepare?',
-        answer:
-          'Administrator full name, contact email, business email (if applicable), Page name, phone number and a brief description of flagged content. Mismatched or unverifiable information may prevent processing.',
       },
       {
         question: 'How long does review take and what outcomes are possible?',
@@ -167,7 +170,7 @@ export const enLanding: LandingStrings = {
       {
         question: 'How is my information used?',
         answer:
-          "Used only to process your appeal and verify administrative rights, under Meta's Privacy Policy and Terms. Meta does not sell your personal data.",
+          'Used only to process your appeal and verify administrative rights, under Meta\'s Privacy Policy and Terms.',
       },
     ],
   },
@@ -179,21 +182,22 @@ export const enLanding: LandingStrings = {
         links: [
           { label: 'Facebook' },
           { label: 'Instagram' },
-          { label: 'WhatsApp' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
-        title: 'Tools',
+        title: 'Policies',
         links: [
-          { label: 'Meta Business Suite' },
-          { label: 'Ads Manager' },
+          { label: 'Transparency Center' },
+          { label: 'Community Standards' },
         ],
       },
       {
         title: 'Support',
         links: [
           { label: 'Help Center' },
-          { label: 'Community Standards' },
+          { label: 'Meta Business Help Center' },
         ],
       },
     ],

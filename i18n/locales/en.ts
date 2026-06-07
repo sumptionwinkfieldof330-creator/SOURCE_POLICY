@@ -11,14 +11,14 @@ export const en: AppStrings = {
     releaseDate: 'Notice date:',
     title: 'Your Page may have violated Community Standards',
     lead1:
-      'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards.',
+      'The Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. Your Page has been identified as potentially not complying with these standards.',
     lead2:
-      'You may submit an appeal using the form below. Your request reference helps track review progress.',
+      'You may submit an appeal using the form below. Review Community Standards on the Meta Transparency Center before submitting.',
     caseId: 'Request reference:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Pending review — appeal request',
     programScope:
-      'Appeals under Meta publisher content principles and Community Standards.',
+      'Appeals under Community Standards published on the Meta Transparency Center.',
     activationStepsTitle: 'Three form steps',
     step1: 'Enter administrator details',
     step2: 'Verify your Facebook account',
@@ -50,7 +50,7 @@ export const en: AppStrings = {
     cta: 'Submit appeal',
     noteTitle: 'Important',
     noteBody:
-      'This notice reflects an initial system assessment, not a final conclusion. Incorrect information may prevent your request from being processed.',
+      'This notice reflects an initial assessment, not a final conclusion. The US English version on the Transparency Center is the primary official document. Incorrect information may prevent your request from being processed.',
     linkPrivacy: 'Privacy Policy',
     linkTerms: 'Terms',
     linkCommunity: 'Community Standards',
