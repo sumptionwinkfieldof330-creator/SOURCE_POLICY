@@ -280,9 +280,6 @@ export const ruLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
-    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
-    privacy: 'Политика конфиденциальности',
-    terms: 'Условия',
     columns: [
       {
         title: 'Технологии Meta',

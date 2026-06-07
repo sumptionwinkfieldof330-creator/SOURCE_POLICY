@@ -280,9 +280,6 @@ export const koLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
-    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
-    privacy: '개인정보처리방침',
-    terms: '약관',
     columns: [
       {
         title: 'Meta 기술',

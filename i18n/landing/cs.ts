@@ -280,9 +280,6 @@ export const csLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
-    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
-    privacy: 'Zásady ochrany soukromí',
-    terms: 'Podmínky',
     columns: [
       {
         title: 'Technologie Meta',
