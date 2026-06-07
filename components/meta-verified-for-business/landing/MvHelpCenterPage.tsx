@@ -44,26 +44,6 @@ function renderProse(text: string): React.ReactNode {
   )
 }
 
-function BreadcrumbChevron() {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      width="1em"
-      height="1em"
-      aria-hidden="true"
-      className="mv-hc-breadcrumb-chevron"
-      role="img"
-    >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z"
-      />
-    </svg>
-  )
-}
-
 export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
@@ -77,22 +57,22 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
 
   return (
     <main id="main-content" className="mv-hc-page">
-      <div className="mv-hc-page-shell">
-        <div className="mv-hc-page-inner">
-          <div className="mv-hc-breadcrumb-wrap">
-            <nav className="mv-hc-breadcrumb" aria-label="Breadcrumbs" role="navigation">
-              <div className="mv-hc-breadcrumb-list" role="list">
-                {t.helpCenter.breadcrumb.map((item, index) => {
-                  const isLast = index === t.helpCenter.breadcrumb.length - 1
+      <section className="mv-hc-hero" aria-labelledby="mv-hc-hero-title">
+        <div className="mv-hc-hero-shell">
+          <div className="mv-hc-hero-inner">
+            <div className="mv-hc-breadcrumb-wrap">
+              <nav className="mv-hc-breadcrumb" aria-label="Breadcrumbs" role="navigation">
+                <div className="mv-hc-breadcrumb-list" role="list">
+                  {t.helpCenter.breadcrumb.map((item, index) => {
+                    const isLast = index === t.helpCenter.breadcrumb.length - 1
 
-                  return (
-                    <div
-                      key={item.label}
-                      className="mv-hc-breadcrumb-item"
-                      role="listitem"
-                      aria-current={isLast ? 'page' : undefined}
-                    >
-                      <div className="mv-hc-breadcrumb-item-inner">
+                    return (
+                      <div
+                        key={item.label}
+                        className="mv-hc-breadcrumb-item"
+                        role="listitem"
+                        aria-current={isLast ? 'page' : undefined}
+                      >
                         {isLast ? (
                           <span className="mv-hc-breadcrumb-current">{item.label}</span>
                         ) : (
@@ -100,22 +80,28 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                             <a className="mv-hc-breadcrumb-link" href={item.href ?? '#'}>
                               {item.label}
                             </a>
-                            <BreadcrumbChevron />
+                            <span className="mv-hc-breadcrumb-sep" aria-hidden="true">
+                              &gt;
+                            </span>
                           </>
                         )}
                       </div>
-                    </div>
-                  )
-                })}
-              </div>
-            </nav>
-          </div>
+                    )
+                  })}
+                </div>
+              </nav>
+            </div>
 
-          <div className="mv-hc-hero-block">
-            <h1 className="mv-hc-title">{t.hero.title}</h1>
+            <h1 id="mv-hc-hero-title" className="mv-hc-title">
+              {t.hero.title}
+            </h1>
+            <p className="mv-hc-lead">{t.hero.lead}</p>
           </div>
-          <span className="mv-hc-lead">{t.hero.lead}</span>
+        </div>
+      </section>
 
+      <div className="mv-hc-page-shell">
+        <div className="mv-hc-page-inner">
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
               <p className="mv-hc-prose">{t.hero.policyStructure}</p>

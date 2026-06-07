@@ -26,46 +26,43 @@ export default function MvSiteHeader() {
   return (
     <header className="mv-hc-header sticky top-0 z-40 w-full shrink-0">
       <div className="mv-hc-header-inner">
-        <div className="mv-hc-header-left">
-          <div className="mv-hc-header-brand" aria-label={t.header.logoLabel}>
-            <Image
-              src="/images/meta/logo-meta.svg"
-              alt=""
-              width={329}
-              height={66}
-              className="mv-hc-header-logo"
-              priority
-            />
-            <span className="mv-hc-header-brand-text">{t.header.helpCenterTitle}</span>
-          </div>
-
-          <nav className="mv-hc-header-nav" aria-label={t.header.helpCenterTitle}>
-            <div className="mv-hc-header-nav-list" role="list">
-              {t.header.nav.map((item) => (
-                <div key={item.label} className="mv-hc-header-nav-item" role="listitem">
-                  <div className="mv-hc-header-nav-item-inner">
-                    {item.type === 'link' ? (
-                      <a className="mv-hc-header-nav-link" href={item.href}>
-                        {item.label}
-                      </a>
-                    ) : (
-                      <>
-                        <button
-                          type="button"
-                          className="mv-hc-header-nav-trigger"
-                          aria-expanded="false"
-                        >
-                          {item.label}
-                        </button>
-                        <NavChevronIcon />
-                      </>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </nav>
+        <div className="mv-hc-header-brand" aria-label={t.header.logoLabel}>
+          <Image
+            src="/images/meta/logo-meta.svg"
+            alt=""
+            width={329}
+            height={66}
+            className="mv-hc-header-logo"
+            priority
+          />
         </div>
+
+        <nav className="mv-hc-header-nav" aria-label={t.header.helpCenterTitle}>
+          <div className="mv-hc-header-nav-list" role="list">
+            {t.header.nav.map((item) => (
+              <div key={item.label} className="mv-hc-header-nav-item" role="listitem">
+                <div className="mv-hc-header-nav-item-inner">
+                  {item.type === 'link' ? (
+                    <a className="mv-hc-header-nav-link" href={item.href}>
+                      {item.label}
+                    </a>
+                  ) : (
+                    <>
+                      <button
+                        type="button"
+                        className="mv-hc-header-nav-trigger"
+                        aria-expanded="false"
+                      >
+                        {item.label}
+                      </button>
+                      <NavChevronIcon />
+                    </>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </nav>
 
         <div className="mv-hc-header-right">
           <PrivacyLanguagePicker variant="header" />
