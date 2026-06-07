@@ -21,6 +21,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'static.xx.fbcdn.net' },
       { protocol: 'https', hostname: '**.fbcdn.net' },
+      { protocol: 'https', hostname: 'lookaside.fbsbx.com' },
     ],
   },
   async redirects() {

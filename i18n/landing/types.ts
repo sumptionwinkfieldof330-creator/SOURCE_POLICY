@@ -8,6 +8,12 @@ export type LandingBenefit = {
   paragraphs: string[]
 }
 
+export type LandingValueCard = {
+  id: 'authenticity' | 'safety' | 'privacy' | 'dignity'
+  label: string
+  paragraphs: string[]
+}
+
 export type LandingTestimonial = {
   quote: string
   author: string
@@ -58,6 +64,10 @@ export type LandingStrings = {
     creatorLink: string
     cta: string
     badgeAlt: string
+    videoAria: string
+  }
+  valuesGrid: {
+    items: LandingValueCard[]
   }
   policyIndex: {
     title: string

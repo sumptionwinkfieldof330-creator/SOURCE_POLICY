@@ -4,6 +4,9 @@ import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
+import MvTransparencyImage from '@/components/meta-verified-for-business/landing/MvTransparencyImage'
+import MvTransparencyVideo from '@/components/meta-verified-for-business/landing/MvTransparencyVideo'
+import { TRANSPARENCY_CENTER_MEDIA } from '@/data/transparencyCenterMedia'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
@@ -51,6 +54,8 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
     setNoticeDate(formatNoticeDate(typeof navigator !== 'undefined' ? navigator.language : 'vi-VN'))
   }, [])
 
+  const voiceSection = t.benefits.items[0]
+
   return (
     <main id="main-content" className="mv-hc-page">
       <div className="mv-hc-wrap">
@@ -72,13 +77,13 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
             <header className="mv-hc-article-header">
               <h1 className="mv-hc-title">{t.hero.title}</h1>
               <p className="mv-hc-prose">{t.hero.lead}</p>
+              <p className="mv-hc-prose">{t.hero.policyStructure}</p>
 
               <div className="mv-hc-callout">
                 <p className="mv-hc-callout-text">{t.hero.disclaimer}</p>
               </div>
 
-              <p className="mv-hc-prose">{t.hero.policyStructure}</p>
-              <p className="mv-hc-prose">{t.hero.eligibility}</p>
+              <MvTransparencyVideo ariaLabel={t.hero.videoAria} />
 
               <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
                 <p className="mv-hc-notice-kicker">{app.main.badge}</p>
@@ -113,19 +118,36 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </div>
             </header>
 
-            {t.benefits.items.map((section) => (
-              <section key={section.title} className="mv-hc-section" aria-labelledby={`mv-section-${section.title}`}>
+            {voiceSection && (
+              <section className="mv-hc-section" aria-labelledby="mv-voice-title">
                 <hr className="mv-hc-divider" aria-hidden="true" />
-                <h2 id={`mv-section-${section.title}`} className="mv-hc-section-title">
-                  {section.title}
+                <h2 id="mv-voice-title" className="mv-hc-section-title">
+                  {voiceSection.title}
                 </h2>
-                {section.paragraphs.map((paragraph) => (
+                {voiceSection.paragraphs.map((paragraph) => (
                   <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
                     {renderProse(paragraph)}
                   </p>
                 ))}
+
+                <div className="mv-hc-values-grid">
+                  {t.valuesGrid.items.map((card) => (
+                    <div key={card.id} className="mv-hc-value-card">
+                      <MvTransparencyImage
+                        src={TRANSPARENCY_CENTER_MEDIA.values[card.id]}
+                        alt=""
+                      />
+                      <p className="mv-hc-value-label">{card.label}</p>
+                      {card.paragraphs.map((paragraph) => (
+                        <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+                  ))}
+                </div>
               </section>
-            ))}
+            )}
 
             <section className="mv-hc-section" aria-labelledby="mv-policy-index-title">
               <hr className="mv-hc-divider" aria-hidden="true" />

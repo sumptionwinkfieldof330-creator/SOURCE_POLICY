@@ -46,6 +46,7 @@ export const deLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Einspruch einreichen',
     badgeAlt: 'Meta-Logo',
+    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',
@@ -78,26 +79,34 @@ export const deLanding: LandingStrings = {
           'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
         ],
       },
+    ],
+  },
+  valuesGrid: {
+    items: [
       {
-        title: 'Authenticity',
+        id: 'authenticity',
+        label: 'Authenticity',
         paragraphs: [
-          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
         ],
       },
       {
-        title: 'Safety',
+        id: 'safety',
+        label: 'Safety',
         paragraphs: [
           'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
         ],
       },
       {
-        title: 'Privacy',
+        id: 'privacy',
+        label: 'Privacy',
         paragraphs: [
           'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
         ],
       },
       {
-        title: 'Dignity',
+        id: 'dignity',
+        label: 'Dignity',
         paragraphs: [
           'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
         ],

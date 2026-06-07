@@ -50,6 +50,7 @@ export const viLanding: LandingStrings = {
     creatorLink: 'Tiêu chuẩn Cộng đồng | Transparency Center',
     cta: 'Gửi yêu cầu kháng nghị',
     badgeAlt: 'Logo Meta',
+    videoAria: 'Video giới thiệu Tiêu chuẩn Cộng đồng',
   },
   notice: {
     title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',
@@ -82,28 +83,36 @@ export const viLanding: LandingStrings = {
           'Mặc dù luôn ưu tiên cam kết bảo vệ quyền tự do biểu đạt, nhưng chúng tôi cũng nhận thức được rằng mạng Internet đã tạo thêm nhiều cơ hội lạm dụng mới. Vì những lý do đó, trong trường hợp chúng tôi hạn chế quyền biểu đạt, đó là để đảm bảo một hoặc nhiều giá trị sau đây:',
         ],
       },
+    ],
+  },
+  valuesGrid: {
+    items: [
       {
-        title: 'Tính xác thực',
+        id: 'authenticity',
+        label: 'Tính xác thực',
         paragraphs: [
-          'Chúng tôi muốn mọi người cảm thấy rằng nội dung họ nhìn thấy trên các dịch vụ của chúng tôi là xác thực. Chúng tôi tin rằng tính xác thực tạo ra một môi trường tốt hơn để chia sẻ, và vì vậy, chúng tôi không muốn người dùng sử dụng dịch vụ của chúng tôi để trình bày sai về bản thân họ hoặc về những gì họ đang làm.',
+          'Chúng tôi muốn đảm bảo nội dung mọi người thấy đều xác thực. Chúng tôi cho rằng tính xác thực sẽ tạo ra một môi trường tốt hơn để chia sẻ. Do đó, chúng tôi không muốn mọi người sử dụng các dịch vụ mà chúng tôi cung cấp để khai sai về việc họ là ai và đang làm gì.',
         ],
       },
       {
-        title: 'An toàn',
+        id: 'safety',
+        label: 'Sự an toàn',
         paragraphs: [
-          'Chúng tôi cam kết biến Facebook, Instagram, Messenger và Threads trở thành những nơi an toàn. Chúng tôi loại bỏ nội dung có thể góp phần gây rủi ro tổn hại thể chất đối với con người, bao gồm cả nội dung đe dọa, loại trừ hoặc im lặng người khác.',
+          'Chúng tôi cam kết biến Facebook, Instagram, Messenger và Threads thành những môi trường an toàn. Chúng tôi gỡ nội dung có thể làm tăng nguy cơ gây hại về an toàn thể chất của con người. Nội dung đe dọa có khả năng tẩy chay, hăm dọa người khác hoặc khiến họ phải im lặng sẽ không được phép xuất hiện trên các dịch vụ của chúng tôi.',
         ],
       },
       {
-        title: 'Quyền riêng tư',
+        id: 'privacy',
+        label: 'Quyền riêng tư',
         paragraphs: [
-          'Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân. Quyền riêng tư giúp mọi người tự do thể hiện bản thân, chọn cách và thời điểm chia sẻ trên các dịch vụ và kết nối dễ dàng hơn.',
+          'Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin của cá nhân. Nhờ có quyền riêng tư mà mọi người có thể tự do là chính mình, tự do chọn cách thức và thời điểm chia sẻ trên các dịch vụ của chúng tôi, cũng như có thể kết nối dễ dàng hơn.',
         ],
       },
       {
-        title: 'Phẩm giá',
+        id: 'dignity',
+        label: 'Phẩm giá',
         paragraphs: [
-          'Chúng tôi tin rằng mọi người đều bình đẳng về phẩm giá và quyền. Chúng tôi kỳ vọng mọi người tôn trọng phẩm giá của người khác và không quấy rối hay hạ thấp người khác.',
+          'Chúng tôi tin rằng mọi người đều bình đẳng về phẩm giá và các quyền. Chúng tôi muốn mọi người tôn trọng phẩm giá của người khác, đồng thời không quấy rối hoặc làm mất thể diện của họ.',
         ],
       },
     ],
