@@ -22,7 +22,6 @@ export const zhHansLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: '提交申诉',
     badgeAlt: 'Facebook 徽标',
-    videoAria: '申诉流程指南视频',
   },
   benefits: {
     title: '关于本通知',

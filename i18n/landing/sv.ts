@@ -22,7 +22,6 @@ export const svLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Skicka överklagande',
     badgeAlt: 'Facebook-logotyp',
-    videoAria: 'Videoguide till överklagandeprocessen',
   },
   benefits: {
     title: 'Om detta meddelande',

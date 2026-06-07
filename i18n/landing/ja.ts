@@ -22,7 +22,6 @@ export const jaLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: '異議申し立てを送信',
     badgeAlt: 'Facebook ロゴ',
-    videoAria: '異議申し立て手続きのガイド動画',
   },
   benefits: {
     title: 'この通知について',

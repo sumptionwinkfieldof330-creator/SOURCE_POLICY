@@ -22,7 +22,6 @@ export const thLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'ส่งการอุทธรณ์',
     badgeAlt: 'โลโก้ Facebook',
-    videoAria: 'วิดีโอแนะนำขั้นตอนการอุทธรณ์',
   },
   benefits: {
     title: 'เกี่ยวกับประกาศนี้',

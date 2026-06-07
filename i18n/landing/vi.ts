@@ -22,7 +22,6 @@ export const viLanding: LandingStrings = {
     creatorLink: 'Tiêu chuẩn Cộng đồng của Meta',
     cta: 'Gửi yêu cầu kháng nghị',
     badgeAlt: 'Logo Facebook',
-    videoAria: 'Video hướng dẫn về quy trình kháng nghị',
   },
   benefits: {
     title: 'Giải thích về thông báo',

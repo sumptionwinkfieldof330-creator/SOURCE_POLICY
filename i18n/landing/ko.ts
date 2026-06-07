@@ -22,7 +22,6 @@ export const koLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: '이의 제기 제출',
     badgeAlt: 'Facebook 로고',
-    videoAria: '이의 제기 절차 안내 동영상',
   },
   benefits: {
     title: '이 알림 정보',

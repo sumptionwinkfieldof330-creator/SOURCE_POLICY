@@ -22,7 +22,6 @@ export const esLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Enviar apelación',
     badgeAlt: 'Logo de Facebook',
-    videoAria: 'Vídeo guía del proceso de apelación',
   },
   benefits: {
     title: 'Acerca de este aviso',

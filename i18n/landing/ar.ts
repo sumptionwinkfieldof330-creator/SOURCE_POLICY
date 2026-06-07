@@ -22,7 +22,6 @@ export const arLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'تقديم استئناف',
     badgeAlt: 'شعار Facebook',
-    videoAria: 'فيديو إرشادي لعملية الاستئناف',
   },
   benefits: {
     title: 'حول هذا الإشعار',

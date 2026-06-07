@@ -22,7 +22,6 @@ export const csLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Podat odvolání',
     badgeAlt: 'Logo Facebook',
-    videoAria: 'Video průvodce procesem odvolání',
   },
   benefits: {
     title: 'O tomto oznámení',

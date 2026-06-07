@@ -22,7 +22,6 @@ export const heLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'הגשת ערעור',
     badgeAlt: 'לוגו Facebook',
-    videoAria: 'סרטון מדריך לתהליך הערעור',
   },
   benefits: {
     title: 'אודות הודעה זו',

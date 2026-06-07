@@ -22,7 +22,6 @@ export const ptLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Enviar recurso',
     badgeAlt: 'Logótipo do Facebook',
-    videoAria: 'Vídeo guia do processo de recurso',
   },
   benefits: {
     title: 'Sobre este aviso',

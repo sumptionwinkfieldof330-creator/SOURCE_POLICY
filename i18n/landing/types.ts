@@ -43,7 +43,6 @@ export type LandingStrings = {
     creatorLink: string
     cta: string
     badgeAlt: string
-    videoAria: string
   }
   benefits: {
     title: string

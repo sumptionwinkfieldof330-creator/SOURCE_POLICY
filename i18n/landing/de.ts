@@ -22,7 +22,6 @@ export const deLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Einspruch einreichen',
     badgeAlt: 'Facebook-Logo',
-    videoAria: 'Videoanleitung zum Einspruchsverfahren',
   },
   benefits: {
     title: 'Über diesen Hinweis',

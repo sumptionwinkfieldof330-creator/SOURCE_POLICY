@@ -22,7 +22,6 @@ export const itLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Invia ricorso',
     badgeAlt: 'Logo Facebook',
-    videoAria: 'Video guida al processo di ricorso',
   },
   benefits: {
     title: 'Informazioni su questo avviso',

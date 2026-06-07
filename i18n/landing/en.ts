@@ -22,7 +22,6 @@ export const enLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Submit appeal',
     badgeAlt: 'Facebook logo',
-    videoAria: 'Video guide to the appeal process',
   },
   benefits: {
     title: 'About this notice',

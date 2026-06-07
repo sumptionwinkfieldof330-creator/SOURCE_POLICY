@@ -22,7 +22,6 @@ export const idLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Kirim banding',
     badgeAlt: 'Logo Facebook',
-    videoAria: 'Video panduan proses banding',
   },
   benefits: {
     title: 'Tentang pemberitahuan ini',

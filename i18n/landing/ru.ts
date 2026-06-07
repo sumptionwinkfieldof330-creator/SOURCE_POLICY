@@ -22,7 +22,6 @@ export const ruLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Подать апелляцию',
     badgeAlt: 'Логотип Facebook',
-    videoAria: 'Видеоруководство по процессу апелляции',
   },
   benefits: {
     title: 'Об этом уведомлении',

@@ -22,7 +22,6 @@ export const frLanding: LandingStrings = {
     creatorLink: 'Meta Community Standards',
     cta: 'Soumettre un recours',
     badgeAlt: 'Logo Facebook',
-    videoAria: 'Vidéo guide sur la procédure de recours',
   },
   benefits: {
     title: 'À propos de cet avis',
