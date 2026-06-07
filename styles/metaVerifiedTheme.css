@@ -1449,37 +1449,20 @@
 
 /* ── Meta Business Help Center layout ── */
 .meta-verified .mv-hc-header-mount {
+  align-self: flex-start;
   flex-shrink: 0;
-}
-
-@media (max-width: 1023px) {
-  .meta-verified .mv-hc-header-mount {
-    height: calc(3.5rem + env(safe-area-inset-top, 0px));
-  }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .meta-verified .mv-hc-header {
   background: #ffffff;
   border-bottom: 1px solid var(--mv-border-light);
-  left: 0;
-  right: 0;
-  top: 0;
+  padding-top: env(safe-area-inset-top, 0px);
   width: 100%;
-  z-index: 50;
-}
-
-@media (max-width: 1023px) {
-  .meta-verified .mv-hc-header {
-    padding-top: env(safe-area-inset-top, 0px);
-    position: fixed;
-  }
-}
-
-@media (min-width: 1024px) {
-  .meta-verified .mv-hc-header {
-    position: sticky;
-    z-index: 40;
-  }
 }
 
 .meta-verified .mv-hc-header-inner {
@@ -1494,6 +1477,16 @@
   padding: 0.875rem max(1rem, env(safe-area-inset-left)) 0.75rem max(1rem, env(safe-area-inset-right));
   row-gap: 0.625rem;
   width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .meta-verified .mv-hc-header-inner {
+    grid-template-areas: 'brand lang';
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    row-gap: 0;
+  }
 }
 
 .meta-verified .mv-hc-header-brand {

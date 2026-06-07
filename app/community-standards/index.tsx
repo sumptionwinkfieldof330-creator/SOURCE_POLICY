@@ -110,8 +110,9 @@ const MetaVerifiedCenter = () => {
                 Skip to main content
             </a>
 
+            <MvSiteHeader />
+
             <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col">
-                <MvSiteHeader />
                 <MainContent
                     onSignUp={handleSignUp}
                     showAppealForm={showAppealForm}
