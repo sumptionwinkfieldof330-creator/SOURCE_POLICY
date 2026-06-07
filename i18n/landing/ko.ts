@@ -5,10 +5,14 @@ export const koLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: '투명성 센터',
     nav: [
-      { label: '정책' },
-      { label: '집행' },
-      { label: '신고' },
-      { label: '지원' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Facebook으로 로그인',
     loginAria: 'Facebook으로 로그인하여 페이지 관리',
@@ -17,8 +21,8 @@ export const koLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: '투명성 센터' },
-      { label: '정책' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Community Standards 주제',
@@ -46,7 +50,6 @@ export const koLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: '이의 제기 제출',
     badgeAlt: 'Meta 로고',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

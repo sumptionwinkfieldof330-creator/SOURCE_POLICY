@@ -5,10 +5,14 @@ export const svLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'Transparenscenter',
     nav: [
-      { label: 'Policyer' },
-      { label: 'Tillämpning' },
-      { label: 'Rapportering' },
-      { label: 'Support' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Logga in med Facebook',
     loginAria: 'Logga in med Facebook för att hantera din sida',
@@ -17,8 +21,8 @@ export const svLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Transparenscenter' },
-      { label: 'Policyer' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Ämnen i Community Standards',
@@ -46,7 +50,6 @@ export const svLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Skicka överklagande',
     badgeAlt: 'Meta-logotyp',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

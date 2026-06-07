@@ -5,10 +5,14 @@ export const thLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'ศูนย์ความโปร่งใส',
     nav: [
-      { label: 'นโยบาย' },
-      { label: 'การบังคับใช้' },
-      { label: 'การรายงาน' },
-      { label: 'การสนับสนุน' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'เข้าสู่ระบบด้วย Facebook',
     loginAria: 'เข้าสู่ระบบด้วย Facebook เพื่อจัดการเพจของคุณ',
@@ -17,8 +21,8 @@ export const thLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'ศูนย์ความโปร่งใส' },
-      { label: 'นโยบาย' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'หัวข้อ Community Standards',
@@ -46,7 +50,6 @@ export const thLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'ส่งคำร้องอุทธรณ์',
     badgeAlt: 'โลโก้ Meta',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

@@ -5,10 +5,14 @@ export const viLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Chính sách' },
-      { label: 'Thực thi' },
-      { label: 'Báo cáo' },
-      { label: 'Hỗ trợ' },
+      { label: 'Trung tâm minh bạch', type: 'link', href: '#' },
+      { label: 'Chính sách', type: 'menu' },
+      { label: 'Biện pháp thực thi', type: 'menu' },
+      { label: 'Bảo mật', type: 'menu' },
+      { label: 'Tính năng', type: 'menu' },
+      { label: 'Quản trị', type: 'menu' },
+      { label: 'Công cụ nghiên cứu', type: 'menu' },
+      { label: 'Báo cáo', type: 'menu' },
     ],
     loginCta: 'Đăng nhập bằng Facebook',
     loginAria: 'Đăng nhập bằng Facebook để quản lý Fanpage',
@@ -17,9 +21,9 @@ export const viLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Transparency Center' },
-      { label: 'Chính sách' },
-      { label: 'Tiêu chuẩn Cộng đồng' },
+      { label: 'Trang chủ', href: '#' },
+      { label: 'Chính sách', href: '#' },
+      { label: 'Tiêu chuẩn cộng đồng' },
     ],
     sidebarTitle: 'Các mục trong Tiêu chuẩn Cộng đồng',
     sidebarSection: 'Chính sách',
@@ -37,9 +41,9 @@ export const viLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Tiêu chuẩn Cộng đồng',
+    title: 'Tiêu chuẩn cộng đồng',
     lead:
-      'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép cũng như không được phép trên Facebook, Instagram, Messenger và Threads.',
+      'Tiêu chuẩn cộng đồng nêu rõ những nội dung được phép và không được phép xuất hiện trên Facebook, Instagram, Messenger cũng như Threads.',
     disclaimer:
       'Lưu ý: Phiên bản tiếng Anh (Mỹ) của Tiêu chuẩn Cộng đồng phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính.',
     policyStructure:
@@ -50,7 +54,6 @@ export const viLanding: LandingStrings = {
     creatorLink: 'Tiêu chuẩn Cộng đồng | Transparency Center',
     cta: 'Gửi yêu cầu kháng nghị',
     badgeAlt: 'Logo Meta',
-    videoAria: 'Video giới thiệu Tiêu chuẩn Cộng đồng',
   },
   notice: {
     title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',

@@ -5,10 +5,14 @@ export const zhHansLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: '透明度中心',
     nav: [
-      { label: '政策' },
-      { label: '执行' },
-      { label: '举报' },
-      { label: '支持' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: '使用 Facebook 登录',
     loginAria: '使用 Facebook 登录以管理你的公共主页',
@@ -17,8 +21,8 @@ export const zhHansLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: '透明度中心' },
-      { label: '政策' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Community Standards 主题',
@@ -46,7 +50,6 @@ export const zhHansLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: '提交申诉',
     badgeAlt: 'Meta 徽标',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

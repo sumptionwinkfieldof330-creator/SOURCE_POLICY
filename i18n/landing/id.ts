@@ -5,10 +5,14 @@ export const idLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'Pusat Transparansi',
     nav: [
-      { label: 'Kebijakan' },
-      { label: 'Penegakan' },
-      { label: 'Pelaporan' },
-      { label: 'Dukungan' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Masuk dengan Facebook',
     loginAria: 'Masuk dengan Facebook untuk mengelola Halaman Anda',
@@ -17,8 +21,8 @@ export const idLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Pusat Transparansi' },
-      { label: 'Kebijakan' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Topik Community Standards',
@@ -46,7 +50,6 @@ export const idLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Ajukan banding',
     badgeAlt: 'Logo Meta',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

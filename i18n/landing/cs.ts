@@ -5,10 +5,14 @@ export const csLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'Centrum transparentnosti',
     nav: [
-      { label: 'Zásady' },
-      { label: 'Vymáhání' },
-      { label: 'Nahlašování' },
-      { label: 'Podpora' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Přihlásit se přes Facebook',
     loginAria: 'Přihlásit se přes Facebook a spravovat stránku',
@@ -17,8 +21,8 @@ export const csLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Centrum transparentnosti' },
-      { label: 'Zásady' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Témata Community Standards',
@@ -46,7 +50,6 @@ export const csLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Podat odvolání',
     badgeAlt: 'Logo Meta',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

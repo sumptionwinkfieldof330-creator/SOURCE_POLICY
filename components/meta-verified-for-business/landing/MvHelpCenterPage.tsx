@@ -5,7 +5,6 @@ import React from 'react'
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
 import MvTransparencyImage from '@/components/meta-verified-for-business/landing/MvTransparencyImage'
-import MvTransparencyVideo from '@/components/meta-verified-for-business/landing/MvTransparencyVideo'
 import { TRANSPARENCY_CENTER_MEDIA } from '@/data/transparencyCenterMedia'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
@@ -45,6 +44,26 @@ function renderProse(text: string): React.ReactNode {
   )
 }
 
+function BreadcrumbChevron() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width="1em"
+      height="1em"
+      aria-hidden="true"
+      className="mv-hc-breadcrumb-chevron"
+      role="img"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z"
+      />
+    </svg>
+  )
+}
+
 export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
@@ -58,32 +77,52 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
 
   return (
     <main id="main-content" className="mv-hc-page">
-      <div className="mv-hc-wrap">
-        <nav className="mv-hc-breadcrumb" aria-label="Breadcrumb">
-          <ol>
-            {t.helpCenter.breadcrumb.map((item, index) => (
-              <li key={item.label}>
-                {index > 0 && <span className="mv-hc-breadcrumb-sep" aria-hidden="true">›</span>}
-                <span className={index === t.helpCenter.breadcrumb.length - 1 ? 'mv-hc-breadcrumb-current' : undefined}>
-                  {item.label}
-                </span>
-              </li>
-            ))}
-          </ol>
-        </nav>
+      <div className="mv-hc-page-shell">
+        <div className="mv-hc-page-inner">
+          <div className="mv-hc-breadcrumb-wrap">
+            <nav className="mv-hc-breadcrumb" aria-label="Breadcrumbs" role="navigation">
+              <div className="mv-hc-breadcrumb-list" role="list">
+                {t.helpCenter.breadcrumb.map((item, index) => {
+                  const isLast = index === t.helpCenter.breadcrumb.length - 1
 
-        <div className="mv-hc-content">
+                  return (
+                    <div
+                      key={item.label}
+                      className="mv-hc-breadcrumb-item"
+                      role="listitem"
+                      aria-current={isLast ? 'page' : undefined}
+                    >
+                      <div className="mv-hc-breadcrumb-item-inner">
+                        {isLast ? (
+                          <span className="mv-hc-breadcrumb-current">{item.label}</span>
+                        ) : (
+                          <>
+                            <a className="mv-hc-breadcrumb-link" href={item.href ?? '#'}>
+                              {item.label}
+                            </a>
+                            <BreadcrumbChevron />
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </nav>
+          </div>
+
+          <div className="mv-hc-hero-block">
+            <h1 className="mv-hc-title">{t.hero.title}</h1>
+          </div>
+          <span className="mv-hc-lead">{t.hero.lead}</span>
+
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
-              <h1 className="mv-hc-title">{t.hero.title}</h1>
-              <p className="mv-hc-prose">{t.hero.lead}</p>
               <p className="mv-hc-prose">{t.hero.policyStructure}</p>
 
               <div className="mv-hc-callout">
                 <p className="mv-hc-callout-text">{t.hero.disclaimer}</p>
               </div>
-
-              <MvTransparencyVideo ariaLabel={t.hero.videoAria} />
 
               <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
                 <p className="mv-hc-notice-kicker">{app.main.badge}</p>

@@ -12,11 +12,6 @@ export const TRANSPARENCY_CENTER_MEDIA = {
     privacy: transparencyImage('308994907203174'),
     dignity: transparencyImage('203760854736655'),
   },
-  video: {
-    mediaId: '1539031507827434',
-    videoId: 'community-standards',
-    poster: transparencyImage('849918942246548'),
-  },
 } as const
 
 export type TransparencyValueMediaId = keyof typeof TRANSPARENCY_CENTER_MEDIA.values

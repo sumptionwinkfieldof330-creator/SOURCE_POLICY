@@ -5,10 +5,14 @@ export const jaLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: '透明性センター',
     nav: [
-      { label: 'ポリシー' },
-      { label: '執行' },
-      { label: '報告' },
-      { label: 'サポート' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Facebookでログイン',
     loginAria: 'Facebookでログインしてページを管理',
@@ -17,8 +21,8 @@ export const jaLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: '透明性センター' },
-      { label: 'ポリシー' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Community Standardsのトピック',
@@ -46,7 +50,6 @@ export const jaLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: '異議申し立てを送信',
     badgeAlt: 'Metaロゴ',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

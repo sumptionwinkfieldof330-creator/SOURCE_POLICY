@@ -25,14 +25,19 @@ export type LandingFaqItem = {
   answer: string
 }
 
+export type LandingBreadcrumbItem = {
+  label: string
+  href?: string
+}
+
 export type LandingFooterColumn = {
   title: string
   links: { label: string }[]
 }
 
-export type LandingNavLink = {
-  label: string
-}
+export type LandingNavLink =
+  | { label: string; type: 'link'; href: string }
+  | { label: string; type: 'menu' }
 
 export type LandingStrings = {
   header: {
@@ -45,7 +50,7 @@ export type LandingStrings = {
     ctaAria: string
   }
   helpCenter: {
-    breadcrumb: { label: string }[]
+    breadcrumb: LandingBreadcrumbItem[]
     sidebarTitle: string
     sidebarSection: string
     sidebarLinks: { label: string }[]
@@ -64,7 +69,6 @@ export type LandingStrings = {
     creatorLink: string
     cta: string
     badgeAlt: string
-    videoAria: string
   }
   valuesGrid: {
     items: LandingValueCard[]

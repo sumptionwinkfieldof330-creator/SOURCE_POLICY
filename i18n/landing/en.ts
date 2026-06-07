@@ -5,10 +5,14 @@ export const enLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Policies' },
-      { label: 'Enforcement' },
-      { label: 'Reporting' },
-      { label: 'Support' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Log in with Facebook',
     loginAria: 'Log in with Facebook to manage your Page',
@@ -17,8 +21,8 @@ export const enLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Transparency Center' },
-      { label: 'Policies' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Community Standards topics',
@@ -50,7 +54,6 @@ export const enLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Submit appeal',
     badgeAlt: 'Meta logo',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

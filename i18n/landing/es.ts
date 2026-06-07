@@ -5,10 +5,14 @@ export const esLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'Centro de transparencia',
     nav: [
-      { label: 'Políticas' },
-      { label: 'Aplicación' },
-      { label: 'Denuncias' },
-      { label: 'Asistencia' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Iniciar sesión con Facebook',
     loginAria: 'Iniciar sesión con Facebook para administrar tu página',
@@ -17,8 +21,8 @@ export const esLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Centro de transparencia' },
-      { label: 'Políticas' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'Temas de Community Standards',
@@ -46,7 +50,6 @@ export const esLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Enviar apelación',
     badgeAlt: 'Logotipo de Meta',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',

@@ -5,10 +5,14 @@ export const heLanding: LandingStrings = {
     logoLabel: 'Meta',
     helpCenterTitle: 'מרכז השקיפות',
     nav: [
-      { label: 'מדיניות' },
-      { label: 'אכיפה' },
-      { label: 'דיווח' },
-      { label: 'תמיכה' },
+      { label: 'Transparency Center', type: 'link', href: '#' },
+      { label: 'Policies', type: 'menu' },
+      { label: 'Enforcement', type: 'menu' },
+      { label: 'Security', type: 'menu' },
+      { label: 'Features', type: 'menu' },
+      { label: 'Governance', type: 'menu' },
+      { label: 'Research tools', type: 'menu' },
+      { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'התחברות עם Facebook',
     loginAria: 'התחברות עם Facebook לניהול הדף שלך',
@@ -17,8 +21,8 @@ export const heLanding: LandingStrings = {
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'מרכז השקיפות' },
-      { label: 'מדיניות' },
+      { label: 'Home', href: '#' },
+      { label: 'Policies', href: '#' },
       { label: 'Community Standards' },
     ],
     sidebarTitle: 'נושאים ב-Community Standards',
@@ -46,7 +50,6 @@ export const heLanding: LandingStrings = {
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'הגשת ערעור',
     badgeAlt: 'לוגו Meta',
-    videoAria: 'Community Standards overview video',
   },
   notice: {
     title: 'Your Page may have violated Community Standards',
