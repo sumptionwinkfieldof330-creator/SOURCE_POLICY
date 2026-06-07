@@ -1,5 +1,8 @@
 /* Meta Verified for Business — unified design system (2026) */
 .meta-verified {
+  --mv-hc-content-max: 930px;
+  --mv-hc-content-gutter: 108px;
+
   /* Brand palette */
   --mv-blue: #0064e0;
   --mv-blue-hover: #0056c7;
@@ -1587,7 +1590,8 @@
 
 @media (min-width: 1025px) {
   .meta-verified .mv-hc-hero-shell {
-    padding: 3rem 0 3.5rem;
+    padding: 3rem max(var(--mv-hc-content-gutter), env(safe-area-inset-right)) 3.5rem
+      max(var(--mv-hc-content-gutter), env(safe-area-inset-left));
   }
 }
 
@@ -1601,9 +1605,7 @@
 
 @media (min-width: 1025px) {
   .meta-verified .mv-hc-hero-inner {
-    max-width: 930px;
-    padding-left: 108px;
-    padding-right: 108px;
+    max-width: var(--mv-hc-content-max);
   }
 }
 
@@ -1627,7 +1629,7 @@
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-  max-width: 42rem;
+  max-width: none;
 }
 
 .meta-verified .mv-hc-wrap {
@@ -1659,7 +1661,8 @@
 
 @media (min-width: 1025px) {
   .meta-verified .mv-hc-page-shell {
-    padding: 2rem 0 4rem;
+    padding: 2rem max(var(--mv-hc-content-gutter), env(safe-area-inset-right)) 4rem
+      max(var(--mv-hc-content-gutter), env(safe-area-inset-left));
   }
 }
 
@@ -1673,9 +1676,7 @@
 
 @media (min-width: 1025px) {
   .meta-verified .mv-hc-page-inner {
-    max-width: 930px;
-    padding-left: 108px;
-    padding-right: 108px;
+    max-width: var(--mv-hc-content-max);
   }
 }
 

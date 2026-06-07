@@ -106,10 +106,6 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
             <header className="mv-hc-article-header">
               <p className="mv-hc-prose">{t.hero.policyStructure}</p>
 
-              <div className="mv-hc-callout">
-                <p className="mv-hc-callout-text">{t.hero.disclaimer}</p>
-              </div>
-
               <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
                 <p className="mv-hc-notice-kicker">{app.main.badge}</p>
                 <h2 id="mv-notice-title" className="mv-hc-notice-title">
@@ -173,20 +169,6 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                 </div>
               </section>
             )}
-
-            <section className="mv-hc-section" aria-labelledby="mv-policy-index-title">
-              <hr className="mv-hc-divider" aria-hidden="true" />
-              <h2 id="mv-policy-index-title" className="mv-hc-section-title">
-                {t.policyIndex.title}
-              </h2>
-              <ul className="mv-hc-policy-links">
-                {t.policyIndex.items.map((item) => (
-                  <li key={item.label}>
-                    <span className="mv-hc-policy-link">{item.label}</span>
-                  </li>
-                ))}
-              </ul>
-            </section>
 
             <section className="mv-hc-section" aria-labelledby="mv-steps-title">
               <hr className="mv-hc-divider" aria-hidden="true" />
