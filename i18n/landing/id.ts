@@ -58,7 +58,7 @@ export const idLanding: LandingStrings = {
         label: 'Standar Komunitas',
       },
     ],
-    sidebarTitle: 'Community Standards topik',
+    sidebarTitle: 'Topik Standar Komunitas',
     sidebarSection: 'Kebijakan',
     sidebarLinks: [
       {
@@ -94,10 +94,10 @@ export const idLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Community Standards menguraikan apa yang boleh dan tidak diperbolehkan di Facebook, Instagram, Messenger, dan Threads.',
-    disclaimer: 'Harap perhatikan bahwa Community Standards versi bahasa Inggris AS mencerminkan serangkaian kebijakan terkini dan harus digunakan sebagai dokumen utama.',
-    policyStructure: 'Community Standards kami berlaku untuk semua orang di seluruh dunia dan semua jenis konten, termasuk konten buatan AI. Setiap bagian kebijakan dimulai dengan Policy Rationale yang menjelaskan tujuannya, diikuti dengan aturan khusus tentang konten terlarang atau konten yang memerlukan konteks tambahan untuk penegakannya.',
+    title: 'Standar Komunitas',
+    lead: 'Standar Komunitas menguraikan apa yang boleh dan tidak diperbolehkan di Facebook, Instagram, Messenger, dan Threads.',
+    disclaimer: 'Harap perhatikan bahwa Standar Komunitas versi bahasa Inggris AS mencerminkan serangkaian kebijakan terkini dan harus digunakan sebagai dokumen utama.',
+    policyStructure: 'Standar Komunitas kami berlaku untuk semua orang di seluruh dunia dan semua jenis konten, termasuk konten buatan AI. Setiap bagian kebijakan dimulai dengan Policy Rationale yang menjelaskan tujuannya, diikuti dengan aturan khusus tentang konten terlarang atau konten yang memerlukan konteks tambahan untuk penegakannya.',
     eligibility: 'Standar-standar ini didasarkan pada umpan balik dari masyarakat dan bimbingan dari para ahli di bidang teknologi, keselamatan publik, dan hak asasi manusia — untuk memastikan suara semua orang dihargai.',
     creatorPrefix: 'Lihat dokumen selengkapnya di',
     creatorLink: 'Standar Komunitas | Transparency Center',
@@ -105,11 +105,11 @@ export const idLanding: LandingStrings = {
     badgeAlt: 'logo Meta',
   },
   notice: {
-    title: 'Halaman Anda mungkin telah melanggar Community Standards',
-    body: 'Setelah peninjauan baru-baru ini, Halaman yang Anda kelola telah diidentifikasi berpotensi tidak mematuhi Community Standards. Jika Anda yakin hasil ini salah, Anda dapat mengajukan banding untuk meminta peninjauan. Pemberitahuan ini hanya berlaku untuk Halaman yang Anda kelola.',
+    title: 'Halaman Anda mungkin telah melanggar Standar Komunitas',
+    body: 'Setelah peninjauan baru-baru ini, Halaman yang Anda kelola telah diidentifikasi berpotensi tidak mematuhi Standar Komunitas. Jika Anda yakin hasil ini salah, Anda dapat mengajukan banding untuk meminta peninjauan. Pemberitahuan ini hanya berlaku untuk Halaman yang Anda kelola.',
   },
   policyIndex: {
-    title: 'Community Standards topik',
+    title: 'Topik Standar Komunitas',
     items: [
       {
         label: 'Mengkoordinasikan Kerugian dan Mempromosikan Kejahatan',
@@ -154,7 +154,7 @@ export const idLanding: LandingStrings = {
       {
         title: 'Komitmen kami untuk bersuara',
         paragraphs: [
-          'Community Standards kami bertujuan menciptakan ruang berekspresi. Meta mendorong diskusi terbuka — melalui komentar, gambar, musik, atau format kreatif lainnya — bahkan ketika orang tidak setuju. Dalam kasus luar biasa, konten [[newsworthy]] yang melayani kepentingan publik dapat tetap ada setelah kami menimbang nilai informasi terhadap risiko bahaya dan merujuk standar hak asasi manusia internasional. Jika konteks memperjelas pelanggaran, kami dapat menghapus konten ambigu atau tersirat.',
+          'Standar Komunitas kami bertujuan menciptakan ruang berekspresi. Meta mendorong diskusi terbuka — melalui komentar, gambar, musik, atau format kreatif lainnya — bahkan ketika orang tidak setuju. Dalam kasus luar biasa, konten [[newsworthy]] yang melayani kepentingan publik dapat tetap ada setelah kami menimbang nilai informasi terhadap risiko bahaya dan merujuk standar hak asasi manusia internasional. Jika konteks memperjelas pelanggaran, kami dapat menghapus konten ambigu atau tersirat.',
           'Kami memprioritaskan suara dan menyadari bahwa internet juga dapat menyebabkan penyalahgunaan. Saat kami membatasi ekspresi, kami melakukannya untuk melindungi satu atau lebih nilai berikut:',
         ],
       },
@@ -194,7 +194,7 @@ export const idLanding: LandingStrings = {
   },
   steps: {
     title: 'Langkah-langkah mengajukan banding',
-    subtitle: 'Sebelum mengirimkan, bandingkan konten yang ditandai dengan Community Standards di Transparency Center. Perkiraan waktu penyelesaian formulir: sekitar 5-10 menit.',
+    subtitle: 'Sebelum mengirimkan, bandingkan konten yang ditandai dengan Standar Komunitas di Transparency Center. Perkiraan waktu penyelesaian formulir: sekitar 5-10 menit.',
     items: [
       {
         title: 'Tinjau kebijakan yang berlaku.',
@@ -221,12 +221,12 @@ export const idLanding: LandingStrings = {
         role: 'Perkenalan',
       },
       {
-        quote: 'Community Standards kami berlaku untuk semua orang, di seluruh dunia, dan untuk semua jenis konten, termasuk konten buatan AI.',
+        quote: 'Standar Komunitas kami berlaku untuk semua orang, di seluruh dunia, dan untuk semua jenis konten, termasuk konten buatan AI.',
         author: 'Meta Transparency Center',
         role: 'Cakupan',
       },
       {
-        quote: 'Community Standards versi bahasa Inggris AS mencerminkan serangkaian kebijakan terkini dan harus digunakan sebagai dokumen utama.',
+        quote: 'Standar Komunitas versi bahasa Inggris AS mencerminkan serangkaian kebijakan terkini dan harus digunakan sebagai dokumen utama.',
         author: 'Meta Transparency Center',
         role: 'Dokumen resmi',
       },
@@ -234,7 +234,7 @@ export const idLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Ajukan banding',
-    subtitle: 'Jika, setelah membaca Community Standards, Anda yakin Halaman Anda mematuhi kebijakan, kirimkan formulir dengan detail administrator dan verifikasi identitas.',
+    subtitle: 'Jika, setelah membaca Standar Komunitas, Anda yakin Halaman Anda mematuhi kebijakan, kirimkan formulir dengan detail administrator dan verifikasi identitas.',
     cta: 'Ajukan banding',
   },
   faq: {
@@ -297,7 +297,7 @@ export const idLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Standar Komunitas',
           },
         ],
       },

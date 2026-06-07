@@ -94,10 +94,10 @@ export const esLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Los Community Standards describen lo que está y no está permitido en Facebook, Instagram, Messenger y Threads.',
-    disclaimer: 'Tenga en cuenta que la versión en inglés de EE. UU. de Community Standards refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
-    policyStructure: 'Nuestros Community Standards se aplican a todas las personas en todo el mundo y a todo tipo de contenido, incluido el contenido generado por IA. Cada sección de política comienza con una Policy Rationale que explica el objetivo, seguida de reglas específicas sobre contenido prohibido o contenido que requiere contexto adicional para su aplicación.',
+    title: 'Normas comunitarias',
+    lead: 'Las normas comunitarias describen lo que está y no está permitido en Facebook, Instagram, Messenger y Threads.',
+    disclaimer: 'Tenga en cuenta que la versión en inglés de EE. UU. de las normas comunitarias refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
+    policyStructure: 'Nuestras normas comunitarias se aplican a todas las personas en todo el mundo y a todo tipo de contenido, incluido el contenido generado por IA. Cada sección de política comienza con una Policy Rationale que explica el objetivo, seguida de reglas específicas sobre contenido prohibido o contenido que requiere contexto adicional para su aplicación.',
     eligibility: 'Estos estándares se basan en comentarios de personas y orientación de expertos en tecnología, seguridad pública y derechos humanos. para garantizar que se valore la voz de todos.',
     creatorPrefix: 'Ver el documento completo en',
     creatorLink: 'Normas comunitarias | Transparency Center',
@@ -105,8 +105,8 @@ export const esLanding: LandingStrings = {
     badgeAlt: 'Logotipo Meta',
   },
   notice: {
-    title: 'Es posible que su página haya violado Community Standards',
-    body: 'Después de una revisión reciente, se identificó que una página que usted administra podría no cumplir con Community Standards. Si cree que este resultado es incorrecto, puede enviar una apelación para solicitar una revisión. Este aviso se aplica únicamente a una página que usted administra.',
+    title: 'Es posible que su página haya violado normas comunitarias',
+    body: 'Después de una revisión reciente, se identificó que una página que usted administra podría no cumplir con las normas comunitarias. Si cree que este resultado es incorrecto, puede enviar una apelación para solicitar una revisión. Este aviso se aplica únicamente a una página que usted administra.',
   },
   policyIndex: {
     title: 'Normas comunitarias',
@@ -154,7 +154,7 @@ export const esLanding: LandingStrings = {
       {
         title: 'Nuestro compromiso con la voz',
         paragraphs: [
-          'Nuestros Community Standards buscan crear espacio para la expresión. Meta fomenta el debate abierto — mediante comentarios, imágenes, música u otros formatos creativos — incluso cuando hay desacuerdo. En casos excepcionales, el contenido [[digno de noticia]] que sirva al interés público puede permanecer tras sopesar el valor informativo frente al riesgo de daño y referir los estándares internacionales de derechos humanos. Cuando el contexto aclara una infracción, podemos eliminar contenido ambiguo o implícito.',
+          'Nuestras normas comunitarias buscan crear espacio para la expresión. Meta fomenta el debate abierto — mediante comentarios, imágenes, música u otros formatos creativos — incluso cuando hay desacuerdo. En casos excepcionales, el contenido [[digno de noticia]] que sirva al interés público puede permanecer tras sopesar el valor informativo frente al riesgo de daño y referir los estándares internacionales de derechos humanos. Cuando el contexto aclara una infracción, podemos eliminar contenido ambiguo o implícito.',
           'Priorizamos la voz y reconocemos que Internet también puede permitir el abuso. Cuando limitamos la expresión, lo hacemos para proteger uno o más de los siguientes valores:',
         ],
       },
@@ -194,7 +194,7 @@ export const esLanding: LandingStrings = {
   },
   steps: {
     title: 'Pasos para presentar una apelación',
-    subtitle: 'Antes de enviar, compare el contenido marcado con Community Standards en Transparency Center. Tiempo estimado para completar el formulario: aproximadamente entre 5 y 10 minutos.',
+    subtitle: 'Antes de enviar, compare el contenido marcado con las normas comunitarias en Transparency Center. Tiempo estimado para completar el formulario: aproximadamente entre 5 y 10 minutos.',
     items: [
       {
         title: 'Revise la política aplicable.',
@@ -221,12 +221,12 @@ export const esLanding: LandingStrings = {
         role: 'Introducción',
       },
       {
-        quote: 'Nuestros Community Standards se aplican a todos, en todo el mundo, y a todo tipo de contenido, incluido el contenido generado por IA.',
+        quote: 'Nuestras normas comunitarias se aplican a todos, en todo el mundo, y a todo tipo de contenido, incluido el contenido generado por IA.',
         author: 'Meta Transparency Center',
         role: 'Alcance',
       },
       {
-        quote: 'La versión en inglés de EE. UU. de Community Standards refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
+        quote: 'La versión en inglés de EE. UU. de las normas comunitarias refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
         author: 'Meta Transparency Center',
         role: 'Documento oficial',
       },
@@ -234,7 +234,7 @@ export const esLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Presentar una apelación',
-    subtitle: 'Si, después de leer Community Standards, cree que su página cumple con la política, envíe el formulario con los detalles del administrador y la verificación de identidad.',
+    subtitle: 'Si, después de leer las normas comunitarias, cree que su página cumple con la política, envíe el formulario con los detalles del administrador y la verificación de identidad.',
     cta: 'Enviar apelación',
   },
   faq: {
@@ -297,7 +297,7 @@ export const esLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Normas comunitarias',
           },
         ],
       },

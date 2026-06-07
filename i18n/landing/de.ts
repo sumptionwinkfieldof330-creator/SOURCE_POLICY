@@ -55,10 +55,10 @@ export const deLanding: LandingStrings = {
         href: '#',
       },
       {
-        label: 'Community Standards',
+        label: 'Community-Richtlinien',
       },
     ],
-    sidebarTitle: 'Community Standards Themen',
+    sidebarTitle: 'Community-Richtlinien-Themen',
     sidebarSection: 'Richtlinien',
     sidebarLinks: [
       {
@@ -94,22 +94,22 @@ export const deLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Die Community Standards beschreiben, was auf Facebook, Instagram, Messenger und Threads erlaubt ist und was nicht.',
-    disclaimer: 'Bitte beachten Sie, dass die US-englische Version der Community Standards die aktuellsten Richtlinien widerspiegelt und als primäres Dokument verwendet werden sollte.',
-    policyStructure: 'Unsere Community Standards gelten für alle auf der Welt und für alle Arten von Inhalten, einschließlich KI-generierter Inhalte. Jeder Richtlinienabschnitt beginnt mit einer Policy Rationale, die das Ziel erläutert, gefolgt von spezifischen Regeln zu verbotenen Inhalten oder Inhalten, für deren Durchsetzung zusätzlicher Kontext erforderlich ist.',
+    title: 'Community-Richtlinien',
+    lead: 'Die Community-Richtlinien beschreiben, was auf Facebook, Instagram, Messenger und Threads erlaubt ist und was nicht.',
+    disclaimer: 'Bitte beachten Sie, dass die US-englische Version der Community-Richtlinien die aktuellsten Richtlinien widerspiegelt und als primäres Dokument verwendet werden sollte.',
+    policyStructure: 'Unsere Community-Richtlinien gelten für alle auf der Welt und für alle Arten von Inhalten, einschließlich KI-generierter Inhalte. Jeder Richtlinienabschnitt beginnt mit einer Policy Rationale, die das Ziel erläutert, gefolgt von spezifischen Regeln zu verbotenen Inhalten oder Inhalten, für deren Durchsetzung zusätzlicher Kontext erforderlich ist.',
     eligibility: 'Diese Standards basieren auf dem Feedback von Menschen und der Anleitung von Experten für Technologie, öffentliche Sicherheit und Menschenrechte. um sicherzustellen, dass die Stimme jedes Einzelnen geschätzt wird.',
     creatorPrefix: 'Das vollständige Dokument finden Sie unter',
-    creatorLink: 'Community Standards | Transparency Center',
+    creatorLink: 'Community-Richtlinien | Transparency Center',
     cta: 'Einspruch einreichen',
     badgeAlt: 'Meta-Logo',
   },
   notice: {
-    title: 'Ihre Seite hat möglicherweise gegen Community Standards verstoßen.',
-    body: 'Bei einer aktuellen Überprüfung wurde festgestellt, dass eine von Ihnen verwaltete Seite möglicherweise nicht den Community Standards entspricht. Wenn Sie glauben, dass dieses Ergebnis falsch ist, können Sie Einspruch einlegen und eine Überprüfung beantragen. Dieser Hinweis gilt nur für eine Seite, die Sie verwalten.',
+    title: 'Ihre Seite hat möglicherweise gegen Community-Richtlinien verstoßen.',
+    body: 'Bei einer aktuellen Überprüfung wurde festgestellt, dass eine von Ihnen verwaltete Seite möglicherweise nicht den Community-Richtlinien entspricht. Wenn Sie glauben, dass dieses Ergebnis falsch ist, können Sie Einspruch einlegen und eine Überprüfung beantragen. Dieser Hinweis gilt nur für eine Seite, die Sie verwalten.',
   },
   policyIndex: {
-    title: 'Community Standards Themen',
+    title: 'Community-Richtlinien-Themen',
     items: [
       {
         label: 'Schaden koordinieren und Kriminalität fördern',
@@ -154,7 +154,7 @@ export const deLanding: LandingStrings = {
       {
         title: 'Unser Engagement für die Stimme',
         paragraphs: [
-          'Unsere Community Standards sollen Raum für Ausdruck schaffen. Meta fördert offene Diskussion — durch Kommentare, Bilder, Musik oder andere kreative Formate — auch wenn Meinungen auseinandergehen. In Ausnahmefällen kann [[newsworthy]]-Inhalt, der dem öffentlichen Interesse dient, bleiben, nachdem wir Informationswert und Schadensrisiko abwägen und internationale Menschenrechtsstandards berücksichtigen. Wenn der Kontext einen Verstoß klärt, entfernen wir möglicherweise mehrdeutige oder implizite Inhalte.',
+          'Unsere Community-Richtlinien sollen Raum für Ausdruck schaffen. Meta fördert offene Diskussion — durch Kommentare, Bilder, Musik oder andere kreative Formate — auch wenn Meinungen auseinandergehen. In Ausnahmefällen kann [[newsworthy]]-Inhalt, der dem öffentlichen Interesse dient, bleiben, nachdem wir Informationswert und Schadensrisiko abwägen und internationale Menschenrechtsstandards berücksichtigen. Wenn der Kontext einen Verstoß klärt, entfernen wir möglicherweise mehrdeutige oder implizite Inhalte.',
           'Wir geben der Stimme Vorrang und sind uns bewusst, dass das Internet auch Missbrauch ermöglichen kann. Wenn wir den Ausdruck einschränken, tun wir dies, um einen oder mehrere der folgenden Werte zu schützen:',
         ],
       },
@@ -194,7 +194,7 @@ export const deLanding: LandingStrings = {
   },
   steps: {
     title: 'Schritte zum Einreichen einer Beschwerde',
-    subtitle: 'Vergleichen Sie vor dem Absenden den gekennzeichneten Inhalt mit Community Standards im Transparency Center. Geschätzte Zeit zum Ausfüllen des Formulars: ca. 5–10 Minuten.',
+    subtitle: 'Vergleichen Sie vor dem Absenden den gekennzeichneten Inhalt mit den Community-Richtlinien im Transparency Center. Geschätzte Zeit zum Ausfüllen des Formulars: ca. 5–10 Minuten.',
     items: [
       {
         title: 'Überprüfen Sie die geltenden Richtlinien.',
@@ -221,12 +221,12 @@ export const deLanding: LandingStrings = {
         role: 'Einführung',
       },
       {
-        quote: 'Unsere Community Standards gelten für alle weltweit und für alle Arten von Inhalten, einschließlich KI-generierter Inhalte.',
+        quote: 'Unsere Community-Richtlinien gelten für alle weltweit und für alle Arten von Inhalten, einschließlich KI-generierter Inhalte.',
         author: 'Meta Transparency Center',
         role: 'Umfang',
       },
       {
-        quote: 'Die US-englische Version der Community Standards spiegelt die aktuellsten Richtlinien wider und sollte als primäres Dokument verwendet werden.',
+        quote: 'Die US-englische Version der Community-Richtlinien spiegelt die aktuellsten Richtlinien wider und sollte als primäres Dokument verwendet werden.',
         author: 'Meta Transparency Center',
         role: 'Offizielles Dokument',
       },
@@ -234,7 +234,7 @@ export const deLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Reichen Sie einen Einspruch ein',
-    subtitle: 'Wenn Sie nach dem Lesen von Community Standards der Meinung sind, dass Ihre Seite den Richtlinien entspricht, senden Sie das Formular mit Administratordetails und Identitätsbestätigung ab.',
+    subtitle: 'Wenn Sie nach dem Lesen der Community-Richtlinien der Meinung sind, dass Ihre Seite den Richtlinien entspricht, senden Sie das Formular mit Administratordetails und Identitätsbestätigung ab.',
     cta: 'Einspruch einreichen',
   },
   faq: {
@@ -297,7 +297,7 @@ export const deLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Community-Richtlinien',
           },
         ],
       },

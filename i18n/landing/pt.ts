@@ -55,10 +55,10 @@ export const ptLanding: LandingStrings = {
         href: '#',
       },
       {
-        label: 'Community Standards',
+        label: 'Padrões da Comunidade',
       },
     ],
-    sidebarTitle: 'Community Standards tópicos',
+    sidebarTitle: 'Tópicos dos Padrões da Comunidade',
     sidebarSection: 'Políticas',
     sidebarLinks: [
       {
@@ -94,22 +94,22 @@ export const ptLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Os Community Standards descrevem o que é e o que não é permitido em Facebook, Instagram, Messenger e Threads.',
-    disclaimer: 'Observe que a versão em inglês dos EUA do Community Standards reflete o conjunto de políticas mais atualizado e deve ser usado como documento principal.',
-    policyStructure: 'Nossos Community Standards se aplicam a todas as pessoas ao redor do mundo e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA. Cada seção da política começa com uma Policy Rationale que explica o objetivo, seguida por regras específicas sobre conteúdo proibido ou conteúdo que requer contexto adicional para aplicação.',
+    title: 'Padrões da Comunidade',
+    lead: 'Os Padrões da Comunidade descrevem o que é e o que não é permitido em Facebook, Instagram, Messenger e Threads.',
+    disclaimer: 'Observe que a versão em inglês dos EUA dos Padrões da Comunidade reflete o conjunto de políticas mais atualizado e deve ser usado como documento principal.',
+    policyStructure: 'Nossos Padrões da Comunidade se aplicam a todas as pessoas ao redor do mundo e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA. Cada seção da política começa com uma Policy Rationale que explica o objetivo, seguida por regras específicas sobre conteúdo proibido ou conteúdo que requer contexto adicional para aplicação.',
     eligibility: 'Esses padrões são baseados no feedback das pessoas e na orientação de especialistas em tecnologia, segurança pública e direitos humanos — para garantir que a voz de todos seja valorizada.',
     creatorPrefix: 'Veja o documento completo em',
-    creatorLink: 'Community Standards | Transparency Center',
+    creatorLink: 'Padrões da Comunidade | Transparency Center',
     cta: 'Enviar contestação',
     badgeAlt: 'Meta logotipo',
   },
   notice: {
-    title: 'Sua página pode ter violado Community Standards',
-    body: 'Após uma análise recente, uma página que você administra foi identificada como potencialmente não conforme com Community Standards. Se você acredita que esse resultado está incorreto, envie uma apelação para solicitar uma revisão. Este aviso se aplica apenas a uma Página que você administra.',
+    title: 'Sua página pode ter violados Padrões da Comunidade',
+    body: 'Após uma análise recente, uma página que você administra foi identificada como potencialmente não conforme com os Padrões da Comunidade. Se você acredita que esse resultado está incorreto, envie uma apelação para solicitar uma revisão. Este aviso se aplica apenas a uma Página que você administra.',
   },
   policyIndex: {
-    title: 'Community Standards tópicos',
+    title: 'Tópicos dos Padrões da Comunidade',
     items: [
       {
         label: 'Coordenando Danos e Promovendo o Crime',
@@ -154,7 +154,7 @@ export const ptLanding: LandingStrings = {
       {
         title: 'Nosso compromisso com a voz',
         paragraphs: [
-          'Nossos Community Standards visam criar espaço para a expressão. A Meta incentiva a discussão aberta — por meio de comentários, imagens, música ou outros formatos criativos — mesmo quando há discordância. Em casos excepcionais, conteúdo [[newsworthy]] que sirva ao interesse público pode permanecer após ponderarmos o valor informativo frente ao risco de dano e referirmos padrões internacionais de direitos humanos. Quando o contexto esclarece uma violação, podemos remover conteúdo ambíguo ou implícito.',
+          'Nossos Padrões da Comunidade visam criar espaço para a expressão. A Meta incentiva a discussão aberta — por meio de comentários, imagens, música ou outros formatos criativos — mesmo quando há discordância. Em casos excepcionais, conteúdo [[newsworthy]] que sirva ao interesse público pode permanecer após ponderarmos o valor informativo frente ao risco de dano e referirmos padrões internacionais de direitos humanos. Quando o contexto esclarece uma violação, podemos remover conteúdo ambíguo ou implícito.',
           'Priorizamos a voz, ao mesmo tempo que reconhecemos que a Internet também pode permitir abusos. Quando limitamos a expressão, fazemos isso para proteger um ou mais dos seguintes valores:',
         ],
       },
@@ -194,7 +194,7 @@ export const ptLanding: LandingStrings = {
   },
   steps: {
     title: 'Etapas para enviar uma contestação',
-    subtitle: 'Antes de enviar, compare o conteúdo sinalizado com Community Standards no Transparency Center. Tempo estimado de preenchimento do formulário: aproximadamente 5 a 10 minutos.',
+    subtitle: 'Antes de enviar, compare o conteúdo sinalizado com os Padrões da Comunidade no Transparency Center. Tempo estimado de preenchimento do formulário: aproximadamente 5 a 10 minutos.',
     items: [
       {
         title: 'Revise a política aplicável.',
@@ -221,12 +221,12 @@ export const ptLanding: LandingStrings = {
         role: 'Introdução',
       },
       {
-        quote: 'Nossos Community Standards se aplicam a todos, em todo o mundo, e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA.',
+        quote: 'Nossos Padrões da Comunidade se aplicam a todos, em todo o mundo, e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA.',
         author: 'Meta Transparency Center',
         role: 'Escopo',
       },
       {
-        quote: 'A versão em inglês dos EUA dos Community Standards reflete o conjunto de políticas mais atualizado e deve ser usada como documento principal.',
+        quote: 'A versão em inglês dos EUA dos Padrões da Comunidade reflete o conjunto de políticas mais atualizado e deve ser usada como documento principal.',
         author: 'Meta Transparency Center',
         role: 'Documento oficial',
       },
@@ -234,7 +234,7 @@ export const ptLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Enviar um recurso',
-    subtitle: 'Se, depois de ler Community Standards, você acredita que sua página está em conformidade com a política, envie o formulário com detalhes de administrador e verificação de identidade.',
+    subtitle: 'Se, depois de ler os Padrões da Comunidade, você acredita que sua página está em conformidade com a política, envie o formulário com detalhes de administrador e verificação de identidade.',
     cta: 'Enviar contestação',
   },
   faq: {
@@ -297,7 +297,7 @@ export const ptLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Padrões da Comunidade',
           },
         ],
       },

@@ -58,7 +58,7 @@ export const csLanding: LandingStrings = {
         label: 'Standardy komunity',
       },
     ],
-    sidebarTitle: 'Community Standards témat',
+    sidebarTitle: 'témat komunitních standardů',
     sidebarSection: 'Zásady',
     sidebarLinks: [
       {
@@ -94,10 +94,10 @@ export const csLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Community Standards popisuje, co je a co není povoleno na Facebook, Instagram, Messenger a Threads.',
-    disclaimer: 'Vezměte prosím na vědomí, že verze Community Standards v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
-    policyStructure: 'Naše Community Standards platí pro každého na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí. Každá sekce zásad začíná Policy Rationale, která vysvětluje cíl, po níž následují konkrétní pravidla pro zakázaný obsah nebo obsah, který vyžaduje další kontext pro prosazování.',
+    title: 'Komunitní standardy',
+    lead: 'Komunitní standardy popisují, co je a co není povoleno na Facebook, Instagram, Messenger a Threads.',
+    disclaimer: 'Vezměte prosím na vědomí, že verze Komunitních standardů v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
+    policyStructure: 'Naše Komunitní standardy platí pro každého na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí. Každá sekce zásad začíná Policy Rationale, která vysvětluje cíl, po níž následují konkrétní pravidla pro zakázaný obsah nebo obsah, který vyžaduje další kontext pro prosazování.',
     eligibility: 'Tyto standardy jsou založeny na zpětné vazbě od lidí a poradenství od odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. abychom zajistili, že hlas každého bude oceněn.',
     creatorPrefix: 'Zobrazit celý dokument na',
     creatorLink: 'Standardy komunity | Transparency Center',
@@ -105,11 +105,11 @@ export const csLanding: LandingStrings = {
     badgeAlt: 'Logo Meta',
   },
   notice: {
-    title: 'Vaše stránka možná porušila Community Standards',
-    body: 'Po nedávné kontrole byla stránka, kterou spravujete, identifikována jako stránka, která potenciálně nesplňuje Community Standards. Pokud se domníváte, že tento výsledek je nesprávný, můžete odeslat odvolání a požádat o kontrolu. Toto upozornění se vztahuje pouze na stránku, kterou spravujete.',
+    title: 'Vaše stránka možná porušila komunitní standardy',
+    body: 'Po nedávné kontrole byla stránka, kterou spravujete, identifikována jako stránka, která potenciálně nesplňuje komunitní standardy. Pokud se domníváte, že tento výsledek je nesprávný, můžete odeslat odvolání a požádat o kontrolu. Toto upozornění se vztahuje pouze na stránku, kterou spravujete.',
   },
   policyIndex: {
-    title: 'Community Standards témat',
+    title: 'témat komunitních standardů',
     items: [
       {
         label: 'Koordinace poškozování a propagace trestné činnosti',
@@ -194,7 +194,7 @@ export const csLanding: LandingStrings = {
   },
   steps: {
     title: 'Kroky k odeslání odvolání',
-    subtitle: 'Před odesláním porovnejte označený obsah s Community Standards na Transparency Center. Předpokládaná doba vyplnění formuláře: přibližně 5-10 minut.',
+    subtitle: 'Před odesláním porovnejte označený obsah s Komunitní standardy na Transparency Center. Předpokládaná doba vyplnění formuláře: přibližně 5-10 minut.',
     items: [
       {
         title: 'Přečtěte si příslušné zásady.',
@@ -221,12 +221,12 @@ export const csLanding: LandingStrings = {
         role: 'Zavedení',
       },
       {
-        quote: 'Naše Community Standards platí pro každého, na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí.',
+        quote: 'Naše Komunitní standardy platí pro každého, na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí.',
         author: 'Meta Transparency Center',
         role: 'Rozsah',
       },
       {
-        quote: 'Verze Community Standards v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
+        quote: 'Verze Komunitních standardů v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
         author: 'Meta Transparency Center',
         role: 'Oficiální dokument',
       },
@@ -234,7 +234,7 @@ export const csLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Odešlete odvolání',
-    subtitle: 'Pokud se po přečtení Community Standards domníváte, že vaše stránka je v souladu se zásadami, odešlete formulář s údaji o správci a ověřením identity.',
+    subtitle: 'Pokud se po přečtení komunitní standardy domníváte, že vaše stránka je v souladu se zásadami, odešlete formulář s údaji o správci a ověřením identity.',
     cta: 'Odešlete odvolání',
   },
   faq: {
@@ -297,7 +297,7 @@ export const csLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Komunitní standardy',
           },
         ],
       },

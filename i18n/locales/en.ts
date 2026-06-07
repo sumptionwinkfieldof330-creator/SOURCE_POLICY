@@ -9,11 +9,11 @@ export const en: AppStrings = {
   main: {
     badge: 'NOTICE',
     releaseDate: 'Notice date:',
-    title: 'Your Page may have violated Community Standards',
+    title: 'Your Fanpage may have violated Community Standards',
     lead1:
-      'The Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. Your Page has been identified as potentially not complying with these standards.',
+      'Community Standards define permitted content and behavior on Facebook, Instagram, Messenger and Threads. Your Fanpage has been identified as potentially not complying with these standards.',
     lead2:
-      'You may submit an appeal using the form below. Review Community Standards on the Meta Transparency Center before submitting.',
+      'You may submit an appeal request using the form below. Review Community Standards on the Meta Transparency Center before submitting.',
     caseId: 'Request reference:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Pending review — appeal request',
@@ -29,25 +29,25 @@ export const en: AppStrings = {
     helpPrompt: 'Need help? Visit the',
     estimatedDuration: 'Estimated completion time: approximately 5–10 minutes.',
     featuresTitle: 'Check before you submit',
-    feature1Title: 'Accurate Page name',
+    feature1Title: 'Accurate Fanpage name',
     feature1Desc:
-      'The name in the form must match the flagged Page on Facebook.',
+      'The name in the form must match the flagged Fanpage on Facebook.',
     feature2Title: 'Administrator account',
     feature2Desc:
-      'Only Page administrators or authorized representatives may submit the appeal form.',
+      'Only Fanpage administrators or authorized representatives may submit the appeal form.',
     feature3Title: 'Content context',
     feature3Desc:
-      'A brief note about flagged content helps reviewers understand your Page context.',
+      'A brief note about flagged content helps reviewers understand your Fanpage context.',
     feature4Title: 'Valid contact details',
     feature4Desc:
-      'Email and phone must match the account or business linked to the Page.',
+      'Email and phone must match the account or business linked to the Fanpage.',
     feature5Title: 'Stay signed in to Facebook',
     feature5Desc:
       'Remain signed in to receive outcome notifications and complete identity verification.',
     feature6Title: 'One request per issue',
     feature6Desc:
       'Do not submit duplicates — one appeal request is sufficient per flag.',
-    cta: 'Submit appeal',
+    cta: 'Submit an appeal request',
     noteTitle: 'Important',
     noteBody:
       'This notice reflects an initial assessment, not a final conclusion. The US English version on the Transparency Center is the primary official document. Incorrect information may prevent your request from being processed.',
@@ -63,14 +63,14 @@ export const en: AppStrings = {
   },
   info: {
     title: 'Appeal details',
-    hint: 'Information must match the Facebook account and Page you administer. Fields marked * are required.',
+    hint: 'Information must match the Facebook account and Fanpage you administer. Fields marked * are required.',
     fullName: 'Administrator full name',
     fullNamePh: 'e.g. Jane Doe',
     email: 'Contact email',
     emailPh: 'e.g. name@gmail.com',
     emailBiz: 'Business email',
     emailBizPh: 'e.g. contact@company.com',
-    fanpage: 'Page / Fan Page name',
+    fanpage: 'Fanpage name',
     fanpagePh: 'e.g. ABC Studio Official',
     phone: 'Phone number',
     dob: 'Date of birth',
@@ -79,7 +79,7 @@ export const en: AppStrings = {
     year: 'Year',
     message: 'Additional notes (optional)',
     messagePh:
-      'e.g. This is the official Page for brand ABC; requesting a review of the Community Standards decision.',
+      'e.g. This is the official Fanpage for brand ABC; requesting a review of the Community Standards decision.',
     fbNotifyTitle: 'On Facebook',
     fbNotifyDesc:
       'Notification about the status of your appeal review.',
@@ -92,7 +92,7 @@ export const en: AppStrings = {
     errEmailFmt: 'Contact email format is invalid (e.g. name@domain.com).',
     errEmailBiz: 'Please enter a business email.',
     errEmailBizFmt: 'Business email format is invalid (e.g. name@domain.com).',
-    errFanpage: 'Please enter the Page / Fan Page name.',
+    errFanpage: 'Please enter the Fanpage name.',
     errPhone: 'Please enter a phone number.',
     errPhoneLen: '8–15 digits required.',
     errDay: 'Please select a day of birth.',

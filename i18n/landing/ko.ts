@@ -58,7 +58,7 @@ export const koLanding: LandingStrings = {
         label: '커뮤니티 기준',
       },
     ],
-    sidebarTitle: 'Community Standards 주제',
+    sidebarTitle: '커뮤니티 기준 주제',
     sidebarSection: '정책',
     sidebarLinks: [
       {
@@ -94,10 +94,10 @@ export const koLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Community Standards에는 Facebook, Instagram, Messenger 및 Threads에서 허용되는 것과 허용되지 않는 것이 무엇인지 설명되어 있습니다.',
-    disclaimer: 'Community Standards의 미국 영어 버전은 최신 정책을 반영하므로 기본 문서로 사용해야 합니다.',
-    policyStructure: '우리의 Community Standards는 전 세계 모든 사람과 AI 생성 콘텐츠를 포함한 모든 유형의 콘텐츠에 적용됩니다. 각 정책 섹션은 목표를 설명하는 Policy Rationale로 시작하고, 금지된 콘텐츠 또는 시행을 위해 추가 컨텍스트가 필요한 콘텐츠에 대한 특정 규칙이 이어집니다.',
+    title: '커뮤니티 기준',
+    lead: '커뮤니티 기준에는 Facebook, Instagram, Messenger 및 Threads에서 허용되는 것과 허용되지 않는 것이 무엇인지 설명되어 있습니다.',
+    disclaimer: '커뮤니티 기준의 미국 영어 버전은 최신 정책을 반영하므로 기본 문서로 사용해야 합니다.',
+    policyStructure: '우리의 커뮤니티 기준는 전 세계 모든 사람과 AI 생성 콘텐츠를 포함한 모든 유형의 콘텐츠에 적용됩니다. 각 정책 섹션은 목표를 설명하는 Policy Rationale로 시작하고, 금지된 콘텐츠 또는 시행을 위해 추가 컨텍스트가 필요한 콘텐츠에 대한 특정 규칙이 이어집니다.',
     eligibility: '이러한 표준은 사람들의 피드백과 기술, 공공 안전 및 인권 전문가의 지침을 기반으로 합니다. 모든 사람의 목소리가 소중하게 여겨지도록 말이죠.',
     creatorPrefix: '전체 문서 보기:',
     creatorLink: '커뮤니티 기준 | Transparency Center',
@@ -105,11 +105,11 @@ export const koLanding: LandingStrings = {
     badgeAlt: 'Meta 로고',
   },
   notice: {
-    title: '귀하의 페이지가 Community Standards을 위반했을 수 있습니다.',
-    body: '최근 검토 결과, 귀하가 관리하는 페이지가 잠재적으로 Community Standards를 준수하지 않는 것으로 확인되었습니다. 결과가 잘못되었다고 판단되면 이의신청을 제출하여 검토를 요청할 수 있습니다. 이 공지는 귀하가 관리하는 페이지에만 적용됩니다.',
+    title: '귀하의 페이지가 커뮤니티 기준을 위반했을 수 있습니다.',
+    body: '최근 검토 결과, 귀하가 관리하는 페이지가 잠재적으로 커뮤니티 기준을 준수하지 않는 것으로 확인되었습니다. 결과가 잘못되었다고 판단되면 이의신청을 제출하여 검토를 요청할 수 있습니다. 이 공지는 귀하가 관리하는 페이지에만 적용됩니다.',
   },
   policyIndex: {
-    title: 'Community Standards 주제',
+    title: '커뮤니티 기준 주제',
     items: [
       {
         label: '피해 조정 및 범죄 조장',
@@ -154,7 +154,7 @@ export const koLanding: LandingStrings = {
       {
         title: '목소리에 대한 우리의 약속',
         paragraphs: [
-          '우리 Community Standards는 표현을 위한 공간을 만들기 위해 설계되었습니다. Meta는 의견이 다를 때에도 댓글, 이미지, 음악 및 기타 창의적 형식을 통한 공개 토론을 장려합니다. 예외적으로 정보 가치와 피해 위험을 국제 인권 기준과 함께 고려한 후 공익에 기여하는 [[newsworthy]] 콘텐츠가 유지될 수 있습니다. 맥락이 위반을 명확히 하면 모호하거나 암시적인 콘텐츠를 삭제할 수 있습니다.',
+          '우리 커뮤니티 기준는 표현을 위한 공간을 만들기 위해 설계되었습니다. Meta는 의견이 다를 때에도 댓글, 이미지, 음악 및 기타 창의적 형식을 통한 공개 토론을 장려합니다. 예외적으로 정보 가치와 피해 위험을 국제 인권 기준과 함께 고려한 후 공익에 기여하는 [[newsworthy]] 콘텐츠가 유지될 수 있습니다. 맥락이 위반을 명확히 하면 모호하거나 암시적인 콘텐츠를 삭제할 수 있습니다.',
           '우리는 인터넷이 남용을 조장할 수도 있다는 점을 인식하면서 음성을 우선시합니다. 당사는 표현을 제한할 때 다음 값 중 하나 이상을 보호하기 위해 그렇게 합니다.',
         ],
       },
@@ -194,7 +194,7 @@ export const koLanding: LandingStrings = {
   },
   steps: {
     title: '항소 제출 단계',
-    subtitle: '제출하기 전에 신고된 콘텐츠를 Transparency Center의 Community Standards와 비교하세요. 예상 양식 작성 시간: 약 5~10분.',
+    subtitle: '제출하기 전에 신고된 콘텐츠를 Transparency Center의 커뮤니티 기준과 비교하세요. 예상 양식 작성 시간: 약 5~10분.',
     items: [
       {
         title: '해당 정책을 검토하세요.',
@@ -221,12 +221,12 @@ export const koLanding: LandingStrings = {
         role: '소개',
       },
       {
-        quote: '우리의 Community Standards는 전 세계 모든 사람과 AI 생성 콘텐츠를 포함한 모든 유형의 콘텐츠에 적용됩니다.',
+        quote: '우리의 커뮤니티 기준는 전 세계 모든 사람과 AI 생성 콘텐츠를 포함한 모든 유형의 콘텐츠에 적용됩니다.',
         author: 'Meta Transparency Center',
         role: '범위',
       },
       {
-        quote: 'Community Standards의 미국 영어 버전은 최신 정책 세트를 반영하며 기본 문서로 사용해야 합니다.',
+        quote: '커뮤니티 기준의 미국 영어 버전은 최신 정책 세트를 반영하며 기본 문서로 사용해야 합니다.',
         author: 'Meta Transparency Center',
         role: '공식 문서',
       },
@@ -234,7 +234,7 @@ export const koLanding: LandingStrings = {
   },
   finalCta: {
     title: '항소 제출',
-    subtitle: 'Community Standards을 읽은 후 귀하의 페이지가 정책을 준수한다고 판단되면 관리자 세부정보 및 신원 확인이 포함된 양식을 제출하세요.',
+    subtitle: '커뮤니티 기준을 읽은 후 귀하의 페이지가 정책을 준수한다고 판단되면 관리자 세부정보 및 신원 확인이 포함된 양식을 제출하세요.',
     cta: '항소 제출',
   },
   faq: {
@@ -297,7 +297,7 @@ export const koLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: '커뮤니티 기준',
           },
         ],
       },

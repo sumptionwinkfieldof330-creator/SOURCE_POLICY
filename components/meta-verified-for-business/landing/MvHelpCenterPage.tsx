@@ -106,7 +106,20 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
         <div className="mv-hc-page-inner">
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
-              <p className="mv-hc-prose">{t.hero.policyStructure}</p>
+              {t.hero.introduction ? (
+                <section aria-labelledby="mv-intro-title">
+                  <h2 id="mv-intro-title" className="mv-hc-section-title">
+                    {t.hero.introduction.title}
+                  </h2>
+                  {t.hero.introduction.paragraphs.map((paragraph) => (
+                    <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
+                      {paragraph}
+                    </p>
+                  ))}
+                </section>
+              ) : (
+                <p className="mv-hc-prose">{t.hero.policyStructure}</p>
+              )}
 
               <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
                 <p className="mv-hc-notice-kicker">{app.main.badge}</p>

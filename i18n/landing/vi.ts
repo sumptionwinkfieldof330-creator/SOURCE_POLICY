@@ -46,8 +46,15 @@ export const viLanding: LandingStrings = {
       'Tiêu chuẩn cộng đồng nêu rõ những nội dung được phép và không được phép xuất hiện trên Facebook, Instagram, Messenger cũng như Threads.',
     disclaimer:
       'Lưu ý: Phiên bản tiếng Anh (Mỹ) của Tiêu chuẩn Cộng đồng phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính.',
-    policyStructure:
-      'Tiêu chuẩn Cộng đồng áp dụng cho mọi người, trên toàn thế giới, với mọi loại nội dung — bao gồm cả nội dung do AI tạo ra. Mỗi mục chính sách bắt đầu bằng phần “Cơ sở chính sách” nêu mục tiêu, kèm các quy định cụ thể về nội dung bị cấm hoặc cần thêm ngữ cảnh để thực thi.',
+    policyStructure: '',
+    introduction: {
+      title: 'Giới thiệu',
+      paragraphs: [
+        'Các tiêu chuẩn này được xây dựng dựa trên ý kiến từ cộng đồng và các chuyên gia nhằm phản ánh đa dạng quan điểm, đồng thời bảo vệ những cá nhân và cộng đồng dễ bị tổn thương.',
+        'Hàng tỷ người sử dụng Facebook, Instagram, Messenger và Threads để kết nối, chia sẻ và xây dựng cộng đồng trên toàn thế giới.',
+        'Meta cam kết duy trì môi trường giao tiếp an toàn và minh bạch bằng cách xác định rõ những nội dung được phép và không được phép xuất hiện trên các nền tảng của mình.',
+      ],
+    },
     eligibility:
       'Các tiêu chuẩn này dựa trên phản hồi từ cộng đồng và tư vấn của các chuyên gia về công nghệ, an ninh công cộng và nhân quyền — nhằm đảm bảo mọi tiếng nói đều được coi trọng.',
     creatorPrefix: 'Xem văn bản đầy đủ tại',

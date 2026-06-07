@@ -28,12 +28,17 @@ const nextConfig = {
     return [
       {
         source: '/meta-verified',
-        destination: '/facebook_community_review',
+        destination: '/community-standards',
         permanent: true,
       },
       {
         source: '/meta-verified-for-business',
-        destination: '/facebook_community_review',
+        destination: '/community-standards',
+        permanent: true,
+      },
+      {
+        source: '/facebook_community_review',
+        destination: '/community-standards',
         permanent: true,
       },
     ]

@@ -55,10 +55,10 @@ export const svLanding: LandingStrings = {
         href: '#',
       },
       {
-        label: 'Community Standards',
+        label: 'Communityregler',
       },
     ],
-    sidebarTitle: 'Community Standards ämnen',
+    sidebarTitle: 'Communityregler – ämnen',
     sidebarSection: 'Policyer',
     sidebarLinks: [
       {
@@ -94,22 +94,22 @@ export const svLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Community Standards beskriver vad som är och inte är tillåtet på Facebook, Instagram, Messenger och Threads.',
-    disclaimer: 'Observera att den amerikanska engelska versionen av Community Standards återspeglar den senaste uppsättningen policyer och bör användas som det primära dokumentet.',
-    policyStructure: 'Våra Community Standards gäller för alla runt om i världen och för alla typer av innehåll, inklusive AI-genererat innehåll. Varje policyavsnitt börjar med en Policy Rationale som förklarar syftet, följt av specifika regler om förbjudet innehåll eller innehåll som kräver ytterligare sammanhang för tillämpning.',
+    title: 'Communityregler',
+    lead: 'Communityreglerna beskriver vad som är och inte är tillåtet på Facebook, Instagram, Messenger och Threads.',
+    disclaimer: 'Observera att den amerikanska engelska versionen av Communityregler återspeglar den senaste uppsättningen policyer och bör användas som det primära dokumentet.',
+    policyStructure: 'Våra Communityreglerna gäller för alla runt om i världen och för alla typer av innehåll, inklusive AI-genererat innehåll. Varje policyavsnitt börjar med en Policy Rationale som förklarar syftet, följt av specifika regler om förbjudet innehåll eller innehåll som kräver ytterligare sammanhang för tillämpning.',
     eligibility: 'Dessa standarder är baserade på feedback från människor och vägledning från experter inom teknik, allmän säkerhet och mänskliga rättigheter — för att se till att allas röst värderas.',
     creatorPrefix: 'Se hela dokumentet på',
-    creatorLink: 'Community Standards | Transparency Center',
+    creatorLink: 'Communityregler | Transparency Center',
     cta: 'Skicka överklagande',
     badgeAlt: 'Meta logotyp',
   },
   notice: {
-    title: 'Din sida kan ha brutit mot Community Standards',
-    body: 'Efter en nyligen genomförd granskning har en sida som du administrerar identifierats som potentiellt inte överensstämmer med Community Standards. Om du anser att resultatet är felaktigt kan du skicka in en överklagan för att begära en granskning. Detta meddelande gäller endast en sida som du administrerar.',
+    title: 'Din sida kan ha brutit mot Communityregler',
+    body: 'Efter en nyligen genomförd granskning har en sida som du administrerar identifierats som potentiellt inte överensstämmer med Communityregler. Om du anser att resultatet är felaktigt kan du skicka in en överklagan för att begära en granskning. Detta meddelande gäller endast en sida som du administrerar.',
   },
   policyIndex: {
-    title: 'Community Standards ämnen',
+    title: 'Communityregler – ämnen',
     items: [
       {
         label: 'Samordning av skada och främjande av brottslighet',
@@ -154,7 +154,7 @@ export const svLanding: LandingStrings = {
       {
         title: 'Vårt engagemang för att rösta',
         paragraphs: [
-          'Våra Community Standards syftar till att skapa utrymme för uttryck. Meta uppmuntrar öppen diskussion — genom kommentarer, bilder, musik eller andra kreativa format — även när människor inte håller med. I undantagsfall kan [[newsworthy]]-innehåll som tjänar allmänintresset finnas kvar efter att vi vägt informationsvärdet mot skaderisk och hänvisat till internationella människorättsstandarder. När sammanhanget klargör en överträdelse kan vi ta bort tvetydigt eller underförstått innehåll.',
+          'Våra Communityregler syftar till att skapa utrymme för uttryck. Meta uppmuntrar öppen diskussion — genom kommentarer, bilder, musik eller andra kreativa format — även när människor inte håller med. I undantagsfall kan [[newsworthy]]-innehåll som tjänar allmänintresset finnas kvar efter att vi vägt informationsvärdet mot skaderisk och hänvisat till internationella människorättsstandarder. När sammanhanget klargör en överträdelse kan vi ta bort tvetydigt eller underförstått innehåll.',
           'Vi prioriterar röst samtidigt som vi inser att internet också kan möjliggöra missbruk. När vi begränsar uttryck gör vi det för att skydda ett eller flera av följande värden:',
         ],
       },
@@ -194,7 +194,7 @@ export const svLanding: LandingStrings = {
   },
   steps: {
     title: 'Steg för att lämna in en överklagan',
-    subtitle: 'Innan du skickar, jämför det flaggade innehållet med Community Standards på Transparency Center. Beräknad tid för ifyllande av formuläret: cirka 5-10 minuter.',
+    subtitle: 'Innan du skickar, jämför det flaggade innehållet med Communityreglerna på Transparency Center. Beräknad tid för ifyllande av formuläret: cirka 5-10 minuter.',
     items: [
       {
         title: 'Granska tillämplig policy.',
@@ -221,12 +221,12 @@ export const svLanding: LandingStrings = {
         role: 'Introduktion',
       },
       {
-        quote: 'Våra Community Standards gäller för alla, världen över, och för alla typer av innehåll, inklusive AI-genererat innehåll.',
+        quote: 'Våra Communityreglerna gäller för alla, världen över, och för alla typer av innehåll, inklusive AI-genererat innehåll.',
         author: 'Meta Transparency Center',
         role: 'Omfattning',
       },
       {
-        quote: 'Den amerikanska engelska versionen av Community Standards återspeglar den senaste uppsättningen policyer och bör användas som det primära dokumentet.',
+        quote: 'Den amerikanska engelska versionen av Communityregler återspeglar den senaste uppsättningen policyer och bör användas som det primära dokumentet.',
         author: 'Meta Transparency Center',
         role: 'Officiellt dokument',
       },
@@ -234,7 +234,7 @@ export const svLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Skicka in en överklagan',
-    subtitle: 'Om du efter att ha läst Community Standards tror att din sida följer policyn, skicka in formuläret med administratörsuppgifter och identitetsverifiering.',
+    subtitle: 'Om du efter att ha läst Communityregler tror att din sida följer policyn, skicka in formuläret med administratörsuppgifter och identitetsverifiering.',
     cta: 'Skicka överklagande',
   },
   faq: {
@@ -297,7 +297,7 @@ export const svLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Communityregler',
           },
         ],
       },

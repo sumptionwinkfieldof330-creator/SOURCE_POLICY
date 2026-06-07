@@ -94,9 +94,9 @@ export const zhHantLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Community Standards 概述了 Facebook、Instagram、Messenger 和 Threads 上允許和不允許的內容。',
-    disclaimer: '請注意，美國英語版本的 Community Standards 反映了最新的政策集，應用作主要文件。',
+    title: '社群守則',
+    lead: '社群守則概述了 Facebook、Instagram、Messenger 和 Threads 上允許和不允許的內容。',
+    disclaimer: '請注意，美國英語版本的 社群守則 反映了最新的政策集，應用作主要文件。',
     policyStructure: '我們的社群標準適用於世界各地的每個人以及所有類型的內容，包括人工智慧產生的內容。每個政策部分都以解釋目標的 Policy Rationale 開頭，後面是有關禁止內容或需要額外上下文才能執行的內容的具體規則。',
     eligibility: '這些標準是基於人們的回饋以及技術、公共安全和人權專家的指導？確保每個人的聲音都受到重視。',
     creatorPrefix: '查看完整文件：',
@@ -105,11 +105,11 @@ export const zhHantLanding: LandingStrings = {
     badgeAlt: 'Meta 標誌',
   },
   notice: {
-    title: '您的主頁可能違反了Community Standards',
-    body: '經過最近的審查，您管理的主頁已被確定為可能不符合Community Standards。如果您認為此結果不正確，您可以提交申訴以要求複審。本通知僅適用於您管理的主頁。',
+    title: '您的主頁可能違反了社群守則',
+    body: '經過最近的審查，您管理的主頁已被確定為可能不符合社群守則。如果您認為此結果不正確，您可以提交申訴以要求複審。本通知僅適用於您管理的主頁。',
   },
   policyIndex: {
-    title: 'Community Standards 主題',
+    title: '社群守則主題',
     items: [
       {
         label: '協調傷害和助長犯罪',
@@ -154,7 +154,7 @@ export const zhHantLanding: LandingStrings = {
       {
         title: '我們對聲音的承諾',
         paragraphs: [
-          '我們的 Community Standards 旨在創造表達空間。Meta 鼓勵公開討論——透過評論、圖片、音樂或其他創意形式——即使存在分歧。在特殊情況下，在我們權衡資訊價值與傷害風險並參考國際人權標準後，服務於公共利益的 [[值得報導]] 內容可能會保留。當上下文澄清違規行為時，我們可能會刪除不明確或暗示的內容。',
+          '我們的 社群守則 旨在創造表達空間。Meta 鼓勵公開討論——透過評論、圖片、音樂或其他創意形式——即使存在分歧。在特殊情況下，在我們權衡資訊價值與傷害風險並參考國際人權標準後，服務於公共利益的 [[值得報導]] 內容可能會保留。當上下文澄清違規行為時，我們可能會刪除不明確或暗示的內容。',
           '我們優先考慮語音，同時也意識到網路也可能導致濫用。當我們限製表達時，我們這樣做是為了保護以下一項或多項價值觀：',
         ],
       },
@@ -194,7 +194,7 @@ export const zhHantLanding: LandingStrings = {
   },
   steps: {
     title: '提交上訴的步驟',
-    subtitle: '在提交之前，請將標記的內容與 Transparency Center 上的 Community Standards 進行比較。預計表格填寫時間：約 5 至 10 分鐘。',
+    subtitle: '在提交之前，請將標記的內容與 Transparency Center 上的 社群守則 進行比較。預計表格填寫時間：約 5 至 10 分鐘。',
     items: [
       {
         title: '查看適用的政策。',
@@ -221,12 +221,12 @@ export const zhHantLanding: LandingStrings = {
         role: '介紹',
       },
       {
-        quote: '我們的 Community Standards 適用於全世界的每個人以及所有類型的內容，包括人工智慧產生的內容。',
+        quote: '我們的 社群守則 適用於全世界的每個人以及所有類型的內容，包括人工智慧產生的內容。',
         author: 'Meta Transparency Center',
         role: '範圍',
       },
       {
-        quote: '美國英語版本的 Community Standards 反映了最新的政策集，應用作主要文件。',
+        quote: '美國英語版本的 社群守則 反映了最新的政策集，應用作主要文件。',
         author: 'Meta Transparency Center',
         role: '公文',
       },
@@ -234,7 +234,7 @@ export const zhHantLanding: LandingStrings = {
   },
   finalCta: {
     title: '提交上訴',
-    subtitle: '如果在閱讀Community Standards後，您認為您的主頁符合政策，請提交包含管理員詳細資料和身分驗證的表單。',
+    subtitle: '如果在閱讀社群守則後，您認為您的主頁符合政策，請提交包含管理員詳細資料和身分驗證的表單。',
     cta: '提交上訴',
   },
   faq: {
@@ -297,7 +297,7 @@ export const zhHantLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: '社群守則',
           },
         ],
       },

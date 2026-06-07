@@ -64,6 +64,10 @@ export type LandingStrings = {
     lead: string
     disclaimer: string
     policyStructure: string
+    introduction?: {
+      title: string
+      paragraphs: string[]
+    }
     eligibility: string
     creatorPrefix: string
     creatorLink: string

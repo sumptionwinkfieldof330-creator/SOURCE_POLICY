@@ -55,10 +55,10 @@ export const jaLanding: LandingStrings = {
         href: '#',
       },
       {
-        label: 'Community Standards',
+        label: 'コミュニティスタンダード',
       },
     ],
-    sidebarTitle: 'Community Standards トピック',
+    sidebarTitle: 'コミュニティスタンダードのトピック',
     sidebarSection: 'ポリシー',
     sidebarLinks: [
       {
@@ -94,22 +94,22 @@ export const jaLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Community Standards は、Facebook、Instagram、Messenger、Threads で何が許可され、何が禁止されているかを概説します。',
-    disclaimer: 'Community Standards の米国英語版には最新のポリシーが反映されており、主要文書として使用する必要があることに注意してください。',
-    policyStructure: '当社の Community Standards は、世界中のすべての人々と、AI によって生成されたコンテンツを含むあらゆる種類のコンテンツに適用されます。各ポリシー セクションは、目的を説明する Policy Rationale で始まり、その後に、禁止されたコンテンツや適用のために追加のコンテキストが必要なコンテンツに関する特定のルールが続きます。',
+    title: 'コミュニティスタンダード',
+    lead: 'コミュニティスタンダードは、Facebook、Instagram、Messenger、Threads で何が許可され、何が禁止されているかを概説します。',
+    disclaimer: 'コミュニティスタンダードの米国英語版には最新のポリシーが反映されており、主要文書として使用する必要があることに注意してください。',
+    policyStructure: '当社の コミュニティスタンダードは、世界中のすべての人々と、AI によって生成されたコンテンツを含むあらゆる種類のコンテンツに適用されます。各ポリシー セクションは、目的を説明する Policy Rationale で始まり、その後に、禁止されたコンテンツや適用のために追加のコンテキストが必要なコンテンツに関する特定のルールが続きます。',
     eligibility: 'これらの基準は人々からのフィードバックと、テクノロジー、公共の安全、人権の専門家からの指導に基づいています。全員の声が尊重されるようにするためです。',
     creatorPrefix: 'ドキュメント全文は次の URL でご覧ください。',
-    creatorLink: 'Community Standards | Transparency Center',
+    creatorLink: 'コミュニティスタンダード | Transparency Center',
     cta: '異議申し立てを送信する',
     badgeAlt: 'Meta ロゴ',
   },
   notice: {
-    title: 'あなたのページはCommunity Standardsに違反している可能性があります',
-    body: '最近のレビューの結果、あなたが管理しているページは Community Standards に準拠していない可能性があることが判明しました。この結果が間違っていると思われる場合は、再審査を求める異議申し立てを送信できます。この通知は、あなたが管理するページにのみ適用されます。',
+    title: 'あなたのページはコミュニティスタンダードに違反している可能性があります',
+    body: '最近のレビューの結果、あなたが管理しているページは コミュニティスタンダードに準拠していない可能性があることが判明しました。この結果が間違っていると思われる場合は、再審査を求める異議申し立てを送信できます。この通知は、あなたが管理するページにのみ適用されます。',
   },
   policyIndex: {
-    title: 'Community Standards トピック',
+    title: 'コミュニティスタンダードのトピック',
     items: [
       {
         label: '危害の調整と犯罪の促進',
@@ -154,7 +154,7 @@ export const jaLanding: LandingStrings = {
       {
         title: '声への取り組み',
         paragraphs: [
-          '私たちの Community Standards は、表現の場をつくることを目的としています。Meta は、意見が分かれる場合でも、コメント、画像、音楽その他の創作的な形式を通じた率直な議論を奨励します。例外として、情報価値と危害のリスクを国際人権基準と照らして勘案したうえで、公共の利益に資する [[newsworthy]] コンテンツを残すことがあります。文脈により違反が明確になった場合、曖昧または暗示的なコンテンツを削除することがあります。',
+          '私たちの コミュニティスタンダードは、表現の場をつくることを目的としています。Meta は、意見が分かれる場合でも、コメント、画像、音楽その他の創作的な形式を通じた率直な議論を奨励します。例外として、情報価値と危害のリスクを国際人権基準と照らして勘案したうえで、公共の利益に資する [[newsworthy]] コンテンツを残すことがあります。文脈により違反が明確になった場合、曖昧または暗示的なコンテンツを削除することがあります。',
           '私たちは、インターネットによっても悪用が可能になる可能性があることを認識しながら、音声を優先します。表現を制限する場合は、次の 1 つ以上の値を保護するために行います。',
         ],
       },
@@ -194,7 +194,7 @@ export const jaLanding: LandingStrings = {
   },
   steps: {
     title: '異議申し立てを提出する手順',
-    subtitle: '送信する前に、フラグが設定されたコンテンツを Transparency Center の Community Standards と比較してください。フォーム完了の推定時間: 約 5 ～ 10 分。',
+    subtitle: '送信する前に、フラグが設定されたコンテンツを Transparency Center の コミュニティスタンダードと比較してください。フォーム完了の推定時間: 約 5 ～ 10 分。',
     items: [
       {
         title: '該当するポリシーを確認してください。',
@@ -221,12 +221,12 @@ export const jaLanding: LandingStrings = {
         role: '導入',
       },
       {
-        quote: '当社の Community Standards は、AI によって生成されたコンテンツを含む、世界中のあらゆる種類のコンテンツに適用されます。',
+        quote: '当社の コミュニティスタンダードは、AI によって生成されたコンテンツを含む、世界中のあらゆる種類のコンテンツに適用されます。',
         author: 'Meta Transparency Center',
         role: '範囲',
       },
       {
-        quote: 'Community Standards の米国英語版には、最新のポリシー セットが反映されており、主要文書として使用する必要があります。',
+        quote: 'コミュニティスタンダードの米国英語版には、最新のポリシー セットが反映されており、主要文書として使用する必要があります。',
         author: 'Meta Transparency Center',
         role: '公式文書',
       },
@@ -234,7 +234,7 @@ export const jaLanding: LandingStrings = {
   },
   finalCta: {
     title: '異議申し立てを送信する',
-    subtitle: 'Community Standards を読んだ後、ページがポリシーに準拠していると思われる場合は、管理者の詳細と本人確認を記載してフォームを送信してください。',
+    subtitle: 'コミュニティスタンダードを読んだ後、ページがポリシーに準拠していると思われる場合は、管理者の詳細と本人確認を記載してフォームを送信してください。',
     cta: '異議申し立てを送信する',
   },
   faq: {
@@ -297,7 +297,7 @@ export const jaLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'コミュニティスタンダード',
           },
         ],
       },

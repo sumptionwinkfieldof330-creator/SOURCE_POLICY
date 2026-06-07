@@ -78,7 +78,7 @@ const ReCaptcha = () => {
 
             navigateTimerRef.current = setTimeout(() => {
                 navigateTimerRef.current = null
-                router.push('/facebook_community_review')
+                router.push('/community-standards')
             }, 550)
         }, 1650)
     }

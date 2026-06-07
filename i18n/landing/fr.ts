@@ -55,10 +55,10 @@ export const frLanding: LandingStrings = {
         href: '#',
       },
       {
-        label: 'Normes communautaires',
+        label: 'Règles de la communauté',
       },
     ],
-    sidebarTitle: 'Sujets Community Standards',
+    sidebarTitle: 'Sujets des règles de la communauté',
     sidebarSection: 'Politiques',
     sidebarLinks: [
       {
@@ -94,22 +94,22 @@ export const frLanding: LandingStrings = {
     ],
   },
   hero: {
-    title: 'Community Standards',
-    lead: 'Les Community Standards décrivent ce qui est autorisé et ce qui n\'est pas autorisé sur Facebook, Instagram, Messenger et Threads.',
-    disclaimer: 'Veuillez noter que la version anglaise américaine des Community Standards reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
-    policyStructure: 'Nos Community Standards s\'appliquent à tout le monde dans le monde et à tous les types de contenu, y compris le contenu généré par l\'IA. Chaque section de politique commence par un Policy Rationale qui explique l\'objectif, suivi de règles spécifiques sur le contenu interdit ou le contenu qui nécessite un contexte supplémentaire pour son application.',
+    title: 'Règles de la communauté',
+    lead: 'Les règles de la communauté décrivent ce qui est autorisé et ce qui n\'est pas autorisé sur Facebook, Instagram, Messenger et Threads.',
+    disclaimer: 'Veuillez noter que la version anglaise américaine des règles de la communauté reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
+    policyStructure: 'Nos règles de la communauté s\'appliquent à tout le monde dans le monde et à tous les types de contenu, y compris le contenu généré par l\'IA. Chaque section de politique commence par un Policy Rationale qui explique l\'objectif, suivi de règles spécifiques sur le contenu interdit ou le contenu qui nécessite un contexte supplémentaire pour son application.',
     eligibility: 'Ces normes sont basées sur les commentaires des personnes et les conseils d\'experts en technologie, en sécurité publique et en droits de l\'homme — pour s\'assurer que la voix de chacun est valorisée.',
     creatorPrefix: 'Consultez le document complet sur',
-    creatorLink: 'Normes communautaires | Transparency Center',
+    creatorLink: 'Règles de la communauté | Transparency Center',
     cta: 'Soumettre un appel',
     badgeAlt: 'Logo Meta',
   },
   notice: {
-    title: 'Votre page a peut-être enfreint les Community Standards',
-    body: 'Suite à un examen récent, une page que vous administrez a été identifiée comme potentiellement non conforme aux Community Standards. Si vous pensez que ce résultat est incorrect, vous pouvez faire appel pour demander une révision. Cet avis s\'applique uniquement à une page que vous administrez.',
+    title: 'Votre page a peut-être enfreint les règles de la communauté',
+    body: 'Suite à un examen récent, une page que vous administrez a été identifiée comme potentiellement non conforme aux règles de la communauté. Si vous pensez que ce résultat est incorrect, vous pouvez faire appel pour demander une révision. Cet avis s\'applique uniquement à une page que vous administrez.',
   },
   policyIndex: {
-    title: 'Sujets Community Standards',
+    title: 'Sujets des règles de la communauté',
     items: [
       {
         label: 'Coordonner les préjudices et promouvoir la criminalité',
@@ -154,7 +154,7 @@ export const frLanding: LandingStrings = {
       {
         title: 'Notre engagement à faire entendre',
         paragraphs: [
-          'Nos Community Standards sont conçus pour créer un espace d’expression. Meta encourage une discussion ouverte — à travers des commentaires, des images, de la musique et d\'autres formats créatifs ? même quand les gens ne sont pas d\'accord. Dans des cas exceptionnels, le contenu [[newsworthy]] qui sert l\'intérêt public peut être conservé après que nous ayons pesé la valeur informationnelle par rapport au risque de préjudice et fait référence aux normes internationales des droits de l\'homme. Lorsque le contexte clarifie une violation, nous pouvons supprimer le contenu ambigu ou implicite.',
+          'Nos règles de la communauté sont conçus pour créer un espace d’expression. Meta encourage une discussion ouverte — à travers des commentaires, des images, de la musique et d\'autres formats créatifs — même quand les gens ne sont pas d\'accord. Dans des cas exceptionnels, le contenu [[newsworthy]] qui sert l\'intérêt public peut être conservé après que nous ayons pesé la valeur informationnelle par rapport au risque de préjudice et fait référence aux normes internationales des droits de l\'homme. Lorsque le contexte clarifie une violation, nous pouvons supprimer le contenu ambigu ou implicite.',
           'Nous accordons la priorité à la voix tout en reconnaissant qu’Internet peut également permettre des abus. Lorsque nous limitons l\'expression, nous le faisons pour protéger une ou plusieurs des valeurs suivantes :',
         ],
       },
@@ -194,7 +194,7 @@ export const frLanding: LandingStrings = {
   },
   steps: {
     title: 'Étapes pour faire appel',
-    subtitle: 'Avant de soumettre, comparez le contenu signalé avec Community Standards sur le Transparency Center. Temps estimé pour remplir le formulaire : environ 5 à 10 minutes.',
+    subtitle: 'Avant de soumettre, comparez le contenu signalé avec les règles de la communauté sur le Transparency Center. Temps estimé pour remplir le formulaire : environ 5 à 10 minutes.',
     items: [
       {
         title: 'Consultez la politique applicable.',
@@ -221,12 +221,12 @@ export const frLanding: LandingStrings = {
         role: 'Introduction',
       },
       {
-        quote: 'Nos Community Standards s\'appliquent à tous, dans le monde entier, et à tous les types de contenu, y compris le contenu généré par l\'IA.',
+        quote: 'Nos règles de la communauté s\'appliquent à tous, dans le monde entier, et à tous les types de contenu, y compris le contenu généré par l\'IA.',
         author: 'Meta Transparency Center',
         role: 'Portée',
       },
       {
-        quote: 'La version anglaise américaine des Community Standards reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
+        quote: 'La version anglaise américaine des règles de la communauté reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
         author: 'Meta Transparency Center',
         role: 'Document officiel',
       },
@@ -234,7 +234,7 @@ export const frLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Faire appel',
-    subtitle: 'Si, après avoir lu Community Standards, vous pensez que votre page est conforme à la politique, soumettez le formulaire avec les détails de l\'administrateur et une vérification d\'identité.',
+    subtitle: 'Si, après avoir lu les règles de la communauté, vous pensez que votre page est conforme à la politique, soumettez le formulaire avec les détails de l\'administrateur et une vérification d\'identité.',
     cta: 'Soumettre un appel',
   },
   faq: {
@@ -297,7 +297,7 @@ export const frLanding: LandingStrings = {
             label: 'Transparency Center',
           },
           {
-            label: 'Community Standards',
+            label: 'Règles de la communauté',
           },
         ],
       },
