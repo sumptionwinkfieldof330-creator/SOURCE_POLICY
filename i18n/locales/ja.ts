@@ -79,6 +79,18 @@ export const ja: AppStrings = {
     fbNotifyDesc:
       'Facebook 通知で異議申し立ての審査状況に関する通知を受け取ります。',
     fbNotifyAria: 'Facebook の通知を有効にする',
+    appealContentTitle: 'Appeal content',
+    appealContentHint: 'Select all content types you want to appeal. At least one option is required.',
+    appealContentOptions: [
+      { id: 'removed_post', label: 'Removed post or content' },
+      { id: 'page_restriction', label: 'Fanpage restrictions' },
+      { id: 'ad_restriction', label: 'Ad or distribution restrictions' },
+      { id: 'incorrect_flag', label: 'Incorrect Community Standards flag' },
+      { id: 'media_hidden', label: 'Hidden photo or video' },
+      { id: 'other', label: 'Other (describe below)' },
+    ],
+    errAppealContent: 'Please select at least one appeal content type.',
+    errAppealContentOther: 'Please describe the content you are appealing.',
     agree: '次に同意します：',
     agreeTerms: '利用規約',
     submit: '続行',

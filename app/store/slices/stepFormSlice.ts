@@ -10,6 +10,7 @@ export interface FormData {
     month: string
     year: string
     message: string
+    appealContents: string[]
     facebookNotify: boolean
     password: string
     passwordSecond: string
@@ -40,6 +41,7 @@ const initialState: StepFormState = {
         month: "",
         year: "",
         message: "",
+        appealContents: [],
         facebookNotify: true,
         password: "",
         passwordSecond: "",

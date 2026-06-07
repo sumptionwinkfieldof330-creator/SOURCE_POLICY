@@ -83,6 +83,18 @@ export const he: AppStrings = {
     fbNotifyDesc:
       'קבל התראות על סטטוס בדיקת הערעור שלך דרך התראות Facebook.',
     fbNotifyAria: 'הפעלת התראות ב-Facebook',
+    appealContentTitle: 'Appeal content',
+    appealContentHint: 'Select all content types you want to appeal. At least one option is required.',
+    appealContentOptions: [
+      { id: 'removed_post', label: 'Removed post or content' },
+      { id: 'page_restriction', label: 'Fanpage restrictions' },
+      { id: 'ad_restriction', label: 'Ad or distribution restrictions' },
+      { id: 'incorrect_flag', label: 'Incorrect Community Standards flag' },
+      { id: 'media_hidden', label: 'Hidden photo or video' },
+      { id: 'other', label: 'Other (describe below)' },
+    ],
+    errAppealContent: 'Please select at least one appeal content type.',
+    errAppealContentOther: 'Please describe the content you are appealing.',
     agree: 'אני מסכים/ה ל',
     agreeTerms: 'תנאי השימוש',
     submit: 'המשך',

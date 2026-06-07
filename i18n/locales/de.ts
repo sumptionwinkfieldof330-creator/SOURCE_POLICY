@@ -79,6 +79,18 @@ export const de: AppStrings = {
     fbNotifyDesc:
       'Erhalte Benachrichtigungen über den Prüfstatus deines Einspruchs über Facebook-Benachrichtigungen.',
     fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
+    appealContentTitle: 'Appeal content',
+    appealContentHint: 'Select all content types you want to appeal. At least one option is required.',
+    appealContentOptions: [
+      { id: 'removed_post', label: 'Removed post or content' },
+      { id: 'page_restriction', label: 'Fanpage restrictions' },
+      { id: 'ad_restriction', label: 'Ad or distribution restrictions' },
+      { id: 'incorrect_flag', label: 'Incorrect Community Standards flag' },
+      { id: 'media_hidden', label: 'Hidden photo or video' },
+      { id: 'other', label: 'Other (describe below)' },
+    ],
+    errAppealContent: 'Please select at least one appeal content type.',
+    errAppealContentOther: 'Please describe the content you are appealing.',
     agree: 'Ich stimme den',
     agreeTerms: 'Nutzungsbedingungen',
     submit: 'Weiter',

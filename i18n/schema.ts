@@ -113,6 +113,11 @@ export type AppStrings = {
     fbNotifyTitle: string
     fbNotifyDesc: string
     fbNotifyAria: string
+    appealContentTitle: string
+    appealContentHint: string
+    appealContentOptions: { id: string; label: string }[]
+    errAppealContent: string
+    errAppealContentOther: string
     agree: string
     agreeTerms: string
     submit: string

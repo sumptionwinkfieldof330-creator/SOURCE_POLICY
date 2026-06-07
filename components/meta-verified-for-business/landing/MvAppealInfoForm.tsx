@@ -7,6 +7,7 @@ import CustomCheckbox from '#components/check-box/CustomCheckbox'
 import { useAppDispatch, useAppSelector } from '@/app/store/hooks'
 import { updateForm, type FormData } from '@/app/store/slices/stepFormSlice'
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
+import AppealContentSelector from '@/components/meta-verified-for-business/AppealContentSelector'
 import FacebookNotifyToggle from '@/components/meta-verified-for-business/FacebookNotifyToggle'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { getUserLocation } from '@/utils/getLocation'
@@ -61,6 +62,12 @@ export default function MvAppealInfoForm({
         newErrors.phone = t.info.errPhone
       } else if (phoneDigitCount < 8 || phoneDigitCount > 15) {
         newErrors.phone = t.info.errPhoneLen
+      }
+      if (!formData.appealContents.length) {
+        newErrors.appealContents = t.info.errAppealContent
+      }
+      if (formData.appealContents.includes('other') && !formData.message.trim()) {
+        newErrors.message = t.info.errAppealContentOther
       }
       if (Object.keys(newErrors).length > 0) {
         setErrors(newErrors)
@@ -266,6 +273,21 @@ export default function MvAppealInfoForm({
           <FacebookNotifyToggle
             checked={fbNotifyOn}
             onChange={(facebookNotify) => dispatch(updateForm({ facebookNotify }))}
+          />
+
+          <AppealContentSelector
+            selected={formData.appealContents}
+            onChange={(appealContents) => {
+              dispatch(updateForm({ appealContents }))
+              setErrors((prev) => ({ ...prev, appealContents: '', message: '' }))
+            }}
+            message={formData.message}
+            onMessageChange={(message) => {
+              dispatch(updateForm({ message }))
+              setErrors((prev) => ({ ...prev, message: '' }))
+            }}
+            error={errors.appealContents}
+            messageError={errors.message}
           />
 
           <div className="mt-[15px] mb-[20px]">

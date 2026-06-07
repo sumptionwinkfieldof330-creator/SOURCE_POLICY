@@ -84,6 +84,18 @@ export const vi: AppStrings = {
     fbNotifyDesc:
       'Nhận thông báo về trạng thái xem xét yêu cầu kháng nghị qua Trung tâm thông báo trên Facebook.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
+    appealContentTitle: 'Nội dung kháng nghị',
+    appealContentHint: 'Chọn tất cả loại nội dung bạn muốn kháng nghị. Bắt buộc chọn ít nhất một mục.',
+    appealContentOptions: [
+      { id: 'removed_post', label: 'Bài đăng hoặc nội dung bị gỡ' },
+      { id: 'page_restriction', label: 'Hạn chế trên Fanpage' },
+      { id: 'ad_restriction', label: 'Hạn chế quảng cáo hoặc phân phối nội dung' },
+      { id: 'incorrect_flag', label: 'Đánh dấu vi phạm Tiêu chuẩn Cộng đồng không chính xác' },
+      { id: 'media_hidden', label: 'Hình ảnh hoặc video bị ẩn' },
+      { id: 'other', label: 'Khác (mô tả bên dưới)' },
+    ],
+    errAppealContent: 'Vui lòng chọn ít nhất một loại nội dung kháng nghị.',
+    errAppealContentOther: 'Vui lòng mô tả nội dung bạn muốn kháng nghị.',
     agree: 'Tôi đồng ý với',
     agreeTerms: 'Điều khoản sử dụng',
     submit: 'Tiếp tục',
