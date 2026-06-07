@@ -9,44 +9,44 @@ export const de: AppStrings = {
     lead1:
       'Nach einer kürzlichen Überprüfung wurde festgestellt, dass deine Facebook-Seite möglicherweise gegen Community-Richtlinien verstößt.',
     lead2:
-      'Du kannst einen Einspruch über das Formular unten einreichen. Deine Anfragereferenz hilft, den Überprüfungsfortschritt zu verfolgen.',
+      'Du kannst einen Einspruchsantrag über das Formular unten einreichen. Bitte prüfe die Community-Richtlinien im Meta Transparency Center, bevor du absendest.',
     caseId: 'Anfragereferenz:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Überprüfung ausstehend — Einspruchsantrag',
     programScope:
-      'Einsprüche gemäß den Inhaltsgrundsätzen für Publisher und den Community-Richtlinien von Meta.',
-    activationStepsTitle: 'Drei Formularschritte',
-    step1: 'Administratordaten eingeben',
-    step2: 'Facebook-Konto verifizieren',
-    step3: 'Absenden und Ergebnisbenachrichtigung abwarten',
+      'Einsprüche werden anhand der auf dem Meta Transparency Center veröffentlichten Community-Richtlinien bearbeitet.',
+    activationStepsTitle: 'Dreistufiger Prozess',
+    step1: 'Administratordaten angeben',
+    step2: 'Konto und Adminrechte bestätigen',
+    step3: 'Anfrage absenden und Ergebnis verfolgen',
     securityNotice:
       'Deine Angaben werden über eine sichere Verbindung übermittelt und nur zur Bearbeitung deines Einspruchsantrags gemäß Metas',
     securityNoticeEnd: ' verwendet.',
     helpPrompt: 'Hilfe benötigt? Besuche das',
-    estimatedDuration: 'Geschätzte Dauer: etwa 5–10 Minuten.',
-    featuresTitle: 'Vor dem Absenden prüfen',
+    estimatedDuration: 'Geschätzte Dauer zum Ausfüllen des Formulars: 5–10 Minuten.',
+    featuresTitle: 'Voraussetzungen vor dem Absenden',
     feature1Title: 'Korrekter Seitenname',
     feature1Desc:
-      'Der Name im Formular muss mit der markierten Seite auf Facebook übereinstimmen.',
-    feature2Title: 'Administratorkonto',
+      'Der Name im Formular muss exakt mit der markierten Seite auf Facebook übereinstimmen.',
+    feature2Title: 'Gültiger Administratorzugang',
     feature2Desc:
-      'Nur Seitenadministratoren oder autorisierte Vertreter können das Einspruchsformular einreichen.',
-    feature3Title: 'Inhaltskontext',
+      'Nur Seitenadministratoren oder autorisierte Vertreter können einen Einspruchsantrag einreichen.',
+    feature3Title: 'Beschreibung des Inhaltskontexts',
     feature3Desc:
-      'Eine kurze Notiz zu markierten Inhalten hilft den Prüfern, den Kontext deiner Seite zu verstehen.',
+      'Eine kurze Notiz zu markierten Inhalten hilft dem Prüfteam, den Aktivitätskontext deiner Seite zu verstehen.',
     feature4Title: 'Gültige Kontaktdaten',
     feature4Desc:
-      'E-Mail und Telefonnummer müssen mit dem Konto oder Unternehmen übereinstimmen, das mit der Seite verknüpft ist.',
-    feature5Title: 'Bei Facebook angemeldet bleiben',
+      'E-Mail und Telefon müssen mit dem Konto oder Unternehmen übereinstimmen, das mit der Seite verknüpft ist.',
+    feature5Title: 'Facebook-Anmeldestatus',
     feature5Desc:
-      'Bleib angemeldet, um Ergebnisbenachrichtigungen zu erhalten und die Identitätsprüfung abzuschließen.',
+      'Bleib angemeldet, um Ergebnisbenachrichtigungen zu erhalten und die Identitätsprüfung gemäß Prozess abzuschließen.',
     feature6Title: 'Eine Anfrage pro Vorgang',
     feature6Desc:
-      'Keine Duplikate einreichen — eine Einspruchsanfrage pro Markierung ist ausreichend.',
+      'Reiche keine doppelten Anfragen ein — ein gültiger Einspruchsantrag pro Markierung ist ausreichend.',
     cta: 'Einspruch einreichen',
     noteTitle: 'Wichtige Information',
     noteBody:
-      'Dieser Hinweis spiegelt eine erste Systembewertung wider, nicht eine endgültige Entscheidung. Falsche Angaben können verhindern, dass deine Anfrage bearbeitet wird.',
+      'Dieser Hinweis spiegelt eine vorläufige Bewertung wider, nicht eine endgültige Entscheidung. Die US-englische Version auf dem Transparency Center ist das maßgebliche offizielle Dokument. Ungenaue Angaben können verhindern, dass deine Anfrage zur Bearbeitung angenommen wird.',
     linkPrivacy: 'Datenschutzrichtlinie',
     linkTerms: 'Nutzungsbedingungen',
     linkCommunity: 'Community-Richtlinien',
@@ -57,7 +57,7 @@ export const de: AppStrings = {
     altFeatureIcon: 'Informationssymbol',
   },
   info: {
-    title: 'Einspruchsdetails',
+    title: 'Details zum Einspruchsantrag',
     hint: 'Die Angaben müssen mit dem Facebook-Konto und der Seite übereinstimmen, die du verwaltest. Mit * markierte Felder sind Pflichtfelder.',
     fullName: 'Vollständiger Name des Administrators',
     fullNamePh: 'z. B. Max Mustermann',
@@ -77,7 +77,7 @@ export const de: AppStrings = {
       'z. B. Offizielle Seite der Marke ABC; Bitte um Überprüfung der Entscheidung zu den Community-Richtlinien.',
     fbNotifyTitle: 'Auf Facebook',
     fbNotifyDesc:
-      'Benachrichtigung über den Status der Überprüfung deines Einspruchs.',
+      'Erhalte Benachrichtigungen über den Prüfstatus deines Einspruchs über Facebook-Benachrichtigungen.',
     fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
     agree: 'Ich stimme den',
     agreeTerms: 'Nutzungsbedingungen',
@@ -135,12 +135,12 @@ export const de: AppStrings = {
     metaLogoAlt: 'Meta-Logo',
   },
   success: {
-    title: 'Einspruchsantrag eingereicht',
+    title: 'Einspruchsantrag eingegangen',
     p1:
-      'Dein Einspruchsantrag wurde empfangen und in die Prüfwarteschlange aufgenommen.',
-    p2: 'Das Ergebnis wird per Facebook-Benachrichtigung mitgeteilt, in der Regel innerhalb von 3–7 Werktagen.',
+      'Dein Einspruchsantrag wurde erfasst und gemäß Meta-Prozess in die Prüfwarteschlange aufgenommen.',
+    p2: 'Das Ergebnis wird über Facebook-Benachrichtigungen mitgeteilt, in der Regel innerhalb von 3–7 Werktagen.',
     idleNote:
-      'Bleibe bei Facebook angemeldet, um rechtzeitig Benachrichtigungen zu erhalten. Reiche keine doppelten Anfragen für dasselbe Anliegen ein.',
+      'Bitte bleib bei Facebook angemeldet, um rechtzeitig Benachrichtigungen zu erhalten. Reiche keine doppelten Anfragen ein.',
     cta: 'Zurück zu Facebook',
   },
   captcha: {

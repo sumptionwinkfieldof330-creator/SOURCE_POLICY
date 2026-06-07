@@ -97,7 +97,15 @@ export const esLanding: LandingStrings = {
     title: 'Normas comunitarias',
     lead: 'Las normas comunitarias describen lo que está y no está permitido en Facebook, Instagram, Messenger y Threads.',
     disclaimer: 'Tenga en cuenta que la versión en inglés de EE. UU. de las normas comunitarias refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
-    policyStructure: 'Nuestras normas comunitarias se aplican a todas las personas en todo el mundo y a todo tipo de contenido, incluido el contenido generado por IA. Cada sección de política comienza con una Policy Rationale que explica el objetivo, seguida de reglas específicas sobre contenido prohibido o contenido que requiere contexto adicional para su aplicación.',
+    policyStructure: '',
+    introduction: {
+      title: 'Introducción',
+      paragraphs: [
+        'Estas normas se elaboran a partir de los comentarios de la comunidad y de expertos para reflejar diversas perspectivas y, al mismo tiempo, proteger a personas y comunidades vulnerables.',
+        'Miles de millones de personas usan Facebook, Instagram, Messenger y Threads para conectarse, compartir y construir comunidades en todo el mundo.',
+        'Meta se compromete a mantener un entorno de comunicación seguro y transparente definiendo con claridad qué contenido está permitido y qué contenido no lo está en sus plataformas.',
+      ],
+    },
     eligibility: 'Estos estándares se basan en comentarios de personas y orientación de expertos en tecnología, seguridad pública y derechos humanos. para garantizar que se valore la voz de todos.',
     creatorPrefix: 'Ver el documento completo en',
     creatorLink: 'Normas comunitarias | Transparency Center',
@@ -193,20 +201,20 @@ export const esLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Pasos para presentar una apelación',
-    subtitle: 'Antes de enviar, compare el contenido marcado con las normas comunitarias en Transparency Center. Tiempo estimado para completar el formulario: aproximadamente entre 5 y 10 minutos.',
+    title: 'Proceso de envío de apelación',
+    subtitle: 'Cada apelación se revisa conforme a las normas comunitarias publicadas en el Transparency Center. Prepare toda la información requerida antes de enviar — tiempo estimado para completar el formulario: 5–10 minutos.',
     items: [
       {
-        title: 'Revise la política aplicable.',
-        description: 'Lea la sección de política correspondiente en Transparency Center. cada sección incluye una Policy Rationale y reglas específicas. Compara esto con la publicación o actividad marcada en tu página.',
+        title: 'Revisar la política aplicable y el contenido relacionado',
+        description: 'Acceda al Transparency Center y abra la sección de política que corresponda al contenido marcado. Lea atentamente la Policy Rationale y las reglas específicas, luego compárelas directamente con la publicación o actividad en su página para determinar una base válida de apelación.',
       },
       {
-        title: 'Complete el formulario y verifique la identidad.',
-        description: 'Proporcione detalles del administrador, información de contacto y contexto si es necesario. Verifique la cuenta de Facebook vinculada antes de enviarla.',
+        title: 'Completar el formulario y verificar el acceso de administrador',
+        description: 'Complete el formulario con datos de administrador exactos, un correo electrónico y número de teléfono de contacto válidos, y una breve descripción del contexto del contenido (si corresponde). Su solicitud solo se aceptará si la cuenta de Facebook que envía el formulario tiene acceso de administrador de la página y completa la verificación de identidad según el proceso de Meta.',
       },
       {
-        title: 'Supervise el resultado en Facebook.',
-        description: 'Después del envío, recibirá confirmación a través de notificaciones de Facebook. La revisión suele tardar entre 3 y 7 días hábiles. La referencia de su solicitud ayuda si se necesita soporte.',
+        title: 'Seguir el estado de la revisión',
+        description: 'Los resultados de la revisión se envían mediante notificaciones de Facebook (icono de campana) — no por un correo electrónico separado de este formulario. El procesamiento suele tardar de 3 a 7 días hábiles; conserve su código de referencia de solicitud para seguir el progreso y como referencia de soporte si es necesario.',
       },
     ],
   },
@@ -234,39 +242,39 @@ export const esLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Presentar una apelación',
-    subtitle: 'Si, después de leer las normas comunitarias, cree que su página cumple con la política, envíe el formulario con los detalles del administrador y la verificación de identidad.',
+    subtitle: 'Si, tras revisar las normas comunitarias, determina que su página cumple con la política, envíe el formulario con los datos del administrador y complete la verificación de identidad según las instrucciones.',
     cta: 'Enviar apelación',
   },
   faq: {
     title: 'Preguntas frecuentes',
     items: [
       {
-        question: '¿Se aplica una apelación a perfiles personales o grupos?',
-        answer: 'No. El aviso en esta página y el formulario de apelación solo se aplican a las páginas que usted administra. Los perfiles personales, grupos u otros productos Meta están fuera del alcance de esta solicitud.',
+        question: '¿Una apelación se aplica a perfiles personales o grupos?',
+        answer: 'No. El aviso en esta página y el formulario de apelación se aplican únicamente a las páginas que usted administra. Los perfiles personales, grupos u otros productos de Meta quedan fuera del alcance de este proceso.',
       },
       {
-        question: '¿Puedo presentar otra apelación después de que una sea rechazada?',
-        answer: 'Sí, si tiene nueva información o evidencia que no fue considerada anteriormente. Cada nueva presentación debe explicar claramente en qué se diferencia. Es posible que las apelaciones duplicadas sin contexto adicional no se vuelvan a revisar.',
+        question: '¿Puedo enviar otra apelación después de que una sea rechazada?',
+        answer: 'Sí, cuando disponga de información o pruebas nuevas que no se consideraron en la revisión anterior. Cada reenvío debe indicar claramente qué es diferente; las solicitudes duplicadas sin contenido nuevo pueden no procesarse de nuevo.',
       },
       {
-        question: '¿Qué debo preparar antes de abrir el formulario de apelación?',
-        answer: 'Recopile enlaces o ID de publicaciones afectadas, una breve explicación del contexto comercial o el propósito del contenido y confirme que haya iniciado sesión con una cuenta que tenga acceso de administrador de página en Meta Business Suite.',
+        question: '¿Qué debo preparar antes de enviar el formulario de apelación?',
+        answer: 'Prepare enlaces o identificadores de las publicaciones afectadas, una breve descripción del contexto comercial o del propósito del contenido, y confirme que ha iniciado sesión con una cuenta que tenga acceso de administrador de página en Meta Business Suite.',
       },
       {
         question: '¿Para qué sirve el código de referencia de la solicitud?',
-        answer: 'Cada envío genera un código de referencia único. Guarde este código cuando realice un seguimiento del estado en Facebook o cuando el soporte necesite localizar su caso. No reemplaza las notificaciones oficiales dentro de la aplicación.',
+        answer: 'Cada envío de formulario recibe un código de referencia único. Consérvelo al seguir el estado en Facebook o cuando el soporte necesite localizar su caso — el código de referencia no sustituye las notificaciones oficiales en la aplicación.',
       },
       {
-        question: '¿El envío de una apelación detiene las restricciones de la página?',
-        answer: 'No. Su página puede permanecer restringida mientras la revisión esté pendiente. Los resultados de la apelación se comunican por separado y pueden dar lugar a la eliminación de las restricciones si se aceptan.',
+        question: '¿Enviar una apelación suspende las restricciones de la página?',
+        answer: 'No. Su página puede seguir restringida mientras la revisión está pendiente. Los resultados de la apelación se comunican por separado y pueden llevar a levantar las restricciones si la solicitud es aprobada.',
       },
       {
         question: '¿Cómo recibiré el resultado de la apelación?',
-        answer: 'A través de Notificaciones de Facebook (ícono de campana), no a través de un correo electrónico separado de este formulario. Habilite las notificaciones relacionadas con la página y verifíquelas periódicamente durante varios días hábiles después del envío.',
+        answer: 'Mediante notificaciones de Facebook (icono de campana), no por un correo electrónico separado de este formulario. Active las notificaciones relacionadas con la página y revíselas regularmente durante varios días hábiles después del envío.',
       },
       {
         question: '¿Cómo se almacena y utiliza la información del formulario?',
-        answer: 'Los datos que proporciona se utilizan únicamente para procesar su apelación, verificar los derechos de administrador y mantener registros según los procedimientos internos de Meta, de acuerdo con la Política de privacidad y los Términos. No se utiliza para publicidad.',
+        answer: 'Los datos que proporcione se utilizan únicamente para procesar su apelación, verificar los derechos de administrador y mantener registros según los procedimientos internos de Meta, de conformidad con la Política de privacidad y los Términos — no con fines publicitarios.',
       },
     ],
   },

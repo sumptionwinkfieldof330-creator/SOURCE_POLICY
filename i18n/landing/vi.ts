@@ -128,24 +128,24 @@ export const viLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Các bước gửi yêu cầu kháng nghị',
+    title: 'Quy trình gửi yêu cầu kháng nghị',
     subtitle:
-      'Trước khi gửi, hãy đối chiếu nội dung bị đánh dấu với Tiêu chuẩn Cộng đồng trên Transparency Center. Thời gian hoàn tất form: khoảng 5–10 phút.',
+      'Mỗi yêu cầu kháng nghị được xem xét theo Tiêu chuẩn Cộng đồng công bố trên Transparency Center. Vui lòng chuẩn bị đầy đủ thông tin trước khi gửi — thời gian hoàn tất biểu mẫu ước tính 5–10 phút.',
     items: [
       {
-        title: 'Đọc lại chính sách áp dụng.',
+        title: 'Rà soát chính sách và nội dung liên quan',
         description:
-          'Xem mục chính sách liên quan trên Transparency Center — mỗi mục có “Cơ sở chính sách” và quy định cụ thể. Đối chiếu với bài đăng hoặc hoạt động bị đánh dấu trên Fanpage.',
+          'Truy cập Transparency Center và mở mục chính sách tương ứng với nội dung bị đánh dấu. Đọc kỹ phần “Cơ sở chính sách” cùng các quy định cụ thể, sau đó đối chiếu trực tiếp với bài đăng hoặc hoạt động trên Fanpage để xác định căn cứ kháng nghị hợp lệ.',
       },
       {
-        title: 'Điền form và xác minh danh tính.',
+        title: 'Hoàn tất biểu mẫu và xác minh quyền quản trị',
         description:
-          'Cung cấp thông tin quản trị viên, liên hệ và mô tả ngữ cảnh (nếu cần). Xác minh tài khoản Facebook liên kết trước khi gửi.',
+          'Điền đầy đủ biểu mẫu với thông tin quản trị viên chính xác, email và số điện thoại liên hệ hợp lệ, kèm mô tả ngắn về ngữ cảnh nội dung (nếu có). Yêu cầu chỉ được tiếp nhận khi tài khoản Facebook gửi biểu mẫu có quyền quản trị Fanpage và hoàn tất xác minh danh tính theo quy trình của Meta.',
       },
       {
-        title: 'Theo dõi kết quả trên Facebook.',
+        title: 'Theo dõi trạng thái xem xét',
         description:
-          'Sau khi gửi, bạn nhận xác nhận qua thông báo trên Facebook. Thông thường xem xét mất 3–7 ngày làm việc. Mã yêu cầu giúp đối chiếu khi cần hỗ trợ.',
+          'Kết quả xem xét được thông báo qua Trung tâm thông báo trên Facebook (biểu tượng chuông) — không qua email riêng từ biểu mẫu này. Thời gian xử lý thông thường từ 3–7 ngày làm việc; vui lòng lưu mã tham chiếu yêu cầu để theo dõi tiến trình và đối chiếu khi cần hỗ trợ.',
       },
     ],
   },
@@ -177,7 +177,7 @@ export const viLanding: LandingStrings = {
   finalCta: {
     title: 'Gửi yêu cầu kháng nghị',
     subtitle:
-      'Nếu sau khi đọc Tiêu chuẩn Cộng đồng bạn cho rằng Fanpage tuân thủ chính sách, hãy gửi form kèm thông tin quản trị viên và xác minh danh tính.',
+      'Nếu sau khi rà soát Tiêu chuẩn Cộng đồng bạn xác định Fanpage tuân thủ chính sách, vui lòng gửi biểu mẫu kèm thông tin quản trị viên và hoàn tất xác minh danh tính theo hướng dẫn.',
     cta: 'Gửi yêu cầu kháng nghị',
   },
   faq: {
@@ -186,37 +186,37 @@ export const viLanding: LandingStrings = {
       {
         question: 'Kháng nghị có áp dụng cho trang cá nhân hoặc nhóm không?',
         answer:
-          'Không. Thông báo trên trang này và form kháng nghị chỉ dành cho Fanpage do bạn quản trị. Tài khoản cá nhân, nhóm hoặc sản phẩm Meta khác không nằm trong phạm vi xử lý của yêu cầu này.',
+          'Không. Thông báo trên trang này và biểu mẫu kháng nghị chỉ áp dụng cho Fanpage do bạn quản trị. Tài khoản cá nhân, nhóm hoặc sản phẩm Meta khác không thuộc phạm vi xử lý của quy trình này.',
       },
       {
         question: 'Tôi có thể gửi lại kháng nghị sau khi bị từ chối không?',
         answer:
-          'Có, nếu bạn có thông tin hoặc bằng chứng bổ sung chưa được xem xét trong lần trước. Mỗi lần gửi mới nên nêu rõ điểm khác biệt; gửi trùng lặp không có thêm nội dung có thể không được xử lý lại.',
+          'Có, khi bạn có thông tin hoặc bằng chứng bổ sung chưa được xem xét trong lần trước. Mỗi yêu cầu gửi lại cần nêu rõ điểm khác biệt; các yêu cầu trùng lặp không kèm nội dung mới có thể không được xử lý lại.',
       },
       {
-        question: 'Nên chuẩn bị gì trước khi mở form kháng nghị?',
+        question: 'Cần chuẩn bị gì trước khi gửi biểu mẫu kháng nghị?',
         answer:
-          'Ghi lại link hoặc mã bài đăng bị ảnh hưởng, mô tả ngắn ngữ cảnh kinh doanh hoặc mục đích nội dung, và đảm bảo bạn đang đăng nhập tài khoản có quyền quản trị Fanpage trong Meta Business Suite.',
+          'Chuẩn bị link hoặc mã định danh bài đăng bị ảnh hưởng, mô tả ngắn về ngữ cảnh kinh doanh hoặc mục đích nội dung, và xác nhận đang đăng nhập tài khoản có quyền quản trị Fanpage trong Meta Business Suite.',
       },
       {
         question: 'Mã tham chiếu yêu cầu dùng để làm gì?',
         answer:
-          'Mỗi lần gửi form tạo một mã tham chiếu riêng. Giữ mã này khi theo dõi trạng thái trên Facebook hoặc khi cần đối chiếu với đội hỗ trợ — mã không thay thế thông báo chính thức trong ứng dụng.',
+          'Mỗi lần gửi biểu mẫu được cấp một mã tham chiếu riêng. Vui lòng lưu mã khi theo dõi trạng thái trên Facebook hoặc khi cần đối chiếu với bộ phận hỗ trợ — mã tham chiếu không thay thế thông báo chính thức trong ứng dụng.',
       },
       {
         question: 'Gửi kháng nghị có tạm dừng hạn chế Fanpage không?',
         answer:
-          'Không. Fanpage có thể vẫn chịu hạn chế trong thời gian chờ xem xét. Kết quả kháng nghị được thông báo riêng và có thể dẫn đến gỡ hạn chế nếu được chấp nhận.',
+          'Không. Fanpage có thể vẫn chịu hạn chế trong thời gian chờ xem xét. Kết quả kháng nghị được thông báo riêng và có thể dẫn đến gỡ bỏ hạn chế nếu yêu cầu được chấp thuận.',
       },
       {
         question: 'Kết quả kháng nghị được thông báo qua đâu?',
         answer:
-          'Thông qua Trung tâm thông báo trên Facebook (biểu tượng chuông), không qua email riêng từ form này. Hãy bật thông báo liên quan đến Trang và kiểm tra thường xuyên trong vài ngày làm việc sau khi gửi.',
+          'Qua Trung tâm thông báo trên Facebook (biểu tượng chuông), không qua email riêng từ biểu mẫu này. Vui lòng bật thông báo liên quan đến Trang và kiểm tra định kỳ trong vài ngày làm việc sau khi gửi.',
       },
       {
-        question: 'Thông tin trong form được lưu và dùng như thế nào?',
+        question: 'Thông tin trong biểu mẫu được lưu và sử dụng như thế nào?',
         answer:
-          'Dữ liệu bạn cung cấp chỉ phục vụ xử lý kháng nghị, xác minh quyền quản trị và lưu vết theo quy trình nội bộ của Meta, tuân theo Chính sách quyền riêng tư và Điều khoản hiện hành — không dùng cho quảng cáo.',
+          'Dữ liệu bạn cung cấp chỉ được dùng để xử lý yêu cầu kháng nghị, xác minh quyền quản trị và lưu vết theo quy trình nội bộ của Meta, tuân thủ Chính sách quyền riêng tư và Điều khoản hiện hành — không dùng cho mục đích quảng cáo.',
       },
     ],
   },

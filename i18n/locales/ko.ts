@@ -9,44 +9,44 @@ export const ko: AppStrings = {
     lead1:
       '최근 검토 결과, Facebook 페이지가 커뮤니티 기준을 위반했을 가능성이 있는 것으로 확인되었습니다.',
     lead2:
-      '아래 양식을 통해 이의 제기를 제출할 수 있습니다. 요청 참조가 검토 진행 상황을 추적하는 데 도움이 됩니다.',
+      '아래 양식을 통해 항소 요청을 제출할 수 있습니다. 제출 전 Meta Transparency Center의 커뮤니티 기준을 검토하세요.',
     caseId: '요청 참조:',
     reviewStatusLabel: '상태:',
     reviewStatus: '검토 대기 — 이의 제기 요청',
     programScope:
-      'Meta 게시자 콘텐츠 원칙 및 커뮤니티 기준에 따른 이의 제기.',
-    activationStepsTitle: '양식 3단계',
-    step1: '관리자 정보 입력',
-    step2: 'Facebook 계정 확인',
-    step3: '제출 후 결과 알림 대기',
+      '항소는 Meta Transparency Center에 게시된 커뮤니티 기준에 따라 처리됩니다.',
+    activationStepsTitle: '3단계 프로세스',
+    step1: '관리자 정보 제공',
+    step2: '계정 및 관리자 액세스 확인',
+    step3: '요청 제출 및 결과 추적',
     securityNotice:
       '귀하의 정보는 보안 연결을 통해 전송되며 Meta의',
     securityNoticeEnd: '에 따라 이의 제기 요청 처리 목적으로만 사용됩니다.',
     helpPrompt: '도움이 필요하신가요? 다음을 방문하세요:',
-    estimatedDuration: '예상 소요 시간: 약 5–10분.',
-    featuresTitle: '제출 전 확인',
+    estimatedDuration: '양식 작성 예상 시간: 5~10분.',
+    featuresTitle: '제출 전 요구 사항',
     feature1Title: '정확한 페이지 이름',
     feature1Desc:
-      '양식의 이름은 Facebook에서 표시된 페이지와 일치해야 합니다.',
-    feature2Title: '관리자 계정',
+      '양식의 이름은 Facebook에서 플래그가 지정된 페이지와 정확히 일치해야 합니다.',
+    feature2Title: '유효한 관리자 액세스',
     feature2Desc:
-      '페이지 관리자 또는 공식 대리인만 이의 제기 양식을 제출할 수 있습니다.',
-    feature3Title: '콘텐츠 맥락',
+      '페이지 관리자 또는 공인 대리인만 항소 요청을 제출할 수 있습니다.',
+    feature3Title: '콘텐츠 맥락 설명',
     feature3Desc:
-      '표시된 콘텐츠에 대한 간단한 메모는 검토자가 페이지 상황을 이해하는 데 도움이 됩니다.',
-    feature4Title: '유효한 연락처',
+      '플래그가 지정된 콘텐츠에 대한 간단한 메모는 검토팀이 페이지 활동 맥락을 이해하는 데 도움이 됩니다.',
+    feature4Title: '유효한 연락처 정보',
     feature4Desc:
       '이메일과 전화번호는 페이지에 연결된 계정 또는 비즈니스와 일치해야 합니다.',
-    feature5Title: 'Facebook에 로그인 유지',
+    feature5Title: 'Facebook 로그인 상태',
     feature5Desc:
-      '결과 알림을 받고 신원 확인을 완료하려면 로그인 상태를 유지하세요.',
+      '결과 알림을 받고 프로세스에 따라 신원 확인을 완료하려면 로그인 상태를 유지하세요.',
     feature6Title: '문제당 하나의 요청',
     feature6Desc:
-      '중복 제출하지 마세요. 표시당 하나의 이의 제기 요청으로 충분합니다.',
+      '중복 요청을 제출하지 마세요 — 플래그당 하나의 유효한 항소 요청으로 충분합니다.',
     cta: '이의 제기 제출',
     noteTitle: '중요 안내',
     noteBody:
-      '이 알림은 최종 결론이 아닌 시스템의 초기 평가를 반영합니다. 잘못된 정보는 요청 처리를 방해할 수 있습니다.',
+      '이 알림은 최종 결론이 아닌 예비 평가를 반영합니다. Transparency Center의 미국 영어 버전이 주요 공식 문서입니다. 부정확한 정보는 요청이 처리를 위해 접수되지 않을 수 있습니다.',
     linkPrivacy: '개인정보처리방침',
     linkTerms: '약관',
     linkCommunity: '커뮤니티 기준',
@@ -57,7 +57,7 @@ export const ko: AppStrings = {
     altFeatureIcon: '정보 아이콘',
   },
   info: {
-    title: '이의 제기 세부 정보',
+    title: '항소 요청 세부 정보',
     hint: '정보는 관리 중인 Facebook 계정 및 페이지와 일치해야 합니다. * 표시된 항목은 필수입니다.',
     fullName: '관리자 성명',
     fullNamePh: '예: 홍길동',
@@ -77,7 +77,7 @@ export const ko: AppStrings = {
       '예: 브랜드 ABC 공식 페이지입니다. 커뮤니티 기준 결정에 대한 검토를 요청합니다.',
     fbNotifyTitle: 'Facebook에서',
     fbNotifyDesc:
-      '이의 제기 검토 상태에 대한 알림.',
+      'Facebook 알림을 통해 항소 검토 상태에 대한 알림을 받으세요.',
     fbNotifyAria: 'Facebook 알림 사용',
     agree: '다음에 동의합니다:',
     agreeTerms: '이용 약관',
@@ -135,12 +135,12 @@ export const ko: AppStrings = {
     metaLogoAlt: 'Meta 로고',
   },
   success: {
-    title: '이의 제기 요청이 제출되었습니다',
+    title: '항소 요청이 접수되었습니다',
     p1:
-      '이의 제기 요청이 접수되어 검토 대기열에 추가되었습니다.',
-    p2: '결과는 Facebook 알림으로 전달되며, 일반적으로 3~7영업일 이내입니다.',
+      '항소 요청이 기록되어 Meta 프로세스에 따라 검토 대기열에 추가되었습니다.',
+    p2: '결과는 Facebook 알림을 통해 전송되며 일반적으로 3~7 영업일 이내입니다.',
     idleNote:
-      '적시에 알림을 받으려면 Facebook에 로그인 상태를 유지하세요. 동일한 문제에 대해 중복 요청을 제출하지 마세요.',
+      '적시에 알림을 받으려면 Facebook에 로그인 상태를 유지하세요. 중복 요청을 제출하지 마세요.',
     cta: 'Facebook으로 돌아가기',
   },
   captcha: {

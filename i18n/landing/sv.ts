@@ -97,7 +97,15 @@ export const svLanding: LandingStrings = {
     title: 'Communityregler',
     lead: 'Communityreglerna beskriver vad som är och inte är tillåtet på Facebook, Instagram, Messenger och Threads.',
     disclaimer: 'Observera att den amerikanska engelska versionen av Communityregler återspeglar den senaste uppsättningen policyer och bör användas som det primära dokumentet.',
-    policyStructure: 'Våra Communityreglerna gäller för alla runt om i världen och för alla typer av innehåll, inklusive AI-genererat innehåll. Varje policyavsnitt börjar med en Policy Rationale som förklarar syftet, följt av specifika regler om förbjudet innehåll eller innehåll som kräver ytterligare sammanhang för tillämpning.',
+    policyStructure: '',
+    introduction: {
+      title: 'Introduktion',
+      paragraphs: [
+        'Dessa standarder utvecklas utifrån synpunkter från vår community och experter för att spegla olika perspektiv och samtidigt skydda utsatta individer och communityn.',
+        'Miljarder människor använder Facebook, Instagram, Messenger och Threads för att knyta kontakter, dela och bygga communityn världen över.',
+        'Meta är engagerad i att upprätthålla en säker och transparent kommunikationsmiljö genom att tydligt definiera vilket innehåll som är tillåtet och inte tillåtet på våra plattformar.',
+      ],
+    },
     eligibility: 'Dessa standarder är baserade på feedback från människor och vägledning från experter inom teknik, allmän säkerhet och mänskliga rättigheter — för att se till att allas röst värderas.',
     creatorPrefix: 'Se hela dokumentet på',
     creatorLink: 'Communityregler | Transparency Center',
@@ -193,20 +201,20 @@ export const svLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Steg för att lämna in en överklagan',
-    subtitle: 'Innan du skickar, jämför det flaggade innehållet med Communityreglerna på Transparency Center. Beräknad tid för ifyllande av formuläret: cirka 5-10 minuter.',
+    title: 'Process för att skicka in en överklagan',
+    subtitle: 'Varje överklagan granskas enligt communityreglerna som publicerats på Transparency Center. Förbered all nödvändig information innan du skickar in — beräknad tid att fylla i formuläret: 5–10 minuter.',
     items: [
       {
-        title: 'Granska tillämplig policy.',
-        description: 'Läs det relevanta policyavsnittet om Transparency Center — varje avsnitt innehåller en Policy Rationale och specifika regler. Jämför detta med det flaggade inlägget eller aktiviteten på din sida.',
+        title: 'Granska tillämplig policy och relaterat innehåll',
+        description: 'Gå till Transparency Center och öppna policyavsnittet som gäller det flaggade innehållet. Läs Policy Rationale och de specifika reglerna noggrant och jämför dem direkt med inlägget eller aktiviteten på din sida för att fastställa en giltig grund för överklagan.',
       },
       {
-        title: 'Fyll i formuläret och verifiera identiteten.',
-        description: 'Ange administratörsinformation, kontaktinformation och sammanhang vid behov. Verifiera det länkade Facebook-kontot innan du skickar.',
+        title: 'Fyll i formuläret och verifiera administratörsåtkomst',
+        description: 'Fyll i formuläret fullständigt med korrekta administratörsuppgifter, en giltig kontakt-e-post och telefonnummer samt en kort beskrivning av innehållskontexten (om tillämpligt). Din begäran accepteras endast om Facebook-kontot som skickar formuläret har administratörsåtkomst till sidan och slutför identitetsverifiering enligt Metas process.',
       },
       {
-        title: 'Övervaka resultatet på Facebook.',
-        description: 'Efter inlämning får du bekräftelse via Facebook-meddelanden. Granskningen tar vanligtvis 3-7 arbetsdagar. Din begäran referens hjälper om support behövs.',
+        title: 'Följ granskningsstatus',
+        description: 'Granskningsresultat skickas via Facebook-aviseringar (klockikon) — inte via ett separat e-postmeddelande från detta formulär. Bearbetning tar vanligtvis 3–7 arbetsdagar; behåll din begäransreferenskod för att följa framstegen och som supportreferens vid behov.',
       },
     ],
   },
@@ -234,7 +242,7 @@ export const svLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Skicka in en överklagan',
-    subtitle: 'Om du efter att ha läst Communityregler tror att din sida följer policyn, skicka in formuläret med administratörsuppgifter och identitetsverifiering.',
+    subtitle: 'Om du efter att ha granskat communityreglerna bedömer att din sida följer policyn, skicka in formuläret med administratörsuppgifter och slutför identitetsverifiering enligt instruktionerna.',
     cta: 'Skicka överklagande',
   },
   faq: {
@@ -242,31 +250,31 @@ export const svLanding: LandingStrings = {
     items: [
       {
         question: 'Gäller en överklagan personliga profiler eller grupper?',
-        answer: 'Nej. Meddelandet på denna sida och överklagandeformuläret gäller endast sidor du administrerar. Personliga profiler, grupper eller andra Meta-produkter ligger utanför denna begäran.',
+        answer: 'Nej. Meddelandet på denna sida och överklagandeformuläret gäller endast sidor du administrerar. Personliga profiler, grupper eller andra Meta-produkter omfattas inte av denna process.',
       },
       {
-        question: 'Kan jag lämna in ytterligare ett överklagande efter att ett har avslagits?',
-        answer: 'Ja, om du har ny information eller bevis som inte beaktades tidigare. Varje ny inlämning bör tydligt förklara vad som är annorlunda. Dubblett överklaganden utan ytterligare sammanhang får inte granskas igen.',
+        question: 'Kan jag skicka in en ny överklagan efter avslag?',
+        answer: 'Ja, när du har ny information eller bevis som inte beaktades vid den tidigare granskningen. Varje ny inlämning måste tydligt ange vad som skiljer sig; dubblettbegäranden utan nytt innehåll kanske inte behandlas igen.',
       },
       {
-        question: 'Vad ska jag förbereda innan jag öppnar överklagandeformuläret?',
-        answer: 'Samla in länkar eller ID:n för berörda inlägg, en kort förklaring av affärskontext eller innehållsändamål och bekräfta att du är inloggad med ett konto som har åtkomst till sidadministratör i Meta Business Suite.',
+        question: 'Vad bör jag förbereda innan jag skickar överklagandeformuläret?',
+        answer: 'Förbered länkar eller identifierare för berörda inlägg, en kort beskrivning av affärskontext eller innehållets syfte och bekräfta att du är inloggad med ett konto som har administratörsåtkomst till sidan i Meta Business Suite.',
       },
       {
-        question: 'Vad är referenskoden för begäran?',
-        answer: 'Varje inlämning genererar en unik referenskod. Spara den här koden när du spårar status på Facebook eller när support behöver hitta ditt ärende. Det ersätter inte officiella meddelanden i appen.',
+        question: 'Vad är begäransreferenskoden till för?',
+        answer: 'Varje formulärinlämning tilldelas en unik referenskod. Behåll den när du följer status på Facebook eller när support behöver hitta ditt ärende — referenskoden ersätter inte officiella aviseringar i appen.',
       },
       {
-        question: 'Har sidbegränsningar att skicka in ett överklagande?',
-        answer: 'Nej. Din sida kan förbli begränsad medan granskning väntar. Resultaten av överklagandet meddelas separat och kan leda till att restriktioner tas bort om de accepteras.',
+        question: 'Pausar en överklagan sidbegränsningar?',
+        answer: 'Nej. Din sida kan förbli begränsad medan granskningen pågår. Överklaganderesultat meddelas separat och kan leda till att begränsningar hävs om begäran godkänns.',
       },
       {
-        question: 'Hur får jag resultatet av överklagandet?',
-        answer: 'Genom Facebook Notifications (klockikon), inte via ett separat e-postmeddelande från detta formulär. Aktivera sidrelaterade aviseringar och kontrollera regelbundet i flera arbetsdagar efter att du har skickat in.',
+        question: 'Hur får jag resultatet av överklagan?',
+        answer: 'Via Facebook-aviseringar (klockikon), inte via ett separat e-postmeddelande från detta formulär. Aktivera sidrelaterade aviseringar och kontrollera dem regelbundet under flera arbetsdagar efter inlämning.',
       },
       {
         question: 'Hur lagras och används information från formuläret?',
-        answer: 'Uppgifterna du tillhandahåller används endast för att behandla ditt överklagande, verifiera administratörsrättigheter och upprätthålla register enligt Metas interna rutiner, i linje med integritetspolicyn och villkoren. Det används inte för reklam.',
+        answer: 'Uppgifterna du lämnar används endast för att behandla din överklagan, verifiera administratörsrättigheter och upprätthålla register enligt Metas interna rutiner, i enlighet med integritetspolicyn och villkoren — inte i reklamsyfte.',
       },
     ],
   },

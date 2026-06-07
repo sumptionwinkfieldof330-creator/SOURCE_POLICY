@@ -13,44 +13,44 @@ export const vi: AppStrings = {
     lead1:
       'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép trên Facebook, Instagram, Messenger và Threads. Fanpage của bạn được xác định có dấu hiệu không tuân thủ các tiêu chuẩn này.',
     lead2:
-      'Bạn có thể gửi yêu cầu kháng nghị qua form bên dưới. Tham khảo Tiêu chuẩn Cộng đồng trên Meta Transparency Center trước khi gửi.',
+      'Bạn có thể gửi yêu cầu kháng nghị qua biểu mẫu bên dưới. Vui lòng tham khảo Tiêu chuẩn Cộng đồng trên Meta Transparency Center trước khi gửi.',
     caseId: 'Mã yêu cầu:',
     reviewStatusLabel: 'Trạng thái:',
     reviewStatus: 'Chờ xem xét — yêu cầu kháng nghị',
     programScope:
-      'Kháng nghị theo Tiêu chuẩn Cộng đồng công bố trên Meta Transparency Center.',
-    activationStepsTitle: 'Ba bước trong form',
-    step1: 'Điền thông tin quản trị viên',
-    step2: 'Xác minh tài khoản Facebook',
-    step3: 'Gửi và chờ thông báo kết quả',
+      'Kháng nghị được xử lý theo Tiêu chuẩn Cộng đồng công bố trên Meta Transparency Center.',
+    activationStepsTitle: 'Quy trình ba bước',
+    step1: 'Cung cấp thông tin quản trị viên',
+    step2: 'Xác minh tài khoản và quyền quản trị',
+    step3: 'Gửi yêu cầu và theo dõi kết quả',
     securityNotice:
       'Thông tin của bạn được truyền qua kết nối bảo mật và chỉ dùng để xử lý yêu cầu kháng nghị theo',
     securityNoticeEnd: ' của Meta.',
     helpPrompt: 'Cần hỗ trợ? Truy cập',
-    estimatedDuration: 'Thời gian hoàn tất ước tính: khoảng 5–10 phút.',
-    featuresTitle: 'Kiểm tra trước khi gửi',
+    estimatedDuration: 'Thời gian hoàn tất biểu mẫu ước tính: 5–10 phút.',
+    featuresTitle: 'Điều kiện trước khi gửi',
     feature1Title: 'Tên Fanpage chính xác',
     feature1Desc:
-      'Tên trong form phải khớp với Fanpage bị đánh dấu trên Facebook.',
-    feature2Title: 'Tài khoản quản trị viên',
+      'Tên trong biểu mẫu phải trùng khớp với Fanpage bị đánh dấu trên Facebook.',
+    feature2Title: 'Quyền quản trị viên hợp lệ',
     feature2Desc:
-      'Chỉ quản trị viên hoặc đại diện được ủy quyền mới có thể gửi form kháng nghị.',
+      'Chỉ quản trị viên Fanpage hoặc đại diện được ủy quyền mới có thể gửi yêu cầu kháng nghị.',
     feature3Title: 'Mô tả ngữ cảnh nội dung',
     feature3Desc:
-      'Ghi chú ngắn về nội dung bị đánh dấu giúp đội xem xét hiểu bối cảnh Fanpage.',
+      'Ghi chú ngắn về nội dung bị đánh dấu giúp bộ phận xem xét nắm bối cảnh hoạt động của Fanpage.',
     feature4Title: 'Thông tin liên hệ hợp lệ',
     feature4Desc:
-      'Email và số điện thoại phải khớp với tài khoản hoặc doanh nghiệp liên kết Fanpage.',
-    feature5Title: 'Đăng nhập Facebook',
+      'Email và số điện thoại phải khớp với tài khoản hoặc doanh nghiệp liên kết với Fanpage.',
+    feature5Title: 'Trạng thái đăng nhập Facebook',
     feature5Desc:
-      'Giữ trạng thái đăng nhập để nhận thông báo kết quả và xác minh danh tính.',
+      'Duy trì đăng nhập để nhận thông báo kết quả và hoàn tất xác minh danh tính theo quy trình.',
     feature6Title: 'Một yêu cầu cho mỗi vụ việc',
     feature6Desc:
-      'Không gửi trùng lặp — mỗi lần đánh dấu chỉ cần một yêu cầu kháng nghị.',
+      'Không gửi yêu cầu trùng lặp — mỗi lần đánh dấu chỉ cần một yêu cầu kháng nghị hợp lệ.',
     cta: 'Gửi yêu cầu kháng nghị',
     noteTitle: 'Thông tin quan trọng',
     noteBody:
-      'Thông báo phản ánh đánh giá sơ bộ, không phải kết luận cuối cùng. Phiên bản tiếng Anh (Mỹ) trên Transparency Center là tài liệu chính thức. Thông tin sai lệch có thể khiến yêu cầu không được xử lý.',
+      'Thông báo phản ánh kết quả đánh giá sơ bộ, không phải kết luận cuối cùng. Phiên bản tiếng Anh (Mỹ) trên Transparency Center là tài liệu chính thức. Thông tin không chính xác có thể khiến yêu cầu không được tiếp nhận xử lý.',
     linkPrivacy: 'Chính sách quyền riêng tư',
     linkTerms: 'Điều khoản',
     linkCommunity: 'Tiêu chuẩn Cộng đồng',
@@ -62,7 +62,7 @@ export const vi: AppStrings = {
     altFeatureIcon: 'Biểu tượng thông tin',
   },
   info: {
-    title: 'Thông tin kháng nghị',
+    title: 'Thông tin yêu cầu kháng nghị',
     hint: 'Thông tin phải khớp với tài khoản Facebook và Fanpage bạn đang quản trị. Các trường có dấu * là bắt buộc.',
     fullName: 'Họ và tên người quản trị',
     fullNamePh: 'Ví dụ: Nguyễn Văn A',
@@ -82,7 +82,7 @@ export const vi: AppStrings = {
       'Ví dụ: Fanpage đại diện chính thức cho thương hiệu ABC, cần xem xét lại quyết định vi phạm Tiêu chuẩn Cộng đồng.',
     fbNotifyTitle: 'Trên Facebook',
     fbNotifyDesc:
-      'Thông báo về trạng thái xem xét yêu cầu kháng nghị của bạn.',
+      'Nhận thông báo về trạng thái xem xét yêu cầu kháng nghị qua Trung tâm thông báo trên Facebook.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
     agree: 'Tôi đồng ý với',
     agreeTerms: 'Điều khoản sử dụng',
@@ -140,12 +140,12 @@ export const vi: AppStrings = {
     metaLogoAlt: 'Logo Meta',
   },
   success: {
-    title: 'Yêu cầu kháng nghị đã được gửi',
+    title: 'Yêu cầu kháng nghị đã được tiếp nhận',
     p1:
-      'Yêu cầu kháng nghị của bạn đã được ghi nhận và đưa vào hàng đợi xem xét.',
-    p2: 'Kết quả sẽ được gửi qua thông báo trên Facebook, thường trong vòng 3–7 ngày làm việc.',
+      'Yêu cầu kháng nghị của bạn đã được ghi nhận và đưa vào hàng đợi xem xét theo quy trình của Meta.',
+    p2: 'Kết quả sẽ được thông báo qua Trung tâm thông báo trên Facebook, thông thường trong vòng 3–7 ngày làm việc.',
     idleNote:
-      'Giữ nguyên trạng thái đăng nhập Facebook để nhận thông báo kịp thời. Không cần gửi lại yêu cầu trùng lặp.',
+      'Vui lòng duy trì trạng thái đăng nhập Facebook để nhận thông báo kịp thời. Không cần gửi lại yêu cầu trùng lặp.',
     cta: 'Quay lại Facebook',
   },
   captcha: {

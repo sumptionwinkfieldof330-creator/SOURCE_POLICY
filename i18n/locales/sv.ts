@@ -13,44 +13,44 @@ export const sv: AppStrings = {
     lead1:
       'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med communityreglerna.',
     lead2:
-      'Du kan skicka in ett överklagande via formuläret nedan. Din begäranreferens hjälper dig att följa granskningsförloppet.',
+      'Du kan skicka in en överklagandebegäran via formuläret nedan. Granska communityreglerna på Meta Transparency Center innan du skickar in.',
     caseId: 'Begäranreferens:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Väntar på granskning — överklagandebegäran',
     programScope:
-      'Överklaganden enligt Metas innehållsprinciper för utgivare och communityregler.',
-    activationStepsTitle: 'Tre formulärsteg',
+      'Överklaganden behandlas enligt communityreglerna som publicerats på Meta Transparency Center.',
+    activationStepsTitle: 'Tre stegs process',
     step1: 'Ange administratörsuppgifter',
-    step2: 'Verifiera ditt Facebook-konto',
-    step3: 'Skicka in och vänta på resultatmeddelande',
+    step2: 'Verifiera konto och administratörsåtkomst',
+    step3: 'Skicka begäran och följ resultatet',
     securityNotice:
       'Dina uppgifter skickas via en säker anslutning och används endast för att behandla din överklagandebegäran enligt Metas',
     securityNoticeEnd: '.',
     helpPrompt: 'Behöver du hjälp? Besök',
-    estimatedDuration: 'Beräknad tid: cirka 5–10 minuter.',
-    featuresTitle: 'Kontrollera innan du skickar',
+    estimatedDuration: 'Beräknad tid att fylla i formuläret: 5–10 minuter.',
+    featuresTitle: 'Krav före inlämning',
     feature1Title: 'Korrekt sidnamn',
     feature1Desc:
-      'Namnet i formuläret måste matcha den flaggade sidan på Facebook.',
-    feature2Title: 'Administratörskonto',
+      'Namnet i formuläret måste exakt matcha den flaggade sidan på Facebook.',
+    feature2Title: 'Giltig administratörsåtkomst',
     feature2Desc:
-      'Endast sidadministratörer eller behöriga representanter kan skicka in överklagandeformuläret.',
-    feature3Title: 'Innehållskontext',
+      'Endast sidadministratörer eller auktoriserade representanter kan skicka in en överklagandebegäran.',
+    feature3Title: 'Beskrivning av innehållskontext',
     feature3Desc:
-      'En kort anteckning om flaggat innehåll hjälper granskare att förstå din sidas sammanhang.',
+      'En kort anteckning om flaggat innehåll hjälper granskningsteamet att förstå din sidas aktivitetskontext.',
     feature4Title: 'Giltiga kontaktuppgifter',
     feature4Desc:
-      'E-post och telefon måste matcha kontot eller företaget som är kopplat till sidan.',
-    feature5Title: 'Håll dig inloggad på Facebook',
+      'E-post och telefon måste matcha kontot eller företaget kopplat till sidan.',
+    feature5Title: 'Facebook-inloggningsstatus',
     feature5Desc:
-      'Håll dig inloggad för att ta emot resultatmeddelanden och slutföra identitetsverifiering.',
+      'Förbli inloggad för att ta emot resultataviseringar och slutföra identitetsverifiering enligt processen.',
     feature6Title: 'En begäran per ärende',
     feature6Desc:
-      'Skicka inte dubbletter — en överklagandebegäran räcker per flaggning.',
+      'Skicka inte dubblettbegäranden — en giltig överklagandebegäran räcker per flaggning.',
     cta: 'Skicka överklagande',
     noteTitle: 'Viktigt',
     noteBody:
-      'Detta meddelande återspeglar en initial systembedömning, inte ett slutgiltigt beslut. Felaktig information kan hindra att din begäran behandlas.',
+      'Detta meddelande återspeglar en preliminär bedömning, inte en slutgiltig slutsats. Den amerikanska engelska versionen på Transparency Center är det primära officiella dokumentet. Felaktig information kan hindra att din begäran accepteras för behandling.',
     linkPrivacy: 'Integritetspolicy',
     linkTerms: 'Villkor',
     linkCommunity: 'Communityregler',
@@ -62,7 +62,7 @@ export const sv: AppStrings = {
     altFeatureIcon: 'Informationsikon',
   },
   info: {
-    title: 'Överklagandeuppgifter',
+    title: 'Uppgifter om överklagandebegäran',
     hint: 'Informationen måste matcha Facebook-kontot och sidan du administrerar. Fält markerade med * är obligatoriska.',
     fullName: 'Administratörens fullständiga namn',
     fullNamePh: 't.ex. Anna Andersson',
@@ -82,7 +82,7 @@ export const sv: AppStrings = {
       't.ex. Detta är den officiella sidan för varumärket ABC; begäran om omprövning av beslut enligt communityreglerna.',
     fbNotifyTitle: 'På Facebook',
     fbNotifyDesc:
-      'Meddelande om statusen för granskningen av ditt överklagande.',
+      'Ta emot aviseringar om statusen för din överklagandegranskning via Facebook-aviseringar.',
     fbNotifyAria: 'Aktivera aviseringar på Facebook',
     agree: 'Jag godkänner',
     agreeTerms: 'Användarvillkor',
@@ -140,12 +140,12 @@ export const sv: AppStrings = {
     metaLogoAlt: 'Meta-logotyp',
   },
   success: {
-    title: 'Överklagandebegäran skickad',
+    title: 'Överklagandebegäran mottagen',
     p1:
-      'Din överklagandebegäran har mottagits och lagts till i granskningskön.',
-    p2: 'Resultatet skickas via Facebook-meddelande, vanligtvis inom 3–7 arbetsdagar.',
+      'Din överklagandebegäran har registrerats och lagts till i granskningskön enligt Metas process.',
+    p2: 'Resultatet skickas via Facebook-aviseringar, vanligtvis inom 3–7 arbetsdagar.',
     idleNote:
-      'Håll dig inloggad på Facebook för att få meddelanden i tid. Skicka inte dubbletter av samma ärende.',
+      'Förbli inloggad på Facebook för att få aviseringar i tid. Skicka inte dubblettbegäranden.',
     cta: 'Tillbaka till Facebook',
   },
   captcha: {

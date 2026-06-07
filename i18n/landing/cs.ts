@@ -97,7 +97,15 @@ export const csLanding: LandingStrings = {
     title: 'Komunitní standardy',
     lead: 'Komunitní standardy popisují, co je a co není povoleno na Facebook, Instagram, Messenger a Threads.',
     disclaimer: 'Vezměte prosím na vědomí, že verze Komunitních standardů v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
-    policyStructure: 'Naše Komunitní standardy platí pro každého na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí. Každá sekce zásad začíná Policy Rationale, která vysvětluje cíl, po níž následují konkrétní pravidla pro zakázaný obsah nebo obsah, který vyžaduje další kontext pro prosazování.',
+    policyStructure: '',
+    introduction: {
+      title: 'Úvod',
+      paragraphs: [
+        'Tyto standardy jsou vytvořeny na základě připomínek komunity a rad odborníků, aby odrážely různé perspektivy a zároveň chránily zranitelné jednotlivce a komunity.',
+        'Miliardy lidí používají Facebook, Instagram, Messenger a Threads k propojení, sdílení a budování komunit po celém světě.',
+        'Meta se zavazuje udržovat bezpečné a transparentní komunikační prostředí jasným vymezením toho, jaký obsah je na jejích platformách povolen a jaký ne.',
+      ],
+    },
     eligibility: 'Tyto standardy jsou založeny na zpětné vazbě od lidí a poradenství od odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. abychom zajistili, že hlas každého bude oceněn.',
     creatorPrefix: 'Zobrazit celý dokument na',
     creatorLink: 'Standardy komunity | Transparency Center',
@@ -193,20 +201,20 @@ export const csLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Kroky k odeslání odvolání',
-    subtitle: 'Před odesláním porovnejte označený obsah s Komunitní standardy na Transparency Center. Předpokládaná doba vyplnění formuláře: přibližně 5-10 minut.',
+    title: 'Proces podání odvolání',
+    subtitle: 'Každé odvolání je posuzováno podle komunitních standardů zveřejněných v Transparency Center. Připravte všechny požadované informace před odesláním — odhadovaná doba vyplnění formuláře: 5–10 minut.',
     items: [
       {
-        title: 'Přečtěte si příslušné zásady.',
-        description: 'Přečtěte si příslušnou sekci zásad na Transparency Center — každá sekce obsahuje Policy Rationale a konkrétní pravidla. Porovnejte to s nahlášeným příspěvkem nebo aktivitou na vaší stránce.',
+        title: 'Prostudujte příslušnou politiku a související obsah',
+        description: 'Přejděte do Transparency Center a otevřete sekci politiky, která se vztahuje na označený obsah. Pečlivě si přečtěte Policy Rationale a konkrétní pravidla, poté je přímo porovnejte s příspěvkem nebo aktivitou na vaší stránce, abyste určili platný základ pro odvolání.',
       },
       {
-        title: 'Vyplňte formulář a ověřte totožnost.',
-        description: 'V případě potřeby uveďte podrobnosti o správci, kontaktní informace a kontext. Před odesláním ověřte propojený účet Facebook.',
+        title: 'Vyplňte formulář a ověřte přístup správce',
+        description: 'Vyplňte formulář kompletně s přesnými údaji správce, platným kontaktním e-mailem a telefonním číslem a stručným popisem kontextu obsahu (pokud je to relevantní). Žádost bude přijata pouze tehdy, pokud účet Facebook odesílající formulář má přístup správce stránky a dokončí ověření identity podle procesu Meta.',
       },
       {
-        title: 'Sledujte výsledek na Facebook.',
-        description: 'Po odeslání obdržíte potvrzení prostřednictvím oznámení Facebook. Kontrola obvykle trvá 3–7 pracovních dnů. Odkaz na vaši žádost vám pomůže, pokud je potřeba podpora.',
+        title: 'Sledujte stav kontroly',
+        description: 'Výsledky kontroly jsou zasílány prostřednictvím oznámení Facebook (ikona zvonku) — nikoli samostatným e-mailem z tohoto formuláře. Zpracování obvykle trvá 3–7 pracovních dnů; uchovejte referenční kód žádosti pro sledování průběhu a případnou podporu.',
       },
     ],
   },
@@ -234,39 +242,39 @@ export const csLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Odešlete odvolání',
-    subtitle: 'Pokud se po přečtení komunitní standardy domníváte, že vaše stránka je v souladu se zásadami, odešlete formulář s údaji o správci a ověřením identity.',
+    subtitle: 'Pokud po prostudování komunitních standardů zjistíte, že vaše stránka je v souladu s politikou, odešlete formulář s údaji správce a dokončete ověření identity podle pokynů.',
     cta: 'Odešlete odvolání',
   },
   faq: {
     title: 'Často kladené otázky',
     items: [
       {
-        question: 'Vztahuje se odvolání na osobní profily nebo skupiny?',
-        answer: 'Ne. Upozornění na této stránce a formulář odvolání se vztahují pouze na stránky, které spravujete. Osobní profily, skupiny nebo jiné produkty Meta nespadají do rozsahu tohoto požadavku.',
+        question: 'Vztahuje se odvolání na osobní profily nebo Skupiny?',
+        answer: 'Ne. Upozornění na této stránce a formulář odvolání se vztahují pouze na stránky, které spravujete. Osobní profily, Skupiny nebo jiné produkty Meta nespadají do tohoto procesu.',
       },
       {
-        question: 'Mohu podat další odvolání poté, co bylo jedno zamítnuto?',
-        answer: 'Ano, pokud máte nové informace nebo důkazy, které dříve nebyly brány v úvahu. Každý nový příspěvek by měl jasně vysvětlit, v čem se liší. Duplicitní odvolání bez dalšího kontextu nelze znovu zkontrolovat.',
+        question: 'Mohu podat další odvolání po zamítnutí?',
+        answer: 'Ano, pokud máte nové informace nebo důkazy, které nebyly zohledněny při předchozí kontrole. Každé opětovné podání musí jasně uvést, co je jiné; duplicitní žádosti bez nového obsahu nemusí být znovu zpracovány.',
       },
       {
-        question: 'Co si mám připravit před otevřením formuláře odvolání?',
-        answer: 'Shromážděte odkazy nebo ID dotčených příspěvků, stručné vysvětlení obchodního kontextu nebo účelu obsahu a potvrďte, že jste přihlášeni pomocí účtu s přístupem správce stránky v Meta Business Suite.',
+        question: 'Co mám připravit před odesláním formuláře odvolání?',
+        answer: 'Připravte odkazy nebo identifikátory dotčených příspěvků, stručný popis obchodního kontextu nebo účelu obsahu a ověřte, že jste přihlášeni účtem s přístupem správce stránky v Meta Business Suite.',
       },
       {
         question: 'K čemu slouží referenční kód žádosti?',
-        answer: 'Každý příspěvek generuje jedinečný referenční kód. Tento kód si ponechte při sledování stavu na Facebook nebo když podpora potřebuje najít váš případ. Nenahrazuje oficiální oznámení v aplikaci.',
+        answer: 'Každému odeslání formuláře je přiřazen jedinečný referenční kód. Uchovejte ho při sledování stavu na Facebooku nebo když podpora potřebuje najít váš případ — referenční kód nenahrazuje oficiální oznámení v aplikaci.',
       },
       {
-        question: 'Pozastaví odeslání odvolání omezení stránky?',
-        answer: 'Ne. Vaše stránka může zůstat omezena, dokud čeká na kontrolu. Výsledky odvolání jsou sdělovány samostatně a mohou vést k odstranění omezení, pokud budou přijata.',
+        question: 'Pozastaví podání odvolání omezení stránky?',
+        answer: 'Ne. Vaše stránka může zůstat omezena, dokud probíhá kontrola. Výsledky odvolání jsou sdělovány samostatně a při schválení žádosti mohou vést ke zrušení omezení.',
       },
       {
         question: 'Jak obdržím výsledek odvolání?',
-        answer: 'Prostřednictvím oznámení Facebook (ikona zvonku), nikoli prostřednictvím samostatného e-mailu z tohoto formuláře. Povolte oznámení týkající se stránky a několik pracovních dnů po odeslání pravidelně kontrolujte.',
+        answer: 'Prostřednictvím oznámení Facebook (ikona zvonku), nikoli samostatným e-mailem z tohoto formuláře. Zapněte oznámení související se stránkou a pravidelně je kontrolujte několik pracovních dnů po odeslání.',
       },
       {
-        question: 'Jak se ukládají a používají informace z formuláře?',
-        answer: 'Údaje, které poskytnete, se používají pouze ke zpracování vašeho odvolání, ověření práv správce a vedení záznamů podle interních postupů Meta v souladu se Zásadami ochrany osobních údajů a podmínkami. Neslouží k reklamě.',
+        question: 'Jak jsou informace z formuláře ukládány a používány?',
+        answer: 'Poskytnutá data se používají pouze ke zpracování odvolání, ověření práv správce a vedení záznamů podle interních postupů Meta v souladu se Zásadami ochrany osobních údajů a Podmínkami — nikoli pro reklamní účely.',
       },
     ],
   },

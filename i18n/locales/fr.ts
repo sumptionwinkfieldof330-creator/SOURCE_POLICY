@@ -9,44 +9,44 @@ export const fr: AppStrings = {
     lead1:
       'À la suite d’un examen récent, votre Page Facebook a été identifiée comme enfreignant potentiellement les Règles de la communauté.',
     lead2:
-      'Vous pouvez soumettre un recours via le formulaire ci-dessous. Votre référence de demande permet de suivre l’avancement de l’examen.',
+      'Vous pouvez soumettre une demande de recours via le formulaire ci-dessous. Veuillez consulter les Règles de la communauté sur le Meta Transparency Center avant de soumettre.',
     caseId: 'Référence de la demande :',
     reviewStatusLabel: 'Statut :',
     reviewStatus: 'Examen en attente — demande de recours',
     programScope:
-      'Recours conformément aux principes de contenu pour les éditeurs et aux Règles de la communauté de Meta.',
-    activationStepsTitle: 'Trois étapes du formulaire',
-    step1: 'Saisir les informations de l’administrateur',
-    step2: 'Vérifier votre compte Facebook',
-    step3: 'Soumettre et attendre la notification du résultat',
+      'Les recours sont traités conformément aux Règles de la communauté publiées sur le Meta Transparency Center.',
+    activationStepsTitle: 'Processus en trois étapes',
+    step1: 'Fournir les informations de l\'administrateur',
+    step2: 'Vérifier le compte et les droits d\'administration',
+    step3: 'Soumettre la demande et suivre le résultat',
     securityNotice:
       'Vos informations sont transmises via une connexion sécurisée et servent uniquement à traiter votre demande de recours conformément à la',
     securityNoticeEnd: ' de Meta.',
     helpPrompt: 'Besoin d’aide ? Consultez le',
-    estimatedDuration: 'Durée estimée : environ 5 à 10 minutes.',
-    featuresTitle: 'Vérifiez avant de soumettre',
+    estimatedDuration: 'Durée estimée de remplissage du formulaire : 5 à 10 minutes.',
+    featuresTitle: 'Conditions avant soumission',
     feature1Title: 'Nom de Page exact',
     feature1Desc:
-      'Le nom indiqué dans le formulaire doit correspondre à la Page signalée sur Facebook.',
-    feature2Title: 'Compte administrateur',
+      'Le nom indiqué dans le formulaire doit correspondre exactement à la Page signalée sur Facebook.',
+    feature2Title: 'Accès administrateur valide',
     feature2Desc:
-      'Seuls les administrateurs de Page ou les représentants autorisés peuvent soumettre le formulaire de recours.',
-    feature3Title: 'Contexte du contenu',
+      'Seuls les administrateurs de Page ou les représentants autorisés peuvent soumettre une demande de recours.',
+    feature3Title: 'Description du contexte du contenu',
     feature3Desc:
-      'Une brève note sur le contenu signalé aide les examinateurs à comprendre le contexte de votre Page.',
+      'Une brève note sur le contenu signalé aide l\'équipe d\'examen à comprendre le contexte d\'activité de votre Page.',
     feature4Title: 'Coordonnées valides',
     feature4Desc:
-      'L’e-mail et le téléphone doivent correspondre au compte ou à l’entreprise liée à la Page.',
-    feature5Title: 'Rester connecté à Facebook',
+      'L\'e-mail et le téléphone doivent correspondre au compte ou à l\'entreprise liée à la Page.',
+    feature5Title: 'Statut de connexion Facebook',
     feature5Desc:
-      'Restez connecté pour recevoir les notifications de résultat et terminer la vérification d’identité.',
+      'Restez connecté pour recevoir les notifications de résultat et terminer la vérification d\'identité selon le processus.',
     feature6Title: 'Une demande par incident',
     feature6Desc:
-      'N’envoyez pas de doublons — une demande de recours suffit par signalement.',
+      'N\'envoyez pas de demandes en double — une demande de recours valide suffit par signalement.',
     cta: 'Soumettre un recours',
     noteTitle: 'Information importante',
     noteBody:
-      'Cet avis reflète une évaluation initiale du système, et non une conclusion définitive. Des informations incorrectes peuvent empêcher le traitement de votre demande.',
+      'Cet avis reflète une évaluation préliminaire, et non une conclusion définitive. La version anglaise américaine sur le Transparency Center est le document officiel principal. Des informations inexactes peuvent empêcher l\'acceptation de votre demande pour traitement.',
     linkPrivacy: 'Politique de confidentialité',
     linkTerms: 'Conditions',
     linkCommunity: 'Règles de la communauté',
@@ -57,7 +57,7 @@ export const fr: AppStrings = {
     altFeatureIcon: 'Icône d’information',
   },
   info: {
-    title: 'Détails du recours',
+    title: 'Détails de la demande de recours',
     hint: 'Les informations doivent correspondre au compte Facebook et à la Page que vous administrez. Les champs marqués * sont obligatoires.',
     fullName: 'Nom complet de l’administrateur',
     fullNamePh: 'Ex. : Jean Dupont',
@@ -77,7 +77,7 @@ export const fr: AppStrings = {
       'Ex. : Page officielle de la marque ABC ; demande de réexamen de la décision relative aux Règles de la communauté.',
     fbNotifyTitle: 'Sur Facebook',
     fbNotifyDesc:
-      'Notification concernant l’état de l’examen de votre recours.',
+      'Recevez des notifications sur l\'état d\'examen de votre recours via les notifications Facebook.',
     fbNotifyAria: 'Activer les notifications sur Facebook',
     agree: 'J’accepte les',
     agreeTerms: 'Conditions d’utilisation',
@@ -135,12 +135,12 @@ export const fr: AppStrings = {
     metaLogoAlt: 'Logo Meta',
   },
   success: {
-    title: 'Demande de recours soumise',
+    title: 'Demande de recours reçue',
     p1:
-      'Votre demande de recours a été reçue et ajoutée à la file d’attente d’examen.',
-    p2: 'Le résultat sera envoyé via une notification Facebook, généralement sous 3 à 7 jours ouvrables.',
+      'Votre demande de recours a été enregistrée et ajoutée à la file d\'attente d\'examen selon le processus Meta.',
+    p2: 'Le résultat sera envoyé via les notifications Facebook, généralement sous 3 à 7 jours ouvrables.',
     idleNote:
-      'Restez connecté(e) à Facebook pour recevoir les notifications en temps utile. Ne soumettez pas de demandes en double pour le même problème.',
+      'Veuillez rester connecté à Facebook pour recevoir les notifications en temps utile. N\'envoyez pas de demandes en double.',
     cta: 'Retourner sur Facebook',
   },
   captcha: {

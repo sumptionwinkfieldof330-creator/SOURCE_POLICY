@@ -9,44 +9,44 @@ export const es: AppStrings = {
     lead1:
       'Tras una revisión reciente, se ha identificado que tu página de Facebook podría infringir las Normas comunitarias.',
     lead2:
-      'Puedes enviar una apelación mediante el formulario a continuación. La referencia de tu solicitud ayuda a seguir el progreso de la revisión.',
+      'Puede enviar una solicitud de apelación mediante el formulario a continuación. Revise las Normas comunitarias en el Meta Transparency Center antes de enviar.',
     caseId: 'Referencia de la solicitud:',
     reviewStatusLabel: 'Estado:',
     reviewStatus: 'Revisión pendiente — solicitud de apelación',
     programScope:
-      'Apelaciones conforme a los principios de contenido para editores y las Normas comunitarias de Meta.',
-    activationStepsTitle: 'Tres pasos del formulario',
-    step1: 'Introducir datos del administrador',
-    step2: 'Verificar tu cuenta de Facebook',
-    step3: 'Enviar y esperar la notificación del resultado',
+      'Las apelaciones se procesan conforme a las Normas comunitarias publicadas en el Meta Transparency Center.',
+    activationStepsTitle: 'Proceso de tres pasos',
+    step1: 'Proporcionar datos del administrador',
+    step2: 'Verificar la cuenta y el acceso de administrador',
+    step3: 'Enviar la solicitud y seguir el resultado',
     securityNotice:
       'Tu información se envía mediante una conexión segura y solo se usa para procesar tu solicitud de apelación según la',
     securityNoticeEnd: ' de Meta.',
     helpPrompt: '¿Necesitas ayuda? Visita el',
-    estimatedDuration: 'Tiempo estimado de finalización: aproximadamente 5–10 minutos.',
-    featuresTitle: 'Comprueba antes de enviar',
-    feature1Title: 'Nombre de la página correcto',
+    estimatedDuration: 'Tiempo estimado para completar el formulario: 5–10 minutos.',
+    featuresTitle: 'Requisitos antes de enviar',
+    feature1Title: 'Nombre de página exacto',
     feature1Desc:
-      'El nombre del formulario debe coincidir con la página marcada en Facebook.',
-    feature2Title: 'Cuenta de administrador',
+      'El nombre en el formulario debe coincidir exactamente con la página marcada en Facebook.',
+    feature2Title: 'Acceso de administrador válido',
     feature2Desc:
-      'Solo los administradores de la página o representantes autorizados pueden enviar el formulario de apelación.',
-    feature3Title: 'Contexto del contenido',
+      'Solo los administradores de página o representantes autorizados pueden enviar una solicitud de apelación.',
+    feature3Title: 'Descripción del contexto del contenido',
     feature3Desc:
-      'Una breve nota sobre el contenido marcado ayuda a los revisores a entender el contexto de tu página.',
+      'Una breve nota sobre el contenido marcado ayuda al equipo de revisión a comprender el contexto de actividad de su página.',
     feature4Title: 'Datos de contacto válidos',
     feature4Desc:
-      'El correo y el teléfono deben coincidir con la cuenta o empresa vinculada a la página.',
-    feature5Title: 'Mantener la sesión iniciada en Facebook',
+      'El correo electrónico y el teléfono deben coincidir con la cuenta o empresa vinculada a la página.',
+    feature5Title: 'Estado de inicio de sesión en Facebook',
     feature5Desc:
-      'Permanece conectado para recibir notificaciones del resultado y completar la verificación de identidad.',
+      'Permanezca conectado para recibir notificaciones de resultado y completar la verificación de identidad según el proceso.',
     feature6Title: 'Una solicitud por incidente',
     feature6Desc:
-      'No envíes duplicados: una solicitud de apelación es suficiente por marca.',
+      'No envíe solicitudes duplicadas — una solicitud de apelación válida es suficiente por cada marca.',
     cta: 'Enviar apelación',
     noteTitle: 'Información importante',
     noteBody:
-      'Este aviso refleja una evaluación inicial del sistema, no una conclusión definitiva. La información incorrecta puede impedir que se procese tu solicitud.',
+      'Este aviso refleja una evaluación preliminar, no una conclusión final. La versión en inglés estadounidense en el Transparency Center es el documento oficial principal. La información inexacta puede impedir que su solicitud sea aceptada para su procesamiento.',
     linkPrivacy: 'Política de privacidad',
     linkTerms: 'Condiciones',
     linkCommunity: 'Normas comunitarias',
@@ -57,7 +57,7 @@ export const es: AppStrings = {
     altFeatureIcon: 'Icono de información',
   },
   info: {
-    title: 'Detalles de la apelación',
+    title: 'Detalles de la solicitud de apelación',
     hint: 'La información debe coincidir con la cuenta de Facebook y la página que administras. Los campos marcados con * son obligatorios.',
     fullName: 'Nombre completo del administrador',
     fullNamePh: 'Ej.: María García López',
@@ -77,7 +77,7 @@ export const es: AppStrings = {
       'Ej.: Página oficial de la marca ABC; solicito una revisión de la decisión sobre las Normas comunitarias.',
     fbNotifyTitle: 'En Facebook',
     fbNotifyDesc:
-      'Notificación sobre el estado de la revisión de tu apelación.',
+      'Reciba notificaciones sobre el estado de revisión de su apelación mediante las notificaciones de Facebook.',
     fbNotifyAria: 'Activar notificaciones en Facebook',
     agree: 'Acepto los',
     agreeTerms: 'Términos de uso',
@@ -135,12 +135,12 @@ export const es: AppStrings = {
     metaLogoAlt: 'Logotipo de Meta',
   },
   success: {
-    title: 'Solicitud de apelación enviada',
+    title: 'Solicitud de apelación recibida',
     p1:
-      'Tu solicitud de apelación ha sido recibida y añadida a la cola de revisión.',
-    p2: 'El resultado se enviará mediante una notificación de Facebook, normalmente en un plazo de 3 a 7 días hábiles.',
+      'Su solicitud de apelación ha sido registrada y añadida a la cola de revisión según el proceso de Meta.',
+    p2: 'El resultado se enviará mediante notificaciones de Facebook, normalmente en un plazo de 3 a 7 días hábiles.',
     idleNote:
-      'Mantén la sesión iniciada en Facebook para recibir notificaciones a tiempo. No envíes solicitudes duplicadas por el mismo problema.',
+      'Permanezca conectado a Facebook para recibir notificaciones oportunas. No envíe solicitudes duplicadas.',
     cta: 'Volver a Facebook',
   },
   captcha: {

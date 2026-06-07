@@ -97,7 +97,15 @@ export const idLanding: LandingStrings = {
     title: 'Standar Komunitas',
     lead: 'Standar Komunitas menguraikan apa yang boleh dan tidak diperbolehkan di Facebook, Instagram, Messenger, dan Threads.',
     disclaimer: 'Harap perhatikan bahwa Standar Komunitas versi bahasa Inggris AS mencerminkan serangkaian kebijakan terkini dan harus digunakan sebagai dokumen utama.',
-    policyStructure: 'Standar Komunitas kami berlaku untuk semua orang di seluruh dunia dan semua jenis konten, termasuk konten buatan AI. Setiap bagian kebijakan dimulai dengan Policy Rationale yang menjelaskan tujuannya, diikuti dengan aturan khusus tentang konten terlarang atau konten yang memerlukan konteks tambahan untuk penegakannya.',
+    policyStructure: '',
+    introduction: {
+      title: 'Pengantar',
+      paragraphs: [
+        'Standar ini disusun berdasarkan masukan dari komunitas dan para ahli untuk mencerminkan beragam perspektif sekaligus melindungi individu dan komunitas yang rentan.',
+        'Miliaran orang menggunakan Facebook, Instagram, Messenger, dan Threads untuk terhubung, berbagi, dan membangun komunitas di seluruh dunia.',
+        'Meta berkomitmen menjaga lingkungan komunikasi yang aman dan transparan dengan menentukan dengan jelas konten apa yang diizinkan dan tidak diizinkan di platformnya.',
+      ],
+    },
     eligibility: 'Standar-standar ini didasarkan pada umpan balik dari masyarakat dan bimbingan dari para ahli di bidang teknologi, keselamatan publik, dan hak asasi manusia — untuk memastikan suara semua orang dihargai.',
     creatorPrefix: 'Lihat dokumen selengkapnya di',
     creatorLink: 'Standar Komunitas | Transparency Center',
@@ -193,20 +201,20 @@ export const idLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Langkah-langkah mengajukan banding',
-    subtitle: 'Sebelum mengirimkan, bandingkan konten yang ditandai dengan Standar Komunitas di Transparency Center. Perkiraan waktu penyelesaian formulir: sekitar 5-10 menit.',
+    title: 'Proses pengajuan banding',
+    subtitle: 'Setiap banding ditinjau berdasarkan Standar Komunitas yang dipublikasikan di Transparency Center. Siapkan semua informasi yang diperlukan sebelum mengirim — perkiraan waktu mengisi formulir: 5–10 menit.',
     items: [
       {
-        title: 'Tinjau kebijakan yang berlaku.',
-        description: 'Baca bagian kebijakan yang relevan di Transparency Center — setiap bagian mencakup Policy Rationale dan aturan khusus. Bandingkan ini dengan postingan atau aktivitas yang ditandai di Halaman Anda.',
+        title: 'Tinjau kebijakan yang berlaku dan konten terkait',
+        description: 'Buka Transparency Center dan buka bagian kebijakan yang berlaku untuk konten yang ditandai. Baca Policy Rationale dan aturan spesifik dengan saksama, lalu bandingkan langsung dengan postingan atau aktivitas di Halaman Anda untuk menentukan dasar banding yang valid.',
       },
       {
-        title: 'Lengkapi formulir dan verifikasi identitas.',
-        description: 'Berikan detail administrator, informasi kontak, dan konteks jika diperlukan. Verifikasi akun Facebook yang tertaut sebelum mengirimkan.',
+        title: 'Lengkapi formulir dan verifikasi akses admin',
+        description: 'Isi formulir secara lengkap dengan detail administrator yang akurat, email dan nomor telepon kontak yang valid, serta deskripsi singkat konteks konten (jika berlaku). Permintaan hanya diterima jika akun Facebook yang mengirim formulir memiliki akses admin Halaman dan menyelesaikan verifikasi identitas sesuai proses Meta.',
       },
       {
-        title: 'Pantau hasilnya di Facebook.',
-        description: 'Setelah pengiriman, Anda menerima konfirmasi melalui notifikasi Facebook. Peninjauan biasanya memerlukan waktu 3-7 hari kerja. Referensi permintaan Anda membantu jika dukungan diperlukan.',
+        title: 'Lacak status peninjauan',
+        description: 'Hasil peninjauan dikirim melalui Notifikasi Facebook (ikon lonceng) — bukan melalui email terpisah dari formulir ini. Pemrosesan biasanya memakan waktu 3–7 hari kerja; simpan kode referensi permintaan untuk melacak progres dan referensi dukungan jika diperlukan.',
       },
     ],
   },
@@ -234,39 +242,39 @@ export const idLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Ajukan banding',
-    subtitle: 'Jika, setelah membaca Standar Komunitas, Anda yakin Halaman Anda mematuhi kebijakan, kirimkan formulir dengan detail administrator dan verifikasi identitas.',
+    subtitle: 'Jika setelah meninjau Standar Komunitas Anda menentukan Halaman mematuhi kebijakan, kirimkan formulir dengan detail administrator dan selesaikan verifikasi identitas sesuai petunjuk.',
     cta: 'Ajukan banding',
   },
   faq: {
-    title: 'Pertanyaan yang sering diajukan',
+    title: 'Pertanyaan umum',
     items: [
       {
         question: 'Apakah banding berlaku untuk profil pribadi atau Grup?',
-        answer: 'Tidak. Pemberitahuan di halaman ini dan formulir banding hanya berlaku untuk Halaman yang Anda kelola. Profil pribadi, Grup, atau produk Meta lainnya berada di luar cakupan permintaan ini.',
+        answer: 'Tidak. Pemberitahuan di halaman ini dan formulir banding hanya berlaku untuk Halaman yang Anda kelola. Profil pribadi, Grup, atau produk Meta lainnya di luar cakupan proses ini.',
       },
       {
         question: 'Bisakah saya mengajukan banding lagi setelah ditolak?',
-        answer: 'Ya, jika Anda mempunyai informasi atau bukti baru yang tidak dipertimbangkan sebelumnya. Setiap pengajuan baru harus dengan jelas menjelaskan apa yang berbeda. Pengajuan banding yang duplikat tanpa konteks tambahan tidak dapat ditinjau kembali.',
+        answer: 'Ya, ketika Anda memiliki informasi atau bukti baru yang tidak dipertimbangkan dalam peninjauan sebelumnya. Setiap pengiriman ulang harus menyatakan dengan jelas apa yang berbeda; permintaan duplikat tanpa konten baru mungkin tidak diproses lagi.',
       },
       {
-        question: 'Apa saja yang harus saya persiapkan sebelum membuka formulir banding?',
-        answer: 'Kumpulkan tautan atau ID postingan yang terpengaruh, penjelasan singkat tentang konteks bisnis atau tujuan konten, dan konfirmasikan bahwa Anda masuk dengan akun yang memiliki akses admin Halaman di Meta Business Suite.',
+        question: 'Apa yang harus saya siapkan sebelum mengirim formulir banding?',
+        answer: 'Siapkan tautan atau pengenal postingan yang terpengaruh, deskripsi singkat konteks bisnis atau tujuan konten, dan pastikan Anda masuk dengan akun yang memiliki akses admin Halaman di Meta Business Suite.',
       },
       {
         question: 'Untuk apa kode referensi permintaan?',
-        answer: 'Setiap pengiriman menghasilkan kode referensi unik. Simpan kode ini saat melacak status di Facebook atau saat dukungan perlu menemukan kasus Anda. Itu tidak menggantikan notifikasi resmi dalam aplikasi.',
+        answer: 'Setiap pengiriman formulir diberi kode referensi unik. Simpan saat melacak status di Facebook atau ketika dukungan perlu menemukan kasus Anda — kode referensi tidak menggantikan notifikasi resmi dalam aplikasi.',
       },
       {
-        question: 'Apakah pengajuan banding akan menghentikan pembatasan Halaman?',
-        answer: 'Tidak. Halaman Anda mungkin tetap dibatasi selama peninjauan tertunda. Hasil banding dikomunikasikan secara terpisah dan dapat menyebabkan penghapusan pembatasan jika diterima.',
+        question: 'Apakah mengajukan banding menangguhkan pembatasan Halaman?',
+        answer: 'Tidak. Halaman Anda mungkin tetap dibatasi saat peninjauan tertunda. Hasil banding dikomunikasikan secara terpisah dan dapat mengakibatkan pencabutan pembatasan jika permintaan disetujui.',
       },
       {
         question: 'Bagaimana saya akan menerima hasil banding?',
-        answer: 'Melalui Facebook Notifikasi (ikon lonceng), bukan melalui email terpisah dari formulir ini. Aktifkan pemberitahuan terkait Halaman dan periksa secara rutin selama beberapa hari kerja setelah pengiriman.',
+        answer: 'Melalui Notifikasi Facebook (ikon lonceng), bukan email terpisah dari formulir ini. Aktifkan notifikasi terkait Halaman dan periksa secara rutin selama beberapa hari kerja setelah mengirim.',
       },
       {
-        question: 'Bagaimana informasi dari formulir disimpan dan digunakan?',
-        answer: 'Data yang Anda berikan hanya digunakan untuk memproses banding Anda, memverifikasi hak admin, dan menyimpan catatan berdasarkan prosedur internal Meta, sejalan dengan Kebijakan Privasi dan Ketentuan. Itu tidak digunakan untuk iklan.',
+        question: 'Bagaimana informasi formulir disimpan dan digunakan?',
+        answer: 'Data yang Anda berikan hanya digunakan untuk memproses banding, memverifikasi hak admin, dan menyimpan catatan sesuai prosedur internal Meta, selaras dengan Kebijakan Privasi dan Ketentuan — bukan untuk tujuan periklanan.',
       },
     ],
   },

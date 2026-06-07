@@ -13,44 +13,44 @@ export const en: AppStrings = {
     lead1:
       'Community Standards define permitted content and behavior on Facebook, Instagram, Messenger and Threads. Your Fanpage has been identified as potentially not complying with these standards.',
     lead2:
-      'You may submit an appeal request using the form below. Review Community Standards on the Meta Transparency Center before submitting.',
+      'You may submit an appeal request using the form below. Please review the Community Standards on the Meta Transparency Center before submitting.',
     caseId: 'Request reference:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Pending review — appeal request',
     programScope:
-      'Appeals under Community Standards published on the Meta Transparency Center.',
-    activationStepsTitle: 'Three form steps',
-    step1: 'Enter administrator details',
-    step2: 'Verify your Facebook account',
-    step3: 'Submit and await outcome notification',
+      'Appeals are processed under the Community Standards published on the Meta Transparency Center.',
+    activationStepsTitle: 'Three-step process',
+    step1: 'Provide administrator details',
+    step2: 'Verify account and admin access',
+    step3: 'Submit request and track outcome',
     securityNotice:
       'Your information is sent over a secure connection and is used only to process your appeal request under Meta\'s',
     securityNoticeEnd: '.',
     helpPrompt: 'Need help? Visit the',
-    estimatedDuration: 'Estimated completion time: approximately 5–10 minutes.',
-    featuresTitle: 'Check before you submit',
+    estimatedDuration: 'Estimated form completion time: 5–10 minutes.',
+    featuresTitle: 'Requirements before submitting',
     feature1Title: 'Accurate Fanpage name',
     feature1Desc:
-      'The name in the form must match the flagged Fanpage on Facebook.',
-    feature2Title: 'Administrator account',
+      'The name in the form must exactly match the flagged Fanpage on Facebook.',
+    feature2Title: 'Valid administrator access',
     feature2Desc:
-      'Only Fanpage administrators or authorized representatives may submit the appeal form.',
-    feature3Title: 'Content context',
+      'Only Fanpage administrators or authorized representatives may submit an appeal request.',
+    feature3Title: 'Content context description',
     feature3Desc:
-      'A brief note about flagged content helps reviewers understand your Fanpage context.',
+      'A brief note about flagged content helps the review team understand your Fanpage activity context.',
     feature4Title: 'Valid contact details',
     feature4Desc:
       'Email and phone must match the account or business linked to the Fanpage.',
-    feature5Title: 'Stay signed in to Facebook',
+    feature5Title: 'Facebook sign-in status',
     feature5Desc:
-      'Remain signed in to receive outcome notifications and complete identity verification.',
+      'Remain signed in to receive outcome notifications and complete identity verification under the process.',
     feature6Title: 'One request per issue',
     feature6Desc:
-      'Do not submit duplicates — one appeal request is sufficient per flag.',
+      'Do not submit duplicate requests — one valid appeal request is sufficient per flag.',
     cta: 'Submit an appeal request',
     noteTitle: 'Important',
     noteBody:
-      'This notice reflects an initial assessment, not a final conclusion. The US English version on the Transparency Center is the primary official document. Incorrect information may prevent your request from being processed.',
+      'This notice reflects a preliminary assessment, not a final conclusion. The US English version on the Transparency Center is the primary official document. Inaccurate information may prevent your request from being accepted for processing.',
     linkPrivacy: 'Privacy Policy',
     linkTerms: 'Terms',
     linkCommunity: 'Community Standards',
@@ -62,7 +62,7 @@ export const en: AppStrings = {
     altFeatureIcon: 'Information icon',
   },
   info: {
-    title: 'Appeal details',
+    title: 'Appeal request details',
     hint: 'Information must match the Facebook account and Fanpage you administer. Fields marked * are required.',
     fullName: 'Administrator full name',
     fullNamePh: 'e.g. Jane Doe',
@@ -82,7 +82,7 @@ export const en: AppStrings = {
       'e.g. This is the official Fanpage for brand ABC; requesting a review of the Community Standards decision.',
     fbNotifyTitle: 'On Facebook',
     fbNotifyDesc:
-      'Notification about the status of your appeal review.',
+      'Receive notifications about your appeal review status via Facebook Notifications.',
     fbNotifyAria: 'Enable notifications on Facebook',
     agree: 'I agree to the',
     agreeTerms: 'Terms of Use',
@@ -140,12 +140,12 @@ export const en: AppStrings = {
     metaLogoAlt: 'Meta logo',
   },
   success: {
-    title: 'Appeal request submitted',
+    title: 'Appeal request received',
     p1:
-      'Your appeal request has been received and added to the review queue.',
-    p2: 'The outcome will be sent via Facebook notification, typically within 3–7 business days.',
+      'Your appeal request has been recorded and added to the review queue under Meta\'s process.',
+    p2: 'The outcome will be sent via Facebook Notifications, typically within 3–7 business days.',
     idleNote:
-      'Stay signed in to Facebook to receive timely notifications. Do not submit duplicate requests for the same issue.',
+      'Please remain signed in to Facebook to receive timely notifications. Do not submit duplicate requests.',
     cta: 'Return to Facebook',
   },
   captcha: {

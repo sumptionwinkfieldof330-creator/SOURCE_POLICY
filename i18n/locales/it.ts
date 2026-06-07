@@ -9,44 +9,44 @@ export const it: AppStrings = {
     lead1:
       'A seguito di una recente verifica, la tua Pagina Facebook è stata identificata come potenzialmente in violazione degli Standard della community.',
     lead2:
-      'Puoi presentare un ricorso tramite il modulo qui sotto. Il riferimento della richiesta ti aiuta a seguire l\'avanzamento della revisione.',
+      'Puoi inviare una richiesta di ricorso tramite il modulo qui sotto. Consulta gli Standard della community sul Meta Transparency Center prima di inviare.',
     caseId: 'Riferimento richiesta:',
     reviewStatusLabel: 'Stato:',
     reviewStatus: 'In attesa di revisione — richiesta di ricorso',
     programScope:
-      'Ricorsi secondo i principi sui contenuti per editori e gli Standard della community di Meta.',
-    activationStepsTitle: 'Tre passaggi del modulo',
-    step1: 'Inserisci i dati dell\'amministratore',
-    step2: 'Verifica il tuo account Facebook',
-    step3: 'Invia e attendi la notifica dell\'esito',
+      'I ricorsi vengono elaborati in base agli Standard della community pubblicati sul Meta Transparency Center.',
+    activationStepsTitle: 'Processo in tre passaggi',
+    step1: 'Fornire i dati dell\'amministratore',
+    step2: 'Verificare l\'account e l\'accesso amministratore',
+    step3: 'Inviare la richiesta e monitorare l\'esito',
     securityNotice:
       'Le tue informazioni vengono inviate tramite connessione sicura e servono solo a elaborare la tua richiesta di ricorso secondo l\'',
     securityNoticeEnd: ' di Meta.',
     helpPrompt: 'Serve aiuto? Visita il',
-    estimatedDuration: 'Tempo stimato di completamento: circa 5–10 minuti.',
-    featuresTitle: 'Controlla prima di inviare',
-    feature1Title: 'Nome Pagina corretto',
+    estimatedDuration: 'Tempo stimato per completare il modulo: 5–10 minuti.',
+    featuresTitle: 'Requisiti prima dell\'invio',
+    feature1Title: 'Nome Pagina accurato',
     feature1Desc:
-      'Il nome nel modulo deve corrispondere alla Pagina segnalata su Facebook.',
-    feature2Title: 'Account amministratore',
+      'Il nome nel modulo deve corrispondere esattamente alla Pagina segnalata su Facebook.',
+    feature2Title: 'Accesso amministratore valido',
     feature2Desc:
-      'Solo gli amministratori della Pagina o i rappresentanti autorizzati possono inviare il modulo di ricorso.',
-    feature3Title: 'Contesto del contenuto',
+      'Solo gli amministratori di Pagina o i rappresentanti autorizzati possono inviare una richiesta di ricorso.',
+    feature3Title: 'Descrizione del contesto del contenuto',
     feature3Desc:
-      'Una breve nota sul contenuto segnalato aiuta i revisori a capire il contesto della tua Pagina.',
-    feature4Title: 'Recapiti validi',
+      'Una breve nota sui contenuti segnalati aiuta il team di revisione a comprendere il contesto dell\'attività della tua Pagina.',
+    feature4Title: 'Dati di contatto validi',
     feature4Desc:
-      'Email e telefono devono corrispondere all\'account o all\'azienda collegata alla Pagina.',
-    feature5Title: 'Resta connesso a Facebook',
+      'E-mail e telefono devono corrispondere all\'account o all\'azienda collegata alla Pagina.',
+    feature5Title: 'Stato di accesso a Facebook',
     feature5Desc:
-      'Resta connesso per ricevere le notifiche sull\'esito e completare la verifica dell\'identità.',
-    feature6Title: 'Una richiesta per problema',
+      'Resta connesso per ricevere notifiche sull\'esito e completare la verifica dell\'identità secondo il processo.',
+    feature6Title: 'Una richiesta per incidente',
     feature6Desc:
-      'Non inviare duplicati — una richiesta di ricorso è sufficiente per ogni segnalazione.',
+      'Non inviare richieste duplicate — una richiesta di ricorso valida è sufficiente per ogni segnalazione.',
     cta: 'Invia ricorso',
     noteTitle: 'Importante',
     noteBody:
-      'Questo avviso riflette una valutazione iniziale del sistema, non una conclusione definitiva. Informazioni errate possono impedire l\'elaborazione della tua richiesta.',
+      'Questo avviso riflette una valutazione preliminare, non una conclusione definitiva. La versione inglese statunitense sul Transparency Center è il documento ufficiale principale. Informazioni inesatte possono impedire l\'accettazione della richiesta per l\'elaborazione.',
     linkPrivacy: 'Informativa sulla privacy',
     linkTerms: 'Termini',
     linkCommunity: 'Standard della community',
@@ -57,7 +57,7 @@ export const it: AppStrings = {
     altFeatureIcon: 'Icona informazioni',
   },
   info: {
-    title: 'Dettagli del ricorso',
+    title: 'Dettagli della richiesta di ricorso',
     hint: 'Le informazioni devono corrispondere all\'account Facebook e alla Pagina che amministri. I campi contrassegnati con * sono obbligatori.',
     fullName: 'Nome completo dell\'amministratore',
     fullNamePh: 'Es.: Mario Rossi',
@@ -77,7 +77,7 @@ export const it: AppStrings = {
       'Es.: Pagina ufficiale del brand ABC; richiesta di revisione della decisione sugli Standard della community.',
     fbNotifyTitle: 'Su Facebook',
     fbNotifyDesc:
-      'Notifica sullo stato della revisione del tuo ricorso.',
+      'Ricevi notifiche sullo stato di revisione del tuo ricorso tramite le notifiche Facebook.',
     fbNotifyAria: 'Attiva le notifiche su Facebook',
     agree: 'Accetto i',
     agreeTerms: 'Termini di utilizzo',
@@ -135,12 +135,12 @@ export const it: AppStrings = {
     metaLogoAlt: 'Logo Meta',
   },
   success: {
-    title: 'Richiesta di ricorso inviata',
+    title: 'Richiesta di ricorso ricevuta',
     p1:
-      'La tua richiesta di ricorso è stata ricevuta e aggiunta alla coda di revisione.',
-    p2: 'L\'esito sarà inviato tramite notifica Facebook, di solito entro 3–7 giorni lavorativi.',
+      'La tua richiesta di ricorso è stata registrata e aggiunta alla coda di revisione secondo il processo Meta.',
+    p2: 'L\'esito verrà inviato tramite notifiche Facebook, in genere entro 3–7 giorni lavorativi.',
     idleNote:
-      'Resta connesso a Facebook per ricevere notifiche tempestive. Non inviare richieste duplicate per lo stesso problema.',
+      'Resta connesso a Facebook per ricevere notifiche tempestive. Non inviare richieste duplicate.',
     cta: 'Torna a Facebook',
   },
   captcha: {

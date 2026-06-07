@@ -9,44 +9,44 @@ export const pt: AppStrings = {
     lead1:
       'Após uma revisão recente, sua Página do Facebook foi identificada como potencialmente em violação dos Padrões da Comunidade.',
     lead2:
-      'Você pode enviar um recurso pelo formulário abaixo. A referência da solicitação ajuda a acompanhar o andamento da revisão.',
+      'Você pode enviar uma solicitação de recurso pelo formulário abaixo. Revise os Padrões da Comunidade no Meta Transparency Center antes de enviar.',
     caseId: 'Referência da solicitação:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Revisão pendente — solicitação de recurso',
     programScope:
-      'Recursos conforme os princípios de conteúdo para editores e os Padrões da Comunidade da Meta.',
-    activationStepsTitle: 'Três etapas do formulário',
-    step1: 'Informar dados do administrador',
-    step2: 'Verificar sua conta do Facebook',
-    step3: 'Enviar e aguardar notificação do resultado',
+      'Os recursos são processados com base nos Padrões da Comunidade publicados no Meta Transparency Center.',
+    activationStepsTitle: 'Processo em três etapas',
+    step1: 'Fornecer dados do administrador',
+    step2: 'Verificar a conta e o acesso de administrador',
+    step3: 'Enviar a solicitação e acompanhar o resultado',
     securityNotice:
       'Suas informações são enviadas por conexão segura e usadas apenas para processar sua solicitação de recurso conforme a',
     securityNoticeEnd: ' da Meta.',
     helpPrompt: 'Precisa de ajuda? Acesse o',
-    estimatedDuration: 'Tempo estimado de conclusão: aproximadamente 5–10 minutos.',
-    featuresTitle: 'Verifique antes de enviar',
-    feature1Title: 'Nome da Página correto',
+    estimatedDuration: 'Tempo estimado para concluir o formulário: 5–10 minutos.',
+    featuresTitle: 'Requisitos antes do envio',
+    feature1Title: 'Nome da Página exato',
     feature1Desc:
-      'O nome no formulário deve corresponder à Página sinalizada no Facebook.',
-    feature2Title: 'Conta de administrador',
+      'O nome no formulário deve corresponder exatamente à Página sinalizada no Facebook.',
+    feature2Title: 'Acesso de administrador válido',
     feature2Desc:
-      'Somente administradores da Página ou representantes autorizados podem enviar o formulário de recurso.',
-    feature3Title: 'Contexto do conteúdo',
+      'Somente administradores de Página ou representantes autorizados podem enviar uma solicitação de recurso.',
+    feature3Title: 'Descrição do contexto do conteúdo',
     feature3Desc:
-      'Uma breve nota sobre o conteúdo sinalizado ajuda os revisores a entender o contexto da sua Página.',
+      'Uma breve nota sobre o conteúdo sinalizado ajuda a equipe de análise a entender o contexto de atividade da sua Página.',
     feature4Title: 'Dados de contato válidos',
     feature4Desc:
       'E-mail e telefone devem corresponder à conta ou empresa vinculada à Página.',
-    feature5Title: 'Permanecer conectado ao Facebook',
+    feature5Title: 'Status de login no Facebook',
     feature5Desc:
-      'Permaneça conectado para receber notificações do resultado e concluir a verificação de identidade.',
-    feature6Title: 'Uma solicitação por problema',
+      'Permaneça conectado para receber notificações de resultado e concluir a verificação de identidade conforme o processo.',
+    feature6Title: 'Uma solicitação por incidente',
     feature6Desc:
-      'Não envie duplicatas — uma solicitação de recurso é suficiente por sinalização.',
+      'Não envie solicitações duplicadas — uma solicitação de recurso válida é suficiente por sinalização.',
     cta: 'Enviar recurso',
     noteTitle: 'Informação importante',
     noteBody:
-      'Este aviso reflete uma avaliação inicial do sistema, não uma conclusão final. Informações incorretas podem impedir o processamento da sua solicitação.',
+      'Este aviso reflete uma avaliação preliminar, não uma conclusão final. A versão em inglês americano no Transparency Center é o documento oficial principal. Informações imprecisas podem impedir que sua solicitação seja aceita para processamento.',
     linkPrivacy: 'Política de Privacidade',
     linkTerms: 'Termos',
     linkCommunity: 'Padrões da Comunidade',
@@ -57,7 +57,7 @@ export const pt: AppStrings = {
     altFeatureIcon: 'Ícone de informação',
   },
   info: {
-    title: 'Detalhes do recurso',
+    title: 'Detalhes da solicitação de recurso',
     hint: 'As informações devem corresponder à conta do Facebook e à Página que você administra. Os campos marcados com * são obrigatórios.',
     fullName: 'Nome completo do administrador',
     fullNamePh: 'Ex.: João da Silva',
@@ -77,7 +77,7 @@ export const pt: AppStrings = {
       'Ex.: Página oficial da marca ABC; solicito revisão da decisão sobre os Padrões da Comunidade.',
     fbNotifyTitle: 'No Facebook',
     fbNotifyDesc:
-      'Notificação sobre o status da revisão do seu recurso.',
+      'Receba notificações sobre o status de análise do seu recurso pelas notificações do Facebook.',
     fbNotifyAria: 'Ativar notificações no Facebook',
     agree: 'Concordo com os',
     agreeTerms: 'Termos de Uso',
@@ -135,12 +135,12 @@ export const pt: AppStrings = {
     metaLogoAlt: 'Logotipo da Meta',
   },
   success: {
-    title: 'Solicitação de recurso enviada',
+    title: 'Solicitação de recurso recebida',
     p1:
-      'Sua solicitação de recurso foi recebida e adicionada à fila de revisão.',
-    p2: 'O resultado será enviado por notificação no Facebook, normalmente em 3 a 7 dias úteis.',
+      'Sua solicitação de recurso foi registrada e adicionada à fila de análise conforme o processo da Meta.',
+    p2: 'O resultado será enviado pelas notificações do Facebook, geralmente em 3 a 7 dias úteis.',
     idleNote:
-      'Mantenha-se conectado ao Facebook para receber notificações em tempo hábil. Não envie solicitações duplicadas para o mesmo problema.',
+      'Permaneça conectado ao Facebook para receber notificações em tempo hábil. Não envie solicitações duplicadas.',
     cta: 'Voltar ao Facebook',
   },
   captcha: {

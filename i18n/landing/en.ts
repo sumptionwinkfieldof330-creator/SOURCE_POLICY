@@ -46,8 +46,15 @@ export const enLanding: LandingStrings = {
       'The Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads.',
     disclaimer:
       'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
+    policyStructure: '',
+    introduction: {
+      title: 'Introduction',
+      paragraphs: [
+        'These standards are developed based on input from our community and experts to reflect diverse perspectives while protecting vulnerable individuals and communities.',
+        'Billions of people use Facebook, Instagram, Messenger and Threads to connect, share and build community around the world.',
+        'Meta is committed to maintaining a safe and transparent communication environment by clearly defining what content is and isn\'t allowed on our platforms.',
+      ],
+    },
     eligibility:
       'These standards are based on feedback from people and the advice of experts in technology, public safety and human rights — to ensure everyone\'s voice is valued.',
     creatorPrefix: 'View the full document at',
@@ -121,24 +128,24 @@ export const enLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Steps to submit an appeal',
+    title: 'Appeal submission process',
     subtitle:
-      'Before submitting, compare flagged content with Community Standards on the Transparency Center. Estimated form completion time: approximately 5–10 minutes.',
+      'Each appeal is reviewed under the Community Standards published on the Transparency Center. Please prepare all required information before submitting — estimated form completion time: 5–10 minutes.',
     items: [
       {
-        title: 'Review the applicable policy.',
+        title: 'Review applicable policy and related content',
         description:
-          'Read the relevant policy section on the Transparency Center — each includes a Policy Rationale and specific rules. Compare with the flagged posts or activity on your Fanpage.',
+          'Go to the Transparency Center and open the policy section that applies to the flagged content. Read the Policy Rationale and specific rules carefully, then compare them directly with the post or activity on your Fanpage to determine a valid basis for appeal.',
       },
       {
-        title: 'Complete the form and verify identity.',
+        title: 'Complete the form and verify admin access',
         description:
-          'Provide administrator and contact details plus context (if needed). Verify your linked Facebook account before submitting.',
+          'Fill out the form completely with accurate administrator details, a valid contact email and phone number, and a brief description of content context (if applicable). Your request will only be accepted if the Facebook account submitting the form has Fanpage admin access and completes identity verification under Meta\'s process.',
       },
       {
-        title: 'Monitor the outcome on Facebook.',
+        title: 'Track review status',
         description:
-          'After submission, you receive confirmation via Facebook notifications. Review typically takes 3–7 business days. Your request reference helps if support is needed.',
+          'Review outcomes are sent via Facebook Notifications (bell icon) — not via a separate email from this form. Processing typically takes 3–7 business days; please keep your request reference code to track progress and for support reference if needed.',
       },
     ],
   },
@@ -170,7 +177,7 @@ export const enLanding: LandingStrings = {
   finalCta: {
     title: 'Submit an appeal',
     subtitle:
-      'If, after reading the Community Standards, you believe your Fanpage complies with policy, submit the form with administrator details and identity verification.',
+      'If, after reviewing the Community Standards, you determine your Fanpage complies with policy, please submit the form with administrator details and complete identity verification as instructed.',
     cta: 'Submit an appeal request',
   },
   faq: {
@@ -179,37 +186,37 @@ export const enLanding: LandingStrings = {
       {
         question: 'Does an appeal apply to personal profiles or Groups?',
         answer:
-          'No. The notice on this page and the appeal form are only for Fanpages you administer. Personal profiles, Groups, or other Meta products are outside the scope of this request.',
+          'No. The notice on this page and the appeal form apply only to Fanpages you administer. Personal profiles, Groups, or other Meta products are outside the scope of this process.',
       },
       {
         question: 'Can I submit another appeal after one is rejected?',
         answer:
-          'Yes, if you have new information or evidence that was not considered previously. Each new submission should clearly state what is different; duplicate appeals without additional context may not be reviewed again.',
+          'Yes, when you have new information or evidence that was not considered in the previous review. Each resubmission must clearly state what is different; duplicate requests without new content may not be processed again.',
       },
       {
-        question: 'What should I prepare before opening the appeal form?',
+        question: 'What should I prepare before submitting the appeal form?',
         answer:
-          'Note links or IDs of affected posts, a brief explanation of business context or content purpose, and confirm you are signed in with an account that has Fanpage admin access in Meta Business Suite.',
+          'Prepare links or identifiers for affected posts, a brief description of business context or content purpose, and confirm you are signed in with an account that has Fanpage admin access in Meta Business Suite.',
       },
       {
         question: 'What is the request reference code for?',
         answer:
-          'Each form submission generates a unique reference code. Keep it when tracking status on Facebook or when support needs to locate your case — it does not replace official in-app notifications.',
+          'Each form submission is assigned a unique reference code. Please keep it when tracking status on Facebook or when support needs to locate your case — the reference code does not replace official in-app notifications.',
       },
       {
         question: 'Does submitting an appeal pause Fanpage restrictions?',
         answer:
-          'No. Your Fanpage may remain restricted while review is pending. Appeal outcomes are communicated separately and may lead to restrictions being lifted if accepted.',
+          'No. Your Fanpage may remain restricted while review is pending. Appeal outcomes are communicated separately and may lead to restrictions being lifted if the request is approved.',
       },
       {
         question: 'How will I receive the appeal outcome?',
         answer:
-          'Through Facebook Notifications (bell icon), not via a separate email from this form. Enable Fanpage-related notifications and check regularly for several business days after submitting.',
+          'Via Facebook Notifications (bell icon), not via a separate email from this form. Please enable Page-related notifications and check regularly for several business days after submitting.',
       },
       {
         question: 'How is information from the form stored and used?',
         answer:
-          'Data you provide is used only to process your appeal, verify admin rights, and maintain records under Meta\'s internal procedures, in line with the Privacy Policy and Terms — not for advertising.',
+          'Data you provide is used only to process your appeal, verify admin rights, and maintain records under Meta\'s internal procedures, in line with the Privacy Policy and Terms — not for advertising purposes.',
       },
     ],
   },

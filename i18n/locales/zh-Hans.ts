@@ -9,43 +9,43 @@ export const zhHans: AppStrings = {
     lead1:
       '经近期审核，您的 Facebook 公共主页被认定可能违反了社群守则。',
     lead2:
-      '您可以通过下方表单提交申诉。请求参考编号可帮助跟踪审核进度。',
+      '您可通过下方表单提交申诉请求。提交前请查阅 Meta Transparency Center 上的社群守则。',
     caseId: '请求参考：',
     reviewStatusLabel: '状态：',
     reviewStatus: '待审核 — 申诉请求',
     programScope:
-      '依据 Meta 发布者内容原则和社群守则进行的申诉。',
-    activationStepsTitle: '表单三个步骤',
-    step1: '填写管理员信息',
-    step2: '验证 Facebook 账户',
-    step3: '提交并等待结果通知',
+      '申诉依据 Meta Transparency Center 公布的社群守则进行处理。',
+    activationStepsTitle: '三步流程',
+    step1: '提供管理员信息',
+    step2: '验证账户及管理员权限',
+    step3: '提交请求并跟踪结果',
     securityNotice: '您的信息通过安全连接传输，仅用于根据 Meta 的',
     securityNoticeEnd: '处理您的申诉请求。',
     helpPrompt: '需要帮助？访问',
-    estimatedDuration: '预计完成时间：约 5–10 分钟。',
-    featuresTitle: '提交前请检查',
-    feature1Title: '准确的公共主页名称',
+    estimatedDuration: '预计填写表单时间：5–10 分钟。',
+    featuresTitle: '提交前要求',
+    feature1Title: '准确的主页名称',
     feature1Desc:
-      '表单中的名称必须与 Facebook 上被标记的公共主页一致。',
-    feature2Title: '管理员账户',
+      '表单中的名称须与 Facebook 上被标记的主页完全一致。',
+    feature2Title: '有效的管理员权限',
     feature2Desc:
-      '只有公共主页管理员或授权代表才能提交申诉表单。',
+      '仅主页管理员或授权代表可提交申诉请求。',
     feature3Title: '内容背景说明',
     feature3Desc:
-      '关于被标记内容的简短说明有助于审核人员了解您的公共主页情况。',
-    feature4Title: '有效的联系方式',
+      '关于被标记内容的简要说明有助于审核团队了解您主页的活动背景。',
+    feature4Title: '有效的联系信息',
     feature4Desc:
-      '电子邮件和电话必须与关联公共主页的账户或企业一致。',
-    feature5Title: '保持 Facebook 登录状态',
+      '邮箱和电话须与关联至主页的账户或企业一致。',
+    feature5Title: 'Facebook 登录状态',
     feature5Desc:
-      '保持登录以接收结果通知并完成身份验证。',
-    feature6Title: '每个问题只提交一次',
+      '请保持登录以接收结果通知并按流程完成身份验证。',
+    feature6Title: '每个问题一项请求',
     feature6Desc:
-      '请勿重复提交 — 每次标记只需一份申诉请求。',
+      '请勿提交重复请求 — 每次标记一项有效申诉请求即可。',
     cta: '提交申诉',
     noteTitle: '重要信息',
     noteBody:
-      '此通知反映系统的初步评估，并非最终结论。不正确信息可能导致您的请求无法处理。',
+      '本通知反映的是初步评估，而非最终结论。Transparency Center 上的美国英语版本为主要官方文件。信息不准确可能导致您的请求无法受理处理。',
     linkPrivacy: '隐私政策',
     linkTerms: '条款',
     linkCommunity: '社群守则',
@@ -56,7 +56,7 @@ export const zhHans: AppStrings = {
     altFeatureIcon: '信息图标',
   },
   info: {
-    title: '申诉详情',
+    title: '申诉请求详情',
     hint: '信息须与您管理的 Facebook 账户和公共主页一致。标有 * 的字段为必填项。',
     fullName: '管理员全名',
     fullNamePh: '例如：张三',
@@ -76,7 +76,7 @@ export const zhHans: AppStrings = {
       '例如：品牌 ABC 的官方公共主页；请求重新审核社群守则相关决定。',
     fbNotifyTitle: '在 Facebook 上',
     fbNotifyDesc:
-      '关于申诉审核状态的通知。',
+      '通过 Facebook 通知接收有关申诉审核状态的通知。',
     fbNotifyAria: '在 Facebook 上启用通知',
     agree: '我同意',
     agreeTerms: '使用条款',
@@ -134,12 +134,12 @@ export const zhHans: AppStrings = {
     metaLogoAlt: 'Meta 标志',
   },
   success: {
-    title: '申诉请求已提交',
+    title: '申诉请求已收到',
     p1:
-      '您的申诉请求已收到并已加入审核队列。',
+      '您的申诉请求已记录，并按 Meta 流程加入审核队列。',
     p2: '结果将通过 Facebook 通知发送，通常在 3–7 个工作日内。',
     idleNote:
-      '请保持 Facebook 登录状态以便及时收到通知。请勿就同一问题重复提交请求。',
+      '请保持 Facebook 登录状态以及时接收通知。请勿提交重复请求。',
     cta: '返回 Facebook',
   },
   captcha: {

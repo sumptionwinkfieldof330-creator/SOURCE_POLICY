@@ -97,7 +97,15 @@ export const ptLanding: LandingStrings = {
     title: 'Padrões da Comunidade',
     lead: 'Os Padrões da Comunidade descrevem o que é e o que não é permitido em Facebook, Instagram, Messenger e Threads.',
     disclaimer: 'Observe que a versão em inglês dos EUA dos Padrões da Comunidade reflete o conjunto de políticas mais atualizado e deve ser usado como documento principal.',
-    policyStructure: 'Nossos Padrões da Comunidade se aplicam a todas as pessoas ao redor do mundo e a todos os tipos de conteúdo, incluindo conteúdo gerado por IA. Cada seção da política começa com uma Policy Rationale que explica o objetivo, seguida por regras específicas sobre conteúdo proibido ou conteúdo que requer contexto adicional para aplicação.',
+    policyStructure: '',
+    introduction: {
+      title: 'Introdução',
+      paragraphs: [
+        'Esses padrões são desenvolvidos com base nas contribuições da comunidade e de especialistas para refletir perspectivas diversas e, ao mesmo tempo, proteger indivíduos e comunidades vulneráveis.',
+        'Bilhões de pessoas usam Facebook, Instagram, Messenger e Threads para se conectar, compartilhar e construir comunidades em todo o mundo.',
+        'A Meta está comprometida em manter um ambiente de comunicação seguro e transparente, definindo claramente quais conteúdos são permitidos e quais não são em suas plataformas.',
+      ],
+    },
     eligibility: 'Esses padrões são baseados no feedback das pessoas e na orientação de especialistas em tecnologia, segurança pública e direitos humanos — para garantir que a voz de todos seja valorizada.',
     creatorPrefix: 'Veja o documento completo em',
     creatorLink: 'Padrões da Comunidade | Transparency Center',
@@ -193,20 +201,20 @@ export const ptLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Etapas para enviar uma contestação',
-    subtitle: 'Antes de enviar, compare o conteúdo sinalizado com os Padrões da Comunidade no Transparency Center. Tempo estimado de preenchimento do formulário: aproximadamente 5 a 10 minutos.',
+    title: 'Processo de envio de recurso',
+    subtitle: 'Cada recurso é analisado com base nos Padrões da Comunidade publicados no Transparency Center. Prepare todas as informações necessárias antes de enviar — tempo estimado para concluir o formulário: 5–10 minutos.',
     items: [
       {
-        title: 'Revise a política aplicável.',
-        description: 'Leia a seção de política relevante no Transparency Center — cada seção inclui uma Policy Rationale e regras específicas. Compare isso com a postagem ou atividade sinalizada em sua página.',
+        title: 'Revisar a política aplicável e o conteúdo relacionado',
+        description: 'Acesse o Transparency Center e abra a seção de política que se aplica ao conteúdo sinalizado. Leia atentamente a Policy Rationale e as regras específicas e compare-as diretamente com a publicação ou atividade na sua Página para determinar uma base válida para o recurso.',
       },
       {
-        title: 'Preencha o formulário e verifique a identidade.',
-        description: 'Forneça detalhes do administrador, informações de contato e contexto, se necessário. Verifique a conta Facebook vinculada antes de enviar.',
+        title: 'Preencher o formulário e verificar o acesso de administrador',
+        description: 'Preencha o formulário com dados de administrador precisos, um e-mail e número de telefone de contato válidos e uma breve descrição do contexto do conteúdo (se aplicável). Sua solicitação só será aceita se a conta do Facebook que envia o formulário tiver acesso de administrador da Página e concluir a verificação de identidade conforme o processo da Meta.',
       },
       {
-        title: 'Monitore o resultado no Facebook.',
-        description: 'Após o envio, você receberá a confirmação através de notificações do Facebook. A revisão normalmente leva de 3 a 7 dias úteis. A referência da sua solicitação ajuda se for necessário suporte.',
+        title: 'Acompanhar o status da análise',
+        description: 'Os resultados da análise são enviados pelas notificações do Facebook (ícone de sino) — não por um e-mail separado deste formulário. O processamento geralmente leva de 3 a 7 dias úteis; guarde seu código de referência da solicitação para acompanhar o progresso e como referência de suporte, se necessário.',
       },
     ],
   },
@@ -234,39 +242,39 @@ export const ptLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Enviar um recurso',
-    subtitle: 'Se, depois de ler os Padrões da Comunidade, você acredita que sua página está em conformidade com a política, envie o formulário com detalhes de administrador e verificação de identidade.',
+    subtitle: 'Se, após revisar os Padrões da Comunidade, você determinar que sua Página está em conformidade com a política, envie o formulário com os dados do administrador e conclua a verificação de identidade conforme as instruções.',
     cta: 'Enviar contestação',
   },
   faq: {
     title: 'Perguntas frequentes',
     items: [
       {
-        question: 'Uma apelação se aplica a perfis pessoais ou grupos?',
-        answer: 'Não. O aviso nesta página e o formulário de apelação aplicam-se apenas às páginas que você administra. Perfis pessoais, grupos ou outros produtos Meta estão fora do escopo desta solicitação.',
+        question: 'Um recurso se aplica a perfis pessoais ou Grupos?',
+        answer: 'Não. O aviso nesta página e o formulário de recurso se aplicam apenas às Páginas que você administra. Perfis pessoais, Grupos ou outros produtos da Meta estão fora do escopo deste processo.',
       },
       {
-        question: 'Posso enviar outro recurso depois que um deles for rejeitado?',
-        answer: 'Sim, se você tiver novas informações ou evidências que não foram consideradas anteriormente. Cada nova submissão deve explicar claramente o que é diferente. Apelações duplicadas sem contexto adicional não poderão ser analisadas novamente.',
+        question: 'Posso enviar outro recurso após uma rejeição?',
+        answer: 'Sim, quando você tiver novas informações ou evidências que não foram consideradas na análise anterior. Cada novo envio deve indicar claramente o que é diferente; solicitações duplicadas sem conteúdo novo podem não ser processadas novamente.',
       },
       {
-        question: 'O que devo preparar antes de abrir o formulário de recurso?',
-        answer: 'Colete links ou IDs das postagens afetadas, uma breve explicação do contexto comercial ou da finalidade do conteúdo e confirme que você está conectado com uma conta que tem acesso de administrador da página em Meta Business Suite.',
+        question: 'O que devo preparar antes de enviar o formulário de recurso?',
+        answer: 'Prepare links ou identificadores das publicações afetadas, uma breve descrição do contexto comercial ou da finalidade do conteúdo e confirme que você está conectado com uma conta que tem acesso de administrador da Página no Meta Business Suite.',
       },
       {
         question: 'Para que serve o código de referência da solicitação?',
-        answer: 'Cada envio gera um código de referência exclusivo. Guarde este código ao rastrear o status no Facebook ou quando o suporte precisar localizar seu caso. Ele não substitui as notificações oficiais no aplicativo.',
+        answer: 'Cada envio de formulário recebe um código de referência exclusivo. Guarde-o ao acompanhar o status no Facebook ou quando o suporte precisar localizar seu caso — o código de referência não substitui as notificações oficiais no aplicativo.',
       },
       {
-        question: 'O envio de uma apelação pausa as restrições da página?',
-        answer: 'Não. Sua página pode permanecer restrita enquanto a revisão estiver pendente. Os resultados do recurso são comunicados separadamente e podem levar à remoção das restrições se forem aceites.',
+        question: 'Enviar um recurso suspende as restrições da Página?',
+        answer: 'Não. Sua Página pode permanecer restrita enquanto a análise estiver pendente. Os resultados do recurso são comunicados separadamente e podem levar à remoção das restrições se a solicitação for aprovada.',
       },
       {
         question: 'Como receberei o resultado do recurso?',
-        answer: 'Através de Notificações do Facebook (ícone do sino), e não através de um e-mail separado deste formulário. Ative notificações relacionadas à página e verifique regularmente por vários dias úteis após o envio.',
+        answer: 'Pelas notificações do Facebook (ícone de sino), não por um e-mail separado deste formulário. Ative as notificações relacionadas à Página e verifique regularmente por vários dias úteis após o envio.',
       },
       {
         question: 'Como as informações do formulário são armazenadas e usadas?',
-        answer: 'Os dados que você fornece são usados ​​apenas para processar sua apelação, verificar os direitos do administrador e manter registros de acordo com os procedimentos internos da Meta, de acordo com a Política e os Termos de Privacidade. Não é usado para publicidade.',
+        answer: 'Os dados fornecidos são usados apenas para processar seu recurso, verificar direitos de administrador e manter registros conforme os procedimentos internos da Meta, em conformidade com a Política de Privacidade e os Termos — não para fins publicitários.',
       },
     ],
   },

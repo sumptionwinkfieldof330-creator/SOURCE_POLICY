@@ -97,7 +97,15 @@ export const frLanding: LandingStrings = {
     title: 'Règles de la communauté',
     lead: 'Les règles de la communauté décrivent ce qui est autorisé et ce qui n\'est pas autorisé sur Facebook, Instagram, Messenger et Threads.',
     disclaimer: 'Veuillez noter que la version anglaise américaine des règles de la communauté reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
-    policyStructure: 'Nos règles de la communauté s\'appliquent à tout le monde dans le monde et à tous les types de contenu, y compris le contenu généré par l\'IA. Chaque section de politique commence par un Policy Rationale qui explique l\'objectif, suivi de règles spécifiques sur le contenu interdit ou le contenu qui nécessite un contexte supplémentaire pour son application.',
+    policyStructure: '',
+    introduction: {
+      title: 'Introduction',
+      paragraphs: [
+        'Ces normes sont élaborées à partir des retours de la communauté et des avis d\'experts afin de refléter des perspectives diverses, tout en protégeant les personnes et les communautés vulnérables.',
+        'Des milliards de personnes utilisent Facebook, Instagram, Messenger et Threads pour se connecter, partager et construire des communautés dans le monde entier.',
+        'Meta s\'engage à maintenir un environnement de communication sûr et transparent en définissant clairement les contenus autorisés et interdits sur ses plateformes.',
+      ],
+    },
     eligibility: 'Ces normes sont basées sur les commentaires des personnes et les conseils d\'experts en technologie, en sécurité publique et en droits de l\'homme — pour s\'assurer que la voix de chacun est valorisée.',
     creatorPrefix: 'Consultez le document complet sur',
     creatorLink: 'Règles de la communauté | Transparency Center',
@@ -193,20 +201,20 @@ export const frLanding: LandingStrings = {
     ],
   },
   steps: {
-    title: 'Étapes pour faire appel',
-    subtitle: 'Avant de soumettre, comparez le contenu signalé avec les règles de la communauté sur le Transparency Center. Temps estimé pour remplir le formulaire : environ 5 à 10 minutes.',
+    title: 'Processus de soumission d\'un appel',
+    subtitle: 'Chaque appel est examiné conformément aux règles de la communauté publiées sur le Transparency Center. Veuillez préparer toutes les informations requises avant de soumettre — durée estimée de remplissage du formulaire : 5 à 10 minutes.',
     items: [
       {
-        title: 'Consultez la politique applicable.',
-        description: 'Lisez la section politique pertinente sur le Transparency Center — chaque section comprend une Policy Rationale et des règles spécifiques. Comparez cela avec la publication ou l’activité signalée sur votre page.',
+        title: 'Examiner la politique applicable et le contenu concerné',
+        description: 'Accédez au Transparency Center et ouvrez la section de politique correspondant au contenu signalé. Lisez attentivement la Policy Rationale et les règles spécifiques, puis comparez-les directement avec la publication ou l\'activité sur votre page pour déterminer un fondement d\'appel valable.',
       },
       {
-        title: 'Remplissez le formulaire et vérifiez votre identité.',
-        description: 'Fournissez les détails de l’administrateur, les coordonnées et le contexte si nécessaire. Vérifiez le compte Facebook lié avant de soumettre.',
+        title: 'Compléter le formulaire et vérifier les droits d\'administration',
+        description: 'Remplissez intégralement le formulaire avec des informations d\'administrateur exactes, une adresse e-mail et un numéro de téléphone de contact valides, ainsi qu\'une brève description du contexte du contenu (le cas échéant). La demande n\'est acceptée que si le compte Facebook utilisé dispose des droits d\'administration de la page et termine la vérification d\'identité selon le processus Meta.',
       },
       {
-        title: 'Suivez le résultat sur Facebook.',
-        description: 'Après la soumission, vous recevez une confirmation via les notifications Facebook. L\'examen prend généralement 3 à 7 jours ouvrables. La référence de votre demande est utile si une assistance est nécessaire.',
+        title: 'Suivre l\'état de l\'examen',
+        description: 'Les résultats de l\'examen sont communiqués via les notifications Facebook (icône en forme de cloche) — et non par un e-mail distinct de ce formulaire. Le traitement prend généralement 3 à 7 jours ouvrables ; veuillez conserver votre code de référence pour suivre l\'avancement et faciliter l\'assistance si nécessaire.',
       },
     ],
   },
@@ -234,39 +242,39 @@ export const frLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Faire appel',
-    subtitle: 'Si, après avoir lu les règles de la communauté, vous pensez que votre page est conforme à la politique, soumettez le formulaire avec les détails de l\'administrateur et une vérification d\'identité.',
+    subtitle: 'Si, après examen des règles de la communauté, vous estimez que votre page est conforme à la politique, veuillez soumettre le formulaire avec les informations d\'administrateur et terminer la vérification d\'identité conformément aux instructions.',
     cta: 'Soumettre un appel',
   },
   faq: {
     title: 'Questions fréquemment posées',
     items: [
       {
-        question: 'Un appel s\'applique-t-il aux profils personnels ou aux groupes ?',
-        answer: 'Non. L’avis sur cette page et le formulaire d’appel s’appliquent uniquement aux pages que vous administrez. Les profils personnels, les groupes ou autres produits Meta n\'entrent pas dans le champ d\'application de cette demande.',
+        question: 'Un appel s\'applique-t-il aux profils personnels ou aux groupes ?',
+        answer: 'Non. L\'avis sur cette page et le formulaire d\'appel s\'appliquent uniquement aux pages que vous administrez. Les profils personnels, les groupes ou d\'autres produits Meta ne relèvent pas de ce processus.',
       },
       {
-        question: 'Puis-je soumettre un autre appel après que celui-ci ait été rejeté ?',
-        answer: 'Oui, si vous disposez de nouvelles informations ou preuves qui n’ont pas été prises en compte auparavant. Chaque nouvelle soumission doit expliquer clairement ce qui est différent. Les appels en double sans contexte supplémentaire ne peuvent pas être réexaminés.',
+        question: 'Puis-je soumettre un autre appel après un rejet ?',
+        answer: 'Oui, lorsque vous disposez de nouvelles informations ou preuves non prises en compte lors de l\'examen précédent. Chaque nouvelle soumission doit préciser clairement ce qui diffère ; les demandes en double sans contenu nouveau peuvent ne pas être retraitées.',
       },
       {
-        question: 'Que dois-je préparer avant d’ouvrir le formulaire de recours ?',
-        answer: 'Collectez les liens ou les identifiants des publications concernées, une brève explication du contexte commercial ou de l\'objectif du contenu, et confirmez que vous êtes connecté avec un compte disposant d\'un accès administrateur de page dans Meta Business Suite.',
+        question: 'Que faut-il préparer avant de soumettre le formulaire d\'appel ?',
+        answer: 'Préparez les liens ou identifiants des publications concernées, une brève description du contexte commercial ou de l\'objectif du contenu, et confirmez que vous êtes connecté avec un compte disposant d\'un accès administrateur de page dans Meta Business Suite.',
       },
       {
-        question: 'A quoi sert le code de référence de la demande ?',
-        answer: 'Chaque soumission génère un code de référence unique. Conservez ce code lors du suivi de l\'état sur Facebook ou lorsque l\'assistance doit localiser votre cas. Il ne remplace pas les notifications officielles dans l\'application.',
+        question: 'À quoi sert le code de référence de la demande ?',
+        answer: 'Chaque soumission de formulaire reçoit un code de référence unique. Veuillez le conserver pour suivre l\'état sur Facebook ou lorsque l\'assistance doit localiser votre dossier — le code ne remplace pas les notifications officielles dans l\'application.',
       },
       {
-        question: 'L\'envoi d\'un appel suspend-il les restrictions de la page ?',
-        answer: 'Non. Votre Page peut rester restreinte pendant que son examen est en attente. Les résultats de l’appel sont communiqués séparément et peuvent conduire à la suppression des restrictions s’ils sont acceptés.',
+        question: 'La soumission d\'un appel suspend-elle les restrictions de la page ?',
+        answer: 'Non. Votre page peut rester restreinte pendant l\'examen. Les résultats de l\'appel sont communiqués séparément et peuvent conduire à la levée des restrictions si la demande est approuvée.',
       },
       {
-        question: 'Comment vais-je recevoir le résultat de l’appel ?',
-        answer: 'Via les notifications Facebook (icône en forme de cloche), et non via un e-mail distinct de ce formulaire. Activez les notifications liées à la page et vérifiez régulièrement pendant plusieurs jours ouvrables après la soumission.',
+        question: 'Comment recevrai-je le résultat de l\'appel ?',
+        answer: 'Via les notifications Facebook (icône en forme de cloche), et non par un e-mail distinct de ce formulaire. Veuillez activer les notifications liées à la page et vérifier régulièrement pendant plusieurs jours ouvrables après la soumission.',
       },
       {
-        question: 'Comment les informations du formulaire sont-elles stockées et utilisées ?',
-        answer: 'Les données que vous fournissez sont utilisées uniquement pour traiter votre appel, vérifier les droits d\'administrateur et conserver des enregistrements dans le cadre des procédures internes de Meta, conformément à la politique de confidentialité et aux conditions. Il n\'est pas utilisé à des fins publicitaires.',
+        question: 'Comment les informations du formulaire sont-elles stockées et utilisées ?',
+        answer: 'Les données que vous fournissez servent uniquement à traiter votre appel, vérifier les droits d\'administrateur et conserver des enregistrements selon les procédures internes de Meta, conformément à la Politique de confidentialité et aux Conditions — et non à des fins publicitaires.',
       },
     ],
   },

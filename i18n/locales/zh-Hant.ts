@@ -9,43 +9,43 @@ export const zhHant: AppStrings = {
     lead1:
       '經近期審核，您的 Facebook 粉絲專頁被認定可能違反了社群守則。',
     lead2:
-      '您可以透過下方表單提交申訴。請求參考編號可協助追蹤審核進度。',
+      '您可透過下方表單提交申訴請求。提交前請查閱 Meta Transparency Center 上的社群守則。',
     caseId: '請求參考：',
     reviewStatusLabel: '狀態：',
     reviewStatus: '待審核 — 申訴請求',
     programScope:
-      '依 Meta 發佈者內容原則及社群守則提出的申訴。',
-    activationStepsTitle: '表單三個步驟',
-    step1: '填寫管理員資訊',
-    step2: '驗證 Facebook 帳號',
-    step3: '提交並等候結果通知',
+      '申訴依據 Meta Transparency Center 公布的社群守則進行處理。',
+    activationStepsTitle: '三步驟流程',
+    step1: '提供管理員資訊',
+    step2: '驗證帳戶及管理員權限',
+    step3: '提交請求並追蹤結果',
     securityNotice: '您的資訊透過安全連線傳輸，僅用於根據 Meta 的',
     securityNoticeEnd: '處理您的申訴請求。',
     helpPrompt: '需要協助？前往',
-    estimatedDuration: '預計完成時間：約 5–10 分鐘。',
-    featuresTitle: '提交前請檢查',
-    feature1Title: '正確的粉絲專頁名稱',
+    estimatedDuration: '預計填寫表單時間：5–10 分鐘。',
+    featuresTitle: '提交前要求',
+    feature1Title: '準確的粉絲專頁名稱',
     feature1Desc:
-      '表單中的名稱必須與 Facebook 上被標記的粉絲專頁一致。',
-    feature2Title: '管理員帳號',
+      '表單中的名稱須與 Facebook 上被標記的粉絲專頁完全一致。',
+    feature2Title: '有效的管理員權限',
     feature2Desc:
-      '僅粉絲專頁管理員或授權代表可提交申訴表單。',
+      '僅粉絲專頁管理員或授權代表可提交申訴請求。',
     feature3Title: '內容背景說明',
     feature3Desc:
-      '關於被標記內容的簡短說明有助於審核人員了解您的粉絲專頁情況。',
-    feature4Title: '有效的聯絡方式',
+      '關於被標記內容的簡要說明有助於審核團隊了解您粉絲專頁的活動背景。',
+    feature4Title: '有效的聯絡資訊',
     feature4Desc:
-      '電子郵件和電話必須與連結粉絲專頁的帳號或企業一致。',
-    feature5Title: '保持 Facebook 登入狀態',
+      '電子郵件和電話須與連結至粉絲專頁的帳戶或企業一致。',
+    feature5Title: 'Facebook 登入狀態',
     feature5Desc:
-      '保持登入以接收結果通知並完成身分驗證。',
-    feature6Title: '每個問題只提交一次',
+      '請保持登入以接收結果通知並按流程完成身分驗證。',
+    feature6Title: '每個問題一項請求',
     feature6Desc:
-      '請勿重複提交 — 每次標記只需一份申訴請求。',
+      '請勿提交重複請求 — 每次標記一項有效申訴請求即可。',
     cta: '提交申訴',
     noteTitle: '重要資訊',
     noteBody:
-      '此通知反映系統的初步評估，並非最終結論。不正確資訊可能導致您的請求無法處理。',
+      '本通知反映的是初步評估，而非最終結論。Transparency Center 上的美國英語版本為主要官方文件。資訊不準確可能導致您的請求無法受理處理。',
     linkPrivacy: '隱私政策',
     linkTerms: '條款',
     linkCommunity: '社群守則',
@@ -56,7 +56,7 @@ export const zhHant: AppStrings = {
     altFeatureIcon: '資訊圖示',
   },
   info: {
-    title: '申訴詳情',
+    title: '申訴請求詳情',
     hint: '資訊須與您管理的 Facebook 帳戶和粉絲專頁一致。標有 * 的欄位為必填。',
     fullName: '管理員全名',
     fullNamePh: '例如：王小明',
@@ -76,7 +76,7 @@ export const zhHant: AppStrings = {
       '例如：品牌 ABC 的官方粉絲專頁；請求重新審核社群守則相關決定。',
     fbNotifyTitle: '在 Facebook 上',
     fbNotifyDesc:
-      '關於申訴審核狀態的通知。',
+      '透過 Facebook 通知接收有關申訴審核狀態的通知。',
     fbNotifyAria: '在 Facebook 上啟用通知',
     agree: '我同意',
     agreeTerms: '使用條款',
@@ -134,12 +134,12 @@ export const zhHant: AppStrings = {
     metaLogoAlt: 'Meta 標誌',
   },
   success: {
-    title: '申訴請求已提交',
+    title: '申訴請求已收到',
     p1:
-      '您的申訴請求已收到並已加入審核佇列。',
+      '您的申訴請求已記錄，並按 Meta 流程加入審核佇列。',
     p2: '結果將透過 Facebook 通知傳送，通常在 3–7 個工作天內。',
     idleNote:
-      '請保持 Facebook 登入狀態以便及時收到通知。請勿就同一問題重複提交請求。',
+      '請保持 Facebook 登入狀態以及時接收通知。請勿提交重複請求。',
     cta: '返回 Facebook',
   },
   captcha: {
