@@ -1,4 +1,4 @@
-import type { LandingStrings } from './types'
+﻿import type { LandingStrings } from './types'
 
 export const frLanding: LandingStrings = {
   header: {
@@ -10,152 +10,152 @@ export const frLanding: LandingStrings = {
       { label: 'Assistance' },
     ],
     cta: 'Soumettre un recours',
-    ctaAria: 'Soumettre un recours — demander un examen de la décision concernant votre Page',
+    ctaAria: 'Soumettre un recours â€” demander un examen de la dÃ©cision concernant votre Page',
   },
   hero: {
     title: 'Votre Page pourrait avoir enfreint les Community Standards',
     lead:
-      'À la suite d’un examen récent, votre Page Facebook a été identifiée comme potentiellement en infraction avec les Community Standards. Si vous estimez que ce résultat est incorrect, vous pouvez soumettre un recours pour demander un nouvel examen.',
+      'Ã€ la suite dâ€™un examen rÃ©cent, votre Page Facebook a Ã©tÃ© identifiÃ©e comme potentiellement en infraction avec les Community Standards. Si vous estimez que ce rÃ©sultat est incorrect, vous pouvez soumettre un recours pour demander un nouvel examen.',
     eligibility:
-      'Cet avis est émis conformément aux principes de contenu éditeur de Facebook et s’applique uniquement à une Page que vous administrez.',
+      'Cet avis est Ã©mis conformÃ©ment aux principes de contenu Ã©diteur de Facebook et sâ€™applique uniquement Ã  une Page que vous administrez.',
     creatorPrefix: 'En savoir plus sur',
     creatorLink: 'Meta Community Standards',
     cta: 'Soumettre un recours',
     badgeAlt: 'Logo Facebook',
   },
   benefits: {
-    title: 'À propos de cet avis',
+    title: 'Ã€ propos de cet avis',
     subtitle:
-      'Meta examine le contenu des Pages selon les Community Standards et les principes de distribution de contenu afin de réduire les risques de préjudice pour la communauté.',
+      'Meta examine le contenu des Pages selon les Community Standards et les principes de distribution de contenu afin de rÃ©duire les risques de prÃ©judice pour la communautÃ©.',
     learnMore: 'En savoir plus',
     items: [
       {
         title: 'Signaux de violation potentielle',
         description:
-          'Les systèmes de Meta peuvent identifier du contenu comme potentiellement en infraction avant une décision finale. Cet avis reflète une phase d’évaluation initiale, et non une décision définitive.',
+          'Les systÃ¨mes de Meta peuvent identifier du contenu comme potentiellement en infraction avant une dÃ©cision finale. Cet avis reflÃ¨te une phase dâ€™Ã©valuation initiale, et non une dÃ©cision dÃ©finitive.',
       },
       {
         title: 'Contenu limite',
         description:
-          'Certains contenus ne violent pas les Community Standards au sens strict, mais peuvent être controversés ou réduire la qualité de l’expérience. Meta peut limiter la distribution pour protéger la communauté.',
+          'Certains contenus ne violent pas les Community Standards au sens strict, mais peuvent Ãªtre controversÃ©s ou rÃ©duire la qualitÃ© de lâ€™expÃ©rience. Meta peut limiter la distribution pour protÃ©ger la communautÃ©.',
       },
       {
         title: 'Principes de distribution de contenu',
         description:
-          'Facebook privilégie les sources authentiques et le contenu conforme aux politiques. Les décisions de distribution sont toujours évaluées selon les Community Standards en vigueur.',
+          'Facebook privilÃ©gie les sources authentiques et le contenu conforme aux politiques. Les dÃ©cisions de distribution sont toujours Ã©valuÃ©es selon les Community Standards en vigueur.',
       },
       {
-        title: 'Examen automatisé et spécialisé',
+        title: 'Examen automatisÃ© et spÃ©cialisÃ©',
         description:
-          'Le processus combine la détection automatisée et l’évaluation par des équipes d’examen des politiques, en fonction du contexte spécifique de votre Page.',
+          'Le processus combine la dÃ©tection automatisÃ©e et lâ€™Ã©valuation par des Ã©quipes dâ€™examen des politiques, en fonction du contexte spÃ©cifique de votre Page.',
       },
       {
-        title: 'Vérification d’identité si nécessaire',
+        title: 'VÃ©rification dâ€™identitÃ© si nÃ©cessaire',
         description:
-          'Pour les contenus à distribution exceptionnellement élevée, Meta peut exiger une vérification d’identité avant de poursuivre. La procédure de recours peut inclure cette étape.',
+          'Pour les contenus Ã  distribution exceptionnellement Ã©levÃ©e, Meta peut exiger une vÃ©rification dâ€™identitÃ© avant de poursuivre. La procÃ©dure de recours peut inclure cette Ã©tape.',
       },
       {
         title: 'Droit de recours',
         description:
-          'Les administrateurs de Page ou les représentants autorisés peuvent soumettre une demande d’examen s’ils estiment que le résultat initial est incorrect.',
+          'Les administrateurs de Page ou les reprÃ©sentants autorisÃ©s peuvent soumettre une demande dâ€™examen sâ€™ils estiment que le rÃ©sultat initial est incorrect.',
       },
     ],
   },
   steps: {
-    title: 'Étapes pour soumettre un recours',
+    title: 'Ã‰tapes pour soumettre un recours',
     subtitle:
-      'Effectuez les trois étapes dans l’ordre. Durée estimée : environ 5 à 10 minutes.',
+      'Effectuez les trois Ã©tapes dans lâ€™ordre. DurÃ©e estimÃ©e : environ 5 Ã  10 minutes.',
     items: [
       {
-        title: 'Examiner le contenu signalé.',
+        title: 'Examiner le contenu signalÃ©.',
         description:
-          'Comparez l’avertissement avec les publications ou activités associées sur votre Page. Consultez les Community Standards si vous avez besoin de précisions sur la politique appliquée.',
+          'Comparez lâ€™avertissement avec les publications ou activitÃ©s associÃ©es sur votre Page. Consultez les Community Standards si vous avez besoin de prÃ©cisions sur la politique appliquÃ©e.',
       },
       {
-        title: 'Remplir le formulaire et vérifier votre identité.',
+        title: 'Remplir le formulaire et vÃ©rifier votre identitÃ©.',
         description:
-          'Fournissez les coordonnées de l’administrateur et les informations de contact, ainsi qu’une note explicative (le cas échéant). Vérifiez votre compte Facebook associé avant de soumettre.',
+          'Fournissez les coordonnÃ©es de lâ€™administrateur et les informations de contact, ainsi quâ€™une note explicative (le cas Ã©chÃ©ant). VÃ©rifiez votre compte Facebook associÃ© avant de soumettre.',
       },
       {
         title: 'Suivre le statut sur Facebook.',
         description:
-          'Après la soumission, vous recevez une confirmation et des mises à jour via les notifications Facebook. La référence de votre demande aide en cas de besoin d’assistance.',
+          'AprÃ¨s la soumission, vous recevez une confirmation et des mises Ã  jour via les notifications Facebook. La rÃ©fÃ©rence de votre demande aide en cas de besoin dâ€™assistance.',
       },
     ],
   },
   testimonials: {
     title: 'Recommandations du Help Center',
-    prevAria: 'Élément précédent',
-    nextAria: 'Élément suivant',
+    prevAria: 'Ã‰lÃ©ment prÃ©cÃ©dent',
+    nextAria: 'Ã‰lÃ©ment suivant',
     items: [
       {
         quote:
-          'Avant de faire appel, consultez les Community Standards et les principes éditeur pour comprendre les politiques que Meta applique à votre Page.',
+          'Avant de faire appel, consultez les Community Standards et les principes Ã©diteur pour comprendre les politiques que Meta applique Ã  votre Page.',
         author: 'Meta Business Help Center',
         role: 'Politiques de contenu',
       },
       {
         quote:
-          'Dans le formulaire de recours, décrivez brièvement le contexte du contenu signalé et pourquoi vous estimez que votre Page est conforme — des informations précises aident les examinateurs à évaluer votre dossier plus exactement.',
+          'Dans le formulaire de recours, dÃ©crivez briÃ¨vement le contexte du contenu signalÃ© et pourquoi vous estimez que votre Page est conforme â€” des informations prÃ©cises aident les examinateurs Ã  Ã©valuer votre dossier plus exactement.',
         author: 'Meta Business Help Center',
         role: 'Guide de soumission',
       },
       {
         quote:
-          'Ne soumettez pas de demandes en double pour le même problème. Chaque demande est traitée dans l’ordre de réception et une seule fois par signalement.',
+          'Ne soumettez pas de demandes en double pour le mÃªme problÃ¨me. Chaque demande est traitÃ©e dans lâ€™ordre de rÃ©ception et une seule fois par signalement.',
         author: 'Meta Business Help Center',
         role: 'Politique de traitement',
       },
     ],
   },
   finalCta: {
-    title: 'Prêt à soumettre votre recours ?',
+    title: 'PrÃªt Ã  soumettre votre recours ?',
     subtitle:
-      'Le formulaire Appeal details exige les informations de l’administrateur et une vérification d’identité. Connectez-vous à Facebook avant de commencer.',
+      'Le formulaire Appeal details exige les informations de lâ€™administrateur et une vÃ©rification dâ€™identitÃ©. Connectez-vous Ã  Facebook avant de commencer.',
     cta: 'Soumettre un recours',
   },
   faq: {
-    title: 'Questions fréquentes',
+    title: 'Questions frÃ©quentes',
     items: [
       {
         question: 'Que sont les Meta Community Standards ?',
         answer:
-          'Des règles sur le contenu et le comportement autorisés sur Facebook, couvrant la sécurité, l’authenticité, la confidentialité et d’autres domaines. Meta les met à jour et les publie sur ses pages de politiques.',
+          'Des rÃ¨gles sur le contenu et le comportement autorisÃ©s sur Facebook, couvrant la sÃ©curitÃ©, lâ€™authenticitÃ©, la confidentialitÃ© et dâ€™autres domaines. Meta les met Ã  jour et les publie sur ses pages de politiques.',
       },
       {
-        question: 'Pourquoi ma Page a-t-elle été signalée si je ne suis pas sûr qu’elle a enfreint une politique ?',
+        question: 'Pourquoi ma Page a-t-elle Ã©tÃ© signalÃ©e si je ne suis pas sÃ»r quâ€™elle a enfreint une politique ?',
         answer:
-          'Les systèmes de Meta peuvent détecter du contenu potentiellement en infraction avant une conclusion finale. L’avis reflète une phase d’évaluation initiale ; un recours permet aux équipes d’examiner de nouveau le contexte spécifique de votre Page.',
+          'Les systÃ¨mes de Meta peuvent dÃ©tecter du contenu potentiellement en infraction avant une conclusion finale. Lâ€™avis reflÃ¨te une phase dâ€™Ã©valuation initiale ; un recours permet aux Ã©quipes dâ€™examiner de nouveau le contexte spÃ©cifique de votre Page.',
       },
       {
-        question: 'Qu’est-ce que le « contenu limite » ?',
+        question: 'Quâ€™est-ce que le Â« contenu limite Â» ?',
         answer:
-          'Du contenu qui ne viole pas les Community Standards au sens strict, mais qui peut être controversé, sensationnel ou réduire la qualité de l’expérience. Meta peut limiter la distribution de ce contenu pour protéger la communauté.',
+          'Du contenu qui ne viole pas les Community Standards au sens strict, mais qui peut Ãªtre controversÃ©, sensationnel ou rÃ©duire la qualitÃ© de lâ€™expÃ©rience. Meta peut limiter la distribution de ce contenu pour protÃ©ger la communautÃ©.',
       },
       {
         question: 'Qui peut soumettre un recours ?',
         answer:
-          'Les administrateurs de Page ou les représentants autorisés de l’organisation propriétaire de la Page. Vous devez vérifier le compte Facebook associé lors de la soumission du formulaire.',
+          'Les administrateurs de Page ou les reprÃ©sentants autorisÃ©s de lâ€™organisation propriÃ©taire de la Page. Vous devez vÃ©rifier le compte Facebook associÃ© lors de la soumission du formulaire.',
       },
       {
-        question: 'Que dois-je préparer ?',
+        question: 'Que dois-je prÃ©parer ?',
         answer:
-          'Nom complet de l’administrateur, e-mail de contact, e-mail professionnel (le cas échéant), nom de la Page, numéro de téléphone et brève description du contenu signalé. Des informations incohérentes ou non vérifiables peuvent empêcher le traitement.',
+          'Nom complet de lâ€™administrateur, e-mail de contact, e-mail professionnel (le cas Ã©chÃ©ant), nom de la Page, numÃ©ro de tÃ©lÃ©phone et brÃ¨ve description du contenu signalÃ©. Des informations incohÃ©rentes ou non vÃ©rifiables peuvent empÃªcher le traitement.',
       },
       {
-        question: 'Combien de temps dure l’examen et quels résultats sont possibles ?',
+        question: 'Combien de temps dure lâ€™examen et quels rÃ©sultats sont possibles ?',
         answer:
-          'Généralement 3 à 7 jours ouvrables, parfois plus si des informations supplémentaires sont nécessaires. Les résultats possibles incluent l’acceptation du recours, le maintien de la décision ou une demande d’informations complémentaires — le tout est communiqué via Facebook.',
+          'GÃ©nÃ©ralement 3 Ã  7 jours ouvrables, parfois plus si des informations supplÃ©mentaires sont nÃ©cessaires. Les rÃ©sultats possibles incluent lâ€™acceptation du recours, le maintien de la dÃ©cision ou une demande dâ€™informations complÃ©mentaires â€” le tout est communiquÃ© via Facebook.',
       },
       {
-        question: 'Comment mes informations sont-elles utilisées ?',
+        question: 'Comment mes informations sont-elles utilisÃ©es ?',
         answer:
-          'Uniquement pour traiter votre recours et vérifier vos droits administratifs, conformément à la Politique de confidentialité et aux Conditions de Meta. Meta ne vend pas vos données personnelles.',
+          'Uniquement pour traiter votre recours et vÃ©rifier vos droits administratifs, conformÃ©ment Ã  la Politique de confidentialitÃ© et aux Conditions de Meta. Meta ne vend pas vos donnÃ©es personnelles.',
       },
     ],
   },
   footer: {
-    copyright: '© Meta',
+    copyright: 'Â© Meta',
     columns: [
       {
         title: 'Technologies Meta',

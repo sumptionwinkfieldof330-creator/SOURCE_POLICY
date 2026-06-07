@@ -1,161 +1,161 @@
-import type { LandingStrings } from './types'
+﻿import type { LandingStrings } from './types'
 
 export const ptLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
       { label: 'Guia' },
-      { label: 'Políticas' },
+      { label: 'PolÃ­ticas' },
       { label: 'Ajuda' },
       { label: 'Suporte' },
     ],
     cta: 'Enviar recurso',
-    ctaAria: 'Enviar recurso — solicitar revisão da decisão sobre a sua Página',
+    ctaAria: 'Enviar recurso â€” solicitar revisÃ£o da decisÃ£o sobre a sua PÃ¡gina',
   },
   hero: {
-    title: 'A sua Página pode ter violado as Community Standards',
+    title: 'A sua PÃ¡gina pode ter violado as Community Standards',
     lead:
-      'Após uma revisão recente, a sua Página do Facebook foi identificada como potencialmente em violação das Community Standards. Se acredita que este resultado está incorreto, pode enviar um recurso para solicitar uma revisão.',
+      'ApÃ³s uma revisÃ£o recente, a sua PÃ¡gina do Facebook foi identificada como potencialmente em violaÃ§Ã£o das Community Standards. Se acredita que este resultado estÃ¡ incorreto, pode enviar um recurso para solicitar uma revisÃ£o.',
     eligibility:
-      'Este aviso é emitido nos termos dos princípios de conteúdo para editores do Facebook e aplica-se apenas a uma Página que você administra.',
+      'Este aviso Ã© emitido nos termos dos princÃ­pios de conteÃºdo para editores do Facebook e aplica-se apenas a uma PÃ¡gina que vocÃª administra.',
     creatorPrefix: 'Saiba mais sobre',
     creatorLink: 'Meta Community Standards',
     cta: 'Enviar recurso',
-    badgeAlt: 'Logótipo do Facebook',
+    badgeAlt: 'LogÃ³tipo do Facebook',
   },
   benefits: {
     title: 'Sobre este aviso',
     subtitle:
-      'A Meta analisa o conteúdo das Páginas com base nas Community Standards e nos princípios de distribuição de conteúdo para reduzir possíveis danos à comunidade.',
+      'A Meta analisa o conteÃºdo das PÃ¡ginas com base nas Community Standards e nos princÃ­pios de distribuiÃ§Ã£o de conteÃºdo para reduzir possÃ­veis danos Ã  comunidade.',
     learnMore: 'Saiba mais',
     items: [
       {
-        title: 'Sinais de possível violação',
+        title: 'Sinais de possÃ­vel violaÃ§Ã£o',
         description:
-          'Os sistemas da Meta podem identificar conteúdo como potencialmente em violação antes de uma determinação final. Este aviso reflete uma fase de avaliação inicial, não uma decisão definitiva.',
+          'Os sistemas da Meta podem identificar conteÃºdo como potencialmente em violaÃ§Ã£o antes de uma determinaÃ§Ã£o final. Este aviso reflete uma fase de avaliaÃ§Ã£o inicial, nÃ£o uma decisÃ£o definitiva.',
       },
       {
-        title: 'Conteúdo limítrofe',
+        title: 'ConteÃºdo limÃ­trofe',
         description:
-          'Alguns conteúdos podem não violar literalmente as Community Standards, mas podem ser controversos ou reduzir a qualidade da experiência. A Meta pode limitar a distribuição para proteger a comunidade.',
+          'Alguns conteÃºdos podem nÃ£o violar literalmente as Community Standards, mas podem ser controversos ou reduzir a qualidade da experiÃªncia. A Meta pode limitar a distribuiÃ§Ã£o para proteger a comunidade.',
       },
       {
-        title: 'Princípios de distribuição de conteúdo',
+        title: 'PrincÃ­pios de distribuiÃ§Ã£o de conteÃºdo',
         description:
-          'O Facebook prioriza fontes autênticas e conteúdo em conformidade com as políticas. As decisões de distribuição são sempre avaliadas com base nas Community Standards atuais.',
+          'O Facebook prioriza fontes autÃªnticas e conteÃºdo em conformidade com as polÃ­ticas. As decisÃµes de distribuiÃ§Ã£o sÃ£o sempre avaliadas com base nas Community Standards atuais.',
       },
       {
-        title: 'Revisão automatizada e especializada',
+        title: 'RevisÃ£o automatizada e especializada',
         description:
-          'O processo combina deteção automatizada com avaliação por equipas de revisão de políticas, com base no contexto específico da sua Página.',
+          'O processo combina deteÃ§Ã£o automatizada com avaliaÃ§Ã£o por equipas de revisÃ£o de polÃ­ticas, com base no contexto especÃ­fico da sua PÃ¡gina.',
       },
       {
-        title: 'Verificação de identidade quando necessário',
+        title: 'VerificaÃ§Ã£o de identidade quando necessÃ¡rio',
         description:
-          'Para conteúdo com distribuição excecionalmente elevada, a Meta pode exigir verificação de identidade antes de prosseguir. O processo de recurso pode incluir este passo.',
+          'Para conteÃºdo com distribuiÃ§Ã£o excecionalmente elevada, a Meta pode exigir verificaÃ§Ã£o de identidade antes de prosseguir. O processo de recurso pode incluir este passo.',
       },
       {
         title: 'Direito de recurso',
         description:
-          'Administradores da Página ou representantes autorizados podem submeter um pedido de revisão se acreditarem que o resultado inicial está incorreto.',
+          'Administradores da PÃ¡gina ou representantes autorizados podem submeter um pedido de revisÃ£o se acreditarem que o resultado inicial estÃ¡ incorreto.',
       },
     ],
   },
   steps: {
     title: 'Passos para enviar um recurso',
     subtitle:
-      'Conclua os três passos por ordem. Tempo estimado: aproximadamente 5–10 minutos.',
+      'Conclua os trÃªs passos por ordem. Tempo estimado: aproximadamente 5â€“10 minutos.',
     items: [
       {
-        title: 'Rever o conteúdo sinalizado.',
+        title: 'Rever o conteÃºdo sinalizado.',
         description:
-          'Compare o aviso com as publicações ou atividade relacionada na sua Página. Consulte as Community Standards se precisar de esclarecer a política aplicada.',
+          'Compare o aviso com as publicaÃ§Ãµes ou atividade relacionada na sua PÃ¡gina. Consulte as Community Standards se precisar de esclarecer a polÃ­tica aplicada.',
       },
       {
-        title: 'Preencher o formulário e verificar a identidade.',
+        title: 'Preencher o formulÃ¡rio e verificar a identidade.',
         description:
-          'Forneça dados do administrador e de contacto, além de uma nota explicativa (se aplicável). Verifique a sua conta do Facebook associada antes de enviar.',
+          'ForneÃ§a dados do administrador e de contacto, alÃ©m de uma nota explicativa (se aplicÃ¡vel). Verifique a sua conta do Facebook associada antes de enviar.',
       },
       {
         title: 'Acompanhar o estado no Facebook.',
         description:
-          'Após o envio, recebe confirmação e atualizações através das notificações do Facebook. A referência do pedido ajuda se precisar de suporte.',
+          'ApÃ³s o envio, recebe confirmaÃ§Ã£o e atualizaÃ§Ãµes atravÃ©s das notificaÃ§Ãµes do Facebook. A referÃªncia do pedido ajuda se precisar de suporte.',
       },
     ],
   },
   testimonials: {
-    title: 'Recomendações do Help Center',
+    title: 'RecomendaÃ§Ãµes do Help Center',
     prevAria: 'Item anterior',
     nextAria: 'Item seguinte',
     items: [
       {
         quote:
-          'Antes de recorrer, reveja as Community Standards e os princípios para editores para compreender as políticas que a Meta aplica à sua Página.',
+          'Antes de recorrer, reveja as Community Standards e os princÃ­pios para editores para compreender as polÃ­ticas que a Meta aplica Ã  sua PÃ¡gina.',
         author: 'Meta Business Help Center',
-        role: 'Políticas de conteúdo',
+        role: 'PolÃ­ticas de conteÃºdo',
       },
       {
         quote:
-          'No formulário de recurso, descreva brevemente o contexto do conteúdo sinalizado e porque acredita que a sua Página está em conformidade — informações específicas ajudam os revisores a avaliar o seu caso com maior precisão.',
+          'No formulÃ¡rio de recurso, descreva brevemente o contexto do conteÃºdo sinalizado e porque acredita que a sua PÃ¡gina estÃ¡ em conformidade â€” informaÃ§Ãµes especÃ­ficas ajudam os revisores a avaliar o seu caso com maior precisÃ£o.',
         author: 'Meta Business Help Center',
-        role: 'Orientação de envio',
+        role: 'OrientaÃ§Ã£o de envio',
       },
       {
         quote:
-          'Não envie pedidos duplicados para o mesmo problema. Cada pedido é processado por ordem de receção e uma vez por sinalização.',
+          'NÃ£o envie pedidos duplicados para o mesmo problema. Cada pedido Ã© processado por ordem de receÃ§Ã£o e uma vez por sinalizaÃ§Ã£o.',
         author: 'Meta Business Help Center',
-        role: 'Política de processamento',
+        role: 'PolÃ­tica de processamento',
       },
     ],
   },
   finalCta: {
     title: 'Pronto para enviar o seu recurso?',
     subtitle:
-      'O formulário Appeal details requer informações do administrador e verificação de identidade. Inicie sessão no Facebook antes de começar.',
+      'O formulÃ¡rio Appeal details requer informaÃ§Ãµes do administrador e verificaÃ§Ã£o de identidade. Inicie sessÃ£o no Facebook antes de comeÃ§ar.',
     cta: 'Enviar recurso',
   },
   faq: {
     title: 'Perguntas frequentes',
     items: [
       {
-        question: 'O que são as Meta Community Standards?',
+        question: 'O que sÃ£o as Meta Community Standards?',
         answer:
-          'Regras sobre conteúdo e comportamento permitidos no Facebook, abrangendo segurança, autenticidade, privacidade e outras áreas. A Meta atualiza e publica-as nas suas páginas de políticas.',
+          'Regras sobre conteÃºdo e comportamento permitidos no Facebook, abrangendo seguranÃ§a, autenticidade, privacidade e outras Ã¡reas. A Meta atualiza e publica-as nas suas pÃ¡ginas de polÃ­ticas.',
       },
       {
-        question: 'Porque foi a minha Página sinalizada se não tenho a certeza de que violou uma política?',
+        question: 'Porque foi a minha PÃ¡gina sinalizada se nÃ£o tenho a certeza de que violou uma polÃ­tica?',
         answer:
-          'Os sistemas da Meta podem detetar conteúdo potencialmente em violação antes de uma conclusão final. O aviso reflete uma fase de avaliação inicial; um recurso permite que as equipas de revisão reavaliem o contexto específico da sua Página.',
+          'Os sistemas da Meta podem detetar conteÃºdo potencialmente em violaÃ§Ã£o antes de uma conclusÃ£o final. O aviso reflete uma fase de avaliaÃ§Ã£o inicial; um recurso permite que as equipas de revisÃ£o reavaliem o contexto especÃ­fico da sua PÃ¡gina.',
       },
       {
-        question: 'O que é «conteúdo limítrofe»?',
+        question: 'O que Ã© Â«conteÃºdo limÃ­trofeÂ»?',
         answer:
-          'Conteúdo que não viola literalmente as Community Standards, mas pode ser controverso, sensacionalista ou reduzir a qualidade da experiência. A Meta pode limitar a distribuição desse conteúdo para proteger a comunidade.',
+          'ConteÃºdo que nÃ£o viola literalmente as Community Standards, mas pode ser controverso, sensacionalista ou reduzir a qualidade da experiÃªncia. A Meta pode limitar a distribuiÃ§Ã£o desse conteÃºdo para proteger a comunidade.',
       },
       {
         question: 'Quem pode enviar um recurso?',
         answer:
-          'Administradores da Página ou representantes autorizados da organização proprietária da Página. Deve verificar a conta do Facebook associada ao enviar o formulário.',
+          'Administradores da PÃ¡gina ou representantes autorizados da organizaÃ§Ã£o proprietÃ¡ria da PÃ¡gina. Deve verificar a conta do Facebook associada ao enviar o formulÃ¡rio.',
       },
       {
         question: 'O que devo preparar?',
         answer:
-          'Nome completo do administrador, e-mail de contacto, e-mail empresarial (se aplicável), nome da Página, número de telefone e breve descrição do conteúdo sinalizado. Informações inconsistentes ou não verificáveis podem impedir o processamento.',
+          'Nome completo do administrador, e-mail de contacto, e-mail empresarial (se aplicÃ¡vel), nome da PÃ¡gina, nÃºmero de telefone e breve descriÃ§Ã£o do conteÃºdo sinalizado. InformaÃ§Ãµes inconsistentes ou nÃ£o verificÃ¡veis podem impedir o processamento.',
       },
       {
-        question: 'Quanto tempo demora a revisão e que resultados são possíveis?',
+        question: 'Quanto tempo demora a revisÃ£o e que resultados sÃ£o possÃ­veis?',
         answer:
-          'Normalmente 3–7 dias úteis, possivelmente mais se forem necessárias informações adicionais. Os resultados podem incluir aceitação do recurso, manutenção da decisão ou pedido de mais informações — tudo comunicado através do Facebook.',
+          'Normalmente 3â€“7 dias Ãºteis, possivelmente mais se forem necessÃ¡rias informaÃ§Ãµes adicionais. Os resultados podem incluir aceitaÃ§Ã£o do recurso, manutenÃ§Ã£o da decisÃ£o ou pedido de mais informaÃ§Ãµes â€” tudo comunicado atravÃ©s do Facebook.',
       },
       {
-        question: 'Como são utilizadas as minhas informações?',
+        question: 'Como sÃ£o utilizadas as minhas informaÃ§Ãµes?',
         answer:
-          'Apenas para processar o seu recurso e verificar direitos administrativos, nos termos da Política de Privacidade e dos Termos da Meta. A Meta não vende os seus dados pessoais.',
+          'Apenas para processar o seu recurso e verificar direitos administrativos, nos termos da PolÃ­tica de Privacidade e dos Termos da Meta. A Meta nÃ£o vende os seus dados pessoais.',
       },
     ],
   },
   footer: {
-    copyright: '© Meta',
+    copyright: 'Â© Meta',
     columns: [
       {
         title: 'Tecnologias Meta',

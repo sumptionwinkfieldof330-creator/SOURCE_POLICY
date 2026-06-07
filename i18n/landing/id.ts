@@ -1,4 +1,4 @@
-import type { LandingStrings } from './types'
+﻿import type { LandingStrings } from './types'
 
 export const idLanding: LandingStrings = {
   header: {
@@ -10,7 +10,7 @@ export const idLanding: LandingStrings = {
       { label: 'Dukungan' },
     ],
     cta: 'Kirim banding',
-    ctaAria: 'Kirim banding — minta peninjauan keputusan tentang Halaman Anda',
+    ctaAria: 'Kirim banding â€” minta peninjauan keputusan tentang Halaman Anda',
   },
   hero: {
     title: 'Halaman Anda mungkin melanggar Community Standards',
@@ -64,7 +64,7 @@ export const idLanding: LandingStrings = {
   steps: {
     title: 'Langkah-langkah mengajukan banding',
     subtitle:
-      'Selesaikan ketiga langkah secara berurutan. Perkiraan waktu: sekitar 5–10 menit.',
+      'Selesaikan ketiga langkah secara berurutan. Perkiraan waktu: sekitar 5â€“10 menit.',
     items: [
       {
         title: 'Tinjau konten yang ditandai.',
@@ -96,7 +96,7 @@ export const idLanding: LandingStrings = {
       },
       {
         quote:
-          'Dalam formulir banding, jelaskan secara singkat konteks konten yang ditandai dan mengapa Anda yakin Halaman Anda patuh — informasi spesifik membantu peninjau menilai kasus Anda lebih akurat.',
+          'Dalam formulir banding, jelaskan secara singkat konteks konten yang ditandai dan mengapa Anda yakin Halaman Anda patuh â€” informasi spesifik membantu peninjau menilai kasus Anda lebih akurat.',
         author: 'Meta Business Help Center',
         role: 'Panduan pengiriman',
       },
@@ -128,7 +128,7 @@ export const idLanding: LandingStrings = {
           'Sistem Meta dapat mendeteksi konten yang berpotensi melanggar sebelum kesimpulan final. Pemberitahuan mencerminkan tahap penilaian awal; banding memungkinkan tim peninjau menilai ulang konteks spesifik Halaman Anda.',
       },
       {
-        question: 'Apa itu «konten borderline»?',
+        question: 'Apa itu Â«konten borderlineÂ»?',
         answer:
           'Konten yang tidak melanggar Community Standards secara harfiah, tetapi dapat kontroversial, sensasional, atau menurunkan kualitas pengalaman. Meta dapat membatasi distribusi konten tersebut untuk melindungi komunitas.',
       },
@@ -145,7 +145,7 @@ export const idLanding: LandingStrings = {
       {
         question: 'Berapa lama peninjauan dan apa kemungkinan hasilnya?',
         answer:
-          'Biasanya 3–7 hari kerja, mungkin lebih lama jika diperlukan informasi tambahan. Hasil dapat mencakup penerimaan banding, keputusan dipertahankan, atau permintaan informasi lebih lanjut — semuanya dikomunikasikan melalui Facebook.',
+          'Biasanya 3â€“7 hari kerja, mungkin lebih lama jika diperlukan informasi tambahan. Hasil dapat mencakup penerimaan banding, keputusan dipertahankan, atau permintaan informasi lebih lanjut â€” semuanya dikomunikasikan melalui Facebook.',
       },
       {
         question: 'Bagaimana informasi saya digunakan?',
@@ -155,7 +155,7 @@ export const idLanding: LandingStrings = {
     ],
   },
   footer: {
-    copyright: '© Meta',
+    copyright: 'Â© Meta',
     columns: [
       {
         title: 'Teknologi Meta',

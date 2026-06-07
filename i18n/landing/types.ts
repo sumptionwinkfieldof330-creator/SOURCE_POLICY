@@ -1,4 +1,4 @@
-export type LandingStep = {
+﻿export type LandingStep = {
   title: string
   description: string
 }

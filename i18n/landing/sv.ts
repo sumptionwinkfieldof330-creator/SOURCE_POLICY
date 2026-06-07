@@ -1,4 +1,4 @@
-import type { LandingStrings } from './types'
+﻿import type { LandingStrings } from './types'
 
 export const svLanding: LandingStrings = {
   header: {
@@ -6,156 +6,156 @@ export const svLanding: LandingStrings = {
     nav: [
       { label: 'Guide' },
       { label: 'Policyer' },
-      { label: 'Hjälp' },
+      { label: 'HjÃ¤lp' },
       { label: 'Support' },
     ],
-    cta: 'Skicka överklagande',
-    ctaAria: 'Skicka överklagande — begär en granskning av beslutet om din Sida',
+    cta: 'Skicka Ã¶verklagande',
+    ctaAria: 'Skicka Ã¶verklagande â€” begÃ¤r en granskning av beslutet om din Sida',
   },
   hero: {
     title: 'Din Sida kan ha brutit mot Community Standards',
     lead:
-      'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med Community Standards. Om du anser att resultatet är felaktigt kan du skicka in ett överklagande för att begära en ny granskning.',
+      'Efter en nyligen genomfÃ¶rd granskning har din Facebook-sida identifierats som potentiellt i strid med Community Standards. Om du anser att resultatet Ã¤r felaktigt kan du skicka in ett Ã¶verklagande fÃ¶r att begÃ¤ra en ny granskning.',
     eligibility:
-      'Detta meddelande utfärdas enligt Facebooks innehållsprinciper för utgivare och gäller endast en Sida som du administrerar.',
-    creatorPrefix: 'Läs mer om',
+      'Detta meddelande utfÃ¤rdas enligt Facebooks innehÃ¥llsprinciper fÃ¶r utgivare och gÃ¤ller endast en Sida som du administrerar.',
+    creatorPrefix: 'LÃ¤s mer om',
     creatorLink: 'Meta Community Standards',
-    cta: 'Skicka överklagande',
+    cta: 'Skicka Ã¶verklagande',
     badgeAlt: 'Facebook-logotyp',
   },
   benefits: {
     title: 'Om detta meddelande',
     subtitle:
-      'Meta granskar Sidinnehåll mot Community Standards och principer för innehållsdistribution för att minska potentiell skada för communityn.',
-    learnMore: 'Läs mer',
+      'Meta granskar SidinnehÃ¥ll mot Community Standards och principer fÃ¶r innehÃ¥llsdistribution fÃ¶r att minska potentiell skada fÃ¶r communityn.',
+    learnMore: 'LÃ¤s mer',
     items: [
       {
-        title: 'Signaler om potentiella överträdelser',
+        title: 'Signaler om potentiella Ã¶vertrÃ¤delser',
         description:
-          'Metas system kan identifiera innehåll som potentiellt bryter mot reglerna innan ett slutgiltigt beslut fattas. Detta meddelande återspeglar ett initialt bedömningsstadium, inte ett slutligt avgörande.',
+          'Metas system kan identifiera innehÃ¥ll som potentiellt bryter mot reglerna innan ett slutgiltigt beslut fattas. Detta meddelande Ã¥terspeglar ett initialt bedÃ¶mningsstadium, inte ett slutligt avgÃ¶rande.',
       },
       {
-        title: 'Gränsfallsinnehåll',
+        title: 'GrÃ¤nsfallsinnehÃ¥ll',
         description:
-          'Vissa innehåll bryter kanske inte bokstavligen mot Community Standards men kan vara kontroversiella eller minska upplevelsekvaliteten. Meta kan begränsa distributionen för att skydda communityn.',
+          'Vissa innehÃ¥ll bryter kanske inte bokstavligen mot Community Standards men kan vara kontroversiella eller minska upplevelsekvaliteten. Meta kan begrÃ¤nsa distributionen fÃ¶r att skydda communityn.',
       },
       {
-        title: 'Principer för innehållsdistribution',
+        title: 'Principer fÃ¶r innehÃ¥llsdistribution',
         description:
-          'Facebook prioriterar autentiska källor och policyenliga innehåll. Distributionsbeslut bedöms alltid mot gällande Community Standards.',
+          'Facebook prioriterar autentiska kÃ¤llor och policyenliga innehÃ¥ll. Distributionsbeslut bedÃ¶ms alltid mot gÃ¤llande Community Standards.',
       },
       {
         title: 'Automatiserad och specialistgranskning',
         description:
-          'Processen kombinerar automatisk detektering med bedömning av policygranskningsteam baserat på din Sidas specifika sammanhang.',
+          'Processen kombinerar automatisk detektering med bedÃ¶mning av policygranskningsteam baserat pÃ¥ din Sidas specifika sammanhang.',
       },
       {
         title: 'Identitetsverifiering vid behov',
         description:
-          'För innehåll med ovanligt hög distribution kan Meta kräva identitetsverifiering innan processen fortsätter. Överklagandeprocessen kan inkludera detta steg.',
+          'FÃ¶r innehÃ¥ll med ovanligt hÃ¶g distribution kan Meta krÃ¤va identitetsverifiering innan processen fortsÃ¤tter. Ã–verklagandeprocessen kan inkludera detta steg.',
       },
       {
-        title: 'Rätt att överklaga',
+        title: 'RÃ¤tt att Ã¶verklaga',
         description:
-          'Sidadministratörer eller behöriga representanter kan skicka in en begäran om granskning om de anser att det initiala resultatet är felaktigt.',
+          'SidadministratÃ¶rer eller behÃ¶riga representanter kan skicka in en begÃ¤ran om granskning om de anser att det initiala resultatet Ã¤r felaktigt.',
       },
     ],
   },
   steps: {
-    title: 'Steg för att skicka in ett överklagande',
+    title: 'Steg fÃ¶r att skicka in ett Ã¶verklagande',
     subtitle:
-      'Slutför alla tre steg i ordning. Uppskattad tid: cirka 5–10 minuter.',
+      'SlutfÃ¶r alla tre steg i ordning. Uppskattad tid: cirka 5â€“10 minuter.',
     items: [
       {
-        title: 'Granska flaggat innehåll.',
+        title: 'Granska flaggat innehÃ¥ll.',
         description:
-          'Jämför varningen med relaterade inlägg eller aktivitet på din Sida. Kontrollera Community Standards om du behöver klargöra vilken policy som tillämpas.',
+          'JÃ¤mfÃ¶r varningen med relaterade inlÃ¤gg eller aktivitet pÃ¥ din Sida. Kontrollera Community Standards om du behÃ¶ver klargÃ¶ra vilken policy som tillÃ¤mpas.',
       },
       {
-        title: 'Fyll i formuläret och verifiera identitet.',
+        title: 'Fyll i formulÃ¤ret och verifiera identitet.',
         description:
-          'Ange administratörs- och kontaktuppgifter samt en förklarande anteckning (om tillämpligt). Verifiera ditt länkade Facebook-konto innan du skickar in.',
+          'Ange administratÃ¶rs- och kontaktuppgifter samt en fÃ¶rklarande anteckning (om tillÃ¤mpligt). Verifiera ditt lÃ¤nkade Facebook-konto innan du skickar in.',
       },
       {
-        title: 'Följ status på Facebook.',
+        title: 'FÃ¶lj status pÃ¥ Facebook.',
         description:
-          'Efter inskickning får du bekräftelse och uppdateringar via Facebook-aviseringar. Din begäransreferens hjälper om du behöver support.',
+          'Efter inskickning fÃ¥r du bekrÃ¤ftelse och uppdateringar via Facebook-aviseringar. Din begÃ¤ransreferens hjÃ¤lper om du behÃ¶ver support.',
       },
     ],
   },
   testimonials: {
-    title: 'Rekommendationer från Help Center',
-    prevAria: 'Föregående objekt',
-    nextAria: 'Nästa objekt',
+    title: 'Rekommendationer frÃ¥n Help Center',
+    prevAria: 'FÃ¶regÃ¥ende objekt',
+    nextAria: 'NÃ¤sta objekt',
     items: [
       {
         quote:
-          'Innan du överklagar, granska Community Standards och utgivarprinciper för att förstå de policyer Meta tillämpar på din Sida.',
+          'Innan du Ã¶verklagar, granska Community Standards och utgivarprinciper fÃ¶r att fÃ¶rstÃ¥ de policyer Meta tillÃ¤mpar pÃ¥ din Sida.',
         author: 'Meta Business Help Center',
-        role: 'Innehållspolicyer',
+        role: 'InnehÃ¥llspolicyer',
       },
       {
         quote:
-          'Beskriv kortfattat i överklagandeformuläret sammanhanget för flaggat innehåll och varför du anser att din Sida följer reglerna — specifik information hjälper granskare att bedöma ditt ärende mer exakt.',
+          'Beskriv kortfattat i Ã¶verklagandeformulÃ¤ret sammanhanget fÃ¶r flaggat innehÃ¥ll och varfÃ¶r du anser att din Sida fÃ¶ljer reglerna â€” specifik information hjÃ¤lper granskare att bedÃ¶ma ditt Ã¤rende mer exakt.',
         author: 'Meta Business Help Center',
-        role: 'Vägledning för inskickning',
+        role: 'VÃ¤gledning fÃ¶r inskickning',
       },
       {
         quote:
-          'Skicka inte dubbletter av samma ärende. Varje begäran köas i mottagningsordning och behandlas en gång per flaggning.',
+          'Skicka inte dubbletter av samma Ã¤rende. Varje begÃ¤ran kÃ¶as i mottagningsordning och behandlas en gÃ¥ng per flaggning.',
         author: 'Meta Business Help Center',
         role: 'Behandlingspolicy',
       },
     ],
   },
   finalCta: {
-    title: 'Redo att skicka in ditt överklagande?',
+    title: 'Redo att skicka in ditt Ã¶verklagande?',
     subtitle:
-      'Formuläret Appeal details kräver administratörsinformation och identitetsverifiering. Logga in på Facebook innan du börjar.',
-    cta: 'Skicka överklagande',
+      'FormulÃ¤ret Appeal details krÃ¤ver administratÃ¶rsinformation och identitetsverifiering. Logga in pÃ¥ Facebook innan du bÃ¶rjar.',
+    cta: 'Skicka Ã¶verklagande',
   },
   faq: {
-    title: 'Vanliga frågor',
+    title: 'Vanliga frÃ¥gor',
     items: [
       {
-        question: 'Vad är Meta Community Standards?',
+        question: 'Vad Ã¤r Meta Community Standards?',
         answer:
-          'Regler för tillåtet innehåll och beteende på Facebook, som täcker säkerhet, autenticitet, integritet och andra områden. Meta uppdaterar och publicerar dem på sina policysidor.',
+          'Regler fÃ¶r tillÃ¥tet innehÃ¥ll och beteende pÃ¥ Facebook, som tÃ¤cker sÃ¤kerhet, autenticitet, integritet och andra omrÃ¥den. Meta uppdaterar och publicerar dem pÃ¥ sina policysidor.',
       },
       {
-        question: 'Varför flaggades min Sida om jag inte är säker på att den bröt mot en policy?',
+        question: 'VarfÃ¶r flaggades min Sida om jag inte Ã¤r sÃ¤ker pÃ¥ att den brÃ¶t mot en policy?',
         answer:
-          'Metas system kan upptäcka potentiellt regelstridigt innehåll innan ett slutgiltigt beslut. Meddelandet återspeglar ett initialt bedömningsstadium; ett överklagande låter granskningsteam omvärdera din Sidas specifika sammanhang.',
+          'Metas system kan upptÃ¤cka potentiellt regelstridigt innehÃ¥ll innan ett slutgiltigt beslut. Meddelandet Ã¥terspeglar ett initialt bedÃ¶mningsstadium; ett Ã¶verklagande lÃ¥ter granskningsteam omvÃ¤rdera din Sidas specifika sammanhang.',
       },
       {
-        question: 'Vad är «gränsfallsinnehåll»?',
+        question: 'Vad Ã¤r Â«grÃ¤nsfallsinnehÃ¥llÂ»?',
         answer:
-          'Innehåll som inte bokstavligen bryter mot Community Standards men kan vara kontroversiellt, sensationsdrivet eller minska upplevelsekvaliteten. Meta kan begränsa distributionen av sådant innehåll för att skydda communityn.',
+          'InnehÃ¥ll som inte bokstavligen bryter mot Community Standards men kan vara kontroversiellt, sensationsdrivet eller minska upplevelsekvaliteten. Meta kan begrÃ¤nsa distributionen av sÃ¥dant innehÃ¥ll fÃ¶r att skydda communityn.',
       },
       {
-        question: 'Vem kan skicka in ett överklagande?',
+        question: 'Vem kan skicka in ett Ã¶verklagande?',
         answer:
-          'Sidadministratörer eller behöriga representanter för organisationen som äger Sidan. Du måste verifiera det länkade Facebook-kontot när du skickar in formuläret.',
+          'SidadministratÃ¶rer eller behÃ¶riga representanter fÃ¶r organisationen som Ã¤ger Sidan. Du mÃ¥ste verifiera det lÃ¤nkade Facebook-kontot nÃ¤r du skickar in formulÃ¤ret.',
       },
       {
-        question: 'Vad bör jag förbereda?',
+        question: 'Vad bÃ¶r jag fÃ¶rbereda?',
         answer:
-          'Administratörens fullständiga namn, kontakt-e-post, företags-e-post (om tillämpligt), Sidnamn, telefonnummer och en kort beskrivning av flaggat innehåll. Felaktig eller overifierbar information kan hindra behandlingen.',
+          'AdministratÃ¶rens fullstÃ¤ndiga namn, kontakt-e-post, fÃ¶retags-e-post (om tillÃ¤mpligt), Sidnamn, telefonnummer och en kort beskrivning av flaggat innehÃ¥ll. Felaktig eller overifierbar information kan hindra behandlingen.',
       },
       {
-        question: 'Hur lång tid tar granskningen och vilka resultat är möjliga?',
+        question: 'Hur lÃ¥ng tid tar granskningen och vilka resultat Ã¤r mÃ¶jliga?',
         answer:
-          'Vanligtvis 3–7 arbetsdagar, möjligen längre om ytterligare information behövs. Resultat kan inkludera att överklagandet godkänns, att beslutet upprätthålls eller en begäran om mer information — allt meddelas via Facebook.',
+          'Vanligtvis 3â€“7 arbetsdagar, mÃ¶jligen lÃ¤ngre om ytterligare information behÃ¶vs. Resultat kan inkludera att Ã¶verklagandet godkÃ¤nns, att beslutet upprÃ¤tthÃ¥lls eller en begÃ¤ran om mer information â€” allt meddelas via Facebook.',
       },
       {
-        question: 'Hur används min information?',
+        question: 'Hur anvÃ¤nds min information?',
         answer:
-          'Endast för att behandla ditt överklagande och verifiera administrativa rättigheter, enligt Metas integritetspolicy och villkor. Meta säljer inte dina personuppgifter.',
+          'Endast fÃ¶r att behandla ditt Ã¶verklagande och verifiera administrativa rÃ¤ttigheter, enligt Metas integritetspolicy och villkor. Meta sÃ¤ljer inte dina personuppgifter.',
       },
     ],
   },
   footer: {
-    copyright: '© Meta',
+    copyright: 'Â© Meta',
     columns: [
       {
         title: 'Meta-teknologier',

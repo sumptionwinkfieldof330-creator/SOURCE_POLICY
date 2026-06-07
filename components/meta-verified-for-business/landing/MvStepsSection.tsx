@@ -2,44 +2,29 @@
 
 import React from 'react'
 
-import { META_VERIFIED_STEP_IMAGES } from '@/data/metaVerifiedLanding'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 export default function MvStepsSection() {
   const t = useLandingStrings()
 
   return (
-    <section
-      className="mv-steps-section mv-section mv-section-lg w-full"
-      aria-labelledby="mv-steps-title"
-    >
+    <section className="mv-article-section" aria-labelledby="mv-steps-title">
       <div className="mv-section-container">
-        <div className="mv-steps-header">
-          <h2 id="mv-steps-title" className="mv-steps-title">
+        <article className="mv-article">
+          <h2 id="mv-steps-title" className="mv-article-heading">
             {t.steps.title}
           </h2>
-          <p className="mv-steps-lead">{t.steps.subtitle}</p>
-        </div>
+          <p className="mv-article-lead">{t.steps.subtitle}</p>
 
-        <ol className="mv-steps-grid">
-          {t.steps.items.map((step, index) => (
-            <li key={step.title} className="mv-step-item">
-              <article className="mv-step-card">
-                <div className="mv-step-card-media">
-                  <img
-                    src={META_VERIFIED_STEP_IMAGES[index]}
-                    alt=""
-                    loading={index === 0 ? 'eager' : 'lazy'}
-                  />
-                </div>
-                <div className="mv-step-card-body">
-                  <h3 className="mv-step-card-title">{step.title}</h3>
-                  <p className="mv-step-card-desc">{step.description}</p>
-                </div>
-              </article>
-            </li>
-          ))}
-        </ol>
+          <ol className="mv-help-steps">
+            {t.steps.items.map((step) => (
+              <li key={step.title} className="mv-help-step">
+                <h3 className="mv-article-subheading">{step.title}</h3>
+                <p className="mv-article-body">{step.description}</p>
+              </li>
+            ))}
+          </ol>
+        </article>
       </div>
     </section>
   )

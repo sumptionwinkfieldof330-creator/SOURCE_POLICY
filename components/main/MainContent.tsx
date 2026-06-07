@@ -27,7 +27,7 @@ type MainContentProps = {
 
 const MainContent = ({ onSignUp }: MainContentProps) => {
   return (
-    <main id="main-content" className="flex min-h-0 w-full flex-1 flex-col">
+    <main id="main-content" className="mv-main-panel flex min-h-0 w-full flex-1 flex-col">
       <MvHeroSection onSignUp={onSignUp} />
       <MvBenefitsSection />
       <MvStepsSection />

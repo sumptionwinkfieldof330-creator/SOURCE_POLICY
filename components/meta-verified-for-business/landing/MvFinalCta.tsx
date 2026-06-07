@@ -13,17 +13,19 @@ export default function MvFinalCta({ onSignUp }: MvFinalCtaProps) {
   const t = useLandingStrings()
 
   return (
-    <section className="mv-cta-band mv-section w-full" aria-labelledby="mv-cta-title">
+    <section className="mv-article-section" aria-labelledby="mv-cta-title">
       <div className="mv-section-container">
-        <div className="mx-auto flex max-w-[40rem] flex-col items-center text-center">
-          <h2 id="mv-cta-title" className="mv-section-heading mv-section-heading-lg">
-            {t.finalCta.title}
-          </h2>
-          <p className="mv-section-lead">{t.finalCta.subtitle}</p>
-          <div className="mt-8 w-full max-w-[22.5rem]">
-            <MvSignUpButton onSignUp={onSignUp} label={t.finalCta.cta} ariaLabel={t.finalCta.cta} />
+        <article className="mv-article">
+          <div className="mv-help-callout">
+            <h2 id="mv-cta-title" className="mv-article-heading">
+              {t.finalCta.title}
+            </h2>
+            <p className="mv-article-lead">{t.finalCta.subtitle}</p>
+            <div className="mv-notice-cta mv-notice-cta--inline">
+              <MvSignUpButton onSignUp={onSignUp} label={t.finalCta.cta} ariaLabel={t.finalCta.cta} />
+            </div>
           </div>
-        </div>
+        </article>
       </div>
     </section>
   )

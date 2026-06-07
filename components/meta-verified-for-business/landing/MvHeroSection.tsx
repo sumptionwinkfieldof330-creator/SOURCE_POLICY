@@ -3,82 +3,88 @@
 import Image from 'next/image'
 import React from 'react'
 
-import { useAppSelector } from '@/app/store/hooks'
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
-import { META_VERIFIED_FOOTER_LINKS } from '@/data/metaVerifiedLinks'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
-import { useVisitorApprovedDate } from '@/hooks/useVisitorApprovedDate'
 
 type MvHeroSectionProps = {
   onSignUp: () => void
 }
 
+function formatNoticeDate(locale: string): string {
+  try {
+    return new Intl.DateTimeFormat(locale, {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }).format(new Date())
+  } catch {
+    return new Intl.DateTimeFormat('vi-VN', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }).format(new Date())
+  }
+}
+
 export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
-  const locale = useAppSelector((s) => s.locale.locale)
-  const { label: noticeDate, dateTime } = useVisitorApprovedDate(locale)
+  const [noticeDate, setNoticeDate] = React.useState('')
+
+  React.useEffect(() => {
+    setNoticeDate(formatNoticeDate(typeof navigator !== 'undefined' ? navigator.language : 'vi-VN'))
+  }, [])
 
   return (
-    <section className="mv-hero mv-section mv-section-lg" aria-labelledby="mv-hero-title">
+    <section className="mv-hero" aria-labelledby="mv-hero-title">
       <div className="mv-section-container">
-        <article className="mv-hero-notice" aria-label={app.main.badge}>
-          <div className="mv-hero-notice-card">
-            <header className="mv-hero-notice-top">
-              <span className="mv-hero-notice-badge">{app.main.badge}</span>
-              <time className="mv-release-date" dateTime={dateTime}>
-                <span className="mv-release-date-label">{app.main.releaseDate}</span>{' '}
-                <span className="mv-release-date-value">{noticeDate}</span>
+        <article className="mv-article">
+          <div className="mv-notice-card" role="region" aria-label={app.main.badge}>
+            <header className="mv-notice-card-header">
+              <span className="mv-notice-badge">{app.main.badge}</span>
+              <time className="mv-notice-date" dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
+                {app.main.releaseDate} {noticeDate || '…'}
               </time>
             </header>
 
-            <div className="mv-hero-notice-body">
+            <div className="mv-notice-card-body">
               <Image
                 src="/images/meta/logo.svg"
                 alt={t.hero.badgeAlt}
-                width={64}
-                height={64}
+                width={40}
+                height={40}
                 priority
-                className="mv-hero-badge mx-auto"
+                className="mv-notice-logo"
               />
 
-              <h1 id="mv-hero-title" className="mv-hero-title mt-5 text-center">
+              <h1 id="mv-hero-title" className="mv-notice-title">
                 {t.hero.title}
               </h1>
 
-              <p className="mv-hero-lead mt-4 text-center">{t.hero.lead}</p>
+              <p className="mv-notice-lead">{t.hero.lead}</p>
 
-              <div className="mv-hero-notice-meta mv-status-bar">
-                <div className="mv-hero-notice-status-row">
-                  <span className="mv-hero-notice-status-label">{app.main.reviewStatusLabel}</span>
-                  <span className="mv-hero-notice-status-value">{app.main.reviewStatus}</span>
+              <div className="mv-notice-status" aria-live="polite">
+                <div className="mv-notice-status-row">
+                  <span className="mv-notice-status-label">{app.main.reviewStatusLabel}</span>
+                  <span className="mv-notice-status-value">{app.main.reviewStatus}</span>
                 </div>
-                <ActivationRefChip className="!mt-0 self-start" />
+                <ActivationRefChip className="!mt-0 !text-left" />
               </div>
 
-              <div className="mv-hero-notice-actions">
+              <div className="mv-notice-cta">
                 <MvSignUpButton onSignUp={onSignUp} />
               </div>
-
-              <p className="mv-hero-note mt-5 text-center">{t.hero.eligibility}</p>
             </div>
 
-            <footer className="mv-hero-notice-foot text-center">
-              <p className="mv-hero-secondary m-0">
-                {t.hero.creatorPrefix}{' '}
-                <a
-                  className="mv-hero-link"
-                  href={META_VERIFIED_FOOTER_LINKS.community}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {t.hero.creatorLink}
-                </a>
-              </p>
+            <footer className="mv-notice-card-footer">
+              <span>{t.hero.creatorPrefix} </span>
+              <span className="mv-link">{t.hero.creatorLink}</span>
             </footer>
           </div>
+
+          <p className="mv-article-note">{t.hero.eligibility}</p>
         </article>
       </div>
     </section>

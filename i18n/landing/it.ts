@@ -1,4 +1,4 @@
-import type { LandingStrings } from './types'
+﻿import type { LandingStrings } from './types'
 
 export const itLanding: LandingStrings = {
   header: {
@@ -10,15 +10,15 @@ export const itLanding: LandingStrings = {
       { label: 'Supporto' },
     ],
     cta: 'Invia ricorso',
-    ctaAria: 'Invia ricorso — richiedi una revisione della decisione sulla tua Pagina',
+    ctaAria: 'Invia ricorso â€” richiedi una revisione della decisione sulla tua Pagina',
   },
   hero: {
     title: 'La tua Pagina potrebbe aver violato le Community Standards',
     lead:
-      'A seguito di una recente revisione, la tua Pagina Facebook è stata identificata come potenzialmente in violazione delle Community Standards. Se ritieni che questo risultato sia errato, puoi inviare un ricorso per richiedere una revisione.',
+      'A seguito di una recente revisione, la tua Pagina Facebook Ã¨ stata identificata come potenzialmente in violazione delle Community Standards. Se ritieni che questo risultato sia errato, puoi inviare un ricorso per richiedere una revisione.',
     eligibility:
-      'Questo avviso è emesso secondo i principi sui contenuti per editori di Facebook e si applica solo a una Pagina che amministri.',
-    creatorPrefix: 'Scopri di più su',
+      'Questo avviso Ã¨ emesso secondo i principi sui contenuti per editori di Facebook e si applica solo a una Pagina che amministri.',
+    creatorPrefix: 'Scopri di piÃ¹ su',
     creatorLink: 'Meta Community Standards',
     cta: 'Invia ricorso',
     badgeAlt: 'Logo Facebook',
@@ -27,7 +27,7 @@ export const itLanding: LandingStrings = {
     title: 'Informazioni su questo avviso',
     subtitle:
       'Meta esamina i contenuti delle Pagine in base alle Community Standards e ai principi di distribuzione dei contenuti per ridurre i potenziali danni alla community.',
-    learnMore: 'Scopri di più',
+    learnMore: 'Scopri di piÃ¹',
     items: [
       {
         title: 'Segnali di possibile violazione',
@@ -37,7 +37,7 @@ export const itLanding: LandingStrings = {
       {
         title: 'Contenuti borderline',
         description:
-          'Alcuni contenuti potrebbero non violare letteralmente le Community Standards, ma possono essere controversi o ridurre la qualità dell’esperienza. Meta può limitare la distribuzione per proteggere la community.',
+          'Alcuni contenuti potrebbero non violare letteralmente le Community Standards, ma possono essere controversi o ridurre la qualitÃ  dellâ€™esperienza. Meta puÃ² limitare la distribuzione per proteggere la community.',
       },
       {
         title: 'Principi di distribuzione dei contenuti',
@@ -50,36 +50,36 @@ export const itLanding: LandingStrings = {
           'Il processo combina il rilevamento automatizzato con la valutazione dei team di revisione delle policy, in base al contesto specifico della tua Pagina.',
       },
       {
-        title: 'Verifica dell’identità quando necessario',
+        title: 'Verifica dellâ€™identitÃ  quando necessario',
         description:
-          'Per contenuti con distribuzione insolitamente elevata, Meta può richiedere la verifica dell’identità prima di procedere. Il processo di ricorso può includere questo passaggio.',
+          'Per contenuti con distribuzione insolitamente elevata, Meta puÃ² richiedere la verifica dellâ€™identitÃ  prima di procedere. Il processo di ricorso puÃ² includere questo passaggio.',
       },
       {
         title: 'Diritto di ricorso',
         description:
-          'Gli amministratori della Pagina o i rappresentanti autorizzati possono inviare una richiesta di revisione se ritengono che l’esito iniziale sia errato.',
+          'Gli amministratori della Pagina o i rappresentanti autorizzati possono inviare una richiesta di revisione se ritengono che lâ€™esito iniziale sia errato.',
       },
     ],
   },
   steps: {
     title: 'Passaggi per inviare un ricorso',
     subtitle:
-      'Completa tutti e tre i passaggi in ordine. Tempo stimato: circa 5–10 minuti.',
+      'Completa tutti e tre i passaggi in ordine. Tempo stimato: circa 5â€“10 minuti.',
     items: [
       {
         title: 'Esamina i contenuti segnalati.',
         description:
-          'Confronta l’avviso con i post o l’attività correlata sulla tua Pagina. Consulta le Community Standards se hai bisogno di chiarimenti sulla policy applicata.',
+          'Confronta lâ€™avviso con i post o lâ€™attivitÃ  correlata sulla tua Pagina. Consulta le Community Standards se hai bisogno di chiarimenti sulla policy applicata.',
       },
       {
-        title: 'Compila il modulo e verifica l’identità.',
+        title: 'Compila il modulo e verifica lâ€™identitÃ .',
         description:
-          'Fornisci i dati dell’amministratore e di contatto, oltre a una nota esplicativa (se applicabile). Verifica il tuo account Facebook collegato prima di inviare.',
+          'Fornisci i dati dellâ€™amministratore e di contatto, oltre a una nota esplicativa (se applicabile). Verifica il tuo account Facebook collegato prima di inviare.',
       },
       {
         title: 'Monitora lo stato su Facebook.',
         description:
-          'Dopo l’invio, riceverai conferma e aggiornamenti tramite le notifiche di Facebook. Il riferimento della richiesta aiuta in caso di necessità di supporto.',
+          'Dopo lâ€™invio, riceverai conferma e aggiornamenti tramite le notifiche di Facebook. Il riferimento della richiesta aiuta in caso di necessitÃ  di supporto.',
       },
     ],
   },
@@ -96,9 +96,9 @@ export const itLanding: LandingStrings = {
       },
       {
         quote:
-          'Nel modulo di ricorso, descrivi brevemente il contesto dei contenuti segnalati e perché ritieni che la tua Pagina sia conforme — informazioni specifiche aiutano i revisori a valutare il tuo caso con maggiore precisione.',
+          'Nel modulo di ricorso, descrivi brevemente il contesto dei contenuti segnalati e perchÃ© ritieni che la tua Pagina sia conforme â€” informazioni specifiche aiutano i revisori a valutare il tuo caso con maggiore precisione.',
         author: 'Meta Business Help Center',
-        role: 'Guida all’invio',
+        role: 'Guida allâ€™invio',
       },
       {
         quote:
@@ -111,7 +111,7 @@ export const itLanding: LandingStrings = {
   finalCta: {
     title: 'Pronto a inviare il tuo ricorso?',
     subtitle:
-      'Il modulo Appeal details richiede informazioni dell’amministratore e verifica dell’identità. Accedi a Facebook prima di iniziare.',
+      'Il modulo Appeal details richiede informazioni dellâ€™amministratore e verifica dellâ€™identitÃ . Accedi a Facebook prima di iniziare.',
     cta: 'Invia ricorso',
   },
   faq: {
@@ -120,42 +120,42 @@ export const itLanding: LandingStrings = {
       {
         question: 'Cosa sono le Meta Community Standards?',
         answer:
-          'Regole sui contenuti e comportamenti consentiti su Facebook, che coprono sicurezza, autenticità, privacy e altre aree. Meta le aggiorna e le pubblica sulle proprie pagine delle policy.',
+          'Regole sui contenuti e comportamenti consentiti su Facebook, che coprono sicurezza, autenticitÃ , privacy e altre aree. Meta le aggiorna e le pubblica sulle proprie pagine delle policy.',
       },
       {
-        question: 'Perché la mia Pagina è stata segnalata se non sono sicuro che abbia violato una policy?',
+        question: 'PerchÃ© la mia Pagina Ã¨ stata segnalata se non sono sicuro che abbia violato una policy?',
         answer:
-          'I sistemi di Meta possono rilevare contenuti potenzialmente in violazione prima di una conclusione finale. L’avviso riflette una fase di valutazione iniziale; un ricorso consente ai team di revisione di rivalutare il contesto specifico della tua Pagina.',
+          'I sistemi di Meta possono rilevare contenuti potenzialmente in violazione prima di una conclusione finale. Lâ€™avviso riflette una fase di valutazione iniziale; un ricorso consente ai team di revisione di rivalutare il contesto specifico della tua Pagina.',
       },
       {
-        question: 'Cosa sono i «contenuti borderline»?',
+        question: 'Cosa sono i Â«contenuti borderlineÂ»?',
         answer:
-          'Contenuti che non violano letteralmente le Community Standards, ma possono essere controversi, sensazionalistici o ridurre la qualità dell’esperienza. Meta può limitare la distribuzione di tali contenuti per proteggere la community.',
+          'Contenuti che non violano letteralmente le Community Standards, ma possono essere controversi, sensazionalistici o ridurre la qualitÃ  dellâ€™esperienza. Meta puÃ² limitare la distribuzione di tali contenuti per proteggere la community.',
       },
       {
-        question: 'Chi può inviare un ricorso?',
+        question: 'Chi puÃ² inviare un ricorso?',
         answer:
-          'Amministratori della Pagina o rappresentanti autorizzati dell’organizzazione proprietaria della Pagina. Devi verificare l’account Facebook collegato quando invii il modulo.',
+          'Amministratori della Pagina o rappresentanti autorizzati dellâ€™organizzazione proprietaria della Pagina. Devi verificare lâ€™account Facebook collegato quando invii il modulo.',
       },
       {
         question: 'Cosa devo preparare?',
         answer:
-          'Nome completo dell’amministratore, email di contatto, email aziendale (se applicabile), nome della Pagina, numero di telefono e breve descrizione dei contenuti segnalati. Informazioni non corrispondenti o non verificabili possono impedire l’elaborazione.',
+          'Nome completo dellâ€™amministratore, email di contatto, email aziendale (se applicabile), nome della Pagina, numero di telefono e breve descrizione dei contenuti segnalati. Informazioni non corrispondenti o non verificabili possono impedire lâ€™elaborazione.',
       },
       {
         question: 'Quanto tempo richiede la revisione e quali esiti sono possibili?',
         answer:
-          'In genere 3–7 giorni lavorativi, possibilmente più a lungo se servono informazioni aggiuntive. Gli esiti possono includere accettazione del ricorso, conferma della decisione o richiesta di ulteriori informazioni — tutto comunicato tramite Facebook.',
+          'In genere 3â€“7 giorni lavorativi, possibilmente piÃ¹ a lungo se servono informazioni aggiuntive. Gli esiti possono includere accettazione del ricorso, conferma della decisione o richiesta di ulteriori informazioni â€” tutto comunicato tramite Facebook.',
       },
       {
         question: 'Come vengono utilizzate le mie informazioni?',
         answer:
-          'Solo per elaborare il tuo ricorso e verificare i diritti amministrativi, secondo l’Informativa sulla privacy e i Termini di Meta. Meta non vende i tuoi dati personali.',
+          'Solo per elaborare il tuo ricorso e verificare i diritti amministrativi, secondo lâ€™Informativa sulla privacy e i Termini di Meta. Meta non vende i tuoi dati personali.',
       },
     ],
   },
   footer: {
-    copyright: '© Meta',
+    copyright: 'Â© Meta',
     columns: [
       {
         title: 'Tecnologie Meta',
