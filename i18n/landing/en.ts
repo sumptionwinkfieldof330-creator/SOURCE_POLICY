@@ -15,9 +15,9 @@ export const enLanding: LandingStrings = {
       { label: 'Reports', type: 'menu' },
     ],
     loginCta: 'Log in with Facebook',
-    loginAria: 'Log in with Facebook to manage your Page',
+    loginAria: 'Log in with Facebook to manage your Fanpage',
     cta: 'Submit appeal',
-    ctaAria: 'Submit an appeal — request a review of your Page decision',
+    ctaAria: 'Submit an appeal — request a review of your Fanpage decision',
   },
   helpCenter: {
     breadcrumb: [
@@ -52,13 +52,13 @@ export const enLanding: LandingStrings = {
       'These standards are based on feedback from people and the advice of experts in technology, public safety and human rights — to ensure everyone\'s voice is valued.',
     creatorPrefix: 'View the full document at',
     creatorLink: 'Community Standards | Transparency Center',
-    cta: 'Submit appeal',
+    cta: 'Submit an appeal request',
     badgeAlt: 'Meta logo',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
+    title: 'Your Fanpage may have violated Community Standards',
     body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+      'Following a recent review, a Fanpage you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Fanpage you administer.',
   },
   policyIndex: {
     title: 'Community Standards topics',
@@ -82,8 +82,8 @@ export const enLanding: LandingStrings = {
       {
         title: 'Our commitment to voice',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'Our Community Standards aim to create space for expression. We encourage open discussion — through comments, images, music or other creative formats — even when others disagree. In exceptional cases, [[newsworthy]] content that serves the public interest may remain after we balance informational value against harm and reference international human rights standards. When context clarifies a violation, we may remove ambiguous or implied content.',
+          'We prioritize voice while recognizing that the internet also enables abuse. When we limit expression, we do so to protect one or more of the following values:',
         ],
       },
     ],
@@ -94,28 +94,28 @@ export const enLanding: LandingStrings = {
         id: 'authenticity',
         label: 'Authenticity',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'We expect content on our platforms to reflect what is genuine. Authenticity supports healthier sharing; misrepresenting identity or conduct is not permitted.',
         ],
       },
       {
         id: 'safety',
         label: 'Safety',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook, Instagram, Messenger and Threads should be safe environments. We remove content that may cause physical harm, threaten, exclude or silence others.',
         ],
       },
       {
         id: 'privacy',
         label: 'Privacy',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'We protect personal privacy and data. Privacy helps people control how and when they share and connect on our services.',
         ],
       },
       {
         id: 'dignity',
         label: 'Dignity',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'Everyone has equal dignity and rights. Harassment or degrading others is not permitted.',
         ],
       },
     ],
@@ -128,7 +128,7 @@ export const enLanding: LandingStrings = {
       {
         title: 'Review the applicable policy.',
         description:
-          'Read the relevant policy section on the Transparency Center — each includes a Policy Rationale and specific rules. Compare with the flagged posts or activity on your Page.',
+          'Read the relevant policy section on the Transparency Center — each includes a Policy Rationale and specific rules. Compare with the flagged posts or activity on your Fanpage.',
       },
       {
         title: 'Complete the form and verify identity.',
@@ -170,46 +170,46 @@ export const enLanding: LandingStrings = {
   finalCta: {
     title: 'Submit an appeal',
     subtitle:
-      'If, after reading the Community Standards, you believe your Page complies with policy, submit the form with administrator details and identity verification.',
-    cta: 'Submit appeal',
+      'If, after reading the Community Standards, you believe your Fanpage complies with policy, submit the form with administrator details and identity verification.',
+    cta: 'Submit an appeal request',
   },
   faq: {
     title: 'Frequently asked questions',
     items: [
       {
-        question: 'What do Community Standards cover?',
+        question: 'Does an appeal apply to personal profiles or Groups?',
         answer:
-          'Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. The full document is published on the Meta Transparency Center.',
+          'No. The notice on this page and the appeal form are only for Fanpages you administer. Personal profiles, Groups, or other Meta products are outside the scope of this request.',
       },
       {
-        question: 'Which version is the official reference?',
+        question: 'Can I submit another appeal after one is rejected?',
         answer:
-          'According to the Transparency Center, the US English version reflects the most up to date set of policies and should be used as the primary document.',
+          'Yes, if you have new information or evidence that was not considered previously. Each new submission should clearly state what is different; duplicate appeals without additional context may not be reviewed again.',
       },
       {
-        question: 'What values guide Meta when limiting content?',
+        question: 'What should I prepare before opening the appeal form?',
         answer:
-          'When Meta limits expression, it does so in service of authenticity, safety, privacy or dignity — the four foundational values stated in Community Standards.',
+          'Note links or IDs of affected posts, a brief explanation of business context or content purpose, and confirm you are signed in with an account that has Fanpage admin access in Meta Business Suite.',
       },
       {
-        question: 'Why was my Page flagged if I am not sure it violated policy?',
+        question: 'What is the request reference code for?',
         answer:
-          'Meta\'s systems may detect potentially violating content before a final conclusion. The notice reflects an initial assessment stage; an appeal lets review teams reassess your Page\'s specific context.',
+          'Each form submission generates a unique reference code. Keep it when tracking status on Facebook or when support needs to locate your case — it does not replace official in-app notifications.',
       },
       {
-        question: 'Who can submit an appeal?',
+        question: 'Does submitting an appeal pause Fanpage restrictions?',
         answer:
-          'Page administrators or authorized representatives of the organization that owns the Page. You must verify the linked Facebook account when submitting the form.',
+          'No. Your Fanpage may remain restricted while review is pending. Appeal outcomes are communicated separately and may lead to restrictions being lifted if accepted.',
       },
       {
-        question: 'How long does review take and what outcomes are possible?',
+        question: 'How will I receive the appeal outcome?',
         answer:
-          'Typically 3–7 business days, possibly longer if additional information is needed. Outcomes may include appeal acceptance, decision upheld, or a request for more information — all communicated via Facebook.',
+          'Through Facebook Notifications (bell icon), not via a separate email from this form. Enable Fanpage-related notifications and check regularly for several business days after submitting.',
       },
       {
-        question: 'How is my information used?',
+        question: 'How is information from the form stored and used?',
         answer:
-          'Used only to process your appeal and verify administrative rights, under Meta\'s Privacy Policy and Terms.',
+          'Data you provide is used only to process your appeal, verify admin rights, and maintain records under Meta\'s internal procedures, in line with the Privacy Policy and Terms — not for advertising.',
       },
     ],
   },

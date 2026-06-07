@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const frLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Centre de transparence',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: 'Centre de transparence',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: 'Politiques',
+        type: 'menu',
+      },
+      {
+        label: 'Application',
+        type: 'menu',
+      },
+      {
+        label: 'Sécurité',
+        type: 'menu',
+      },
+      {
+        label: 'Caractéristiques',
+        type: 'menu',
+      },
+      {
+        label: 'Gouvernance',
+        type: 'menu',
+      },
+      {
+        label: 'Outils de recherche',
+        type: 'menu',
+      },
+      {
+        label: 'Rapports',
+        type: 'menu',
+      },
     ],
-    loginCta: 'Se connecter avec Facebook',
-    loginAria: 'Se connecter avec Facebook pour gérer votre Page',
-    cta: 'Soumettre un recours',
-    ctaAria: 'Soumettre un recours — demander un examen de la décision concernant votre Page',
+    loginCta: 'Connectez-vous avec Facebook',
+    loginAria: 'Connectez-vous avec Facebook pour gérer votre page',
+    cta: 'Soumettre un appel',
+    ctaAria: 'Faire appel  — demander une révision de la décision de votre Page',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: 'Accueil',
+        href: '#',
+      },
+      {
+        label: 'Politiques',
+        href: '#',
+      },
+      {
+        label: 'Normes communautaires',
+      },
     ],
-    sidebarTitle: 'Sujets des Community Standards',
-    sidebarSection: 'Règles',
+    sidebarTitle: 'Sujets Community Standards',
+    sidebarSection: 'Politiques',
     sidebarLinks: [
-      { label: 'Coordination de préjudices et promotion du crime' },
-      { label: 'Organisations et individus dangereux' },
-      { label: 'Fraude, escroqueries et pratiques trompeuses' },
-      { label: 'Biens et services restreints' },
-      { label: 'Exploitation sexuelle, abus et nudité d\'enfants' },
-      { label: 'Contenu violent et choquant' },
+      {
+        label: 'Coordonner les préjudices et promouvoir la criminalité',
+      },
+      {
+        label: 'Organisations et individus dangereux',
+      },
+      {
+        label: 'Fraude, escroqueries et pratiques trompeuses',
+      },
+      {
+        label: 'Biens et services restreints',
+      },
+      {
+        label: 'Exploitation et abus sexuels sur enfants',
+      },
+      {
+        label: 'Suicide, automutilation et troubles de l\'alimentation',
+      },
+      {
+        label: 'Nudité adulte et activité sexuelle',
+      },
+      {
+        label: 'Contenu violent et graphique',
+      },
+      {
+        label: 'Intimidation et harcèlement',
+      },
+      {
+        label: 'Discours de haine',
+      },
     ],
   },
   hero: {
-    title: 'Votre Page a peut-être enfreint les Community Standards',
-    lead:
-      'Les Community Standards décrivent ce qui est autorisé et ce qui ne l\'est pas sur Facebook, Instagram, Messenger et Threads. À la suite d\'un examen récent, votre Page a été identifiée comme ne respectant potentiellement pas ces standards. Si vous pensez que ce résultat est incorrect, vous pouvez soumettre un recours pour demander un examen.',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      'Ces standards reposent sur les retours des utilisateurs et les conseils d\'experts en technologie, sécurité publique et droits de l\'homme. Cet avis s\'applique uniquement à une Page que vous administrez.',
-    creatorPrefix: 'Consultez le document officiel sur',
-    creatorLink: 'Community Standards | Transparency Center',
-    cta: 'Soumettre un recours',
+    title: 'Community Standards',
+    lead: 'Les Community Standards décrivent ce qui est autorisé et ce qui n\'est pas autorisé sur Facebook, Instagram, Messenger et Threads.',
+    disclaimer: 'Veuillez noter que la version anglaise américaine des Community Standards reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
+    policyStructure: 'Nos Community Standards s\'appliquent à tout le monde dans le monde et à tous les types de contenu, y compris le contenu généré par l\'IA. Chaque section de politique commence par un Policy Rationale qui explique l\'objectif, suivi de règles spécifiques sur le contenu interdit ou le contenu qui nécessite un contexte supplémentaire pour son application.',
+    eligibility: 'Ces normes sont basées sur les commentaires des personnes et les conseils d\'experts en technologie, en sécurité publique et en droits de l\'homme — pour s\'assurer que la voix de chacun est valorisée.',
+    creatorPrefix: 'Consultez le document complet sur',
+    creatorLink: 'Normes communautaires | Transparency Center',
+    cta: 'Soumettre un appel',
     badgeAlt: 'Logo Meta',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: 'Votre page a peut-être enfreint les Community Standards',
+    body: 'Suite à un examen récent, une page que vous administrez a été identifiée comme potentiellement non conforme aux Community Standards. Si vous pensez que ce résultat est incorrect, vous pouvez faire appel pour demander une révision. Cet avis s\'applique uniquement à une page que vous administrez.',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Sujets Community Standards',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: 'Coordonner les préjudices et promouvoir la criminalité',
+      },
+      {
+        label: 'Organisations et individus dangereux',
+      },
+      {
+        label: 'Fraude, escroqueries et pratiques trompeuses',
+      },
+      {
+        label: 'Biens et services restreints',
+      },
+      {
+        label: 'Exploitation et abus sexuels sur enfants',
+      },
+      {
+        label: 'Suicide, automutilation et troubles de l\'alimentation',
+      },
+      {
+        label: 'Nudité adulte et activité sexuelle',
+      },
+      {
+        label: 'Contenu violent et graphique',
+      },
+      {
+        label: 'Intimidation et harcèlement',
+      },
+      {
+        label: 'Discours de haine',
+      },
+      {
+        label: 'Violation de la propriété intellectuelle par un tiers',
+      },
+      {
+        label: 'Contenu, produits ou services localement illégaux',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: 'Notre engagement à faire entendre',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'Nos Community Standards sont conçus pour créer un espace d’expression. Meta encourage une discussion ouverte — à travers des commentaires, des images, de la musique et d\'autres formats créatifs ? même quand les gens ne sont pas d\'accord. Dans des cas exceptionnels, le contenu [[newsworthy]] qui sert l\'intérêt public peut être conservé après que nous ayons pesé la valeur informationnelle par rapport au risque de préjudice et fait référence aux normes internationales des droits de l\'homme. Lorsque le contexte clarifie une violation, nous pouvons supprimer le contenu ambigu ou implicite.',
+          'Nous accordons la priorité à la voix tout en reconnaissant qu’Internet peut également permettre des abus. Lorsque nous limitons l\'expression, nous le faisons pour protéger une ou plusieurs des valeurs suivantes :',
         ],
       },
     ],
@@ -88,124 +164,109 @@ export const frLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: 'Authenticité',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'Nous voulons que le contenu de nos plateformes reflète ce qui est authentique. L\'authenticité crée un environnement de partage plus sain, donc toute fausse déclaration d\'identité ou de comportement n\'est pas autorisée.',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: 'Sécurité',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook, Instagram, Messenger et Threads doivent être des environnements sûrs. Nous supprimons le contenu susceptible de causer des dommages physiques, de menacer, d\'exclure ou de faire taire autrui.',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: 'Confidentialité',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'Nous nous engageons à protéger la vie privée et les données personnelles. La confidentialité aide les gens à contrôler comment et quand ils partagent et se connectent à nos services.',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: 'Dignité',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'Nous pensons que tous les gens ont la même dignité et les mêmes droits. Nous n\'autorisons pas le harcèlement ou le traitement dégradant d\'autrui.',
         ],
       },
     ],
   },
   steps: {
-    title: 'Étapes pour soumettre un recours',
-    subtitle:
-      'Avant de soumettre, comparez le contenu signalé aux Community Standards sur le Transparency Center. Temps estimé pour remplir le formulaire : environ 5 à 10 minutes.',
+    title: 'Étapes pour faire appel',
+    subtitle: 'Avant de soumettre, comparez le contenu signalé avec Community Standards sur le Transparency Center. Temps estimé pour remplir le formulaire : environ 5 à 10 minutes.',
     items: [
       {
-        title: 'Consultez la règle applicable.',
-        description:
-          'Lisez la section de règle pertinente sur le Transparency Center — chacune comprend une Policy Rationale et des règles spécifiques. Comparez avec les publications ou l\'activité signalées sur votre Page.',
+        title: 'Consultez la politique applicable.',
+        description: 'Lisez la section politique pertinente sur le Transparency Center — chaque section comprend une Policy Rationale et des règles spécifiques. Comparez cela avec la publication ou l’activité signalée sur votre page.',
       },
       {
         title: 'Remplissez le formulaire et vérifiez votre identité.',
-        description:
-          'Fournissez les coordonnées de l\'administrateur et de contact, ainsi que le contexte (si nécessaire). Vérifiez votre compte Facebook associé avant l\'envoi.',
+        description: 'Fournissez les détails de l’administrateur, les coordonnées et le contexte si nécessaire. Vérifiez le compte Facebook lié avant de soumettre.',
       },
       {
         title: 'Suivez le résultat sur Facebook.',
-        description:
-          'Après l\'envoi, vous recevez une confirmation via les notifications Facebook. L\'examen prend généralement 3 à 7 jours ouvrables. La référence de votre demande est utile si vous avez besoin d\'assistance.',
+        description: 'Après la soumission, vous recevez une confirmation via les notifications Facebook. L\'examen prend généralement 3 à 7 jours ouvrables. La référence de votre demande est utile si une assistance est nécessaire.',
       },
     ],
   },
   testimonials: {
-    title: 'Référence du Transparency Center',
-    prevAria: 'Élément précédent',
-    nextAria: 'Élément suivant',
+    title: 'Référence de Transparency Center',
+    prevAria: 'Article précédent',
+    nextAria: 'Article suivant',
     items: [
       {
-        quote:
-          'Ces standards reposent sur les retours des utilisateurs et les conseils d\'experts dans des domaines comme la technologie, la sécurité publique et les droits de l\'homme — pour garantir que la voix de chacun soit valorisée.',
+        quote: 'Ces normes sont basées sur les commentaires des personnes et les conseils d\'experts en technologie, en sécurité publique et en droits de l\'homme — pour s\'assurer que la voix de chacun est valorisée.',
         author: 'Meta Transparency Center',
         role: 'Introduction',
       },
       {
-        quote:
-          'Nos Community Standards s\'appliquent à toutes les personnes, partout dans le monde, et à tous les types de contenu, y compris le contenu généré par l\'IA.',
+        quote: 'Nos Community Standards s\'appliquent à tous, dans le monde entier, et à tous les types de contenu, y compris le contenu généré par l\'IA.',
         author: 'Meta Transparency Center',
         role: 'Portée',
       },
       {
-        quote:
-          'La version anglaise (États-Unis) des Community Standards reflète l\'ensemble de règles le plus à jour et doit être utilisée comme document principal.',
+        quote: 'La version anglaise américaine des Community Standards reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
         author: 'Meta Transparency Center',
         role: 'Document officiel',
       },
     ],
   },
   finalCta: {
-    title: 'Soumettre un recours',
-    subtitle:
-      'Si, après avoir lu les Community Standards, vous pensez que votre Page respecte les règles, soumettez le formulaire avec les informations de l\'administrateur et la vérification d\'identité.',
-    cta: 'Soumettre un recours',
+    title: 'Faire appel',
+    subtitle: 'Si, après avoir lu Community Standards, vous pensez que votre page est conforme à la politique, soumettez le formulaire avec les détails de l\'administrateur et une vérification d\'identité.',
+    cta: 'Soumettre un appel',
   },
   faq: {
-    title: 'Questions fréquentes',
+    title: 'Questions fréquemment posées',
     items: [
       {
-        question: 'Que couvrent les Community Standards ?',
-        answer:
-          'Les Community Standards décrivent ce qui est autorisé et ce qui ne l\'est pas sur Facebook, Instagram, Messenger et Threads. Le document complet est publié sur le Meta Transparency Center.',
+        question: 'Un appel s\'applique-t-il aux profils personnels ou aux groupes ?',
+        answer: 'Non. L’avis sur cette page et le formulaire d’appel s’appliquent uniquement aux pages que vous administrez. Les profils personnels, les groupes ou autres produits Meta n\'entrent pas dans le champ d\'application de cette demande.',
       },
       {
-        question: 'Quelle version est la référence officielle ?',
-        answer:
-          'Selon le Transparency Center, la version anglaise (États-Unis) reflète l\'ensemble de règles le plus à jour et doit être utilisée comme document principal.',
+        question: 'Puis-je soumettre un autre appel après que celui-ci ait été rejeté ?',
+        answer: 'Oui, si vous disposez de nouvelles informations ou preuves qui n’ont pas été prises en compte auparavant. Chaque nouvelle soumission doit expliquer clairement ce qui est différent. Les appels en double sans contexte supplémentaire ne peuvent pas être réexaminés.',
       },
       {
-        question: 'Quelles valeurs guident Meta lorsqu\'elle limite du contenu ?',
-        answer:
-          'Lorsque Meta limite l\'expression, elle le fait au service de l\'authenticité, de la sécurité, de la confidentialité ou de la dignité — les quatre valeurs fondamentales énoncées dans les Community Standards.',
+        question: 'Que dois-je préparer avant d’ouvrir le formulaire de recours ?',
+        answer: 'Collectez les liens ou les identifiants des publications concernées, une brève explication du contexte commercial ou de l\'objectif du contenu, et confirmez que vous êtes connecté avec un compte disposant d\'un accès administrateur de page dans Meta Business Suite.',
       },
       {
-        question: 'Pourquoi ma Page a-t-elle été signalée si je ne suis pas sûr(e) qu\'elle ait enfreint les règles ?',
-        answer:
-          'Les systèmes de Meta peuvent détecter du contenu potentiellement contraire aux règles avant une conclusion définitive. L\'avis reflète une phase d\'évaluation initiale ; un recours permet aux équipes d\'examen de réévaluer le contexte spécifique de votre Page.',
+        question: 'A quoi sert le code de référence de la demande ?',
+        answer: 'Chaque soumission génère un code de référence unique. Conservez ce code lors du suivi de l\'état sur Facebook ou lorsque l\'assistance doit localiser votre cas. Il ne remplace pas les notifications officielles dans l\'application.',
       },
       {
-        question: 'Qui peut soumettre un recours ?',
-        answer:
-          'Les administrateurs de la Page ou les représentants autorisés de l\'organisation propriétaire de la Page. Vous devez vérifier le compte Facebook associé lors de l\'envoi du formulaire.',
+        question: 'L\'envoi d\'un appel suspend-il les restrictions de la page ?',
+        answer: 'Non. Votre Page peut rester restreinte pendant que son examen est en attente. Les résultats de l’appel sont communiqués séparément et peuvent conduire à la suppression des restrictions s’ils sont acceptés.',
       },
       {
-        question: 'Combien de temps dure l\'examen et quels résultats sont possibles ?',
-        answer:
-          'Généralement 3 à 7 jours ouvrables, éventuellement plus si des informations supplémentaires sont nécessaires. Les résultats peuvent inclure l\'acceptation du recours, le maintien de la décision ou une demande d\'informations complémentaires — le tout communiqué via Facebook.',
+        question: 'Comment vais-je recevoir le résultat de l’appel ?',
+        answer: 'Via les notifications Facebook (icône en forme de cloche), et non via un e-mail distinct de ce formulaire. Activez les notifications liées à la page et vérifiez régulièrement pendant plusieurs jours ouvrables après la soumission.',
       },
       {
-        question: 'Comment mes informations sont-elles utilisées ?',
-        answer:
-          'Uniquement pour traiter votre recours et vérifier vos droits administratifs, conformément à la Politique de confidentialité et aux Conditions de Meta.',
+        question: 'Comment les informations du formulaire sont-elles stockées et utilisées ?',
+        answer: 'Les données que vous fournissez sont utilisées uniquement pour traiter votre appel, vérifier les droits d\'administrateur et conserver des enregistrements dans le cadre des procédures internes de Meta, conformément à la politique de confidentialité et aux conditions. Il n\'est pas utilisé à des fins publicitaires.',
       },
     ],
   },
@@ -215,24 +276,40 @@ export const frLanding: LandingStrings = {
       {
         title: 'Technologies Meta',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
-        title: 'Règles',
+        title: 'Politiques',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
-        title: 'Assistance',
+        title: 'Soutien',
         links: [
-          { label: 'Centre d\'aide' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: 'Centre d\'aide',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],

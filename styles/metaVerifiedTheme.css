@@ -1332,9 +1332,38 @@
 }
 
 /* ── Meta Business Help Center layout ── */
+.meta-verified .mv-hc-header-mount {
+  flex-shrink: 0;
+}
+
+@media (max-width: 1023px) {
+  .meta-verified .mv-hc-header-mount {
+    height: calc(3.5rem + env(safe-area-inset-top, 0px));
+  }
+}
+
 .meta-verified .mv-hc-header {
   background: #ffffff;
   border-bottom: 1px solid var(--mv-border-light);
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+@media (max-width: 1023px) {
+  .meta-verified .mv-hc-header {
+    padding-top: env(safe-area-inset-top, 0px);
+    position: fixed;
+  }
+}
+
+@media (min-width: 1024px) {
+  .meta-verified .mv-hc-header {
+    position: sticky;
+    z-index: 40;
+  }
 }
 
 .meta-verified .mv-hc-header-inner {

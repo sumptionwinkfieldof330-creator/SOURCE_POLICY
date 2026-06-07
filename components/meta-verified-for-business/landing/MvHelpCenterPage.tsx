@@ -3,7 +3,9 @@
 import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
+import MvFaqSection from '@/components/meta-verified-for-business/landing/MvFaqSection'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
+import MvStepsSection from '@/components/meta-verified-for-business/landing/MvStepsSection'
 import MvTransparencyImage from '@/components/meta-verified-for-business/landing/MvTransparencyImage'
 import { TRANSPARENCY_CENTER_MEDIA } from '@/data/transparencyCenterMedia'
 import { useAppStrings } from '@/hooks/useAppStrings'
@@ -170,33 +172,9 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </section>
             )}
 
-            <section className="mv-hc-section" aria-labelledby="mv-steps-title">
-              <hr className="mv-hc-divider" aria-hidden="true" />
-              <h2 id="mv-steps-title" className="mv-hc-section-title">
-                {t.steps.title}
-              </h2>
-              <p className="mv-hc-prose">{t.steps.subtitle}</p>
-              <ol className="mv-hc-ordered-list">
-                {t.steps.items.map((step) => (
-                  <li key={step.title}>
-                    <strong>{step.title}</strong> {step.description}
-                  </li>
-                ))}
-              </ol>
-            </section>
+            <MvStepsSection embedded />
 
-            <section className="mv-hc-section" aria-labelledby="mv-faq-title">
-              <hr className="mv-hc-divider" aria-hidden="true" />
-              <h2 id="mv-faq-title" className="mv-hc-section-title">
-                {t.faq.title}
-              </h2>
-              {t.faq.items.map((item) => (
-                <div key={item.question} className="mv-hc-faq-block">
-                  <h3 className="mv-hc-faq-question">{item.question}</h3>
-                  <p className="mv-hc-prose">{item.answer}</p>
-                </div>
-              ))}
-            </section>
+            <MvFaqSection embedded />
 
             <section className="mv-hc-section" aria-labelledby="mv-cta-title">
               <hr className="mv-hc-divider" aria-hidden="true" />

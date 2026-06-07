@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const zhHansLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: '透明度中心',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: '透明度中心',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: '政策',
+        type: 'menu',
+      },
+      {
+        label: '执行',
+        type: 'menu',
+      },
+      {
+        label: '安全',
+        type: 'menu',
+      },
+      {
+        label: '特征',
+        type: 'menu',
+      },
+      {
+        label: '治理',
+        type: 'menu',
+      },
+      {
+        label: '研究工具',
+        type: 'menu',
+      },
+      {
+        label: '报告',
+        type: 'menu',
+      },
     ],
     loginCta: '使用 Facebook 登录',
-    loginAria: '使用 Facebook 登录以管理你的公共主页',
-    cta: '提交申诉',
-    ctaAria: '提交申诉 — 请求审核你的公共主页相关决定',
+    loginAria: '使用 Facebook 登录来管理您的主页',
+    cta: '提交上诉',
+    ctaAria: '提交上诉？请求审核您的主页决定',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: '首页',
+        href: '#',
+      },
+      {
+        label: '政策',
+        href: '#',
+      },
+      {
+        label: '社区守则',
+      },
     ],
-    sidebarTitle: 'Community Standards 主题',
+    sidebarTitle: '社区_标准 主题',
     sidebarSection: '政策',
     sidebarLinks: [
-      { label: '协调伤害与宣扬犯罪' },
-      { label: '危险组织与个人' },
-      { label: '欺诈、诈骗与欺骗行为' },
-      { label: '受限商品和服务' },
-      { label: '儿童性剥削、虐待和裸露' },
-      { label: '暴力和血腥内容' },
+      {
+        label: '协调伤害和助长犯罪',
+      },
+      {
+        label: '危险组织和个人',
+      },
+      {
+        label: '欺诈、诈骗和欺骗行为',
+      },
+      {
+        label: '限制商品和服务',
+      },
+      {
+        label: '儿童性剥削和性虐待',
+      },
+      {
+        label: '自杀、自残和饮食失调',
+      },
+      {
+        label: '成人裸体和性活动',
+      },
+      {
+        label: '暴力和血腥内容',
+      },
+      {
+        label: '欺凌和骚扰',
+      },
+      {
+        label: '仇恨言论',
+      },
     ],
   },
   hero: {
-    title: '你的公共主页可能违反了 Community Standards',
-    lead:
-      'Community Standards 说明了在 Facebook、Instagram、Messenger 和 Threads 上允许和禁止的内容。在最近一次审核后，你的公共主页被认定可能不符合这些标准。如果你认为此结果不正确，可以提交申诉请求审核。',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      '这些标准基于用户反馈以及技术、公共安全和人权领域专家的建议。此通知仅适用于你管理的公共主页。',
-    creatorPrefix: '查看官方文件：',
-    creatorLink: 'Community Standards | Transparency Center',
-    cta: '提交申诉',
-    badgeAlt: 'Meta 徽标',
+    title: 'Community Standards',
+    lead: 'Community Standards 概述了 Facebook、Instagram、Messenger 和 Threads 上允许和不允许的内容。',
+    disclaimer: '请注意，美国英语版本的 Community Standards 反映了最新的政策集，应用作主要文件。',
+    policyStructure: '我们的社区标准适用于世界各地的每个人以及所有类型的内容，包括人工智能生成的内容。每个政策部分都以解释目标的 Policy Rationale 开头，后面是有关禁止内容或需要额外上下文才能执行的内容的具体规则。',
+    eligibility: '这些标准基于人们的反馈以及技术、公共安全和人权专家的指导？确保每个人的声音都受到重视。',
+    creatorPrefix: '查看完整文档：',
+    creatorLink: '社区守则 | Transparency Center',
+    cta: '提交上诉',
+    badgeAlt: 'Meta 标志',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: '您的主页可能违反了Community Standards',
+    body: '经过最近的审查，您管理的主页已被确定为可能不符合Community Standards。如果您认为此结果不正确，您可以提交申诉以请求复审。本通知仅适用于您管理的主页。',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Community Standards 主题',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: '协调伤害和助长犯罪',
+      },
+      {
+        label: '危险组织和个人',
+      },
+      {
+        label: '欺诈、诈骗和欺骗行为',
+      },
+      {
+        label: '限制商品和服务',
+      },
+      {
+        label: '儿童性剥削和性虐待',
+      },
+      {
+        label: '自杀、自残和饮食失调',
+      },
+      {
+        label: '成人裸体和性活动',
+      },
+      {
+        label: '暴力和血腥内容',
+      },
+      {
+        label: '欺凌和骚扰',
+      },
+      {
+        label: '仇恨言论',
+      },
+      {
+        label: '第三方知识产权侵权',
+      },
+      {
+        label: '当地非法内容、产品或服务',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: '我们对声音的承诺',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          '我们的 Community Standards 旨在创造表达空间。Meta 鼓励公开讨论——通过评论、图片、音乐或其他创意形式——即使存在分歧。在特殊情况下，在我们权衡信息价值与伤害风险并参照国际人权标准后，服务于公共利益的 [[值得报道]] 内容可能会保留。当上下文澄清违规时，我们可能会删除模糊或隐含的内容。',
+          '我们优先考虑语音，同时认识到互联网也可能导致滥用。当我们限制表达时，我们这样做是为了保护以下一项或多项价值观：',
         ],
       },
     ],
@@ -88,124 +164,109 @@ export const zhHansLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: '真实性',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          '我们希望我们平台上的内容能够反映真实的内容。真实性可以创造一个更健康的共享环境，因此不允许歪曲身份或行为。',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: '安全',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook、Instagram、Messenger 和 Threads 应该是安全的环境。我们删除可能对他人造成人身伤害、威胁、排斥或压制他人的内容。',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: '隐私',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          '我们致力于保护个人隐私和数据。隐私可帮助人们控制如何以及何时共享和连接我们的服务。',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: '尊严',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          '我们相信所有人都享有平等的尊严和权利。我们不允许骚扰或侮辱他人。',
         ],
       },
     ],
   },
   steps: {
-    title: '提交申诉的步骤',
-    subtitle:
-      '提交前，请将标记内容与 Transparency Center 上的 Community Standards 进行对照。预计填写表单时间：约 5–10 分钟。',
+    title: '提交上诉的步骤',
+    subtitle: '提交之前，请将标记的内容与 Transparency Center 上的 Community Standards 进行比较。预计表格填写时间：大约 5 至 10 分钟。',
     items: [
       {
-        title: '查阅适用的政策。',
-        description:
-          '阅读 Transparency Center 上的相关政策部分 — 每个部分都包含 Policy Rationale 和具体规则。与你的公共主页上被标记的帖子或活动进行对照。',
+        title: '查看适用的政策。',
+        description: '阅读 Transparency Center 上的相关政策部分？每个部分都包含 Policy Rationale 和具体规则。将此与您主页上标记的帖子或活动进行比较。',
       },
       {
-        title: '填写表单并验证身份。',
-        description:
-          '提供管理员和联系信息以及背景说明（如需要）。提交前验证关联的 Facebook 账户。',
+        title: '填写表格并验证身份。',
+        description: '如果需要，请提供管理员详细信息、联系信息和上下文。提交前验证链接的 Facebook 帐户。',
       },
       {
         title: '在 Facebook 上关注结果。',
-        description:
-          '提交后，你将通过 Facebook 通知收到确认。审核通常需要 3–7 个工作日。如需支持，你的请求编号会有帮助。',
+        description: '提交后，您会通过 Facebook 通知收到确认。审核通常需要 3 至 7 个工作日。如果需要支持，您的请求参考会有所帮助。',
       },
     ],
   },
   testimonials: {
-    title: 'Transparency Center 引用',
+    title: '参考自 Transparency Center',
     prevAria: '上一项',
     nextAria: '下一项',
     items: [
       {
-        quote:
-          '这些标准基于用户反馈以及技术、公共安全和人权等领域专家的建议 — 以确保每个人的声音都受到重视。',
+        quote: '这些标准基于人们的反馈以及技术、公共安全和人权专家的指导？确保每个人的声音都受到重视。',
         author: 'Meta Transparency Center',
-        role: '简介',
+        role: '介绍',
       },
       {
-        quote:
-          '我们的 Community Standards 适用于全球所有人以及所有类型的内容，包括 AI 生成的内容。',
+        quote: '我们的 Community Standards 适用于全世界的每个人以及所有类型的内容，包括人工智能生成的内容。',
         author: 'Meta Transparency Center',
-        role: '适用范围',
+        role: '范围',
       },
       {
-        quote:
-          'Community Standards 的美式英语版本反映了最新的一套政策，应作为主要文件使用。',
+        quote: '美国英语版本的 Community Standards 反映了最新的政策集，应用作主要文件。',
         author: 'Meta Transparency Center',
-        role: '官方文件',
+        role: '公文',
       },
     ],
   },
   finalCta: {
-    title: '提交申诉',
-    subtitle:
-      '如果在阅读 Community Standards 后，你认为你的公共主页符合政策，请提交包含管理员信息和身份验证的表单。',
-    cta: '提交申诉',
+    title: '提交上诉',
+    subtitle: '如果在阅读Community Standards后，您认为您的主页符合政策，请提交包含管理员详细信息和身份验证的表单。',
+    cta: '提交上诉',
   },
   faq: {
     title: '常见问题',
     items: [
       {
-        question: 'Community Standards 涵盖哪些内容？',
-        answer:
-          'Community Standards 说明了在 Facebook、Instagram、Messenger 和 Threads 上允许和禁止的内容。完整文件发布在 Meta Transparency Center。',
+        question: '申诉是否适用于个人资料或群组？',
+        answer: '不可以。本页面上的通知和申诉表仅适用于您管理的页面。个人资料、群组或其他 Meta 产品不属于此请求的范围。',
       },
       {
-        question: '哪个版本是官方参考？',
-        answer:
-          '根据 Transparency Center，美式英语版本反映了最新的一套政策，应作为主要文件使用。',
+        question: '上诉被拒绝后我可以再次提出上诉吗？',
+        answer: '是的，如果您有以前未考虑过的新信息或证据。每个新提交的内容都应清楚地解释不同之处。没有额外背景的重复申诉可能不会再次审核。',
       },
       {
-        question: 'Meta 在限制内容时遵循哪些价值观？',
-        answer:
-          '当 Meta 限制表达时，是为了服务于真实性、安全、隐私或尊严 — Community Standards 中阐述的四个基本价值观。',
+        question: '在打开申诉表之前我应该​​准备什么？',
+        answer: '收集受影响帖子的链接或 ID、业务背景或内容目的的简要说明，并确认您使用具有 Meta Business Suite 中页面管理员访问权限的帐户登录。',
       },
       {
-        question: '如果我不确定是否违反政策，为什么我的公共主页会被标记？',
-        answer:
-          'Meta 的系统可能在最终结论之前检测到可能违规的内容。通知反映的是初步评估阶段；申诉可让审核团队重新评估你公共主页的具体背景。',
+        question: '请求参考代码的用途是什么？',
+        answer: '每次提交都会生成一个唯一的参考代码。当跟踪 Facebook 上的状态或支持人员需要查找您的案例时，请保留此代码。它不会取代官方的应用内通知。',
       },
       {
-        question: '谁可以提交申诉？',
-        answer:
-          '公共主页管理员或拥有该公共主页的组织的授权代表。提交表单时必须验证关联的 Facebook 账户。',
+        question: '提交申诉是否会暂停页面限制？',
+        answer: '不可以。在审核等待期间，您的主页可能仍然受到限制。上诉结果将单独传达，如果被接受，可能会导致限制被取消。',
       },
       {
-        question: '审核需要多长时间，可能有哪些结果？',
-        answer:
-          '通常为 3–7 个工作日，如需补充信息可能更长。结果可能包括申诉被接受、维持原决定或要求提供更多信息 — 均通过 Facebook 通知。',
+        question: '我将如何收到上诉结果？',
+        answer: '通过 Facebook 通知（响铃图标），而不是通过此表单的单独电子邮件。启用页面相关通知并在提交后的几个工作日内定期检查。',
       },
       {
-        question: '我的信息如何使用？',
-        answer:
-          '仅用于处理你的申诉和验证管理权限，依据 Meta 的隐私政策和条款。',
+        question: '如何存储和使用表单中的信息？',
+        answer: '您提供的数据仅用于根据 Meta 的内部程序处理您的申诉、验证管理权限和维护记录，并符合隐私政策和条款。它不用于广告。',
       },
     ],
   },
@@ -215,24 +276,40 @@ export const zhHansLanding: LandingStrings = {
       {
         title: 'Meta 技术',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
         title: '政策',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
         title: '支持',
         links: [
-          { label: '帮助中心' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: '帮助中心',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],

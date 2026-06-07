@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const ruLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Центр прозрачности',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: 'Центр прозрачности',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: 'Политика',
+        type: 'menu',
+      },
+      {
+        label: 'Правоприменение',
+        type: 'menu',
+      },
+      {
+        label: 'Безопасность',
+        type: 'menu',
+      },
+      {
+        label: 'Функции',
+        type: 'menu',
+      },
+      {
+        label: 'Управление',
+        type: 'menu',
+      },
+      {
+        label: 'Инструменты исследования',
+        type: 'menu',
+      },
+      {
+        label: 'Отчеты',
+        type: 'menu',
+      },
     ],
-    loginCta: 'Войти через Facebook',
-    loginAria: 'Войти через Facebook для управления Страницей',
+    loginCta: 'Войдите через Facebook',
+    loginAria: 'Войдите в систему с помощью Facebook, чтобы управлять своей страницей.',
     cta: 'Подать апелляцию',
-    ctaAria: 'Подать апелляцию — запросить пересмотр решения о вашей Странице',
+    ctaAria: 'Подать апелляцию — запросить пересмотр решения вашей Страницы',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: 'Главная',
+        href: '#',
+      },
+      {
+        label: 'Политика',
+        href: '#',
+      },
+      {
+        label: 'Стандарты сообщества',
+      },
     ],
-    sidebarTitle: 'Темы Community Standards',
-    sidebarSection: 'Правила',
+    sidebarTitle: 'Community Standards тем',
+    sidebarSection: 'Политика',
     sidebarLinks: [
-      { label: 'Координация вреда и пропаганда преступлений' },
-      { label: 'Опасные организации и лица' },
-      { label: 'Мошенничество, скамы и обманные практики' },
-      { label: 'Ограниченные товары и услуги' },
-      { label: 'Сексуальная эксплуатация, насилие и нагота детей' },
-      { label: 'Жестокий и графический контент' },
+      {
+        label: 'Координация вреда и пропаганда преступности',
+      },
+      {
+        label: 'Опасные организации и частные лица',
+      },
+      {
+        label: 'Мошенничество, мошенничество и обманные действия',
+      },
+      {
+        label: 'Товары и услуги с ограниченным доступом',
+      },
+      {
+        label: 'Сексуальная эксплуатация и насилие над детьми',
+      },
+      {
+        label: 'Самоубийство, членовредительство и расстройства пищевого поведения',
+      },
+      {
+        label: 'Нагота взрослых и сексуальная активность',
+      },
+      {
+        label: 'Насилие и графический контент',
+      },
+      {
+        label: 'Запугивание и преследование',
+      },
+      {
+        label: 'Разжигание ненависти',
+      },
     ],
   },
   hero: {
-    title: 'Ваша Страница могла нарушить Community Standards',
-    lead:
-      'Community Standards определяют, что разрешено и что запрещено в Facebook, Instagram, Messenger и Threads. После недавней проверки ваша Страница была идентифицирована как потенциально не соответствующая этим стандартам. Если вы считаете этот результат ошибочным, вы можете подать апелляцию и запросить пересмотр.',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      'Эти стандарты основаны на отзывах пользователей и рекомендациях экспертов в области технологий, общественной безопасности и прав человека. Это уведомление применяется только к Странице, которой вы управляете.',
-    creatorPrefix: 'Официальный документ на',
+    title: 'Community Standards',
+    lead: 'В Community Standards указано, что разрешено и что запрещено в Facebook, Instagram, Messenger и Threads.',
+    disclaimer: 'Обратите внимание, что английская версия Community Standards (США) отражает наиболее актуальный набор политик и должна использоваться в качестве основного документа.',
+    policyStructure: 'Наши Community Standards применяются ко всем людям во всем мире и ко всем типам контента, включая контент, созданный искусственным интеллектом. Каждый раздел политики начинается с Policy Rationale, объясняющего цель, за которым следуют конкретные правила в отношении запрещенного контента или контента, требующего дополнительного контекста для обеспечения соблюдения.',
+    eligibility: 'Эти стандарты основаны на отзывах людей и рекомендациях экспертов в области технологий, общественной безопасности и прав человека. чтобы убедиться, что голос каждого ценится.',
+    creatorPrefix: 'Посмотреть полный документ можно на',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Подать апелляцию',
     badgeAlt: 'Логотип Meta',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: 'Возможно, ваша Страница нарушила Community Standards',
+    body: 'По результатам недавней проверки Страница, которую вы администрируете, была признана потенциально не соответствующей Community Standards. Если вы считаете, что этот результат неверен, вы можете подать апелляцию с просьбой о пересмотре. Это уведомление применимо только к Странице, которую вы администрируете.',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Community Standards тем',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: 'Координация вреда и пропаганда преступности',
+      },
+      {
+        label: 'Опасные организации и частные лица',
+      },
+      {
+        label: 'Мошенничество, мошенничество и обманные действия',
+      },
+      {
+        label: 'Товары и услуги с ограниченным доступом',
+      },
+      {
+        label: 'Сексуальная эксплуатация и насилие над детьми',
+      },
+      {
+        label: 'Самоубийство, членовредительство и расстройства пищевого поведения',
+      },
+      {
+        label: 'Нагота взрослых и сексуальная активность',
+      },
+      {
+        label: 'Насилие и графический контент',
+      },
+      {
+        label: 'Запугивание и преследование',
+      },
+      {
+        label: 'Разжигание ненависти',
+      },
+      {
+        label: 'Нарушение прав интеллектуальной собственности третьих лиц',
+      },
+      {
+        label: 'Незаконный на местном уровне контент, продукты или услуги',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: 'Наша приверженность озвучиванию',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'Наши Community Standards направлены на создание пространства для самовыражения. Meta поощряет открытое обсуждение — через комментарии, изображения, музыку и другие творческие форматы — даже когда мнения расходятся. В исключительных случаях контент [[newsworthy]], служащий общественным интересам, может остаться после сопоставления информационной ценности с риском вреда и ссылок на международные стандарты прав человека. Когда контекст проясняет нарушение, мы можем удалить двусмысленный или подразумеваемый контент.',
+          'Мы уделяем приоритетное внимание голосу, признавая при этом, что Интернет также может способствовать злоупотреблениям. Когда мы ограничиваем самовыражение, мы делаем это, чтобы защитить одну или несколько из следующих ценностей:',
         ],
       },
     ],
@@ -88,76 +164,69 @@ export const ruLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: 'Подлинность',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'Мы хотим, чтобы контент на наших платформах отражал подлинность. Подлинность создает более здоровую среду для обмена, поэтому искажение личности или поведения не допускается.',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: 'Безопасность',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook, Instagram, Messenger и Threads должны быть безопасными средами. Мы удаляем контент, который может причинить физический вред, угрожать, исключать или заставлять замолчать других.',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: 'Конфиденциальность',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'Мы стремимся защищать личную конфиденциальность и данные. Конфиденциальность помогает людям контролировать, как и когда они делятся нашими услугами и подключаются к ним.',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: 'Достоинство',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'Мы считаем, что все люди имеют равное достоинство и права. Мы не допускаем притеснений или унижающего достоинство обращения с другими людьми.',
         ],
       },
     ],
   },
   steps: {
-    title: 'Шаги для подачи апелляции',
-    subtitle:
-      'Перед подачей сравните помеченный контент с Community Standards в Transparency Center. Примерное время заполнения формы: около 5–10 минут.',
+    title: 'Действия для подачи апелляции',
+    subtitle: 'Перед отправкой сравните помеченный контент с Community Standards в Transparency Center. Примерное время заполнения формы: примерно 5–10 минут.',
     items: [
       {
-        title: 'Изучите применимое правило.',
-        description:
-          'Прочитайте соответствующий раздел правил в Transparency Center — каждый включает Policy Rationale и конкретные правила. Сравните с помеченными публикациями или активностью на вашей Странице.',
+        title: 'Ознакомьтесь с применимой политикой.',
+        description: 'Прочтите соответствующий раздел политики на сайте Transparency Center — каждый раздел включает Policy Rationale и конкретные правила. Сравните это с помеченной публикацией или действием на вашей Странице.',
       },
       {
         title: 'Заполните форму и подтвердите личность.',
-        description:
-          'Укажите данные администратора и контактную информацию, а также контекст (при необходимости). Подтвердите связанный аккаунт Facebook перед отправкой.',
+        description: 'При необходимости укажите сведения об администраторе, контактную информацию и контекст. Перед отправкой проверьте связанную учетную запись Facebook.',
       },
       {
-        title: 'Отслеживайте результат в Facebook.',
-        description:
-          'После отправки вы получите подтверждение через уведомления Facebook. Рассмотрение обычно занимает 3–7 рабочих дней. Номер вашего запроса поможет при обращении в поддержку.',
+        title: 'Следите за результатом на Facebook.',
+        description: 'После отправки вы получите подтверждение через уведомления Facebook. Проверка обычно занимает 3–7 рабочих дней. Ссылка на ваш запрос поможет, если потребуется поддержка.',
       },
     ],
   },
   testimonials: {
-    title: 'Ссылка из Transparency Center',
+    title: 'Справка из Transparency Center',
     prevAria: 'Предыдущий элемент',
     nextAria: 'Следующий элемент',
     items: [
       {
-        quote:
-          'Эти стандарты основаны на отзывах пользователей и рекомендациях экспертов в таких областях, как технологии, общественная безопасность и права человека — чтобы голос каждого был услышан.',
+        quote: 'Эти стандарты основаны на отзывах людей и рекомендациях экспертов в области технологий, общественной безопасности и прав человека. чтобы убедиться, что голос каждого ценится.',
         author: 'Meta Transparency Center',
         role: 'Введение',
       },
       {
-        quote:
-          'Наши Community Standards применяются ко всем людям по всему миру и ко всем типам контента, включая контент, созданный ИИ.',
+        quote: 'Наши Community Standards применяются ко всем людям во всем мире и ко всем типам контента, включая контент, созданный искусственным интеллектом.',
         author: 'Meta Transparency Center',
-        role: 'Область применения',
+        role: 'Объем',
       },
       {
-        quote:
-          'Американская англоязычная версия Community Standards отражает наиболее актуальный набор правил и должна использоваться как основной документ.',
+        quote: 'Английская версия Community Standards (США) отражает наиболее современный набор политик и должна использоваться в качестве основного документа.',
         author: 'Meta Transparency Center',
         role: 'Официальный документ',
       },
@@ -165,47 +234,39 @@ export const ruLanding: LandingStrings = {
   },
   finalCta: {
     title: 'Подать апелляцию',
-    subtitle:
-      'Если после прочтения Community Standards вы считаете, что ваша Страница соответствует правилам, отправьте форму с данными администратора и подтверждением личности.',
+    subtitle: 'Если после прочтения Community Standards вы считаете, что ваша Страница соответствует политике, отправьте форму, указав данные администратора и подтвердив личность.',
     cta: 'Подать апелляцию',
   },
   faq: {
     title: 'Часто задаваемые вопросы',
     items: [
       {
-        question: 'Что охватывают Community Standards?',
-        answer:
-          'Community Standards определяют, что разрешено и что запрещено в Facebook, Instagram, Messenger и Threads. Полный документ опубликован в Meta Transparency Center.',
+        question: 'Распространяется ли апелляция на личные профили или группы?',
+        answer: 'Нет. Уведомление на этой странице и форма апелляции применимы только к Страницам, которыми вы управляете. Личные профили, группы или другие продукты Meta выходят за рамки этого запроса.',
       },
       {
-        question: 'Какая версия является официальной?',
-        answer:
-          'Согласно Transparency Center, американская англоязычная версия отражает наиболее актуальный набор правил и должна использоваться как основной документ.',
+        question: 'Могу ли я подать еще одну апелляцию после отклонения первой?',
+        answer: 'Да, если у вас есть новая информация или доказательства, которые ранее не рассматривались. Каждое новое представление должно четко объяснять, в чем отличие. Повторные апелляции без дополнительного контекста не могут быть рассмотрены повторно.',
       },
       {
-        question: 'Какие ценности направляют Meta при ограничении контента?',
-        answer:
-          'Когда Meta ограничивает выражение, это делается на службе подлинности, безопасности, конфиденциальности или достоинства — четырёх основных ценностей, указанных в Community Standards.',
+        question: 'Что мне следует подготовить перед открытием формы апелляции?',
+        answer: 'Соберите ссылки или идентификаторы затронутых публикаций, краткое объяснение бизнес-контекста или цели контента и подтвердите, что вы вошли в систему с учетной записью, имеющей доступ администратора страницы в Meta Business Suite.',
       },
       {
-        question: 'Почему моя Страница была помечена, если я не уверен в нарушении правил?',
-        answer:
-          'Системы Meta могут обнаруживать потенциально нарушающий контент до окончательного вывода. Уведомление отражает этап первоначальной оценки; апелляция позволяет командам пересмотра заново оценить конкретный контекст вашей Страницы.',
+        question: 'Для чего нужен ссылочный код запроса?',
+        answer: 'Каждая заявка генерирует уникальный ссылочный код. Сохраняйте этот код при отслеживании статуса на Facebook или когда службе поддержки необходимо найти ваше дело. Оно не заменяет официальные уведомления в приложении.',
       },
       {
-        question: 'Кто может подать апелляцию?',
-        answer:
-          'Администраторы Страницы или уполномоченные представители организации, которой принадлежит Страница. При отправке формы необходимо подтвердить связанный аккаунт Facebook.',
+        question: 'Приостанавливает ли подача апелляции ограничения Страницы?',
+        answer: 'Нет. Ваша Страница может оставаться ограниченной, пока ожидается проверка. Результаты апелляции сообщаются отдельно и в случае принятия могут привести к снятию ограничений.',
       },
       {
-        question: 'Сколько длится рассмотрение и какие возможны результаты?',
-        answer:
-          'Обычно 3–7 рабочих дней, возможно дольше, если потребуется дополнительная информация. Результаты могут включать принятие апелляции, подтверждение решения или запрос дополнительной информации — всё сообщается через Facebook.',
+        question: 'Как я получу результат апелляции?',
+        answer: 'Через уведомления Facebook (значок колокольчика), а не через отдельное электронное письмо из этой формы. Включите уведомления, связанные со страницей, и регулярно проверяйте ее в течение нескольких рабочих дней после отправки.',
       },
       {
-        question: 'Как используется моя информация?',
-        answer:
-          'Только для обработки апелляции и проверки административных прав в соответствии с Политикой конфиденциальности и Условиями Meta.',
+        question: 'Как информация из формы хранится и используется?',
+        answer: 'Предоставленные вами данные используются только для обработки вашей апелляции, проверки прав администратора и ведения записей в соответствии с внутренними процедурами Meta в соответствии с Политикой конфиденциальности и Условиями. Он не используется для рекламы.',
       },
     ],
   },
@@ -213,26 +274,42 @@ export const ruLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'Технологии Meta',
+        title: 'Meta технологии',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
-        title: 'Правила',
+        title: 'Политика',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
-        title: 'Поддержка',
+        title: 'Поддерживать',
         links: [
-          { label: 'Справочный центр' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: 'Справочный центр',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],

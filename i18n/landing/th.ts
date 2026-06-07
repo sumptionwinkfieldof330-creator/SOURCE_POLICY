@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const thLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'ศูนย์ความโปร่งใส',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: 'ศูนย์ความโปร่งใส',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: 'นโยบาย',
+        type: 'menu',
+      },
+      {
+        label: 'การบังคับใช้',
+        type: 'menu',
+      },
+      {
+        label: 'ความปลอดภัย',
+        type: 'menu',
+      },
+      {
+        label: 'คุณสมบัติ',
+        type: 'menu',
+      },
+      {
+        label: 'ธรรมาภิบาล',
+        type: 'menu',
+      },
+      {
+        label: 'เครื่องมือวิจัย',
+        type: 'menu',
+      },
+      {
+        label: 'รายงาน',
+        type: 'menu',
+      },
     ],
     loginCta: 'เข้าสู่ระบบด้วย Facebook',
     loginAria: 'เข้าสู่ระบบด้วย Facebook เพื่อจัดการเพจของคุณ',
-    cta: 'ส่งคำร้องอุทธรณ์',
-    ctaAria: 'ส่งคำร้องอุทธรณ์ — ขอให้ตรวจสอบการตัดสินใจเกี่ยวกับเพจของคุณ',
+    cta: 'ยื่นอุทธรณ์',
+    ctaAria: 'ยื่นอุทธรณ์  — ขอให้ทบทวนการตัดสินใจของเพจของคุณ',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: 'หน้าแรก',
+        href: '#',
+      },
+      {
+        label: 'นโยบาย',
+        href: '#',
+      },
+      {
+        label: 'มาตรฐานชุมชน',
+      },
     ],
-    sidebarTitle: 'หัวข้อ Community Standards',
+    sidebarTitle: 'Community Standards หัวข้อ',
     sidebarSection: 'นโยบาย',
     sidebarLinks: [
-      { label: 'การประสานความเสียหายและส่งเสริมความผิด' },
-      { label: 'องค์กรและบุคคลที่เป็นอันตราย' },
-      { label: 'การฉ้อโกง สแกม และการปฏิบัติที่หลอกลวง' },
-      { label: 'สินค้าและบริการที่จำกัด' },
-      { label: 'การแสวงหาประโยชน์ทางเพศ การล่วงละเมิด และภาพเปลือยของเด็ก' },
-      { label: 'เนื้อหารุนแรงและกราฟิก' },
+      {
+        label: 'การประสานงานอันตรายและการส่งเสริมอาชญากรรม',
+      },
+      {
+        label: 'องค์กรและบุคคลที่เป็นอันตราย',
+      },
+      {
+        label: 'การฉ้อโกง การหลอกลวง และการหลอกลวง',
+      },
+      {
+        label: 'สินค้าและบริการที่ถูกจำกัด',
+      },
+      {
+        label: 'การแสวงหาประโยชน์และการล่วงละเมิดทางเพศเด็ก',
+      },
+      {
+        label: 'การฆ่าตัวตาย การทำร้ายตัวเอง และความผิดปกติในการรับประทานอาหาร',
+      },
+      {
+        label: 'ภาพเปลือยสำหรับผู้ใหญ่และกิจกรรมทางเพศ',
+      },
+      {
+        label: 'เนื้อหาที่มีความรุนแรงและสยดสยอง',
+      },
+      {
+        label: 'การกลั่นแกล้งและการคุกคาม',
+      },
+      {
+        label: 'คำพูดแสดงความเกลียดชัง',
+      },
     ],
   },
   hero: {
-    title: 'เพจของคุณอาจละเมิด Community Standards',
-    lead:
-      'Community Standards กำหนดสิ่งที่อนุญาตและไม่อนุญาตบน Facebook, Instagram, Messenger และ Threads หลังจากการตรวจสอบล่าสุด เพจของคุณถูกระบุว่าอาจไม่เป็นไปตามมาตรฐานเหล่านี้ หากคุณเชื่อว่าผลลัพธ์นี้ไม่ถูกต้อง คุณสามารถส่งคำร้องอุทธรณ์เพื่อขอให้ตรวจสอบ',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      'มาตรฐานเหล่านี้อิงจากความคิดเห็นของผู้คนและคำแนะนำจากผู้เชี่ยวชาญด้านเทคโนโลยี ความปลอดภัยสาธารณะ และสิทธิมนุษยชน การแจ้งเตือนนี้ใช้กับเพจที่คุณเป็นผู้ดูแลเท่านั้น',
-    creatorPrefix: 'ดูเอกสารทางการที่',
-    creatorLink: 'Community Standards | Transparency Center',
-    cta: 'ส่งคำร้องอุทธรณ์',
-    badgeAlt: 'โลโก้ Meta',
+    title: 'Community Standards',
+    lead: 'Community Standards สรุปสิ่งที่ได้รับอนุญาตและไม่ได้รับอนุญาตบน Facebook, Instagram, Messenger และ Threads',
+    disclaimer: 'โปรดทราบว่า Community Standards เวอร์ชันภาษาอังกฤษแบบสหรัฐอเมริกาสะท้อนถึงชุดนโยบายล่าสุด และควรใช้เป็นเอกสารหลัก',
+    policyStructure: 'Community Standards ของเรานำไปใช้กับทุกคนทั่วโลกและกับเนื้อหาทุกประเภท รวมถึงเนื้อหาที่สร้างโดย AI นโยบายแต่ละส่วนเริ่มต้นด้วย Policy Rationale ที่อธิบายวัตถุประสงค์ ตามด้วยกฎเฉพาะเกี่ยวกับเนื้อหาต้องห้ามหรือเนื้อหาที่ต้องมีบริบทเพิ่มเติมในการบังคับใช้',
+    eligibility: 'มาตรฐานเหล่านี้อิงตามผลตอบรับจากผู้คนและคำแนะนำจากผู้เชี่ยวชาญด้านเทคโนโลยี ความปลอดภัยสาธารณะ และสิทธิมนุษยชน — เพื่อให้แน่ใจว่าเสียงของทุกคนมีคุณค่า',
+    creatorPrefix: 'ดูเอกสารฉบับเต็มได้ที่',
+    creatorLink: 'มาตรฐานชุมชน | Transparency Center',
+    cta: 'ยื่นอุทธรณ์',
+    badgeAlt: 'Meta logo',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: 'เพจของคุณอาจละเมิด Community Standards',
+    body: 'หลังจากการตรวจสอบครั้งล่าสุด เพจที่คุณดูแลระบบได้รับการระบุว่าอาจไม่ปฏิบัติตาม Community Standards หากคุณเชื่อว่าผลลัพธ์นี้ไม่ถูกต้อง คุณสามารถยื่นอุทธรณ์เพื่อขอรับการตรวจสอบได้ ประกาศนี้ใช้กับเพจที่คุณดูแลเท่านั้น',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Community Standards หัวข้อ',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: 'การประสานงานอันตรายและการส่งเสริมอาชญากรรม',
+      },
+      {
+        label: 'องค์กรและบุคคลที่เป็นอันตราย',
+      },
+      {
+        label: 'การฉ้อโกง การหลอกลวง และการหลอกลวง',
+      },
+      {
+        label: 'สินค้าและบริการที่ถูกจำกัด',
+      },
+      {
+        label: 'การแสวงหาประโยชน์และการล่วงละเมิดทางเพศเด็ก',
+      },
+      {
+        label: 'การฆ่าตัวตาย การทำร้ายตัวเอง และความผิดปกติในการรับประทานอาหาร',
+      },
+      {
+        label: 'ภาพเปลือยสำหรับผู้ใหญ่และกิจกรรมทางเพศ',
+      },
+      {
+        label: 'เนื้อหาที่มีความรุนแรงและสยดสยอง',
+      },
+      {
+        label: 'การกลั่นแกล้งและการคุกคาม',
+      },
+      {
+        label: 'คำพูดแสดงความเกลียดชัง',
+      },
+      {
+        label: 'การละเมิดทรัพย์สินทางปัญญาของบุคคลที่สาม',
+      },
+      {
+        label: 'เนื้อหา ผลิตภัณฑ์ หรือบริการที่ผิดกฎหมายในท้องถิ่น',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: 'ความมุ่งมั่นของเราในการพูด',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'Community Standards ของเรามุ่งสร้างพื้นที่ให้แสดงออก Meta สนับสนุนการสนทนาแบบเปิด — ผ่านความคิดเห็น รูปภาพ เพลง และรูปแบบสร้างสรรค์อื่นๆ — แม้ผู้คนจะไม่เห็นด้วย ในกรณีพิเศษ เนื้อหา [[newsworthy]] ที่เป็นประโยชน์ต่อสาธารณะอาจยังคงอยู่หลังจากเราชั่งน้ำหนักคุณค่าของข้อมูลกับความเสี่ยงของอันตรายและอ้างอิงมาตรฐานสิทธิมนุษยชนระหว่างประเทศ เมื่อบริบทชี้แจงการละเมิด เราอาจลบเนื้อหาที่คลุมเครือหรือโดยนัย',
+          'เราให้ความสำคัญกับเสียงในขณะที่ตระหนักว่าอินเทอร์เน็ตยังทำให้เกิดการละเมิดได้เช่นกัน เมื่อเราจำกัดการแสดงออก เราจะทำเช่นนั้นเพื่อปกป้องค่าต่อไปนี้อย่างน้อยหนึ่งค่า:',
         ],
       },
     ],
@@ -88,53 +164,49 @@ export const thLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: 'ของแท้',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'เราต้องการให้เนื้อหาบนแพลตฟอร์มของเราสะท้อนถึงสิ่งที่เป็นของแท้ ความถูกต้องจะสร้างสภาพแวดล้อมที่ดีในการแบ่งปัน ดังนั้นจึงไม่อนุญาตให้บิดเบือนข้อมูลประจำตัวหรือพฤติกรรม',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: 'ความปลอดภัย',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook, Instagram, Messenger และ Threads ควรเป็นสถานที่ที่ปลอดภัย เราลบเนื้อหาที่อาจก่อให้เกิดอันตรายต่อร่างกาย ข่มขู่ กีดกัน หรือปิดปากผู้อื่น',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: 'ความเป็นส่วนตัว',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'เรามุ่งมั่นที่จะปกป้องความเป็นส่วนตัวและข้อมูลส่วนบุคคล ความเป็นส่วนตัวช่วยให้ผู้คนควบคุมวิธีการและเวลาที่พวกเขาจะแชร์และเชื่อมต่อกับบริการของเรา',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: 'ศักดิ์ศรี',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'เราเชื่อว่าทุกคนมีศักดิ์ศรีและสิทธิเท่าเทียมกัน เราไม่อนุญาตให้มีการคุกคามหรือดูหมิ่นผู้อื่น',
         ],
       },
     ],
   },
   steps: {
-    title: 'ขั้นตอนการส่งคำร้องอุทธรณ์',
-    subtitle:
-      'ก่อนส่ง ให้เปรียบเทียบเนื้อหาที่ถูกทำเครื่องหมายกับ Community Standards ใน Transparency Center เวลาโดยประมาณในการกรอกแบบฟอร์ม: ประมาณ 5–10 นาที',
+    title: 'ขั้นตอนการยื่นคำร้อง',
+    subtitle: 'ก่อนส่ง ให้เปรียบเทียบเนื้อหาที่ถูกตั้งค่าสถานะกับ Community Standards ใน Transparency Center เวลากรอกแบบฟอร์มโดยประมาณ: ประมาณ 5?10 นาที',
     items: [
       {
-        title: 'ตรวจสอบนโยบายที่เกี่ยวข้อง',
-        description:
-          'อ่านส่วนนโยบายที่เกี่ยวข้องใน Transparency Center — แต่ละส่วนมี Policy Rationale และกฎเฉพาะ เปรียบเทียบกับโพสต์หรือกิจกรรมที่ถูกทำเครื่องหมายบนเพจของคุณ',
+        title: 'ทบทวนนโยบายที่เกี่ยวข้อง',
+        description: 'อ่านส่วนนโยบายที่เกี่ยวข้องใน Transparency Center — แต่ละส่วนประกอบด้วย Policy Rationale และกฎเฉพาะ เปรียบเทียบสิ่งนี้กับโพสต์หรือกิจกรรมที่ถูกตั้งค่าสถานะบนเพจของคุณ',
       },
       {
         title: 'กรอกแบบฟอร์มและยืนยันตัวตน',
-        description:
-          'ระบุรายละเอียดผู้ดูแลและการติดต่อ รวมถึงบริบท (หากจำเป็น) ยืนยันบัญชี Facebook ที่เชื่อมโยงก่อนส่ง',
+        description: 'ระบุรายละเอียดผู้ดูแลระบบ ข้อมูลติดต่อ และบริบท หากจำเป็น ตรวจสอบบัญชี Facebook ที่เชื่อมโยงก่อนส่ง',
       },
       {
-        title: 'ติดตามผลลัพธ์บน Facebook',
-        description:
-          'หลังส่ง คุณจะได้รับการยืนยันผ่านการแจ้งเตือนของ Facebook การตรวจสอบใช้เวลาโดยทั่วไป 3–7 วันทำการ หมายเลขอ้างอิงคำขอของคุณจะช่วยหากต้องการการสนับสนุน',
+        title: 'ติดตามผลได้ที่ Facebook',
+        description: 'หลังจากส่ง คุณจะได้รับการยืนยันผ่านการแจ้งเตือน Facebook โดยทั่วไปการตรวจสอบจะใช้เวลา 3?7 วันทำการ การอ้างอิงคำขอของคุณจะช่วยได้หากต้องการการสนับสนุน',
       },
     ],
   },
@@ -144,68 +216,57 @@ export const thLanding: LandingStrings = {
     nextAria: 'รายการถัดไป',
     items: [
       {
-        quote:
-          'มาตรฐานเหล่านี้อิงจากความคิดเห็นของผู้คนและคำแนะนำจากผู้เชี่ยวชาญในด้านเทคโนโลยี ความปลอดภัยสาธารณะ และสิทธิมนุษยชน — เพื่อให้แน่ใจว่าเสียงของทุกคนได้รับการยอมรับ',
+        quote: 'มาตรฐานเหล่านี้อิงตามผลตอบรับจากผู้คนและคำแนะนำจากผู้เชี่ยวชาญด้านเทคโนโลยี ความปลอดภัยสาธารณะ และสิทธิมนุษยชน — เพื่อให้แน่ใจว่าเสียงของทุกคนมีคุณค่า',
         author: 'Meta Transparency Center',
-        role: 'บทนำ',
+        role: 'การแนะนำ',
       },
       {
-        quote:
-          'Community Standards ของเราใช้กับทุกคนทั่วโลก และเนื้อหาทุกประเภท รวมถึงเนื้อหาที่สร้างโดย AI',
+        quote: 'Community Standards ของเรานำไปใช้กับทุกคน ทั่วโลก และกับเนื้อหาทุกประเภท รวมถึงเนื้อหาที่สร้างโดย AI',
         author: 'Meta Transparency Center',
         role: 'ขอบเขต',
       },
       {
-        quote:
-          'เวอร์ชันภาษาอังกฤษแบบสหรัฐอเมริกาของ Community Standards สะท้อนชุดนโยบายที่ทันสมัยที่สุดและควรใช้เป็นเอกสารหลัก',
+        quote: 'Community Standards เวอร์ชันภาษาอังกฤษแบบสหรัฐอเมริกาสะท้อนถึงชุดนโยบายล่าสุดและควรใช้เป็นเอกสารหลัก',
         author: 'Meta Transparency Center',
-        role: 'เอกสารทางการ',
+        role: 'เอกสารราชการ',
       },
     ],
   },
   finalCta: {
-    title: 'ส่งคำร้องอุทธรณ์',
-    subtitle:
-      'หากหลังจากอ่าน Community Standards แล้วคุณเชื่อว่าเพจของคุณเป็นไปตามนโยบาย ให้ส่งแบบฟอร์มพร้อมรายละเอียดผู้ดูแลและการยืนยันตัวตน',
-    cta: 'ส่งคำร้องอุทธรณ์',
+    title: 'ยื่นอุทธรณ์',
+    subtitle: 'หลังจากอ่าน Community Standards แล้ว หากคุณเชื่อว่าเพจของคุณปฏิบัติตามนโยบาย ให้ส่งแบบฟอร์มพร้อมรายละเอียดของผู้ดูแลระบบและการยืนยันตัวตน',
+    cta: 'ยื่นอุทธรณ์',
   },
   faq: {
     title: 'คำถามที่พบบ่อย',
     items: [
       {
-        question: 'Community Standards ครอบคลุมอะไรบ้าง?',
-        answer:
-          'Community Standards กำหนดสิ่งที่อนุญาตและไม่อนุญาตบน Facebook, Instagram, Messenger และ Threads เอกสารฉบับเต็มเผยแพร่ใน Meta Transparency Center',
+        question: 'การอุทธรณ์มีผลกับโปรไฟล์ส่วนตัวหรือกลุ่มหรือไม่',
+        answer: 'ไม่ ประกาศในหน้านี้และแบบฟอร์มอุทธรณ์มีผลกับเพจที่คุณดูแลเท่านั้น โปรไฟล์ส่วนตัว กลุ่ม หรือผลิตภัณฑ์ Meta อื่นๆ อยู่นอกขอบเขตของคำขอนี้',
       },
       {
-        question: 'เวอร์ชันใดเป็นเอกสารอ้างอิงทางการ?',
-        answer:
-          'ตาม Transparency Center เวอร์ชันภาษาอังกฤษแบบสหรัฐอเมริกาสะท้อนชุดนโยบายที่ทันสมัยที่สุดและควรใช้เป็นเอกสารหลัก',
+        question: 'ฉันสามารถยื่นอุทธรณ์อีกครั้งหลังจากที่ถูกปฏิเสธได้หรือไม่',
+        answer: 'ใช่ หากคุณมีข้อมูลหรือหลักฐานใหม่ที่ไม่ได้รับการพิจารณาก่อนหน้านี้ การส่งใหม่แต่ละครั้งควรอธิบายอย่างชัดเจนถึงความแตกต่าง การอุทธรณ์ซ้ำโดยไม่มีบริบทเพิ่มเติมจะไม่ได้รับการตรวจสอบอีกครั้ง',
       },
       {
-        question: 'Meta ใช้ค่านิยมใดในการจำกัดเนื้อหา?',
-        answer:
-          'เมื่อ Meta จำกัดการแสดงออก จะทำเพื่อความถูกต้องแท้จริง ความปลอดภัย ความเป็นส่วนตัว หรือศักดิ์ศรี — ค่านิยมพื้นฐานสี่ประการที่ระบุใน Community Standards',
+        question: 'ก่อนเปิดแบบฟอร์มอุทธรณ์ต้องเตรียมอะไรบ้าง?',
+        answer: 'รวบรวมลิงก์หรือ ID ของโพสต์ที่ได้รับผลกระทบ คำอธิบายโดยย่อเกี่ยวกับบริบททางธุรกิจหรือวัตถุประสงค์ของเนื้อหา และยืนยันว่าคุณลงชื่อเข้าใช้ด้วยบัญชีที่มีสิทธิ์การเข้าถึงของผู้ดูแลเพจใน Meta Business Suite',
       },
       {
-        question: 'ทำไมเพจของฉันถูกทำเครื่องหมายทั้งที่ไม่แน่ใจว่าละเมิดนโยบาย?',
-        answer:
-          'ระบบของ Meta อาจตรวจพบเนื้อหาที่อาจละเมิดก่อนสรุปผลขั้นสุดท้าย การแจ้งเตือนสะท้อนขั้นตอนการประเมินเบื้องต้น การอุทธรณ์ช่วยให้ทีมตรวจสอบประเมินบริบทเฉพาะของเพจของคุณใหม่',
+        question: 'รหัสอ้างอิงคำขอมีไว้เพื่ออะไร?',
+        answer: 'การส่งแต่ละครั้งจะสร้างรหัสอ้างอิงที่ไม่ซ้ำกัน เก็บรหัสนี้ไว้เมื่อติดตามสถานะบน Facebook หรือเมื่อฝ่ายสนับสนุนต้องการค้นหากรณีของคุณ มันไม่ได้แทนที่การแจ้งเตือนในแอปอย่างเป็นทางการ',
       },
       {
-        question: 'ใครสามารถส่งคำร้องอุทธรณ์ได้?',
-        answer:
-          'ผู้ดูแลเพจหรือตัวแทนที่ได้รับอนุญาตขององค์กรที่เป็นเจ้าของเพจ คุณต้องยืนยันบัญชี Facebook ที่เชื่อมโยงเมื่อส่งแบบฟอร์ม',
+        question: 'การส่งคำอุทธรณ์ระงับข้อจำกัดของเพจหรือไม่',
+        answer: 'ไม่ เพจของคุณอาจถูกจำกัดในขณะที่รอการตรวจสอบ ผลการอุทธรณ์จะได้รับการสื่อสารแยกกัน และอาจส่งผลให้ข้อจำกัดถูกลบออกหากได้รับการยอมรับ',
       },
       {
-        question: 'การตรวจสอบใช้เวลานานเท่าใดและมีผลลัพธ์ใดบ้าง?',
-        answer:
-          'โดยทั่วไป 3–7 วันทำการ อาจนานกว่านั้นหากต้องการข้อมูลเพิ่มเติม ผลลัพธ์อาจรวมถึงการยอมรับอุทธรณ์ ยืนยันการตัดสินใจ หรือขอข้อมูลเพิ่มเติม — ทั้งหมดแจ้งผ่าน Facebook',
+        question: 'ฉันจะได้รับผลการอุทธรณ์ได้อย่างไร?',
+        answer: 'ผ่าน Facebook การแจ้งเตือน (ไอคอนกระดิ่ง) ไม่ใช่ทางอีเมลแยกต่างหากจากแบบฟอร์มนี้ เปิดใช้งานการแจ้งเตือนที่เกี่ยวข้องกับเพจและตรวจสอบอย่างสม่ำเสมอเป็นเวลาหลายวันทำการหลังจากส่ง',
       },
       {
-        question: 'ข้อมูลของฉันถูกใช้อย่างไร?',
-        answer:
-          'ใช้เฉพาะเพื่อดำเนินการอุทธรณ์และยืนยันสิทธิการดูแล ตามนโยบายความเป็นส่วนตัวและข้อกำหนดของ Meta',
+        question: 'ข้อมูลจากแบบฟอร์มถูกจัดเก็บและใช้อย่างไร?',
+        answer: 'ข้อมูลที่คุณให้จะถูกใช้เพื่อดำเนินการอุทธรณ์ของคุณ ตรวจสอบสิทธิ์ของผู้ดูแลระบบ และเก็บรักษาบันทึกภายใต้ขั้นตอนภายในของ Meta เท่านั้น ซึ่งสอดคล้องกับนโยบายความเป็นส่วนตัวและข้อกำหนด มันไม่ได้ใช้สำหรับการโฆษณา',
       },
     ],
   },
@@ -213,26 +274,42 @@ export const thLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'เทคโนโลยี Meta',
+        title: 'Meta technologies',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
         title: 'นโยบาย',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
-        title: 'การสนับสนุน',
+        title: 'สนับสนุน',
         links: [
-          { label: 'ศูนย์ช่วยเหลือ' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: 'ศูนย์ช่วยเหลือ',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],

@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const csLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Centrum transparentnosti',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: 'Centrum transparentnosti',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: 'Zásady',
+        type: 'menu',
+      },
+      {
+        label: 'Vynucení',
+        type: 'menu',
+      },
+      {
+        label: 'Zabezpečení',
+        type: 'menu',
+      },
+      {
+        label: 'Vlastnosti',
+        type: 'menu',
+      },
+      {
+        label: 'Vládnutí',
+        type: 'menu',
+      },
+      {
+        label: 'Výzkumné nástroje',
+        type: 'menu',
+      },
+      {
+        label: 'Zprávy',
+        type: 'menu',
+      },
     ],
-    loginCta: 'Přihlásit se přes Facebook',
-    loginAria: 'Přihlásit se přes Facebook a spravovat stránku',
-    cta: 'Podat odvolání',
-    ctaAria: 'Podat odvolání — požádat o přezkoumání rozhodnutí o stránce',
+    loginCta: 'Přihlaste se pomocí Facebook',
+    loginAria: 'Chcete-li spravovat svou stránku, přihlaste se pomocí Facebook',
+    cta: 'Odešlete odvolání',
+    ctaAria: 'Podat odvolání — požádat o přezkoumání vašeho rozhodnutí o stránce',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: 'Domů',
+        href: '#',
+      },
+      {
+        label: 'Zásady',
+        href: '#',
+      },
+      {
+        label: 'Standardy komunity',
+      },
     ],
-    sidebarTitle: 'Témata Community Standards',
+    sidebarTitle: 'Community Standards témat',
     sidebarSection: 'Zásady',
     sidebarLinks: [
-      { label: 'Koordinace škod a podpora trestné činnosti' },
-      { label: 'Nebezpečné organizace a jednotlivci' },
-      { label: 'Podvody, klamání a klamavé praktiky' },
-      { label: 'Omezené zboží a služby' },
-      { label: 'Sexuální vykořisťování, zneužívání a nahota dětí' },
-      { label: 'Násilný a grafický obsah' },
+      {
+        label: 'Koordinace poškozování a propagace trestné činnosti',
+      },
+      {
+        label: 'Nebezpečné organizace a jednotlivci',
+      },
+      {
+        label: 'Podvody, podvody a klamavé praktiky',
+      },
+      {
+        label: 'Omezené zboží a služby',
+      },
+      {
+        label: 'Sexuální vykořisťování a zneužívání dětí',
+      },
+      {
+        label: 'Sebevražda, sebepoškozování a poruchy příjmu potravy',
+      },
+      {
+        label: 'Nahota a sexuální aktivita dospělých',
+      },
+      {
+        label: 'Násilný a grafický obsah',
+      },
+      {
+        label: 'Šikana a obtěžování',
+      },
+      {
+        label: 'Projevy nenávisti',
+      },
     ],
   },
   hero: {
-    title: 'Vaše stránka mohla porušit Community Standards',
-    lead:
-      'Community Standards popisují, co je a co není povoleno na Facebooku, Instagramu, Messengeru a Threads. Po nedávném přezkoumání bylo zjištěno, že vaše stránka potenciálně tyto standardy nedodržuje. Pokud se domníváte, že je tento výsledek nesprávný, můžete podat odvolání a požádat o přezkoumání.',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      'Tyto standardy vycházejí ze zpětné vazby od lidí a z doporučení odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. Toto oznámení se vztahuje pouze na stránku, kterou spravujete.',
-    creatorPrefix: 'Oficiální dokument najdete na',
-    creatorLink: 'Community Standards | Transparency Center',
-    cta: 'Podat odvolání',
+    title: 'Community Standards',
+    lead: 'Community Standards popisuje, co je a co není povoleno na Facebook, Instagram, Messenger a Threads.',
+    disclaimer: 'Vezměte prosím na vědomí, že verze Community Standards v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
+    policyStructure: 'Naše Community Standards platí pro každého na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí. Každá sekce zásad začíná Policy Rationale, která vysvětluje cíl, po níž následují konkrétní pravidla pro zakázaný obsah nebo obsah, který vyžaduje další kontext pro prosazování.',
+    eligibility: 'Tyto standardy jsou založeny na zpětné vazbě od lidí a poradenství od odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. abychom zajistili, že hlas každého bude oceněn.',
+    creatorPrefix: 'Zobrazit celý dokument na',
+    creatorLink: 'Standardy komunity | Transparency Center',
+    cta: 'Odešlete odvolání',
     badgeAlt: 'Logo Meta',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: 'Vaše stránka možná porušila Community Standards',
+    body: 'Po nedávné kontrole byla stránka, kterou spravujete, identifikována jako stránka, která potenciálně nesplňuje Community Standards. Pokud se domníváte, že tento výsledek je nesprávný, můžete odeslat odvolání a požádat o kontrolu. Toto upozornění se vztahuje pouze na stránku, kterou spravujete.',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Community Standards témat',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: 'Koordinace poškozování a propagace trestné činnosti',
+      },
+      {
+        label: 'Nebezpečné organizace a jednotlivci',
+      },
+      {
+        label: 'Podvody, podvody a klamavé praktiky',
+      },
+      {
+        label: 'Omezené zboží a služby',
+      },
+      {
+        label: 'Sexuální vykořisťování a zneužívání dětí',
+      },
+      {
+        label: 'Sebevražda, sebepoškozování a poruchy příjmu potravy',
+      },
+      {
+        label: 'Nahota a sexuální aktivita dospělých',
+      },
+      {
+        label: 'Násilný a grafický obsah',
+      },
+      {
+        label: 'Šikana a obtěžování',
+      },
+      {
+        label: 'Projevy nenávisti',
+      },
+      {
+        label: 'Porušení duševního vlastnictví třetí stranou',
+      },
+      {
+        label: 'Místně nelegální obsah, produkty nebo služby',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: 'Náš závazek k hlasu',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'Naše standardy komunity mají vytvořit prostor pro vyjadřování. Meta podporuje otevřenou diskusi — prostřednictvím komentářů, obrázků, hudby nebo jiných kreativních forem — i když si lidé nerozumí. Ve výjimečných případech může obsah [[newsworthy]] sloužící veřejnému zájmu zůstat poté, co zvážíme informační hodnotu vůči riziku újmy a mezinárodní standardy lidských práv. Pokud kontext objasní porušení, můžeme odstranit nejednoznačný nebo implicitní obsah.',
+          'Upřednostňujeme hlas a zároveň si uvědomujeme, že internet může také umožnit zneužití. Když omezíme výraz, děláme tak, abychom ochránili jednu nebo více z následujících hodnot:',
         ],
       },
     ],
@@ -88,124 +164,109 @@ export const csLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: 'Pravost',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'Chceme, aby obsah na našich platformách odrážel to, co je skutečné. Autenticita vytváří zdravější prostředí pro sdílení, takže zkreslování identity nebo chování není povoleno.',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: 'Bezpečnost',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook, Instagram, Messenger a Threads by měla být bezpečná prostředí. Odstraňujeme obsah, který může způsobit fyzickou újmu, vyhrožovat, vyloučit nebo umlčet ostatní.',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: 'Soukromí',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'Zavázali jsme se chránit osobní soukromí a data. Ochrana soukromí pomáhá lidem kontrolovat, jak a kdy sdílejí a připojují se k našim službám.',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: 'Důstojnost',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'Věříme, že všichni lidé mají stejnou důstojnost a práva. Nedovolujeme obtěžování nebo ponižující zacházení s ostatními.',
         ],
       },
     ],
   },
   steps: {
-    title: 'Kroky k podání odvolání',
-    subtitle:
-      'Před podáním porovnejte označený obsah s Community Standards v Transparency Center. Odhadovaný čas vyplnění formuláře: přibližně 5–10 minut.',
+    title: 'Kroky k odeslání odvolání',
+    subtitle: 'Před odesláním porovnejte označený obsah s Community Standards na Transparency Center. Předpokládaná doba vyplnění formuláře: přibližně 5-10 minut.',
     items: [
       {
-        title: 'Prostudujte příslušnou zásadu.',
-        description:
-          'Přečtěte si relevantní sekci zásad v Transparency Center — každá obsahuje Policy Rationale a konkrétní pravidla. Porovnejte s označenými příspěvky nebo aktivitou na vaší stránce.',
+        title: 'Přečtěte si příslušné zásady.',
+        description: 'Přečtěte si příslušnou sekci zásad na Transparency Center — každá sekce obsahuje Policy Rationale a konkrétní pravidla. Porovnejte to s nahlášeným příspěvkem nebo aktivitou na vaší stránce.',
       },
       {
         title: 'Vyplňte formulář a ověřte totožnost.',
-        description:
-          'Uveďte údaje správce a kontaktní informace plus kontext (pokud je potřeba). Před odesláním ověřte propojený účet Facebook.',
+        description: 'V případě potřeby uveďte podrobnosti o správci, kontaktní informace a kontext. Před odesláním ověřte propojený účet Facebook.',
       },
       {
-        title: 'Sledujte výsledek na Facebooku.',
-        description:
-          'Po odeslání obdržíte potvrzení prostřednictvím oznámení na Facebooku. Přezkoumání obvykle trvá 3–7 pracovních dnů. Referenční číslo vaší žádosti pomůže, pokud budete potřebovat podporu.',
+        title: 'Sledujte výsledek na Facebook.',
+        description: 'Po odeslání obdržíte potvrzení prostřednictvím oznámení Facebook. Kontrola obvykle trvá 3–7 pracovních dnů. Odkaz na vaši žádost vám pomůže, pokud je potřeba podpora.',
       },
     ],
   },
   testimonials: {
-    title: 'Odkaz z Transparency Center',
+    title: 'Reference z Transparency Center',
     prevAria: 'Předchozí položka',
     nextAria: 'Další položka',
     items: [
       {
-        quote:
-          'Tyto standardy vycházejí ze zpětné vazby od lidí a z doporučení odborníků v oblastech jako technologie, veřejná bezpečnost a lidská práva — aby byl hlas každého respektován.',
+        quote: 'Tyto standardy jsou založeny na zpětné vazbě od lidí a poradenství od odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. abychom zajistili, že hlas každého bude oceněn.',
         author: 'Meta Transparency Center',
-        role: 'Úvod',
+        role: 'Zavedení',
       },
       {
-        quote:
-          'Naše Community Standards platí pro všechny po celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí.',
+        quote: 'Naše Community Standards platí pro každého, na celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí.',
         author: 'Meta Transparency Center',
         role: 'Rozsah',
       },
       {
-        quote:
-          'Anglická verze Community Standards (USA) odráží nejaktuálnější soubor zásad a měla by být používána jako primární dokument.',
+        quote: 'Verze Community Standards v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
         author: 'Meta Transparency Center',
         role: 'Oficiální dokument',
       },
     ],
   },
   finalCta: {
-    title: 'Podat odvolání',
-    subtitle:
-      'Pokud se po přečtení Community Standards domníváte, že vaše stránka dodržuje zásady, odešlete formulář s údaji správce a ověřením totožnosti.',
-    cta: 'Podat odvolání',
+    title: 'Odešlete odvolání',
+    subtitle: 'Pokud se po přečtení Community Standards domníváte, že vaše stránka je v souladu se zásadami, odešlete formulář s údaji o správci a ověřením identity.',
+    cta: 'Odešlete odvolání',
   },
   faq: {
     title: 'Často kladené otázky',
     items: [
       {
-        question: 'Co Community Standards pokrývají?',
-        answer:
-          'Community Standards popisují, co je a co není povoleno na Facebooku, Instagramu, Messengeru a Threads. Úplný dokument je zveřejněn v Meta Transparency Center.',
+        question: 'Vztahuje se odvolání na osobní profily nebo skupiny?',
+        answer: 'Ne. Upozornění na této stránce a formulář odvolání se vztahují pouze na stránky, které spravujete. Osobní profily, skupiny nebo jiné produkty Meta nespadají do rozsahu tohoto požadavku.',
       },
       {
-        question: 'Která verze je oficiálním referenčním dokumentem?',
-        answer:
-          'Podle Transparency Center anglická verze (USA) odráží nejaktuálnější soubor zásad a měla by být používána jako primární dokument.',
+        question: 'Mohu podat další odvolání poté, co bylo jedno zamítnuto?',
+        answer: 'Ano, pokud máte nové informace nebo důkazy, které dříve nebyly brány v úvahu. Každý nový příspěvek by měl jasně vysvětlit, v čem se liší. Duplicitní odvolání bez dalšího kontextu nelze znovu zkontrolovat.',
       },
       {
-        question: 'Jaké hodnoty vedou Meta při omezování obsahu?',
-        answer:
-          'Když Meta omezuje vyjadřování, činí tak ve prospěch autenticity, bezpečnosti, soukromí nebo důstojnosti — čtyř základních hodnot uvedených v Community Standards.',
+        question: 'Co si mám připravit před otevřením formuláře odvolání?',
+        answer: 'Shromážděte odkazy nebo ID dotčených příspěvků, stručné vysvětlení obchodního kontextu nebo účelu obsahu a potvrďte, že jste přihlášeni pomocí účtu s přístupem správce stránky v Meta Business Suite.',
       },
       {
-        question: 'Proč byla moje stránka označena, když si nejsem jistý porušením zásad?',
-        answer:
-          'Systémy Meta mohou detekovat potenciálně porušující obsah před konečným závěrem. Oznámení odráží fázi počátečního posouzení; odvolání umožní týmům přezkoumání znovu posoudit konkrétní kontext vaší stránky.',
+        question: 'K čemu slouží referenční kód žádosti?',
+        answer: 'Každý příspěvek generuje jedinečný referenční kód. Tento kód si ponechte při sledování stavu na Facebook nebo když podpora potřebuje najít váš případ. Nenahrazuje oficiální oznámení v aplikaci.',
       },
       {
-        question: 'Kdo může podat odvolání?',
-        answer:
-          'Správci stránky nebo autorizovaní zástupci organizace, která stránku vlastní. Při odesílání formuláře musíte ověřit propojený účet Facebook.',
+        question: 'Pozastaví odeslání odvolání omezení stránky?',
+        answer: 'Ne. Vaše stránka může zůstat omezena, dokud čeká na kontrolu. Výsledky odvolání jsou sdělovány samostatně a mohou vést k odstranění omezení, pokud budou přijata.',
       },
       {
-        question: 'Jak dlouho trvá přezkoumání a jaké jsou možné výsledky?',
-        answer:
-          'Obvykle 3–7 pracovních dnů, případně déle, pokud jsou potřeba další informace. Výsledky mohou zahrnovat přijetí odvolání, potvrzení rozhodnutí nebo žádost o další informace — vše je sděleno prostřednictvím Facebooku.',
+        question: 'Jak obdržím výsledek odvolání?',
+        answer: 'Prostřednictvím oznámení Facebook (ikona zvonku), nikoli prostřednictvím samostatného e-mailu z tohoto formuláře. Povolte oznámení týkající se stránky a několik pracovních dnů po odeslání pravidelně kontrolujte.',
       },
       {
-        question: 'Jak jsou mé informace používány?',
-        answer:
-          'Pouze ke zpracování vašeho odvolání a ověření správcovských práv, v souladu se Zásadami ochrany osobních údajů a Podmínkami Meta.',
+        question: 'Jak se ukládají a používají informace z formuláře?',
+        answer: 'Údaje, které poskytnete, se používají pouze ke zpracování vašeho odvolání, ověření práv správce a vedení záznamů podle interních postupů Meta v souladu se Zásadami ochrany osobních údajů a podmínkami. Neslouží k reklamě.',
       },
     ],
   },
@@ -213,26 +274,42 @@ export const csLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'Technologie Meta',
+        title: 'Meta technologií',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
         title: 'Zásady',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
         title: 'Podpora',
         links: [
-          { label: 'Centrum nápovědy' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: 'Centrum nápovědy',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],

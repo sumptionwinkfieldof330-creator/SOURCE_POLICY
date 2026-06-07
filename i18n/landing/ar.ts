@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const arLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'مركز الشفافية',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: 'مركز الشفافية',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: 'السياسات',
+        type: 'menu',
+      },
+      {
+        label: 'التنفيذ',
+        type: 'menu',
+      },
+      {
+        label: 'حماية',
+        type: 'menu',
+      },
+      {
+        label: 'سمات',
+        type: 'menu',
+      },
+      {
+        label: 'الحكم',
+        type: 'menu',
+      },
+      {
+        label: 'أدوات البحث',
+        type: 'menu',
+      },
+      {
+        label: 'التقارير',
+        type: 'menu',
+      },
     ],
-    loginCta: 'تسجيل الدخول عبر Facebook',
-    loginAria: 'تسجيل الدخول عبر Facebook لإدارة صفحتك',
-    cta: 'تقديم استئناف',
-    ctaAria: 'تقديم استئناف — طلب مراجعة قرار صفحتك',
+    loginCta: 'تسجيل الدخول باستخدام Facebook',
+    loginAria: 'قم بتسجيل الدخول باستخدام Facebook لإدارة Fanpage الخاصة بك',
+    cta: 'إرسال الاستئناف',
+    ctaAria: 'تقديم الاستئناف — طلب مراجعة لقرار Fanpage الخاصة بك',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: 'الرئيسية',
+        href: '#',
+      },
+      {
+        label: 'السياسات',
+        href: '#',
+      },
+      {
+        label: 'معايير المجتمع',
+      },
     ],
-    sidebarTitle: 'موضوعات Community Standards',
+    sidebarTitle: 'Community Standards المواضيع',
     sidebarSection: 'السياسات',
     sidebarLinks: [
-      { label: 'التنسيق لإلحاق الأذى وترويج الجريمة' },
-      { label: 'المنظمات والأفراد الخطرون' },
-      { label: 'الاحتيال والخداع والممارسات المضللة' },
-      { label: 'السلع والخدمات المقيدة' },
-      { label: 'استغلال الأطفال جنسياً وإساءة معاملتهم والعري' },
-      { label: 'المحتوى العنيف والرسومي' },
+      {
+        label: 'تنسيق الضرر والترويج للجريمة',
+      },
+      {
+        label: 'المنظمات والأفراد الخطرين',
+      },
+      {
+        label: 'الاحتيال والاحتيال والممارسات الخادعة',
+      },
+      {
+        label: 'السلع والخدمات المقيدة',
+      },
+      {
+        label: 'الاستغلال والاعتداء الجنسي على الأطفال',
+      },
+      {
+        label: 'الانتحار وإيذاء النفس واضطرابات الأكل',
+      },
+      {
+        label: 'عُري البالغين والنشاط الجنسي',
+      },
+      {
+        label: 'محتوى عنيف ورسومي',
+      },
+      {
+        label: 'التنمر والتحرش',
+      },
+      {
+        label: 'خطاب الكراهية',
+      },
     ],
   },
   hero: {
-    title: 'قد تكون صفحتك قد انتهكت Community Standards',
-    lead:
-      'تحدد Community Standards ما هو مسموح به وما هو غير مسموح على Facebook وInstagram وMessenger وThreads. بعد مراجعة حديثة، تم تحديد أن صفحتك قد لا تتوافق مع هذه المعايير. إذا كنت تعتقد أن هذه النتيجة غير صحيحة، يمكنك تقديم استئناف لطلب مراجعة.',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      'تستند هذه المعايير إلى ملاحظات من الناس ونصائح خبراء في التكنولوجيا والسلامة العامة وحقوق الإنسان. ينطبق هذا الإشعار فقط على صفحة تديرها.',
-    creatorPrefix: 'اطلع على الوثيقة الرسمية في',
-    creatorLink: 'Community Standards | Transparency Center',
-    cta: 'تقديم استئناف',
-    badgeAlt: 'شعار Meta',
+    title: 'Community Standards',
+    lead: 'تحدد Community Standards ما هو مسموح به وما هو غير مسموح به على Facebook، Instagram، Messenger، وThreads.',
+    disclaimer: 'يرجى ملاحظة أن النسخة الإنجليزية الأمريكية من Community Standards تعكس أحدث مجموعة من السياسات ويجب استخدامها كوثيقة أساسية.',
+    policyStructure: 'تنطبق Community Standards على الجميع في جميع أنحاء العالم وعلى جميع أنواع المحتوى، بما في ذلك المحتوى الذي ينشئه الذكاء الاصطناعي. يبدأ كل قسم من أقسام السياسة بـ Policy Rationale الذي يشرح الهدف، متبوعًا بقواعد محددة بشأن المحتوى المحظور أو المحتوى الذي يتطلب سياقًا إضافيًا للتنفيذ.',
+    eligibility: 'تعتمد هذه المعايير على تعليقات الأشخاص وتوجيهات الخبراء في مجال التكنولوجيا والسلامة العامة وحقوق الإنسان. للتأكد من تقدير صوت الجميع.',
+    creatorPrefix: 'عرض الوثيقة كاملة في',
+    creatorLink: 'معايير المجتمع | Transparency Center',
+    cta: 'إرسال الاستئناف',
+    badgeAlt: 'Meta logo',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: 'ربما تكون صفحتك قد انتهكت Community Standards',
+    body: 'بعد مراجعة حديثة، تم تحديد الصفحة التي تديرها على أنها من المحتمل أن لا تلتزم بـ Community Standards. إذا كنت تعتقد أن هذه النتيجة غير صحيحة، فيمكنك تقديم استئناف لطلب المراجعة. ينطبق هذا الإشعار فقط على الصفحة التي تديرها.',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Community Standards المواضيع',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: 'تنسيق الضرر والترويج للجريمة',
+      },
+      {
+        label: 'المنظمات والأفراد الخطرين',
+      },
+      {
+        label: 'الاحتيال والاحتيال والممارسات الخادعة',
+      },
+      {
+        label: 'السلع والخدمات المقيدة',
+      },
+      {
+        label: 'الاستغلال والاعتداء الجنسي على الأطفال',
+      },
+      {
+        label: 'الانتحار وإيذاء النفس واضطرابات الأكل',
+      },
+      {
+        label: 'عُري البالغين والنشاط الجنسي',
+      },
+      {
+        label: 'محتوى عنيف ورسومي',
+      },
+      {
+        label: 'التنمر والتحرش',
+      },
+      {
+        label: 'خطاب الكراهية',
+      },
+      {
+        label: 'انتهاك حقوق الملكية الفكرية لطرف ثالث',
+      },
+      {
+        label: 'المحتوى أو المنتجات أو الخدمات غير القانونية محليًا',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: 'التزامنا بالصوت',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'تهدف معايير المجتمع لدينا إلى خلق مساحة للتعبير. تشجّع Meta النقاش المفتوح — عبر التعليقات والصور والموسيقى أو أشكال إبداعية أخرى — حتى عند الاختلاف. في حالات استثنائية، قد يبقى محتوى [[newsworthy]] يخدم المصلحة العامة بعد موازنة القيمة المعلوماتية مع الضرر والرجوع إلى معايير حقوق الإنسان الدولية. عندما يوضّح السياق انتهاكًا، قد نزيل المحتوى الغامض أو الضمني.',
+          'نحن نعطي الأولوية للصوت مع إدراكنا أن الإنترنت يمكن أيضًا أن يؤدي إلى إساءة الاستخدام. عندما نقوم بتقييد التعبير، فإننا نفعل ذلك لحماية واحدة أو أكثر من القيم التالية:',
         ],
       },
     ],
@@ -88,53 +164,49 @@ export const arLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: 'أصالة',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'نريد أن يعكس المحتوى الموجود على منصاتنا ما هو حقيقي. تخلق الأصالة بيئة صحية للمشاركة، لذا لا يُسمح بتحريف الهوية أو السلوك.',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: 'أمان',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook، Instagram، Messenger، وThreads يجب أن تكون بيئات آمنة. نقوم بإزالة المحتوى الذي قد يتسبب في ضرر جسدي أو تهديد أو استبعاد أو إسكات الآخرين.',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: 'خصوصية',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'نحن ملتزمون بحماية الخصوصية والبيانات الشخصية. تساعد الخصوصية الأشخاص على التحكم في كيفية ووقت مشاركة خدماتنا والاتصال بها.',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: 'كرامة',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'ونحن نعتقد أن جميع الناس لديهم نفس الكرامة والحقوق. نحن لا نسمح بالتحرش أو المعاملة المهينة للآخرين.',
         ],
       },
     ],
   },
   steps: {
-    title: 'خطوات تقديم استئناف',
-    subtitle:
-      'قبل التقديم، قارن المحتوى المُعلَّم بـ Community Standards على Transparency Center. الوقت المقدر لإكمال النموذج: حوالي 5–10 دقائق.',
+    title: 'خطوات تقديم التظلم',
+    subtitle: 'قبل الإرسال، قارن المحتوى الذي تم الإبلاغ عنه بـ Community Standards في Transparency Center. الوقت المقدر لإكمال النموذج: حوالي 5 إلى 10 دقائق.',
     items: [
       {
-        title: 'راجع السياسة المعمول بها.',
-        description:
-          'اقرأ قسم السياسة ذي الصلة على Transparency Center — يتضمن كل قسم Policy Rationale وقواعد محددة. قارن مع المنشورات أو النشاط المُعلَّم على صفحتك.',
+        title: 'قم بمراجعة السياسة المعمول بها.',
+        description: 'اقرأ قسم السياسة ذي الصلة في Transparency Center؟ يتضمن كل قسم Policy Rationale وقواعد محددة. قارن ذلك بالمنشور أو النشاط الذي تم الإبلاغ عنه على صفحتك.',
       },
       {
         title: 'أكمل النموذج وتحقق من الهوية.',
-        description:
-          'قدّم تفاصيل المسؤول والاتصال والسياق (إن لزم). تحقق من حساب Facebook المرتبط قبل الإرسال.',
+        description: 'قم بتوفير تفاصيل المسؤول ومعلومات الاتصال والسياق إذا لزم الأمر. تحقق من حساب Facebook المرتبط قبل الإرسال.',
       },
       {
         title: 'تابع النتيجة على Facebook.',
-        description:
-          'بعد الإرسال، تتلقى تأكيداً عبر إشعارات Facebook. تستغرق المراجعة عادةً 3–7 أيام عمل. يساعدك مرجع طلبك إذا احتجت إلى الدعم.',
+        description: 'بعد الإرسال، تتلقى تأكيدًا من خلال إشعارات Facebook. تستغرق المراجعة عادة 3-7 أيام عمل. يساعد مرجع طلبك إذا كان الدعم مطلوبًا.',
       },
     ],
   },
@@ -144,68 +216,57 @@ export const arLanding: LandingStrings = {
     nextAria: 'العنصر التالي',
     items: [
       {
-        quote:
-          'تستند هذه المعايير إلى ملاحظات من الناس ونصائح خبراء في مجالات مثل التكنولوجيا والسلامة العامة وحقوق الإنسان — لضمان تقدير صوت الجميع.',
+        quote: 'تعتمد هذه المعايير على تعليقات الأشخاص وتوجيهات الخبراء في مجال التكنولوجيا والسلامة العامة وحقوق الإنسان. للتأكد من تقدير صوت الجميع.',
         author: 'Meta Transparency Center',
         role: 'مقدمة',
       },
       {
-        quote:
-          'تنطبق Community Standards على الجميع في جميع أنحاء العالم، وعلى جميع أنواع المحتوى، بما في ذلك المحتوى الذي يتم إنشاؤه بواسطة الذكاء الاصطناعي.',
+        quote: 'تنطبق Community Standards على الجميع، في جميع أنحاء العالم، وعلى جميع أنواع المحتوى، بما في ذلك المحتوى الذي ينشئه الذكاء الاصطناعي.',
         author: 'Meta Transparency Center',
-        role: 'النطاق',
+        role: 'نِطَاق',
       },
       {
-        quote:
-          'تعكس النسخة الإنجليزية الأمريكية من Community Standards أحدث مجموعة من السياسات ويجب استخدامها كالوثيقة الأساسية.',
+        quote: 'يعكس إصدار اللغة الإنجليزية الأمريكية من Community Standards أحدث مجموعة من السياسات ويجب استخدامه كوثيقة أساسية.',
         author: 'Meta Transparency Center',
-        role: 'الوثيقة الرسمية',
+        role: 'وثيقة رسمية',
       },
     ],
   },
   finalCta: {
-    title: 'تقديم استئناف',
-    subtitle:
-      'إذا كنت، بعد قراءة Community Standards، تعتقد أن صفحتك تتوافق مع السياسة، قدّم النموذج مع تفاصيل المسؤول والتحقق من الهوية.',
-    cta: 'تقديم استئناف',
+    title: 'تقديم الاستئناف',
+    subtitle: 'إذا كنت تعتقد، بعد قراءة Community Standards، أن صفحتك تلتزم بالسياسة، فأرسل النموذج مع تفاصيل المسؤول والتحقق من الهوية.',
+    cta: 'إرسال الاستئناف',
   },
   faq: {
-    title: 'الأسئلة الشائعة',
+    title: 'الأسئلة المتداولة',
     items: [
       {
-        question: 'ماذا تغطي Community Standards؟',
-        answer:
-          'تحدد Community Standards ما هو مسموح به وما هو غير مسموح على Facebook وInstagram وMessenger وThreads. الوثيقة الكاملة منشورة على Meta Transparency Center.',
+        question: 'هل ينطبق الاستئناف على الملفات الشخصية أو المجموعات؟',
+        answer: 'لا. لا ينطبق الإشعار الموجود على هذه الصفحة ونموذج الاستئناف إلا على الصفحات التي تديرها. الملفات الشخصية أو المجموعات أو منتجات Meta الأخرى تقع خارج نطاق هذا الطلب.',
       },
       {
-        question: 'أي نسخة هي المرجع الرسمي؟',
-        answer:
-          'وفقاً لـ Transparency Center، تعكس النسخة الإنجليزية الأمريكية أحدث مجموعة من السياسات ويجب استخدامها كالوثيقة الأساسية.',
+        question: 'هل يمكنني تقديم استئناف آخر بعد رفضه؟',
+        answer: 'نعم، إذا كان لديك معلومات أو أدلة جديدة لم يتم أخذها في الاعتبار من قبل. يجب أن يشرح كل تقديم جديد بوضوح ما هو المختلف. قد لا تتم مراجعة الطعون المكررة بدون سياق إضافي مرة أخرى.',
       },
       {
-        question: 'ما القيم التي توجه Meta عند تقييد المحتوى؟',
-        answer:
-          'عندما تحد Meta من التعبير، تفعل ذلك لخدمة الأصالة أو السلامة أو الخصوصية أو الكرامة — القيم الأساسية الأربع المذكورة في Community Standards.',
+        question: 'ما الذي يجب علي تحضيره قبل فتح استمارة الاستئناف؟',
+        answer: 'اجمع الروابط أو المعرفات الخاصة بالمنشورات المتأثرة، وشرحًا موجزًا ​​لسياق العمل أو غرض المحتوى، وتأكد من تسجيل الدخول باستخدام حساب يتمتع بحق وصول مسؤول الصفحة في Meta Business Suite.',
       },
       {
-        question: 'لماذا تم الإبلاغ عن صفحتي إذا لم أكن متأكداً من انتهاك السياسة؟',
-        answer:
-          'قد تكتشف أنظمة Meta محتوى قد ينتهك السياسة قبل الوصول إلى استنتاج نهائي. يعكس الإشعار مرحلة تقييم أولية؛ يتيح الاستئناف لفرق المراجعة إعادة تقييم السياق المحدد لصفحتك.',
+        question: 'ما هو الرمز المرجعي للطلب؟',
+        answer: 'ينشئ كل إرسال رمزًا مرجعيًا فريدًا. احتفظ بهذا الرمز عند تتبع الحالة على Facebook أو عندما يحتاج الدعم إلى تحديد موقع حالتك. ولا يحل محل الإشعارات الرسمية داخل التطبيق.',
       },
       {
-        question: 'من يمكنه تقديم استئناف؟',
-        answer:
-          'مسؤولو الصفحة أو الممثلون المعتمدون للمنظمة التي تملك الصفحة. يجب التحقق من حساب Facebook المرتبط عند تقديم النموذج.',
+        question: 'هل يؤدي تقديم الاستئناف إلى إيقاف قيود الصفحة؟',
+        answer: 'لا، قد تظل صفحتك مقيدة أثناء انتظار المراجعة. يتم إرسال نتائج الاستئناف بشكل منفصل وقد تؤدي إلى إزالة القيود في حالة قبولها.',
       },
       {
-        question: 'كم تستغرق المراجعة وما النتائج المحتملة؟',
-        answer:
-          'عادةً 3–7 أيام عمل، وقد تطول إذا لزم معلومات إضافية. قد تشمل النتائج قبول الاستئناف أو تأكيد القرار أو طلب مزيد من المعلومات — يتم إبلاغك بكل ذلك عبر Facebook.',
+        question: 'كيف سأتلقى نتيجة الاستئناف؟',
+        answer: 'من خلال إشعارات Facebook (رمز الجرس)، وليس عبر بريد إلكتروني منفصل عن هذا النموذج. قم بتمكين الإشعارات المتعلقة بالصفحة وتحقق بانتظام لعدة أيام عمل بعد الإرسال.',
       },
       {
-        question: 'كيف تُستخدم معلوماتي؟',
-        answer:
-          'تُستخدم فقط لمعالجة استئنافك والتحقق من حقوق الإدارة، وفقاً لسياسة الخصوصية وشروط Meta.',
+        question: 'كيف يتم تخزين المعلومات من النموذج واستخدامها؟',
+        answer: 'يتم استخدام البيانات التي تقدمها فقط لمعالجة الاستئناف الخاص بك، والتحقق من حقوق المسؤول، والاحتفاظ بالسجلات بموجب إجراءات Meta الداخلية، بما يتماشى مع سياسة الخصوصية والشروط. ولا يتم استخدامه للإعلان.',
       },
     ],
   },
@@ -215,24 +276,40 @@ export const arLanding: LandingStrings = {
       {
         title: 'تقنيات Meta',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
         title: 'السياسات',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
-        title: 'الدعم',
+        title: 'يدعم',
         links: [
-          { label: 'مركز المساعدة' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: 'مركز المساعدة',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],

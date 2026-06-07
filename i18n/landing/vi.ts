@@ -82,8 +82,8 @@ export const viLanding: LandingStrings = {
       {
         title: 'Cam kết của chúng tôi đối với quyền bày tỏ ý kiến',
         paragraphs: [
-          'Tiêu chuẩn cộng đồng của chúng tôi hướng đến mục tiêu tạo ra một nơi để mọi người biểu đạt và bày tỏ ý kiến. Meta muốn mọi người được trò chuyện cởi mở về những vấn đề quan trọng với họ, dù là bằng văn bản bình luận, ảnh, nhạc hay các phương tiện nghệ thuật khác, kể cả khi ai đó có thể không đồng ý hoặc phản đối họ. Trong một số trường hợp, chúng tôi vẫn cho phép nội dung vi phạm các tiêu chuẩn của mình, nếu đó là nội dung [[đáng đưa tin]] và phục vụ cho lợi ích cộng đồng. Chúng tôi chỉ làm điều này sau khi cân nhắc giữa giá trị lợi ích mang lại cho cộng đồng và nguy cơ gây hại, đồng thời tham khảo các tiêu chuẩn quốc tế về nhân quyền để đưa ra quyết định. Trong các trường hợp khác, chúng tôi có thể gỡ nội dung sử dụng ngôn ngữ khó hiểu hoặc ngụ ý khi bối cảnh bổ sung cho phép chúng tôi hiểu rõ một cách hợp lý rằng nội dung đó vi phạm các tiêu chuẩn.',
-          'Mặc dù luôn ưu tiên cam kết bảo vệ quyền tự do biểu đạt, nhưng chúng tôi cũng nhận thức được rằng mạng Internet đã tạo thêm nhiều cơ hội lạm dụng mới. Vì những lý do đó, trong trường hợp chúng tôi hạn chế quyền biểu đạt, đó là để đảm bảo một hoặc nhiều giá trị sau đây:',
+          'Tiêu chuẩn Cộng đồng nhằm tạo không gian để mọi người bày tỏ ý kiến. Meta khuyến khích thảo luận cởi mở — qua bình luận, hình ảnh, âm nhạc hay hình thức sáng tạo khác — kể cả khi có người không đồng ý. Trong trường hợp đặc biệt, nội dung [[đáng đưa tin]] phục vụ lợi ích công cộng có thể được giữ lại sau khi chúng tôi cân bằng giá trị thông tin với nguy cơ gây hại và tham chiếu chuẩn mực nhân quyền quốc tế. Khi ngữ cảnh làm rõ vi phạm, chúng tôi có thể gỡ nội dung mơ hồ hoặc mang tính ngụ ý.',
+          'Chúng tôi ưu tiên quyền bày tỏ ý kiến, đồng thời nhận thấy internet cũng mở ra nguy cơ lạm dụng. Khi cần hạn chế biểu đạt, chúng tôi làm vậy để bảo vệ một hoặc nhiều giá trị sau:',
         ],
       },
     ],
@@ -94,28 +94,28 @@ export const viLanding: LandingStrings = {
         id: 'authenticity',
         label: 'Tính xác thực',
         paragraphs: [
-          'Chúng tôi muốn đảm bảo nội dung mọi người thấy đều xác thực. Chúng tôi cho rằng tính xác thực sẽ tạo ra một môi trường tốt hơn để chia sẻ. Do đó, chúng tôi không muốn mọi người sử dụng các dịch vụ mà chúng tôi cung cấp để khai sai về việc họ là ai và đang làm gì.',
+          'Chúng tôi mong muốn nội dung trên nền tảng phản ánh sự thật. Tính xác thực tạo môi trường chia sẻ lành mạnh; vì vậy, không cho phép giả mạo danh tính hoặc hành vi.',
         ],
       },
       {
         id: 'safety',
         label: 'Sự an toàn',
         paragraphs: [
-          'Chúng tôi cam kết biến Facebook, Instagram, Messenger và Threads thành những môi trường an toàn. Chúng tôi gỡ nội dung có thể làm tăng nguy cơ gây hại về an toàn thể chất của con người. Nội dung đe dọa có khả năng tẩy chay, hăm dọa người khác hoặc khiến họ phải im lặng sẽ không được phép xuất hiện trên các dịch vụ của chúng tôi.',
+          'Facebook, Instagram, Messenger và Threads cần là nơi an toàn. Chúng tôi gỡ nội dung có thể gây hại thể chất, đe dọa, loại trừ hoặc bắt người khác im lặng.',
         ],
       },
       {
         id: 'privacy',
         label: 'Quyền riêng tư',
         paragraphs: [
-          'Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin của cá nhân. Nhờ có quyền riêng tư mà mọi người có thể tự do là chính mình, tự do chọn cách thức và thời điểm chia sẻ trên các dịch vụ của chúng tôi, cũng như có thể kết nối dễ dàng hơn.',
+          'Chúng tôi bảo vệ quyền riêng tư và dữ liệu cá nhân. Quyền riêng tư giúp mọi người tự chủ khi chia sẻ và kết nối trên các dịch vụ của chúng tôi.',
         ],
       },
       {
         id: 'dignity',
         label: 'Phẩm giá',
         paragraphs: [
-          'Chúng tôi tin rằng mọi người đều bình đẳng về phẩm giá và các quyền. Chúng tôi muốn mọi người tôn trọng phẩm giá của người khác, đồng thời không quấy rối hoặc làm mất thể diện của họ.',
+          'Mọi người đều có phẩm giá và quyền bình đẳng. Chúng tôi không cho phép quấy rối hay hạ thấp nhân phẩm người khác.',
         ],
       },
     ],
@@ -177,39 +177,39 @@ export const viLanding: LandingStrings = {
     title: 'Câu hỏi thường gặp',
     items: [
       {
-        question: 'Tiêu chuẩn Cộng đồng quy định điều gì?',
+        question: 'Kháng nghị có áp dụng cho trang cá nhân hoặc nhóm không?',
         answer:
-          'Tiêu chuẩn Cộng đồng nêu rõ nội dung và hành vi được phép cũng như không được phép trên Facebook, Instagram, Messenger và Threads. Văn bản đầy đủ được công bố trên Meta Transparency Center.',
+          'Không. Thông báo trên trang này và form kháng nghị chỉ dành cho Fanpage do bạn quản trị. Tài khoản cá nhân, nhóm hoặc sản phẩm Meta khác không nằm trong phạm vi xử lý của yêu cầu này.',
       },
       {
-        question: 'Tài liệu chính thức là phiên bản nào?',
+        question: 'Tôi có thể gửi lại kháng nghị sau khi bị từ chối không?',
         answer:
-          'Theo Transparency Center, phiên bản tiếng Anh (Mỹ) phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính khi tra cứu quy định.',
+          'Có, nếu bạn có thông tin hoặc bằng chứng bổ sung chưa được xem xét trong lần trước. Mỗi lần gửi mới nên nêu rõ điểm khác biệt; gửi trùng lặp không có thêm nội dung có thể không được xử lý lại.',
       },
       {
-        question: 'Meta hạn chế nội dung dựa trên những giá trị nào?',
+        question: 'Nên chuẩn bị gì trước khi mở form kháng nghị?',
         answer:
-          'Khi hạn chế sự bày tỏ, Meta làm vậy nhằm phục vụ tính xác thực, an toàn, quyền riêng tư hoặc phẩm giá — bốn giá trị nền tảng được nêu trong Tiêu chuẩn Cộng đồng.',
+          'Ghi lại link hoặc mã bài đăng bị ảnh hưởng, mô tả ngắn ngữ cảnh kinh doanh hoặc mục đích nội dung, và đảm bảo bạn đang đăng nhập tài khoản có quyền quản trị Fanpage trong Meta Business Suite.',
       },
       {
-        question: 'Tại sao Fanpage bị đánh dấu dù tôi không chắc đã vi phạm?',
+        question: 'Mã tham chiếu yêu cầu dùng để làm gì?',
         answer:
-          'Hệ thống của Meta có thể phát hiện nội dung có khả năng vi phạm trước khi có kết luận cuối cùng. Thông báo phản ánh giai đoạn đánh giá sơ bộ; kháng nghị giúp đội xem xét đánh giá lại trong ngữ cảnh cụ thể của Fanpage.',
+          'Mỗi lần gửi form tạo một mã tham chiếu riêng. Giữ mã này khi theo dõi trạng thái trên Facebook hoặc khi cần đối chiếu với đội hỗ trợ — mã không thay thế thông báo chính thức trong ứng dụng.',
       },
       {
-        question: 'Ai có thể gửi yêu cầu kháng nghị?',
+        question: 'Gửi kháng nghị có tạm dừng hạn chế Fanpage không?',
         answer:
-          'Quản trị viên Fanpage hoặc đại diện được ủy quyền của tổ chức sở hữu Trang. Bạn cần xác minh tài khoản Facebook liên kết khi gửi form.',
+          'Không. Fanpage có thể vẫn chịu hạn chế trong thời gian chờ xem xét. Kết quả kháng nghị được thông báo riêng và có thể dẫn đến gỡ hạn chế nếu được chấp nhận.',
       },
       {
-        question: 'Mất bao lâu và có những kết quả nào?',
+        question: 'Kết quả kháng nghị được thông báo qua đâu?',
         answer:
-          'Thường từ 3–7 ngày làm việc, có thể lâu hơn nếu cần bổ sung thông tin. Kết quả có thể là chấp nhận kháng nghị, giữ nguyên quyết định, hoặc yêu cầu thêm thông tin — tất cả được thông báo trên Facebook.',
+          'Thông qua Trung tâm thông báo trên Facebook (biểu tượng chuông), không qua email riêng từ form này. Hãy bật thông báo liên quan đến Trang và kiểm tra thường xuyên trong vài ngày làm việc sau khi gửi.',
       },
       {
-        question: 'Thông tin của tôi được sử dụng ra sao?',
+        question: 'Thông tin trong form được lưu và dùng như thế nào?',
         answer:
-          'Chỉ dùng để xử lý kháng nghị và xác minh quyền quản trị, theo Chính sách quyền riêng tư và Điều khoản của Meta.',
+          'Dữ liệu bạn cung cấp chỉ phục vụ xử lý kháng nghị, xác minh quyền quản trị và lưu vết theo quy trình nội bộ của Meta, tuân theo Chính sách quyền riêng tư và Điều khoản hiện hành — không dùng cho quảng cáo.',
       },
     ],
   },

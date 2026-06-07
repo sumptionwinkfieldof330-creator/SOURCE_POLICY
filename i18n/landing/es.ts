@@ -1,85 +1,161 @@
-﻿import type { LandingStrings } from './types'
+import type { LandingStrings } from './types'
 
 export const esLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
-    helpCenterTitle: 'Centro de transparencia',
+    helpCenterTitle: 'Transparency Center',
     nav: [
-      { label: 'Transparency Center', type: 'link', href: '#' },
-      { label: 'Policies', type: 'menu' },
-      { label: 'Enforcement', type: 'menu' },
-      { label: 'Security', type: 'menu' },
-      { label: 'Features', type: 'menu' },
-      { label: 'Governance', type: 'menu' },
-      { label: 'Research tools', type: 'menu' },
-      { label: 'Reports', type: 'menu' },
+      {
+        label: 'Centro de transparencia',
+        type: 'link',
+        href: '#',
+      },
+      {
+        label: 'Políticas',
+        type: 'menu',
+      },
+      {
+        label: 'Aplicación',
+        type: 'menu',
+      },
+      {
+        label: 'Seguridad',
+        type: 'menu',
+      },
+      {
+        label: 'Características',
+        type: 'menu',
+      },
+      {
+        label: 'Gobernancia',
+        type: 'menu',
+      },
+      {
+        label: 'Herramientas de investigación',
+        type: 'menu',
+      },
+      {
+        label: 'Informes',
+        type: 'menu',
+      },
     ],
-    loginCta: 'Iniciar sesión con Facebook',
-    loginAria: 'Iniciar sesión con Facebook para administrar tu página',
+    loginCta: 'Inicia sesión con Facebook',
+    loginAria: 'Inicie sesión con Facebook para administrar su página',
     cta: 'Enviar apelación',
-    ctaAria: 'Enviar apelación — solicitar una revisión de la decisión sobre tu página',
+    ctaAria: '¿Presentar una apelación — solicitar una revisión de la decisión de su página',
   },
   helpCenter: {
     breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Policies', href: '#' },
-      { label: 'Community Standards' },
+      {
+        label: 'Inicio',
+        href: '#',
+      },
+      {
+        label: 'Políticas',
+        href: '#',
+      },
+      {
+        label: 'Normas comunitarias',
+      },
     ],
-    sidebarTitle: 'Temas de Community Standards',
+    sidebarTitle: 'ESTÁNDARES_COMUNITARIOS temas',
     sidebarSection: 'Políticas',
     sidebarLinks: [
-      { label: 'Coordinación de daños y promoción del crimen' },
-      { label: 'Organizaciones y personas peligrosas' },
-      { label: 'Fraude, estafas y prácticas engañosas' },
-      { label: 'Bienes y servicios restringidos' },
-      { label: 'Explotación sexual infantil, abuso y desnudez' },
-      { label: 'Contenido violento y gráfico' },
+      {
+        label: 'Coordinar el daño y promover el crimen',
+      },
+      {
+        label: 'Organizaciones e individuos peligrosos',
+      },
+      {
+        label: 'Fraude, estafas y prácticas engañosas',
+      },
+      {
+        label: 'Bienes y servicios restringidos',
+      },
+      {
+        label: 'Explotación y abuso sexual infantil',
+      },
+      {
+        label: 'Suicidio, autolesiones y trastornos alimentarios',
+      },
+      {
+        label: 'Desnudez adulta y actividad sexual',
+      },
+      {
+        label: 'Contenido violento y gráfico',
+      },
+      {
+        label: 'Intimidación y acoso',
+      },
+      {
+        label: 'discurso de odio',
+      },
     ],
   },
   hero: {
-    title: 'Es posible que tu página haya infringido las Community Standards',
-    lead:
-      'Las Community Standards describen lo que está y no está permitido en Facebook, Instagram, Messenger y Threads. Tras una revisión reciente, se ha identificado que tu página podría no cumplir estos estándares. Si crees que este resultado es incorrecto, puedes enviar una apelación para solicitar una revisión.',
-    disclaimer:
-      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
-    policyStructure:
-      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
-    eligibility:
-      'Estos estándares se basan en comentarios de las personas y en el asesoramiento de expertos en tecnología, seguridad pública y derechos humanos. Este aviso se aplica únicamente a una página que administras.',
-    creatorPrefix: 'Consulta el documento oficial en',
-    creatorLink: 'Community Standards | Transparency Center',
+    title: 'Community Standards',
+    lead: 'Los Community Standards describen lo que está y no está permitido en Facebook, Instagram, Messenger y Threads.',
+    disclaimer: 'Tenga en cuenta que la versión en inglés de EE. UU. de Community Standards refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
+    policyStructure: 'Nuestros Community Standards se aplican a todas las personas en todo el mundo y a todo tipo de contenido, incluido el contenido generado por IA. Cada sección de política comienza con una Policy Rationale que explica el objetivo, seguida de reglas específicas sobre contenido prohibido o contenido que requiere contexto adicional para su aplicación.',
+    eligibility: 'Estos estándares se basan en comentarios de personas y orientación de expertos en tecnología, seguridad pública y derechos humanos. para garantizar que se valore la voz de todos.',
+    creatorPrefix: 'Ver el documento completo en',
+    creatorLink: 'Normas comunitarias | Transparency Center',
     cta: 'Enviar apelación',
-    badgeAlt: 'Logotipo de Meta',
+    badgeAlt: 'Logotipo Meta',
   },
   notice: {
-    title: 'Your Page may have violated Community Standards',
-    body:
-      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+    title: 'Es posible que su página haya violado Community Standards',
+    body: 'Después de una revisión reciente, se identificó que una página que usted administra podría no cumplir con Community Standards. Si cree que este resultado es incorrecto, puede enviar una apelación para solicitar una revisión. Este aviso se aplica únicamente a una página que usted administra.',
   },
   policyIndex: {
-    title: 'Community Standards topics',
+    title: 'Normas comunitarias',
     items: [
-      { label: 'Coordinating Harm and Promoting Crime' },
-      { label: 'Dangerous Organizations and Individuals' },
-      { label: 'Fraud, Scams, and Deceptive Practices' },
-      { label: 'Restricted Goods and Services' },
-      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
-      { label: 'Suicide, Self-Injury, and Eating Disorders' },
-      { label: 'Adult Nudity and Sexual Activity' },
-      { label: 'Violent and Graphic Content' },
-      { label: 'Bullying and Harassment' },
-      { label: 'Hate Speech' },
-      { label: 'Third-Party Intellectual Property Infringement' },
-      { label: 'Locally Illegal Content, Products, or Services' },
+      {
+        label: 'Coordinar el daño y promover el crimen',
+      },
+      {
+        label: 'Organizaciones e individuos peligrosos',
+      },
+      {
+        label: 'Fraude, estafas y prácticas engañosas',
+      },
+      {
+        label: 'Bienes y servicios restringidos',
+      },
+      {
+        label: 'Explotación y abuso sexual infantil',
+      },
+      {
+        label: 'Suicidio, autolesiones y trastornos alimentarios',
+      },
+      {
+        label: 'Desnudez adulta y actividad sexual',
+      },
+      {
+        label: 'Contenido violento y gráfico',
+      },
+      {
+        label: 'Intimidación y acoso',
+      },
+      {
+        label: 'discurso de odio',
+      },
+      {
+        label: 'Infracción de propiedad intelectual de terceros',
+      },
+      {
+        label: 'Contenido, productos o servicios localmente ilegales',
+      },
     ],
   },
   benefits: {
     items: [
       {
-        title: 'Our commitment to voice',
+        title: 'Nuestro compromiso con la voz',
         paragraphs: [
-          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
-          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+          'Nuestros Community Standards buscan crear espacio para la expresión. Meta fomenta el debate abierto — mediante comentarios, imágenes, música u otros formatos creativos — incluso cuando hay desacuerdo. En casos excepcionales, el contenido [[digno de noticia]] que sirva al interés público puede permanecer tras sopesar el valor informativo frente al riesgo de daño y referir los estándares internacionales de derechos humanos. Cuando el contexto aclara una infracción, podemos eliminar contenido ambiguo o implícito.',
+          'Priorizamos la voz y reconocemos que Internet también puede permitir el abuso. Cuando limitamos la expresión, lo hacemos para proteger uno o más de los siguientes valores:',
         ],
       },
     ],
@@ -88,124 +164,109 @@ export const esLanding: LandingStrings = {
     items: [
       {
         id: 'authenticity',
-        label: 'Authenticity',
+        label: 'Autenticidad',
         paragraphs: [
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+          'Queremos que el contenido de nuestras plataformas refleje lo que es genuino. La autenticidad crea un entorno más saludable para compartir, por lo que no se permite tergiversar la identidad o la conducta.',
         ],
       },
       {
         id: 'safety',
-        label: 'Safety',
+        label: 'Seguridad',
         paragraphs: [
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+          'Facebook, Instagram, Messenger y Threads deben ser entornos seguros. Eliminamos contenido que pueda causar daño físico, amenazar, excluir o silenciar a otros.',
         ],
       },
       {
         id: 'privacy',
-        label: 'Privacy',
+        label: 'Privacidad',
         paragraphs: [
-          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+          'Estamos comprometidos a proteger la privacidad y los datos personales. La privacidad ayuda a las personas a controlar cómo y cuándo comparten y se conectan en nuestros servicios.',
         ],
       },
       {
         id: 'dignity',
-        label: 'Dignity',
+        label: 'Dignidad',
         paragraphs: [
-          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+          'Creemos que todas las personas tienen la misma dignidad y derechos. No permitimos el acoso o el trato degradante hacia otros.',
         ],
       },
     ],
   },
   steps: {
-    title: 'Pasos para enviar una apelación',
-    subtitle:
-      'Antes de enviar, compara el contenido marcado con las Community Standards en el Transparency Center. Tiempo estimado para completar el formulario: aproximadamente 5–10 minutos.',
+    title: 'Pasos para presentar una apelación',
+    subtitle: 'Antes de enviar, compare el contenido marcado con Community Standards en Transparency Center. Tiempo estimado para completar el formulario: aproximadamente entre 5 y 10 minutos.',
     items: [
       {
-        title: 'Revisa la política aplicable.',
-        description:
-          'Lee la sección de política relevante en el Transparency Center — cada una incluye una Policy Rationale y reglas específicas. Compara con las publicaciones o actividad marcadas en tu página.',
+        title: 'Revise la política aplicable.',
+        description: 'Lea la sección de política correspondiente en Transparency Center. cada sección incluye una Policy Rationale y reglas específicas. Compara esto con la publicación o actividad marcada en tu página.',
       },
       {
-        title: 'Completa el formulario y verifica tu identidad.',
-        description:
-          'Proporciona los datos del administrador y de contacto, más el contexto (si es necesario). Verifica tu cuenta de Facebook vinculada antes de enviar.',
+        title: 'Complete el formulario y verifique la identidad.',
+        description: 'Proporcione detalles del administrador, información de contacto y contexto si es necesario. Verifique la cuenta de Facebook vinculada antes de enviarla.',
       },
       {
-        title: 'Sigue el resultado en Facebook.',
-        description:
-          'Tras el envío, recibirás confirmación mediante notificaciones de Facebook. La revisión suele tardar 3–7 días laborables. La referencia de tu solicitud ayuda si necesitas asistencia.',
+        title: 'Supervise el resultado en Facebook.',
+        description: 'Después del envío, recibirá confirmación a través de notificaciones de Facebook. La revisión suele tardar entre 3 y 7 días hábiles. La referencia de su solicitud ayuda si se necesita soporte.',
       },
     ],
   },
   testimonials: {
-    title: 'Referencia del Transparency Center',
-    prevAria: 'Elemento anterior',
-    nextAria: 'Elemento siguiente',
+    title: 'Referencia de Transparency Center',
+    prevAria: 'Artículo anterior',
+    nextAria: 'Siguiente elemento',
     items: [
       {
-        quote:
-          'Estos estándares se basan en comentarios de las personas y en el asesoramiento de expertos en campos como tecnología, seguridad pública y derechos humanos — para garantizar que se valore la voz de todos.',
+        quote: 'Estos estándares se basan en comentarios de personas y orientación de expertos en tecnología, seguridad pública y derechos humanos. para garantizar que se valore la voz de todos.',
         author: 'Meta Transparency Center',
         role: 'Introducción',
       },
       {
-        quote:
-          'Nuestras Community Standards se aplican a todas las personas en todo el mundo y a todo tipo de contenido, incluido el generado por IA.',
+        quote: 'Nuestros Community Standards se aplican a todos, en todo el mundo, y a todo tipo de contenido, incluido el contenido generado por IA.',
         author: 'Meta Transparency Center',
         role: 'Alcance',
       },
       {
-        quote:
-          'La versión en inglés de EE. UU. de las Community Standards refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
+        quote: 'La versión en inglés de EE. UU. de Community Standards refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
         author: 'Meta Transparency Center',
         role: 'Documento oficial',
       },
     ],
   },
   finalCta: {
-    title: 'Enviar apelación',
-    subtitle:
-      'Si, tras leer las Community Standards, crees que tu página cumple con la política, envía el formulario con los datos del administrador y la verificación de identidad.',
+    title: 'Presentar una apelación',
+    subtitle: 'Si, después de leer Community Standards, cree que su página cumple con la política, envíe el formulario con los detalles del administrador y la verificación de identidad.',
     cta: 'Enviar apelación',
   },
   faq: {
     title: 'Preguntas frecuentes',
     items: [
       {
-        question: '¿Qué cubren las Community Standards?',
-        answer:
-          'Las Community Standards describen lo que está y no está permitido en Facebook, Instagram, Messenger y Threads. El documento completo se publica en el Meta Transparency Center.',
+        question: '¿Se aplica una apelación a perfiles personales o grupos?',
+        answer: 'No. El aviso en esta página y el formulario de apelación solo se aplican a las páginas que usted administra. Los perfiles personales, grupos u otros productos Meta están fuera del alcance de esta solicitud.',
       },
       {
-        question: '¿Qué versión es la referencia oficial?',
-        answer:
-          'Según el Transparency Center, la versión en inglés de EE. UU. refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
+        question: '¿Puedo presentar otra apelación después de que una sea rechazada?',
+        answer: 'Sí, si tiene nueva información o evidencia que no fue considerada anteriormente. Cada nueva presentación debe explicar claramente en qué se diferencia. Es posible que las apelaciones duplicadas sin contexto adicional no se vuelvan a revisar.',
       },
       {
-        question: '¿Qué valores guían a Meta al limitar contenido?',
-        answer:
-          'Cuando Meta limita la expresión, lo hace al servicio de la autenticidad, la seguridad, la privacidad o la dignidad — los cuatro valores fundamentales indicados en las Community Standards.',
+        question: '¿Qué debo preparar antes de abrir el formulario de apelación?',
+        answer: 'Recopile enlaces o ID de publicaciones afectadas, una breve explicación del contexto comercial o el propósito del contenido y confirme que haya iniciado sesión con una cuenta que tenga acceso de administrador de página en Meta Business Suite.',
       },
       {
-        question: '¿Por qué se marcó mi página si no estoy seguro de que infringiera la política?',
-        answer:
-          'Los sistemas de Meta pueden detectar contenido potencialmente infractor antes de una conclusión final. El aviso refleja una fase de evaluación inicial; una apelación permite a los equipos de revisión reevaluar el contexto específico de tu página.',
+        question: '¿Para qué sirve el código de referencia de la solicitud?',
+        answer: 'Cada envío genera un código de referencia único. Guarde este código cuando realice un seguimiento del estado en Facebook o cuando el soporte necesite localizar su caso. No reemplaza las notificaciones oficiales dentro de la aplicación.',
       },
       {
-        question: '¿Quién puede enviar una apelación?',
-        answer:
-          'Administradores de la página o representantes autorizados de la organización propietaria de la página. Debes verificar la cuenta de Facebook vinculada al enviar el formulario.',
+        question: '¿El envío de una apelación detiene las restricciones de la página?',
+        answer: 'No. Su página puede permanecer restringida mientras la revisión esté pendiente. Los resultados de la apelación se comunican por separado y pueden dar lugar a la eliminación de las restricciones si se aceptan.',
       },
       {
-        question: '¿Cuánto tarda la revisión y qué resultados son posibles?',
-        answer:
-          'Normalmente 3–7 días laborables, posiblemente más si se necesita información adicional. Los resultados pueden incluir aceptación de la apelación, confirmación de la decisión o solicitud de más información — todo comunicado a través de Facebook.',
+        question: '¿Cómo recibiré el resultado de la apelación?',
+        answer: 'A través de Notificaciones de Facebook (ícono de campana), no a través de un correo electrónico separado de este formulario. Habilite las notificaciones relacionadas con la página y verifíquelas periódicamente durante varios días hábiles después del envío.',
       },
       {
-        question: '¿Cómo se utiliza mi información?',
-        answer:
-          'Solo para procesar tu apelación y verificar los derechos administrativos, conforme a la Política de privacidad y los Términos de Meta.',
+        question: '¿Cómo se almacena y utiliza la información del formulario?',
+        answer: 'Los datos que proporciona se utilizan únicamente para procesar su apelación, verificar los derechos de administrador y mantener registros según los procedimientos internos de Meta, de acuerdo con la Política de privacidad y los Términos. No se utiliza para publicidad.',
       },
     ],
   },
@@ -213,26 +274,42 @@ export const esLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'Tecnologías de Meta',
+        title: 'Tecnologías Meta',
         links: [
-          { label: 'Facebook' },
-          { label: 'Instagram' },
-          { label: 'Messenger' },
-          { label: 'Threads' },
+          {
+            label: 'Facebook',
+          },
+          {
+            label: 'Instagram',
+          },
+          {
+            label: 'Messenger',
+          },
+          {
+            label: 'Threads',
+          },
         ],
       },
       {
         title: 'Políticas',
         links: [
-          { label: 'Transparency Center' },
-          { label: 'Community Standards' },
+          {
+            label: 'Transparency Center',
+          },
+          {
+            label: 'Community Standards',
+          },
         ],
       },
       {
-        title: 'Asistencia',
+        title: 'Apoyo',
         links: [
-          { label: 'Centro de ayuda' },
-          { label: 'Meta Business Help Center' },
+          {
+            label: 'Centro de ayuda',
+          },
+          {
+            label: 'Meta Business Help Center',
+          },
         ],
       },
     ],
