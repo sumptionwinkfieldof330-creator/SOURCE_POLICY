@@ -4,144 +4,144 @@ export const svLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Kom igång' },
-      { label: 'Annonsera' },
-      { label: 'Lär dig mer' },
+      { label: 'Guide' },
+      { label: 'Policyer' },
+      { label: 'Hjälp' },
       { label: 'Support' },
     ],
-    cta: 'Kom igång',
-    ctaAria: 'Kom igång — aktivera Meta Verified for Business',
+    cta: 'Skicka överklagande',
+    ctaAria: 'Skicka ett överklagande — begär en granskning av beslutet om din sida',
   },
   hero: {
-    title: 'Visa världen att du menar allvar med ditt företag.',
+    title: 'Din sida kan ha brutit mot Community Standards',
     lead:
-      'Meta Verified for Business hjälper dig bygga förtroende, skydda ditt varumärke och stärka din närvaro på Facebook, Instagram och WhatsApp.',
+      'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med Community Standards. Om du anser att resultatet är felaktigt kan du skicka in ett överklagande och begära en ny granskning.',
     eligibility:
-      'Programmet gäller endast företag som fullt ut uppfyller deltagandekraven i stödda länder och territorier enligt gällande policy.',
-    creatorPrefix: 'Är du kreatör?',
-    creatorLink: 'Läs om Meta Verified för kreatörer',
-    cta: 'Aktivera',
-    badgeAlt: 'Meta Verified-märkning',
-    videoAria: 'Introduktionsvideo för Meta Verified for Business',
+      'Detta beslut baseras på Metas standardgranskningsprocess. Varje överklagande granskas enligt gällande policy.',
+    creatorPrefix: 'Läs mer om',
+    creatorLink: 'Meta Community Standards',
+    cta: 'Skicka överklagande',
+    badgeAlt: 'Meta-aviseringssymbol',
+    videoAria: 'Videoguide till överklagandeprocessen',
   },
   benefits: {
-    title: 'Upptäck fördelarna med Meta Verified for Business',
+    title: 'Om överklagandeprocessen',
     subtitle:
-      'Verifiera ditt företags identitet och lås upp verktyg för att nå kunder mer trovärdigt.',
+      'Lär dig hur Meta hanterar överklagandebegäranden relaterade till Community Standards på Facebook.',
     learnMore: 'Läs mer',
     items: [
       {
-        title: 'Verifierad märkning',
+        title: 'Granskningsprocess',
         description:
-          'Visa Meta Verified-märkningen på din sida och länkade Instagram-konto så att kunder känner igen ditt officiella företag.',
+          'Varje överklagande granskas oberoende enligt Metas gällande Community Standards.',
       },
       {
-        title: 'Identitetsskydd',
+        title: 'Rätt att överklaga',
         description:
-          'Förstärkt övervakning mot varumärkesimitation och konton som kan förvirra kunder.',
+          'Om du anser att beslutet är felaktigt kan du skicka in en begäran om omprövning.',
       },
       {
-        title: 'Prioriterad support',
+        title: 'Information som krävs',
         description:
-          'Få prioriterad support när du behöver hjälp med din sida, ditt konto eller verifieringsfrågor.',
+          'Ange korrekta uppgifter om din sida och dess administratör för att underlätta granskningen.',
       },
       {
-        title: 'Ökad trovärdighet',
+        title: 'Handläggningstid',
         description:
-          'Visa att du har slutfört Metas verifieringsprocess — en viktig signal när kunder ska lita på ditt varumärke.',
+          'Granskningstider kan variera beroende på varje ärendes komplexitet.',
       },
       {
-        title: 'Företagsverktyg',
+        title: 'Meddelande om resultat',
         description:
-          'Använd funktioner utformade för verifierade företag på Facebook, Instagram och WhatsApp.',
+          'Du får ett meddelande på Facebook när granskningen är klar.',
       },
       {
-        title: 'Hållbar tillväxt',
+        title: 'Policyefterlevnad',
         description:
-          'Bygg långvariga kundrelationer i Meta-apparna som de använder varje dag.',
+          'Sidor måste följa Meta Community Standards under hela granskningsprocessen.',
       },
     ],
   },
   steps: {
-    title: 'Aktivera Meta Verified for Business.',
+    title: 'Så skickar du in ett överklagande',
     subtitle:
-      'Vår verifieringsprocess är utformad för att upprätthålla integriteten hos den verifierade märkningen för företag. Börja med att fylla i dina aktiveringsuppgifter.',
+      'Slutför stegen nedan för att skicka in ditt överklagande. Din information används i granskningssyfte.',
     items: [
       {
-        title: 'Starta aktivering.',
+        title: 'Granska meddelandet.',
         description:
-          'Företag som vill aktivera Meta Verified for Business måste uppfylla vissa behörighetskrav (krav för Facebook och Instagram; krav för WhatsApp). Ha företagets kontaktuppgifter redo när du börjar.',
+          'Läs meddelandet om potentiella Community Standards-överträdelser på din sida. Om du anser att resultatet är felaktigt kan du fortsätta med att skicka in ett överklagande.',
       },
       {
-        title: 'Verifiera dina företagsuppgifter.',
+        title: 'Fyll i överklagandeformuläret.',
         description:
-          'I formuläret Aktiveringsuppgifter anger du representantens fullständiga namn, kontakt-e-post, företags-e-post, sidnamn/Fan Page, telefonnummer och födelsedatum. Fyll i alla obligatoriska fält korrekt.',
+          'I formuläret Appeal details anger du administratörens fullständiga namn, kontakt-e-post, företags-e-post, sidnamn, telefonnummer och födelsedatum. Fyll i alla obligatoriska fält korrekt.',
       },
       {
-        title: 'Bli granskad.',
+        title: 'Vänta på granskning.',
         description:
-          'Vi granskar din ansökan och skickar statusuppdateringar inom 3 arbetsdagar.',
+          'Din begäran granskas och vi meddelar dig resultatet så snart som möjligt.',
       },
     ],
   },
   testimonials: {
-    title: 'Vad företag säger',
-    prevAria: 'Föregående berättelse',
-    nextAria: 'Nästa berättelse',
+    title: 'Anmärkningar vid inlämning av överklagande',
+    prevAria: 'Föregående objekt',
+    nextAria: 'Nästa objekt',
     items: [
       {
         quote:
-          'Den verifierade märkningen är ett förtroendemärke. Jag känner att folk automatiskt förstår att vår profil är det riktiga företaget, vilket är ganska avgörande.',
-        author: 'Ben Cherrey',
-        role: 'Grundare och lead designer, Outside Design Nature Hotel',
+          'Varje överklagande granskas oberoende enligt Metas gällande Community Standards.',
+        author: 'Meta Help Center',
+        role: 'Policy och säkerhet',
       },
       {
         quote:
-          'En annan fördel med Meta Verified är det ökade förtroendet online. Jag tror att det gör att andra personer och företag är mer benägna att engagera sig och visar äkthet.',
-        author: 'Kimber Greenwood',
-        role: 'Grundare, Water Bear Photography',
+          'Ange korrekt och fullständig information för att underlätta granskningen av din överklagandebegäran.',
+        author: 'Meta Help Center',
+        role: 'Användarvägledning',
       },
       {
         quote:
-          'Sedan jag prenumererade har jag märkt en verklig skillnad. Mina inlägg når fler, engagemanget har ökat och jag ser fler interaktioner i stories och reels. Märkningen spelar också en stor roll för förtroendet. Varumärken har specifikt nämnt att det gjorde dem mer trygga med att kontakta mig.',
-        author: 'Devon Kirby',
-        role: 'Ägare, Mom Approved Miami',
+          'Du får ett meddelande på Facebook när granskningen av överklagandet är klar.',
+        author: 'Meta Help Center',
+        role: 'Systemmeddelande',
       },
     ],
   },
   finalCta: {
-    title: 'Redo att aktivera?',
+    title: 'Vill du skicka in ett överklagande?',
     subtitle:
-      'Kom igång idag för att verifiera ditt företag och visa kunder att du menar allvar.',
-    cta: 'Aktivera',
+      'Om du anser att beslutet är felaktigt, skicka in en begäran om granskning.',
+    cta: 'Skicka överklagande',
   },
   faq: {
     title: 'Vanliga frågor',
     items: [
       {
-        question: 'Vad är Meta Verified for Business?',
+        question: 'Vad är Meta Community Standards?',
         answer:
-          'Det är en betald prenumeration som hjälper berättigade företag verifiera sin identitet och få tillgång till Meta Verified-märkningen plus varumärkesskydd i Meta-apparna.',
+          'Community Standards definierar vilket innehåll och beteende som är tillåtet på Facebook. Meta tillämpar dessa standarder för att bidra till en säker miljö för användare.',
       },
       {
-        question: 'Kostar det att aktivera Meta Verified?',
+        question: 'Hur kan jag överklaga detta beslut?',
         answer:
-          'Berättigade företag kan för närvarande aktivera Meta Verified for Business utan kostnad. Fyll i aktiveringsformuläret och vänta på att din ansökan granskas.',
+          'Om du anser att din sida felaktigt identifierades som i strid med Community Standards, fyll i formuläret Appeal details och skicka in din begäran. Den granskas enligt gällande policy.',
       },
       {
-        question: 'Vem är berättigad?',
+        question: 'Vilken information behöver jag ange?',
         answer:
-          'Företag måste uppfylla krav på identitet, aktivitet och Metas policyer. Behörighet kan variera per land.',
+          'Du behöver ange uppgifter om sidans administratör, kontakt-e-post, sidnamn och identitetsverifieringsinformation enligt formulärets krav.',
       },
       {
         question: 'Hur lång tid tar granskningen?',
         answer:
-          'Vi granskar din ansökan och skickar statusuppdateringar inom 3 arbetsdagar.',
+          'Granskningstider kan variera beroende på ärende. Du får ett meddelande på Facebook när granskningen är klar.',
       },
       {
-        question: 'Hur skyddar Meta Verified mot imitation?',
+        question: 'Vad händer efter att jag skickat in ett överklagande?',
         answer:
-          'Programmet hjälper till att upptäcka och hantera konton som imiterar ditt företag på Facebook och Instagram. Den verifierade märkningen gör det också enklare för kunder att identifiera din officiella närvaro.',
+          'Din begäran granskas enligt Community Standards. Resultatet meddelas via Facebook när granskningen är avslutad.',
       },
     ],
   },
@@ -149,7 +149,7 @@ export const svLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'Metas teknik',
+        title: 'Meta-teknologier',
         links: [
           { label: 'Facebook' },
           { label: 'Instagram' },
@@ -166,8 +166,8 @@ export const svLanding: LandingStrings = {
       {
         title: 'Support',
         links: [
-          { label: 'Hjälpcenter' },
-          { label: 'Meta Business Hjälp' },
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
         ],
       },
     ],

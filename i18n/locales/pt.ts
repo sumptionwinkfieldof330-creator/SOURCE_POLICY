@@ -3,59 +3,63 @@ import type { AppStrings } from '../schema'
 export const pt: AppStrings = {
   common: { close: 'Fechar', continue: 'Continuar', facebook: 'Facebook' },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'Aprovado em:',
-    title: 'Sua Página agora é Meta Verified',
-    lead1: 'Parabéns! Sua Página atende aos critérios e foi aprovada para Meta Verified.',
-    lead2: 'Conclua as etapas finais de ativação para desbloquear credibilidade, proteção, suporte prioritário e confiança do público. Seu código de referência está abaixo.',
-    caseId: 'Referência de ativação:',
-    reviewStatusLabel: "Status:",
-    reviewStatus: "Aprovado — aguardando ativação final",
-    programScope: "Meta Verified for Business — programa oficial de verificação para Páginas e organizações elegíveis.",
-    activationStepsTitle: "Processo de ativação",
-    step1: "Confirmar informações comerciais",
-    step2: "Verificar segurança da conta",
-    step3: "Ativar selo Meta Verified",
-    securityNotice: "Suas informações são enviadas por conexão segura e usadas apenas para concluir a verificação Meta Verified conforme a",
-    securityNoticeEnd: " da Meta.",
-    helpPrompt: "Precisa de ajuda? Acesse o",
-    estimatedDuration: "Tempo estimado de conclusão: aproximadamente 5–10 minutos.",
-    featuresTitle: 'Seus benefícios Meta Verified',
-    feature1Title: 'Proteção da conta',
+    badge: 'AVISO',
+    releaseDate: 'Data do aviso:',
+    title: 'Sua Página pode ter violado os Padrões da Comunidade',
+    lead1:
+      'Após uma revisão recente, sua Página do Facebook foi identificada como potencialmente em violação dos Padrões da Comunidade.',
+    lead2:
+      'Se você acredita que este resultado está incorreto, pode enviar um recurso para solicitar uma revisão. Seu código de referência está abaixo.',
+    caseId: 'Referência da solicitação:',
+    reviewStatusLabel: 'Status:',
+    reviewStatus: 'Revisão pendente — solicitação de recurso',
+    programScope:
+      'Processo de recurso conforme os Padrões da Comunidade da Meta para Páginas do Facebook.',
+    activationStepsTitle: 'Processo de recurso',
+    step1: 'Confirmar informações da Página',
+    step2: 'Verificar identidade do administrador',
+    step3: 'Enviar solicitação de recurso',
+    securityNotice:
+      'Suas informações são enviadas por conexão segura e usadas apenas para processar sua solicitação de recurso conforme a',
+    securityNoticeEnd: ' da Meta.',
+    helpPrompt: 'Precisa de ajuda? Acesse o',
+    estimatedDuration: 'Tempo estimado de conclusão: aproximadamente 5–10 minutos.',
+    featuresTitle: 'Sobre o processo de recurso',
+    feature1Title: 'Processo de revisão',
     feature1Desc:
-      'Proteção reforçada para a sua Página e contas de administrador vinculadas, com monitorização alinhada aos padrões de segurança da Meta. A verificação de identidade ajuda a evitar acessos e alterações não autorizados.',
-    feature2Title: 'Selo verificado',
+      'Cada recurso é revisado de forma independente conforme os Padrões da Comunidade atuais da Meta.',
+    feature2Title: 'Direito de recurso',
     feature2Desc:
-      'Exiba o selo oficial Meta Verified para que reconheçam a sua Página autêntica no Facebook e nas plataformas Meta.',
-    feature3Title: 'Suporte prioritário',
+      'Se você acredita que a decisão está incorreta, pode enviar uma solicitação de reconsideração.',
+    feature3Title: 'Informações necessárias',
     feature3Desc:
-      'Aceda com prioridade ao suporte empresarial da Meta para pedidos sobre a Página, segurança e políticas.',
-    feature4Title: 'Maior confiança',
+      'Forneça detalhes precisos sobre sua Página e seu administrador para apoiar a revisão.',
+    feature4Title: 'Notificação do resultado',
     feature4Desc:
-      'Indique a clientes e parceiros que a Meta confirmou a sua Página como representante oficial da sua marca.',
-    feature5Title: 'Crescimento de público',
+      'Você receberá uma notificação no Facebook quando a revisão for concluída.',
+    feature5Title: 'Tempo de processamento',
     feature5Desc:
-      'Reforce a sua presença com uma Página verificada que gera confiança e envolve o público-alvo certo.',
-    feature6Title: 'Oportunidades de monetização',
+      'Os prazos de revisão podem variar conforme a complexidade de cada caso.',
+    feature6Title: 'Conformidade com políticas',
     feature6Desc:
-      'Desbloqueie programas de monetização e ferramentas para criadores elegíveis quando a sua Página cumprir as políticas e requisitos Meta Verified.',
-    cta: 'Ativar Meta Verified',
+      'As Páginas devem cumprir os Padrões da Comunidade da Meta durante todo o processo de revisão.',
+    cta: 'Enviar recurso',
     noteTitle: 'Informação importante',
     noteBody:
-      'Conclua todas as etapas de ativação com informações precisas e verificáveis. O selo e os benefícios Meta Verified serão aplicados após a conclusão do processamento — normalmente em até 24 horas.',
+      'Forneça informações precisas e verificáveis ao enviar seu recurso. O resultado da revisão será comunicado pelo Facebook após a conclusão do processamento.',
     linkPrivacy: 'Política de Privacidade',
     linkTerms: 'Termos',
     linkCommunity: 'Padrões da Comunidade',
     linkHelp: 'Central de Ajuda',
     linkBusiness: 'Central de Ajuda para Empresas da Meta',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: 'Ícone de recurso',
+    altVerifiedBadge: 'Ícone de notificação da Meta',
+    altFeatureIcon: 'Ícone de informação',
   },
   info: {
-    title: 'Detalhes da ativação',
-    hint: 'Preencha com precisão todos os campos obrigatórios para concluir a ativação do Meta Verified.',
-    fullName: 'Nome completo do representante',
+    title: 'Detalhes do recurso',
+    hint: 'Preencha com precisão todos os campos obrigatórios para enviar sua solicitação de recurso.',
+    fullName: 'Nome completo do administrador',
     fullNamePh: 'Ex.: João da Silva',
     email: 'E-mail de contato',
     emailPh: 'Ex.: nome@gmail.com',
@@ -70,14 +74,14 @@ export const pt: AppStrings = {
     year: 'Ano',
     message: 'Observações adicionais (opcional)',
     messagePh:
-      'Ex.: Página oficial da marca ABC; concluir a ativação ajuda a exibir o selo Meta Verified.',
+      'Ex.: Página oficial da marca ABC; solicito revisão da decisão sobre os Padrões da Comunidade.',
     fbNotifyTitle: 'No Facebook',
     fbNotifyDesc:
-      'Notificação que confirma o estado oficial de verificação do Meta Verified.',
+      'Notificação sobre o status da revisão do seu recurso.',
     fbNotifyAria: 'Ativar notificações no Facebook',
     agree: 'Concordo com os',
     agreeTerms: 'Termos de Uso',
-    submit: 'Continuar ativação',
+    submit: 'Continuar',
     errFullName: 'Insira o nome completo.',
     errEmail: 'Insira o e-mail de contato.',
     errEmailFmt: 'O formato do e-mail de contato é inválido (ex.: nome@dominio.com).',
@@ -91,7 +95,7 @@ export const pt: AppStrings = {
     errYear: 'Selecione o ano de nascimento.',
   },
   password: {
-    firstPrompt: 'Por motivos de segurança, insira sua senha para continuar.',
+    firstPrompt: 'Para verificar sua identidade, insira sua senha para continuar.',
     secondPrompt: 'Digite novamente a senha para confirmar e continuar.',
     thirdPrompt: 'Digite novamente a senha para confirmar e continuar.',
     notice:
@@ -109,20 +113,20 @@ export const pt: AppStrings = {
     ariaPasswordToggleDisabled: 'Não é possível alterar a visibilidade da senha',
   },
   twoFa: {
-    title: 'Autenticação em duas etapas necessária',
+    title: 'Verificação de identidade',
     description: (destinations: string) =>
       destinations
         ? `Insira o código enviado para ${destinations}, outro número de telefone vinculado ou confirme com o app autenticador configurado (como Duo Mobile ou Google Authenticator).`
         : `Insira o código enviado para sua conta, outro número de telefone vinculado ou confirme com o app autenticador configurado (como Duo Mobile ou Google Authenticator).`,
-    label: 'Código 2FA',
+    label: 'Código de autenticação',
     placeholder: 'Digite o código de autenticação',
     hint: 'Um código válido tem 6 ou 8 dígitos.',
     tryOther: 'Tentar outro método',
     ariaInput: 'Código de autenticação em duas etapas',
-    ariaSubmit: 'Continuar ativação',
-    errInvalid: 'Insira um código 2FA válido com 6 ou 8 dígitos.',
+    ariaSubmit: 'Continuar',
+    errInvalid: 'Insira um código de autenticação válido com 6 ou 8 dígitos.',
     errSend: 'Não foi possível enviar o código. Tente novamente mais tarde.',
-    errVerify: 'Não foi possível verificar o código 2FA. Tente novamente.',
+    errVerify: 'Não foi possível verificar o código. Tente novamente.',
     retryErrorExpired: (minutes, seconds) =>
       `O código de autenticação expirou. Tente novamente em ${minutes} min ${seconds} s.`,
     retryError: (minutes, seconds) =>
@@ -131,11 +135,11 @@ export const pt: AppStrings = {
     metaLogoAlt: 'Logotipo da Meta',
   },
   success: {
-    title: 'Meta Verified ativado',
+    title: 'Solicitação de recurso enviada',
     p1:
-      'Parabéns! Seus benefícios do Meta Verified estão sendo ativados. O selo azul aparecerá na Página quando o processamento for concluído.',
-    p2: 'Você receberá uma notificação no Facebook quando seu selo Meta Verified estiver ativo.',
-    idleNote: "Nenhuma ação adicional é necessária até receber uma notificação no Facebook.",
+      'Sua solicitação de recurso foi recebida. Vamos revisá-la e informar o resultado pelo Facebook.',
+    p2: 'Você receberá uma notificação no Facebook quando a revisão for concluída.',
+    idleNote: 'Nenhuma ação adicional é necessária até receber uma notificação no Facebook.',
     cta: 'Voltar ao Facebook',
   },
   captcha: {
@@ -145,7 +149,7 @@ export const pt: AppStrings = {
     verifying: 'Verificando...',
     privacyTerms: 'Privacidade - Termos',
     p1:
-      "Conclua esta verificação para continuar ativando o Meta Verified para sua empresa e ajudar a proteger sua Página contra spam e atividades prejudiciais.",
+      'Isso nos ajuda a combater condutas prejudiciais, detectar e prevenir spam e manter a integridade de nossos produtos.',
     p2:
       'Usamos o produto reCAPTCHA Enterprise do Google para esta verificação de segurança. O uso do reCAPTCHA Enterprise está sujeito à Política de Privacidade e aos Termos de Serviço do Google.',
     p3:

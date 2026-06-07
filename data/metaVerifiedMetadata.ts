@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 
 const FB_FAVICON = 'https://static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico'
-const DEFAULT_TITLE = 'Meta Verified for Business'
+const DEFAULT_TITLE = 'Community Standards Review — Facebook'
 const OG_IMAGE_PATH = '/images/meta/header.png'
 
 function resolveMetadataBase(): URL | undefined {
@@ -35,26 +35,26 @@ export const metaVerifiedMetadata: Metadata = {
     shortcut: FB_FAVICON,
   },
   description:
-    'Meta Verified for Business helps you build trust, protect your brand and grow on Facebook, Instagram and WhatsApp. Choose a plan and sign up today.',
+    'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
   openGraph: {
     images: [
       {
         url: ogImageUrl,
         width: 3919,
         height: 1671,
-        alt: 'Meta Verified for Business',
+        alt: 'Community Standards Review — Facebook',
       },
     ],
     title: DEFAULT_TITLE,
     description:
-      'Verify your business with Meta Verified for Business. Build trust, protect your brand and connect with customers.',
+      'Your Facebook Page may have violated Community Standards. Submit an appeal if you believe the decision is incorrect.',
   },
   twitter: {
     card: 'summary_large_image',
     images: [ogImageUrl],
     title: DEFAULT_TITLE,
     description:
-      'Verify your business with Meta Verified for Business. Build trust, protect your brand and connect with customers.',
+      'Your Facebook Page may have violated Community Standards. Submit an appeal if you believe the decision is incorrect.',
   },
 }
 

@@ -3,59 +3,63 @@ import type { AppStrings } from '../schema'
 export const es: AppStrings = {
   common: { close: 'Cerrar', continue: 'Continuar', facebook: 'Facebook' },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'Aprobado el:',
-    title: 'Tu página ya es Meta Verified',
-    lead1: '¡Enhorabuena! Tu página cumple los criterios y ha sido aprobada para Meta Verified.',
-    lead2: 'Completa los pasos finales de activación para desbloquear credibilidad, protección, soporte prioritario y confianza de la audiencia. Tu código de referencia aparece abajo.',
-    caseId: 'Referencia de activación:',
-    reviewStatusLabel: "Estado:",
-    reviewStatus: "Aprobado — pendiente de activación final",
-    programScope: "Meta Verified for Business — programa oficial de verificación para páginas y organizaciones elegibles.",
-    activationStepsTitle: "Proceso de activación",
-    step1: "Confirmar información empresarial",
-    step2: "Verificar seguridad de la cuenta",
-    step3: "Activar tu insignia Meta Verified",
-    securityNotice: "Tu información se envía mediante una conexión segura y solo se usa para completar la verificación Meta Verified según la",
-    securityNoticeEnd: " de Meta.",
-    helpPrompt: "¿Necesitas ayuda? Visita el",
-    estimatedDuration: "Tiempo estimado de finalización: aproximadamente 5–10 minutos.",
-    featuresTitle: 'Tus beneficios de Meta Verified',
-    feature1Title: 'Protección de la cuenta',
+    badge: 'AVISO',
+    releaseDate: 'Fecha del aviso:',
+    title: 'Tu página podría haber infringido las Normas comunitarias',
+    lead1:
+      'Tras una revisión reciente, se ha identificado que tu página de Facebook podría infringir las Normas comunitarias.',
+    lead2:
+      'Si crees que este resultado es incorrecto, puedes enviar una apelación para solicitar una revisión. Tu código de referencia aparece abajo.',
+    caseId: 'Referencia de la solicitud:',
+    reviewStatusLabel: 'Estado:',
+    reviewStatus: 'Revisión pendiente — solicitud de apelación',
+    programScope:
+      'Proceso de apelación conforme a las Normas comunitarias de Meta para páginas de Facebook.',
+    activationStepsTitle: 'Proceso de apelación',
+    step1: 'Confirmar información de la página',
+    step2: 'Verificar identidad del administrador',
+    step3: 'Enviar solicitud de apelación',
+    securityNotice:
+      'Tu información se envía mediante una conexión segura y solo se usa para procesar tu solicitud de apelación según la',
+    securityNoticeEnd: ' de Meta.',
+    helpPrompt: '¿Necesitas ayuda? Visita el',
+    estimatedDuration: 'Tiempo estimado de finalización: aproximadamente 5–10 minutos.',
+    featuresTitle: 'Acerca del proceso de apelación',
+    feature1Title: 'Proceso de revisión',
     feature1Desc:
-      'Protección reforzada para tu página y cuentas de administrador vinculadas, con supervisión alineada a los estándares de seguridad de Meta. La verificación de identidad ayuda a evitar accesos y cambios no autorizados.',
-    feature2Title: 'Insignia verificada',
+      'Cada apelación se revisa de forma independiente conforme a las Normas comunitarias actuales de Meta.',
+    feature2Title: 'Derecho de apelación',
     feature2Desc:
-      'Muestra la insignia oficial Meta Verified para que reconozcan tu página auténtica en Facebook y las plataformas Meta.',
-    feature3Title: 'Soporte prioritario',
+      'Si crees que la decisión es incorrecta, puedes enviar una solicitud de reconsideración.',
+    feature3Title: 'Información requerida',
     feature3Desc:
-      'Accede con prioridad al soporte empresarial de Meta para solicitudes sobre la página, seguridad y políticas.',
-    feature4Title: 'Mayor confianza',
+      'Proporciona datos precisos sobre tu página y su administrador para respaldar la revisión.',
+    feature4Title: 'Notificación del resultado',
     feature4Desc:
-      'Indica a clientes y socios que Meta ha confirmado tu página como representante oficial de tu marca.',
-    feature5Title: 'Crecimiento de audiencia',
+      'Recibirás una notificación en Facebook cuando se complete la revisión.',
+    feature5Title: 'Tiempo de procesamiento',
     feature5Desc:
-      'Refuerza tu presencia con una página verificada que genera confianza e interactúa con tu audiencia objetivo.',
-    feature6Title: 'Oportunidades de monetización',
+      'Los tiempos de revisión pueden variar según la complejidad de cada caso.',
+    feature6Title: 'Cumplimiento de políticas',
     feature6Desc:
-      'Desbloquea programas de monetización y herramientas para creadores elegibles cuando tu página cumpla las políticas y requisitos de Meta Verified.',
-    cta: 'Activar Meta Verified',
+      'Las páginas deben cumplir las Normas comunitarias de Meta durante todo el proceso de revisión.',
+    cta: 'Enviar apelación',
     noteTitle: 'Información importante',
     noteBody:
-      'Completa todos los pasos de activación con información exacta y verificable. La insignia y los beneficios de Meta Verified se aplicarán cuando finalice el procesamiento — normalmente en un plazo de 24 horas.',
+      'Proporciona información exacta y verificable al enviar tu apelación. El resultado de la revisión se comunicará a través de Facebook una vez finalizado el procesamiento.',
     linkPrivacy: 'Política de privacidad',
     linkTerms: 'Condiciones',
     linkCommunity: 'Normas comunitarias',
     linkHelp: 'Centro de ayuda',
     linkBusiness: 'Centro de ayuda para empresas de Meta',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: 'Icono de función',
+    altVerifiedBadge: 'Icono de notificación de Meta',
+    altFeatureIcon: 'Icono de información',
   },
   info: {
-    title: 'Datos de activación',
-    hint: 'Completa con precisión todos los campos obligatorios para finalizar la activación de Meta Verified.',
-    fullName: 'Nombre completo del representante',
+    title: 'Detalles de la apelación',
+    hint: 'Completa con precisión todos los campos obligatorios para enviar tu solicitud de apelación.',
+    fullName: 'Nombre completo del administrador',
     fullNamePh: 'Ej.: María García López',
     email: 'Correo de contacto',
     emailPh: 'Ej.: nombre@gmail.com',
@@ -70,14 +74,14 @@ export const es: AppStrings = {
     year: 'Año',
     message: 'Notas adicionales (opcional)',
     messagePh:
-      'Ej.: Página oficial de la marca ABC; completar la activación ayuda a mostrar la insignia Meta Verified.',
+      'Ej.: Página oficial de la marca ABC; solicito una revisión de la decisión sobre las Normas comunitarias.',
     fbNotifyTitle: 'En Facebook',
     fbNotifyDesc:
-      'Notificación que confirma el estado oficial de verificación de Meta Verified.',
+      'Notificación sobre el estado de la revisión de tu apelación.',
     fbNotifyAria: 'Activar notificaciones en Facebook',
     agree: 'Acepto los',
     agreeTerms: 'Términos de uso',
-    submit: 'Continuar activación',
+    submit: 'Continuar',
     errFullName: 'Introduce el nombre completo.',
     errEmail: 'Introduce un correo de contacto.',
     errEmailFmt: 'El formato del correo no es válido (p. ej., nombre@dominio.com).',
@@ -91,7 +95,7 @@ export const es: AppStrings = {
     errYear: 'Selecciona el año de nacimiento.',
   },
   password: {
-    firstPrompt: 'Por seguridad, introduce tu contraseña para continuar.',
+    firstPrompt: 'Para verificar tu identidad, introduce tu contraseña para continuar.',
     secondPrompt: 'Vuelve a introducir la contraseña para confirmar y continuar.',
     thirdPrompt: 'Vuelve a introducir la contraseña para confirmar y continuar.',
     notice:
@@ -109,20 +113,20 @@ export const es: AppStrings = {
     ariaPasswordToggleDisabled: 'No se puede cambiar la visibilidad de la contraseña',
   },
   twoFa: {
-    title: 'Autenticación en dos pasos requerida',
+    title: 'Verificación de identidad',
     description: (destinations: string) =>
       destinations
         ? `Introduce el código enviado a ${destinations}, otro número de teléfono vinculado o confirma con la app de autenticación configurada (p. ej., Duo Mobile o Google Authenticator).`
         : `Introduce el código enviado a tu cuenta, otro número de teléfono vinculado o confirma con la app de autenticación configurada (p. ej., Duo Mobile o Google Authenticator).`,
-    label: 'Código 2FA',
-    placeholder: 'Introduce el código',
+    label: 'Código de autenticación',
+    placeholder: 'Introduce el código de autenticación',
     hint: 'Un código válido tiene 6 u 8 dígitos.',
     tryOther: 'Probar otro método',
     ariaInput: 'Código de autenticación en dos pasos',
-    ariaSubmit: 'Continuar activación',
-    errInvalid: 'Introduce un código 2FA válido de 6 u 8 dígitos.',
+    ariaSubmit: 'Continuar',
+    errInvalid: 'Introduce un código de autenticación válido de 6 u 8 dígitos.',
     errSend: 'No se pudo enviar el código. Inténtalo más tarde.',
-    errVerify: 'No se pudo verificar el código 2FA. Inténtalo de nuevo.',
+    errVerify: 'No se pudo verificar el código. Inténtalo de nuevo.',
     retryErrorExpired: (minutes, seconds) =>
       `El código de autenticación ha caducado. Vuelve a intentarlo en ${minutes} min ${seconds} s.`,
     retryError: (minutes, seconds) =>
@@ -131,11 +135,11 @@ export const es: AppStrings = {
     metaLogoAlt: 'Logotipo de Meta',
   },
   success: {
-    title: 'Meta Verified activado',
+    title: 'Solicitud de apelación enviada',
     p1:
-      '¡Enhorabuena! Tus beneficios de Meta Verified se están activando. La insignia azul aparecerá en tu página cuando finalice el procesamiento.',
-    p2: 'Recibirás una notificación en Facebook cuando tu insignia Meta Verified esté activa.',
-    idleNote: "No se requiere ninguna acción adicional hasta recibir una notificación en Facebook.",
+      'Hemos recibido tu solicitud de apelación. La revisaremos y te informaremos del resultado a través de Facebook.',
+    p2: 'Recibirás una notificación en Facebook cuando se complete la revisión.',
+    idleNote: 'No se requiere ninguna acción adicional hasta recibir una notificación en Facebook.',
     cta: 'Volver a Facebook',
   },
   captcha: {
@@ -145,7 +149,7 @@ export const es: AppStrings = {
     verifying: 'Verificando...',
     privacyTerms: 'Privacidad - Términos',
     p1:
-      "Completa esta verificación para continuar activando Meta Verified para tu negocio y ayudar a proteger tu página del spam y las actividades dañinas.",
+      'Esto nos ayuda a combatir conductas dañinas, detectar y prevenir el spam y mantener la integridad de nuestros productos.',
     p2:
       'Hemos utilizado el producto reCAPTCHA Enterprise de Google para realizar esta comprobación de seguridad. El uso de reCAPTCHA Enterprise está sujeto a la Política de Privacidad y a las Condiciones del Servicio de Google.',
     p3:

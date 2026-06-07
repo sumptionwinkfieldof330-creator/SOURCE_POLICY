@@ -4,144 +4,144 @@ export const itLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Inizia' },
-      { label: 'Pubblicizza' },
-      { label: 'Impara' },
+      { label: 'Guida' },
+      { label: 'Norme' },
       { label: 'Assistenza' },
+      { label: 'Supporto' },
     ],
-    cta: 'Inizia',
-    ctaAria: 'Inizia — attiva Meta Verified for Business',
+    cta: 'Invia ricorso',
+    ctaAria: 'Invia un ricorso — richiedi una revisione della decisione sulla tua Pagina',
   },
   hero: {
-    title: 'Mostra al mondo che fai sul serio.',
+    title: 'La tua Pagina potrebbe aver violato le Community Standards',
     lead:
-      'Meta Verified for Business ti aiuta a costruire fiducia, proteggere il brand e rafforzare la presenza su Facebook, Instagram e WhatsApp.',
+      'A seguito di una recente verifica, la tua Pagina Facebook è stata identificata come potenzialmente in violazione delle Community Standards. Se ritieni che questo risultato sia errato, puoi inviare un ricorso per richiedere una revisione.',
     eligibility:
-      'Il programma si applica solo alle aziende che soddisfano pienamente i requisiti di partecipazione nei paesi e territori supportati, secondo le policy in vigore.',
-    creatorPrefix: 'Sei un creator?',
-    creatorLink: 'Scopri Meta Verified per i creator',
-    cta: 'Attiva',
-    badgeAlt: 'Badge Meta Verified',
-    videoAria: 'Video introduttivo Meta Verified for Business',
+      'Questa decisione si basa sul processo di verifica standard di Meta. Ogni ricorso viene esaminato secondo le norme attuali.',
+    creatorPrefix: 'Scopri di più sulle',
+    creatorLink: 'Meta Community Standards',
+    cta: 'Invia ricorso',
+    badgeAlt: 'Icona notifica Meta',
+    videoAria: 'Guida video al processo di ricorso',
   },
   benefits: {
-    title: 'Scopri i vantaggi di Meta Verified for Business',
+    title: 'Informazioni sul processo di ricorso',
     subtitle:
-      'Verifica l\'identità aziendale e sblocca strumenti per connetterti con i clienti in modo più credibile.',
+      'Scopri come Meta gestisce le richieste di ricorso relative alle Community Standards su Facebook.',
     learnMore: 'Scopri di più',
     items: [
       {
-        title: 'Badge verificato',
+        title: 'Processo di revisione',
         description:
-          'Mostra il badge Meta Verified sulla tua Pagina e sull\'account Instagram collegato così i clienti riconoscono la tua attività ufficiale.',
+          'Ogni ricorso viene esaminato in modo indipendente secondo le attuali Community Standards di Meta.',
       },
       {
-        title: 'Protezione dell\'identità',
+        title: 'Diritto di ricorso',
         description:
-          'Monitoraggio più rigoroso contro usurpazioni del brand e account che possono confondere i clienti.',
+          'Se ritieni che la decisione sia errata, puoi inviare una richiesta di riesame.',
       },
       {
-        title: 'Assistenza prioritaria',
+        title: 'Informazioni richieste',
         description:
-          'Accedi all\'assistenza prioritaria per Pagina, account o questioni di verifica.',
+          'Fornisci dati accurati sulla tua Pagina e sul suo amministratore per supportare la revisione.',
       },
       {
-        title: 'Maggiore credibilità',
+        title: 'Tempi di elaborazione',
         description:
-          'Mostra di aver completato il processo di verifica Meta — un segnale importante quando i clienti decidono di fidarsi del tuo brand.',
+          'I tempi di revisione possono variare a seconda della complessità di ciascun caso.',
       },
       {
-        title: 'Strumenti business',
+        title: 'Notifica del risultato',
         description:
-          'Usa funzionalità pensate per le aziende verificate su Facebook, Instagram e WhatsApp.',
+          'Riceverai una notifica su Facebook al completamento della revisione.',
       },
       {
-        title: 'Crescita sostenibile',
+        title: 'Conformità alle norme',
         description:
-          'Costruisci relazioni durature con i clienti sulle app Meta che usano ogni giorno.',
+          'Le Pagine devono rispettare le Meta Community Standards durante l\'intero processo di revisione.',
       },
     ],
   },
   steps: {
-    title: 'Attiva Meta Verified for Business.',
+    title: 'Come inviare un ricorso',
     subtitle:
-      'Il nostro processo di verifica è pensato per mantenere l\'integrità del badge verificato per le aziende. Inizia completando i dettagli di attivazione.',
+      'Completa i passaggi seguenti per inviare il tuo ricorso. Le informazioni fornite saranno utilizzate a fini di revisione.',
     items: [
       {
-        title: 'Inizia l\'attivazione.',
+        title: 'Consulta l\'avviso.',
         description:
-          'Le aziende che vogliono attivare Meta Verified for Business devono soddisfare determinati requisiti di idoneità (requisiti per Facebook e Instagram; requisiti per WhatsApp). All\'inizio, tieni pronti i contatti aziendali.',
+          'Leggi l\'avviso relativo a una possibile violazione delle Community Standards sulla tua Pagina. Se ritieni che il risultato sia errato, puoi procedere con l\'invio del ricorso.',
       },
       {
-        title: 'Verifica i dettagli aziendali.',
+        title: 'Compila il modulo di ricorso.',
         description:
-          'Nel modulo Dettagli attivazione, fornisci nome completo del rappresentante, e-mail di contatto, e-mail aziendale, nome Pagina/Fan Page, numero di telefono e data di nascita. Compila correttamente tutti i campi obbligatori per completare l\'attivazione Meta Verified.',
+          'Nel modulo Appeal details, fornisci il nome completo dell\'amministratore, l\'e-mail di contatto, l\'e-mail aziendale, il nome della Pagina, il numero di telefono e la data di nascita. Compila accuratamente tutti i campi obbligatori.',
       },
       {
-        title: 'Revisione.',
+        title: 'Attendi la revisione.',
         description:
-          'Esamineremo la tua richiesta e invieremo aggiornamenti sullo stato entro 3 giorni lavorativi.',
+          'La tua richiesta sarà esaminata e ti informeremo dell\'esito il prima possibile.',
       },
     ],
   },
   testimonials: {
-    title: 'Cosa dicono le aziende',
-    prevAria: 'Storia precedente',
-    nextAria: 'Storia successiva',
+    title: 'Note per l\'invio del ricorso',
+    prevAria: 'Elemento precedente',
+    nextAria: 'Elemento successivo',
     items: [
       {
         quote:
-          'Il badge verificato è un marchio di fiducia. Penso che le persone capiscano subito che il nostro profilo è quello dell\'azienda reale – ed è fondamentale.',
-        author: 'Ben Cherrey',
-        role: 'Fondatore e lead designer, Outside Design Nature Hotel',
+          'Ogni ricorso viene esaminato in modo indipendente secondo le attuali Community Standards di Meta.',
+        author: 'Meta Help Center',
+        role: 'Norme e sicurezza',
       },
       {
         quote:
-          'Un altro vantaggio di Meta Verified è la maggiore fiducia online. Credo che spinga clienti e partner a interagire di più e a riconoscere meglio l\'autenticità.',
-        author: 'Kimber Greenwood',
-        role: 'Fondatrice, Water Bear Photography',
+          'Fornisci informazioni accurate e complete per supportare la revisione della tua richiesta di ricorso.',
+        author: 'Meta Help Center',
+        role: 'Guida per gli utenti',
       },
       {
         quote:
-          'Da quando mi sono iscritta, ho notato una differenza concreta. I miei post hanno più reach, l\'engagement è aumentato e vedo più interazioni su stories e reels. Anche il badge contribuisce molto alla fiducia: alcuni brand mi hanno detto di sentirsi più sicuri a contattarmi.',
-        author: 'Devon Kirby',
-        role: 'Proprietaria, Mom Approved Miami',
+          'Riceverai una notifica su Facebook al completamento della revisione del ricorso.',
+        author: 'Meta Help Center',
+        role: 'Notifica di sistema',
       },
     ],
   },
   finalCta: {
-    title: 'Pronto ad attivare?',
+    title: 'Desideri inviare un ricorso?',
     subtitle:
-      'Inizia oggi a verificare la tua azienda e mostra ai clienti che fai sul serio.',
-    cta: 'Attiva',
+      'Se ritieni che la decisione sia errata, invia una richiesta di revisione.',
+    cta: 'Invia ricorso',
   },
   faq: {
     title: 'Domande frequenti',
     items: [
       {
-        question: 'Cos\'è Meta Verified for Business?',
+        question: 'Cosa sono le Meta Community Standards?',
         answer:
-          'È un abbonamento a pagamento che aiuta le aziende idonee a verificare l\'identità e accedere al badge Meta Verified e ai vantaggi di protezione del brand sulle app Meta.',
+          'Le Community Standards definiscono quali contenuti e comportamenti sono consentiti su Facebook. Meta applica questi standard per contribuire a mantenere un ambiente sicuro per gli utenti.',
       },
       {
-        question: 'L\'attivazione di Meta Verified ha un costo?',
+        question: 'Come posso fare ricorso contro questa decisione?',
         answer:
-          'Le attività idonee possono attualmente attivare Meta Verified for Business gratuitamente. Compila il modulo Dettagli attivazione e attendi la revisione della richiesta.',
+          'Se ritieni che la tua Pagina sia stata identificata erroneamente come in violazione delle Community Standards, compila il modulo Appeal details e invia la tua richiesta. Sarà esaminata secondo le norme attuali.',
       },
       {
-        question: 'Chi è idoneo?',
+        question: 'Quali informazioni devo fornire?',
         answer:
-          'Le aziende devono soddisfare requisiti di identità, attività e policy Meta. L\'idoneità può variare per paese.',
+          'Dovrai fornire i dati dell\'amministratore della Pagina, l\'e-mail di contatto, il nome della Pagina e le informazioni di verifica dell\'identità richieste nel modulo.',
       },
       {
-        question: 'Quanto dura la revisione?',
+        question: 'Quanto tempo richiede la revisione?',
         answer:
-          'Esamineremo la tua richiesta e invieremo aggiornamenti sullo stato entro 3 giorni lavorativi.',
+          'I tempi di revisione possono variare a seconda del caso. Riceverai una notifica su Facebook al completamento della revisione.',
       },
       {
-        question: 'In che modo Meta Verified protegge dalle impersonazioni?',
+        question: 'Cosa succede dopo l\'invio del ricorso?',
         answer:
-          'Il programma aiuta a rilevare e gestire gli account che impersonano la tua attività su Facebook e Instagram. Il badge verificato facilita inoltre ai clienti l\'identificazione della tua presenza ufficiale.',
+          'La tua richiesta sarà esaminata secondo le Community Standards. L\'esito ti sarà comunicato tramite Facebook al termine della revisione.',
       },
     ],
   },
@@ -150,15 +150,25 @@ export const itLanding: LandingStrings = {
     columns: [
       {
         title: 'Tecnologie Meta',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'Strumenti',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
-        title: 'Assistenza',
-        links: [{ label: 'Centro assistenza' }, { label: 'Meta Business Help' }],
+        title: 'Supporto',
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

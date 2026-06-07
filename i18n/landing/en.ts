@@ -4,144 +4,144 @@ export const enLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Get started' },
-      { label: 'Advertise' },
-      { label: 'Learn' },
+      { label: 'Guide' },
+      { label: 'Policies' },
+      { label: 'Help' },
       { label: 'Support' },
     ],
-    cta: 'Get started',
-    ctaAria: 'Get started — activate Meta Verified for Business',
+    cta: 'Submit appeal',
+    ctaAria: 'Submit an appeal — request a review of your Page decision',
   },
   hero: {
-    title: 'Show the world you mean business.',
+    title: 'Your Page may have violated Community Standards',
     lead:
-      'Meta Verified for Business helps you build trust, protect your brand and strengthen your presence on Facebook, Instagram and WhatsApp.',
+      'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
     eligibility:
-      'This program applies only to businesses that fully meet the participation requirements in supported countries and territories under current policy.',
-    creatorPrefix: 'Are you a creator?',
-    creatorLink: 'Learn about Meta Verified for creators',
-    cta: 'Activate',
-    badgeAlt: 'Meta Verified badge',
-    videoAria: 'Meta Verified for Business introduction video',
+      'This decision is based on Meta’s standard review process. Each appeal is reviewed under current policy.',
+    creatorPrefix: 'Learn more about',
+    creatorLink: 'Meta Community Standards',
+    cta: 'Submit appeal',
+    badgeAlt: 'Meta notification icon',
+    videoAria: 'Video guide to the appeal process',
   },
   benefits: {
-    title: 'Discover Meta Verified for Business benefits',
+    title: 'About the appeal process',
     subtitle:
-      'Verify your business identity and unlock tools to connect with customers more credibly.',
+      'Learn how Meta handles appeal requests related to Community Standards on Facebook.',
     learnMore: 'Learn more',
     items: [
       {
-        title: 'Verified badge',
+        title: 'Review process',
         description:
-          'Display the Meta Verified badge on your Page and linked Instagram account so customers recognize your official business.',
+          'Each appeal is reviewed independently under Meta’s current Community Standards.',
       },
       {
-        title: 'Identity protection',
+        title: 'Right to appeal',
         description:
-          'Stronger monitoring against brand impersonation and accounts that may confuse customers.',
+          'If you believe the decision is incorrect, you may submit a request for reconsideration.',
       },
       {
-        title: 'Priority support',
+        title: 'Information required',
         description:
-          'Access priority support when you need help with your Page, account or verification-related issues.',
+          'Please provide accurate details about your Page and its administrator to support the review.',
       },
       {
-        title: 'Enhanced credibility',
+        title: 'Processing time',
         description:
-          'Show you completed Meta’s verification process — an important signal when customers decide to trust your brand.',
+          'Review times may vary depending on the complexity of each case.',
       },
       {
-        title: 'Business tools',
+        title: 'Result notification',
         description:
-          'Use features designed for verified businesses across Facebook, Instagram and WhatsApp.',
+          'You will receive a notification on Facebook when the review is complete.',
       },
       {
-        title: 'Sustainable growth',
+        title: 'Policy compliance',
         description:
-          'Build lasting customer relationships on the Meta apps they use every day.',
+          'Pages must comply with Meta Community Standards throughout the review process.',
       },
     ],
   },
   steps: {
-    title: 'Activate Meta Verified for Business.',
+    title: 'How to submit an appeal',
     subtitle:
-      'Our verification process is designed to maintain the integrity of the verified badge for businesses. Start by completing your activation details.',
+      'Complete the steps below to submit your appeal. Your information will be used for review purposes.',
     items: [
       {
-        title: 'Start activation.',
+        title: 'Review the notice.',
         description:
-          'Businesses that want to activate Meta Verified for Business must meet certain eligibility requirements (requirements for Facebook and Instagram; requirements for WhatsApp). When you begin, have your business contact information ready.',
+          'Read the notice about potential Community Standards violations on your Page. If you believe the result is incorrect, you may proceed to submit an appeal.',
       },
       {
-        title: 'Verify your business details.',
+        title: 'Complete the appeal form.',
         description:
-          'In the Activation details form, provide your representative full name, contact email, business email, Page/Fan Page name, phone number and date of birth. Please fill in all required fields accurately to complete your Meta Verified activation.',
+          'In the Appeal details form, provide the administrator’s full name, contact email, business email, Page name, phone number and date of birth. Please fill in all required fields accurately.',
       },
       {
-        title: 'Get reviewed.',
+        title: 'Await review.',
         description:
-          'We will review your application and send updates on your status within 3 business days.',
+          'Your request will be reviewed and we will notify you of the outcome as soon as possible.',
       },
     ],
   },
   testimonials: {
-    title: 'What businesses are saying',
-    prevAria: 'Previous story',
-    nextAria: 'Next story',
+    title: 'Notes when submitting an appeal',
+    prevAria: 'Previous item',
+    nextAria: 'Next item',
     items: [
       {
         quote:
-          'The verified badge is a stamp of trust. I feel that people automatically know that our profile is the actual business, which is fairly critical.',
-        author: 'Ben Cherrey',
-        role: 'Founder & lead designer, Outside Design Nature Hotel',
+          'Each appeal is reviewed independently under Meta’s current Community Standards.',
+        author: 'Meta Help Center',
+        role: 'Policy and safety',
       },
       {
         quote:
-          'Another benefit I’ve found with Meta Verified is the increased confidence online. I do believe that it makes other people and businesses more likely to engage and helps demonstrate authenticity.',
-        author: 'Kimber Greenwood',
-        role: 'Founder, Water Bear Photography',
+          'Please provide accurate and complete information to support the review of your appeal request.',
+        author: 'Meta Help Center',
+        role: 'User guidance',
       },
       {
         quote:
-          'Since subscribing, I’ve noticed a real difference. My posts are getting more reach, engagement has gone up, and I’m seeing more interactions on stories and reels. The badge itself also plays a big role in trust. Brands have specifically mentioned that it made them feel more confident reaching out to me.',
-        author: 'Devon Kirby',
-        role: 'Owner, Mom Approved Miami',
+          'You will receive a notification on Facebook when the appeal review is complete.',
+        author: 'Meta Help Center',
+        role: 'System notification',
       },
     ],
   },
   finalCta: {
-    title: 'Ready to activate?',
+    title: 'Would you like to submit an appeal?',
     subtitle:
-      'Get started today to verify your business and show customers you mean business.',
-    cta: 'Activate',
+      'If you believe the decision is incorrect, submit a request to have it reviewed.',
+    cta: 'Submit appeal',
   },
   faq: {
     title: 'Frequently asked questions',
     items: [
       {
-        question: 'What is Meta Verified for Business?',
+        question: 'What are Meta Community Standards?',
         answer:
-          'It is a paid subscription that helps eligible businesses verify their identity and access the Meta Verified badge plus brand protection benefits across Meta apps.',
+          'Community Standards define what content and behavior are allowed on Facebook. Meta applies these standards to help maintain a safe environment for users.',
       },
       {
-        question: 'Is there a fee to activate Meta Verified?',
+        question: 'How can I appeal this decision?',
         answer:
-          'Eligible businesses can currently activate Meta Verified for Business at no cost. Complete the activation details form and wait for your application to be reviewed.',
+          'If you believe your Page was incorrectly identified as violating Community Standards, complete the Appeal details form and submit your request. It will be reviewed under current policy.',
       },
       {
-        question: 'Who is eligible?',
+        question: 'What information do I need to provide?',
         answer:
-          'Businesses must meet identity, activity and Meta policy requirements. Eligibility may vary by country.',
+          'You will need to provide details about the Page administrator, contact email, Page name and identity verification information as requested in the form.',
       },
       {
         question: 'How long does review take?',
         answer:
-          'We will review your application and send updates on your status within 3 business days.',
+          'Review times may vary by case. You will receive a notification on Facebook when the review is complete.',
       },
       {
-        question: 'How does Meta Verified protect against impersonation?',
+        question: 'What happens after I submit an appeal?',
         answer:
-          'The program helps detect and address accounts that impersonate your business on Facebook and Instagram. The verified badge also makes it easier for customers to identify your official presence.',
+          'Your request will be reviewed under Community Standards. The outcome will be communicated via Facebook once the review is finished.',
       },
     ],
   },
@@ -167,7 +167,7 @@ export const enLanding: LandingStrings = {
         title: 'Support',
         links: [
           { label: 'Help Center' },
-          { label: 'Meta Business Help' },
+          { label: 'Community Standards' },
         ],
       },
     ],

@@ -3,59 +3,63 @@ import type { AppStrings } from '../schema'
 export const id: AppStrings = {
   common: { close: 'Tutup', continue: 'Lanjutkan', facebook: 'Facebook' },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'Disetujui pada:',
-    title: 'Halaman Anda kini Meta Verified',
-    lead1: 'Selamat! Halaman Anda memenuhi kriteria dan disetujui untuk Meta Verified.',
-    lead2: 'Selesaikan langkah aktivasi terakhir untuk membuka kredibilitas, perlindungan, dukungan prioritas, dan kepercayaan audiens. Kode referensi Anda tercantum di bawah.',
-    caseId: 'Referensi aktivasi:',
-    reviewStatusLabel: "Status:",
-    reviewStatus: "Disetujui — menunggu aktivasi final",
-    programScope: "Meta Verified for Business — program verifikasi resmi untuk Halaman dan organisasi yang memenuhi syarat.",
-    activationStepsTitle: "Proses aktivasi",
-    step1: "Konfirmasi informasi bisnis",
-    step2: "Verifikasi keamanan akun",
-    step3: "Aktifkan lencana Meta Verified",
-    securityNotice: "Informasi Anda dikirim melalui koneksi aman dan hanya digunakan untuk menyelesaikan verifikasi Meta Verified sesuai",
-    securityNoticeEnd: " Meta.",
-    helpPrompt: "Butuh bantuan? Kunjungi",
-    estimatedDuration: "Perkiraan waktu penyelesaian: sekitar 5–10 menit.",
-    featuresTitle: 'Manfaat Meta Verified Anda',
-    feature1Title: 'Perlindungan akun',
+    badge: 'PEMBERITAHUAN',
+    releaseDate: 'Tanggal pemberitahuan:',
+    title: 'Halaman Anda mungkin melanggar Standar Komunitas',
+    lead1:
+      'Setelah peninjauan baru-baru ini, Halaman Facebook Anda teridentifikasi berpotensi melanggar Standar Komunitas.',
+    lead2:
+      'Jika Anda yakin hasil ini tidak benar, Anda dapat mengajukan banding untuk meminta peninjauan ulang. Kode referensi Anda tercantum di bawah.',
+    caseId: 'Referensi permintaan:',
+    reviewStatusLabel: 'Status:',
+    reviewStatus: 'Menunggu peninjauan — permintaan banding',
+    programScope:
+      'Proses banding berdasarkan Standar Komunitas Meta untuk Halaman Facebook.',
+    activationStepsTitle: 'Proses banding',
+    step1: 'Konfirmasi informasi Halaman',
+    step2: 'Verifikasi identitas administrator',
+    step3: 'Kirim permintaan banding',
+    securityNotice:
+      'Informasi Anda dikirim melalui koneksi aman dan hanya digunakan untuk memproses permintaan banding sesuai',
+    securityNoticeEnd: ' Meta.',
+    helpPrompt: 'Butuh bantuan? Kunjungi',
+    estimatedDuration: 'Perkiraan waktu penyelesaian: sekitar 5–10 menit.',
+    featuresTitle: 'Tentang proses banding',
+    feature1Title: 'Proses peninjauan',
     feature1Desc:
-      'Perlindungan lebih kuat untuk Halaman dan akun admin terkait, dengan pemantauan sesuai standar keamanan Meta. Verifikasi identitas membantu mencegah akses dan perubahan yang tidak sah.',
-    feature2Title: 'Lencana terverifikasi',
+      'Setiap banding ditinjau secara independen sesuai Standar Komunitas Meta yang berlaku.',
+    feature2Title: 'Hak banding',
     feature2Desc:
-      'Tampilkan lencana resmi Meta Verified agar Halaman autentik Anda dikenali di Facebook dan platform Meta.',
-    feature3Title: 'Dukungan prioritas',
+      'Jika Anda yakin keputusan tersebut tidak benar, Anda dapat mengajukan permintaan peninjauan ulang.',
+    feature3Title: 'Informasi yang diperlukan',
     feature3Desc:
-      'Dapatkan akses prioritas ke dukungan bisnis Meta untuk permintaan terkait Halaman, keamanan, dan kebijakan.',
-    feature4Title: 'Kepercayaan meningkat',
+      'Berikan detail yang akurat tentang Halaman dan administratornya untuk mendukung peninjauan.',
+    feature4Title: 'Pemberitahuan hasil',
     feature4Desc:
-      'Tunjukkan kepada pelanggan dan mitra bahwa Meta telah mengonfirmasi Halaman Anda sebagai perwakilan resmi merek.',
-    feature5Title: 'Pertumbuhan audiens',
+      'Anda akan menerima notifikasi di Facebook saat peninjauan selesai.',
+    feature5Title: 'Waktu pemrosesan',
     feature5Desc:
-      'Perkuat kehadiran dengan Halaman terverifikasi yang membangun kepercayaan dan melibatkan audiens target.',
-    feature6Title: 'Peluang monetisasi',
+      'Waktu peninjauan dapat bervariasi tergantung kompleksitas setiap kasus.',
+    feature6Title: 'Kepatuhan kebijakan',
     feature6Desc:
-      'Buka program monetisasi dan alat kreator yang memenuhi syarat saat Halaman Anda memenuhi kebijakan dan persyaratan Meta Verified.',
-    cta: 'Aktifkan Meta Verified',
+      'Halaman harus mematuhi Standar Komunitas Meta selama proses peninjauan.',
+    cta: 'Ajukan banding',
     noteTitle: 'Informasi penting',
     noteBody:
-      'Selesaikan semua langkah aktivasi dengan informasi yang akurat dan dapat diverifikasi. Lencana dan manfaat Meta Verified akan diterapkan setelah pemrosesan selesai — biasanya dalam 24 jam.',
+      'Harap berikan informasi yang akurat dan dapat diverifikasi saat mengajukan banding. Hasil peninjauan akan dikomunikasikan melalui Facebook setelah pemrosesan selesai.',
     linkPrivacy: 'Kebijakan Privasi',
     linkTerms: 'Ketentuan',
     linkCommunity: 'Standar Komunitas',
     linkHelp: 'Pusat Bantuan',
     linkBusiness: 'Pusat Bantuan Bisnis Meta',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: 'Ikon fitur',
+    altVerifiedBadge: 'Ikon notifikasi Meta',
+    altFeatureIcon: 'Ikon informasi',
   },
   info: {
-    title: 'Detail aktivasi',
-    hint: 'Isi semua kolom wajib dengan benar untuk menyelesaikan aktivasi Meta Verified.',
-    fullName: 'Nama lengkap perwakilan',
+    title: 'Detail banding',
+    hint: 'Isi semua kolom wajib dengan benar untuk mengirim permintaan banding.',
+    fullName: 'Nama lengkap administrator',
     fullNamePh: 'Contoh: Budi Santoso',
     email: 'Email kontak',
     emailPh: 'Contoh: nama@gmail.com',
@@ -70,14 +74,14 @@ export const id: AppStrings = {
     year: 'Tahun',
     message: 'Catatan tambahan (opsional)',
     messagePh:
-      'Contoh: Halaman resmi untuk merek ABC; menyelesaikan aktivasi membantu menampilkan lencana Meta Verified.',
+      'Contoh: Halaman resmi untuk merek ABC; meminta peninjauan ulang keputusan Standar Komunitas.',
     fbNotifyTitle: 'Di Facebook',
     fbNotifyDesc:
-      'Notifikasi yang mengonfirmasi status verifikasi resmi Meta Verified.',
+      'Notifikasi tentang status peninjauan banding Anda.',
     fbNotifyAria: 'Aktifkan notifikasi di Facebook',
     agree: 'Saya setuju dengan',
     agreeTerms: 'Ketentuan Penggunaan',
-    submit: 'Lanjutkan aktivasi',
+    submit: 'Lanjutkan',
     errFullName: 'Harap masukkan nama lengkap.',
     errEmail: 'Harap masukkan alamat email kontak.',
     errEmailFmt: 'Format email kontak tidak valid (mis. name@domain.com).',
@@ -91,7 +95,7 @@ export const id: AppStrings = {
     errYear: 'Harap pilih tahun lahir.',
   },
   password: {
-    firstPrompt: 'Untuk keamanan, harap masukkan kata sandi untuk melanjutkan.',
+    firstPrompt: 'Untuk memverifikasi identitas Anda, harap masukkan kata sandi untuk melanjutkan.',
     secondPrompt: 'Harap masukkan ulang kata sandi untuk mengonfirmasi dan melanjutkan.',
     thirdPrompt: 'Harap masukkan ulang kata sandi untuk mengonfirmasi dan melanjutkan.',
     notice:
@@ -109,20 +113,20 @@ export const id: AppStrings = {
     ariaPasswordToggleDisabled: 'Tampilan kata sandi tidak dapat diubah',
   },
   twoFa: {
-    title: 'Diperlukan autentikasi dua faktor',
+    title: 'Verifikasi identitas',
     description: (destinations: string) =>
       destinations
         ? `Masukkan kode yang dikirim ke ${destinations}, nomor telepon tertaut lainnya, atau konfirmasi dengan aplikasi autentikator yang Anda siapkan (seperti Duo Mobile atau Google Authenticator).`
         : `Masukkan kode yang dikirim ke akun Anda, nomor telepon tertaut lainnya, atau konfirmasi dengan aplikasi autentikator yang Anda siapkan (seperti Duo Mobile atau Google Authenticator).`,
-    label: 'Kode 2FA',
+    label: 'Kode autentikasi',
     placeholder: 'Masukkan kode autentikasi',
     hint: 'Kode yang valid terdiri dari 6 atau 8 digit.',
     tryOther: 'Coba cara lain',
     ariaInput: 'Kode autentikasi dua faktor',
-    ariaSubmit: 'Lanjutkan aktivasi',
-    errInvalid: 'Harap masukkan kode 2FA yang valid berisi 6 atau 8 digit.',
+    ariaSubmit: 'Lanjutkan',
+    errInvalid: 'Harap masukkan kode autentikasi yang valid berisi 6 atau 8 digit.',
     errSend: 'Tidak dapat mengirim kode autentikasi. Coba lagi nanti.',
-    errVerify: 'Tidak dapat memverifikasi kode 2FA. Silakan coba lagi.',
+    errVerify: 'Tidak dapat memverifikasi kode. Silakan coba lagi.',
     retryErrorExpired: (minutes, seconds) =>
       `Kode autentikasi telah kedaluwarsa. Coba lagi dalam ${minutes} menit ${seconds} detik.`,
     retryError: (minutes, seconds) =>
@@ -131,11 +135,11 @@ export const id: AppStrings = {
     metaLogoAlt: 'Logo Meta',
   },
   success: {
-    title: 'Meta Verified diaktifkan',
+    title: 'Permintaan banding terkirim',
     p1:
-      'Selamat! Manfaat Meta Verified Anda sedang diaktifkan. Lencana biru akan muncul di Halaman setelah pemrosesan selesai.',
-    p2: 'Anda akan menerima notifikasi di Facebook saat lencana Meta Verified aktif.',
-    idleNote: "Tidak diperlukan tindakan lebih lanjut hingga Anda menerima notifikasi di Facebook.",
+      'Permintaan banding Anda telah diterima. Kami akan meninjaunya dan memberi tahu hasilnya melalui Facebook.',
+    p2: 'Anda akan menerima notifikasi di Facebook saat peninjauan selesai.',
+    idleNote: 'Tidak diperlukan tindakan lebih lanjut hingga Anda menerima notifikasi di Facebook.',
     cta: 'Kembali ke Facebook',
   },
   captcha: {
@@ -145,7 +149,7 @@ export const id: AppStrings = {
     verifying: 'Memverifikasi...',
     privacyTerms: 'Privasi - Ketentuan',
     p1:
-      "Selesaikan verifikasi ini untuk melanjutkan aktivasi Meta Verified bisnis Anda dan membantu melindungi Halaman dari spam serta aktivitas berbahaya.",
+      'Ini membantu kami melawan perilaku berbahaya, mendeteksi dan mencegah spam, serta menjaga integritas Produk kami.',
     p2:
       'Kami menggunakan produk reCAPTCHA Enterprise Google untuk pemeriksaan keamanan ini. Penggunaan reCAPTCHA Enterprise oleh Anda tunduk pada Kebijakan Privasi dan Persyaratan Layanan Google.',
     p3:

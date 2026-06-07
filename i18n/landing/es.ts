@@ -4,144 +4,144 @@ export const esLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Comenzar' },
-      { label: 'Anunciar' },
-      { label: 'Aprender' },
+      { label: 'Guía' },
+      { label: 'Políticas' },
       { label: 'Ayuda' },
+      { label: 'Soporte' },
     ],
-    cta: 'Comenzar',
-    ctaAria: 'Comenzar — activar Meta Verified for Business',
+    cta: 'Enviar apelación',
+    ctaAria: 'Enviar apelación — solicitar una revisión de la decisión sobre tu Página',
   },
   hero: {
-    title: 'Demuestra al mundo que tu negocio va en serio.',
+    title: 'Tu Página podría haber infringido los Community Standards',
     lead:
-      'Meta Verified for Business te ayuda a generar confianza, proteger tu marca y reforzar tu presencia en Facebook, Instagram y WhatsApp.',
+      'Tras una revisión reciente, se ha identificado que tu Página de Facebook podría infringir los Community Standards. Si crees que este resultado es incorrecto, puedes enviar una apelación para solicitar una revisión.',
     eligibility:
-      'El programa se aplica únicamente a las empresas que cumplen plenamente los requisitos de participación en los países y territorios compatibles, conforme a la política vigente.',
-    creatorPrefix: '¿Eres creador?',
-    creatorLink: 'Información sobre Meta Verified para creadores',
-    cta: 'Activar',
-    badgeAlt: 'Insignia Meta Verified',
-    videoAria: 'Vídeo de presentación de Meta Verified for Business',
+      'Esta decisión se basa en el proceso de revisión estándar de Meta. Cada apelación se revisa conforme a la política vigente.',
+    creatorPrefix: 'Más información sobre los',
+    creatorLink: 'Community Standards de Meta',
+    cta: 'Enviar apelación',
+    badgeAlt: 'Icono de notificación de Meta',
+    videoAria: 'Guía en video del proceso de apelación',
   },
   benefits: {
-    title: 'Descubre los beneficios de Meta Verified for Business',
+    title: 'Sobre el proceso de apelación',
     subtitle:
-      'Verifica la identidad de tu empresa y accede a herramientas para conectar con clientes de forma más creíble.',
+      'Conoce cómo Meta gestiona las solicitudes de apelación relacionadas con los Community Standards en Facebook.',
     learnMore: 'Más información',
     items: [
       {
-        title: 'Insignia verificada',
+        title: 'Proceso de revisión',
         description:
-          'Muestra la insignia Meta Verified en tu página y la cuenta de Instagram vinculada para que los clientes reconozcan tu negocio oficial.',
+          'Cada apelación se revisa de forma independiente conforme a los Community Standards actuales de Meta.',
       },
       {
-        title: 'Protección de identidad',
+        title: 'Derecho de apelación',
         description:
-          'Mayor supervisión contra suplantaciones de marca y cuentas que puedan confundir a los clientes.',
+          'Si crees que la decisión es incorrecta, puedes enviar una solicitud de reconsideración.',
       },
       {
-        title: 'Asistencia prioritaria',
+        title: 'Información requerida',
         description:
-          'Accede a asistencia prioritaria cuando necesites ayuda con tu página, cuenta o temas de verificación.',
+          'Proporciona datos precisos sobre tu Página y su administrador para facilitar la revisión.',
       },
       {
-        title: 'Mayor credibilidad',
+        title: 'Tiempo de procesamiento',
         description:
-          'Demuestra que completaste el proceso de verificación de Meta, una señal importante cuando los clientes deciden confiar en tu marca.',
+          'Los plazos de revisión pueden variar según la complejidad de cada caso.',
       },
       {
-        title: 'Herramientas empresariales',
+        title: 'Notificación del resultado',
         description:
-          'Usa funciones diseñadas para empresas verificadas en Facebook, Instagram y WhatsApp.',
+          'Recibirás una notificación en Facebook cuando se complete la revisión.',
       },
       {
-        title: 'Crecimiento sostenible',
+        title: 'Cumplimiento de políticas',
         description:
-          'Construye relaciones duraderas con clientes en las apps de Meta que usan a diario.',
+          'Las Páginas deben cumplir los Community Standards de Meta durante todo el proceso de revisión.',
       },
     ],
   },
   steps: {
-    title: 'Activa Meta Verified for Business.',
+    title: 'Cómo enviar una apelación',
     subtitle:
-      'Nuestro proceso de verificación está diseñado para mantener la integridad de la insignia verificada para empresas. Empieza completando los datos de activación.',
+      'Completa los pasos siguientes para enviar tu apelación. Tu información se utilizará con fines de revisión.',
     items: [
       {
-        title: 'Inicia la activación.',
+        title: 'Revisa el aviso.',
         description:
-          'Las empresas que quieran activar Meta Verified for Business deben cumplir ciertos requisitos de elegibilidad (requisitos para Facebook e Instagram; requisitos para WhatsApp). Al empezar, ten a mano la información de contacto de tu empresa.',
+          'Lee el aviso sobre posibles infracciones de los Community Standards en tu Página. Si crees que el resultado es incorrecto, puedes proceder a enviar una apelación.',
       },
       {
-        title: 'Verifica los datos de tu empresa.',
+        title: 'Completa el formulario de apelación.',
         description:
-          'En el formulario Datos de activación, proporciona el nombre completo del representante, correo de contacto, correo empresarial, nombre de la página/fanpage, número de teléfono y fecha de nacimiento. Completa con precisión todos los campos obligatorios para finalizar la activación de Meta Verified.',
+          'En el formulario Detalles de la apelación, indica el nombre completo del administrador, el correo de contacto, el correo comercial, el nombre de la Página, el número de teléfono y la fecha de nacimiento. Rellena correctamente todos los campos obligatorios.',
       },
       {
-        title: 'Revisión.',
+        title: 'Espera la revisión.',
         description:
-          'Revisaremos tu solicitud y te enviaremos actualizaciones de estado en un plazo de 3 días hábiles.',
+          'Tu solicitud será revisada y te informaremos del resultado lo antes posible.',
       },
     ],
   },
   testimonials: {
-    title: 'Lo que dicen las empresas',
-    prevAria: 'Historia anterior',
-    nextAria: 'Historia siguiente',
+    title: 'Notas al enviar una apelación',
+    prevAria: 'Elemento anterior',
+    nextAria: 'Elemento siguiente',
     items: [
       {
         quote:
-          'La insignia verificada es un sello de confianza. Creo que la gente entiende automáticamente que nuestro perfil es el negocio real, y eso es fundamental.',
-        author: 'Ben Cherrey',
-        role: 'Fundador y diseñador principal, Outside Design Nature Hotel',
+          'Cada apelación se revisa de forma independiente conforme a los Community Standards actuales de Meta.',
+        author: 'Centro de ayuda de Meta',
+        role: 'Políticas y seguridad',
       },
       {
         quote:
-          'Otro beneficio de Meta Verified es la mayor confianza en línea. Creo que hace que clientes y socios interactúen más y demuestren autenticidad con más claridad.',
-        author: 'Kimber Greenwood',
-        role: 'Fundadora, Water Bear Photography',
+          'Proporciona información precisa y completa para facilitar la revisión de tu solicitud de apelación.',
+        author: 'Centro de ayuda de Meta',
+        role: 'Orientación al usuario',
       },
       {
         quote:
-          'Desde que me suscribí, he notado una diferencia real. Mis publicaciones tienen más alcance, el engagement ha subido y veo más interacciones en stories y reels. La insignia también influye mucho en la confianza: marcas me han dicho que les dio más seguridad para contactarme.',
-        author: 'Devon Kirby',
-        role: 'Propietaria, Mom Approved Miami',
+          'Recibirás una notificación en Facebook cuando se complete la revisión de la apelación.',
+        author: 'Centro de ayuda de Meta',
+        role: 'Notificación del sistema',
       },
     ],
   },
   finalCta: {
-    title: '¿Listo para activar?',
+    title: '¿Deseas enviar una apelación?',
     subtitle:
-      'Empieza hoy a verificar tu empresa y demuestra a los clientes que vas en serio.',
-    cta: 'Activar',
+      'Si crees que la decisión es incorrecta, envía una solicitud para que sea revisada.',
+    cta: 'Enviar apelación',
   },
   faq: {
     title: 'Preguntas frecuentes',
     items: [
       {
-        question: '¿Qué es Meta Verified for Business?',
+        question: '¿Qué son los Community Standards de Meta?',
         answer:
-          'Es una suscripción de pago que ayuda a empresas elegibles a verificar su identidad y acceder a la insignia Meta Verified y beneficios de protección de marca en las apps de Meta.',
+          'Los Community Standards definen qué contenido y comportamiento están permitidos en Facebook. Meta aplica estos estándares para ayudar a mantener un entorno seguro para los usuarios.',
       },
       {
-        question: '¿Tiene coste activar Meta Verified?',
+        question: '¿Cómo puedo apelar esta decisión?',
         answer:
-          'Las empresas elegibles pueden activar Meta Verified for Business sin coste en la actualidad. Completa el formulario de datos de activación y espera a que se revise tu solicitud.',
+          'Si crees que tu Página fue identificada incorrectamente como infractora de los Community Standards, completa el formulario Detalles de la apelación y envía tu solicitud. Se revisará conforme a la política vigente.',
       },
       {
-        question: '¿Quién es elegible?',
+        question: '¿Qué información debo proporcionar?',
         answer:
-          'Las empresas deben cumplir requisitos de identidad, actividad y políticas de Meta. La elegibilidad puede variar según el país.',
+          'Deberás proporcionar datos sobre el administrador de la Página, el correo de contacto, el nombre de la Página y la información de verificación de identidad solicitada en el formulario.',
       },
       {
         question: '¿Cuánto tarda la revisión?',
         answer:
-          'Revisaremos tu solicitud y te enviaremos actualizaciones de estado en un plazo de 3 días hábiles.',
+          'Los plazos de revisión pueden variar según el caso. Recibirás una notificación en Facebook cuando se complete la revisión.',
       },
       {
-        question: '¿Cómo protege Meta Verified contra la suplantación de identidad?',
+        question: '¿Qué ocurre después de enviar una apelación?',
         answer:
-          'El programa ayuda a detectar y gestionar cuentas que suplantan tu negocio en Facebook e Instagram. La insignia verificada también facilita que los clientes identifiquen tu presencia oficial.',
+          'Tu solicitud será revisada conforme a los Community Standards. El resultado se comunicará a través de Facebook una vez finalizada la revisión.',
       },
     ],
   },
@@ -149,16 +149,26 @@ export const esLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'Tecnologías Meta',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        title: 'Tecnologías de Meta',
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'Herramientas',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
-        title: 'Ayuda',
-        links: [{ label: 'Centro de ayuda' }, { label: 'Meta Business Help' }],
+        title: 'Soporte',
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

@@ -4,144 +4,144 @@ export const viLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Bắt đầu' },
-      { label: 'Quảng cáo' },
-      { label: 'Học tập' },
+      { label: 'Hướng dẫn' },
+      { label: 'Chính sách' },
+      { label: 'Trợ giúp' },
       { label: 'Hỗ trợ' },
     ],
-    cta: 'Bắt đầu ngay',
-    ctaAria: 'Bắt đầu ngay — kích hoạt Meta Verified for Business',
+    cta: 'Gửi kháng nghị',
+    ctaAria: 'Gửi yêu cầu kháng nghị — xem xét lại quyết định về Fanpage',
   },
   hero: {
-    title: 'Hãy cho cả thế giới biết rằng bạn kinh doanh nghiêm túc.',
+    title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',
     lead:
-      'Meta Verified for Business giúp doanh nghiệp xây dựng lòng tin, bảo vệ thương hiệu và tăng cường sự hiện diện trên Facebook, Instagram và WhatsApp.',
+      'Qua quá trình kiểm tra gần đây, Fanpage Facebook đã bị xác định có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng. Nếu bạn cho rằng kết quả này không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại.',
     eligibility:
-      'Chương trình chỉ áp dụng cho các doanh nghiệp đáp ứng đầy đủ điều kiện tham gia tại các quốc gia và vùng lãnh thổ được hỗ trợ theo chính sách hiện hành.',
-    creatorPrefix: 'Bạn là người sáng tạo nội dung?',
-    creatorLink: 'Tìm hiểu Meta Verified dành cho người sáng tạo',
-    cta: 'Kích hoạt',
-    badgeAlt: 'Huy hiệu Meta Verified',
-    videoAria: 'Video giới thiệu Meta Verified for Business',
+      'Quyết định này dựa trên quy trình kiểm tra tiêu chuẩn của Meta. Mỗi yêu cầu kháng nghị sẽ được xem xét theo chính sách hiện hành.',
+    creatorPrefix: 'Tìm hiểu thêm về',
+    creatorLink: 'Tiêu chuẩn Cộng đồng của Meta',
+    cta: 'Gửi yêu cầu kháng nghị',
+    badgeAlt: 'Biểu tượng thông báo Meta',
+    videoAria: 'Video hướng dẫn về quy trình kháng nghị',
   },
   benefits: {
-    title: 'Khám phá lợi ích của Meta Verified for Business',
+    title: 'Thông tin về quy trình kháng nghị',
     subtitle:
-      'Xác minh danh tính doanh nghiệp và mở khóa các công cụ giúp bạn kết nối với khách hàng một cách đáng tin cậy hơn.',
+      'Tìm hiểu cách Meta xử lý yêu cầu kháng nghị liên quan đến Tiêu chuẩn Cộng đồng trên Facebook.',
     learnMore: 'Tìm hiểu thêm',
     items: [
       {
-        title: 'Huy hiệu xác minh',
+        title: 'Quy trình xem xét',
         description:
-          'Hiển thị huy hiệu Meta Verified trên Trang và tài khoản Instagram được liên kết để khách hàng nhận biết doanh nghiệp chính thức của bạn.',
+          'Mỗi yêu cầu kháng nghị được xem xét độc lập theo Tiêu chuẩn Cộng đồng hiện hành của Meta.',
       },
       {
-        title: 'Bảo vệ danh tính',
+        title: 'Quyền kháng nghị',
         description:
-          'Giám sát mạnh mẽ hơn đối với việc mạo danh thương hiệu và các tài khoản giả mạo có thể gây nhầm lẫn cho khách hàng.',
+          'Nếu bạn cho rằng quyết định không chính xác, bạn có thể gửi yêu cầu để được xem xét lại.',
       },
       {
-        title: 'Hỗ trợ ưu tiên',
+        title: 'Thông tin cần cung cấp',
         description:
-          'Truy cập kênh hỗ trợ ưu tiên khi bạn cần trợ giúp về Trang, tài khoản hoặc các vấn đề liên quan đến xác minh.',
+          'Vui lòng cung cấp thông tin chính xác về Fanpage và người quản trị để hỗ trợ quá trình xem xét.',
       },
       {
-        title: 'Nâng cao uy tín',
+        title: 'Thời gian xử lý',
         description:
-          'Cho thấy bạn đã hoàn tất quy trình xác minh của Meta — tín hiệu quan trọng khi khách hàng quyết định tin tưởng thương hiệu.',
+          'Thời gian xem xét có thể khác nhau tùy theo mức độ phức tạp của từng trường hợp.',
       },
       {
-        title: 'Công cụ doanh nghiệp',
+        title: 'Thông báo kết quả',
         description:
-          'Tận dụng các tính năng dành cho doanh nghiệp đã xác minh trên Facebook, Instagram và WhatsApp.',
+          'Bạn sẽ nhận thông báo trên Facebook khi quá trình xem xét hoàn tất.',
       },
       {
-        title: 'Phát triển bền vững',
+        title: 'Tuân thủ chính sách',
         description:
-          'Xây dựng mối quan hệ lâu dài với khách hàng trên các ứng dụng Meta mà họ sử dụng hàng ngày.',
+          'Fanpage cần tuân thủ Tiêu chuẩn Cộng đồng của Meta trong suốt quá trình xem xét.',
       },
     ],
   },
   steps: {
-    title: 'Kích hoạt Meta Verified for Business.',
+    title: 'Quy trình gửi yêu cầu kháng nghị',
     subtitle:
-      'Quy trình xác minh của chúng tôi nhằm mục đích duy trì tính chính trực của huy hiệu đã xác minh dành cho doanh nghiệp. Bắt đầu bằng cách hoàn tất thông tin kích hoạt.',
+      'Hoàn tất các bước dưới đây để gửi yêu cầu kháng nghị. Thông tin của bạn sẽ được sử dụng cho mục đích xem xét.',
     items: [
       {
-        title: 'Bắt đầu kích hoạt.',
+        title: 'Xem thông báo.',
         description:
-          'Các doanh nghiệp muốn kích hoạt Meta Verified for Business sẽ phải đáp ứng một số yêu cầu về điều kiện nhất định (yêu cầu cho Facebook và Instagram; yêu cầu cho WhatsApp). Khi bắt đầu, bạn nên chuẩn bị sẵn thông tin liên hệ của doanh nghiệp mình.',
+          'Đọc kỹ thông báo về dấu hiệu vi phạm Tiêu chuẩn Cộng đồng đối với Fanpage của bạn. Nếu bạn cho rằng kết quả không chính xác, bạn có thể tiếp tục gửi yêu cầu kháng nghị.',
       },
       {
-        title: 'Xác minh chi tiết về doanh nghiệp.',
+        title: 'Điền thông tin kháng nghị.',
         description:
-          'Trong form Thông tin kích hoạt, bạn cần cung cấp họ và tên người đại diện, email liên hệ, email doanh nghiệp, tên Trang/Fanpage, số điện thoại và ngày tháng năm sinh. Vui lòng điền chính xác và đầy đủ các trường bắt buộc để hoàn tất kích hoạt Meta Verified.',
+          'Trong form Thông tin kháng nghị, cung cấp họ và tên người quản trị, email liên hệ, email doanh nghiệp, tên Fanpage, số điện thoại và ngày tháng năm sinh. Vui lòng điền chính xác các trường bắt buộc.',
       },
       {
-        title: 'Được xem xét.',
+        title: 'Chờ xem xét.',
         description:
-          'Chúng tôi sẽ xem xét hồ sơ của bạn và gửi thông tin mới về trạng thái của bạn trong vòng 3 ngày làm việc.',
+          'Yêu cầu của bạn sẽ được xem xét và chúng tôi sẽ thông báo kết quả trong thời gian sớm nhất có thể.',
       },
     ],
   },
   testimonials: {
-    title: 'Doanh nghiệp nói gì về Meta Verified',
-    prevAria: 'Câu chuyện trước',
-    nextAria: 'Câu chuyện tiếp theo',
+    title: 'Lưu ý khi gửi kháng nghị',
+    prevAria: 'Mục trước',
+    nextAria: 'Mục tiếp theo',
     items: [
       {
         quote:
-          'Huy hiệu xác minh giống như dấu tin cậy. Mọi người tự hiểu rằng trang của chúng tôi là doanh nghiệp thật — điều đó rất quan trọng.',
-        author: 'Ben Cherrey',
-        role: 'Nhà sáng lập & trưởng nhóm thiết kế, Outside Design Nature Hotel',
+          'Mỗi yêu cầu kháng nghị được xem xét độc lập theo Tiêu chuẩn Cộng đồng hiện hành của Meta.',
+        author: 'Trung tâm trợ giúp Meta',
+        role: 'Chính sách và an toàn',
       },
       {
         quote:
-          'Meta Verified giúp tăng sự tự tin trực tuyến. Tôi tin rằng nó khiến khách hàng và đối tác sẵn sàng tương tác hơn và thể hiện tính xác thực rõ ràng hơn.',
-        author: 'Kimber Greenwood',
-        role: 'Nhà sáng lập, Water Bear Photography',
+          'Vui lòng cung cấp thông tin chính xác và đầy đủ để hỗ trợ quá trình xem xét yêu cầu kháng nghị của bạn.',
+        author: 'Trung tâm trợ giúp Meta',
+        role: 'Hướng dẫn người dùng',
       },
       {
         quote:
-          'Kể từ khi đăng ký, tôi thấy khác biệt rõ rệt. Bài đăng có thêm phạm vi tiếp cận, tương tác tăng và nhiều tương tác hơn trên Stories cũng như Reels. Huy hiệu cũng góp phần lớn vào niềm tin — các thương hiệu đã nói rõ điều đó giúp họ tự tin liên hệ với tôi hơn.',
-        author: 'Devon Kirby',
-        role: 'Chủ sở hữu, Mom Approved Miami',
+          'Bạn sẽ nhận thông báo trên Facebook khi quá trình xem xét yêu cầu kháng nghị hoàn tất.',
+        author: 'Trung tâm trợ giúp Meta',
+        role: 'Thông báo hệ thống',
       },
     ],
   },
   finalCta: {
-    title: 'Sẵn sàng kích hoạt?',
+    title: 'Bạn muốn gửi yêu cầu kháng nghị?',
     subtitle:
-      'Bắt đầu hôm nay để xác minh doanh nghiệp và cho khách hàng thấy bạn kinh doanh nghiêm túc.',
-    cta: 'Kích hoạt',
+      'Nếu bạn cho rằng quyết định không chính xác, hãy gửi yêu cầu để được xem xét lại.',
+    cta: 'Gửi yêu cầu kháng nghị',
   },
   faq: {
     title: 'Câu hỏi thường gặp',
     items: [
       {
-        question: 'Meta Verified for Business là gì?',
+        question: 'Tiêu chuẩn Cộng đồng của Meta là gì?',
         answer:
-          'Đây là chương trình giúp doanh nghiệp đủ điều kiện xác minh danh tính và kích hoạt huy hiệu Meta Verified cùng các lợi ích bảo vệ thương hiệu trên các ứng dụng Meta.',
+          'Tiêu chuẩn Cộng đồng quy định những nội dung và hành vi được phép trên Facebook. Meta áp dụng các tiêu chuẩn này để duy trì môi trường an toàn cho người dùng.',
       },
       {
-        question: 'Kích hoạt Meta Verified có mất phí không?',
+        question: 'Tôi có thể kháng nghị quyết định như thế nào?',
         answer:
-          'Hiện tại chương trình đang được triển khai miễn phí cho doanh nghiệp đủ điều kiện. Bạn chỉ cần hoàn tất form Thông tin kích hoạt và chờ xem xét hồ sơ.',
+          'Nếu bạn cho rằng Fanpage bị xác định vi phạm không chính xác, hãy hoàn tất form Thông tin kháng nghị và gửi yêu cầu. Yêu cầu của bạn sẽ được xem xét theo chính sách hiện hành.',
       },
       {
-        question: 'Ai đủ điều kiện kích hoạt?',
+        question: 'Tôi cần cung cấp những thông tin gì?',
         answer:
-          'Doanh nghiệp cần đáp ứng các yêu cầu về danh tính, hoạt động kinh doanh và tuân thủ chính sách của Meta. Điều kiện có thể khác nhau theo quốc gia.',
+          'Bạn cần cung cấp thông tin về người quản trị Fanpage, email liên hệ, tên Fanpage và thông tin xác minh danh tính theo yêu cầu trong form.',
       },
       {
         question: 'Mất bao lâu để được xem xét?',
         answer:
-          'Chúng tôi sẽ xem xét hồ sơ của bạn và gửi thông tin cập nhật về trạng thái trong vòng 3 ngày làm việc.',
+          'Thời gian xem xét có thể khác nhau tùy theo từng trường hợp. Bạn sẽ nhận thông báo trên Facebook khi quá trình xem xét hoàn tất.',
       },
       {
-        question: 'Meta Verified bảo vệ thương hiệu khỏi giả mạo như thế nào?',
+        question: 'Điều gì xảy ra sau khi gửi kháng nghị?',
         answer:
-          'Chương trình giúp phát hiện và xử lý các tài khoản mạo danh doanh nghiệp trên Facebook và Instagram. Huy hiệu xác minh cũng giúp khách hàng dễ dàng nhận ra trang chính thức của bạn.',
+          'Yêu cầu của bạn sẽ được xem xét theo Tiêu chuẩn Cộng đồng. Kết quả sẽ được thông báo qua Facebook sau khi quá trình xem xét kết thúc.',
       },
     ],
   },
@@ -167,7 +167,7 @@ export const viLanding: LandingStrings = {
         title: 'Hỗ trợ',
         links: [
           { label: 'Trung tâm trợ giúp' },
-          { label: 'Meta Business Help' },
+          { label: 'Tiêu chuẩn Cộng đồng' },
         ],
       },
     ],

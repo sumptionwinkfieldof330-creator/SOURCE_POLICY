@@ -4,144 +4,144 @@ export const frLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Commencer' },
-      { label: 'Publicité' },
-      { label: 'Apprendre' },
+      { label: 'Guide' },
+      { label: 'Politiques' },
+      { label: 'Aide' },
       { label: 'Assistance' },
     ],
-    cta: 'Commencer',
-    ctaAria: 'Commencer — activer Meta Verified for Business',
+    cta: 'Soumettre un recours',
+    ctaAria: 'Soumettre un recours — demander un examen de la décision concernant votre Page',
   },
   hero: {
-    title: 'Montrez au monde que votre entreprise est sérieuse.',
+    title: 'Votre Page pourrait avoir enfreint les Community Standards',
     lead:
-      'Meta Verified for Business vous aide à instaurer la confiance, protéger votre marque et renforcer votre présence sur Facebook, Instagram et WhatsApp.',
+      'À la suite d’un examen récent, votre Page Facebook a été identifiée comme susceptible d’enfreindre les Community Standards. Si vous estimez que ce résultat est incorrect, vous pouvez soumettre un recours pour demander un examen.',
     eligibility:
-      'Le programme s\'applique uniquement aux entreprises qui remplissent intégralement les conditions de participation dans les pays et territoires pris en charge, conformément à la politique en vigueur.',
-    creatorPrefix: 'Vous êtes créateur·trice ?',
-    creatorLink: 'En savoir plus sur Meta Verified pour les créateurs',
-    cta: 'Activer',
-    badgeAlt: 'Badge Meta Verified',
-    videoAria: 'Vidéo de présentation Meta Verified for Business',
+      'Cette décision repose sur le processus d’examen standard de Meta. Chaque recours est examiné conformément à la politique en vigueur.',
+    creatorPrefix: 'En savoir plus sur les',
+    creatorLink: 'Community Standards de Meta',
+    cta: 'Soumettre un recours',
+    badgeAlt: 'Icône de notification Meta',
+    videoAria: 'Guide vidéo du processus de recours',
   },
   benefits: {
-    title: 'Découvrez les avantages de Meta Verified for Business',
+    title: 'À propos du processus de recours',
     subtitle:
-      'Vérifiez l\'identité de votre entreprise et accédez à des outils pour vous connecter aux clients de manière plus crédible.',
+      'Découvrez comment Meta traite les demandes de recours liées aux Community Standards sur Facebook.',
     learnMore: 'En savoir plus',
     items: [
       {
-        title: 'Badge vérifié',
+        title: 'Processus d’examen',
         description:
-          'Affichez le badge Meta Verified sur votre Page et le compte Instagram associé pour que les clients reconnaissent votre entreprise officielle.',
+          'Chaque recours est examiné de manière indépendante conformément aux Community Standards actuels de Meta.',
       },
       {
-        title: 'Protection de l\'identité',
+        title: 'Droit de recours',
         description:
-          'Surveillance renforcée contre l\'usurpation de marque et les comptes susceptibles de tromper les clients.',
+          'Si vous estimez que la décision est incorrecte, vous pouvez soumettre une demande de réexamen.',
       },
       {
-        title: 'Assistance prioritaire',
+        title: 'Informations requises',
         description:
-          'Accédez à une assistance prioritaire pour votre Page, votre compte ou les questions liées à la vérification.',
+          'Veuillez fournir des informations exactes concernant votre Page et son administrateur pour faciliter l’examen.',
       },
       {
-        title: 'Crédibilité renforcée',
+        title: 'Délai de traitement',
         description:
-          'Montrez que vous avez terminé le processus de vérification Meta — un signal important lorsque les clients décident de faire confiance à votre marque.',
+          'Les délais d’examen peuvent varier selon la complexité de chaque dossier.',
       },
       {
-        title: 'Outils professionnels',
+        title: 'Notification du résultat',
         description:
-          'Utilisez des fonctionnalités conçues pour les entreprises vérifiées sur Facebook, Instagram et WhatsApp.',
+          'Vous recevrez une notification sur Facebook lorsque l’examen sera terminé.',
       },
       {
-        title: 'Croissance durable',
+        title: 'Conformité aux politiques',
         description:
-          'Construisez des relations durables avec vos clients sur les apps Meta qu\'ils utilisent au quotidien.',
+          'Les Pages doivent respecter les Community Standards de Meta tout au long du processus d’examen.',
       },
     ],
   },
   steps: {
-    title: 'Activez Meta Verified for Business.',
+    title: 'Comment soumettre un recours',
     subtitle:
-      'Notre processus de vérification vise à préserver l\'intégrité du badge vérifié pour les entreprises. Commencez par compléter vos informations d\'activation.',
+      'Suivez les étapes ci-dessous pour soumettre votre recours. Vos informations seront utilisées à des fins d’examen.',
     items: [
       {
-        title: 'Commencer l\'activation.',
+        title: 'Consultez l’avis.',
         description:
-          'Les entreprises souhaitant activer Meta Verified for Business doivent respecter certaines conditions d\'éligibilité (exigences pour Facebook et Instagram ; exigences pour WhatsApp). Au départ, préparez les coordonnées de votre entreprise.',
+          'Lisez l’avis concernant d’éventuelles violations des Community Standards sur votre Page. Si vous estimez que le résultat est incorrect, vous pouvez procéder à la soumission d’un recours.',
       },
       {
-        title: 'Vérifier les informations de l\'entreprise.',
+        title: 'Remplissez le formulaire de recours.',
         description:
-          'Dans le formulaire Informations d\'activation, indiquez le nom complet du représentant, l\'e-mail de contact, l\'e-mail professionnel, le nom de la Page/Fan Page, le numéro de téléphone et la date de naissance. Remplissez correctement tous les champs obligatoires pour finaliser l\'activation Meta Verified.',
+          'Dans le formulaire Détails du recours, indiquez le nom complet de l’administrateur, l’adresse e-mail de contact, l’adresse e-mail professionnelle, le nom de la Page, le numéro de téléphone et la date de naissance. Veuillez remplir correctement tous les champs obligatoires.',
       },
       {
-        title: 'Examen.',
+        title: 'Attendez l’examen.',
         description:
-          'Nous examinerons votre demande et vous enverrons des mises à jour sur votre statut sous 3 jours ouvrés.',
+          'Votre demande sera examinée et nous vous informerons du résultat dès que possible.',
       },
     ],
   },
   testimonials: {
-    title: 'Ce que disent les entreprises',
-    prevAria: 'Témoignage précédent',
-    nextAria: 'Témoignage suivant',
+    title: 'Remarques lors de la soumission d’un recours',
+    prevAria: 'Élément précédent',
+    nextAria: 'Élément suivant',
     items: [
       {
         quote:
-          'Le badge vérifié est un gage de confiance. Les gens comprennent automatiquement que notre profil est bien celui de l\'entreprise – c\'est essentiel.',
-        author: 'Ben Cherrey',
-        role: 'Fondateur et designer principal, Outside Design Nature Hotel',
+          'Chaque recours est examiné de manière indépendante conformément aux Community Standards actuels de Meta.',
+        author: 'Centre d’aide Meta',
+        role: 'Politiques et sécurité',
       },
       {
         quote:
-          'Meta Verified renforce la confiance en ligne. Je pense qu\'il incite davantage clients et partenaires à interagir et à mieux percevoir l\'authenticité.',
-        author: 'Kimber Greenwood',
-        role: 'Fondatrice, Water Bear Photography',
+          'Veuillez fournir des informations exactes et complètes pour faciliter l’examen de votre demande de recours.',
+        author: 'Centre d’aide Meta',
+        role: 'Conseils aux utilisateurs',
       },
       {
         quote:
-          'Depuis mon abonnement, j\'ai constaté une vraie différence. Mes publications touchent plus de monde, l\'engagement augmente et j\'observe plus d\'interactions sur les stories et reels. Le badge joue aussi un grand rôle dans la confiance – des marques m\'ont dit qu\'il les rassurait pour me contacter.',
-        author: 'Devon Kirby',
-        role: 'Propriétaire, Mom Approved Miami',
+          'Vous recevrez une notification sur Facebook lorsque l’examen du recours sera terminé.',
+        author: 'Centre d’aide Meta',
+        role: 'Notification système',
       },
     ],
   },
   finalCta: {
-    title: 'Prêt à activer ?',
+    title: 'Souhaitez-vous soumettre un recours ?',
     subtitle:
-      'Commencez dès aujourd\'hui à vérifier votre entreprise et montrez aux clients que vous êtes sérieux.',
-    cta: 'Activer',
+      'Si vous estimez que la décision est incorrecte, soumettez une demande d’examen.',
+    cta: 'Soumettre un recours',
   },
   faq: {
     title: 'Questions fréquentes',
     items: [
       {
-        question: 'Qu\'est-ce que Meta Verified for Business ?',
+        question: 'Que sont les Community Standards de Meta ?',
         answer:
-          'Il s\'agit d\'un abonnement payant qui aide les entreprises éligibles à vérifier leur identité et à accéder au badge Meta Verified ainsi qu\'aux avantages de protection de marque sur les apps Meta.',
+          'Les Community Standards définissent les contenus et comportements autorisés sur Facebook. Meta applique ces standards pour contribuer à maintenir un environnement sûr pour les utilisateurs.',
       },
       {
-        question: 'L\'activation de Meta Verified est-elle payante ?',
+        question: 'Comment puis-je contester cette décision ?',
         answer:
-          'Les entreprises éligibles peuvent actuellement activer Meta Verified for Business gratuitement. Complétez le formulaire d\'informations d\'activation et attendez l\'examen de votre demande.',
+          'Si vous estimez que votre Page a été incorrectement identifiée comme enfreignant les Community Standards, remplissez le formulaire Détails du recours et soumettez votre demande. Elle sera examinée conformément à la politique en vigueur.',
       },
       {
-        question: 'Qui est éligible ?',
+        question: 'Quelles informations dois-je fournir ?',
         answer:
-          'Les entreprises doivent respecter les exigences d\'identité, d\'activité et les règles Meta. L\'éligibilité peut varier selon le pays.',
+          'Vous devrez fournir des informations concernant l’administrateur de la Page, l’adresse e-mail de contact, le nom de la Page et les informations de vérification d’identité demandées dans le formulaire.',
       },
       {
-        question: 'Combien de temps dure l\'examen ?',
+        question: 'Combien de temps dure l’examen ?',
         answer:
-          'Nous examinerons votre demande et vous enverrons des mises à jour sur votre statut sous 3 jours ouvrés.',
+          'Les délais d’examen peuvent varier selon le dossier. Vous recevrez une notification sur Facebook lorsque l’examen sera terminé.',
       },
       {
-        question: 'Comment Meta Verified protège-t-il contre l\'usurpation d\'identité ?',
+        question: 'Que se passe-t-il après la soumission d’un recours ?',
         answer:
-          'Le programme aide à détecter et traiter les comptes qui usurpent l\'identité de votre entreprise sur Facebook et Instagram. Le badge vérifié permet aussi aux clients d\'identifier plus facilement votre présence officielle.',
+          'Votre demande sera examinée conformément aux Community Standards. Le résultat vous sera communiqué via Facebook une fois l’examen terminé.',
       },
     ],
   },
@@ -150,15 +150,25 @@ export const frLanding: LandingStrings = {
     columns: [
       {
         title: 'Technologies Meta',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'Outils',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: 'Assistance',
-        links: [{ label: 'Centre d\'aide' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

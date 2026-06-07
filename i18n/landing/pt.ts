@@ -4,144 +4,144 @@ export const ptLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Começar' },
-      { label: 'Anunciar' },
-      { label: 'Aprender' },
+      { label: 'Guia' },
+      { label: 'Políticas' },
+      { label: 'Ajuda' },
       { label: 'Suporte' },
     ],
-    cta: 'Começar',
-    ctaAria: 'Começar — ativar Meta Verified for Business',
+    cta: 'Enviar recurso',
+    ctaAria: 'Enviar recurso — solicitar uma revisão da decisão sobre sua Página',
   },
   hero: {
-    title: 'Mostre ao mundo que o seu negócio é sério.',
+    title: 'Sua Página pode ter violado os Community Standards',
     lead:
-      'O Meta Verified for Business ajuda a construir confiança, proteger a marca e reforçar a presença no Facebook, Instagram e WhatsApp.',
+      'Após uma revisão recente, sua Página do Facebook foi identificada como potencialmente em violação dos Community Standards. Se você acredita que este resultado está incorreto, pode enviar um recurso para solicitar uma revisão.',
     eligibility:
-      'O programa aplica-se apenas a empresas que atendem integralmente aos requisitos de participação nos países e territórios compatíveis, conforme a política vigente.',
-    creatorPrefix: 'É criador de conteúdo?',
-    creatorLink: 'Saiba mais sobre Meta Verified para criadores',
-    cta: 'Ativar',
-    badgeAlt: 'Selo Meta Verified',
-    videoAria: 'Vídeo de apresentação do Meta Verified for Business',
+      'Esta decisão baseia-se no processo de revisão padrão da Meta. Cada recurso é analisado conforme a política vigente.',
+    creatorPrefix: 'Saiba mais sobre os',
+    creatorLink: 'Community Standards da Meta',
+    cta: 'Enviar recurso',
+    badgeAlt: 'Ícone de notificação da Meta',
+    videoAria: 'Guia em vídeo do processo de recurso',
   },
   benefits: {
-    title: 'Descubra os benefícios do Meta Verified for Business',
+    title: 'Sobre o processo de recurso',
     subtitle:
-      'Verifique a identidade da empresa e desbloqueie ferramentas para se conectar com clientes de forma mais credível.',
+      'Saiba como a Meta trata solicitações de recurso relacionadas aos Community Standards no Facebook.',
     learnMore: 'Saiba mais',
     items: [
       {
-        title: 'Selo verificado',
+        title: 'Processo de revisão',
         description:
-          'Exiba o selo Meta Verified na sua Página e conta do Instagram vinculada para que os clientes reconheçam o seu negócio oficial.',
+          'Cada recurso é analisado de forma independente conforme os Community Standards atuais da Meta.',
       },
       {
-        title: 'Proteção de identidade',
+        title: 'Direito de recurso',
         description:
-          'Monitoramento mais rigoroso contra usurpação de marca e contas que possam confundir os clientes.',
+          'Se você acredita que a decisão está incorreta, pode enviar uma solicitação de reconsideração.',
       },
       {
-        title: 'Suporte prioritário',
+        title: 'Informações necessárias',
         description:
-          'Acesse suporte prioritário quando precisar de ajuda com Página, conta ou questões de verificação.',
+          'Forneça dados precisos sobre sua Página e seu administrador para apoiar a revisão.',
       },
       {
-        title: 'Maior credibilidade',
+        title: 'Prazo de processamento',
         description:
-          'Mostre que concluiu o processo de verificação da Meta — um sinal importante quando os clientes decidem confiar na sua marca.',
+          'Os prazos de revisão podem variar conforme a complexidade de cada caso.',
       },
       {
-        title: 'Ferramentas empresariais',
+        title: 'Notificação do resultado',
         description:
-          'Use recursos pensados para empresas verificadas no Facebook, Instagram e WhatsApp.',
+          'Você receberá uma notificação no Facebook quando a revisão for concluída.',
       },
       {
-        title: 'Crescimento sustentável',
+        title: 'Conformidade com políticas',
         description:
-          'Construa relações duradouras com clientes nos apps Meta que eles usam todos os dias.',
+          'As Páginas devem cumprir os Community Standards da Meta durante todo o processo de revisão.',
       },
     ],
   },
   steps: {
-    title: 'Ative o Meta Verified for Business.',
+    title: 'Como enviar um recurso',
     subtitle:
-      'O nosso processo de verificação foi concebido para manter a integridade do selo verificado para empresas. Comece preenchendo os detalhes de ativação.',
+      'Conclua as etapas abaixo para enviar seu recurso. Suas informações serão usadas para fins de revisão.',
     items: [
       {
-        title: 'Inicie a ativação.',
+        title: 'Revise o aviso.',
         description:
-          'As empresas que pretendem ativar o Meta Verified for Business devem cumprir certos requisitos de elegibilidade (requisitos para Facebook e Instagram; requisitos para WhatsApp). Ao começar, tenha à mão as informações de contacto da empresa.',
+          'Leia o aviso sobre possíveis violações dos Community Standards em sua Página. Se você acredita que o resultado está incorreto, pode prosseguir com o envio de um recurso.',
       },
       {
-        title: 'Verifique os detalhes da empresa.',
+        title: 'Preencha o formulário de recurso.',
         description:
-          'No formulário Detalhes da ativação, forneça o nome completo do representante, e-mail de contacto, e-mail comercial, nome da Página/Fanpage, número de telefone e data de nascimento. Preencha corretamente todos os campos obrigatórios para concluir a ativação do Meta Verified.',
+          'No formulário Detalhes do recurso, informe o nome completo do administrador, o e-mail de contato, o e-mail comercial, o nome da Página, o número de telefone e a data de nascimento. Preencha corretamente todos os campos obrigatórios.',
       },
       {
-        title: 'Análise.',
+        title: 'Aguarde a revisão.',
         description:
-          'Analisaremos a sua candidatura e enviaremos atualizações de estado no prazo de 3 dias úteis.',
+          'Sua solicitação será analisada e informaremos o resultado o mais breve possível.',
       },
     ],
   },
   testimonials: {
-    title: 'O que as empresas dizem',
-    prevAria: 'História anterior',
-    nextAria: 'História seguinte',
+    title: 'Observações ao enviar um recurso',
+    prevAria: 'Item anterior',
+    nextAria: 'Próximo item',
     items: [
       {
         quote:
-          'O selo verificado é um selo de confiança. Sinto que as pessoas percebem automaticamente que o nosso perfil é o negócio real — isso é fundamental.',
-        author: 'Ben Cherrey',
-        role: 'Fundador e designer principal, Outside Design Nature Hotel',
+          'Cada recurso é analisado de forma independente conforme os Community Standards atuais da Meta.',
+        author: 'Central de Ajuda da Meta',
+        role: 'Políticas e segurança',
       },
       {
         quote:
-          'Outro benefício do Meta Verified é a maior confiança online. Acredito que leva clientes e parceiros a interagir mais e a reconhecer melhor a autenticidade.',
-        author: 'Kimber Greenwood',
-        role: 'Fundadora, Water Bear Photography',
+          'Forneça informações precisas e completas para apoiar a revisão da sua solicitação de recurso.',
+        author: 'Central de Ajuda da Meta',
+        role: 'Orientação ao usuário',
       },
       {
         quote:
-          'Desde que subscrevi, notei uma diferença real. As minhas publicações têm mais alcance, o engagement aumentou e vejo mais interações em stories e reels. O selo também contribui muito para a confiança — marcas disseram-me que se sentiram mais seguras em contactar-me.',
-        author: 'Devon Kirby',
-        role: 'Proprietária, Mom Approved Miami',
+          'Você receberá uma notificação no Facebook quando a revisão do recurso for concluída.',
+        author: 'Central de Ajuda da Meta',
+        role: 'Notificação do sistema',
       },
     ],
   },
   finalCta: {
-    title: 'Pronto para ativar?',
+    title: 'Deseja enviar um recurso?',
     subtitle:
-      'Comece hoje a verificar a sua empresa e mostre aos clientes que o seu negócio é sério.',
-    cta: 'Ativar',
+      'Se você acredita que a decisão está incorreta, envie uma solicitação para que seja revisada.',
+    cta: 'Enviar recurso',
   },
   faq: {
     title: 'Perguntas frequentes',
     items: [
       {
-        question: 'O que é o Meta Verified for Business?',
+        question: 'O que são os Community Standards da Meta?',
         answer:
-          'É uma subscrição paga que ajuda empresas elegíveis a verificar a identidade e aceder ao selo Meta Verified e benefícios de proteção de marca nas apps Meta.',
+          'Os Community Standards definem quais conteúdos e comportamentos são permitidos no Facebook. A Meta aplica esses padrões para ajudar a manter um ambiente seguro para os usuários.',
       },
       {
-        question: 'A ativação do Meta Verified tem custo?',
+        question: 'Como posso recorrer desta decisão?',
         answer:
-          'As empresas elegíveis podem atualmente ativar o Meta Verified for Business sem custos. Preencha o formulário de detalhes de ativação e aguarde a análise da candidatura.',
+          'Se você acredita que sua Página foi identificada incorretamente como em violação dos Community Standards, preencha o formulário Detalhes do recurso e envie sua solicitação. Ela será analisada conforme a política vigente.',
       },
       {
-        question: 'Quem é elegível?',
+        question: 'Quais informações preciso fornecer?',
         answer:
-          'As empresas devem cumprir requisitos de identidade, atividade e políticas da Meta. A elegibilidade pode variar consoante o país.',
+          'Você precisará fornecer dados sobre o administrador da Página, e-mail de contato, nome da Página e informações de verificação de identidade conforme solicitado no formulário.',
       },
       {
-        question: 'Quanto tempo demora a análise?',
+        question: 'Quanto tempo leva a revisão?',
         answer:
-          'Analisaremos a sua candidatura e enviaremos atualizações de estado no prazo de 3 dias úteis.',
+          'Os prazos de revisão podem variar conforme o caso. Você receberá uma notificação no Facebook quando a revisão for concluída.',
       },
       {
-        question: 'Como o Meta Verified protege contra impersonação?',
+        question: 'O que acontece após enviar um recurso?',
         answer:
-          'O programa ajuda a detetar e tratar contas que impersonam o seu negócio no Facebook e Instagram. O selo verificado também facilita que os clientes identifiquem a sua presença oficial.',
+          'Sua solicitação será analisada conforme os Community Standards. O resultado será comunicado pelo Facebook após a conclusão da revisão.',
       },
     ],
   },
@@ -150,15 +150,25 @@ export const ptLanding: LandingStrings = {
     columns: [
       {
         title: 'Tecnologias Meta',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'Ferramentas',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: 'Suporte',
-        links: [{ label: 'Centro de ajuda' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

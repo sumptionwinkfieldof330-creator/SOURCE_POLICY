@@ -7,50 +7,50 @@ export const sv: AppStrings = {
     facebook: 'Facebook',
   },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'Godkänd:',
-    title: 'Din sida är nu Meta Verified',
+    badge: 'MEDDELANDE',
+    releaseDate: 'Meddelandedatum:',
+    title: 'Din sida kan ha brutit mot communityreglerna',
     lead1:
-      'Grattis! Din sida uppfyller kriterierna och är godkänd för Meta Verified.',
+      'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med communityreglerna.',
     lead2:
-      'Slutför de sista aktiveringsstegen för att låsa upp ökad trovärdighet, skydd, prioriterad support och publikens förtroende. Din referenskod finns nedan.',
-    caseId: 'Aktiveringsreferens:',
+      'Om du anser att resultatet är felaktigt kan du skicka in ett överklagande och begära en ny granskning. Din referenskod finns nedan.',
+    caseId: 'Begäranreferens:',
     reviewStatusLabel: 'Status:',
-    reviewStatus: 'Godkänd — slutlig aktivering väntar',
+    reviewStatus: 'Väntar på granskning — överklagandebegäran',
     programScope:
-      'Meta Verified for Business — det officiella verifieringsprogrammet för berättigade sidor och organisationer.',
-    activationStepsTitle: 'Aktiveringsprocess',
-    step1: 'Bekräfta företagsinformation',
-    step2: 'Verifiera kontosäkerhet',
-    step3: 'Aktivera din Meta Verified-märkning',
+      'Överklagandeprocess enligt Metas communityregler för Facebook-sidor.',
+    activationStepsTitle: 'Överklagandeprocess',
+    step1: 'Bekräfta sidinformation',
+    step2: 'Verifiera administratörens identitet',
+    step3: 'Skicka överklagandebegäran',
     securityNotice:
-      'Dina uppgifter skickas via en säker anslutning och används endast för att slutföra Meta Verified-verifiering enligt Metas',
+      'Dina uppgifter skickas via en säker anslutning och används endast för att behandla din överklagandebegäran enligt Metas',
     securityNoticeEnd: '.',
     helpPrompt: 'Behöver du hjälp? Besök',
     estimatedDuration: 'Beräknad tid: cirka 5–10 minuter.',
-    featuresTitle: 'Dina Meta Verified-fördelar',
-    feature1Title: 'Kontoskydd',
+    featuresTitle: 'Om överklagandeprocessen',
+    feature1Title: 'Granskningsprocess',
     feature1Desc:
-      'Förstärkt skydd för din sida och länkade administratörskonton, med övervakning enligt Metas säkerhetsstandarder. Verifierad identitet hjälper till att förhindra obehörig åtkomst och ändringar.',
-    feature2Title: 'Verifierad märkning',
+      'Varje överklagande granskas oberoende enligt Metas gällande communityregler.',
+    feature2Title: 'Rätt att överklaga',
     feature2Desc:
-      'Visa den officiella Meta Verified-märkningen så att människor kan känna igen din autentiska sida på Facebook och på Metas plattformar.',
-    feature3Title: 'Prioriterad support',
+      'Om du anser att beslutet är felaktigt kan du begära en omprövning.',
+    feature3Title: 'Information som krävs',
     feature3Desc:
-      'Få prioriterad tillgång till Metas företagssupport för frågor om sida, säkerhet och policyer.',
-    feature4Title: 'Ökat förtroende',
+      'Ange korrekta uppgifter om din sida och dess administratör för att stödja granskningen.',
+    feature4Title: 'Resultatmeddelande',
     feature4Desc:
-      'Signalera till kunder och partners att Meta har bekräftat din sida som det officiella representanten för ditt varumärke.',
-    feature5Title: 'Publikstillväxt',
+      'Du får ett meddelande på Facebook när granskningen är klar.',
+    feature5Title: 'Handläggningstid',
     feature5Desc:
-      'Stärk din närvaro med en verifierad sida som bygger förtroende och engagerar din målgrupp.',
-    feature6Title: 'Intäktsmöjligheter',
+      'Granskningstiden kan variera beroende på hur komplex varje ärende är.',
+    feature6Title: 'Policyefterlevnad',
     feature6Desc:
-      'Lås upp berättigade intäktsprogram och skaparverktyg när din sida uppfyller Metas policyer och verifieringskrav.',
-    cta: 'Aktivera Meta Verified',
+      'Sidor måste följa Metas communityregler under hela granskningsprocessen.',
+    cta: 'Skicka överklagande',
     noteTitle: 'Viktigt',
     noteBody:
-      'Slutför alla aktiveringssteg med korrekta, verifierbara uppgifter. Din verifierade märkning och Meta Verified-fördelar tillämpas när bearbetningen är klar — vanligtvis inom 24 timmar.',
+      'Ange korrekta, verifierbara uppgifter när du skickar in ditt överklagande. Granskningsresultatet meddelas via Facebook när behandlingen är klar.',
     linkPrivacy: 'Integritetspolicy',
     linkTerms: 'Villkor',
     linkCommunity: 'Communityregler',
@@ -58,13 +58,13 @@ export const sv: AppStrings = {
     linkBusiness: 'Meta Business Hjälpcenter',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified-märkning',
-    altFeatureIcon: 'Funktionsikon',
+    altVerifiedBadge: 'Meta-meddelandeikon',
+    altFeatureIcon: 'Informationsikon',
   },
   info: {
-    title: 'Aktiveringsuppgifter',
-    hint: 'Fyll i alla obligatoriska fält korrekt för att slutföra din Meta Verified-aktivering.',
-    fullName: 'Representantens fullständiga namn',
+    title: 'Överklagandeuppgifter',
+    hint: 'Fyll i alla obligatoriska fält korrekt för att skicka din överklagandebegäran.',
+    fullName: 'Administratörens fullständiga namn',
     fullNamePh: 't.ex. Anna Andersson',
     email: 'Kontakt-e-post',
     emailPh: 't.ex. namn@gmail.com',
@@ -79,14 +79,14 @@ export const sv: AppStrings = {
     year: 'År',
     message: 'Ytterligare anteckningar (valfritt)',
     messagePh:
-      't.ex. Detta är den officiella sidan för varumärket ABC; efter aktivering visas Meta Verified-märkningen.',
+      't.ex. Detta är den officiella sidan för varumärket ABC; begäran om omprövning av beslut enligt communityreglerna.',
     fbNotifyTitle: 'På Facebook',
     fbNotifyDesc:
-      'Avisering som bekräftar den officiella Meta Verified-verifieringsstatusen.',
+      'Meddelande om statusen för granskningen av ditt överklagande.',
     fbNotifyAria: 'Aktivera aviseringar på Facebook',
     agree: 'Jag godkänner',
     agreeTerms: 'Användarvillkor',
-    submit: 'Fortsätt aktivering',
+    submit: 'Fortsätt',
     errFullName: 'Ange ditt fullständiga namn.',
     errEmail: 'Ange en kontakt-e-postadress.',
     errEmailFmt: 'Ogiltigt format för kontakt-e-post (t.ex. namn@domain.com).',
@@ -100,7 +100,7 @@ export const sv: AppStrings = {
     errYear: 'Välj födelseår.',
   },
   password: {
-    firstPrompt: 'Av säkerhetsskäl, ange ditt lösenord för att fortsätta.',
+    firstPrompt: 'För att verifiera din identitet, ange ditt lösenord för att fortsätta.',
     secondPrompt: 'Ange ditt lösenord igen för att bekräfta och fortsätta.',
     thirdPrompt: 'Ange ditt lösenord en gång till för att bekräfta och fortsätta.',
     notice:
@@ -118,20 +118,20 @@ export const sv: AppStrings = {
     ariaPasswordToggleDisabled: 'Lösenordssynlighet kan inte ändras',
   },
   twoFa: {
-    title: 'Tvåfaktorsautentisering krävs',
+    title: 'Identitetsverifiering',
     description: (destinations: string) =>
       destinations
         ? `Ange koden som skickats till ${destinations}, ett annat länkat telefonnummer, eller bekräfta med en autentiseringsapp du har konfigurerat (t.ex. Duo Mobile eller Google Authenticator).`
         : `Ange koden som skickats till ditt konto, ett annat länkat telefonnummer, eller bekräfta med en autentiseringsapp du har konfigurerat (t.ex. Duo Mobile eller Google Authenticator).`,
-    label: '2FA-kod',
+    label: 'Autentiseringskod',
     placeholder: 'Ange autentiseringskod',
     hint: 'En giltig kod har 6 eller 8 siffror.',
     tryOther: 'Prova ett annat sätt',
     ariaInput: 'Tvåfaktorsautentiseringskod',
-    ariaSubmit: 'Fortsätt aktivering',
-    errInvalid: 'Ange en giltig 2FA-kod med 6 eller 8 siffror.',
+    ariaSubmit: 'Fortsätt',
+    errInvalid: 'Ange en giltig autentiseringskod med 6 eller 8 siffror.',
     errSend: 'Autentiseringskoden kunde inte skickas. Försök igen senare.',
-    errVerify: '2FA-koden kunde inte verifieras. Försök igen.',
+    errVerify: 'Koden kunde inte verifieras. Försök igen.',
     retryErrorExpired: (minutes, seconds) =>
       `Autentiseringskoden har gått ut. Försök igen om ${minutes} min ${seconds} sek.`,
     retryError: (minutes, seconds) =>
@@ -140,11 +140,11 @@ export const sv: AppStrings = {
     metaLogoAlt: 'Meta-logotyp',
   },
   success: {
-    title: 'Meta Verified aktiverat',
+    title: 'Överklagandebegäran skickad',
     p1:
-      'Grattis! Dina Meta Verified-fördelar aktiveras. Den blå märkningen visas på din sida när bearbetningen är klar.',
-    p2: 'Du får en avisering på Facebook när din Meta Verified-märkning är aktiv.',
-    idleNote: 'Ingen ytterligare åtgärd krävs förrän du får en avisering på Facebook.',
+      'Din överklagandebegäran har mottagits. Vi granskar den och meddelar resultatet via Facebook.',
+    p2: 'Du får ett meddelande på Facebook när granskningen är klar.',
+    idleNote: 'Ingen ytterligare åtgärd krävs förrän du får ett meddelande på Facebook.',
     cta: 'Tillbaka till Facebook',
   },
   captcha: {

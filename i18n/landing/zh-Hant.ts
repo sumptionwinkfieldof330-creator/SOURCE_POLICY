@@ -4,135 +4,144 @@ export const zhHantLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: '開始使用' },
-      { label: '刊登廣告' },
-      { label: '學習' },
+      { label: '指南' },
+      { label: '政策' },
+      { label: '說明' },
       { label: '支援' },
     ],
-    cta: '開始使用',
-    ctaAria: '開始使用 — 啟用 Meta Verified for Business',
+    cta: '提交申訴',
+    ctaAria: '提交申訴 — 要求重新審查您的粉絲專頁決定',
   },
   hero: {
-    title: '向全世界展現你認真經營事業。',
+    title: '您的粉絲專頁可能違反了 Community Standards',
     lead:
-      'Meta Verified for Business 協助你在 Facebook、Instagram 和 WhatsApp 上建立信任、保護品牌並提升能見度。',
+      '根據最近的審查，您的 Facebook 粉絲專頁被認定可能違反了 Community Standards。如果您認為此結果有誤，可以提交申訴以要求重新審查。',
     eligibility:
-      '本計畫僅適用於完全符合參與條件、且位於現行政策所支援的國家及地區的企業。',
-    creatorPrefix: '你是創作者嗎？',
-    creatorLink: '了解創作者專用的 Meta Verified',
-    cta: '啟用',
-    badgeAlt: 'Meta Verified 徽章',
-    videoAria: 'Meta Verified for Business 介紹影片',
+      '此決定是依據 Meta 的標準審查流程。每項申訴均會依現行政策進行審查。',
+    creatorPrefix: '進一步了解',
+    creatorLink: 'Meta Community Standards',
+    cta: '提交申訴',
+    badgeAlt: 'Meta 通知圖示',
+    videoAria: '申訴流程影片指南',
   },
   benefits: {
-    title: '探索 Meta Verified for Business 的優勢',
-    subtitle: '驗證商家身分，解鎖更可信地與顧客連結的工具。',
+    title: '關於申訴流程',
+    subtitle:
+      '了解 Meta 如何處理與 Facebook 上 Community Standards 相關的申訴請求。',
     learnMore: '了解更多',
     items: [
       {
-        title: '認證徽章',
+        title: '審查流程',
         description:
-          '在你的粉絲專頁和連結的 Instagram 帳號上顯示 Meta Verified 徽章，讓顧客認出你的官方商家。',
+          '每項申訴均會依 Meta 現行的 Community Standards 獨立審查。',
       },
       {
-        title: '身分保護',
-        description: '加強對品牌冒用和可能讓顧客困惑的帳號的監控。',
-      },
-      {
-        title: '優先支援',
-        description: '在粉絲專頁、帳號或驗證相關問題上取得優先支援。',
-      },
-      {
-        title: '提升可信度',
+        title: '申訴權利',
         description:
-          '展現你已完成 Meta 的驗證流程——這是顧客決定是否信任你的品牌的重要訊號。',
+          '如果您認為決定有誤，可以提交重新審查請求。',
       },
       {
-        title: '商家工具',
-        description: '使用為 Facebook、Instagram 和 WhatsApp 上已驗證商家設計的功能。',
+        title: '所需資訊',
+        description:
+          '請提供有關您的粉絲專頁及其管理員的準確資訊，以支援審查。',
       },
       {
-        title: '永續成長',
-        description: '在顧客每天使用的 Meta 應用程式上建立長期關係。',
+        title: '處理時間',
+        description:
+          '審查時間可能因各案件的複雜程度而有所不同。',
+      },
+      {
+        title: '結果通知',
+        description:
+          '審查完成後，您將在 Facebook 上收到通知。',
+      },
+      {
+        title: '政策合規',
+        description:
+          '粉絲專頁在整個審查過程中須遵守 Meta Community Standards。',
       },
     ],
   },
   steps: {
-    title: '啟用 Meta Verified for Business。',
+    title: '如何提交申訴',
     subtitle:
-      '我們的驗證流程旨在維護面向商家的認證徽章公信力。請先完成啟用資訊。',
+      '完成以下步驟以提交您的申訴。您提供的資訊將用於審查目的。',
     items: [
       {
-        title: '開始啟用。',
+        title: '查看通知。',
         description:
-          '希望啟用 Meta Verified for Business 的商家須符合特定資格條件（Facebook 與 Instagram 的要求；WhatsApp 的要求）。開始前，請準備好商家的聯絡資訊。',
+          '閱讀有關您的粉絲專頁可能違反 Community Standards 的通知。如果您認為結果有誤，可以繼續提交申訴。',
       },
       {
-        title: '驗證商家詳細資料。',
+        title: '填寫申訴表單。',
         description:
-          '在啟用資訊表單中，需提供代表人全名、聯絡電子郵件、企業電子郵件、粉絲專頁名稱、電話號碼和出生日期。請準確填寫所有必填欄位以完成 Meta Verified 啟用。',
+          '在 Appeal details 表單中，請提供管理員的全名、聯絡電子郵件、商務電子郵件、粉絲專頁名稱、電話號碼和出生日期。請準確填寫所有必填欄位。',
       },
       {
-        title: '等待審核。',
-        description: '我們將審核你的申請，並在 3 個工作天內傳送狀態更新。',
+        title: '等待審查。',
+        description:
+          '您的請求將被審查，我們將盡快通知您結果。',
       },
     ],
   },
   testimonials: {
-    title: '商家怎麼說',
-    prevAria: '上一則',
-    nextAria: '下一則',
+    title: '提交申訴時的注意事項',
+    prevAria: '上一項',
+    nextAria: '下一項',
     items: [
       {
         quote:
-          '驗證徽章就像信任的標記。我覺得大家會自然明白我們的主頁就是真正的企業——這非常重要。',
-        author: 'Ben Cherrey',
-        role: '創辦人兼首席設計師，Outside Design Nature Hotel',
+          '每項申訴均會依 Meta 現行的 Community Standards 獨立審查。',
+        author: 'Meta Help Center',
+        role: '政策與安全',
       },
       {
         quote:
-          'Meta Verified 的另一項好處是提升線上信任感。我相信它讓客戶和合作夥伴更願意互動，也更清楚地展現真實性。',
-        author: 'Kimber Greenwood',
-        role: '創辦人，Water Bear Photography',
+          '請提供準確完整的資訊，以支援您的申訴審查。',
+        author: 'Meta Help Center',
+        role: '使用者指南',
       },
       {
         quote:
-          '訂閱以來，我感受到明顯變化。貼文觸及更多受眾，互動提升，Stories 和 Reels 的互動也更多了。徽章也在建立信任方面發揮很大作用——品牌表示這讓他們更有信心聯絡我。',
-        author: 'Devon Kirby',
-        role: '擁有者，Mom Approved Miami',
+          '申訴審查完成後，您將在 Facebook 上收到通知。',
+        author: 'Meta Help Center',
+        role: '系統通知',
       },
     ],
   },
   finalCta: {
-    title: '準備好啟用了嗎？',
-    subtitle: '立即開始驗證你的商家，向顧客展現你認真經營事業。',
-    cta: '啟用',
+    title: '是否要提交申訴？',
+    subtitle:
+      '如果您認為決定有誤，請提交重新審查請求。',
+    cta: '提交申訴',
   },
   faq: {
     title: '常見問題',
     items: [
       {
-        question: '什麼是 Meta Verified for Business？',
+        question: '什麼是 Meta Community Standards？',
         answer:
-          '這是一項付費訂閱，協助符合資格的商家驗證身分，並取得 Meta Verified 徽章及 Meta 應用程式中的品牌保護權益。',
+          'Community Standards 定義了 Facebook 上允許的內容和行為。Meta 應用這些標準，以協助為使用者維護安全的環境。',
       },
       {
-        question: '啟用 Meta Verified 需要付費嗎？',
+        question: '如何對此決定提出申訴？',
         answer:
-          '符合條件的商家目前可以免費啟用 Meta Verified for Business。填寫啟用資訊表單並等待審核即可。',
+          '如果您認為您的粉絲專頁被錯誤地認定為違反 Community Standards，請填寫 Appeal details 表單並提交您的請求。它將依現行政策進行審查。',
       },
       {
-        question: '誰符合資格？',
-        answer: '商家須符合身分、活動及 Meta 政策要求。資格可能因國家/地區而異。',
-      },
-      {
-        question: '審核需要多久？',
-        answer: '我們將審核你的申請，並在 3 個工作天內傳送狀態更新。',
-      },
-      {
-        question: 'Meta Verified 如何防止假冒？',
+        question: '我需要提供哪些資訊？',
         answer:
-          '此方案有助偵測並處理在 Facebook 和 Instagram 上冒充您企業的帳號。驗證徽章也能幫助顧客更容易識別您的官方粉絲專頁。',
+          '您需要提供粉絲專頁管理員的詳細資訊、聯絡電子郵件、粉絲專頁名稱以及表單中要求的身分驗證資訊。',
+      },
+      {
+        question: '審查需要多長時間？',
+        answer:
+          '審查時間因案件而異。審查完成後，您將在 Facebook 上收到通知。',
+      },
+      {
+        question: '提交申訴後會發生什麼？',
+        answer:
+          '您的請求將依 Community Standards 進行審查。審查完成後，結果將透過 Facebook 告知您。',
       },
     ],
   },
@@ -141,15 +150,25 @@ export const zhHantLanding: LandingStrings = {
     columns: [
       {
         title: 'Meta 技術',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: '工具',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: '支援',
-        links: [{ label: '說明中心' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

@@ -4,144 +4,144 @@ export const jaLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: '始める' },
-      { label: '広告' },
-      { label: '学ぶ' },
+      { label: 'ガイド' },
+      { label: 'ポリシー' },
+      { label: 'ヘルプ' },
       { label: 'サポート' },
     ],
-    cta: '始める',
-    ctaAria: '始める — Meta Verified for Business を有効化',
+    cta: '異議申し立てを送信',
+    ctaAria: '異議申し立てを送信 — ページの判定について再審査をリクエスト',
   },
   hero: {
-    title: 'ビジネスに真剣であることを世界に示しましょう。',
+    title: 'ページがCommunity Standardsに違反した可能性があります',
     lead:
-      'Meta Verified for Business は、Facebook、Instagram、WhatsApp で信頼を築き、ブランドを保護し、存在感を高めるのに役立ちます。',
+      '最近の審査の結果、FacebookページがCommunity Standardsに違反している可能性があると判断されました。判定結果が誤りであると考える場合は、異議申し立てを送信して再審査をリクエストできます。',
     eligibility:
-      '本プログラムは、現行ポリシーに基づき、対応国・地域で参加要件をすべて満たす事業者にのみ適用されます。',
-    creatorPrefix: 'クリエイターですか？',
-    creatorLink: 'クリエイター向け Meta Verified について',
-    cta: '有効化',
-    badgeAlt: 'Meta Verified バッジ',
-    videoAria: 'Meta Verified for Business 紹介動画',
+      'この判定はMetaの標準的な審査プロセスに基づいています。各異議申し立ては、現在のポリシーに従って審査されます。',
+    creatorPrefix: '詳細は',
+    creatorLink: 'Meta Community Standards',
+    cta: '異議申し立てを送信',
+    badgeAlt: 'Meta通知アイコン',
+    videoAria: '異議申し立て手続きの動画ガイド',
   },
   benefits: {
-    title: 'Meta Verified for Business のメリット',
+    title: '異議申し立て手続きについて',
     subtitle:
-      'ビジネス ID を確認し、お客様とより信頼できる形でつながるためのツールを利用できます。',
-    learnMore: '詳しく見る',
+      'FacebookにおけるCommunity Standardsに関する異議申し立てがMetaでどのように処理されるかをご確認ください。',
+    learnMore: '詳細を見る',
     items: [
       {
-        title: '認証バッジ',
+        title: '審査プロセス',
         description:
-          'ページとリンクされた Instagram アカウントに Meta Verified バッジを表示し、公式ビジネスであることをお客様に示します。',
+          '各異議申し立ては、Metaの現在のCommunity Standardsに基づき、個別に審査されます。',
       },
       {
-        title: 'ID 保護',
+        title: '異議申し立ての権利',
         description:
-          'ブランドのなりすましや、お客様を混乱させる可能性のあるアカウントに対する監視を強化します。',
+          '判定結果が誤りであると考える場合は、再審査のリクエストを送信できます。',
       },
       {
-        title: '優先サポート',
+        title: '必要な情報',
         description:
-          'ページ、アカウント、認証関連の問題について、優先サポートにアクセスできます。',
+          '審査を支援するため、ページおよびその管理者に関する正確な情報をご提供ください。',
       },
       {
-        title: '信頼性の向上',
+        title: '処理時間',
         description:
-          'Meta の認証プロセスを完了したことを示し、お客様がブランドを信頼する際の重要なシグナルになります。',
+          '審査時間は、各案件の複雑さによって異なる場合があります。',
       },
       {
-        title: 'ビジネスツール',
+        title: '結果の通知',
         description:
-          'Facebook、Instagram、WhatsApp で認証済みビジネス向けに設計された機能を利用できます。',
+          '審査が完了すると、Facebookで通知を受け取ります。',
       },
       {
-        title: '持続的な成長',
+        title: 'ポリシー遵守',
         description:
-          'お客様が毎日利用する Meta アプリで、長期的な関係を築きます。',
+          '審査プロセス全体を通じて、ページはMeta Community Standardsに準拠する必要があります。',
       },
     ],
   },
   steps: {
-    title: 'Meta Verified for Business を有効化。',
+    title: '異議申し立ての送信方法',
     subtitle:
-      '認証プロセスは、ビジネス向け認証バッジの信頼性を維持するために設計されています。有効化情報の入力から始めてください。',
+      '以下の手順を完了して異議申し立てを送信してください。ご提供いただいた情報は審査目的で使用されます。',
     items: [
       {
-        title: '有効化を開始。',
+        title: '通知を確認する。',
         description:
-          'Meta Verified for Business を有効化するビジネスは、特定の条件（Facebook と Instagram の要件、WhatsApp の要件）を満たす必要があります。開始時に、ビジネスの連絡先情報を用意してください。',
+          'ページにおけるCommunity Standards違反の可能性に関する通知をお読みください。判定結果が誤りであると考える場合は、異議申し立ての送信に進むことができます。',
       },
       {
-        title: 'ビジネス情報の確認。',
+        title: '異議申し立てフォームを記入する。',
         description:
-          '有効化の詳細フォームでは、代表者氏名、連絡用メール、ビジネス用メール、ページ／ファンページ名、電話番号、生年月日を入力します。Meta Verified の有効化を完了するには、すべての必須項目を正確に入力してください。',
+          '「Appeal details」フォームに、管理者の氏名、連絡先メールアドレス、ビジネスメールアドレス、ページ名、電話番号、生年月日を入力してください。必須項目はすべて正確にご記入ください。',
       },
       {
-        title: '審査。',
+        title: '審査結果を待つ。',
         description:
-          '申請内容を審査し、3 営業日以内にステータスの更新をお知らせします。',
+          'リクエストは審査され、結果については可能な限り早くお知らせします。',
       },
     ],
   },
   testimonials: {
-    title: 'ビジネスの声',
-    prevAria: '前のストーリー',
-    nextAria: '次のストーリー',
+    title: '異議申し立て送信時の注意事項',
+    prevAria: '前の項目',
+    nextAria: '次の項目',
     items: [
       {
         quote:
-          '認証バッジは信頼の証です。私たちのプロフィールが本物のビジネスだと、自然と伝わると感じます。それは非常に重要です。',
-        author: 'Ben Cherrey',
-        role: '創業者兼リードデザイナー、Outside Design Nature Hotel',
+          '各異議申し立ては、Metaの現在のCommunity Standardsに基づき、個別に審査されます。',
+        author: 'Meta Help Center',
+        role: 'ポリシーと安全',
       },
       {
         quote:
-          'Meta Verified のもう一つの利点は、オンラインでの信頼感の向上です。顧客やパートナーがより交流しやすくなり、真正性が明確に伝わると思います。',
-        author: 'Kimber Greenwood',
-        role: '創業者、Water Bear Photography',
+          '異議申し立ての審査を支援するため、正確かつ完全な情報をご提供ください。',
+        author: 'Meta Help Center',
+        role: 'ユーザーガイダンス',
       },
       {
         quote:
-          '登録してから明確な変化を感じています。投稿のリーチが広がり、エンゲージメントが上がり、Stories や Reels での反応も増えました。バッジも信頼形成に大きく貢献しており、ブランドから連絡しやすくなったと言われました。',
-        author: 'Devon Kirby',
-        role: 'オーナー、Mom Approved Miami',
+          '異議申し立ての審査が完了すると、Facebookで通知を受け取ります。',
+        author: 'Meta Help Center',
+        role: 'システム通知',
       },
     ],
   },
   finalCta: {
-    title: '有効化の準備はできましたか？',
+    title: '異議申し立てを送信しますか？',
     subtitle:
-      '今日からビジネスを認証し、真剣なビジネスであることをお客様に示しましょう。',
-    cta: '有効化',
+      '判定結果が誤りであると考える場合は、再審査のリクエストを送信してください。',
+    cta: '異議申し立てを送信',
   },
   faq: {
     title: 'よくある質問',
     items: [
       {
-        question: 'Meta Verified for Business とは？',
+        question: 'Meta Community Standardsとは何ですか？',
         answer:
-          '対象ビジネスが ID を確認し、Meta Verified バッジと Meta アプリ全体でのブランド保護のメリットを利用できる有料サブスクリプションです。',
+          'Community Standardsは、Facebookで許可されるコンテンツと行動を定義しています。Metaはこれらの基準を適用し、ユーザーにとって安全な環境の維持に努めています。',
       },
       {
-        question: 'Meta Verified の有効化に費用はかかりますか？',
+        question: 'この判定に異議を申し立てるにはどうすればよいですか？',
         answer:
-          '対象ビジネスは現在、Meta Verified for Business を無料で有効化できます。有効化情報フォームを入力し、審査結果をお待ちください。',
+          'ページがCommunity Standardsに違反していると誤って判断されたと考える場合は、「Appeal details」フォームに記入してリクエストを送信してください。現在のポリシーに基づいて審査されます。',
       },
       {
-        question: '対象となるのは誰ですか？',
+        question: 'どのような情報を提供する必要がありますか？',
         answer:
-          'ビジネスは、ID、活動、Meta ポリシーの要件を満たす必要があります。対象条件は国によって異なる場合があります。',
+          'フォームで求められる、ページ管理者の詳細、連絡先メールアドレス、ページ名、本人確認情報を提供する必要があります。',
       },
       {
-        question: '審査にはどのくらいかかりますか？',
+        question: '審査にはどのくらい時間がかかりますか？',
         answer:
-          '申請内容を審査し、3 営業日以内にステータスの更新をお知らせします。',
+          '審査時間は案件によって異なる場合があります。審査が完了すると、Facebookで通知を受け取ります。',
       },
       {
-        question: 'なりすましからどのように保護しますか？',
+        question: '異議申し立てを送信した後はどうなりますか？',
         answer:
-          'Facebook や Instagram 上でビジネスになりすますアカウントの検出と対応を支援します。認証バッジにより、顧客が公式アカウントを見分けやすくなります。',
+          'リクエストはCommunity Standardsに基づいて審査されます。審査が完了すると、結果はFacebookを通じてお知らせします。',
       },
     ],
   },
@@ -149,16 +149,26 @@ export const jaLanding: LandingStrings = {
     copyright: '© Meta',
     columns: [
       {
-        title: 'Meta テクノロジー',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        title: 'Metaテクノロジー',
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'ツール',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: 'サポート',
-        links: [{ label: 'ヘルプセンター' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

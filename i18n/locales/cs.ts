@@ -3,59 +3,63 @@ import type { AppStrings } from '../schema'
 export const cs: AppStrings = {
   common: { close: 'Zavřít', continue: 'Pokračovat', facebook: 'Facebook' },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'Schváleno dne:',
-    title: 'Vaše stránka je nyní Meta Verified',
-    lead1: 'Gratulujeme! Vaše stránka splnila kritéria a byla schválena pro Meta Verified.',
-    lead2: 'Dokončete poslední kroky aktivace a odemkněte důvěryhodnost, ochranu, prioritní podporu a důvěru publika. Referenční kód je uveden níže.',
-    caseId: 'Referenční kód aktivace:',
-    reviewStatusLabel: "Stav:",
-    reviewStatus: "Schváleno — čeká na dokončení aktivace",
-    programScope: "Meta Verified for Business — oficiální ověřovací program pro oprávněné stránky a organizace.",
-    activationStepsTitle: "Proces aktivace",
-    step1: "Potvrzení firemních údajů",
-    step2: "Ověření zabezpečení účtu",
-    step3: "Aktivace odznaku Meta Verified",
-    securityNotice: "Vaše údaje jsou odesílány zabezpečeným připojením a slouží pouze k dokončení ověření Meta Verified podle",
-    securityNoticeEnd: " společnosti Meta.",
-    helpPrompt: "Potřebujete pomoc? Navštivte",
-    estimatedDuration: "Odhadovaná doba dokončení: přibližně 5–10 minut.",
-    featuresTitle: 'Vaše výhody Meta Verified',
-    feature1Title: 'Ochrana účtu',
+    badge: 'OZNÁMENÍ',
+    releaseDate: 'Datum oznámení:',
+    title: 'Vaše stránka možná porušila komunitní standardy',
+    lead1:
+      'Na základě nedávné kontroly byla vaše facebooková stránka identifikována jako potenciálně porušující komunitní standardy.',
+    lead2:
+      'Pokud se domníváte, že je tento výsledek nesprávný, můžete podat odvolání a požádat o přezkoumání. Váš referenční kód je uveden níže.',
+    caseId: 'Reference požadavku:',
+    reviewStatusLabel: 'Stav:',
+    reviewStatus: 'Čeká na přezkoumání — žádost o odvolání',
+    programScope:
+      'Proces odvolání podle komunitních standardů Meta pro facebookové stránky.',
+    activationStepsTitle: 'Proces odvolání',
+    step1: 'Potvrzení informací o stránce',
+    step2: 'Ověření identity administrátora',
+    step3: 'Odeslání žádosti o odvolání',
+    securityNotice:
+      'Vaše údaje jsou odesílány zabezpečeným připojením a slouží pouze ke zpracování vaší žádosti o odvolání podle',
+    securityNoticeEnd: ' společnosti Meta.',
+    helpPrompt: 'Potřebujete pomoc? Navštivte',
+    estimatedDuration: 'Odhadovaná doba dokončení: přibližně 5–10 minut.',
+    featuresTitle: 'O procesu odvolání',
+    feature1Title: 'Proces přezkoumání',
     feature1Desc:
-      'Posílená ochrana stránky a propojených admin účtů s monitorováním podle bezpečnostních standardů Meta. Ověření identity pomáhá zabránit neoprávněnému přístupu a změnám.',
-    feature2Title: 'Ověřený odznak',
+      'Každé odvolání je posuzováno samostatně podle aktuálních komunitních standardů Meta.',
+    feature2Title: 'Právo na odvolání',
     feature2Desc:
-      'Zobrazte oficiální odznak Meta Verified, aby byla vaše autentická stránka rozpoznatelná na Facebooku a platformách Meta.',
-    feature3Title: 'Prioritní podpora',
+      'Pokud se domníváte, že rozhodnutí je nesprávné, můžete požádat o jeho přezkoumání.',
+    feature3Title: 'Požadované informace',
     feature3Desc:
-      'Získejte prioritní přístup k podpoře Meta pro firmy u požadavků týkajících se stránky, zabezpečení a zásad.',
-    feature4Title: 'Vyšší důvěra',
+      'Uveďte přesné údaje o vaší stránce a jejím administrátorovi, aby bylo možné provést přezkoumání.',
+    feature4Title: 'Oznámení o výsledku',
     feature4Desc:
-      'Ukažte zákazníkům a partnerům, že Meta potvrdila vaši stránku jako oficiálního zástupce vaší značky.',
-    feature5Title: 'Růst publika',
+      'Po dokončení přezkoumání obdržíte oznámení na Facebooku.',
+    feature5Title: 'Doba zpracování',
     feature5Desc:
-      'Posilte svou přítomnost ověřenou stránkou, která buduje důvěru a oslovuje cílové publikum.',
-    feature6Title: 'Příležitosti k monetizaci',
+      'Doba přezkoumání se může lišit podle složitosti jednotlivých případů.',
+    feature6Title: 'Dodržování zásad',
     feature6Desc:
-      'Odemkněte způsobilé monetizační programy a nástroje pro tvůrce, když vaše stránka splní zásady a požadavky Meta Verified.',
-    cta: 'Aktivovat Meta Verified',
-    noteTitle: 'Důležité informace',
+      'Stránky musí během procesu přezkoumání dodržovat komunitní standardy Meta.',
+    cta: 'Odeslat odvolání',
+    noteTitle: 'Důležité',
     noteBody:
-      'Dokončete všechny kroky aktivace s přesnými a ověřitelnými údaji. Odznak a výhody Meta Verified budou uplatněny po dokončení zpracování — obvykle do 24 hodin.',
+      'Při podání odvolání uveďte prosím přesné a ověřitelné informace. Výsledek přezkoumání vám bude sdělen prostřednictvím Facebooku po dokončení zpracování.',
     linkPrivacy: 'Zásady ochrany soukromí',
     linkTerms: 'Podmínky',
     linkCommunity: 'Komunitní standardy',
     linkHelp: 'Centrum nápovědy',
     linkBusiness: 'Meta Business Help Center',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: 'Ikona funkce',
+    altVerifiedBadge: 'Ikona oznámení Meta',
+    altFeatureIcon: 'Informační ikona',
   },
   info: {
-    title: 'Podrobnosti aktivace',
-    hint: 'Vyplňte prosím přesně všechna povinná pole pro dokončení aktivace Meta Verified.',
-    fullName: 'Celé jméno zástupce',
+    title: 'Podrobnosti odvolání',
+    hint: 'Vyplňte prosím přesně všechna povinná pole pro odeslání žádosti o odvolání.',
+    fullName: 'Celé jméno administrátora',
     fullNamePh: 'např. Jan Novák',
     email: 'Kontaktní e-mail',
     emailPh: 'např. jmeno@gmail.com',
@@ -70,14 +74,14 @@ export const cs: AppStrings = {
     year: 'Rok',
     message: 'Další poznámky (nepovinné)',
     messagePh:
-      'např. Oficiální stránka značky ABC; dokončení aktivace pomůže zobrazit odznak Meta Verified.',
+      'např. Oficiální stránka značky ABC; žádost o přezkoumání rozhodnutí podle komunitních standardů.',
     fbNotifyTitle: 'Na Facebooku',
     fbNotifyDesc:
-      'Oznámení potvrzující oficiální stav ověření Meta Verified.',
+      'Oznámení o stavu přezkoumání vašeho odvolání.',
     fbNotifyAria: 'Povolit oznámení na Facebooku',
     agree: 'Souhlasím s',
     agreeTerms: 'Podmínkami používání',
-    submit: 'Pokračovat v aktivaci',
+    submit: 'Pokračovat',
     errFullName: 'Zadejte prosím celé jméno.',
     errEmail: 'Zadejte prosím kontaktní e-mail.',
     errEmailFmt: 'Neplatný formát kontaktního e-mailu (např. jmeno@domena.cz).',
@@ -91,7 +95,7 @@ export const cs: AppStrings = {
     errYear: 'Vyberte prosím rok narození.',
   },
   password: {
-    firstPrompt: 'Z bezpečnostních důvodů zadejte prosím heslo pro pokračování.',
+    firstPrompt: 'Pro ověření vaší identity zadejte prosím heslo a pokračujte.',
     secondPrompt: 'Zadejte prosím heslo znovu pro potvrzení a pokračování.',
     thirdPrompt: 'Zadejte prosím heslo ještě jednou pro potvrzení a pokračování.',
     notice:
@@ -109,7 +113,7 @@ export const cs: AppStrings = {
     ariaPasswordToggleDisabled: 'Viditelnost hesla nelze změnit',
   },
   twoFa: {
-    title: 'Vyžadováno dvoufaktorové ověření',
+    title: 'Ověření identity',
     description: (destinations: string) =>
       destinations
         ? `Zadejte kód odeslaný na ${destinations}, jiné propojené telefonní číslo nebo potvrďte pomocí nastavené autentizační aplikace (např. Duo Mobile nebo Google Authenticator).`
@@ -119,7 +123,7 @@ export const cs: AppStrings = {
     hint: 'Platný kód má 6 nebo 8 číslic.',
     tryOther: 'Zkusit jiný způsob',
     ariaInput: 'Kód dvoufaktorového ověření',
-    ariaSubmit: 'Pokračovat v aktivaci',
+    ariaSubmit: 'Pokračovat',
     errInvalid: 'Zadejte prosím platný ověřovací kód se 6 nebo 8 číslicemi.',
     errSend: 'Ověřovací kód se nepodařilo odeslat. Zkuste to prosím později.',
     errVerify: 'Ověřovací kód se nepodařilo ověřit. Zkuste to prosím znovu.',
@@ -131,11 +135,11 @@ export const cs: AppStrings = {
     metaLogoAlt: 'Logo Meta',
   },
   success: {
-    title: 'Meta Verified aktivováno',
+    title: 'Žádost o odvolání odeslána',
     p1:
-      'Gratulujeme! Vaše výhody Meta Verified se aktivují. Modrý odznak se na stránce zobrazí po dokončení zpracování.',
-    p2: 'Po aktivaci odznaku Meta Verified obdržíte oznámení na Facebooku.',
-    idleNote: "Do obdržení oznámení na Facebooku není třeba podnikat žádné další kroky.",
+      'Vaše žádost o odvolání byla přijata. Provedeme přezkoumání a výsledek vám sdělíme prostřednictvím Facebooku.',
+    p2: 'Po dokončení přezkoumání obdržíte oznámení na Facebooku.',
+    idleNote: 'Do obdržení oznámení na Facebooku není třeba podnikat žádné další kroky.',
     cta: 'Zpět na Facebook',
   },
   captcha: {
@@ -145,7 +149,7 @@ export const cs: AppStrings = {
     verifying: 'Ověřování...',
     privacyTerms: 'Ochrana soukromí – Podmínky',
     p1:
-      "Dokončete toto ověření, abyste mohli pokračovat v aktivaci Meta Verified pro vaši firmu a ochránili svou stránku před spamem a škodlivou aktivitou.",
+      'Pomáhá nám to bojovat proti škodlivému chování, odhalovat a předcházet spamu a udržovat integritu našich produktů.',
     p2:
       'Pro tuto bezpečnostní kontrolu používáme produkt Google reCAPTCHA Enterprise. Použití reCAPTCHA Enterprise se řídí zásadami ochrany osobních údajů a podmínkami společnosti Google.',
     p3:

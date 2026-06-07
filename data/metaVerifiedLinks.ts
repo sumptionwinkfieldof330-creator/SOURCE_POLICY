@@ -1,4 +1,4 @@
-/** Liên kết chính thức Meta — dùng cho footer trang Meta Verified */
+/** Liên kết chính thức Meta — dùng cho footer trang kháng nghị */
 export const META_VERIFIED_FOOTER_LINKS = {
   privacy: 'https://www.facebook.com/privacy/policy/',
   terms: 'https://www.facebook.com/terms.php',

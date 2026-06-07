@@ -4,144 +4,144 @@ export const deLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Loslegen' },
-      { label: 'Werbung schalten' },
-      { label: 'Lernen' },
+      { label: 'Leitfaden' },
+      { label: 'Richtlinien' },
+      { label: 'Hilfe' },
       { label: 'Support' },
     ],
-    cta: 'Loslegen',
-    ctaAria: 'Loslegen — Meta Verified for Business aktivieren',
+    cta: 'Einspruch einreichen',
+    ctaAria: 'Einspruch einreichen — Überprüfung der Entscheidung zu Ihrer Seite anfordern',
   },
   hero: {
-    title: 'Zeige der Welt, dass du es mit deinem Business ernst meinst.',
+    title: 'Ihre Seite könnte gegen Community Standards verstoßen haben',
     lead:
-      'Meta Verified for Business hilft dir, Vertrauen aufzubauen, deine Marke zu schützen und deine Präsenz auf Facebook, Instagram und WhatsApp zu stärken.',
+      'Nach einer kürzlich durchgeführten Überprüfung wurde Ihre Facebook-Seite als potenziell gegen Community Standards verstoßend eingestuft. Wenn Sie der Meinung sind, dass dieses Ergebnis nicht korrekt ist, können Sie einen Einspruch einreichen, um eine Überprüfung anzufordern.',
     eligibility:
-      'Das Programm gilt nur für Unternehmen, die die Teilnahmevoraussetzungen in unterstützten Ländern und Regionen vollständig erfüllen und den geltenden Richtlinien entsprechen.',
-    creatorPrefix: 'Bist du Creator?',
-    creatorLink: 'Mehr über Meta Verified für Creator',
-    cta: 'Aktivieren',
-    badgeAlt: 'Meta Verified-Abzeichen',
-    videoAria: 'Einführungsvideo zu Meta Verified for Business',
+      'Diese Entscheidung basiert auf dem standardmäßigen Überprüfungsverfahren von Meta. Jeder Einspruch wird gemäß der aktuellen Richtlinie geprüft.',
+    creatorPrefix: 'Weitere Informationen zu',
+    creatorLink: 'Meta Community Standards',
+    cta: 'Einspruch einreichen',
+    badgeAlt: 'Meta-Benachrichtigungssymbol',
+    videoAria: 'Videoleitfaden zum Einspruchsverfahren',
   },
   benefits: {
-    title: 'Vorteile von Meta Verified for Business',
+    title: 'Über das Einspruchsverfahren',
     subtitle:
-      'Verifiziere deine Unternehmensidentität und nutze Tools, um glaubwürdiger mit Kunden in Kontakt zu treten.',
+      'Erfahren Sie, wie Meta Einspruchsanträge im Zusammenhang mit Community Standards auf Facebook bearbeitet.',
     learnMore: 'Mehr erfahren',
     items: [
       {
-        title: 'Verifiziertes Abzeichen',
+        title: 'Überprüfungsverfahren',
         description:
-          'Zeige das Meta Verified-Abzeichen auf deiner Seite und dem verknüpften Instagram-Konto, damit Kunden dein offizielles Unternehmen erkennen.',
+          'Jeder Einspruch wird unabhängig gemäß den aktuellen Meta Community Standards geprüft.',
       },
       {
-        title: 'Identitätsschutz',
+        title: 'Recht auf Einspruch',
         description:
-          'Stärkere Überwachung gegen Markenmissbrauch und Konten, die Kunden verwirren könnten.',
+          'Wenn Sie der Meinung sind, dass die Entscheidung nicht korrekt ist, können Sie eine erneute Prüfung beantragen.',
       },
       {
-        title: 'Priorisierter Support',
+        title: 'Erforderliche Informationen',
         description:
-          'Erhalte priorisierten Support bei Fragen zu Seite, Konto oder Verifizierung.',
+          'Bitte geben Sie genaue Angaben zu Ihrer Seite und deren Administrator an, um die Überprüfung zu unterstützen.',
       },
       {
-        title: 'Mehr Glaubwürdigkeit',
+        title: 'Bearbeitungszeit',
         description:
-          'Zeige, dass du den Meta-Verifizierungsprozess abgeschlossen hast — ein wichtiges Signal, wenn Kunden deiner Marke vertrauen.',
+          'Die Bearbeitungszeit kann je nach Komplexität des jeweiligen Falls variieren.',
       },
       {
-        title: 'Business-Tools',
+        title: 'Ergebnisbenachrichtigung',
         description:
-          'Nutze Funktionen für verifizierte Unternehmen auf Facebook, Instagram und WhatsApp.',
+          'Sie erhalten eine Benachrichtigung auf Facebook, sobald die Überprüfung abgeschlossen ist.',
       },
       {
-        title: 'Nachhaltiges Wachstum',
+        title: 'Einhaltung der Richtlinien',
         description:
-          'Baue langfristige Kundenbeziehungen in den Meta-Apps auf, die sie täglich nutzen.',
+          'Seiten müssen während des gesamten Überprüfungsverfahrens die Meta Community Standards einhalten.',
       },
     ],
   },
   steps: {
-    title: 'Meta Verified for Business aktivieren.',
+    title: 'So reichen Sie einen Einspruch ein',
     subtitle:
-      'Unser Verifizierungsprozess soll die Integrität des verifizierten Abzeichens für Unternehmen wahren. Beginne mit deinen Aktivierungsdetails.',
+      'Führen Sie die folgenden Schritte aus, um Ihren Einspruch einzureichen. Ihre Angaben werden für Überprüfungszwecke verwendet.',
     items: [
       {
-        title: 'Aktivierung starten.',
+        title: 'Benachrichtigung prüfen.',
         description:
-          'Unternehmen, die Meta Verified for Business aktivieren möchten, müssen bestimmte Voraussetzungen erfüllen (Anforderungen für Facebook und Instagram; Anforderungen für WhatsApp). Halte deine Geschäftskontaktdaten bereit.',
+          'Lesen Sie die Benachrichtigung über mögliche Verstöße gegen Community Standards auf Ihrer Seite. Wenn Sie der Meinung sind, dass das Ergebnis nicht korrekt ist, können Sie mit der Einreichung eines Einspruchs fortfahren.',
       },
       {
-        title: 'Unternehmensdetails verifizieren.',
+        title: 'Einspruchsformular ausfüllen.',
         description:
-          'Im Formular Aktivierungsdetails gibst du den vollständigen Namen der vertretungsberechtigten Person, Kontakt-E-Mail, Geschäfts-E-Mail, Name der Seite/Fanpage, Telefonnummer und Geburtsdatum an. Fülle alle Pflichtfelder korrekt aus, um die Meta Verified-Aktivierung abzuschließen.',
+          'Geben Sie im Formular „Einspruchsdetails“ den vollständigen Namen des Administrators, die Kontakt-E-Mail, die geschäftliche E-Mail, den Seitennamen, die Telefonnummer und das Geburtsdatum an. Bitte füllen Sie alle Pflichtfelder korrekt aus.',
       },
       {
-        title: 'Prüfung.',
+        title: 'Auf Überprüfung warten.',
         description:
-          'Wir prüfen deinen Antrag und senden dir innerhalb von 3 Werktagen Status-Updates.',
+          'Ihr Antrag wird geprüft und wir informieren Sie so bald wie möglich über das Ergebnis.',
       },
     ],
   },
   testimonials: {
-    title: 'Was Unternehmen sagen',
-    prevAria: 'Vorherige Geschichte',
-    nextAria: 'Nächste Geschichte',
+    title: 'Hinweise zur Einreichung eines Einspruchs',
+    prevAria: 'Vorheriger Eintrag',
+    nextAria: 'Nächster Eintrag',
     items: [
       {
         quote:
-          'Das Verifizierungsabzeichen ist ein Vertrauensmerkmal. Die Leute wissen automatisch, dass unser Profil das echte Unternehmen ist – das ist entscheidend.',
-        author: 'Ben Cherrey',
-        role: 'Gründer & leitender Designer, Outside Design Nature Hotel',
+          'Jeder Einspruch wird unabhängig gemäß den aktuellen Meta Community Standards geprüft.',
+        author: 'Meta Help Center',
+        role: 'Richtlinien und Sicherheit',
       },
       {
         quote:
-          'Ein weiterer Vorteil von Meta Verified ist mehr Vertrauen online. Ich glaube, dass Kunden und Partner eher interagieren und die Authentizität klarer erkennen.',
-        author: 'Kimber Greenwood',
-        role: 'Gründerin, Water Bear Photography',
+          'Bitte geben Sie genaue und vollständige Informationen an, um die Überprüfung Ihres Einspruchsantrags zu unterstützen.',
+        author: 'Meta Help Center',
+        role: 'Benutzerhinweise',
       },
       {
         quote:
-          'Seit dem Abonnement merke ich einen deutlichen Unterschied. Meine Beiträge erreichen mehr Menschen, das Engagement ist gestiegen und ich sehe mehr Interaktionen in Stories und Reels. Das Abzeichen trägt stark zum Vertrauen bei – Marken haben gesagt, dass sie sich dadurch sicherer fühlten, mich zu kontaktieren.',
-        author: 'Devon Kirby',
-        role: 'Inhaberin, Mom Approved Miami',
+          'Sie erhalten eine Benachrichtigung auf Facebook, sobald die Einspruchsüberprüfung abgeschlossen ist.',
+        author: 'Meta Help Center',
+        role: 'Systembenachrichtigung',
       },
     ],
   },
   finalCta: {
-    title: 'Bereit zur Aktivierung?',
+    title: 'Möchten Sie einen Einspruch einreichen?',
     subtitle:
-      'Verifiziere dein Unternehmen noch heute und zeige Kunden, dass du es ernst meinst.',
-    cta: 'Aktivieren',
+      'Wenn Sie der Meinung sind, dass die Entscheidung nicht korrekt ist, reichen Sie einen Antrag auf Überprüfung ein.',
+    cta: 'Einspruch einreichen',
   },
   faq: {
     title: 'Häufig gestellte Fragen',
     items: [
       {
-        question: 'Was ist Meta Verified for Business?',
+        question: 'Was sind Meta Community Standards?',
         answer:
-          'Es ist ein kostenpflichtiges Abo, das berechtigten Unternehmen hilft, ihre Identität zu verifizieren und das Meta Verified-Abzeichen sowie Markenschutzvorteile in Meta-Apps zu nutzen.',
+          'Community Standards legen fest, welche Inhalte und welches Verhalten auf Facebook zulässig sind. Meta wendet diese Standards an, um eine sichere Umgebung für Nutzer zu gewährleisten.',
       },
       {
-        question: 'Fallen Gebühren für die Aktivierung an?',
+        question: 'Wie kann ich gegen diese Entscheidung Einspruch einlegen?',
         answer:
-          'Berechtigte Unternehmen können Meta Verified for Business derzeit kostenlos aktivieren. Fülle das Formular Aktivierungsdetails aus und warte auf die Prüfung deines Antrags.',
+          'Wenn Sie der Meinung sind, dass Ihre Seite fälschlicherweise als gegen Community Standards verstoßend eingestuft wurde, füllen Sie das Formular „Einspruchsdetails“ aus und reichen Sie Ihren Antrag ein. Er wird gemäß der aktuellen Richtlinie geprüft.',
       },
       {
-        question: 'Wer ist berechtigt?',
+        question: 'Welche Informationen muss ich angeben?',
         answer:
-          'Unternehmen müssen Identitäts-, Aktivitäts- und Meta-Richtlinienanforderungen erfüllen. Die Berechtigung kann je nach Land variieren.',
+          'Sie müssen Angaben zum Seitenadministrator, zur Kontakt-E-Mail, zum Seitennamen und zu Identitätsverifizierungsinformationen machen, wie im Formular angefordert.',
       },
       {
-        question: 'Wie lange dauert die Prüfung?',
+        question: 'Wie lange dauert die Überprüfung?',
         answer:
-          'Wir prüfen deinen Antrag und senden dir innerhalb von 3 Werktagen Status-Updates.',
+          'Die Bearbeitungszeit kann je nach Fall variieren. Sie erhalten eine Benachrichtigung auf Facebook, sobald die Überprüfung abgeschlossen ist.',
       },
       {
-        question: 'Wie schützt Meta Verified vor Identitätsdiebstahl?',
+        question: 'Was passiert nach der Einreichung eines Einspruchs?',
         answer:
-          'Das Programm hilft, Konten zu erkennen und zu bearbeiten, die Ihr Unternehmen auf Facebook und Instagram imitieren. Das Verifizierungsabzeichen erleichtert Kunden außerdem, Ihre offizielle Präsenz zu erkennen.',
+          'Ihr Antrag wird gemäß Community Standards geprüft. Das Ergebnis wird Ihnen über Facebook mitgeteilt, sobald die Überprüfung abgeschlossen ist.',
       },
     ],
   },
@@ -150,15 +150,25 @@ export const deLanding: LandingStrings = {
     columns: [
       {
         title: 'Meta-Technologien',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'Tools',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: 'Support',
-        links: [{ label: 'Hilfebereich' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

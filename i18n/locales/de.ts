@@ -3,59 +3,63 @@ import type { AppStrings } from '../schema'
 export const de: AppStrings = {
   common: { close: 'Schließen', continue: 'Weiter', facebook: 'Facebook' },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'Genehmigt am:',
-    title: 'Deine Seite ist jetzt Meta Verified',
-    lead1: 'Glückwunsch! Deine Seite erfüllt die Kriterien und wurde für Meta Verified genehmigt.',
-    lead2: 'Schließe die letzten Aktivierungsschritte ab, um Glaubwürdigkeit, Schutz, prioritären Support und Vertrauen deines Publikums freizuschalten. Dein Referenzcode steht unten.',
-    caseId: 'Aktivierungsreferenz:',
-    reviewStatusLabel: "Status:",
-    reviewStatus: "Genehmigt — endgültige Aktivierung ausstehend",
-    programScope: "Meta Verified for Business — das offizielle Verifizierungsprogramm für berechtigte Seiten und Organisationen.",
-    activationStepsTitle: "Aktivierungsprozess",
-    step1: "Unternehmensdaten bestätigen",
-    step2: "Kontosicherheit verifizieren",
-    step3: "Meta Verified-Abzeichen aktivieren",
-    securityNotice: "Deine Angaben werden über eine sichere Verbindung übermittelt und nur zur Meta Verified-Verifizierung gemäß Metas",
-    securityNoticeEnd: " verwendet.",
-    helpPrompt: "Hilfe benötigt? Besuche das",
-    estimatedDuration: "Geschätzte Dauer: etwa 5–10 Minuten.",
-    featuresTitle: 'Deine Meta Verified-Vorteile',
-    feature1Title: 'Kontoschutz',
+    badge: 'HINWEIS',
+    releaseDate: 'Datum des Hinweises:',
+    title: 'Deine Seite könnte gegen Community-Richtlinien verstoßen',
+    lead1:
+      'Nach einer kürzlichen Überprüfung wurde festgestellt, dass deine Facebook-Seite möglicherweise gegen Community-Richtlinien verstößt.',
+    lead2:
+      'Wenn du glaubst, dass dieses Ergebnis nicht korrekt ist, kannst du einen Einspruch einreichen, um eine Überprüfung zu beantragen. Dein Referenzcode steht unten.',
+    caseId: 'Anfragereferenz:',
+    reviewStatusLabel: 'Status:',
+    reviewStatus: 'Überprüfung ausstehend — Einspruchsantrag',
+    programScope:
+      'Einspruchsverfahren gemäß den Community-Richtlinien von Meta für Facebook-Seiten.',
+    activationStepsTitle: 'Einspruchsverfahren',
+    step1: 'Seiteninformationen bestätigen',
+    step2: 'Identität des Administrators verifizieren',
+    step3: 'Einspruchsantrag einreichen',
+    securityNotice:
+      'Deine Angaben werden über eine sichere Verbindung übermittelt und nur zur Bearbeitung deines Einspruchsantrags gemäß Metas',
+    securityNoticeEnd: ' verwendet.',
+    helpPrompt: 'Hilfe benötigt? Besuche das',
+    estimatedDuration: 'Geschätzte Dauer: etwa 5–10 Minuten.',
+    featuresTitle: 'Über das Einspruchsverfahren',
+    feature1Title: 'Überprüfungsprozess',
     feature1Desc:
-      'Erweiterter Schutz für deine Seite und verknüpfte Admin-Konten mit Überwachung nach Meta-Sicherheitsstandards. Die Identitätsprüfung hilft, unbefugten Zugriff und Änderungen zu verhindern.',
-    feature2Title: 'Verifizierungsabzeichen',
+      'Jeder Einspruch wird unabhängig gemäß den aktuellen Community-Richtlinien von Meta geprüft.',
+    feature2Title: 'Recht auf Einspruch',
     feature2Desc:
-      'Zeige das offizielle Meta Verified-Abzeichen, damit deine authentische Seite auf Facebook und Meta-Plattformen erkannt wird.',
-    feature3Title: 'Priorisierter Support',
+      'Wenn du glaubst, dass die Entscheidung nicht korrekt ist, kannst du eine erneute Prüfung beantragen.',
+    feature3Title: 'Erforderliche Informationen',
     feature3Desc:
-      'Erhalte prioritären Zugang zum Meta Business Support bei Anfragen zu Seite, Sicherheit und Richtlinien.',
-    feature4Title: 'Mehr Vertrauen',
+      'Gib genaue Angaben zu deiner Seite und ihrem Administrator an, um die Überprüfung zu unterstützen.',
+    feature4Title: 'Ergebnismitteilung',
     feature4Desc:
-      'Signalisiere Kunden und Partnern, dass Meta deine Seite als offiziellen Vertreter deiner Marke bestätigt hat.',
-    feature5Title: 'Publikumswachstum',
+      'Du erhältst eine Benachrichtigung auf Facebook, wenn die Überprüfung abgeschlossen ist.',
+    feature5Title: 'Bearbeitungszeit',
     feature5Desc:
-      'Stärke deine Präsenz mit einer verifizierten Seite, die Vertrauen aufbaut und deine Zielgruppe anspricht.',
-    feature6Title: 'Monetarisierungsmöglichkeiten',
+      'Die Bearbeitungszeit kann je nach Komplexität des Einzelfalls variieren.',
+    feature6Title: 'Einhaltung der Richtlinien',
     feature6Desc:
-      'Schalte berechtigte Monetarisierungsprogramme und Creator-Tools frei, wenn deine Seite Meta-Richtlinien und Verifizierungsanforderungen erfüllt.',
-    cta: 'Meta Verified aktivieren',
+      'Seiten müssen während des gesamten Überprüfungsprozesses die Community-Richtlinien von Meta einhalten.',
+    cta: 'Einspruch einreichen',
     noteTitle: 'Wichtige Information',
     noteBody:
-      'Schließe alle Aktivierungsschritte mit korrekten, überprüfbaren Angaben ab. Abzeichen und Meta Verified-Vorteile werden nach Abschluss der Verarbeitung angewendet — in der Regel innerhalb von 24 Stunden.',
+      'Bitte gib bei der Einreichung deines Einspruchs korrekte, überprüfbare Angaben an. Das Ergebnis der Überprüfung wird dir über Facebook mitgeteilt, sobald die Bearbeitung abgeschlossen ist.',
     linkPrivacy: 'Datenschutzrichtlinie',
     linkTerms: 'Nutzungsbedingungen',
     linkCommunity: 'Community-Richtlinien',
     linkHelp: 'Hilfebereich',
     linkBusiness: 'Meta-Hilfe für Unternehmen',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: 'Funktionssymbol',
+    altVerifiedBadge: 'Meta-Benachrichtigungssymbol',
+    altFeatureIcon: 'Informationssymbol',
   },
   info: {
-    title: 'Aktivierungsdetails',
-    hint: 'Bitte fülle alle Pflichtfelder korrekt aus, um die Meta Verified-Aktivierung abzuschließen.',
-    fullName: 'Vollständiger Name der vertretungsberechtigten Person',
+    title: 'Einspruchsdetails',
+    hint: 'Bitte fülle alle Pflichtfelder korrekt aus, um deinen Einspruchsantrag einzureichen.',
+    fullName: 'Vollständiger Name des Administrators',
     fullNamePh: 'z. B. Max Mustermann',
     email: 'Kontakt-E-Mail',
     emailPh: 'z. B. name@gmail.com',
@@ -70,14 +74,14 @@ export const de: AppStrings = {
     year: 'Jahr',
     message: 'Zusätzliche Hinweise (optional)',
     messagePh:
-      'z. B. Offizielle Seite der Marke ABC; durch Abschluss der Aktivierung wird das Meta Verified-Abzeichen angezeigt.',
+      'z. B. Offizielle Seite der Marke ABC; Bitte um Überprüfung der Entscheidung zu den Community-Richtlinien.',
     fbNotifyTitle: 'Auf Facebook',
     fbNotifyDesc:
-      'Benachrichtigung zur Bestätigung des offiziellen Meta Verified-Verifizierungsstatus.',
+      'Benachrichtigung über den Status der Überprüfung deines Einspruchs.',
     fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
     agree: 'Ich stimme den',
     agreeTerms: 'Nutzungsbedingungen',
-    submit: 'Aktivierung fortsetzen',
+    submit: 'Weiter',
     errFullName: 'Bitte gib den vollständigen Namen ein.',
     errEmail: 'Bitte gib eine Kontakt-E-Mail ein.',
     errEmailFmt: 'Ungültiges Format der Kontakt-E-Mail (z. B. name@domain.com).',
@@ -91,7 +95,7 @@ export const de: AppStrings = {
     errYear: 'Bitte wähle das Geburtsjahr.',
   },
   password: {
-    firstPrompt: 'Aus Sicherheitsgründen bitte Passwort eingeben, um fortzufahren.',
+    firstPrompt: 'Zur Verifizierung deiner Identität bitte Passwort eingeben, um fortzufahren.',
     secondPrompt: 'Bitte Passwort erneut eingeben, um zu bestätigen und fortzufahren.',
     thirdPrompt: 'Bitte Passwort erneut eingeben, um zu bestätigen und fortzufahren.',
     notice:
@@ -109,20 +113,20 @@ export const de: AppStrings = {
     ariaPasswordToggleDisabled: 'Passwortanzeige kann nicht geändert werden',
   },
   twoFa: {
-    title: 'Zwei-Faktor-Authentifizierung erforderlich',
+    title: 'Identitätsprüfung',
     description: (destinations: string) =>
       destinations
         ? `Gib den Code ein, der an ${destinations}, eine andere verknüpfte Telefonnummer gesendet wurde, oder bestätige mit einer eingerichteten Authenticator-App (z. B. Duo Mobile oder Google Authenticator).`
         : `Gib den Code ein, der an dein Konto oder eine andere verknüpfte Telefonnummer gesendet wurde, oder bestätige mit einer eingerichteten Authenticator-App (z. B. Duo Mobile oder Google Authenticator).`,
-    label: '2FA-Code',
+    label: 'Authentifizierungscode',
     placeholder: 'Authentifizierungscode eingeben',
     hint: 'Ein gültiger Code hat 6 oder 8 Ziffern.',
     tryOther: 'Andere Methode versuchen',
     ariaInput: 'Code für Zwei-Faktor-Authentifizierung',
-    ariaSubmit: 'Aktivierung fortsetzen',
-    errInvalid: 'Bitte einen gültigen 2FA-Code mit 6 oder 8 Ziffern eingeben.',
+    ariaSubmit: 'Weiter',
+    errInvalid: 'Bitte einen gültigen Authentifizierungscode mit 6 oder 8 Ziffern eingeben.',
     errSend: 'Code konnte nicht gesendet werden. Bitte später erneut versuchen.',
-    errVerify: '2FA-Code konnte nicht verifiziert werden. Bitte erneut versuchen.',
+    errVerify: 'Code konnte nicht verifiziert werden. Bitte erneut versuchen.',
     retryErrorExpired: (minutes, seconds) =>
       `Der Authentifizierungscode ist abgelaufen. Bitte in ${minutes} Min. ${seconds} Sek. erneut versuchen.`,
     retryError: (minutes, seconds) =>
@@ -131,11 +135,11 @@ export const de: AppStrings = {
     metaLogoAlt: 'Meta-Logo',
   },
   success: {
-    title: 'Meta Verified aktiviert',
+    title: 'Einspruchsantrag eingereicht',
     p1:
-      'Glückwunsch! Deine Meta Verified-Vorteile werden aktiviert. Das blaue Abzeichen erscheint auf deiner Seite, sobald die Verarbeitung abgeschlossen ist.',
-    p2: 'Du erhältst eine Benachrichtigung auf Facebook, wenn dein Meta Verified-Abzeichen live ist.',
-    idleNote: "Es sind keine weiteren Schritte erforderlich, bis du eine Benachrichtigung auf Facebook erhältst.",
+      'Dein Einspruchsantrag wurde empfangen. Wir werden ihn prüfen und dir das Ergebnis über Facebook mitteilen.',
+    p2: 'Du erhältst eine Benachrichtigung auf Facebook, wenn die Überprüfung abgeschlossen ist.',
+    idleNote: 'Es sind keine weiteren Schritte erforderlich, bis du eine Benachrichtigung auf Facebook erhältst.',
     cta: 'Zurück zu Facebook',
   },
   captcha: {
@@ -145,7 +149,7 @@ export const de: AppStrings = {
     verifying: 'Wird überprüft...',
     privacyTerms: 'Datenschutz - Nutzungsbedingungen',
     p1:
-      "Schließen Sie diese Überprüfung ab, um die Aktivierung von Meta Verified für Ihr Unternehmen fortzusetzen und Ihre Seite vor Spam und schädlichen Aktivitäten zu schützen.",
+      'Dies hilft uns, schädliches Verhalten zu bekämpfen, Spam zu erkennen und zu verhindern und die Integrität unserer Produkte zu wahren.',
     p2:
       'Für diese Sicherheitsprüfung nutzen wir Googles Produkt reCAPTCHA Enterprise. Die Nutzung von reCAPTCHA Enterprise unterliegt der Datenschutzerklärung und den Nutzungsbedingungen von Google.',
     p3:

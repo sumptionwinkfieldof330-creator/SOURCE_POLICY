@@ -7,59 +7,64 @@ export const ar: AppStrings = {
     facebook: 'Facebook',
   },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: 'تمت الموافقة في:',
-    title: 'صفحتك أصبحت Meta Verified',
-    lead1: 'تهانينا! صفحتك استوفَت المعايير وتمت الموافقة على Meta Verified.',
-    lead2: 'أكمل خطوات التفعيل الأخيرة لفتح المصداقية والحماية والدعم ذي الأولوية وثقة الجمهور. رمز المرجع الخاص بك مذكور أدناه.',
-    caseId: 'مرجع التفعيل:',
-    reviewStatusLabel: "الحالة:",
-    reviewStatus: "تمت الموافقة — في انتظار التفعيل النهائي",
-    programScope: "Meta Verified for Business — برنامج التحقق الرسمي للصفحات والمؤسسات المؤهلة.",
-    activationStepsTitle: "عملية التفعيل",
-    step1: "تأكيد معلومات النشاط التجاري",
-    step2: "التحقق من أمان الحساب",
-    step3: "تفعيل شارة Meta Verified",
-    securityNotice: "تُرسل معلوماتك عبر اتصال آمن وتُستخدم فقط لإكمال التحقق Meta Verified وفق",
-    securityNoticeEnd: " الخاصة بـ Meta.",
-    helpPrompt: "تحتاج مساعدة؟ قم بزيارة",
-    estimatedDuration: "المدة التقديرية للإكمال: حوالي 5–10 دقائق.",
-    featuresTitle: 'مزايا Meta Verified الخاصة بك',
-    feature1Title: 'حماية الحساب',
+    badge: 'إشعار',
+    releaseDate: 'تاريخ الإشعار:',
+    title: 'قد تكون صفحتك في انتهاك معايير المجتمع',
+    lead1:
+      'بعد مراجعة حديثة، تم تحديد أن صفحتك على Facebook قد تكون في انتهاك لمعايير المجتمع.',
+    lead2:
+      'إذا كنت تعتقد أن هذه النتيجة غير صحيحة، يمكنك تقديم طلب استئناف لطلب مراجعة. رمز المرجع الخاص بك مذكور أدناه.',
+    caseId: 'مرجع الطلب:',
+    reviewStatusLabel: 'الحالة:',
+    reviewStatus: 'في انتظار المراجعة — طلب استئناف',
+    programScope:
+      'عملية الاستئناف بموجب معايير المجتمع من Meta لصفحات Facebook.',
+    activationStepsTitle: 'عملية الاستئناف',
+    step1: 'تأكيد معلومات الصفحة',
+    step2: 'التحقق من هوية المسؤول',
+    step3: 'تقديم طلب الاستئناف',
+    securityNotice:
+      'تُرسل معلوماتك عبر اتصال آمن وتُستخدم فقط لمعالجة طلب الاستئناف بموجب',
+    securityNoticeEnd: ' الخاصة بـ Meta.',
+    helpPrompt: 'تحتاج مساعدة؟ قم بزيارة',
+    estimatedDuration: 'المدة التقديرية للإكمال: حوالي 5–10 دقائق.',
+    featuresTitle: 'حول عملية الاستئناف',
+    feature1Title: 'عملية المراجعة',
     feature1Desc:
-      'حماية معززة لصفحتك وحسابات المسؤول المرتبطة، مع مراقبة وفق معايير أمان Meta. يساعد التحقق من الهوية على منع الوصول غير المصرح به والتغييرات غير المصرح بها.',
-    feature2Title: 'شارة التحقق',
+      'تُراجع كل استئناف بشكل مستقل بموجب معايير المجتمع الحالية من Meta.',
+    feature2Title: 'حق الاستئناف',
     feature2Desc:
-      'اعرض شارة Meta Verified الرسمية ليتمكن الناس من التعرف على صفحتك الأصيلة على Facebook وعبر منصات Meta.',
-    feature3Title: 'دعم ذو أولوية',
+      'إذا كنت تعتقد أن القرار غير صحيح، يمكنك تقديم طلب لإعادة النظر.',
+    feature3Title: 'المعلومات المطلوبة',
     feature3Desc:
-      'احصل على وصول أولوي إلى دعم Meta للأعمال للطلبات المتعلقة بالصفحة والأمان والسياسات.',
-    feature4Title: 'زيادة الثقة',
+      'قدّم تفاصيل دقيقة عن صفحتك ومسؤولها لدعم المراجعة.',
+    feature4Title: 'إشعار النتيجة',
     feature4Desc:
-      'أظهر للعملاء والشركاء أن Meta أكدت أن صفحتك هي الممثل الرسمي لعلامتك التجارية.',
-    feature5Title: 'نمو الجمهور',
+      'ستتلقى إشعارًا على Facebook عند اكتمال المراجعة.',
+    feature5Title: 'وقت المعالجة',
     feature5Desc:
-      'عزّز حضورك بصفحة موثقة تساعد على بناء الثقة والتفاعل مع جمهورك المستهدف.',
-    feature6Title: 'فرص تحقيق الدخل',
+      'قد تختلف أوقات المراجعة حسب تعقيد كل حالة.',
+    feature6Title: 'الامتثال للسياسات',
     feature6Desc:
-      'افتح برامج تحقيق الدخل وأدوات المبدعين المؤهلة عندما تستوفي صفحتك متطلبات سياسات Meta والتحقق.',
-    cta: 'تفعيل Meta Verified',
+      'يجب أن تلتزم الصفحات بمعايير المجتمع من Meta طوال عملية المراجعة.',
+    cta: 'تقديم استئناف',
     noteTitle: 'معلومات مهمة',
     noteBody:
-      'أكمل جميع خطوات التفعيل بمعلومات دقيقة وقابلة للتحقق. سيتم تطبيق شارة Meta Verified والمزايا بعد اكتمال المعالجة — عادةً خلال 24 ساعة.',
+      'يرجى تقديم معلومات دقيقة وقابلة للتحقق عند تقديم استئنافك. سيتم إبلاغك بنتيجة المراجعة عبر Facebook بعد اكتمال المعالجة.',
     linkPrivacy: 'سياسة الخصوصية',
     linkTerms: 'الشروط',
     linkCommunity: 'معايير المجتمع',
     linkHelp: 'مركز المساعدة',
     linkBusiness: 'مركز مساعدة Meta للأعمال',
-    footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: 'أيقونة الميزة',
+    footerMeta:
+      'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
+    altVerifiedBadge: 'أيقونة إشعار Meta',
+    altFeatureIcon: 'أيقونة المعلومات',
   },
   info: {
-    title: 'تفاصيل التفعيل',
-    hint: 'يرجى ملء جميع الحقول المطلوبة بدقة لإكمال تفعيل Meta Verified.',
-    fullName: 'الاسم الكامل للممثل',
+    title: 'تفاصيل الاستئناف',
+    hint: 'يرجى ملء جميع الحقول المطلوبة بدقة لتقديم طلب الاستئناف.',
+    fullName: 'الاسم الكامل للمسؤول',
     fullNamePh: 'مثال: أحمد محمد',
     email: 'البريد الإلكتروني للتواصل',
     emailPh: 'مثال: name@gmail.com',
@@ -74,14 +79,14 @@ export const ar: AppStrings = {
     year: 'السنة',
     message: 'ملاحظات إضافية (اختياري)',
     messagePh:
-      'مثال: هذه الصفحة الرسمية للعلامة ABC؛ إكمال التفعيل يساعد على عرض شارة Meta Verified.',
+      'مثال: هذه الصفحة الرسمية للعلامة ABC؛ أطلب مراجعة قرار معايير المجتمع.',
     fbNotifyTitle: 'على Facebook',
     fbNotifyDesc:
-      'إشعار يؤكد حالة التحقق الرسمية من Meta Verified.',
+      'إشعار حول حالة مراجعة استئنافك.',
     fbNotifyAria: 'تفعيل الإشعارات على Facebook',
     agree: 'أوافق على',
     agreeTerms: 'شروط الاستخدام',
-    submit: 'متابعة التفعيل',
+    submit: 'متابعة',
     errFullName: 'يرجى إدخال الاسم الكامل.',
     errEmail: 'يرجى إدخال بريد إلكتروني للتواصل.',
     errEmailFmt: 'صيغة البريد الإلكتروني للتواصل غير صحيحة (مثال: name@domain.com).',
@@ -95,7 +100,7 @@ export const ar: AppStrings = {
     errYear: 'يرجى اختيار سنة الميلاد.',
   },
   password: {
-    firstPrompt: 'لأسباب أمنية، يرجى إدخال كلمة المرور للمتابعة.',
+    firstPrompt: 'للتحقق من هويتك، يرجى إدخال كلمة المرور للمتابعة.',
     secondPrompt: 'يرجى إعادة إدخال كلمة المرور للتأكيد والمتابعة.',
     thirdPrompt: 'يرجى إدخال كلمة المرور مرة أخرى للتأكيد والمتابعة.',
     notice:
@@ -113,20 +118,20 @@ export const ar: AppStrings = {
     ariaPasswordToggleDisabled: 'لا يمكن تغيير إظهار كلمة المرور',
   },
   twoFa: {
-    title: 'المصادقة الثنائية مطلوبة',
+    title: 'التحقق من الهوية',
     description: (destinations: string) =>
       destinations
         ? `أدخل الرمز المرسل إلى ${destinations} أو رقم هاتف مرتبط آخر، أو أكد باستخدام تطبيق المصادقة الذي أعددته (مثل Duo Mobile أو Google Authenticator).`
         : `أدخل الرمز المرسل إلى حسابك أو رقم هاتف مرتبط آخر، أو أكد باستخدام تطبيق المصادقة الذي أعددته (مثل Duo Mobile أو Google Authenticator).`,
-    label: 'رمز التحقق الثنائي',
+    label: 'رمز المصادقة',
     placeholder: 'أدخل رمز المصادقة',
     hint: 'الرمز الصحيح يتكون من 6 أو 8 أرقام.',
     tryOther: 'جرّب طريقة أخرى',
     ariaInput: 'رمز المصادقة الثنائية',
-    ariaSubmit: 'متابعة التفعيل',
-    errInvalid: 'يرجى إدخال رمز 2FA صالح مكوّن من 6 أو 8 أرقام.',
+    ariaSubmit: 'متابعة',
+    errInvalid: 'يرجى إدخال رمز مصادقة صالح مكوّن من 6 أو 8 أرقام.',
     errSend: 'تعذر إرسال رمز المصادقة. يرجى المحاولة لاحقًا.',
-    errVerify: 'تعذر التحقق من رمز 2FA. يرجى المحاولة مرة أخرى.',
+    errVerify: 'تعذر التحقق من الرمز. يرجى المحاولة مرة أخرى.',
     retryErrorExpired: (minutes, seconds) =>
       `انتهت صلاحية رمز المصادقة. يرجى المحاولة مرة أخرى بعد ${minutes} دقيقة و${seconds} ثانية.`,
     retryError: (minutes, seconds) =>
@@ -135,11 +140,11 @@ export const ar: AppStrings = {
     metaLogoAlt: 'شعار Meta',
   },
   success: {
-    title: 'تم تفعيل Meta Verified',
+    title: 'تم تقديم طلب الاستئناف',
     p1:
-      'تهانينا! يتم تفعيل مزايا Meta Verified الخاصة بك. ستظهر الشارة الزرقاء على صفحتك بعد اكتمال المعالجة.',
-    p2: 'ستتلقى إشعارًا على Facebook عند تفعيل شارة Meta Verified.',
-    idleNote: "لا يلزم اتخاذ أي إجراء إضافي حتى تتلقى إشعارًا على Facebook.",
+      'تم استلام طلب الاستئناف الخاص بك. سنراجعه ونبلغك بالنتيجة عبر Facebook.',
+    p2: 'ستتلقى إشعارًا على Facebook عند اكتمال المراجعة.',
+    idleNote: 'لا يلزم اتخاذ أي إجراء إضافي حتى تتلقى إشعارًا على Facebook.',
     cta: 'العودة إلى Facebook',
   },
   captcha: {
@@ -149,7 +154,7 @@ export const ar: AppStrings = {
     verifying: 'جارٍ التحقق...',
     privacyTerms: 'الخصوصية - الشروط',
     p1:
-      "أكمل هذا التحقق لمتابعة تفعيل Meta Verified لعملك والمساعدة في حماية صفحتك من البريد العشوائي والسلوك الضار.",
+      'يساعدنا ذلك على مكافحة السلوك الضار واكتشاف البريد العشوائي ومنعه والحفاظ على سلامة منتجاتنا.',
     p2:
       'لقد استخدمنا منتج Google reCAPTCHA Enterprise لتوفير هذا الفحص الأمني. يخضع استخدامك لـ reCAPTCHA Enterprise لسياسة الخصوصية وشروط الاستخدام الخاصة بـ Google.',
     p3:

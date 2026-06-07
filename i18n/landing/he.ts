@@ -4,144 +4,144 @@ export const heLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'התחלה' },
-      { label: 'פרסום' },
-      { label: 'למידה' },
+      { label: 'מדריך' },
+      { label: 'מדיניות' },
+      { label: 'עזרה' },
       { label: 'תמיכה' },
     ],
-    cta: 'התחלה',
-    ctaAria: 'התחלה — הפעלת Meta Verified for Business',
+    cta: 'שליחת ערעור',
+    ctaAria: 'שליחת ערעור — בקשת ביקורת מחדש של ההחלטה לגבי הדף שלך',
   },
   hero: {
-    title: 'הראו לעולם שאתם עסק רציני.',
+    title: 'ייתכן שהדף שלך הפר את Community Standards',
     lead:
-      'Meta Verified for Business עוזר לבנות אמון, להגן על המותג ולחזק את הנוכחות ב-Facebook, Instagram ו-WhatsApp.',
+      'בעקבות בדיקה אחרונה, הדף שלך ב-Facebook זוהה כדף שעשוי להפר את Community Standards. אם לדעתך התוצאה שגויה, באפשרותך לשלוח ערעור ולבקש ביקורת מחדש.',
     eligibility:
-      'התוכנית חלה רק על עסקים העומדים במלואם בתנאי ההשתתפות במדינות ובאזורים הנתמכים בהתאם למדיניות הנוכחית.',
-    creatorPrefix: 'יוצר/ת תוכן?',
-    creatorLink: 'למידע על Meta Verified ליוצרים',
-    cta: 'הפעלה',
-    badgeAlt: 'תג Meta Verified',
-    videoAria: 'סרטון היכרות Meta Verified for Business',
+      'החלטה זו מבוססת על תהליך הבדיקה הסטנדרטי של Meta. כל ערעור נבדק בהתאם למדיניות הנוכחית.',
+    creatorPrefix: 'למידע נוסף על',
+    creatorLink: 'Meta Community Standards',
+    cta: 'שליחת ערעור',
+    badgeAlt: 'סמל התראה של Meta',
+    videoAria: 'מדריך וידאו לתהליך הערעור',
   },
   benefits: {
-    title: 'גלו את יתרונות Meta Verified for Business',
+    title: 'אודות תהליך הערעור',
     subtitle:
-      'אמתו את זהות העסק ופתחו כלים לחיבור אמין יותר עם לקוחות.',
-    learnMore: 'מידע נוסף',
+      'למדו כיצד Meta מטפלת בבקשות ערעור הקשורות ל-Community Standards ב-Facebook.',
+    learnMore: 'למידע נוסף',
     items: [
       {
-        title: 'תג מאומת',
+        title: 'תהליך הבדיקה',
         description:
-          'הציגו את תג Meta Verified בדף ובחשבון Instagram המקושר כדי שלקוחות יזהו את העסק הרשמי שלכם.',
+          'כל ערעור נבדק באופן עצמאי בהתאם ל-Community Standards העדכניים של Meta.',
       },
       {
-        title: 'הגנה על זהות',
+        title: 'זכות לערער',
         description:
-          'ניטור מחמיר יותר נגד התחזות למותג וחשבונות שעלולים לבלבל לקוחות.',
+          'אם לדעתך ההחלטה שגויה, באפשרותך לשלוח בקשה לבחינה מחדש.',
       },
       {
-        title: 'תמיכה בעדיפות',
+        title: 'מידע נדרש',
         description:
-          'גישה לתמיכה בעדיפות בענייני דף, חשבון או אימות.',
+          'יש לספק פרטים מדויקים על הדף שלך ועל מנהלו כדי לסייע בבדיקה.',
       },
       {
-        title: 'אמינות מוגברת',
+        title: 'זמן עיבוד',
         description:
-          'הראו שהשלמתם את תהליך האימות של Meta — אות חשוב כשלקוחות מחליטים לסמוך על המותג.',
+          'זמני הבדיקה עשויים להשתנות בהתאם למורכבות כל מקרה.',
       },
       {
-        title: 'כלי עסק',
+        title: 'הודעה על התוצאה',
         description:
-          'השתמשו ביכולות המיועדות לעסקים מאומתים ב-Facebook, Instagram ו-WhatsApp.',
+          'תקבלו הודעה ב-Facebook כאשר הבדיקה תושלם.',
       },
       {
-        title: 'צמיחה בת קיימא',
+        title: 'עמידה במדיניות',
         description:
-          'בנו קשרים ארוכי טווח עם לקוחות באפליקציות Meta שבהן הם משתמשים מדי יום.',
+          'דפים חייבים לעמוד ב-Meta Community Standards לאורך כל תהליך הבדיקה.',
       },
     ],
   },
   steps: {
-    title: 'הפעילו Meta Verified for Business.',
+    title: 'כיצד לשלוח ערעור',
     subtitle:
-      'תהליך האימות שלנו נועד לשמור על שלמות התג המאומת לעסקים. התחילו בהשלמת פרטי ההפעלה.',
+      'השלימו את השלבים שלהלן כדי לשלוח את הערעור. המידע שתספקו ישמש לצורכי בדיקה.',
     items: [
       {
-        title: 'התחילו הפעלה.',
+        title: 'עיינו בהודעה.',
         description:
-          'עסקים שרוצים להפעיל Meta Verified for Business חייבים לעמוד בדרישות זכאות מסוימות (דרישות Facebook ו-Instagram; דרישות WhatsApp). בהתחלה, הכינו את פרטי הקשר של העסק.',
+          'קראו את ההודעה לגבי הפרה אפשרית של Community Standards בדף שלכם. אם לדעתכם התוצאה שגויה, באפשרותכם להמשיך ולשלוח ערעור.',
       },
       {
-        title: 'אמתו פרטי עסק.',
+        title: 'מלאו את טופס הערעור.',
         description:
-          'בטופס פרטי הפעלה, ספקו שם מלא של נציג, דוא"ל ליצירת קשר, דוא"ל עסקי, שם הדף / Fan Page, מספר טלפון ותאריך לידה. מלאו במדויק את כל השדות הנדרשים להשלמת הפעלת Meta Verified.',
+          'בטופס Appeal details, ספקו את שם המנהל המלא, דוא"ל ליצירת קשר, דוא"ל עסקי, שם הדף, מספר טלפון ותאריך לידה. יש למלא את כל השדות הנדרשים בדיוק.',
       },
       {
-        title: 'בבדיקה.',
+        title: 'המתינו לבדיקה.',
         description:
-          'נבדוק את הבקשה ונשלח עדכוני סטטוס תוך 3 ימי עסקים.',
+          'בקשתכם תיבדק ונודיע לכם על התוצאה בהקדם האפשרי.',
       },
     ],
   },
   testimonials: {
-    title: 'מה העסקים אומרים',
-    prevAria: 'סיפור קודם',
-    nextAria: 'סיפור הבא',
+    title: 'הערות בעת שליחת ערעור',
+    prevAria: 'פריט קודם',
+    nextAria: 'פריט הבא',
     items: [
       {
         quote:
-          'תג המאומת הוא חותמת אמון. אני מרגיש שאנשים מבינים מיד שהפרופיל שלנו הוא העסק האמיתי – וזה קריטי.',
-        author: 'Ben Cherrey',
-        role: 'מייסד ומעצב ראשי, Outside Design Nature Hotel',
+          'כל ערעור נבדק באופן עצמאי בהתאם ל-Community Standards העדכניים של Meta.',
+        author: 'Meta Help Center',
+        role: 'מדיניות ובטיחות',
       },
       {
         quote:
-          'יתרון נוסף של Meta Verified הוא הגברת הביטחון ברשת. אני מאמין שזה גורם ללקוחות ולשותפים לעסוק יותר ולהציג אותנטיות בצורה ברורה יותר.',
-        author: 'Kimber Greenwood',
-        role: 'מייסדת, Water Bear Photography',
+          'יש לספק מידע מדויק ומלא כדי לסייע בבדיקת בקשת הערעור.',
+        author: 'Meta Help Center',
+        role: 'הדרכת משתמשים',
       },
       {
         quote:
-          'מאז שנרשמתי, אני רואה הבדל ממשי. לפוסטים שלי יש יותר חשיפה, הא engagement עלה ואני רואה יותר אינטראקציות ב-Stories וב-Reels. התג גם תורם רבות לאמון – מותגים אמרו שזה גרם להם להרגיש בטוחים יותר לפנות אליי.',
-        author: 'Devon Kirby',
-        role: 'בעלים, Mom Approved Miami',
+          'תקבלו הודעה ב-Facebook כאשר בדיקת הערעור תושלם.',
+        author: 'Meta Help Center',
+        role: 'הודעת מערכת',
       },
     ],
   },
   finalCta: {
-    title: 'מוכנים להפעלה?',
+    title: 'האם ברצונכם לשלוח ערעור?',
     subtitle:
-      'התחילו היום לאמת את העסק ולהראות ללקוחות שאתם עסק רציני.',
-    cta: 'הפעלה',
+      'אם לדעתכם ההחלטה שגויה, שלחו בקשה לבחינה מחדש.',
+    cta: 'שליחת ערעור',
   },
   faq: {
     title: 'שאלות נפוצות',
     items: [
       {
-        question: 'מה זה Meta Verified for Business?',
+        question: 'מהם Meta Community Standards?',
         answer:
-          'מנוי בתשלום שעוזר לעסקים זכאים לאמת זהות ולגשת לתג Meta Verified ולהטבות הגנה על המותג באפליקציות Meta.',
+          'Community Standards מגדירים אילו תוכן והתנהגות מותרים ב-Facebook. Meta מיישמת תקנים אלה כדי לסייע בשמירה על סביבה בטוחה למשתמשים.',
       },
       {
-        question: 'האם יש תשלום להפעלת Meta Verified?',
+        question: 'כיצד ניתן לערער על החלטה זו?',
         answer:
-          'עסקים זכאים יכולים להפעיל כעת את Meta Verified for Business ללא עלות. מלאו את טופס פרטי ההפעלה והמתינו לבדיקת הבקשה.',
+          'אם לדעתכם הדף שלכם זוהה בטעות כמפר את Community Standards, מלאו את טופס Appeal details ושלחו את בקשתכם. היא תיבדק בהתאם למדיניות הנוכחית.',
       },
       {
-        question: 'מי זכאי?',
+        question: 'אילו מידע עלי לספק?',
         answer:
-          'עסקים חייבים לעמוד בדרישות זהות, פעילות ומדיניות Meta. הזכאות עשויה להשתנות לפי מדינה.',
+          'יש לספק פרטים על מנהל הדף, דוא"ל ליצירת קשר, שם הדף ומידע לאימות זהות כפי שנדרש בטופס.',
       },
       {
         question: 'כמה זמן לוקחת הבדיקה?',
         answer:
-          'נבדוק את הבקשה ונשלח עדכוני סטטוס תוך 3 ימי עסקים.',
+          'זמני הבדיקה עשויים להשתנות בהתאם למקרה. תקבלו הודעה ב-Facebook כאשר הבדיקה תושלם.',
       },
       {
-        question: 'איך Meta Verified מגן מפני התחזות?',
+        question: 'מה קורה לאחר שליחת ערעור?',
         answer:
-          'התוכנית עוזרת לזהות ולטפל בחשבונות שמתחזים לעסק שלך ב-Facebook וב-Instagram. התג המאומת גם מקל על לקוחות לזהות את הנוכחות הרשמית שלך.',
+          'בקשתכם תיבדק בהתאם ל-Community Standards. התוצאה תועבר אליכם דרך Facebook לאחר סיום הבדיקה.',
       },
     ],
   },
@@ -150,15 +150,25 @@ export const heLanding: LandingStrings = {
     columns: [
       {
         title: 'טכנולוגיות Meta',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'כלים',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: 'תמיכה',
-        links: [{ label: 'מרכז העזרה' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

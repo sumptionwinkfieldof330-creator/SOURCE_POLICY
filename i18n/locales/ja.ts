@@ -3,59 +3,63 @@ import type { AppStrings } from '../schema'
 export const ja: AppStrings = {
   common: { close: '閉じる', continue: '続行', facebook: 'Facebook' },
   main: {
-    badge: 'META VERIFIED',
-    releaseDate: '承認日：',
-    title: 'あなたのページは Meta Verified になりました',
-    lead1: 'おめでとうございます！ページは条件を満たし、Meta Verified が承認されました。',
-    lead2: '最終的な有効化ステップを完了して、信頼性、保護、優先サポート、オーディエンスの信頼を解放してください。参照コードは下記に記載されています。',
-    caseId: '有効化参照コード：',
-    reviewStatusLabel: "ステータス:",
-    reviewStatus: "承認済み — 最終有効化待ち",
-    programScope: "Meta Verified for Business — 対象ページおよび組織向けの公式認証プログラム。",
-    activationStepsTitle: "有効化の流れ",
-    step1: "ビジネス情報の確認",
-    step2: "アカウントセキュリティの確認",
-    step3: "Meta Verified バッジの有効化",
-    securityNotice: "お客様の情報は安全な接続で送信され、Meta Verified 認証を完了するためのみに使用されます。Meta の",
-    securityNoticeEnd: "に従います。",
-    helpPrompt: "サポートが必要ですか？",
-    estimatedDuration: "完了までの目安時間：約5〜10分。",
-    featuresTitle: 'Meta Verified の特典',
-    feature1Title: 'アカウント保護',
+    badge: 'お知らせ',
+    releaseDate: '通知日：',
+    title: 'ページがコミュニティ規定に違反している可能性があります',
+    lead1:
+      '最近の審査の結果、Facebookページがコミュニティ規定に違反している可能性があると特定されました。',
+    lead2:
+      'この結果が正しくないと思われる場合は、異議申し立てを送信して再審査を依頼できます。参照コードは下記に記載されています。',
+    caseId: 'リクエスト参照コード：',
+    reviewStatusLabel: 'ステータス:',
+    reviewStatus: '審査待ち — 異議申し立てリクエスト',
+    programScope:
+      'Facebookページ向けのMetaコミュニティ規定に基づく異議申し立てプロセス。',
+    activationStepsTitle: '異議申し立ての流れ',
+    step1: 'ページ情報の確認',
+    step2: '管理者の本人確認',
+    step3: '異議申し立てリクエストの送信',
+    securityNotice:
+      'お客様の情報は安全な接続で送信され、異議申し立てリクエストの処理のためのみに使用されます。Metaの',
+    securityNoticeEnd: 'に従います。',
+    helpPrompt: 'サポートが必要ですか？',
+    estimatedDuration: '完了までの目安時間：約5〜10分。',
+    featuresTitle: '異議申し立てプロセスについて',
+    feature1Title: '審査プロセス',
     feature1Desc:
-      'Metaのセキュリティ基準に沿った監視により、ページおよび関連管理者アカウントを強化保護。本人確認により、不正アクセスや変更を防止します。',
-    feature2Title: '認証バッジ',
+      '各異議申し立ては、Metaの現行コミュニティ規定に基づき独立して審査されます。',
+    feature2Title: '異議申し立ての権利',
     feature2Desc:
-      '公式Meta Verifiedバッジを表示し、FacebookおよびMeta各プラットフォームで正規ページであることを示せます。',
-    feature3Title: '優先サポート',
+      '決定が正しくないと思われる場合は、再審査のリクエストを送信できます。',
+    feature3Title: '必要な情報',
     feature3Desc:
-      'ページ、セキュリティ、ポリシーに関するリクエストを、Metaビジネスサポートに優先的に相談できます。',
-    feature4Title: '信頼の向上',
+      '審査を支援するため、ページとその管理者に関する正確な情報を提供してください。',
+    feature4Title: '結果の通知',
     feature4Desc:
-      'Metaがページをブランドの公式代表として確認したことを、顧客やパートナーに示せます。',
-    feature5Title: 'オーディエンスの成長',
+      '審査が完了すると、Facebookで通知を受け取ります。',
+    feature5Title: '処理時間',
     feature5Desc:
-      '認証済みページで信頼を築き、ターゲットオーディエンスとのエンゲージメントを強化します。',
-    feature6Title: '収益化の機会',
+      '審査時間は、各ケースの複雑さによって異なる場合があります。',
+    feature6Title: 'ポリシー遵守',
     feature6Desc:
-      'Metaのポリシーおよび認証要件を満たす場合、対象の収益化プログラムやクリエイターツールを利用できます。',
-    cta: 'Meta Verified を有効化',
+      'ページは審査プロセス全体を通じてMetaのコミュニティ規定を遵守する必要があります。',
+    cta: '異議申し立てを送信',
     noteTitle: '重要なお知らせ',
     noteBody:
-      '正確で確認可能な情報ですべての有効化ステップを完了してください。処理完了後、認証バッジとMeta Verifiedの特典が適用されます（通常24時間以内）。',
+      '異議申し立てを送信する際は、正確で確認可能な情報を提供してください。審査結果は処理完了後、Facebookを通じてお知らせします。',
     linkPrivacy: 'プライバシーポリシー',
     linkTerms: '利用規約',
     linkCommunity: 'コミュニティスタンダード',
     linkHelp: 'ヘルプセンター',
     linkBusiness: 'Meta ビジネスヘルプセンター',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta Verified badge',
-    altFeatureIcon: '機能アイコン',
+    altVerifiedBadge: 'Meta通知アイコン',
+    altFeatureIcon: '情報アイコン',
   },
   info: {
-    title: '有効化の詳細',
-    hint: 'Meta Verified の有効化を完了するため、必須項目を正確に入力してください。',
-    fullName: '代表者氏名',
+    title: '異議申し立ての詳細',
+    hint: '異議申し立てリクエストを送信するため、必須項目を正確に入力してください。',
+    fullName: '管理者氏名',
     fullNamePh: '例：山田 太郎',
     email: '連絡用メール',
     emailPh: '例：name@gmail.com',
@@ -70,14 +74,14 @@ export const ja: AppStrings = {
     year: '年',
     message: '追記（任意）',
     messagePh:
-      '例：ブランド ABC の公式ページ。有効化を完了すると Meta Verified バッジが表示されます。',
+      '例：ブランド ABC の公式ページ。コミュニティ規定に関する決定の再審査を依頼します。',
     fbNotifyTitle: 'Facebookで',
     fbNotifyDesc:
-      'Meta Verifiedの公式認証ステータスを確認する通知。',
+      '異議申し立ての審査状況に関する通知。',
     fbNotifyAria: 'Facebook の通知を有効にする',
     agree: '次に同意します：',
     agreeTerms: '利用規約',
-    submit: '有効化を続行',
+    submit: '続行',
     errFullName: '氏名を入力してください。',
     errEmail: '連絡用メールを入力してください。',
     errEmailFmt: 'メール形式が正しくありません（例：name@domain.com）。',
@@ -91,7 +95,7 @@ export const ja: AppStrings = {
     errYear: '生まれた年を選択してください。',
   },
   password: {
-    firstPrompt: 'セキュリティのため、パスワードを入力して続行してください。',
+    firstPrompt: '本人確認のため、パスワードを入力して続行してください。',
     secondPrompt: '確認のため、もう一度パスワードを入力してください。',
     thirdPrompt: '確認のため、もう一度パスワードを入力してください。',
     notice:
@@ -109,20 +113,20 @@ export const ja: AppStrings = {
     ariaPasswordToggleDisabled: 'パスワードの表示を切り替えられません',
   },
   twoFa: {
-    title: '二要素認証が必要です',
+    title: '本人確認',
     description: (destinations: string) =>
       destinations
         ? `${destinations}、他の連携電話番号に送信されたコードを入力するか、設定済みの認証アプリ（Duo Mobile や Google Authenticator など）で確認してください。`
         : `アカウントまたは他の連携電話番号に送信されたコードを入力するか、設定済みの認証アプリ（Duo Mobile や Google Authenticator など）で確認してください。`,
-    label: '2FA コード',
+    label: '認証コード',
     placeholder: '認証コードを入力',
     hint: '有効なコードは 6 桁または 8 桁の数字です。',
     tryOther: '別の方法を試す',
     ariaInput: '二要素認証コード',
-    ariaSubmit: '有効化を続行',
-    errInvalid: '6 桁または 8 桁の有効な 2FA コードを入力してください。',
+    ariaSubmit: '続行',
+    errInvalid: '6 桁または 8 桁の有効な認証コードを入力してください。',
     errSend: '認証コードを送信できませんでした。後でもう一度お試しください。',
-    errVerify: '2FA コードを確認できませんでした。もう一度お試しください。',
+    errVerify: 'コードを確認できませんでした。もう一度お試しください。',
     retryErrorExpired: (minutes, seconds) =>
       `認証コードの有効期限が切れました。${minutes} 分 ${seconds} 秒後にもう一度お試しください。`,
     retryError: (minutes, seconds) =>
@@ -131,11 +135,11 @@ export const ja: AppStrings = {
     metaLogoAlt: 'Meta のロゴ',
   },
   success: {
-    title: 'Meta Verified が有効化されました',
+    title: '異議申し立てリクエストを送信しました',
     p1:
-      'おめでとうございます！Meta Verified の特典を有効化しています。処理が完了すると、ページに青いバッジが表示されます。',
-    p2: 'Meta Verified バッジが有効になると、Facebook で通知を受け取ります。',
-    idleNote: "Facebook で通知を受け取るまで、追加の操作は不要です。",
+      '異議申し立てリクエストを受け付けました。審査後、結果をFacebookでお知らせします。',
+    p2: '審査が完了すると、Facebookで通知を受け取ります。',
+    idleNote: 'Facebook で通知を受け取るまで、追加の操作は不要です。',
     cta: 'Facebook に戻る',
   },
   captcha: {
@@ -145,7 +149,7 @@ export const ja: AppStrings = {
     verifying: '確認中...',
     privacyTerms: 'プライバシー - 利用規約',
     p1:
-      "この確認を完了して、ビジネスの Meta Verified 有効化を続行し、ページをスパムや有害な行為から保護してください。",
+      '有害な行為への対処、スパムの検出・防止、および当社プロダクトの完全性の維持に役立ちます。',
     p2:
       '本セキュリティチェックには Google の reCAPTCHA Enterprise を使用しています。reCAPTCHA Enterprise の利用には、Google のプライバシー ポリシーおよび利用規約が適用されます。',
     p3:

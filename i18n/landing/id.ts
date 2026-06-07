@@ -4,144 +4,144 @@ export const idLanding: LandingStrings = {
   header: {
     logoLabel: 'Meta',
     nav: [
-      { label: 'Memulai' },
-      { label: 'Iklankan' },
-      { label: 'Pelajari' },
+      { label: 'Panduan' },
+      { label: 'Kebijakan' },
+      { label: 'Bantuan' },
       { label: 'Dukungan' },
     ],
-    cta: 'Memulai',
-    ctaAria: 'Memulai — aktifkan Meta Verified for Business',
+    cta: 'Kirim banding',
+    ctaAria: 'Kirim banding — minta peninjauan keputusan Halaman Anda',
   },
   hero: {
-    title: 'Tunjukkan kepada dunia bahwa bisnis Anda serius.',
+    title: 'Halaman Anda mungkin melanggar Community Standards',
     lead:
-      'Meta Verified for Business membantu membangun kepercayaan, melindungi merek, dan memperkuat kehadiran Anda di Facebook, Instagram, dan WhatsApp.',
+      'Setelah peninjauan baru-baru ini, Halaman Facebook Anda teridentifikasi berpotensi melanggar Community Standards. Jika Anda yakin hasil ini tidak benar, Anda dapat mengirim banding untuk meminta peninjauan.',
     eligibility:
-      'Program ini hanya berlaku bagi bisnis yang memenuhi seluruh persyaratan partisipasi di negara dan wilayah yang didukung sesuai kebijakan yang berlaku.',
-    creatorPrefix: 'Apakah Anda kreator?',
-    creatorLink: 'Pelajari Meta Verified untuk kreator',
-    cta: 'Aktifkan',
-    badgeAlt: 'Lencana Meta Verified',
-    videoAria: 'Video pengenalan Meta Verified for Business',
+      'Keputusan ini didasarkan pada proses peninjauan standar Meta. Setiap banding ditinjau sesuai kebijakan yang berlaku.',
+    creatorPrefix: 'Pelajari selengkapnya tentang',
+    creatorLink: 'Community Standards Meta',
+    cta: 'Kirim banding',
+    badgeAlt: 'Ikon notifikasi Meta',
+    videoAria: 'Panduan video proses banding',
   },
   benefits: {
-    title: 'Temukan manfaat Meta Verified for Business',
+    title: 'Tentang proses banding',
     subtitle:
-      'Verifikasi identitas bisnis dan buka alat untuk terhubung dengan pelanggan secara lebih kredibel.',
+      'Pelajari bagaimana Meta menangani permintaan banding terkait Community Standards di Facebook.',
     learnMore: 'Pelajari selengkapnya',
     items: [
       {
-        title: 'Lencana terverifikasi',
+        title: 'Proses peninjauan',
         description:
-          'Tampilkan lencana Meta Verified di Halaman dan akun Instagram yang ditautkan agar pelanggan mengenali bisnis resmi Anda.',
+          'Setiap banding ditinjau secara independen sesuai Community Standards Meta yang berlaku.',
       },
       {
-        title: 'Perlindungan identitas',
+        title: 'Hak banding',
         description:
-          'Pemantauan lebih kuat terhadap peniruan merek dan akun yang dapat membingungkan pelanggan.',
+          'Jika Anda yakin keputusan tersebut tidak benar, Anda dapat mengajukan permintaan peninjauan ulang.',
       },
       {
-        title: 'Dukungan prioritas',
+        title: 'Informasi yang diperlukan',
         description:
-          'Akses dukungan prioritas saat Anda membutuhkan bantuan terkait Halaman, akun, atau verifikasi.',
+          'Harap berikan detail yang akurat tentang Halaman Anda dan administratornya untuk mendukung peninjauan.',
       },
       {
-        title: 'Kredibilitas lebih tinggi',
+        title: 'Waktu pemrosesan',
         description:
-          'Tunjukkan bahwa Anda menyelesaikan proses verifikasi Meta — sinyal penting saat pelanggan memutuskan untuk mempercayai merek Anda.',
+          'Waktu peninjauan dapat bervariasi tergantung kompleksitas setiap kasus.',
       },
       {
-        title: 'Alat bisnis',
+        title: 'Notifikasi hasil',
         description:
-          'Gunakan fitur yang dirancang untuk bisnis terverifikasi di Facebook, Instagram, dan WhatsApp.',
+          'Anda akan menerima notifikasi di Facebook setelah peninjauan selesai.',
       },
       {
-        title: 'Pertumbuhan berkelanjutan',
+        title: 'Kepatuhan kebijakan',
         description:
-          'Bangun hubungan jangka panjang dengan pelanggan di aplikasi Meta yang mereka gunakan setiap hari.',
+          'Halaman harus mematuhi Community Standards Meta selama proses peninjauan.',
       },
     ],
   },
   steps: {
-    title: 'Aktifkan Meta Verified for Business.',
+    title: 'Cara mengirim banding',
     subtitle:
-      'Proses verifikasi kami dirancang untuk menjaga integritas lencana terverifikasi bagi bisnis. Mulailah dengan melengkapi detail aktivasi.',
+      'Selesaikan langkah-langkah di bawah ini untuk mengirim banding Anda. Informasi Anda akan digunakan untuk keperluan peninjauan.',
     items: [
       {
-        title: 'Mulai aktivasi.',
+        title: 'Tinjau pemberitahuan.',
         description:
-          'Bisnis yang ingin mengaktifkan Meta Verified for Business harus memenuhi persyaratan kelayakan tertentu (persyaratan untuk Facebook dan Instagram; persyaratan untuk WhatsApp). Saat memulai, siapkan informasi kontak bisnis Anda.',
+          'Baca pemberitahuan tentang potensi pelanggaran Community Standards pada Halaman Anda. Jika Anda yakin hasilnya tidak benar, Anda dapat melanjutkan untuk mengirim banding.',
       },
       {
-        title: 'Verifikasi detail bisnis.',
+        title: 'Lengkapi formulir banding.',
         description:
-          'Dalam formulir Detail aktivasi, berikan nama lengkap perwakilan, email kontak, email bisnis, nama Halaman/Fanpage, nomor telepon, dan tanggal lahir. Isi semua bidang wajib dengan benar untuk menyelesaikan aktivasi Meta Verified.',
+          'Pada formulir Detail banding, berikan nama lengkap administrator, email kontak, email bisnis, nama Halaman, nomor telepon, dan tanggal lahir. Isi semua kolom wajib dengan benar.',
       },
       {
-        title: 'Ditinjau.',
+        title: 'Tunggu peninjauan.',
         description:
-          'Kami akan meninjau aplikasi Anda dan mengirim pembaruan status dalam 3 hari kerja.',
+          'Permintaan Anda akan ditinjau dan kami akan memberi tahu hasilnya sesegera mungkin.',
       },
     ],
   },
   testimonials: {
-    title: 'Apa kata bisnis',
-    prevAria: 'Cerita sebelumnya',
-    nextAria: 'Cerita berikutnya',
+    title: 'Catatan saat mengirim banding',
+    prevAria: 'Item sebelumnya',
+    nextAria: 'Item berikutnya',
     items: [
       {
         quote:
-          'Lencana terverifikasi adalah tanda kepercayaan. Menurut saya, orang otomatis tahu profil kami adalah bisnis asli — dan itu sangat penting.',
-        author: 'Ben Cherrey',
-        role: 'Pendiri & desainer utama, Outside Design Nature Hotel',
+          'Setiap banding ditinjau secara independen sesuai Community Standards Meta yang berlaku.',
+        author: 'Pusat Bantuan Meta',
+        role: 'Kebijakan dan keamanan',
       },
       {
         quote:
-          'Manfaat lain Meta Verified adalah peningkatan kepercayaan online. Saya percaya ini mendorong pelanggan dan mitra lebih siap berinteraksi dan menunjukkan autentisitas dengan lebih jelas.',
-        author: 'Kimber Greenwood',
-        role: 'Pendiri, Water Bear Photography',
+          'Harap berikan informasi yang akurat dan lengkap untuk mendukung peninjauan permintaan banding Anda.',
+        author: 'Pusat Bantuan Meta',
+        role: 'Panduan pengguna',
       },
       {
         quote:
-          'Sejak berlangganan, saya merasakan perbedaan nyata. Jangkauan posting meningkat, engagement naik, dan interaksi di Stories serta Reels bertambah. Lencana juga berperan besar dalam kepercayaan — merek mengatakan ini membuat mereka lebih percaya diri menghubungi saya.',
-        author: 'Devon Kirby',
-        role: 'Pemilik, Mom Approved Miami',
+          'Anda akan menerima notifikasi di Facebook setelah peninjauan banding selesai.',
+        author: 'Pusat Bantuan Meta',
+        role: 'Notifikasi sistem',
       },
     ],
   },
   finalCta: {
-    title: 'Siap mengaktifkan?',
+    title: 'Ingin mengirim banding?',
     subtitle:
-      'Mulai hari ini untuk memverifikasi bisnis Anda dan tunjukkan kepada pelanggan bahwa Anda serius.',
-    cta: 'Aktifkan',
+      'Jika Anda yakin keputusan tersebut tidak benar, kirim permintaan agar ditinjau.',
+    cta: 'Kirim banding',
   },
   faq: {
     title: 'Pertanyaan umum',
     items: [
       {
-        question: 'Apa itu Meta Verified for Business?',
+        question: 'Apa itu Community Standards Meta?',
         answer:
-          'Ini adalah langganan berbayar yang membantu bisnis yang memenuhi syarat memverifikasi identitas dan mengakses lencana Meta Verified serta manfaat perlindungan merek di aplikasi Meta.',
+          'Community Standards menentukan konten dan perilaku yang diizinkan di Facebook. Meta menerapkan standar ini untuk membantu menjaga lingkungan yang aman bagi pengguna.',
       },
       {
-        question: 'Apakah aktivasi Meta Verified berbayar?',
+        question: 'Bagaimana cara mengajukan banding atas keputusan ini?',
         answer:
-          'Bisnis yang memenuhi syarat saat ini dapat mengaktifkan Meta Verified for Business secara gratis. Lengkapi formulir detail aktivasi dan tunggu peninjauan aplikasi Anda.',
+          'Jika Anda yakin Halaman Anda salah diidentifikasi sebagai melanggar Community Standards, lengkapi formulir Detail banding dan kirim permintaan Anda. Permintaan akan ditinjau sesuai kebijakan yang berlaku.',
       },
       {
-        question: 'Siapa yang memenuhi syarat?',
+        question: 'Informasi apa yang perlu saya berikan?',
         answer:
-          'Bisnis harus memenuhi persyaratan identitas, aktivitas, dan kebijakan Meta. Kelayakan dapat bervariasi menurut negara.',
+          'Anda perlu memberikan detail tentang administrator Halaman, email kontak, nama Halaman, dan informasi verifikasi identitas sebagaimana diminta dalam formulir.',
       },
       {
-        question: 'Berapa lama proses tinjauan?',
+        question: 'Berapa lama proses peninjauan?',
         answer:
-          'Kami akan meninjau aplikasi Anda dan mengirim pembaruan status dalam 3 hari kerja.',
+          'Waktu peninjauan dapat bervariasi tergantung kasus. Anda akan menerima notifikasi di Facebook setelah peninjauan selesai.',
       },
       {
-        question: 'Bagaimana Meta Verified melindungi dari peniruan identitas?',
+        question: 'Apa yang terjadi setelah saya mengirim banding?',
         answer:
-          'Program ini membantu mendeteksi dan menangani akun yang meniru bisnis Anda di Facebook dan Instagram. Lencana terverifikasi juga memudahkan pelanggan mengenali kehadiran resmi Anda.',
+          'Permintaan Anda akan ditinjau sesuai Community Standards. Hasilnya akan disampaikan melalui Facebook setelah peninjauan selesai.',
       },
     ],
   },
@@ -150,15 +150,25 @@ export const idLanding: LandingStrings = {
     columns: [
       {
         title: 'Teknologi Meta',
-        links: [{ label: 'Facebook' }, { label: 'Instagram' }, { label: 'WhatsApp' }],
+        links: [
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'WhatsApp' },
+        ],
       },
       {
         title: 'Alat',
-        links: [{ label: 'Meta Business Suite' }, { label: 'Ads Manager' }],
+        links: [
+          { label: 'Meta Business Suite' },
+          { label: 'Ads Manager' },
+        ],
       },
       {
         title: 'Dukungan',
-        links: [{ label: 'Pusat Bantuan' }, { label: 'Meta Business Help' }],
+        links: [
+          { label: 'Help Center' },
+          { label: 'Community Standards' },
+        ],
       },
     ],
   },

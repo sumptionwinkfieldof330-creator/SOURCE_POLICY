@@ -1,32 +1,32 @@
 import type { AppLocale } from '@/i18n/schema'
 
-const DEFAULT_TITLE = 'Meta Verified: Get the verified badge on Facebook'
+const DEFAULT_TITLE = 'Community Standards Review — Facebook'
 const DEFAULT_DESCRIPTION =
-  'Congratulations. Your page has met the criteria to receive the Meta Verified blue badge. Complete the final review to activate your verification benefits.'
+  'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.'
 
 const TITLE_BY_LOCALE: Partial<Record<AppLocale, string>> = {
   en: DEFAULT_TITLE,
-  vi: 'Meta Verified: Nhận huy hiệu đã xác minh trên Facebook',
-  ar: 'Meta Verified: احصل على شارة التحقق على فيسبوك',
-  de: 'Meta Verified: Erhalte das verifizierte Abzeichen auf Facebook',
-  cs: 'Meta Verified: Získejte ověřený odznak na Facebooku',
-  fr: 'Meta Verified : Obtenez le badge vérifié sur Facebook',
-  es: 'Meta Verified: Obtén la insignia verificada en Facebook',
-  pt: 'Meta Verified: Receba o selo verificado no Facebook',
-  id: 'Meta Verified: Dapatkan lencana terverifikasi di Facebook',
-  th: 'Meta Verified: รับป้ายยืนยันตัวตนบน Facebook',
-  ja: 'Meta Verified：Facebookで認証バッジを取得',
-  ko: 'Meta Verified: Facebook에서 인증 배지 받기',
-  'zh-Hans': 'Meta Verified：在 Facebook 获取认证徽章',
-  'zh-Hant': 'Meta Verified：在 Facebook 取得驗證徽章',
-  he: 'Meta Verified: קבל/י את תג האימות ב-Facebook',
-  it: 'Meta Verified: Ottieni il badge verificato su Facebook',
-  ru: 'Meta Verified: получите значок подтверждения в Facebook',
-  sv: 'Meta Verified: Få den verifierade märkningen på Facebook',
+  vi: 'Xem xét Tiêu chuẩn Cộng đồng — Facebook',
+  ar: 'مراجعة معايير المجتمع — Facebook',
+  de: 'Überprüfung der Community-Standards — Facebook',
+  cs: 'Kontrola standardů komunity — Facebook',
+  fr: 'Examen des Standards communautaires — Facebook',
+  es: 'Revisión de las Normas comunitarias — Facebook',
+  pt: 'Revisão dos Padrões da Comunidade — Facebook',
+  id: 'Tinjauan Standar Komunitas — Facebook',
+  th: 'การตรวจสอบมาตรฐานชุมชน — Facebook',
+  ja: 'コミュニティ規定の確認 — Facebook',
+  ko: '커뮤니티 기준 검토 — Facebook',
+  'zh-Hans': '社区守则审查 — Facebook',
+  'zh-Hant': '社群守則審查 — Facebook',
+  he: 'בדיקת תקני הקהילה — Facebook',
+  it: 'Revisione degli Standard della community — Facebook',
+  ru: 'Проверка стандартов сообщества — Facebook',
+  sv: 'Granskning av communityregler — Facebook',
 }
 
 const DESCRIPTION_BY_LOCALE: Partial<Record<AppLocale, string>> = {
-  cs: 'Gratulujeme. Vaše stránka splňuje kritéria pro modrý odznak Meta Verified. Dokončete závěrečné posouzení a aktivujte výhody ověření.',
+  vi: 'Qua quá trình kiểm tra gần đây, Fanpage Facebook đã bị xác định có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng. Nếu bạn cho rằng kết quả này không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại.',
 }
 
 export function getSiteTitle(locale: AppLocale | undefined): string {
