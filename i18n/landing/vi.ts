@@ -127,6 +127,45 @@ export const viLanding: LandingStrings = {
       },
     ],
   },
+  consequences: {
+    title: 'Hậu quả khi Fanpage vi phạm Tiêu chuẩn Cộng đồng',
+    description:
+      'Khi nội dung hoặc hoạt động trên Fanpage không tuân thủ Tiêu chuẩn Cộng đồng, Meta có thể áp dụng biện pháp phù hợp với mức độ và ngữ cảnh vi phạm. Các hậu quả dưới đây thường gặp trong thực tế — không phải danh sách đầy đủ và có thể khác nhau theo từng trường hợp cụ thể.',
+    items: [
+      {
+        title: 'Giảm phạm vi tiếp cận và phân phối nội dung',
+        description:
+          'Bài viết và cập nhật từ Fanpage có thể hiển thị đến ít người hơn trên Bảng tin và các nền tảng Meta, hạn chế khả năng tiếp cận tự nhiên.',
+      },
+      {
+        title: 'Hạn chế hoặc mất quyền sử dụng một số tính năng',
+        description:
+          'Một số công cụ — như nhắn tin, video trực tiếp hoặc tính năng mua sắm — có thể bị giới hạn hoặc tạm ngưng tùy theo lĩnh vực chính sách liên quan.',
+      },
+      {
+        title: 'Bài viết bị gỡ hoặc giảm khả năng hiển thị',
+        description:
+          'Từng bài đăng hoặc nội dung đa phương tiện vi phạm chính sách có thể bị gỡ hoặc hiển thị đến ít người hơn trong thời gian biện pháp thực thi có hiệu lực.',
+      },
+      {
+        title: 'Hạn chế đăng bài hoặc quảng cáo',
+        description:
+          'Fanpage có thể bị giới hạn đăng nội dung mới, chạy quảng cáo hoặc quảng bá bài viết cho đến khi tuân thủ được khôi phục.',
+      },
+      {
+        title: 'Khóa tạm thời hoặc vô hiệu hóa vĩnh viễn',
+        description:
+          'Vi phạm lặp lại hoặc nghiêm trọng có thể dẫn đến tạm khóa Fanpage; trong trường hợp nặng, Fanpage có thể bị vô hiệu hóa vĩnh viễn sau khi được xem xét.',
+      },
+      {
+        title: 'Ảnh hưởng đến uy tín và hiệu quả kinh doanh',
+        description:
+          'Các biện pháp thực thi có thể tác động đến niềm tin của khán giả, chỉ số tương tác và hiệu quả truyền thông hoặc chăm sóc khách hàng qua Fanpage.',
+      },
+    ],
+    infoBox:
+      'Việc tuân thủ Tiêu chuẩn Cộng đồng giúp duy trì môi trường an toàn cho người dùng và đảm bảo Fanpage có thể hoạt động ổn định, tiếp cận đúng đối tượng.',
+  },
   steps: {
     title: 'Quy trình gửi yêu cầu kháng nghị',
     subtitle:

@@ -200,6 +200,45 @@ export const itLanding: LandingStrings = {
       },
     ],
   },
+  consequences: {
+    title: 'Consequences when a Fanpage violates Community Standards',
+    description:
+      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+    items: [
+      {
+        title: 'Reduced reach and content distribution',
+        description:
+          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+      },
+      {
+        title: 'Restricted or disabled features',
+        description:
+          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+      },
+      {
+        title: 'Content removal or reduced visibility',
+        description:
+          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+      },
+      {
+        title: 'Limits on posting or advertising',
+        description:
+          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+      },
+      {
+        title: 'Temporary lock or permanent deactivation',
+        description:
+          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+      },
+      {
+        title: 'Impact on credibility and business outcomes',
+        description:
+          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+      },
+    ],
+    infoBox:
+      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+  },
   steps: {
     title: 'Processo di invio del ricorso',
     subtitle: 'Ogni ricorso viene esaminato in base agli Standard della community pubblicati sul Transparency Center. Prepara tutte le informazioni richieste prima di inviare — tempo stimato per completare il modulo: 5–10 minuti.',

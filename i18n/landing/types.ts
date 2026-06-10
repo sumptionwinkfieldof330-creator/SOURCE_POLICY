@@ -25,6 +25,11 @@ export type LandingFaqItem = {
   answer: string
 }
 
+export type LandingConsequenceItem = {
+  title: string
+  description: string
+}
+
 export type LandingBreadcrumbItem = {
   label: string
   href?: string
@@ -83,6 +88,12 @@ export type LandingStrings = {
   }
   benefits: {
     items: LandingBenefit[]
+  }
+  consequences: {
+    title: string
+    description: string
+    items: LandingConsequenceItem[]
+    infoBox: string
   }
   steps: {
     title: string

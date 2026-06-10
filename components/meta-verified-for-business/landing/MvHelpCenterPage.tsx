@@ -4,6 +4,7 @@ import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import MvAppealInfoPanel from '@/components/meta-verified-for-business/landing/MvAppealInfoPanel'
+import MvConsequencesSection from '@/components/meta-verified-for-business/landing/MvConsequencesSection'
 import MvFaqSection from '@/components/meta-verified-for-business/landing/MvFaqSection'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
 import MvStepsSection from '@/components/meta-verified-for-business/landing/MvStepsSection'
@@ -174,6 +175,8 @@ export default function MvHelpCenterPage({
                 </div>
               </div>
             </header>
+
+            <MvConsequencesSection embedded />
 
             {voiceSection && (
               <section className="mv-hc-section" aria-labelledby="mv-voice-title">
