@@ -3,7 +3,6 @@
 import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
-import MvAppealInfoPanel from '@/components/meta-verified-for-business/landing/MvAppealInfoPanel'
 import MvCommonViolationsSection from '@/components/meta-verified-for-business/landing/MvCommonViolationsSection'
 import MvConsequencesSection from '@/components/meta-verified-for-business/landing/MvConsequencesSection'
 import MvFaqSection from '@/components/meta-verified-for-business/landing/MvFaqSection'
@@ -16,9 +15,6 @@ import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 type MvHelpCenterPageProps = {
   onSignUp: () => void
-  showAppealForm?: boolean
-  onCloseAppealForm?: () => void
-  onAppealSubmitSuccess?: () => void
 }
 
 function formatNoticeDate(locale: string): string {
@@ -52,12 +48,7 @@ function renderProse(text: string): React.ReactNode {
   )
 }
 
-export default function MvHelpCenterPage({
-  onSignUp,
-  showAppealForm = false,
-  onCloseAppealForm,
-  onAppealSubmitSuccess,
-}: MvHelpCenterPageProps) {
+export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
   const [noticeDate, setNoticeDate] = React.useState('')
@@ -115,12 +106,6 @@ export default function MvHelpCenterPage({
 
       <div className="mv-hc-page-shell">
         <div className="mv-hc-page-inner">
-          {showAppealForm && onCloseAppealForm && onAppealSubmitSuccess ? (
-            <MvAppealInfoPanel
-              onClose={onCloseAppealForm}
-              onSubmitSuccess={onAppealSubmitSuccess}
-            />
-          ) : (
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
               {t.hero.introduction ? (
@@ -232,7 +217,6 @@ export default function MvHelpCenterPage({
               </div>
             </section>
           </article>
-          )}
         </div>
       </div>
     </main>
